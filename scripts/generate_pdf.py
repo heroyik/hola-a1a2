@@ -170,6 +170,41 @@ tr:nth-child(even) {
     background-color: #FAFAFA;
 }
 
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
 /* ─── ADMONITIONS ─── */
 .admonition-tip {
     background: #EBF5FB;
@@ -243,6 +278,22 @@ h3:has(+ ol) {
     color: var(--spanish-red);
     border-left-color: var(--spanish-ochre);
 }
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
 """
 
 
@@ -274,7 +325,7 @@ def convert_alerts(html_content: str) -> str:
 
 def build_html(md_content: str) -> str:
     """Convert Markdown to styled HTML."""
-    extensions = ["tables", "fenced_code", "codehilite", "toc", "nl2br"]
+    extensions = ["tables", "fenced_code", "codehilite", "toc", "nl2br", "attr_list"]
     html_body = markdown.markdown(md_content, extensions=extensions)
     html_body = convert_alerts(html_body)
 
@@ -285,11 +336,13 @@ def build_html(md_content: str) -> str:
 <html lang="es">
 <head>
     <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo y salud (A1)</title>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>{CSS}</style>
 </head>
 <body>
+<div class="container">
 {html_body}
+</div>
 </body>
 </html>"""
 
