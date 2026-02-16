@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="chapter-2-como-soy-a2">Chapter 2: ¿Cómo soy? (A2)</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p>At the A2 level, we dive deeper into the nuances of human character. While A1 focused on basic appearance, A2 explores the "inner self"—personality, moods, and social behaviors. Understanding these nuances is key to meaningful relationship-building in the Spanish-speaking world.</p>
+<p><strong>학습 목표 (Learning Objectives)</strong>:<br />
+- Master 10+ advanced personality adjectives and abstract traits.<br />
+- Use <strong>Reflexive Verbs</strong> to describe daily routines and emotional states (Me levanto, Me siento).<br />
+- Compare and contrast personalities using refined structures.<br />
+- Analyze the impact of digital identity and social media in modern Spanish life.</p>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...? (Did you know?)</strong><br />
+The word "Amable" (kind) comes from the Latin "Amabilis," meaning "worthy of being loved." In Spanish culture, being "amable" is more than just a polite gesture; it’s a core social value that facilitates community and family bonds ("el familismo").</div>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p><img alt="고급 성격 및 심리 묘사" src="../images/ch02_a2_vocab_100pct_v52_1771285448528.png" /></p>
+<p>A2 level vocabulary focuses on abstract traits. Many of these are cognates, making them easy to pick up but requiring precision in usage.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>optimista</strong></td>
+<td style="text-align: left;"><strong>Optimistic</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'낙천적인' 뜻으로, 항상 긍정적인 면을 보는 사람입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>pesimista</strong></td>
+<td style="text-align: left;"><strong>Pessimistic</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'비관적인' 뜻입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>abierto/a</strong></td>
+<td style="text-align: left;"><strong>Open</strong></td>
+<td style="text-align: left;">'열린' 혹은 '사교적인' 뜻입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>reservado/a</strong></td>
+<td style="text-align: left;"><strong>Reserved</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'내성적인' 혹은 '말수가 적은' 뜻입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>tranquilo/a</strong></td>
+<td style="text-align: left;"><strong>Tranquil</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'차분한' 혹은 '조용한' 뜻입니다. (Tranquilizer와 같은 어원)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>nervioso/a</strong></td>
+<td style="text-align: left;"><strong>Nervous</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'불안한' 혹은 '긴장한' 상태를 뜻합니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>generoso/a</strong></td>
+<td style="text-align: left;"><strong>Generous</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'관대한' 혹은 '손이 큰' 뜻입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>egoísta</strong></td>
+<td style="text-align: left;"><strong>Egoistic</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'이기적인' 뜻입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>amable</strong></td>
+<td style="text-align: left;"><strong>Amicable</strong> (friendly)</td>
+<td style="text-align: left;">'친절한' 뜻으로, 영어의 amiable과도 연결됩니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>tolerante</strong></td>
+<td style="text-align: left;"><strong>Tolerant</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'관용적인' 뜻입니다.</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>Expressing personality at the A2 level involves more complex sentence structures and frequency adverbs.</p>
+<ul>
+<li><strong>Suelo ser una persona...</strong>: I tend to be a... person. (나는 대체로 ...한 사람이에요.)</li>
+<li><strong>Me parece que él es...</strong>: It seems to me that he is... (그는 ...인 것 같아요.)</li>
+<li><strong>A veces me pongo nervioso/a</strong>: Sometimes I get nervous. (가끔 나는 긴장해요.)</li>
+<li><strong>No soporto a la gente egoísta</strong>: I can't stand selfish people. (나는 이기적인 사람들을 참을 수 없어요.)</li>
+<li><strong>¡Qué amable eres!</strong>: How kind you are! (정말 친절하시네요!)</li>
+<li><strong>Espero ser más tolerante</strong>: I hope to be more tolerant. (나는 더 관용적인 사람이 되기를 바래요.)</li>
+</ul>
+<p><strong>실전 예문 (Practical Examples)</strong>:<br />
+- ES: Mi padre es muy generoso, siempre ayuda a los demás. (제 아버지는 매우 관대하셔서 항상 다른 사람들을 도와주십니다.)<br />
+- EN: My father is very generous; he always helps others.<br />
+- ES: ¿Eres una persona abierta o reservada? (너는 외향적인 사람이니 아니면 내향적인 사람이니?)<br />
+- EN: Are you an open or a reserved person?</p>
+<hr />
+<h2 id="4-gramatica-esencial-verbos-reflexivos-reflexive-verbs">4. Gramática Esencial: Verbos Reflexivos (Reflexive Verbs)</h2>
+<p>At the A2 level, we introduce reflexive verbs to describe actions that "reflect" back on the subject. These are often used for daily routines and emotional changes.</p>
+<h3 id="reflexive-pronouns">Reflexive Pronouns</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Subject</th>
+<th style="text-align: left;">Pronoun</th>
+<th style="text-align: left;">Example (levantarse - to get up)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">yo</td>
+<td style="text-align: left;"><strong>me</strong></td>
+<td style="text-align: left;">Me levanto</td>
+</tr>
+<tr>
+<td style="text-align: left;">tú</td>
+<td style="text-align: left;"><strong>te</strong></td>
+<td style="text-align: left;">Te levantas</td>
+</tr>
+<tr>
+<td style="text-align: left;">él / ella / usted</td>
+<td style="text-align: left;"><strong>se</strong></td>
+<td style="text-align: left;">Se levanta</td>
+</tr>
+<tr>
+<td style="text-align: left;">nosotros / nosotras</td>
+<td style="text-align: left;"><strong>nos</strong></td>
+<td style="text-align: left;">Nos levantamos</td>
+</tr>
+<tr>
+<td style="text-align: left;">vosotros / vosotras</td>
+<td style="text-align: left;"><strong>os</strong></td>
+<td style="text-align: left;">Os levantáis</td>
+</tr>
+<tr>
+<td style="text-align: left;">ellos / ellas / ustedes</td>
+<td style="text-align: left;"><strong>se</strong></td>
+<td style="text-align: left;">Se levantan</td>
+</tr>
+</tbody>
+</table>
+<h3 id="emotional-reflexives">Emotional Reflexives</h3>
+<p>Verbs like <code>ponerse</code> (to become/get) are crucial for describing changes in personality or mood:<br />
+- <strong>Me pongo alegre</strong>: I become happy.<br />
+- <strong>Te pones nervioso</strong>: You get nervous.</p>
+<div class="admonition-tip"><strong>💡 Note</strong><br/><br />
+<strong>Korean Tip</strong><br />
+한국어의 재귀 대명사(자신, 스스로)와 비슷하지만, 스페인어에서는 '나를 씻기다(씻다)', '나를 깨우다(일어나다)'처럼 훨씬 더 빈번하게 쓰입니다. 영어의 "I wash <strong>myself</strong>"와 구조가 같다고 생각하면 'English Bridge'가 확실해집니다.</div>
+<hr />
+<h2 id="5-cultura-viva-identidad-digital-y-redes-sociales">5. Cultura Viva: Identidad Digital y Redes Sociales</h2>
+<p><img alt="스페인 인플루언서와 디지털 정체성" src="../images/ch02_a2_culture_sns_v52_1771285496910.png" /></p>
+<p>Modern identity in Spain is deeply intertwined with <strong>redes sociales</strong> (social media). Young Spaniards are among the most active "instagrammers" and "tiktokers" in Europe. This has created a new vocabulary of personality.</p>
+<p>Digital identity is seen as a way to express "quiénes somos" (who we are) to a global audience. However, Spanish culture still places high value on "el cara a cara" (face-to-face interaction). While someone might seem <strong>abierto</strong> and <strong>optimista</strong> on their profile, their true personality is revealed during long sessions of "sobremesa"—the traditional Spanish talk after a meal. This balance between the virtual self and the authentic social self is a key topic for advanced A2 learners.</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>Match the A2 personality trait with its opposite.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Trato (Trait)</th>
+<th style="text-align: left;">Opuesto (Opposite)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Optimista</td>
+<td style="text-align: left;">a. Reservado</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Abierto</td>
+<td style="text-align: left;">b. Egoísta</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Generoso</td>
+<td style="text-align: left;">c. Pesimista</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Tranquilo</td>
+<td style="text-align: left;">d. Antipático (unfriendly)</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Amable</td>
+<td style="text-align: left;">e. Nervioso</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-fill-in-the-blanks">B. Fill in the blanks</h3>
+<p>Fill in the correct reflexive pronoun (<strong>me, te, se, nos, os, se</strong>).</p>
+<ol>
+<li>Yo ................ levanto a las ocho. (I get up at eight.)</li>
+<li>Nosotros ................ sentimos bien hoy. (We feel good today.)</li>
+<li>¿Tú ................ pones nervioso en los exámenes? (Do you get nervous during exams?)</li>
+<li>Ella ................ llama Carmen. (Her name is Carmen.)</li>
+<li>Los estudiantes ................ preparan para la clase. (The students prepare themselves for class.)</li>
+</ol>
+<h3 id="c-translation">C. 번역 연습 (Translation)</h3>
+<p>다음 문장을 스페인어로 번역하세요.</p>
+<ol>
+<li>I am an optimistic person.</li>
+<li>He is very reserved.</li>
+<li>We are generous with our friends.</li>
+<li>Sometimes I get nervous.</li>
+<li>She is very kind.</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="el-perfil-de-elena">El Perfil de Elena</h3>
+<p>Elena es una estudiante de arquitectura en Madrid. En su perfil de Instagram, se describe como una persona <strong>optimista</strong> y <strong>abierta</strong>. Le encanta viajar y conocer gente nueva. Sin embargo, en clase, es un poco <strong>reservada</strong> y <strong>tranquila</strong>. Sus amigos dicen que es 매우 <strong>generosa</strong> porque siempre comparte sus apuntes. Elena cree que es importante ser <strong>tolerante</strong> con todas las culturas.</p>
+<p><strong>한국어 번역</strong>:<br />
+엘레나는 마드리드에서 건축을 공부하는 학생입니다. 그녀의 인스타그램 프로필에서 그녀는 자신을 낙천적이고 외향적인 사람으로 설명합니다. 그녀는 여행하고 새로운 사람들을 만나는 것을 정말 좋아합니다. 하지만 수업 중에는 조금 내성적이고 조용한 편입니다. 그녀의 친구들은 그녀가 항상 자신의 노트를 공유하기 때문에 매우 관대하다고 말합니다. 엘레나는 모든 문화에 대해 관용적인 태도를 갖는 것이 중요하다고 믿습니다.</p>
+<p><strong>Questions</strong>:<br />
+1. ¿Cómo se describe Elena en Instagram? (엘레나는 인스타그램에서 자신을 어떻게 설명합니까?)<br />
+2. ¿Por qué es Elena generosa, según sus amigos? (친구들에 따르면 엘레나가 왜 관대한가요?)</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="la-entrevista-de-amistad">La Entrevista de Amistad</h3>
+<p>Two students are doing a personality test for a sociology project.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish (ES)</th>
+<th style="text-align: left;">Korean (KO)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Luis</strong>: Hola Marta, ¿tienes un momento?</td>
+<td style="text-align: left;"><strong>Luis</strong>: 안녕 Marta, 시간 좀 있니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marta</strong>: Sí, claro. ¿Qué pasa?</td>
+<td style="text-align: left;"><strong>Marta</strong>: 응, 물론이지. 무슨 일이야?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Luis</strong>: Estoy haciendo un test sobre la personalidad. ¿Cómo te defines?</td>
+<td style="text-align: left;"><strong>Luis</strong>: 성격 테스트를 하나 하고 있어. 너는 너 자신을 어떻게 정의하니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marta</strong>: Pues, me considero una persona <strong>tranquila</strong> y <strong>amable</strong>.</td>
+<td style="text-align: left;"><strong>Marta</strong>: 음, 나는 나 자신이 차분하고 친절한 사람이라고 생각해.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Luis</strong>: ¿Eres <strong>optimista</strong> 또는 <strong>pesimista</strong>?</td>
+<td style="text-align: left;"><strong>Luis</strong>: 너는 낙천적이니 아니면 비관적이니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marta</strong>: Siempre <strong>optimista</strong>. Creo que todo tiene solución.</td>
+<td style="text-align: left;"><strong>Marta</strong>: 언제나 낙천적이야. 모든 일에는 해결책이 있다고 믿거든.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Luis</strong>: ¿Y te pones <strong>nerviosa</strong> en las presentaciones?</td>
+<td style="text-align: left;"><strong>Luis</strong>: 그럼 발표할 때 긴장되니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marta</strong>: ¡Mucho! Me pongo muy <strong>nerviosa</strong>, pero trato de controlarlo.</td>
+<td style="text-align: left;"><strong>Marta</strong>: 아주 많이! 정말 긴장이 되지만, 조절하려고 노력해.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<ul>
+<li><strong>Vocabulario</strong>: Advanced personality traits (optimista, generoso, tolerante).</li>
+<li><strong>English Bridge</strong>: Perfect cognates for abstract psychological terms.</li>
+<li><strong>Grammar</strong>: Using reflexive pronouns to describe self-actions and emotional changes.</li>
+</ul>
+<p><strong>Checklist</strong>:<br />
+- [ ] Can I conjugate a reflexive verb in all person forms?<br />
+- [ ] Can I explain the difference between <code>optimista</code> and <code>pesimista</code>?<br />
+- [ ] Do I understand the social value of being <code>amable</code> in Spain?</p>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>Congratulations! You've moved from physical descriptions to psychological depth. Being able to talk about personality allows you to express your identity and connect with the unique characters of the Spanish-speaking world. In the next chapter, we will consolidate this identity by exploring your origins, age, and professional identity. ¡Hablamos pronto!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="a-match-the-word_1">A. Match the word</h3>
+<p>1-c, 2-a, 3-b, 4-e, 5-d</p>
+<h3 id="b-fill-in-the-blanks_1">B. Fill in the blanks</h3>
+<ol>
+<li>me, 2. nos, 3. te, 4. se, 5. se</li>
+</ol>
+<h3 id="c">C. 번역 연습</h3>
+<ol>
+<li>Soy una persona optimista.</li>
+<li>Él es muy reservado.</li>
+<li>Somos generosos con nuestros amigos.</li>
+<li>A veces me pongo nervioso / nerviosa.</li>
+<li>Ella es muy amable.</li>
+</ol>
+<h3 id="7-lectura-questions">7. Lectura Questions</h3>
+<ol>
+<li>Se describe como optimista y abierta.</li>
+<li>Porque siempre comparte sus apuntes.</li>
+</ol>
+</div>
+</body>
+</html>

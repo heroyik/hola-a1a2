@@ -1,0 +1,540 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="chapter-2-como-soy-a1">Chapter 2: ¿Cómo soy? (A1)</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p>Who are you? How do you describe your personality and your physical appearance to a new friend? In this chapter, we explore the vibrant language of identity. We will move beyond just naming colors and shapes to describing characters—all while leveraging the English vocabulary you already know.</p>
+<p><strong>학습 목표 (Learning Objectives)</strong>:<br />
+- Describe yourself and others using 15+ physical and personality adjectives.<br />
+- Distinguish between <strong>Ser</strong> (permanent traits) and <strong>Estar</strong> (temporary states) for descriptions.<br />
+- Use gender and number agreement with adjectives correctly.<br />
+- Understand the cultural nuances of greetings in Spain vs. Latin America.</p>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...? (Did you know?)</strong><br />
+In Spanish, telling someone they are "salado/a" (salty) actually means they are witty, funny, or charming. It’s a compliment! Personality is often described using food metaphors, showing how central culinary culture is to the Spanish identity.</div>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p><img alt="성격 및 외모 묘사" src="../images/ch02_a1_vocab_100pct_v52_1771285427474.png" /></p>
+<p>Spanish adjectives often share roots with English academic or descriptive terms. Use these links to build your vocabulary faster!</p>
+<p>| Spanish | English Bridge | Korean Tip |<br />
+26: | el <strong>alto</strong> | <strong>Altitude</strong> (height) ✅ | 고도를 뜻하는 altitude처럼 '키가 큰'을 의미합니다. |<br />
+27: | el <strong>bajo</strong> | <strong>Base</strong> (bottom/low) | '낮은' 혹은 '키가 작은'을 뜻합니다. 베이스 기타를 떠올려보세요. |<br />
+28: | el <strong>gordo</strong> | — | '뚱뚱한' 혹은 '살집이 있는'을 뜻합니다. (친한 사이엔 애칭으로도 쓰임) |<br />
+29: | el <strong>delgado</strong> | <strong>Delicate</strong> (slender) | '날씬한' 혹은 '마른'을 뜻합니다. |<br />
+30: | el <strong>rubio</strong> | <strong>Ruby</strong> (shining/reddish-gold) | '금발의'를 의미하며, 빛나는 보석 루비와 어원이 비슷합니다. |<br />
+31: | el <strong>moreno</strong> | <strong>Moor</strong> (dark-skinned) | '검은 머리(피부)의'를 뜻하며, 역사적 맥락의 Moor와 연결됩니다. |<br />
+32: | el <strong>guapo</strong> | — | '잘생긴' 혹은 '예쁜'을 뜻합니다. |<br />
+33: | el <strong>feo</strong> | — | '못생긴'을 뜻합니다. |<br />
+34: | el <strong>calvo</strong> | — | '대머리의'를 뜻합니다. |<br />
+35: | la <strong>barba</strong> | <strong>Barber</strong> (one who cuts beards) ✅ | 이발사를 뜻하는 barber의 어원인 '수염'입니다. |<br />
+36: | el <strong>bigote</strong> | — | '콧수염'을 뜻합니다. |<br />
+37: | las <strong>gafas</strong> | — | '안경'을 뜻합니다. (중남미에선 lentes/anteojos 도 사용) |<br />
+38: | <strong>simpático/a</strong> | <strong>Sympathetic</strong> (friendly/likable) ✅ | 단순히 동정하는 게 아니라 '성격이 좋은', '친절한' 뜻입니다. |<br />
+39: | <strong>trabajador/a</strong> | — | '일꾼'이라는 뜻에서 온 '근면한/열심히 일하는'입니다. |<br />
+40: | <strong>tímido/a</strong> | <strong>Timid</strong> ✅ (Perfect Cognate) | '내성적인' 혹은 '부끄러움을 타는' 뜻입니다. |<br />
+41: | <strong>alegre</strong> | <strong>Allergretto</strong> (lively music tempo) | '명랑한' 혹은 '즐거운' 뜻으로, 음악 용어와 어원이 같습니다. |<br />
+42: | <strong>serio/a</strong> | <strong>Serious</strong> ✅ (Perfect Cognate) | '진지한' 혹은 '엄격한' 뜻입니다. |</p>
+<p>✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>Describing people isn't just about adjectives. It's about combining them with verbs to paint a picture.</p>
+<ul>
+<li><strong>¿Cómo eres?</strong>: What are you like? (너는 어떤 사람이니?)</li>
+<li><strong>Soy una persona alegre</strong>: I am a cheerful person. (나는 명랑한 사람이에요.)</li>
+<li><strong>Eres muy simpático</strong>: You are very friendly. (너는 정말 친절해.)</li>
+<li><strong>Él tiene barba y bigote</strong>: He has a beard and mustache. (그는 수염과 콧수염이 있어요.)</li>
+<li><strong>Ella lleva gafas</strong>: She wears glasses. (그녀는 안경을 썼어요.)</li>
+<li><strong>No soy tímido</strong>: I am not shy. (나는 수줍음을 타지 않아요.)</li>
+</ul>
+<p><strong>실전 예문 (Practical Examples)</strong>:<br />
+- ES: Mi hermano es muy alto y trabajador. (제 형은 키가 아주 크고 부지런해요.)<br />
+- EN: My brother is very tall and hardworking.<br />
+- ES: ¿Eres rubio o moreno? (너는 금발이니 아니면 검은 머리니?)<br />
+- EN: Are you blonde or dark-haired?</p>
+<hr />
+<h2 id="4-gramatica-esencial-ser-vs-estar-the-to-be-duo">4. Gramática Esencial: SER vs ESTAR (The "To Be" Duo)</h2>
+<p>English has one "to be". Spanish has two, and Chapter 2 is where we learn their most important difference: <strong>Permanence vs. State</strong>.</p>
+<h3 id="adjective-agreement-gender-number">Adjective Agreement (Gender &amp; Number)</h3>
+<p>In Spanish, adjectives must match the noun they describe.<br />
+- Masculine: El chico <strong>alto</strong><br />
+- Feminine: La chica <strong>alta</strong><br />
+- Plural: Los chicos <strong>altos</strong> / Las chicas <strong>altas</strong></p>
+<h3 id="ser-essential-recap">전 인칭 SER 변화 (Essential Recap)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">주어 (Subject)</th>
+<th style="text-align: left;">SER (Permanent Traits)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">yo</td>
+<td style="text-align: left;"><strong>soy</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">tú</td>
+<td style="text-align: left;"><strong>eres</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">él / ella / usted</td>
+<td style="text-align: left;"><strong>es</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">nosotros / nosotras</td>
+<td style="text-align: left;"><strong>somos</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">vosotros / vosotras</td>
+<td style="text-align: left;"><strong>sois</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">ellos / ellas / ustedes</td>
+<td style="text-align: left;"><strong>son</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition-tip"><strong>💡 Note</strong><br/><br />
+<strong>Korean Tip</strong><br />
+키, 성격, 눈 색깔처럼 쉽게 변하지 않는 '본질'은 <strong>SER</strong>를 씁니다. 반면, 기분(happy, sad)이나 일시적인 상태(sick, tired)는 나중에 배울 <strong>ESTAR</strong>를 사용합니다. "I am tall"은 평생의 특징이므로 <code>Soy alto</code>가 맞습니다!</div>
+<hr />
+<h2 id="5-cultura-viva-saludos-en-el-mundo-hispano">5. Cultura Viva: Saludos en el Mundo Hispano</h2>
+<p><img alt="스페인과 중남미의 인사 비교" src="../images/ch02_a1_culture_greeting_v52_1771285475560.png" /></p>
+<p>Greetings are the mirror of personality in the Spanish-speaking world. In Spain, the standard greeting between a man and a woman, or two women, is the <strong>'Dos Besos'</strong>—two light cheek touches starting with the right. Between two men, a firm handshake or a short hug is common.</p>
+<p>In Latin America, however, the <strong>'Un Beso'</strong> (single kiss) is more common in many regions. People are generally very expressive; "simpático" isn't just a word, it’s a lifestyle! Even when meeting for the first time, people might use familiar terms of endearment, reflecting an "abierto" (open) and "caluroso" (warm) personality trait.</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>깔끔한 정렬을 위해 아래 표를 참조하여 알맞은 번호와 알파벳을 연결하세요.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ES 단어 (Spanish)</th>
+<th style="text-align: left;">선택지 (Selection)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Delgado</td>
+<td style="text-align: left;">a. Hardworking</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Trabajador</td>
+<td style="text-align: left;">b. Thin / Slender</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Gafas</td>
+<td style="text-align: left;">c. Friendly / Likable</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Simpático</td>
+<td style="text-align: left;">d. Shy</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Tímido</td>
+<td style="text-align: left;">e. Glasses</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-fill-in-the-blanks">B. Fill in the blanks</h3>
+<p>주어에 맞는 <code>ser</code> 동사 변화형을 넣으세요.</p>
+<ol>
+<li>Yo ................ bajo. (I am short.)</li>
+<li>Tú ................ muy simpática. (You are very friendly.)</li>
+<li>Nosotros ................ altos. (We are tall.)</li>
+<li>Ella ................ rubia. (She is blonde.)</li>
+<li>Ellos ................ serios. (They are serious.)</li>
+</ol>
+<h3 id="c-translation">C. 번역 연습 (Translation)</h3>
+<p>다음 문장을 스페인어로 번역하세요.</p>
+<ol>
+<li>I am hardworking.</li>
+<li>My brother is handsome.</li>
+<li>She has a beard. (Wait, use 'Él' for 'He'!) -&gt; He has a beard.</li>
+<li>We are cheerful.</li>
+<li>Are you shy? (singular/informal)</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="mi-mejor-amigo-carlos">Mi mejor amigo, Carlos</h3>
+<p>Carlos es mi mejor amigo. Él es de Madrid, pero vive en Barcelona. Carlos es un chico <strong>alto</strong> y <strong>moreno</strong>. Él es 매우 <strong>simpático</strong> y 항상 <strong>alegre</strong>. No es <strong>tímido</strong>; le gusta hablar con todo el mundo. Él es 아주 <strong>trabajador</strong>; estudia medicina en la universidad. También lleva <strong>gafas</strong> y tiene una pequeña <strong>barba</strong>. ¡Es un buen amigo!</p>
+<p><strong>한국어 번역</strong>:<br />
+카를로스는 나의 가장 친한 친구입니다. 그는 마드리드 출신이지만 바르셀로나에 삽니다. 카를로스는 키가 크고 검은 머리의 소년입니다. 그는 매우 친절하고 항상 명랑합니다. 그는 수줍음을 타지 않으며, 모든 사람과 이야기하는 것을 좋아합니다. 그는 매우 부지런하며 대학에서 의학을 공부합니다. 또한 그는 안경을 쓰고 짧은 수염을 가지고 있습니다. 그는 참 좋은 친구입니다!</p>
+<p><strong>Questions</strong>:<br />
+1. ¿Cómo es Carlos físicamente? (Carlos의 외모는 어떤가요?)<br />
+2. ¿Qué estudia Carlos? (Carlos는 무엇을 공부하나요?)</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="como-es-tu-nueva-profesora">¿Cómo es tu nueva profesora?</h3>
+<p>이 대화는 대학교 캠퍼스에서 두 친구가 새로운 교수에 대해 이야기하는 상황입니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish (ES)</th>
+<th style="text-align: left;">Korean (KO)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong>: ¡Hola, Ana! ¿Qué tal tu nueva clase de español?</td>
+<td style="text-align: left;"><strong>Juan</strong>: 안녕, Ana! 새로운 스페인어 수업은 어때?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: Muy bien. La profesora es fantástica.</td>
+<td style="text-align: left;"><strong>Ana</strong>: 아주 좋아. 교수님이 정말 멋져.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong>: ¿Ah, sí? ¿Cómo es ella?</td>
+<td style="text-align: left;"><strong>Juan</strong>: 아, 그래? 그녀는 어떤 분이니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: Es una mujer muy <strong>simpática</strong> y <strong>alegre</strong>.</td>
+<td style="text-align: left;"><strong>Ana</strong>: 아주 친절하고 명랑한 분이야.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong>: ¿Es <strong>alta</strong> 또는 <strong>baja</strong>?</td>
+<td style="text-align: left;"><strong>Juan</strong>: 키가 크셔 아니면 작으셔?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: Es un poco <strong>baja</strong> y lleva <strong>gafas</strong>. Tiene el pelo <strong>rubio</strong>.</td>
+<td style="text-align: left;"><strong>Ana</strong>: 조금 작으시고 안경을 쓰셨어. 금발 머리야.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong>: ¿Es <strong>seria</strong> en clase?</td>
+<td style="text-align: left;"><strong>Juan</strong>: 수업 시간에 엄격하시니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: Un poco, 코라고는 하지만 아주 <strong>trabajadora</strong>.</td>
+<td style="text-align: left;"><strong>Ana</strong>: 약간은, 하지만 정말 열정적이셔(부지런하셔).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong>: ¡Qué bien! Yo quiero esa clase también.</td>
+<td style="text-align: left;"><strong>Juan</strong>: 잘됐다! 나도 그 수업 듣고 싶어.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<ul>
+<li><strong>Vocabulario</strong>: Adjectives for height (alto/bajo), hair (rubio/moreno), and personality (simpático/serio).</li>
+<li><strong>English Bridge</strong>: Recognizing cognates like <code>música</code> and <code>gafas</code> (okay, maybe not glasses, but <code>manual</code> for <code>mano</code>!).</li>
+<li><strong>Grammar</strong>: Using <code>SER</code> for identifying people and describing permanent traits. Adjective matching with gender/number.</li>
+</ul>
+<p><strong>Checklist</strong>:<br />
+- [ ] Can I name 3 physical traits and 3 personality traits?<br />
+- [ ] Do I know the full conjugation of <code>SER</code>?<br />
+- [ ] Can I use the English Bridge to remember <code>simpático</code>?</p>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Buen trabajo! You now have the power to describe the world and people around you. Language is about connection, and being able to explain "who you are" is the first step to building a bridge with others. Next, we will dive into your identity—name, age, and where you come from. ¡Nos vemos!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="a-match-the-word_1">A. Match the word</h3>
+<p>1-b, 2-a, 3-e, 4-c, 5-d</p>
+<h3 id="b-fill-in-the-blanks_1">B. Fill in the blanks</h3>
+<ol>
+<li>soy, 2. eres, 3. somos, 4. es, 5. son</li>
+</ol>
+<h3 id="c">C. 번역 연습</h3>
+<ol>
+<li>Soy trabajador.</li>
+<li>Mi hermano es guapo.</li>
+<li>Él tiene barba.</li>
+<li>Somos alegres.</li>
+<li>¿Eres tímido / tímida?</li>
+</ol>
+<h3 id="7-lectura-questions">7. Lectura Questions</h3>
+<ol>
+<li>Es alto, moreno, lleva gafas y tiene barba.</li>
+<li>Estudia medicina.</li>
+</ol>
+</div>
+</body>
+</html>
