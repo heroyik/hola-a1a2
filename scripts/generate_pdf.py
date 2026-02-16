@@ -137,6 +137,8 @@ table {
     border-radius: 8pt;
     overflow: hidden;
     box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
 }
 
 thead {
