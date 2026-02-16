@@ -14,44 +14,37 @@ OUTPUT_PDF = os.path.join(PROJECT_ROOT, "output", "ch01_a1_mi_cuerpo.pdf")
 OUTPUT_HTML = os.path.join(PROJECT_ROOT, "output", "ch01_a1_mi_cuerpo.html")
 
 CSS = """
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&family=Noto+Serif:ital,wght@0,400;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
 @page {
     size: A4;
-    margin: 2.2cm 2cm 2.5cm 2cm;
+    margin: 2.5cm 2cm 2.5cm 2cm;
     @top-center {
-        content: "Hola-AL  ·  Chapter 1: Mi cuerpo y salud";
-        font-family: 'Inter', sans-serif;
-        font-size: 8pt;
-        color: #999;
-        border-bottom: 0.5pt solid #ddd;
-        padding-bottom: 4pt;
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
     }
     @bottom-center {
         content: counter(page);
-        font-family: 'Inter', sans-serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 9pt;
-        color: #666;
+        color: #A93226;
+        font-weight: 600;
     }
 }
 
-@page :first {
-    @top-center { content: none; }
-}
-
 :root {
-    --primary: #1a5276;
-    --primary-light: #2980b9;
-    --accent: #e74c3c;
-    --accent-warm: #f39c12;
-    --bg-light: #f8f9fa;
-    --bg-blue: #eaf2f8;
-    --bg-green: #eafaf1;
-    --bg-yellow: #fef9e7;
-    --bg-red: #fdedec;
-    --text: #2c3e50;
-    --text-light: #7f8c8d;
-    --border: #dbe2e8;
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
 }
 
 * {
@@ -61,243 +54,192 @@ CSS = """
 }
 
 body {
-    font-family: 'Noto Sans KR', 'Inter', sans-serif;
-    font-size: 10pt;
-    line-height: 1.7;
-    color: var(--text);
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
     -webkit-font-smoothing: antialiased;
 }
 
 /* ─── CHAPTER TITLE ─── */
 h1 {
-    font-family: 'Inter', 'Noto Sans KR', sans-serif;
-    font-size: 28pt;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
     font-weight: 700;
-    color: var(--primary);
-    text-align: center;
-    margin: 0 0 8pt 0;
-    padding: 20pt 0 12pt 0;
-    border-bottom: 3pt solid var(--primary);
-    page-break-before: avoid;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
 }
 
 /* ─── SECTION HEADINGS ─── */
 h2 {
-    font-family: 'Inter', 'Noto Sans KR', sans-serif;
-    font-size: 16pt;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
     font-weight: 700;
-    color: white;
-    background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
-    padding: 8pt 14pt;
-    margin: 18pt 0 10pt 0;
-    border-radius: 6pt;
-    page-break-before: always;
-    page-break-after: avoid;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
-/* First section: no page break before */
-h1 + hr + h2,
-h1 + h2,
-h2.first-section {
-    page-break-before: avoid;
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
 }
 
 h3 {
-    font-family: 'Inter', 'Noto Sans KR', sans-serif;
-    font-size: 12pt;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
     font-weight: 600;
-    color: var(--primary);
-    margin: 14pt 0 6pt 0;
-    padding-bottom: 3pt;
-    border-bottom: 1.5pt solid var(--primary-light);
-    page-break-after: avoid;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
 }
 
 h4 {
-    font-size: 10.5pt;
+    font-size: 11pt;
     font-weight: 600;
-    color: var(--primary-light);
-    margin: 10pt 0 4pt 0;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
 }
 
-/* ─── BLOCKQUOTES (openers, notes) ─── */
+/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-blue);
-    border-left: 4pt solid var(--primary-light);
-    padding: 10pt 14pt;
-    margin: 8pt 0;
-    border-radius: 0 6pt 6pt 0;
-    font-size: 9.5pt;
-}
-
-blockquote blockquote {
-    background: var(--bg-green);
-    border-left-color: #27ae60;
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
 }
 
 /* ─── TABLES ─── */
 table {
     width: 100%;
-    border-collapse: collapse;
-    margin: 8pt 0 12pt 0;
-    font-size: 9pt;
-    page-break-inside: avoid;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
 }
 
 thead {
-    background: var(--primary);
+    background-color: var(--spanish-red);
     color: white;
 }
 
 th {
-    padding: 6pt 8pt;
+    padding: 10pt 12pt;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 8.5pt;
     text-transform: uppercase;
-    letter-spacing: 0.5pt;
+    letter-spacing: 1pt;
+    font-size: 8pt;
 }
 
 td {
-    padding: 5pt 8pt;
-    border-bottom: 0.5pt solid var(--border);
-    vertical-align: top;
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
 }
 
 tr:nth-child(even) {
-    background: var(--bg-light);
+    background-color: #FAFAFA;
 }
 
-tr:hover {
-    background: var(--bg-blue);
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
 }
 
-/* Vocabulary tables — highlight cognates */
-td strong {
-    color: var(--primary);
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
 }
 
-td em {
-    color: var(--text-light);
-    font-size: 8.5pt;
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
 }
 
-/* ─── CODE BLOCKS (patterns, examples) ─── */
-pre {
-    background: #1e1e2e;
-    color: #cdd6f4;
-    padding: 12pt 14pt;
-    border-radius: 6pt;
-    margin: 8pt 0;
-    font-family: 'SF Mono', 'Fira Code', monospace;
-    font-size: 9pt;
-    line-height: 1.6;
-    overflow-wrap: break-word;
-    white-space: pre-wrap;
-    page-break-inside: avoid;
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
-code {
-    font-family: 'SF Mono', 'Fira Code', monospace;
-    background: var(--bg-light);
-    padding: 1pt 4pt;
-    border-radius: 3pt;
-    font-size: 8.5pt;
-    color: var(--accent);
-}
-
-pre code {
-    background: none;
-    padding: 0;
-    color: inherit;
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
 }
 
 /* ─── LISTS ─── */
 ul, ol {
-    margin: 4pt 0 8pt 18pt;
+    margin: 10pt 0 15pt 25pt;
 }
 
 li {
-    margin-bottom: 3pt;
-    line-height: 1.6;
+    margin-bottom: 5pt;
 }
 
-/* Checklist items */
-li:has(input[type="checkbox"]) {
-    list-style: none;
-    margin-left: -18pt;
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
 }
-
-/* ─── ALERTS (TIP, IMPORTANT, WARNING) ─── */
-.admonition-tip {
-    background: var(--bg-green);
-    border-left: 4pt solid #27ae60;
-    padding: 8pt 12pt;
-    margin: 8pt 0;
-    border-radius: 0 6pt 6pt 0;
-}
-
-.admonition-important {
-    background: var(--bg-yellow);
-    border-left: 4pt solid var(--accent-warm);
-    padding: 8pt 12pt;
-    margin: 8pt 0;
-    border-radius: 0 6pt 6pt 0;
-}
-
-.admonition-warning {
-    background: var(--bg-red);
-    border-left: 4pt solid var(--accent);
-    padding: 8pt 12pt;
-    margin: 8pt 0;
-    border-radius: 0 6pt 6pt 0;
-}
-
-/* ─── HORIZONTAL RULES (section separators) ─── */
-hr {
-    border: none;
-    border-top: 0;
-    margin: 0;
-    height: 0;
-    visibility: hidden;
-}
-
-/* ─── PARAGRAPHS ─── */
 p {
-    margin: 4pt 0 8pt 0;
+    margin: 6pt 0 10pt 0;
 }
 
 /* ─── EMOJI SIZING ─── */
 p, td, li {
-    line-height: 1.7;
-}
-
-/* ─── COVER PAGE STYLE (first blockquote) ─── */
-body > blockquote:first-of-type {
-    background: var(--bg-light);
-    border-left: 4pt solid var(--primary);
-    font-size: 9pt;
-    color: var(--text-light);
+    line-height: 1.8;
 }
 
 /* ─── PRACTICE SECTION ─── */
 h3:has(+ table),
 h3:has(+ ol) {
-    color: var(--accent);
-    border-bottom-color: var(--accent);
-}
-
-/* ─── PRINT OPTIMIZATIONS ─── */
-h1, h2, h3, h4 {
-    page-break-after: avoid;
-}
-
-table, pre, blockquote {
-    page-break-inside: avoid;
-}
-
-img {
-    max-width: 100%;
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
 }
 """
 
@@ -350,26 +292,43 @@ def build_html(md_content: str) -> str:
 </html>"""
 
 
-def main():
-    os.makedirs(os.path.dirname(OUTPUT_PDF), exist_ok=True)
+import sys
+import argparse
 
-    print("📖 Reading markdown…")
-    with open(CHAPTER_MD, encoding="utf-8") as f:
+def main():
+    parser = argparse.ArgumentParser(description="Hola-AL PDF Generator")
+    parser.add_argument("input", help="Path to the input Markdown file")
+    parser.add_argument("output_pdf", help="Path to the output PDF file")
+    parser.add_argument("--output-html", help="Path to the output HTML file (optional)")
+    parser.add_argument("--title", help="Header title for the PDF", default="Hola-AL")
+    args = parser.parse_args()
+
+    input_md = os.path.abspath(args.input)
+    output_pdf = os.path.abspath(args.output_pdf)
+    output_html = os.path.abspath(args.output_html) if args.output_html else output_pdf.replace(".pdf", ".html")
+
+    # Update CSS dynamically for the specific chapter title if needed
+    current_css = CSS.replace('content: "Hola-AL  ·  Chapter 1: Mi cuerpo y salud";', f'content: "Hola-AL  ·  {args.title}";')
+
+    os.makedirs(os.path.dirname(output_pdf), exist_ok=True)
+
+    print(f"📖 Reading {input_md}…")
+    with open(input_md, encoding="utf-8") as f:
         md_content = f.read()
 
     print("🎨 Building styled HTML…")
-    html_content = build_html(md_content)
+    html_content = build_html(md_content).replace("<style>{CSS}</style>", f"<style>{current_css}</style>")
 
     # Save HTML for preview
-    with open(OUTPUT_HTML, "w", encoding="utf-8") as f:
+    with open(output_html, "w", encoding="utf-8") as f:
         f.write(html_content)
-    print(f"   ✅ HTML saved: {OUTPUT_HTML}")
+    print(f"   ✅ HTML saved: {output_html}")
 
     print("📄 Generating PDF (WeasyPrint)…")
-    HTML(string=html_content).write_pdf(OUTPUT_PDF)
+    HTML(string=html_content, base_url=os.path.dirname(input_md)).write_pdf(output_pdf)
     
-    file_size = os.path.getsize(OUTPUT_PDF)
-    print(f"   ✅ PDF saved: {OUTPUT_PDF}")
+    file_size = os.path.getsize(output_pdf)
+    print(f"   ✅ PDF saved: {output_pdf}")
     print(f"   📏 Size: {file_size / 1024:.0f} KB")
     print("🎉 Done!")
 

@@ -1,350 +1,160 @@
-# Chapter 1: Mi cuerpo y salud 🏥
+# Chapter 1: Mi cuerpo y salud (Nivel A1) 🏥💪✨
 
-> **Cervantes**: §1 Individuo: dimensión física + §13 Salud e higiene
+> **Cervantes**: §1 Individuo: dimensión física (Partes del cuerpo) + §13 Salud e higiene
 
 ---
 
-## 1. Opener
+## 1. Opener (Comienzo del viaje)
 
-### ¿Sabías que...?
+¡Hola a todos! 👋 새로운 언어를 배운다는 것은 단순한 단어 암기가 아니라, 그 언어로 세상을 보고 나자신을 표현하는 새로운 방법을 익히는 것입니다. 그 첫 걸음으로 우리의 가장 가까운 곳, 바로 **우리의 몸(Cuerpo)**에서 시작해 볼까요? 
 
-> 스페인어에서 신체 부위를 말할 때는 영어와 달리 **소유격 대신 정관사**를 씁니다!
-> "I wash **my** hands" → "Me lavo **las** manos" (❌ *mis* manos)
+"내 눈은 갈색이에요", "머리가 조금 아파요" 같은 표현들은 스페인 친구를 사귀거나 현지 병원, 약국을 이용할 때 가장 먼저 필요하게 될 생존 도구입니다. 이번 챕터를 통해 여러분은 거울 속의 자신을 스페인어로 묘사하고, 건강 상태를 당당하게 말할 수 있게 될 것입니다. ¡Vamos a empezar con entusiasmo! ❤️🇪🇸
 
-**이 챕터에서 배울 것**:
+### ¿Sabías que...? (문화 한 조각) 🤔
 
-- 🦴 신체 부위 명칭 (Partes del cuerpo)
-- 👤 외모 묘사 표현 (Características físicas)
-- 🏃 신체 관련 동작 (Acciones corporales)
-- 🏥 병원·건강·위생 관련 어휘 (Salud e higiene)
-- 📝 문법: *tener* 관용표현 — "나이/배고픔/아픔" 등을 영어와 다르게 표현하는 법
+> 스페인 사람들은 인사를 할 때 양 볼에 한 번씩 키스를 하는 **'Dos besos'** 문화를 가지고 있어요. 이때 신체적 접촉이 자연스럽게 일어나기 때문에, 피부(Piel)나 얼굴(Cara)에 대한 관리가 스페인 문화권에서는 소통의 시작점이라고도 볼 수 있답니다. 🫒
 
 ---
 
 ## 2. Vocabulario Esencial
 
-### 2.1 Partes del cuerpo — 신체 부위
+### 2.1 Partes del cuerpo — 우리 몸의 명칭 🦴
+
+![Nano Banana Mapped Illustration (A1)](file:///Users/ikyoon/.gemini/antigravity/brain/1b710f87-7082-4e3c-a664-5d801694e66b/ch01_a1_nanobanana_v13_mapped.png)
+
+스페인어 명사는 남성(el)과 여성(la)으로 나뉩니다. 단어를 외울 때 관사도 하나의 세트로 함께 외우는 것이 가장 좋은 습관입니다!
 
 | Spanish | English Bridge | Korean | Audio |
-|---------|---------------|--------|-------|
-| **la cabeza** | cap (captain → head) | 머리 | 🔊 |
-| **la cara** | ✅ *cf.* character (face/appearance) | 얼굴 | 🔊 |
-| **el ojo** | ocular ✅ (eye-related) | 눈 | 🔊 |
-| **la nariz** | nasal ✅ (nose-related) | 코 | 🔊 |
-| **el oído** | audio ✅ (hearing) | 귀 (청각) | 🔊 |
-| **la boca** | — | 입 | 🔊 |
-| **la muela** | molar ✅ (back tooth) | 어금니 | 🔊 |
-| **la garganta** | gargle ✅ (throat-related) | 목구멍 | 🔊 |
-| **el brazo** | brace ✅ (arm support) | 팔 | 🔊 |
-| **la mano** | manual ✅ (hand-related) | 손 | 🔊 |
-| **el dedo** | digit ✅ (finger/toe) | 손가락 | 🔊 |
-| **la pierna** | — | 다리 | 🔊 |
-| **el pie** | pedal ✅ (foot-related) | 발 | 🔊 |
-| **el estómago** | stomach ✅ (Perfect Cognate) | 위/배 | 🔊 |
-| **la espalda** | — | 등 | 🔊 |
+| :--- | :--- | :--- | :---: |
+| **la cabeza** | **cap**tain (우두머리/머리) | 머리 | 🔊 |
+| **la cara** | **character** (얼굴/특징) | 얼굴 | 🔊 |
+| **el ojo** | **ocular** ✅ (눈의) | 눈 | 🔊 |
+| **la nariz** | **nasal** ✅ (코의) | 코 | 🔊 |
+| **la boca** | **vocal** (입에서 나오는 소리) | 입 | 🔊 |
+| **el oído** | **audio** ✅ (듣는 것) | 귀(내이) | 🔊 |
 | **el pelo** | — | 머리카락 | 🔊 |
+| **el brazo** | **embrace** (팔로 안다) | 팔 | 🔊 |
+| **la mano** | **manual** ✅ (손으로 하는) | 손 | 🔊 |
+| **el dedo** | **digit** ✅ (손/발가락) | 손가락/발가락 | 🔊 |
+| **el pie** | **pedestrian** (보행자 → 발) | 발 | 🔊 |
+| **el estómago** | **stomach** ✅ (Perfect Cognate) | 배/위 | 🔊 |
+| **la espalda** | — | 등 | 🔊 |
+| **la pierna** | — | 다리 | 🔊 |
 
-> [!TIP]
-> **Cognate 점수**: 16개 중 **10개**(63%)가 영어와 연결됩니다! 영어를 아는 당신에게 스페인어 신체 어휘는 이미 절반 이상 친숙합니다.
+### 2.2 Descripción Física — 외모 표현하기 💇‍♂️👓
 
-### 2.2 Características físicas — 외모 묘사
+사람을 묘사할 때 사용하는 형용사들입니다. 스페인어 형용사는 주어의 성별에 따라 어미가 변한다는 사실을 기억하세요!
 
-| Spanish | English Bridge | Korean |
-|---------|---------------|--------|
-| ser **alto/a** | altitude ✅ | 키가 큰 |
-| ser **bajo/a** | base ✅ (low) | 키가 작은 |
-| ser **gordo/a** | — | 뚱뚱한 |
-| ser **delgado/a** | delicate ✅ (thin) | 날씬한 |
-| ser **guapo/a** | — | 잘생긴/예쁜 |
-| ser **feo/a** | — | 못생긴 |
-| ser **rubio/a** | — | 금발의 |
-| ser **moreno/a** | — (Moor → dark) | 갈색 머리/피부가 까무잡잡한 |
-| ser/estar **calvo/a** | calvary (bald hill) | 대머리의 |
-| tener **barba** | barber ✅ | 턱수염 |
-| tener **bigote** | — | 콧수염 |
-| llevar **gafas** | — | 안경을 쓰다 |
-
-**📏 Word Family — *pelo* (머리카락)**:
-
-```
-pelo liso     → straight hair (liso ≈ "sleek")
-pelo rizado   → curly hair
-pelo largo    → long hair
-pelo corto    → short hair
-```
-
-### 2.3 Salud e higiene — 건강·위생
-
-| Spanish | English Bridge | Korean |
-|---------|---------------|--------|
-| estar **enfermo/a** | infirm ✅ (sick) | 아픈 |
-| la **gripe** | grippe ✅ (flu) | 독감 |
-| la **alergia** | allergy ✅ (Perfect Cognate) | 알레르기 |
-| la **fiebre** | fever ✅ | 열 |
-| la **tos** | — | 기침 |
-| el **médico** | medical ✅ | 의사 |
-| el **enfermero/a** | — (*cf.* enfermo) | 간호사 |
-| el **hospital** | hospital ✅ (Perfect Cognate) | 병원 |
-| la **ambulancia** | ambulance ✅ (Perfect Cognate) | 구급차 |
-| la **farmacia** | pharmacy ✅ (Perfect Cognate) | 약국 |
-| la **medicina** | medicine ✅ (Perfect Cognate) | 약 |
-| el **jabón** | — | 비누 |
-| el **champú** | shampoo ✅ (Perfect Cognate) | 샴푸 |
-| la **toalla** | towel ✅ | 수건 |
-| el **cepillo de dientes** | — + digit | 칫솔 |
-| la **pasta de dientes** | paste ✅ + digit | 치약 |
-
-> [!TIP]
-> **Perfect Cognate 천국!** 의료·위생 분야는 라틴어 어근이 많아 영어와 거의 동일한 단어가 많습니다:
-> hospital, ambulancia, farmacia, medicina, alergia, champú — 모두 스펠링만 약간 다릅니다.
+| Spanish (M/F) | English Bridge | Korean |
+| :--- | :--- | :--- |
+| **alto / alta** | **altitude** ✅ (높이/고도) | 키가 큰 |
+| **bajo / baja** | **base** (낮은/기초) | 키가 작은 |
+| **delgado / delgada** | — | 날씬한 |
+| **gordo / gorda** | — | 뚱뚱한 |
+| **guapo / guapa** | — | 잘생긴 / 예쁜 |
+| **feo / fea** | — | 못생긴 |
+| **barba** | **barber** ✅ (이발소/수염) | 수염 |
+| **calvo / calva** | — | 대머리인 |
 
 ---
 
-## 3. Expresiones Útiles
+## 3. Expresiones Útiles 💬 (상황별 핵심 표현)
 
-### 상태 표현 — ¿Cómo estás?
+일상에서 신체와 건강에 대해 말할 때 바로 꺼내 쓸 수 있는 만능 문장들입니다.
 
-| Spanish | English | Korean | 상황 |
-|---------|---------|--------|------|
-| Estoy enfermo/a. | I'm sick. | 저 아파요. | 🏥 |
-| Me siento bien/mal. | I feel good/bad. | 기분이 좋아요/안 좋아요. | 💬 |
-| Tengo gripe. | I have the flu. | 독감에 걸렸어요. | 🤒 |
-| Tengo fiebre. | I have a fever. | 열이 나요. | 🌡️ |
-| Tengo tos. | I have a cough. | 기침이 나요. | 😷 |
-
-### 병원·약국에서
-
-| Spanish | English | Korean |
-|---------|---------|--------|
-| ¿Dónde está el hospital? | Where is the hospital? | 병원이 어디예요? |
-| Necesito ir al médico. | I need to go to the doctor. | 의사에게 가야 해요. |
-| ¿Tiene algo para la tos? | Do you have something for a cough? | 기침약 있나요? |
-| Tomo una medicina. | I take medicine. | 약을 먹어요. |
-
-### 위생 루틴 — Mi rutina
-
-| Spanish | English | Korean |
-|---------|---------|--------|
-| Me lavo las manos. | I wash my hands. | 손을 씻어요. |
-| Me ducho por la mañana. | I shower in the morning. | 아침에 샤워해요. |
-| Me cepillo los dientes. | I brush my teeth. | 이를 닦아요. |
-| Me peino el pelo. | I comb my hair. | 머리를 빗어요. |
-
-> **💡 패턴 발견!** 위생 루틴은 모두 **재귀동사(me + 동사)** 패턴입니다.
-> 영어의 "I wash **myself**"처럼, *me*가 "나 자신을"이라는 의미입니다.
+- **¡Qué guapo estás hoy!** ✨ (오늘 정말 멋져 보이시네요! - 현재의 상태 강조)
+- **Tengo los ojos negros.** 👁️ (저는 검은 눈을 가졌어요.)
+- **Me duele la cabeza.** 🤕 (머리가 아파요. - 스페인어식 직역: 머리가 나에게 통증을 준다.)
+- **¿Es un chico alto?** 🧐 (그는 키가 큰 남자니?)
+- **Estoy muy cansado.** 😴 (저는 무척 피곤해요.)
 
 ---
 
-## 4. Gramática Esencial
+## 4. Gramática Esencial 📝
 
-### 4.1 *Tener* 관용표현 — "나는 ~을 **가지고 있다**"가 아닌 경우!
+### 4.1 'Tener' (가지다) 동사로 신체 묘사하기
 
-영어에서 "I **am** hungry"(나는 배고프**다**)라고 하지만, 스페인어에서는 "I **have** hunger"의 구조를 씁니다.
+스페인어에서 머리카락 색, 눈 색, 수염 등 신체적 특징을 말할 때는 주로 'Tener' 동사를 씁니다.
 
-| Spanish | 직역 (English) | 실제 의미 (Korean) |
-|---------|------------|------------|
-| Tengo **hambre**. | I have hunger. | 배고파요. |
-| Tengo **sed**. | I have thirst. | 목말라요. |
-| Tengo **frío**. | I have cold. | 추워요. |
-| Tengo **calor**. | I have heat. | 더워요. |
-| Tengo **sueño**. | I have sleepiness. | 졸려요. |
-| Tengo **miedo**. | I have fear. | 무서워요. |
-| Tengo **prisa**. | I have hurry. | 급해요. |
-| Tengo **razón**. | I have reason. | 맞아요. (내 말이 맞아요.) |
-| Tengo **~ años**. | I have ~ years. | ~살이에요. |
+| 인칭 | Tener 변화 | 예문 |
+| :--- | :--- | :--- |
+| **Yo (나)** | **tengo** | **Tengo** el pelo castaño. (나는 갈색 머리예요.) |
+| **Tú (너)** | **tienes** | **Tienes** una sonrisa bonita. (너는 미소가 예뻐.) |
+| **Él/Ella (그/그녀)** | **tiene** | **Tiene** los ojos verdes. (그녀는 초록 눈을 가졌어.) |
 
-> [!IMPORTANT]
-> **영어와의 차이**: 영어는 "I **am** + 형용사", 스페인어는 "**Tengo** + 명사"
-> 이 차이를 기억하면 스페인어의 가장 흔한 실수를 피할 수 있습니다!
+### 4.2 'Doler' (아프다) 동사 - 역구조의 마법
 
-### 4.2 *Tener* 동사 변화 (현재형)
+"I hurt my head"가 아니라 "The head hurts me"의 구조를 가집니다. 그래서 'Me(나에게)'를 먼저 씁니다.
 
-| 인칭 | 변화형 | English |
-|------|--------|---------|
-| yo | **tengo** | I have |
-| tú | **tienes** | you have |
-| él/ella/usted | **tiene** | he/she has, you(formal) have |
-| nosotros/as | **tenemos** | we have |
-| vosotros/as | **tenéis** | you all have |
-| ellos/ellas/ustedes | **tienen** | they/you all have |
-
-> ❗ **불규칙 포인트**: *yo* → *tengo* (go 어미), *tú/él/ellos* → **e→ie** 어간 모음 변화
-
-### 4.3 건강 표현과 *tener*
-
-```
-Tengo dolor de cabeza.     → I have a headache.    (두통이 있어요.)
-Tengo dolor de estómago.   → I have a stomachache. (배가 아파요.)
-Tengo dolor de espalda.    → I have a backache.    (허리가 아파요.)
-Tengo fiebre.              → I have a fever.       (열이 나요.)
-Tengo tos.                 → I have a cough.       (기침이 나요.)
-```
-
-**패턴**: **Tengo dolor de + 신체 부위** = "~가 아파요"
+- **Me duele la** (단수 부위) : Me duele la **mano**. (손이 아파요.)
+- **Me duelen los/las** (복수 부위) : Me duelen los **pies**. (발들이 아파요.)
 
 ---
 
-## 5. Korean Tip 💡
+## 5. Tips para coreanos 💡🇰🇷 (한국인 학습자를 위한 팁)
 
-### 한국인이 자주 틀리는 포인트
+**1. '귀'를 나타내는 두 단어: Oreja vs Oído**
+스페인어에는 '귀'를 뜻하는 단어가 두 개입니다!
+- **La oreja**: 겉으로 보이는 귓바퀴 (귀걸이를 거는 곳)
+- **El oído**: 소리를 듣는 안쪽의 귀 (Ear/Hearing의 의미)
+병원이 나 약국에서는 주로 **Oído**를 더 많이 사용하게 될 거예요!
 
-**1. "아프다"를 *ser/estar*로 표현하는 실수**
-
-- ❌ *Soy hambre.* (나는 배고픔이다?)
-- ✅ **Tengo hambre.** (배고파요.)
-- 💡 감각/상태는 **tener + 명사** 패턴!
-
-**2. 신체 부위에 소유격을 쓰는 실수**
-
-- ❌ *Me lavo mis manos.*
-- ✅ **Me lavo las manos.** (정관사 사용)
-- 💡 한국어 "손을 씻다"와 같은 구조 — "내"가 필요 없음!
-
-**3. 발음 주의**
-
-| 글자 | 스페인어 발음 | 한국인 실수 |
-|------|------------|----------|
-| **j** (ojo) | [x] 목 뒤에서 | [dʒ] 영어 j로 발음 |
-| **ll** (cepillo) | [ʎ] / [ʝ] | [l] 로 발음 |
-| **ñ** (año) | [ɲ] 니+ㅣ | [n] 으로 발음 |
-| **r** (rubio) | [r] 혀 굴리기 | [ɹ] 영어 r로 발음 |
+**2. 발음 주의: 'nariz'**
+끝에 있는 'z' 발음은 영어의 'z'와 다릅니다. 스페인 본토에서는 윗니와 아랫니 사이에 혀를 살짝 넣고 내는 'th' 발음(번데기 발음)으로 소리 내보세요. "나리스(nariz)"가 훨씬 원어민스럽게 들릴 것입니다!
 
 ---
 
-## 6. Cultura Viva 🌍
+## 6. Cultura Viva 🌍☀️ (생생한 스페인 문화)
 
-### 🏥 스페인의 의료 시스템 — *Seguridad Social*
-
-스페인은 **국가 건강보험 시스템 (Seguridad Social)**이 잘 갖추어진 나라입니다.
-
-**알아두면 좋은 점**:
-
-- 🏥 **Centro de salud** (보건소): 동네마다 있으며, 주치의(*médico de cabecera*)가 배정됩니다
-- 💊 **Farmacia** (약국): 초록색 십자가 표시. 24시간 운영하는 *farmacia de guardia*가 교대제로 운영
-- 🚑 **Urgencias** (응급실): 긴급 전화번호는 **112** (유럽 공통)
-- 💊 처방전 없이 살 수 있는 약이 제한적 — 감기약도 약사 상담이 필요할 수 있음!
-
-**유용한 표현**:
-
-> *"¿Dónde hay una farmacia de guardia?"*
-> (당번 약국이 어디 있나요?)
-
-### 🤧 중남미와의 차이
-
-| 상황 | 스페인 (España) | 멕시코 (México) |
-|------|---------------|----------------|
-| 간호사 | enfermero/a | enfermero/a |
-| 응급실 | urgencias | sala de emergencias |
-| 반창고 | tirita | curita |
-| 감기약 | antigripal | antigripal |
+**"¡Salud!" — 에취! 하면 들리는 마법의 단어**
+스페인에서 누군가 재채기를 하면 옆에 있던 모르는 사람조차도 **"¡Salud! (쌀루!)"**라고 외쳐줍니다. 이는 "건강하세요!"라는 뜻이에요. 재채기를 한 사람은 **"Gracias"**라고 답하는 것이 예의입니다. 건강을 기원해 주는 이 따뜻한 문화는 신체와 정신의 안녕을 중시하는 스페인 사람들의 정을 잘 보여줍니다.
 
 ---
 
-## 7. Práctica
+## 7. Práctica ✍️ (자기 주도 연습)
 
-### Ejercicio 1: 빈칸 채우기 — *Tener* 관용표현
+### A. 그림을 보고 알맞은 단어를 고르세요.
+1. Para comer uso la ( nariz / boca ).
+2. Para ver la televisión uso los ( ojos / oídos ).
+3. Para escribir uso las ( manos / pies ).
 
-아래 문장에 알맞은 단어를 넣으세요.
-
-1. En invierno, ________ mucho frío. (겨울에 매우 추워요.)
-2. Después de correr, ________ mucha sed. (달리기 후 매우 목말라요.)
-3. Mi abuela ________ 70 años. (할머니는 70세예요.)
-4. ¡Date prisa! ________ prisa. (서둘러! 급해요.)
-
-### Ejercicio 2: 매칭 — 신체 부위와 영어 Cognate
-
-왼쪽 스페인어와 오른쪽 영어 Cognate를 연결하세요.
-
-| Spanish | | English Cognate |
-|---------|---|----------------|
-| 1. nariz | | a. manual |
-| 2. mano | | b. nasal |
-| 3. estómago | | c. pedal |
-| 4. pie | | d. stomach |
-| 5. oído | | e. audio |
-
-### Ejercicio 3: 번역 — 병원에서
-
-다음 한국어를 스페인어로 번역하세요.
-
-1. 머리가 아파요. → _______________________________
-2. 의사에게 가야 해요. → _______________________________
-3. 약을 먹어요. → _______________________________
-
-### 🔊 Ejercicio 4: 듣기 연습
-
-다음 오디오를 듣고 어떤 증상인지 고르세요.
-
-1. 🔊 → (a) fiebre  (b) tos  (c) dolor de cabeza
-2. 🔊 → (a) gripe  (b) alergia  (c) dolor de estómago
+### B. 다음 문장을 스페인어로 번역해 보세요.
+1. (I have) ________ el pelo rubio.
+2. (My back hurts) Me ________ ________ espalda.
+3. (You are tall) ________ ________ alta. (여성형 사용)
 
 ---
 
-## 8. Lectura 📖
+## 8. Lectura (Short Story) 📖
 
-### En el centro de salud
+**El primer día de gimnasio**
+Hoy es el primer día de María en el gimnasio. Ella es 한 여학생입니다. María es **baja** y **delgada**, pero quiere ser fuerte. El instructor es un hombre muy **alto** y **guapo**. Él tiene los **músculos** grandes. Primero, María mueve los **brazos** y las **piernas**. Después de una hora, María está 매우 **cansada**. "¡Ay! Me **duele** todo el **cuerpo**", dice María. Pero ella está feliz porque quiere tener mucha **salud**.
 
-> María llega al centro de salud a las diez de la mañana. Tiene dolor de cabeza y un poco de fiebre. La enfermera le dice: "Buenos días, ¿cómo se siente?" María contesta: "Me siento mal. Tengo dolor de cabeza y fiebre." El médico examina a María y le dice: "Tiene gripe. Necesita descansar y tomar esta medicina." María va a la farmacia y compra la medicina. En casa, se lava las manos, toma la medicina y descansa.
-
-### Comprensión — 독해 확인
-
-1. ¿A qué hora llega María al centro de salud?
-   - (a) A las nueve  (b) A las diez  (c) A las once
-
-2. ¿Qué le duele a María?
-   - (a) El estómago  (b) La espalda  (c) La cabeza
-
-3. ¿Qué tiene María según el médico?
-   - (a) Alergia  (b) Gripe  (c) Tos
-
-4. ¿Adónde va María después del médico?
-   - (a) Al hospital  (b) A la farmacia  (c) A casa
-
-5. ¿Qué hace María en casa?
-   - (a) Corre  (b) Cocina  (c) Descansa y toma la medicina
+**질문에 답해 보세요:**
+1. ¿Cómo es María físicamente?
+2. ¿Qué le duele a María después del gimnasio?
 
 ---
 
-## 9. Diálogo
+## 9. Diálogo 🗣️ (실전 회화)
 
-### 🔊 En la farmacia — 약국에서
+**En la Óptica (안경점에서)**
 
-| Turno | Personaje | Español | English |
-|-------|-----------|---------|---------|
-| 1 | 🧑 Cliente | Buenos días. | Good morning. |
-| 2 | 👩‍⚕️ Farmacéutica | Buenos días. ¿Qué necesita? | Good morning. What do you need? |
-| 3 | 🧑 Cliente | Tengo dolor de cabeza y un poco de fiebre. | I have a headache and a slight fever. |
-| 4 | 👩‍⚕️ Farmacéutica | ¿Tiene alergia a alguna medicina? | Are you allergic to any medicine? |
-| 5 | 🧑 Cliente | No, no tengo alergia. | No, I'm not allergic. |
-| 6 | 👩‍⚕️ Farmacéutica | Bien. Tome este medicamento cada ocho horas. | OK. Take this medication every eight hours. |
-| 7 | 🧑 Cliente | ¿Con agua? | With water? |
-| 8 | 👩‍⚕️ Farmacéutica | Sí, con un vaso de agua. Y descanse mucho. | Yes, with a glass of water. And rest a lot. |
-| 9 | 🧑 Cliente | Muchas gracias. ¿Cuánto cuesta? | Thank you very much. How much does it cost? |
-| 10 | 👩‍⚕️ Farmacéutica | Son cinco euros con cincuenta céntimos. | It's five euros and fifty cents. |
-| 11 | 🧑 Cliente | Aquí tiene. Gracias. | Here you go. Thanks. |
-| 12 | 👩‍⚕️ Farmacéutica | De nada. ¡Que se mejore! | You're welcome. Get well soon! |
-
-**🎭 역할극 가이드**: 친구와 함께 Cliente와 Farmacéutica 역할을 나누어 연습해 보세요.
-다른 증상(dolor de estómago, tos, gripe)으로 바꿔서도 연습할 수 있습니다.
+**Óptico**: Hola, buenas tardes. ¿En qué puedo ayudarle?
+**Cliente**: Hola. Necesito unas gafas nuevas. **Me duelen** un poco los **ojos** cuando leo.
+**Óptico**: Comprendo. Vamos a examinar su vista. Por favor, mire aquí.
+**Cliente**: Muy bien. ¿Es grave?
+**Óptico**: No, no se preocupe. Solo necesita descansar la **vista**. ¿De qué color quiere las gafas?
+**Cliente**: Las quiero de color rojo, como mi **pelo**.
+**Óptico**: ¡Perfecto! Le van a quedar muy **guapo/a**.
 
 ---
 
-## 10. Repaso & Autoevaluación
+## 10. Repaso & Autoevaluación ✅
 
-### ✅ 이 챕터에서 배운 것 체크리스트
+- [ ] 주요 신체 부위 14개를 스페인어로 말할 수 있다.
+- [ ] 'Tener' 동사를 사용하여 자신의 외모(머리 색, 눈 색 등)를 설명할 수 있다.
+- [ ] 'Doler' 동사를 사용하여 아픈 곳이 어디인지 표현할 수 있다.
+- [ ] 스페인어 명사의 성(남성/여성) 개념을 이해하고 관사를 붙여 말할 수 있다.
 
-- [ ] 신체 부위 16개를 스페인어로 말할 수 있다
-- [ ] 외모를 묘사하는 형용사 10개를 사용할 수 있다
-- [ ] *tener* 관용표현 9개를 알고 있다 (hambre, sed, frío, calor...)
-- [ ] "Tengo dolor de + 부위"로 아픈 곳을 표현할 수 있다
-- [ ] 약국에서 간단한 대화를 할 수 있다
-- [ ] 위생 루틴을 스페인어로 설명할 수 있다
-
-### 🎯 Can-do Statements (MCER A1)
-
-| 나는... | ✅/❌ |
-|--------|------|
-| 내 외모를 간단히 묘사할 수 있다 | |
-| 아픈 곳을 말하고 약을 요청할 수 있다 | |
-| 일상 위생 루틴을 설명할 수 있다 | |
-| 병원·약국 관련 기본 어휘를 이해할 수 있다 | |
+¡Excelente trabajo! 🎉 여러분은 이제 자신의 몸에 대해 스페인어로 소통할 준비가 되었습니다. 다음 챕터에서는 우리의 '내면'과 '성격'을 표현하는 법을 배워볼까요? 🩺🏃‍♂️
