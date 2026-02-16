@@ -43,8 +43,8 @@ python3 scripts/generate_pdf.py chapters/ch01_a1_mi_cuerpo.md output/ch01_a1_mi_
 -   [x] **교재 작성 전략 수립 (v5.2)**: 디자인/콘텐츠/실행 전략 정규화 완료
 -   [x] **Chapter 1 (Mi cuerpo y salud)**: v5.2 Deep Dive & Bridge 버전 생성 완료
 -   [x] **Chapter 2 (¿Cómo soy?)**: v5.2 Deep Dive & Bridge 버전 생성 완료
--   [ ] **Chapter 3 (Mi identidad)**: 작업 예정 (Next Step)
--   [ ] 나머지 챕터 (Ch.3 ~ Ch.15): 순차 생성 예정
+-   [x] **Chapter 3 (Mi identidad)**: v5.2 Deep Dive & Bridge 버전 생성 완료
+-   [ ] 나머지 챕터 (Ch.4 ~ Ch.15): 순차 생성 예정
 
 ---
 Copyright © 2026. All rights reserved.

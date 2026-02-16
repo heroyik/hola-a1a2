@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="3-mi-identidad">3. Mi identidad</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Objetivos de aprendizaje:</strong><br />
+- Profundizar en el concepto de identidad personal y colectiva.<br />
+- Discutir temas de inmigración, diversidad y ciudadanía.<br />
+- Explicar trayectorias personales y orígenes multiculturales.</p>
+<p><strong>¿Sabías que...?</strong><br />
+España se ha transformado en las últimas décadas en una sociedad altamente <strong>multicultural</strong>. Más del 12% de la población actual es de origen extranjero. Esto ha enriquecido la gastronomía, la música y la lengua, creando una identidad española moderna que es diversa y abierta al mundo.</p>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p>A nivel A2, exploramos términos más abstractos y relacionados con la integración social y la historia personal.</p>
+<p><img alt="Identidad y Diversidad (100% 반영)" src="../images/ch03_a2_vocab_100pct_v52_numbered.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">origen</td>
+<td style="text-align: left;">Origin ✅</td>
+<td style="text-align: left;">발음(o-rí-hen) 주의</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">identidad</td>
+<td style="text-align: left;">Identity ✅</td>
+<td style="text-align: left;">'-dad' 성별 주의</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">raíces</td>
+<td style="text-align: left;">Roots (cf. Radical)</td>
+<td style="text-align: left;">정체성의 근원</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">diversidad</td>
+<td style="text-align: left;">Diversity ✅</td>
+<td style="text-align: left;">사회적 다양성</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">integración</td>
+<td style="text-align: left;">Integration ✅</td>
+<td style="text-align: left;">강세(ó) 필수</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">inmigración</td>
+<td style="text-align: left;">Immigration ✅</td>
+<td style="text-align: left;">'n'이 하나임 (inmi-)</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">extranjero</td>
+<td style="text-align: left;">Stranger? No! → Foreigner</td>
+<td style="text-align: left;">'외부의'라는 뜻의 Extra에서 유래</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">ciudadanía</td>
+<td style="text-align: left;">Citizenship (cf. City → Ciudad)</td>
+<td style="text-align: left;">시민권 또는 시민 의식</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">visado</td>
+<td style="text-align: left;">Visa ✅</td>
+<td style="text-align: left;">'비자' 문서</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">multicultural</td>
+<td style="text-align: left;">Multicultural ✅</td>
+<td style="text-align: left;">형용사/명사 동일</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 기호가 표시된 단어는 영어와 스펠링이 비슷하거나 의미가 같은 'Cognate'입니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>Frases para describir tu historia y tus sentimientos hacia tu identidad.</p>
+<ul>
+<li><strong>¿Cuáles son tus raíces?</strong></li>
+<li>What are your roots?</li>
+<li><strong>Mis padres son de... pero yo nací en...</strong></li>
+<li>My parents are from... but I was born in...</li>
+<li><strong>Me siento muy integrado/a en esta cultura.</strong></li>
+<li>I feel very integrated into this culture.</li>
+<li><strong>Solicitar el visado o la ciudadanía.</strong></li>
+<li>To apply for a visa or citizenship.</li>
+<li><strong>La diversidad enriquece a la sociedad.</strong></li>
+<li>Diversity enriches society.</li>
+<li><strong>Tener doble nacionalidad.</strong></li>
+<li>To have dual nationality.</li>
+</ul>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<h3 id="41-repaso-de-identidad-y-verbos-de-cambio">4.1 Repaso de Identidad y Verbos de Cambio</h3>
+<p>Para hablar de la identidad que cambia o se adquiere, usamos verbos como <strong>Hacerse</strong> o <strong>Llegar a ser</strong>.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Verbo</th>
+<th style="text-align: left;">Contexto</th>
+<th style="text-align: left;">Ejemplo</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Hacerse</strong></td>
+<td style="text-align: left;">Cambio voluntad/esfuerzo (profesión/ideología)</td>
+<td style="text-align: left;"><em>Se hizo ciudadano español.</em></td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Llegar a ser</strong></td>
+<td style="text-align: left;">Resultado de un proceso largo</td>
+<td style="text-align: left;"><em>Llegó a ser un artista famoso.</em></td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-adjetivos-gentilicios-gentilics">4.2 Adjetivos Gentilicios (Gentilics)</h3>
+<p>A2 requiere conocer gentilicios más complejos o irregulares.</p>
+<ul>
+<li><strong>Madrid:</strong> madrileño/a</li>
+<li><strong>Barcelona:</strong> barcelonés/a</li>
+<li><strong>Costa Rica:</strong> costarricense</li>
+<li><strong>EE. UU.:</strong> estadounidense</li>
+<li><strong>Cádiz:</strong> gaditano/a (Irregular)</li>
+</ul>
+<p><strong>Korean Tip:</strong> 'nacimiento'(출생)와 'origen'(기원)의 차이를 이해하는 것이 중요합니다. "Soy de Corea"는 현재의 소속을, "Mi origen es coreano"는 뿌리나 혈통을 강조할 때 더 자주 쓰입니다.</p>
+<hr />
+<h2 id="5-cultura-viva-la-espana-multicultural">5. Cultura Viva: La España Multicultural</h2>
+<p>La inmigración en España no es un fenómeno nuevo, pero su intensidad sí lo es. Grupos procedentes de <strong>América Latina, Marruecos y Rumanía</strong> son los más numerosos. Esta mezcla ha dado lugar a una "identidad híbrida". Muchos jóvenes hoy se definen como "nuevos españoles", manteniendo las tradiciones de sus padres mientras participan plenamente en la vida social y política de España. La celebración del <strong>Día de la Hispanidad</strong> (12 de octubre) es un momento para reflexionar sobre este pasado y presente compartido.</p>
+<p><img alt="Multicultural Spain Landscape" src="../images/ch03_a2_culture_multicultural_v52.png" /></p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>Match the Spanish word with its English equivalent.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Raíces</td>
+<td style="text-align: left;">a) Citizenship</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Extranjero</td>
+<td style="text-align: left;">b) Roots</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Ciudadanía</td>
+<td style="text-align: left;">c) Visa</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Visado</td>
+<td style="text-align: left;">d) Integration</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Integración</td>
+<td style="text-align: left;">e) Foreigner</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-complete-the-sentences">B. Complete the sentences</h3>
+<p>Fill in the blanks with the correct vocabulary word.</p>
+<ol>
+<li>La ................ es importante para vivir en armonía con personas de otros países.</li>
+<li>Él no es de aquí, es ................</li>
+<li>Para viajar a algunos países necesito un ................</li>
+<li>Mis ................ son coreanas, aunque vivo en Chile.</li>
+<li>La ................ de una persona se forma con su cultura y sus experiencias.</li>
+</ol>
+<h3 id="c">C. 번역 연습</h3>
+<p>다음 문장을 스페인어로 번역하세요.</p>
+<ol>
+<li>제 부모님은 멕시코 출신입니다.</li>
+<li>저는 이 나라에 매우 잘 통합되어 있다고 느낍니다.</li>
+<li>다양성은 사회를 풍요롭게 합니다.</li>
+<li>그는 스페인 시민권을 신청했습니다.</li>
+<li>저는 이중 국적을 가지고 있습니다.</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<p><strong>Identidades sin fronteras</strong></p>
+<p>Elena es una joven que vive en Barcelona. Su padre es de Argentina y su madre es de Japón, pero ella nació en España. "¿Cuál es mi identidad?", se pregunta Elena a menudo. Ella habla español, japonés y catalán. En su casa, comen sushi y también asado argentino. Elena cree que su origen multicultural es una ventaja porque le permite entender diferentes puntos de vista. "No soy solo de un lugar, soy ciudadana del mundo", dice con orgullo.</p>
+<p><strong>Preguntas:</strong><br />
+1. ¿Dónde vive Elena y cuál es el origen de sus padres?<br />
+2. ¿Qué idiomas habla ella?<br />
+3. ¿Qué comen en su casa?<br />
+4. ¿Por qué cree Elena que su origen es una ventaja?<br />
+5. ¿Cómo se define ella al final del texto?</p>
+<p><strong>한국어 번역:</strong><br />
+바르셀로나에 사는 젊은 여성 엘레나는 아버지가 아르헨티나인이고 어머니가 일본인이지만, 본인은 스페인에서 태어났습니다. "나의 정체성은 무엇인가?"라고 엘레나는 자주 스스로에게 묻습니다. 그녀는 스페인어, 일본어, 카탈루냐어를 합니다. 그녀의 집에서는 스시와 아르헨티나식 아사도(바비큐)를 모두 먹습니다. 엘레나는 자신의 다문화적 배경이 다양한 관점을 이해할 수 있게 해주기 때문에 장점이라고 믿습니다. "나는 단지 한 곳 출신이 아니라, 세계 시민입니다"라고 그녀는 자랑스럽게 말합니다.</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<p><strong>Hablando de los orígenes</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Personaje</th>
+<th style="text-align: left;">스페인어 (ES)</th>
+<th style="text-align: left;">한국어 (KO)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Marco</strong></td>
+<td style="text-align: left;">Qué nombre tan interesante tienes, Lucía. ¿De dónde es tu familia?</td>
+<td style="text-align: left;">루시아, 이름이 아주 흥미롭네. 가족이 어디 출신이야?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lucía</strong></td>
+<td style="text-align: left;">Gracias, Marco. Mis raíces son italianas por parte de mi abuelo, pero mi madre es colombiana.</td>
+<td style="text-align: left;">고마워, 마르코. 할아버지 쪽 뿌리는 이탈리아인이지만, 어머니는 콜롬비아인이야.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marco</strong></td>
+<td style="text-align: left;">¡Vaya mezcla! ¿Y tú dónde naciste?</td>
+<td style="text-align: left;">와, 대단한 혼혈이네! 그럼 너는 어디서 태어났어?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lucía</strong></td>
+<td style="text-align: left;">Yo nací en Madrid, así que tengo la ciudadanía española y también la colombiana.</td>
+<td style="text-align: left;">나는 마드리드에서 태어났어. 그래서 스페인 시민권과 콜롬비아 시민권을 모두 가지고 있지.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marco</strong></td>
+<td style="text-align: left;">Eso es genial. ¿Te sientes más española o colombiana?</td>
+<td style="text-align: left;">그거 멋지다. 스페인 사람이라고 느껴, 아니면 콜롬비아 사람이라고 느껴?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lucía</strong></td>
+<td style="text-align: left;">Me siento una mezcla de ambas. No puedo elegir una sola identidad.</td>
+<td style="text-align: left;">두 가지가 섞인 기분이야. 단 하나의 정체성만 고를 수는 없어.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<ul>
+<li>[x] 'origen', 'raíces', 'diversidad' 등 추상적인 정체성 어휘를 익혔나요?</li>
+<li>[x] 'hacerse'와 'llegar a ser'의 차이를 이해했나요?</li>
+<li>[x] 주요 Gentilicios(출신지 형용사)를 알고 있나요?</li>
+<li>[x] 스페인의 다문화적 사회 특성을 이해했나요?</li>
+</ul>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>La identidad no es algo estático, sino algo que construimos cada día con nuestras acciones y relaciones. Entender tus orígenes te da la fuerza para enfrentar el futuro. En el próximo capítulo, exploraremos el núcleo de nuestra vida: la familia y los amigos. ¡Buen trabajo!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<p><strong>A. Match the word</strong><br />
+1-b, 2-e, 3-a, 4-c, 5-d</p>
+<p><strong>B. Complete the sentences</strong><br />
+1. integración, 2. extranjero, 3. visado, 4. raíces, 5. identidad</p>
+<p><strong>C. 번역 연습</strong><br />
+1. Mis padres son de México. / El origen de mis padres es mexicano.<br />
+2. Me siento muy integrado/a en este país.<br />
+3. La diversidad enriquece a la sociedad.<br />
+4. Él solicitó la ciudadanía española.<br />
+5. Tengo doble nacionalidad.</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="3-mi-identidad">3. Mi identidad</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Objetivos de aprendizaje:</strong><br />
+- Presentarse formal e informalmente.<br />
+- Indicar el nombre, la edad, la nacionalidad y la profesión.<br />
+- Entender el sistema de nombres y el documento de identidad en España.</p>
+<p><strong>¿Sabías que...?</strong><br />
+En España y en muchos países hispanohablantes, las personas tienen <strong>dos apellidos</strong>. El primero es el del padre y el segundo es el de la madre. Por ejemplo, si Juan García López y María Martínez Ruiz tienen una hija llamada Ana, su nombre completo será Ana García Martínez. ¡Es una excelente manera de mantener vivo el linaje de ambos padres!</p>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p>En esta sección aprenderemos las palabras fundamentales para hablar de nuestra identidad personal.</p>
+<p><img alt="Mi identidad (100% 반영)" src="../images/ch03_a1_vocab_100pct_v52_numbered.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">nombre</td>
+<td style="text-align: left;">Name ✅</td>
+<td style="text-align: left;">'n' 발음 주의</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">apellido</td>
+<td style="text-align: left;">Appellation (→ surname)</td>
+<td style="text-align: left;">'ll'은 'y'처럼 발음</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">nacionalidad</td>
+<td style="text-align: left;">Nationality ✅</td>
+<td style="text-align: left;">'-dad'는 여성 명사</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">edad</td>
+<td style="text-align: left;">Age (cf. Eternal → Etad)</td>
+<td style="text-align: left;">나이를 물을 때 사용</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">dirección</td>
+<td style="text-align: left;">Direction → Address</td>
+<td style="text-align: left;">주소를 나타냄</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">teléfono</td>
+<td style="text-align: left;">Telephone ✅</td>
+<td style="text-align: left;">강세(é) 주의</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">correo electrónico</td>
+<td style="text-align: left;">Electronic Mail ✅</td>
+<td style="text-align: left;">'email'로도 통함</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">pasaporte</td>
+<td style="text-align: left;">Passport ✅</td>
+<td style="text-align: left;">'s'가 하나임</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">estudiante</td>
+<td style="text-align: left;">Student ✅</td>
+<td style="text-align: left;">'-e'로 끝나 성별 동일</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">profesor</td>
+<td style="text-align: left;">Professor ✅</td>
+<td style="text-align: left;">직업 앞 관사 생략</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">médico</td>
+<td style="text-align: left;">Medical → Doctor</td>
+<td style="text-align: left;">강세(é) 주의</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">ingeniero</td>
+<td style="text-align: left;">Engineer ✅</td>
+<td style="text-align: left;">'g'는 'h' 발음</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">camarero</td>
+<td style="text-align: left;">Camera? No! → Waiter</td>
+<td style="text-align: left;">'방'을 뜻하는 càmera에서 유래</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">artista</td>
+<td style="text-align: left;">Artist ✅</td>
+<td style="text-align: left;">'-ista'는 성별 동일</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 기호가 표시된 단어는 영어와 스펠링이 비슷하거나 의미가 같은 'Cognate'입니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>Aquí tienes las frases clave para presentarte y preguntar por la identidad de otros.</p>
+<ul>
+<li><strong>¿Cómo te llamas?</strong> (Informal) / <strong>¿Cómo se llama usted?</strong> (Formal)</li>
+<li>What is your name?</li>
+<li><strong>Me llamo...</strong> / <strong>Mi nombre es...</strong></li>
+<li>My name is...</li>
+<li><strong>¿De dónde eres?</strong> / <strong>¿De dónde es usted?</strong></li>
+<li>Where are you from?</li>
+<li><strong>Soy de Corea del Sur.</strong> / <strong>Soy coreano.</strong></li>
+<li>I am from South Korea. / I am Korean.</li>
+<li><strong>¿Cuántos años tienes?</strong></li>
+<li>How old are you? (Literal: How many years do you have?)</li>
+<li><strong>Tengo veinticinco años.</strong></li>
+<li>I am 25 years old.</li>
+<li><strong>¿A qué te dedicas?</strong> / <strong>¿Cuál es tu profesión?</strong></li>
+<li>What do you do? / What is your profession?</li>
+</ul>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<h3 id="41-el-verbo-ser-to-be">4.1 El verbo SER (to be)</h3>
+<p>Usamos <strong>SER</strong> para identificar a las personas, indicar la nacionalidad y la profesión (aspectos permanentes).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">주어</th>
+<th style="text-align: left;">SER (현재형)</th>
+<th style="text-align: left;">English Mapping</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>yo</strong></td>
+<td style="text-align: left;">soy</td>
+<td style="text-align: left;">I am</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>tú</strong></td>
+<td style="text-align: left;">eres</td>
+<td style="text-align: left;">you are (inf.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>él / ella / usted</strong></td>
+<td style="text-align: left;">es</td>
+<td style="text-align: left;">he/she/it is, you are (fml.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>nosotros / nosotras</strong></td>
+<td style="text-align: left;">somos</td>
+<td style="text-align: left;">we are</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>vosotros / vosotras</strong></td>
+<td style="text-align: left;">sois</td>
+<td style="text-align: left;">you are (pl. inf.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ellos / ellas / ustedes</strong></td>
+<td style="text-align: left;">son</td>
+<td style="text-align: left;">they are, you are (pl. fml.)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-nacionalidades-y-genero">4.2 Nacionalidades y Género</h3>
+<p>Los adjetivos de nacionalidad cambian según el género.</p>
+<ul>
+<li><strong>Terminados en -o/-a:</strong> coreano / coreana, mexicano / mexicana.</li>
+<li><strong>Terminados en consonante (+a):</strong> español / española, alemán / alemana.</li>
+<li><strong>Terminados en -ense 또는 -í:</strong> estadounidense, marroquí (igual para ambos).</li>
+</ul>
+<p><strong>Korean Tip:</strong> 스페인어에서 직업을 말할 때는 영어와 달리 부정관사(un/una)를 쓰지 않습니다. 예: "Soy profesor" (o) / "Soy un profesor" (x - 강조할 때만 사용).</p>
+<hr />
+<h2 id="5-cultura-viva-el-dni-y-los-nombres">5. Cultura Viva: El DNI y los Nombres</h2>
+<p>En España, el <strong>DNI</strong> (Documento Nacional de Identidad) es obligatorio a partir de los 14 años. Es una tarjeta inteligente que contiene tus datos y una foto.<br />
+Como mencionamos, los españoles tienen dos apellidos. En documentos oficiales, siempre verás: <strong>Nombre + Primer Apellido + Segundo Apellido</strong>.<br />
+- Ejemplo: <em>Pedro Almodóvar Caballero</em> (Almodóvar es el del padre, Caballero el de la madre).<br />
+Cuando se casan, las mujeres <strong>no cambian su apellido</strong> por el del marido, a diferencia de la cultura anglosajona.</p>
+<p><img alt="DNI and Naming Culture" src="../images/ch03_a1_culture_dni_v52.png" /></p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>Match the Spanish word with its English equivalent.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Apellido</td>
+<td style="text-align: left;">a) Age</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Edad</td>
+<td style="text-align: left;">b) Waiter</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Dirección</td>
+<td style="text-align: left;">c) Surname</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Pasaporte</td>
+<td style="text-align: left;">d) Address</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Camarero</td>
+<td style="text-align: left;">e) Passport</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-complete-the-sentences">B. Complete the sentences</h3>
+<p>Fill in the blanks with the correct form of the verb <strong>SER</strong>.</p>
+<ol>
+<li>Yo ................ de Seúl.</li>
+<li>¿De dónde ................ tú?</li>
+<li>Nosotros ................ estudiantes de español.</li>
+<li>Ella ................ médica en un hospital grande.</li>
+<li>Ellos ................ de España.</li>
+</ol>
+<h3 id="c">C. 번역 연습</h3>
+<p>다음 문장을 스페인어로 번역하세요.</p>
+<ol>
+<li>제 이름은 마리아입니다.</li>
+<li>당신은 무엇을 합니까? (직업이 무엇입니까?)</li>
+<li>저는 20살입니다.</li>
+<li>우리는 한국인입니다.</li>
+<li>그는 엔지니어입니다.</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<p><strong>Mi nueva vida en Madrid</strong></p>
+<p>Hola, me llamo Minho y soy de Corea del Sur. Ahora vivo en Madrid porque soy estudiante de intercambio en la universidad. Tengo veintiún años. Mi dirección en Madrid es Calle Mayor, número 10. Mi correo electrónico es minho@uni.es. En mi clase hay personas de muchas nacionalidades: una chica es de Francia y un chico es de Italia. ¡Madrid es una ciudad muy internacional!</p>
+<p><strong>Preguntas:</strong><br />
+1. ¿De dónde es Minho?<br />
+2. ¿Qué hace Minho en Madrid?<br />
+3. ¿Cuántos años tiene?<br />
+4. ¿Cuál es su dirección?<br />
+5. ¿Hay personas de otras nacionalidades en su clase?</p>
+<p><strong>한국어 번역:</strong><br />
+안녕하세요, 제 이름은 민호이고 한국 출신입니다. 저는 지금 대학 교환학생이라서 마드리드에 살고 있습니다. 저는 21살입니다. 마드리드 제 주소는 마요르 거리 10번지입니다. 제 이메일은 minho@uni.es입니다. 제 수업에는 프랑스에서 온 여학생과 이탈리아에서 온 남학생 등 다양한 국적의 사람들이 있습니다. 마드리드는 정말 국제적인 도시입니다!</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<p><strong>En la oficina de registro</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Personaje</th>
+<th style="text-align: left;">스페인어 (ES)</th>
+<th style="text-align: left;">한국어 (KO)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Empleado</strong></td>
+<td style="text-align: left;">Buenos días. ¿Cuál es su nombre, por favor?</td>
+<td style="text-align: left;">좋은 아침입니다. 성함이 어떻게 되시나요?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sara</strong></td>
+<td style="text-align: left;">Me llamo Sara García.</td>
+<td style="text-align: left;">사라 가르시아입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Empleado</strong></td>
+<td style="text-align: left;">¿Cuál es su primer apellido y su segundo apellido?</td>
+<td style="text-align: left;">첫 번째 성과 두 번째 성은 무엇인가요?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sara</strong></td>
+<td style="text-align: left;">Mi primer apellido es García y el segundo es Martínez.</td>
+<td style="text-align: left;">첫 번째 성은 가르시아이고, 두 번째는 마르티네스입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Empleado</strong></td>
+<td style="text-align: left;">Entiendo. ¿Cuántos años tiene usted?</td>
+<td style="text-align: left;">알겠습니다. 몇 살이신가요?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sara</strong></td>
+<td style="text-align: left;">Tengo treinta años.</td>
+<td style="text-align: left;">30살입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Empleado</strong></td>
+<td style="text-align: left;">¿Y cuál es su nacionalidad?</td>
+<td style="text-align: left;">그리고 국적은 무엇인가요?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sara</strong></td>
+<td style="text-align: left;">Soy mexicana.</td>
+<td style="text-align: left;">멕시코인입니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Empleado</strong></td>
+<td style="text-align: left;">Muy bien. Necesito su pasaporte, por favor.</td>
+<td style="text-align: left;">아주 좋습니다. 여권이 필요합니다. 부탁드려요.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sara</strong></td>
+<td style="text-align: left;">Aquí tiene.</td>
+<td style="text-align: left;">여기 있습니다.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<ul>
+<li>[x] 'SER' 동사 변화를 완벽하게 외웠나요? (soy, eres, es, somos, sois, son)</li>
+<li>[x] 이름, 성, 나이, 국적을 묻고 답할 수 있나요?</li>
+<li>[x] 스페인의 '두 개의 성' 문화와 DNI의 개념을 이해했나요?</li>
+<li>[x] 직업 앞에 관사가 붙지 않는 규칙을 기억하나요?</li>
+</ul>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Felicidades! Ahora ya sabes cómo definir quién eres en español. La identidad es el primer paso para conectar con los demás. En el próximo capítulo, conoceremos a la familia y a los amigos para seguir ampliando tu mundo. ¡Sigue así!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<p><strong>A. Match the word</strong><br />
+1-c, 2-a, 3-d, 4-e, 5-b</p>
+<p><strong>B. Complete the sentences</strong><br />
+1. soy, 2. eres, 3. somos, 4. es, 5. son</p>
+<p><strong>C. 번역 연습</strong><br />
+1. Me llamo María. / Mi nombre es María.<br />
+2. ¿A qué te dedicas? / ¿Cuál es tu profesión?<br />
+3. Tengo veinte años.<br />
+4. Somos coreanos.<br />
+5. Él es ingeniero.</p>
+</div>
+</body>
+</html>
