@@ -7,7 +7,7 @@ __pycache__/
 secrets/
 
 # Build output (regeneratable)
-output/
+# output/
 
 # macOS
 .DS_Store

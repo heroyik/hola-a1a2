@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="chapter-1-mi-cuerpo-y-salud-a1">Chapter 1: Mi cuerpo y salud (A1)</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p>¡Bienvenidos a bordo! Our journey begins with the most essential tool we have: our body. In this chapter, we will learn how to name the parts of the body and describe how we feel physically. You'll be surprised to find how many Spanish words are hidden in English academic vocabulary!</p>
+<p><strong>학습 목표 (Learning Objectives)</strong>:<br />
+- Identify and name 15+ body parts from head to toe.<br />
+- Master the irregular verb <code>tener</code> (to have) for physical sensations.<br />
+- Understand the cultural significance of personal space and greetings in Spain.<br />
+- Learn to express basic health states and identify medical professionals.</p>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...? (Did you know?)</strong><br />
+When Spaniards meet, they often perform <strong>'Dos Besos'</strong> (two kisses). It’s not a full kiss on the lips, but a light touch of cheeks—right side first, then left. This reflects the warm, physical nature of Spanish social interaction, which we'll see reflected in how they talk about their 'cuerpo'.</div>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p><img alt=" 신체 부위 및 건강" src="../images/ch01_a1_mi_cuerpo_vocab_v52_100pct.png" /></p>
+<p>Below is your bridge between English and Spanish. Use your knowledge of English's Latin roots to skip the rote memorization!</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">la <strong>cabeza</strong></td>
+<td style="text-align: left;"><strong>Capital</strong> (head of a city/column)</td>
+<td style="text-align: left;">머리를 뜻하며, 영어의 capital과 어원이 같습니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">el <strong>hombro</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">어깨를 뜻합니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">el <strong>brazo</strong></td>
+<td style="text-align: left;"><strong>Embrace</strong> (to hold in arms) ✅</td>
+<td style="text-align: left;">'포옹하다'는 뜻의 embrace를 떠올려보세요.</td>
+</tr>
+<tr>
+<td style="text-align: left;">la <strong>mano</strong></td>
+<td style="text-align: left;"><strong>Manual</strong> (done by hand) ✅</td>
+<td style="text-align: left;">수동을 뜻하는 manual은 '손'에서 왔습니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">la <strong>pierna</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">다리를 뜻합니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">el <strong>pie</strong></td>
+<td style="text-align: left;"><strong>Pedal</strong> (foot lever) ✅</td>
+<td style="text-align: left;">자전거 페달처럼 발로 밟는 것을 생각하세요.</td>
+</tr>
+<tr>
+<td style="text-align: left;">el <strong>ojo</strong></td>
+<td style="text-align: left;"><strong>Ocular</strong> (eye-related) ✅</td>
+<td style="text-align: left;">안과적인 것을 뜻하는 ocular와 어원이 같습니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">la <strong>oreja</strong></td>
+<td style="text-align: left;"><strong>Aural</strong> (ear-related)</td>
+<td style="text-align: left;">귀를 뜻하며, 청각적인 것을 뜻하는 aural과 연결됩니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">la <strong>nariz</strong></td>
+<td style="text-align: left;"><strong>Nasal</strong> (nose-related) ✅</td>
+<td style="text-align: left;">코와 관련된 형용사 nasal을 기억하세요.</td>
+</tr>
+<tr>
+<td style="text-align: left;">la <strong>boca</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">입을 뜻합니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;">el <strong>estómago</strong></td>
+<td style="text-align: left;"><strong>Stomach</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">복잡한 철자지만 발음은 비슷합니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>hospital</strong></td>
+<td style="text-align: left;"><strong>Hospital</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">'h'는 언제나 묵음입니다. [오스피탈]</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>doctor / doctora</strong></td>
+<td style="text-align: left;"><strong>Doctor</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align: left;">성별에 따라 o/a로 구분합니다.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>enfermero/a</strong></td>
+<td style="text-align: left;"><strong>Nurse</strong> (care provider)</td>
+<td style="text-align: left;">간호사를 뜻합니다.</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>In English, we say "I <strong>am</strong> hungry." In Spanish, we use the logic of possession: "I <strong>have</strong> hunger." This is a key mental shift for English speakers!</p>
+<ul>
+<li><strong>Tener sueño</strong>: To have sleepiness (졸리다)</li>
+<li><strong>Tener sed</strong>: To have thirst (목마르다)</li>
+<li><strong>Tener frío</strong>: To have cold (춥다)</li>
+<li><strong>Tener calor</strong>: To have heat (덥다)</li>
+<li><strong>Tener hambre</strong>: To have hunger (배고프다)</li>
+<li><strong>Tener prisa</strong>: To have haste (서두르다)</li>
+<li><strong>Tener miedo</strong>: To have fear (무섭다)</li>
+</ul>
+<p><strong>실전 예문 (Practical Examples)</strong>:<br />
+- ES: Tengo mucho sueño ahora. (지금 너무 졸려요.)<br />
+- EN: I am very sleepy now.<br />
+- ES: ¿Tienes sed? Aquí hay agua. (목마르니? 여기 물 있어.)<br />
+- EN: Are you thirsty? Here is some water.</p>
+<hr />
+<h2 id="4-gramatica-esencial-el-verbo-tener-to-have">4. Gramática Esencial: El verbo TENER (to have)</h2>
+<p><code>tener</code> is one of the most versatile irregular verbs in Spanish. It is used for possession, age ("I have 20 years"), and physical states.</p>
+<h3 id="full-conjugation">전 인칭 변화 테이블 (Full Conjugation)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">주어 (Subject)</th>
+<th style="text-align: left;">변화형 (Conjugation)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">yo</td>
+<td style="text-align: left;"><strong>tengo</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">tú</td>
+<td style="text-align: left;"><strong>tienes</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">él / ella / usted</td>
+<td style="text-align: left;"><strong>tiene</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">nosotros / nosotras</td>
+<td style="text-align: left;"><strong>tenemos</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">vosotros / vosotras</td>
+<td style="text-align: left;"><strong>tenéis</strong></td>
+</tr>
+<tr>
+<td style="text-align: left;">ellos / ellas / ustedes</td>
+<td style="text-align: left;"><strong>tienen</strong></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition-tip"><strong>💡 Note</strong><br/><br />
+<strong>Korean Tip</strong><br />
+<code>tengo</code>는 1인칭 단수에서만 g가 붙는 특이한 불규칙입니다. 나머지에서는 e가 ie로 변하는 'boot verb' (어간 변화 동사) 형태를 보입니다. <code>nosotros</code>와 <code>vosotros</code>는 예외적으로 변하지 않는 '장화 밖' 형태임을 기억하세요!</div>
+<hr />
+<h2 id="5-cultura-viva-el-sistema-de-salud-en-espana">5. Cultura Viva: El Sistema de Salud en España</h2>
+<p><img alt="스페인의 약국(Farmacia) 풍경" src="../images/ch01_a1_culture_farmacia_v52.png" /></p>
+<p>Spain boasts one of the world's most efficient public healthcare systems, known as <strong>Seguridad Social</strong>. </p>
+<p>Every residential neighborhood has a <strong>Centro de Salud</strong> (Health Center) where locals go for their first consultations. Unlike the private-heavy systems elsewhere, most basic care is free for citizens and residents. This accessibility, combined with the <strong>Mediterranean Diet</strong> and a culture of walking, contributes to Spain having one of the highest life expectancies in the world. When you visit, look for the luminous green cross signs—those are the <strong>Farmacias</strong>, and they are almost on every corner!</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>깔끔한 정렬을 위해 아래 표를 참조하여 알맞은 번호와 알파벳을 연결하세요.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">ES 단어 (Spanish)</th>
+<th style="text-align: left;">선택지 (Selection)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Cabeza</td>
+<td style="text-align: left;">a) Foot</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Brazo</td>
+<td style="text-align: left;">b) Eye</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Ojo</td>
+<td style="text-align: left;">c) Head</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Pie</td>
+<td style="text-align: left;">d) Arm</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Mano</td>
+<td style="text-align: left;">e) Hand</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-fill-in-the-blanks">B. Fill in the blanks</h3>
+<p>빈칸에 알맞은 <code>tener</code> 동사 변화형을 적어 문장을 완성하세요. (Pay attention to the subject!)</p>
+<ol>
+<li>Yo ................... hambre. (I have hunger.)</li>
+<li>Nosotros ................... mucho sueño. (We are very sleepy.)</li>
+<li>¿Tú ................... frío? (Are you cold?)</li>
+<li>Ella ................... sed. (She is thirsty.)</li>
+<li>Ellos ................... calor. (They are hot.)</li>
+</ol>
+<h3 id="c-translation-practice">C. 번역 연습 (Translation Practice)</h3>
+<p>다음 문장을 Spanish로 번역하세요.</p>
+<ol>
+<li>나는 머리가 아프다. (Hint: Use 'Tengo dolor de...')</li>
+<li>당신(usted)은 배가 고픈가요?</li>
+<li>우리는 목이 마릅니다.</li>
+<li>그들은 춥습니다.</li>
+<li>너는 피곤하니? (Hint: 너는 졸리니?)</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<p><strong>La salud de Ana</strong></p>
+<p>Hola, me llamo Ana. Hoy estoy muy cansada. Tengo mucho sueño porque estudio mucho en la universidad. También tengo hambre porque no como nada por tres horas. Quiero comer algo saludable para mi estómago. Mi brazo está bien, pero mi pierna está un poco cansada de caminar por el campus. ¡Mañana estaré mejor en el hospital con el doctor!</p>
+<p><strong>한국어 번역 (Korean Translation)</strong>:<br />
+<strong>Ana의 건강</strong><br />
+안녕, 내 이름은 Ana야. 오늘 나는 매우 피곤해. 대학교에서 공부를 많이 해서 아주 졸려. 또한 3시간 동안 아무것도 먹지 않아서 배도 고파. 위장에 좋은 건강한 음식을 먹고 싶어. 내 팔은 괜찮지만, 내 다리는 캠퍼스를 걷느라 좀 피곤해. 내일은 병원에서 의사 선생님과 함께라면 더 나아질 거야!</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<p><strong>En el Centro de Salud</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">Korean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: Hola, Pedro. ¿Cómo estás?</td>
+<td style="text-align: left;"><strong>Ana</strong>: 안녕, Pedro. 어떻게 지내?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pedro</strong>: Hola, Ana. No estoy muy bien hoy.</td>
+<td style="text-align: left;"><strong>Pedro</strong>: 안녕, Ana. 오늘은 별로 안 좋아.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: ¿Qué tienes? ¿Te duele algo?</td>
+<td style="text-align: left;"><strong>Ana</strong>: 어디가 안 좋아? 어디 아픈 데 있어?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pedro</strong>: Tengo dolor de estómago y calor.</td>
+<td style="text-align: left;"><strong>Pedro</strong>: 배가 아프고 열이 나(더워).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: ¿Tienes hambre o sed?</td>
+<td style="text-align: left;"><strong>Ana</strong>: 배고프거나 목마르니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pedro</strong>: No, no tengo hambre. Solo dolor.</td>
+<td style="text-align: left;"><strong>Pedro</strong>: 아니, 배 안 고파. 그냥 아파.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ana</strong>: Tienes que ir al hospital o a la farmacia.</td>
+<td style="text-align: left;"><strong>Ana</strong>: 병원이나 약국에 가야 해.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Pedro</strong>: Sí, voy ahora con la doctora García.</td>
+<td style="text-align: left;"><strong>Pedro</strong>: 응, 지금 García 의사 선생님께 갈 거야.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<p>Check your progress! Can you do the following?<br />
+- [ ] List 15 body parts in Spanish with their articles.<br />
+- [ ] Conjugate <code>tener</code> for all 6 subject pronouns without looking.<br />
+- [ ] Explain the difference between "I am hungry" and "Tengo hambre".<br />
+- [ ] Name the primary health center type in Spain.</p>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Excelente trabajo! You've successfully navigated the first chapter of your Spanish journey. You now have the tools to talk about your physical self and basic needs. Remember, learning a language is like exercising a muscle—keep practicing the <code>tener</code> phrases daily. ¡Hasta pronto!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<p><strong>6. Práctica A</strong>: 1-c, 2-d, 3-b, 4-a, 5-e<br />
+<strong>6. Práctica B</strong>: 1. tengo, 2. tenemos, 3. tienes, 4. tiene, 5. tienen<br />
+<strong>6. Práctica C</strong>: <br />
+1. Tengo dolor de cabeza. <br />
+2. ¿Tiene usted hambre? <br />
+3. Tenemos sed. <br />
+4. Ellos tienen frío. <br />
+5. ¿Tienes sueño?</p>
+</div>
+</body>
+</html>
