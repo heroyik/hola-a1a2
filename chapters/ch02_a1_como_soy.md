@@ -21,24 +21,25 @@ Who are you? How do you describe your personality and your physical appearance t
 
 Spanish adjectives often share roots with English academic or descriptive terms. Use these links to build your vocabulary faster!
 
-| Spanish | English Bridge | Korean Tip |
-26: | el **alto** | **Altitude** (height) ✅ | 고도를 뜻하는 altitude처럼 '키가 큰'을 의미합니다. |
-27: | el **bajo** | **Base** (bottom/low) | '낮은' 혹은 '키가 작은'을 뜻합니다. 베이스 기타를 떠올려보세요. |
-28: | el **gordo** | — | '뚱뚱한' 혹은 '살집이 있는'을 뜻합니다. (친한 사이엔 애칭으로도 쓰임) |
-29: | el **delgado** | **Delicate** (slender) | '날씬한' 혹은 '마른'을 뜻합니다. |
-30: | el **rubio** | **Ruby** (shining/reddish-gold) | '금발의'를 의미하며, 빛나는 보석 루비와 어원이 비슷합니다. |
-31: | el **moreno** | **Moor** (dark-skinned) | '검은 머리(피부)의'를 뜻하며, 역사적 맥락의 Moor와 연결됩니다. |
-32: | el **guapo** | — | '잘생긴' 혹은 '예쁜'을 뜻합니다. |
-33: | el **feo** | — | '못생긴'을 뜻합니다. |
-34: | el **calvo** | — | '대머리의'를 뜻합니다. |
-35: | la **barba** | **Barber** (one who cuts beards) ✅ | 이발사를 뜻하는 barber의 어원인 '수염'입니다. |
-36: | el **bigote** | — | '콧수염'을 뜻합니다. |
-37: | las **gafas** | — | '안경'을 뜻합니다. (중남미에선 lentes/anteojos 도 사용) |
-38: | **simpático/a** | **Sympathetic** (friendly/likable) ✅ | 단순히 동정하는 게 아니라 '성격이 좋은', '친절한' 뜻입니다. |
-39: | **trabajador/a** | — | '일꾼'이라는 뜻에서 온 '근면한/열심히 일하는'입니다. |
-40: | **tímido/a** | **Timid** ✅ (Perfect Cognate) | '내성적인' 혹은 '부끄러움을 타는' 뜻입니다. |
-41: | **alegre** | **Allergretto** (lively music tempo) | '명랑한' 혹은 '즐거운' 뜻으로, 음악 용어와 어원이 같습니다. |
-42: | **serio/a** | **Serious** ✅ (Perfect Cognate) | '진지한' 혹은 '엄격한' 뜻입니다. |
+| # | Spanish | English Bridge | Korean Tip |
+| :--- | :--- | :--- | :--- |
+| 1 | el **alto** | **Altitude** (height) ✅ | 고도를 뜻하는 altitude처럼 '키가 큰'을 의미합니다. |
+| 2 | el **bajo** | **Base** (bottom/low) | '낮은' 혹은 '키가 작은'을 뜻합니다. 베이스 기타를 떠올려보세요. |
+| 3 | el **gordo** | — | '뚱뚱한' 혹은 '살집이 있는'을 뜻합니다. (친한 사이엔 애칭으로도 쓰임) |
+| 4 | el **delgado** | **Delicate** (slender) | '날씬한' 혹은 '마른'을 뜻합니다. |
+| 5 | el **rubio** | **Ruby** (shining/reddish-gold) | '금발의'를 의미하며, 빛나는 보석 루비와 어원이 비슷합니다. |
+| 6 | el **moreno** | **Moor** (dark-skinned) | '검은 머리(피부)의'를 뜻하며, 역사적 맥락의 Moor와 연결됩니다. |
+| 7 | el **guapo** | — | '잘생긴' 혹은 '예쁜'을 뜻합니다. |
+| 8 | el **feo** | — | '못생긴'을 뜻합니다. |
+| 9 | el **calvo** | — | '대머리의'를 뜻합니다. |
+| 10 | la **barba** | **Barber** (one who cuts beards) ✅ | 이발사를 뜻하는 barber의 어원인 '수염'입니다. |
+| 11 | el **bigote** | — | '콧수염'을 뜻합니다. |
+| 12 | las **gafas** | — | '안경'을 뜻합니다. (중남미에선 lentes/anteojos 도 사용) |
+| 13 | **simpático/a** | **Sympathetic** (friendly/likable) ✅ | 단순히 동정하는 게 아니라 '성격이 좋은', '친절한' 뜻입니다. |
+| 14 | **trabajador/a** | — | '일꾼'이라는 뜻에서 온 '근면한/열심히 일하는'입니다. |
+| 15 | **tímido/a** | **Timid** ✅ (Perfect Cognate) | '내성적인' 혹은 '부끄러움을 타는' 뜻입니다. |
+| 16 | **alegre** | **Allergretto** (lively music tempo) | '명랑한' 혹은 '즐거운' 뜻으로, 음악 용어와 어원이 같습니다. |
+| 17 | **serio/a** | **Serious** ✅ (Perfect Cognate) | '진지한' 혹은 '엄격한' 뜻입니다. |
 
 ✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.
 
