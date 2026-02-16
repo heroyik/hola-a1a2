@@ -1,0 +1,399 @@
+{
+  "table_of_contents": {
+    "part_1": [
+      {
+        "lesson_id": "Lección 0",
+        "lesson_title": "예비과",
+        "key_sentences": [],
+        "grammar_and_expressions": [
+          "알파벳과 발음 | 강세",
+          "명사: 성과 수 | 형용사: 성과 수 | 부호"
+        ],
+        "communication": [],
+        "vocabulary_and_extra": []
+      },
+      {
+        "lesson_id": "Lección 1",
+        "lesson_title": "¡Hola!",
+        "key_sentences": [
+          "¡Buenos días!",
+          "¿Cómo te llamas?"
+        ],
+        "grammar_and_expressions": [
+          "주격인칭대명사 | ser 동사 | sí/no",
+          "¿Cómo te llamas? | 직업 명사"
+        ],
+        "communication": [
+          "직업, 국적 표현하기",
+          "이름 묻고 답하기"
+        ],
+        "vocabulary_and_extra": [
+          "인사말"
+        ]
+      },
+      {
+        "lesson_id": "Lección 2",
+        "lesson_title": "¿Cómo estás?",
+        "key_sentences": [
+          "Estoy bien",
+          "¿Cómo es tu amiga?"
+        ],
+        "grammar_and_expressions": [
+          "estar 동사 | 상태를 나타내는 형용사들",
+          "ser와 estar 동사 비교 | 외모나 성격을 나타내는 형용사들"
+        ],
+        "communication": [
+          "주어의 상태 표현하기",
+          "ser, estar 동사 구분하기"
+        ],
+        "vocabulary_and_extra": [
+          "가족명"
+        ]
+      },
+      {
+        "lesson_id": "Lección 3",
+        "lesson_title": "¿De dónde eres?",
+        "key_sentences": [
+          "Soy coreana",
+          "Seúl es muy grande"
+        ],
+        "grammar_and_expressions": [
+          "¿De dónde eres? | 국적형용사 | Sr., Sra., Srta.",
+          "관사 | mucho, muy"
+        ],
+        "communication": [
+          "국적 묻고 답하기",
+          "관사의 쓰임 알기"
+        ],
+        "vocabulary_and_extra": [
+          "국명과 국적형용사"
+        ]
+      },
+      {
+        "lesson_id": "Lección 4",
+        "lesson_title": "Este es mi amigo",
+        "key_sentences": [
+          "¿Qué es esto?",
+          "¿De quién es?"
+        ],
+        "grammar_and_expressions": [
+          "지시사 | aquí, ahí, allí",
+          "소유사 전치형 | 의문사 quién, quiénes | ser de 소유 관계 표현"
+        ],
+        "communication": [
+          "원근 관계 지시하기",
+          "의문사의 쓰임 알기 | 소유 관계 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "인사말"
+        ]
+      },
+      {
+        "lesson_id": "Lección 5",
+        "lesson_title": "Hay muchos libros",
+        "key_sentences": [
+          "¿Qué hay en la nevera?",
+          "¿Dónde está el banco?"
+        ],
+        "grammar_and_expressions": [
+          "hay, estar 동사 | 의문사 cuánto/a/os/as | 숫자",
+          "위치 부사 | 위치 표현"
+        ],
+        "communication": [
+          "위치 표현하기",
+          "적절한 위치 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "집과 방의 집기들"
+        ]
+      },
+      {
+        "lesson_id": "Lección 6",
+        "lesson_title": "Hablo español",
+        "key_sentences": [
+          "Hablas muy bien el español",
+          "¿Sabes andar en bicicleta?"
+        ],
+        "grammar_and_expressions": [
+          "규칙동사 현재형 | 의문사 por qué",
+          "saber, poder 동사 | 의문사"
+        ],
+        "communication": [
+          "규칙동사 쓰임 알기",
+          "saber, poder 쓰임 알기"
+        ],
+        "vocabulary_and_extra": [
+          "규칙동사"
+        ]
+      },
+      {
+        "lesson_id": "Lección 7",
+        "lesson_title": "¿Adónde vas?",
+        "key_sentences": [
+          "Voy al centro",
+          "Estamos en el primer piso"
+        ],
+        "grammar_and_expressions": [
+          "ir, venir, hacer 동사 | ir/venir a + 동사원형",
+          "tener 동사 | tener 관용표현 | 서수"
+        ],
+        "communication": [
+          "미래의 계획 표현하기",
+          "tener의 다양한 쓰임 알기"
+        ],
+        "vocabulary_and_extra": [
+          "신체 부위 명칭, 상대의 말을 이해하기 힘들 때 쓰는 표현"
+        ]
+      },
+      {
+        "lesson_id": "Lección 8",
+        "lesson_title": "Te doy un regalo",
+        "key_sentences": [
+          "¿Me conoces?",
+          "Te lo voy a dar"
+        ],
+        "grammar_and_expressions": [
+          "conocer, dar, pensar 동사 | 간접목적대명사, 직접목적대명사",
+          "decir 동사 | 전치격 인칭대명사 | 동사원형과 함께 쓰는 목적대명사"
+        ],
+        "communication": [
+          "목적대명사의 쓰임 알기",
+          "전치격 인칭대명사의 쓰임 알기"
+        ],
+        "vocabulary_and_extra": [
+          "감탄문, 기원 표현"
+        ]
+      },
+      {
+        "lesson_id": "Lección 9",
+        "lesson_title": "En el restaurante",
+        "key_sentences": [
+          "¿Qué quieren de primero?",
+          "Se la traigo ahora"
+        ],
+        "grammar_and_expressions": [
+          "querer, preferir 동사",
+          "간접목적대명사 se | 목적대명사의 중복 사용 | traer, poner 동사"
+        ],
+        "communication": [
+          "식사 주문하기 | 선호도 표현하기",
+          "목적대명사의 중복 사용 알기"
+        ],
+        "vocabulary_and_extra": [
+          "먹거리 및 식기류"
+        ]
+      },
+      {
+        "lesson_id": "Lección 10",
+        "lesson_title": "Hace buen tiempo",
+        "key_sentences": [
+          "Llueve en invierno",
+          "Hay que ser más abiertos a los cambios"
+        ],
+        "grammar_and_expressions": [
+          "¿Qué tiempo hace? | salir, volver 동사 | hacer + 시간 + que",
+          "의무 표현 | ver 동사 | un poco/un poco de/poco"
+        ],
+        "communication": [
+          "날씨 표현하기 | 경과된 시간 표현하기",
+          "의무 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "계절, 방위, 하루의 시간대 구분"
+        ]
+      },
+      {
+        "lesson_id": "Lección 11",
+        "lesson_title": "Hoy es 1 de junio",
+        "key_sentences": [
+          "¿Qué fecha es hoy?",
+          "¿Qué hora es?"
+        ],
+        "grammar_and_expressions": [
+          "날짜 | 요일",
+          "¿Qué hora es? | 특정 행위의 시간 표현"
+        ],
+        "communication": [
+          "날짜와 요일 말하기",
+          "시간 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "시간 관련 표현, 지난 시간과 오는 시간, 교통수단"
+        ]
+      }
+    ],
+    "part_2": [
+      {
+        "lesson_id": "Lección 1",
+        "lesson_title": "¿Qué fruta te gusta?",
+        "key_sentences": [
+          "Me gustan las fresas",
+          "¿Tienes algo de comer?"
+        ],
+        "grammar_and_expressions": [
+          "gustar 동사 | 색",
+          "부정어"
+        ],
+        "communication": [
+          "선호도 표현하기 | 색깔 표현하기",
+          "정해지지 않은 사람과 사물 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "스포츠, 취미, 동의와 반의"
+        ]
+      },
+      {
+        "lesson_id": "Lección 2",
+        "lesson_title": "¿Cómo le queda la falda?",
+        "key_sentences": [
+          "Me queda bien",
+          "¿Te duele algo?"
+        ],
+        "grammar_and_expressions": [
+          "quedar 동사 | 가격 묻기",
+          "doler, interesar, importar 동사 | 숫자"
+        ],
+        "communication": [
+          "상점에서 옷 고르기 | 가격 묻고 답하기",
+          "아픈 곳 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "의류, 쇼핑하기"
+        ]
+      },
+      {
+        "lesson_id": "Lección 3",
+        "lesson_title": "Me levanto a las siete",
+        "key_sentences": [
+          "Mi rutina diaria",
+          "Estas revistas son mías"
+        ],
+        "grammar_and_expressions": [
+          "재귀동사",
+          "소유사 후치형 | 호칭어 Don, Doña"
+        ],
+        "communication": [
+          "일상을 표현하기",
+          "소유 관계 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "기타 재귀동사"
+        ]
+      },
+      {
+        "lesson_id": "Lección 4",
+        "lesson_title": "Estoy estudiando español",
+        "key_sentences": [
+          "¿Qué estás haciendo?",
+          "Este es más caro que aquel"
+        ],
+        "grammar_and_expressions": [
+          "현재진행형 | 부사의 파생",
+          "비교급 | 최상급"
+        ],
+        "communication": [
+          "현재의 진행을 표현하기",
+          "비교 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "절대최상급, 만남 약속 정하기"
+        ]
+      },
+      {
+        "lesson_id": "Lección 5",
+        "lesson_title": "Cantarán en la fiesta",
+        "key_sentences": [
+          "Iré si lo termino",
+          "Me parece muy guapa"
+        ],
+        "grammar_and_expressions": [
+          "미래시제 | 가정문과 접속사 si",
+          "parecer 동사 | pensar, opinar, creer 동사 | 관계사 que, donde"
+        ],
+        "communication": [
+          "미래 표현하기 | 가정문 만들기",
+          "의견이나 생각 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "미래의 시간 표현, 동의 표현, 확신의 정도 표현"
+        ]
+      },
+      {
+        "lesson_id": "Lección 6",
+        "lesson_title": "Ayer llegué tarde",
+        "key_sentences": [
+          "¿Ha pasado algo?",
+          "Ayer recibí una noticia muy buena"
+        ],
+        "grammar_and_expressions": [
+          "현재완료",
+          "단순과거"
+        ],
+        "communication": [
+          "가까운 과거 표현하기",
+          "종결된 과거 표현하기"
+        ],
+        "vocabulary_and_extra": [
+          "전화 통화, 빈도 표현"
+        ]
+      },
+      {
+        "lesson_id": "Lección 7",
+        "lesson_title": "¿Cómo eras de niña?",
+        "key_sentences": [
+          "Me gustaba mucho jugar",
+          "Había mucha gente"
+        ],
+        "grammar_and_expressions": [
+          "불완료과거",
+          "단순과거와 불완료과거 비교"
+        ],
+        "communication": [
+          "과거의 반복적인 행위 표현하기",
+          "과거의 사건과 상황 서술하기"
+        ],
+        "vocabulary_and_extra": [
+          "노래를 통해 과거 시제의 쓰임 알기"
+        ]
+      },
+      {
+        "lesson_id": "Lección 8",
+        "lesson_title": "Ya había salido el tren",
+        "key_sentences": [
+          "Yo había aprendido español",
+          "Acabo de comprar una moto"
+        ],
+        "grammar_and_expressions": [
+          "과거완료",
+          "전치사와 함께 쓰는 동사들"
+        ],
+        "communication": [
+          "과거완료 표현하기",
+          "여러 동사 표현들 익히기"
+        ],
+        "vocabulary_and_extra": [
+          "문자메시지를 이용해 과거 시제와 동사구의 쓰임 알기"
+        ]
+      },
+      {
+        "lesson_id": "Lección 9",
+        "lesson_title": "Siga recto",
+        "key_sentences": [
+          "Tome la primera calle",
+          "No te preocupes"
+        ],
+        "grammar_and_expressions": [
+          "긍정명령형",
+          "부정명령형"
+        ],
+        "communication": [
+          "길 안내하기",
+          "부정명령문 말하기"
+        ],
+        "vocabulary_and_extra": [
+          "명령형 감탄사, 명령의 의미로 쓸 수 있는 표현"
+        ]
+      }
+    ]
+  }
+}

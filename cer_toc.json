@@ -1,0 +1,1453 @@
+{
+  "curriculum_name": "Plan Curricular del Instituto Cervantes - Nociones específicas (A1-A2)",
+  "source_structure_logic": "First occurrence = A1, Second occurrence = A2 (based on text redundancy in sources)",
+  "content": [
+    {
+      "section_id": "1",
+      "section_title": "Individuo: dimensión física",
+      "subsections": [
+        {
+          "id": "1.1",
+          "title": "Partes del cuerpo",
+          "A1": [
+            "pelo, ojo, nariz",
+            "cabeza, cara, brazo, mano, dedo, pierna, pie",
+            "oído, muela, garganta, estómago, espalda"
+          ]
+        },
+        {
+          "id": "1.2",
+          "title": "Características físicas",
+          "A1": [
+            "ser ~ alto/bajo/gordo/ delgado/guapo/feo",
+            "ser ~ rubio/moreno",
+            "tener el pelo ~ rubio/moreno/blanco",
+            "llevar/tener ~ barba/bigote/gafas",
+            "tener los ojos ~ claros/oscuros/azules/ verdes/negros/marrones",
+            "tener los ojos ~ grandes/pequeños",
+            "ser/estar ~ calvo",
+            "tener/llevar ~ el pelo ~ liso/rizado/ largo/corto",
+            "llevar ~ una gorra/un sombrero/un pañuelo"
+          ]
+        },
+        {
+          "id": "1.3",
+          "title": "Acciones y posiciones que se realizan con el cuerpo",
+          "A1": [
+            "levantarse, ducharse",
+            "escuchar",
+            "lavarse, peinarse, afeitarse",
+            "andar, pasear, correr",
+            "subir, bajar, sentarse",
+            "ver, oír",
+            "coger",
+            "hacer ~ ejercicio/gimnasia/deporte"
+          ]
+        },
+        {
+          "id": "1.4",
+          "title": "Ciclo de la vida y reproducción",
+          "A1": [
+            "sexo",
+            "nacer, crecer, tener un hijo, morir"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "2",
+      "section_title": "Individuo: dimensión perceptiva y anímica",
+      "subsections": [
+        {
+          "id": "2.1",
+          "title": "Carácter y personalidad",
+          "A1": [
+            "simpático, antipático, inteligente, trabajador, alegre, serio, tímido, sociable",
+            "carácter",
+            "optimista, abierto, reservado, tranquilo, nervioso, generoso, egoísta, amable, agradable, tolerante"
+          ]
+        },
+        {
+          "id": "2.2",
+          "title": "Sentimientos y estados de ánimo",
+          "A1": [
+            "estar ~ triste/contento/enfadado/ nervioso/preocupado",
+            "gustar, encantar, odiar",
+            "tener miedo"
+          ]
+        },
+        {
+          "id": "2.3",
+          "title": "Sensaciones y percepciones físicas",
+          "A1": [
+            "tener ~ calor/frío/sueño/ sed/hambre/dolor",
+            "estar cansado",
+            "doler ~ la cabeza/el cuello",
+            "ver, mirar, oír, escuchar"
+          ]
+        },
+        {
+          "id": "2.6",
+          "title": "Valores personales",
+          "A1": [
+            "egoísta, tolerante"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "3",
+      "section_title": "Identidad personal",
+      "subsections": [
+        {
+          "id": "3.1.1",
+          "title": "Nombre",
+          "A1": [
+            "nombre, (primer/segundo) ~ apellido",
+            "señor, señora, señores",
+            "firmar",
+            "llamarse"
+          ],
+          "A2": [
+            "apellidarse",
+            "presentar(se)"
+          ]
+        },
+        {
+          "id": "3.1.2",
+          "title": "Dirección",
+          "A1": [
+            "dirección, correo electrónico",
+            "calle, avenida, paseo, plaza, piso, número, código postal",
+            "casa, habitación",
+            "país, ciudad, pueblo",
+            "vivir"
+          ],
+          "A2": [
+            "dirección electrónica"
+          ]
+        },
+        {
+          "id": "3.1.3",
+          "title": "Número de teléfono",
+          "A1": [
+            "número de teléfono",
+            "móvil"
+          ],
+          "A2": [
+            "prefijo",
+            "extensión"
+          ]
+        },
+        {
+          "id": "3.1.4",
+          "title": "Lugar y fecha de nacimiento",
+          "A1": [
+            "lugar de nacimiento",
+            "fecha de nacimiento"
+          ],
+          "A2": [
+            "nacer, morir"
+          ]
+        },
+        {
+          "id": "3.1.5",
+          "title": "Nacionalidad",
+          "A1": [
+            "nacionalidad",
+            "extranjero",
+            "español, alemán, mexicano, japonés, marroquí",
+            "ser ~ de Laos/de Bali/de Mozambique"
+          ],
+          "A2": [
+            "tener/pedir ~ la nacionalidad"
+          ]
+        },
+        {
+          "id": "3.1.6",
+          "title": "Edad",
+          "A1": [
+            "edad",
+            "niño, chico, joven, viejo",
+            "tener ~ [número cardinal]/muchos/pocos ~ años"
+          ],
+          "A2": [
+            "bebé, adolescente, persona mayor"
+          ]
+        },
+        {
+          "id": "3.1.7",
+          "title": "Sexo",
+          "A1": [
+            "hombre, mujer",
+            "niño, niña, chico, chica, señor, señora"
+          ]
+        },
+        {
+          "id": "3.1.8",
+          "title": "Estado civil",
+          "A1": [
+            "estado civil",
+            "soltero, casado, viudo, separado, divorciado",
+            "marido, mujer"
+          ],
+          "A2": [
+            "casarse, separarse, divorciarse"
+          ]
+        },
+        {
+          "id": "3.2",
+          "title": "Documentación",
+          "A1": [
+            "pasaporte, carné ~ de identidad/de conducir",
+            "tarjeta ~ de estudiante/de la biblioteca"
+          ]
+        },
+        {
+          "id": "3.3",
+          "title": "Objetos personales",
+          "A1": [
+            "llaves, cartera, bolso, maleta, reloj, móvil, gafas, ordenador, tarjeta de crédito",
+            "paraguas, agenda, tarjeta de visita, maletín"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "4",
+      "section_title": "Relaciones personales",
+      "subsections": [
+        {
+          "id": "4.1",
+          "title": "Relaciones familiares",
+          "A1": [
+            "familia, padres",
+            "padre, madre, hijo, hermano, tío, sobrino, abuelo, nieto, primo",
+            "marido, mujer",
+            "pareja, novio",
+            "papá, mamá",
+            "hijo único, (hermanos) gemelos",
+            "ex marido, ex mujer",
+            "vivir ~ juntos/con la pareja"
+          ]
+        },
+        {
+          "id": "4.2",
+          "title": "Relaciones sociales",
+          "A1": [
+            "amigo",
+            "jefe, compañero",
+            "vecino",
+            "socio, compañero ~ de clase/de trabajo/de piso",
+            "reunión, cita",
+            "visitar, invitar"
+          ]
+        },
+        {
+          "id": "4.3",
+          "title": "Celebraciones y actos familiares, sociales y religiosos",
+          "A1": [
+            "fiesta",
+            "fiesta ~ de cumpleaños/de fin de curso",
+            "regalo",
+            "regalar",
+            "hacer una fiesta ~ (de cumpleaños/de fin de curso)"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "5",
+      "section_title": "Alimentación",
+      "subsections": [
+        {
+          "id": "5.1",
+          "title": "Dieta y nutrición",
+          "A1": [
+            "desayuno, comida, merienda, cena",
+            "desayunar, comer, merendar, cenar",
+            "tener hambre",
+            "ser vegetariano"
+          ]
+        },
+        {
+          "id": "5.2",
+          "title": "Bebida",
+          "A1": [
+            "agua (mineral) ~ con gas/sin gas",
+            "leche, té, café ~ solo/con leche/cortado",
+            "cerveza, vino ~ blanco/tinto",
+            "beber",
+            "bebida ~ con/sin ~ alcohol/hielo",
+            "zumo ~ de naranja/de tomate/de frutas",
+            "infusión",
+            "ron, ginebra, cava, champán",
+            "botella, lata",
+            "tener sed",
+            "tomar algo"
+          ]
+        },
+        {
+          "id": "5.3",
+          "title": "Alimentos",
+          "A1": [
+            "carne, pescado, fruta, verdura, leche, huevos, pan",
+            "bocadillo, sándwich, hamburguesa",
+            "lechuga, tomate, zanahoria",
+            "plátano, manzana, naranja",
+            "patata, ajo, cebolla, perejil",
+            "queso, yogur, mantequilla, mayonesa, salsa",
+            "merluza, salmón, sardina, atún, gambas",
+            "pasta, arroz",
+            "chocolate, galletas, cereales",
+            "azúcar, sal, pimienta, aceite",
+            "carne de ~ ternera/cerdo/ cordero/pollo",
+            "filete",
+            "jamón ~ serrano/York",
+            "helado de ~ chocolate/fresa/vainilla",
+            "tarta de ~ manzana/crema/chocolate"
+          ]
+        },
+        {
+          "id": "5.4",
+          "title": "Recetas",
+          "A1": [
+            "receta, ingrediente",
+            "cocinar",
+            "llevar ~ salsa/arroz"
+          ]
+        },
+        {
+          "id": "5.5",
+          "title": "Platos",
+          "A1": [
+            "primer/segundo ~ plato, postre",
+            "sopa, ensalada, paella, tortilla",
+            "carne/filete ~ con patatas, plato combinado",
+            "tapa, aperitivo",
+            "bueno, rico"
+          ]
+        },
+        {
+          "id": "5.6",
+          "title": "Utensilios de cocina y mesa",
+          "A1": [
+            "plato",
+            "vaso, taza, botella",
+            "servilleta"
+          ]
+        },
+        {
+          "id": "5.7",
+          "title": "Restaurante",
+          "A1": [
+            "bar, restaurante",
+            "camarero",
+            "mesa",
+            "el menú, la cuenta",
+            "cafetería, pizzería, restaurante ~ chino/italiano/ mexicano/vegetariano",
+            "comida ~ china/japonesa/rápida",
+            "cocinero, chef",
+            "reservar una mesa",
+            "tomar/pedir ~ algo/el menú/una sopa/el plato del día",
+            "pedir/traer ~ la carta/el menú (del día)/la cuenta"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "6",
+      "section_title": "Educación",
+      "subsections": [
+        {
+          "id": "6.1",
+          "title": "Centros e instituciones educativas",
+          "A1": [
+            "instituto, universidad",
+            "clase, biblioteca",
+            "colegio, academia/escuela ~ de idiomas/de ballet/de música",
+            "biblioteca ~ municipal/pública",
+            "aula"
+          ]
+        },
+        {
+          "id": "6.2",
+          "title": "Profesorado y alumnado",
+          "A1": [
+            "profesor, estudiante, director, compañero",
+            "compañero de clase, alumno ~ de la escuela/del instituto"
+          ]
+        },
+        {
+          "id": "6.3",
+          "title": "Sistema educativo",
+          "A1": [
+            "clase ~ de español/de matemáticas/de historia",
+            "horario",
+            "examen",
+            "programa (del curso)",
+            "pagar la matrícula",
+            "hacer un curso"
+          ]
+        },
+        {
+          "id": "6.4",
+          "title": "Aprendizaje y enseñanza",
+          "A1": [
+            "aprender, estudiar",
+            "ir a clase",
+            "dar clases"
+          ]
+        },
+        {
+          "id": "6.5",
+          "title": "Exámenes y calificaciones",
+          "A1": [
+            "hacer/tener ~ un examen",
+            "diploma, certificado",
+            "aprobar, suspender"
+          ]
+        },
+        {
+          "id": "6.6",
+          "title": "Estudios y titulaciones",
+          "A1": [
+            "Matemáticas, Historia, Medicina, Derecho"
+          ]
+        },
+        {
+          "id": "6.7",
+          "title": "Lenguaje de aula",
+          "A1": [
+            "ejercicio, actividad",
+            "lección, unidad, página",
+            "pregunta",
+            "profesor, compañero",
+            "en parejas, en grupos",
+            "hablar, escuchar, leer, escribir",
+            "entender, comprender, saber",
+            "aprender, estudiar",
+            "repetir",
+            "practicar",
+            "hacer ~ los deberes/un ejercicio/una actividad/un examen",
+            "preguntar, contestar",
+            "completar, dibujar, jugar, adivinar",
+            "hacer ~ una redacción/un dibujo",
+            "memorizar/aprender ~ una regla/una fórmula",
+            "repasar ~ un ejercicio/una unidad/una lección",
+            "cometer un error, hacer errores",
+            "tener ~ buena/mala ~ letra"
+          ]
+        },
+        {
+          "id": "6.8",
+          "title": "Material educativo y mobiliario de aula",
+          "A1": [
+            "Internet, libro, diccionario",
+            "papel, bolígrafo, lápiz, goma, fotocopia",
+            "mesa, silla, armario, estantería",
+            "pizarra, ordenador, mapa",
+            "cuaderno, hoja",
+            "regla",
+            "impresora, fotocopiadora"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "7",
+      "section_title": "Trabajo",
+      "subsections": [
+        {
+          "id": "7.1",
+          "title": "Profesiones y cargos",
+          "A1": [
+            "abogado, médico, profesor, taxista, ama de casa",
+            "jefe, director",
+            "ser ~ camarero/ingeniero",
+            "trabajar (en), dedicarse a",
+            "dependiente, funcionario, comercial, empresario",
+            "trabajar/hacer ~ de canguro",
+            "tener ~ una tienda/un negocio/una peluquería",
+            "tener un trabajo en un banco"
+          ]
+        },
+        {
+          "id": "7.2",
+          "title": "Lugares, herramientas y ropa de trabajo",
+          "A1": [
+            "empresa, oficina, tienda",
+            "Internet, ordenador, teléfono, fax"
+          ],
+          "A2": [
+            "despacho, negocio, fábrica, multinacional",
+            "panadería, librería",
+            "mesa de despacho, fotocopiadora, impresora",
+            "traje, corbata, uniforme"
+          ]
+        },
+        {
+          "id": "7.3",
+          "title": "Actividad laboral",
+          "A1": [
+            "trabajo, profesión",
+            "trabajar, dedicarse a",
+            "comprar, vender",
+            "negocio, cliente",
+            "comprar un producto",
+            "tener una reunión"
+          ],
+          "A2": [
+            "hacer fotocopias",
+            "preparar una factura",
+            "contestar al teléfono",
+            "hablar ~ con clientes/con el jefe",
+            "enviar ~ un fax/un correo electrónico"
+          ]
+        },
+        {
+          "id": "7.4",
+          "title": "Desempleo y búsqueda de trabajo",
+          "A1": [
+            "estar en paro",
+            "tener trabajo",
+            "tener una entrevista (de trabajo)",
+            "escribir/enviar ~ el currículum"
+          ]
+        },
+        {
+          "id": "7.5",
+          "title": "Derechos y obligaciones laborales",
+          "A1": [
+            "trabajo, vacaciones",
+            "trabajar",
+            "tener vacaciones",
+            "ganar dinero",
+            "estar jubilado"
+          ]
+        },
+        {
+          "id": "7.6",
+          "title": "Características de un trabajador",
+          "A1": [
+            "ser trabajador"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "8",
+      "section_title": "Ocio",
+      "subsections": [
+        {
+          "id": "8.1",
+          "title": "Tiempo libre y entretenimiento",
+          "A1": [
+            "vacaciones, turista",
+            "oficina de ~ información/turismo",
+            "viajar",
+            "leer ~ el periódico/un libro/una revista",
+            "ver ~ la televisión/una película",
+            "escuchar ~ música/la radio/una canción",
+            "ir ~ a un bar/a una discoteca/a un café/a un restaurante/a un museo",
+            "ir ~ al cine/al teatro/al parque",
+            "cantar, bailar",
+            "tiempo libre",
+            "afición, hobby",
+            "parque ~ de atracciones/zoológico, zoo",
+            "invitar, quedar",
+            "ir ~ de paseo/de compras/de excursión, pasear, caminar",
+            "tener ~ una cita/planes, salir con amigos",
+            "tomar ~ algo/un café/una caña/una copa"
+          ]
+        },
+        {
+          "id": "8.2",
+          "title": "Espectáculos y exposiciones",
+          "A1": [
+            "película, concierto",
+            "ir ~ al teatro/al cine/al circo",
+            "ir a un concierto",
+            "entrada, invitación",
+            "programa",
+            "exposición, obra de teatro, ópera, musical, concierto ~ de música clásica/de rock",
+            "comprar/reservar ~ una entrada ~ (por teléfono/por Internet)"
+          ]
+        },
+        {
+          "id": "8.3",
+          "title": "Deportes",
+          "A1": [
+            "correr, nadar, esquiar",
+            "hacer ~ deporte/ejercicio/gimnasia",
+            "jugar ~ al fútbol/al baloncesto/al tenis",
+            "gimnasio, piscina",
+            "practicar un deporte, montar en bicicleta, hacer senderismo"
+          ]
+        },
+        {
+          "id": "8.4",
+          "title": "Juegos",
+          "A1": [
+            "juego",
+            "compañero (de juego)",
+            "jugar ~ a las cartas/al parchís/a la oca/al ajedrez"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "9",
+      "section_title": "Información y medios de comunicación",
+      "subsections": [
+        {
+          "id": "9.1",
+          "title": "Información y comunicación",
+          "A1": [
+            "televisión, radio, correo electrónico, teléfono",
+            "recibir/responder a ~ una postal/un fax/una llamada/un correo",
+            "preguntar, contestar"
+          ]
+        },
+        {
+          "id": "9.2",
+          "title": "Correspondencia escrita",
+          "A1": [
+            "sobre, sello, papel",
+            "escribir ~ una postal/una carta/un mensaje electrónico",
+            "enviar, recibir, responder",
+            "fax",
+            "enviar/recibir/responder ~ una postal/una carta/un fax",
+            "dejar/escribir ~ una nota",
+            "ir ~ a Correos"
+          ]
+        },
+        {
+          "id": "9.3",
+          "title": "Teléfono",
+          "A1": [
+            "número de teléfono",
+            "teléfono ~ fijo/móvil",
+            "tarjeta telefónica",
+            "cabina",
+            "llamar/hablar ~ por teléfono",
+            "dejar un mensaje"
+          ]
+        },
+        {
+          "id": "9.4",
+          "title": "Prensa escrita",
+          "A1": [
+            "quiosco",
+            "leer ~ un periódico/una revista",
+            "entrevista",
+            "periodista"
+          ]
+        },
+        {
+          "id": "9.5",
+          "title": "Televisión y radio",
+          "A1": [
+            "ver la televisión",
+            "escuchar la radio",
+            "programa",
+            "anuncios, publicidad",
+            "presentador",
+            "ver un programa de televisión, escuchar un programa de radio"
+          ]
+        },
+        {
+          "id": "9.6",
+          "title": "Internet",
+          "A1": [
+            "Internet",
+            "arroba, guión, guión bajo, punto",
+            "página web",
+            "correo electrónico",
+            "dirección de Internet",
+            "foro (de discusión), chat",
+            "virus",
+            "navegar ~ por Internet/por la red",
+            "mandar/recibir/enviar/escribir ~ un mensaje electrónico"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "10",
+      "section_title": "Vivienda",
+      "subsections": [
+        {
+          "id": "10.1.2",
+          "title": "Compra y alquiler",
+          "A1": [
+            "comprar/vender/alquilar ~ un piso/un apartamento"
+          ],
+          "A2": [
+            "buscar ~ piso/alojamiento"
+          ]
+        },
+        {
+          "id": "10.1.3",
+          "title": "Ocupación",
+          "A1": [
+            "vivir ~ en una casa/en un apartamento/en un piso"
+          ],
+          "A2": [
+            "compartir piso",
+            "cambiarse de casa"
+          ]
+        },
+        {
+          "id": "10.2.1",
+          "title": "Tipos",
+          "A1": [
+            "casa, piso, apartamento, estudio"
+          ],
+          "A2": [
+            "edificio, chalé",
+            "piso de estudiantes"
+          ]
+        },
+        {
+          "id": "10.2.2",
+          "title": "Partes",
+          "A1": [
+            "habitación",
+            "ascensor, escalera",
+            "terraza, jardín",
+            "ventana, puerta",
+            "sala de estar, dormitorio, cocina, (cuarto de) baño, salón, garaje"
+          ],
+          "A2": [
+            "pasillo",
+            "suelo, techo, pared",
+            "dormitorio de invitados"
+          ]
+        },
+        {
+          "id": "10.2.3",
+          "title": "Personas",
+          "A2": [
+            "propietario"
+          ]
+        },
+        {
+          "id": "10.2.4",
+          "title": "Condiciones",
+          "A1": [
+            "viejo, nuevo",
+            "piso ~ exterior/interior/céntrico",
+            "bien/mal ~ comunicado",
+            "tener ~ ascensor/teléfono/ aire acondicionado/calefacción (central/individual)"
+          ],
+          "A2": [
+            "piso ~ de [número cardinal] habitaciones",
+            "amueblado, sin amueblar, en buen/mal ~ estado"
+          ]
+        },
+        {
+          "id": "10.3",
+          "title": "Actividades domésticas",
+          "A1": [
+            "limpio, sucio",
+            "limpiar ~ la casa/la cocina/el baño",
+            "lavar ~ los platos/la ropa"
+          ]
+        },
+        {
+          "id": "10.4.1",
+          "title": "Muebles y objetos domésticos",
+          "A1": [
+            "mesa, silla, cama, sofá",
+            "sillón, armario, estantería",
+            "ducha, lavabo"
+          ]
+        },
+        {
+          "id": "10.4.2",
+          "title": "Electrodomésticos",
+          "A1": [
+            "radio, televisión (TV), vídeo, DVD"
+          ],
+          "A2": [
+            "cocina ~ eléctrica/de gas",
+            "nevera, lavadora, lavaplatos, microondas, cocina"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "11",
+      "section_title": "Servicios",
+      "subsections": [
+        {
+          "id": "11.1",
+          "title": "Servicio postal",
+          "A1": [
+            "carta, postal",
+            "sobre, sello, papel",
+            "código postal",
+            "(oficina de) correos",
+            "enviar/recibir ~ una carta/una postal",
+            "ir a Correos"
+          ]
+        },
+        {
+          "id": "11.3",
+          "title": "Servicios financieros",
+          "A1": [
+            "banco",
+            "dinero, euro, céntimo (de euro)",
+            "tarjeta (de crédito)",
+            "cambiar dinero",
+            "moneda, billete",
+            "cajero automático"
+          ]
+        },
+        {
+          "id": "11.4",
+          "title": "Servicios sanitarios",
+          "A1": [
+            "hospital",
+            "médico, enfermera",
+            "Seguridad Social",
+            "ambulancia",
+            "Cruz Roja"
+          ]
+        },
+        {
+          "id": "11.6",
+          "title": "Servicios de protección y seguridad",
+          "A1": [
+            "policía, bombero",
+            "comisaría (de policía)",
+            "socorro",
+            "llamar ~ a la policía/a los bomberos"
+          ]
+        },
+        {
+          "id": "11.7",
+          "title": "Servicios sociales",
+          "A1": [
+            "teléfono de emergencia"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "12",
+      "section_title": "Compras, tiendas y establecimientos",
+      "subsections": [
+        {
+          "id": "12.1",
+          "title": "Lugares, personas y actividades",
+          "A1": [
+            "(super)mercado, tienda",
+            "salida, información",
+            "comprador, vendedor",
+            "comprar, vender",
+            "centro comercial, papelería, peluquería, quiosco",
+            "estanco",
+            "frutería, carnicería, panadería",
+            "tienda de ~ ropa/de deportes/de regalos/de decoración/de discos",
+            "agencia de viajes",
+            "frutero, carnicero, panadero",
+            "dependiente, cliente",
+            "devolver, cambiar",
+            "ir ~ de compras/de tiendas",
+            "hacer la compra"
+          ]
+        },
+        {
+          "id": "12.2",
+          "title": "Ropa, calzado y complementos",
+          "A1": [
+            "pantalones, (pantalones) vaqueros, falda, camisa, jersey, zapatos, bolso",
+            "blusa, traje, pijama, cazadora",
+            "gorra, sombrero, pañuelo, guantes, bufanda",
+            "sujetador, braga, calzoncillo, medias, calcetines",
+            "bañador, biquini",
+            "botas",
+            "probador",
+            "ropa ~ de hombre/de mujer/de niño",
+            "ponerse, quitarse, probarse"
+          ]
+        },
+        {
+          "id": "12.3",
+          "title": "Alimentación",
+          "A1": [
+            "docena de huevos, lata ~ de tomate/de atún, paquete ~ de harina/de arroz, caja de galletas, bote ~ de mermelada/de tomate, litro ~ de leche/de agua, kilo ~ de patatas/de filetes",
+            "un/medio/un cuarto de ~ kilo, cien/doscientos.~ gramos",
+            "hacer la lista de la compra",
+            "pesar"
+          ]
+        },
+        {
+          "id": "12.4",
+          "title": "Pagos",
+          "A1": [
+            "precio",
+            "dinero, billete, euro, céntimo (de euro), tarjeta",
+            "pagar con tarjeta",
+            "dejar/dar ~ una propina",
+            "con/sin ~ IVA",
+            "pagar en efectivo"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "13",
+      "section_title": "Salud e higiene",
+      "subsections": [
+        {
+          "id": "13.1",
+          "title": "Salud y enfermedades",
+          "A1": [
+            "estar ~ enfermo/malo",
+            "sentirse ~ bien/mal",
+            "tener ~ gripe/alergia/fiebre/tos",
+            "llevar una vida sana, tener una enfermedad"
+          ]
+        },
+        {
+          "id": "13.3",
+          "title": "Síntomas",
+          "A1": [
+            "tener dolor ~ de cabeza/de espalda/de estómago",
+            "tener ~ tos/fiebre",
+            "doler",
+            "estar cansado"
+          ]
+        },
+        {
+          "id": "13.4",
+          "title": "Centros de asistencia sanitaria",
+          "A1": [
+            "médico, enfermero",
+            "ir ~ al hospital/al médico",
+            "Seguridad Social",
+            "ambulancia, urgencias"
+          ]
+        },
+        {
+          "id": "13.5",
+          "title": "Medicina y medicamentos",
+          "A1": [
+            "farmacia",
+            "tomar ~ una medicina/un medicamento"
+          ]
+        },
+        {
+          "id": "13.6",
+          "title": "Higiene",
+          "A1": [
+            "agua, jabón",
+            "lavarse ~ la cara/las manos/el pelo/los dientes",
+            "ducharse, bañarse",
+            "ducha, bañera, toalla",
+            "champú, gel, crema, colonia, desodorante",
+            "cepillo/pasta ~ de dientes",
+            "tener/llevar ~ el pelo/las manos/los dientes ~ limpios/sucios",
+            "afeitarse, peinarse, cepillarse los dientes"
+          ]
+        },
+        {
+          "id": "13.7",
+          "title": "Estética",
+          "A1": [
+            "tener/llevar ~ el pelo largo/corto/ rizado/liso"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "14",
+      "section_title": "Viajes, alojamiento y transporte",
+      "subsections": [
+        {
+          "id": "14.1.1",
+          "title": "Objetos y documentos relacionados con los viajes",
+          "A1": [
+            "carné de identidad, pasaporte",
+            "maleta, bolso",
+            "plano, mapa",
+            "información, publicidad",
+            "comprar un billete ~ de ida/de ida y vuelta"
+          ],
+          "A2": [
+            "(des)hacer las maletas",
+            "mirar/consultar ~ un plano/un mapa",
+            "tener un seguro de viaje",
+            "reservar un billete ~ de tren/de avión/de autobús"
+          ]
+        },
+        {
+          "id": "14.1.2",
+          "title": "Tipos de viajes",
+          "A1": [
+            "vacaciones, turista",
+            "horario",
+            "oficina de información y turismo",
+            "ir ~ a Madrid/a la playa/a la montaña/al campo",
+            "ir a la playa",
+            "ir a la montaña"
+          ],
+          "A2": [
+            "guía turístico",
+            "vuelo, excursión",
+            "viaje ~ corto/largo",
+            "ir ~ de viaje/de excursión/de vacaciones",
+            "viajar ~ en avión/en barco/en tren/en coche/en autobús"
+          ]
+        },
+        {
+          "id": "La playa",
+          "title": "La playa (Sub-topic of Viajes)",
+          "A2": [
+            "bañador, biquini, gorra, sombrero, gafas, toalla",
+            "bañarse"
+          ]
+        },
+        {
+          "id": "La montaña",
+          "title": "La montaña (Sub-topic of Viajes)",
+          "A2": [
+            "botas (de montaña), mochila, abrigo, gorro, guantes, bufanda"
+          ]
+        },
+        {
+          "id": "14.2",
+          "title": "Alojamiento",
+          "A1": [
+            "hotel, habitación, campin",
+            "habitación ~ doble/individual/con ~ baño/teléfono/televisión/aire acondicionado",
+            "pensión completa, media pensión, alojamiento y desayuno",
+            "reservar, hacer una reserva"
+          ]
+        },
+        {
+          "id": "14.3.1",
+          "title": "Red de transportes",
+          "A1": [
+            "calle, carretera",
+            "aeropuerto, puerto, estación ~ de tren/de metro",
+            "parada ~ de autobús/de taxi/de metro",
+            "ir ~ andando/en coche/en taxi/en tren/en metro/en autobús/en avión/en barco"
+          ],
+          "A2": [
+            "carretera, calle, boca de metro",
+            "mirar ~ un plano de metro/un mapa"
+          ]
+        },
+        {
+          "id": "14.3.2",
+          "title": "Tipos de transporte",
+          "A1": [
+            "coche, metro, tren, autobús, taxi",
+            "conductor, taxista",
+            "aparcamiento, garaje",
+            "estación ~ de tren/de metro/de autobuses",
+            "ir ~ en metro/en coche/en autobús",
+            "puerto",
+            "ir/viajar ~ en barco",
+            "avión, aeropuerto",
+            "ir/viajar ~ en avión"
+          ],
+          "A2": [
+            "ciclista",
+            "coger/tomar ~ un taxi/el metro/el tren",
+            "montar ~ en bicicleta/en moto",
+            "coger un barco",
+            "piloto, azafata",
+            "viajar en avión",
+            "coger/tomar ~ el avión"
+          ]
+        },
+        {
+          "id": "14.3.3",
+          "title": "La conducción",
+          "A1": [
+            "carné de conducir",
+            "policía"
+          ],
+          "A2": [
+            "rueda",
+            "mecánico",
+            "lavar el coche"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "15",
+      "section_title": "Economía e industria",
+      "subsections": [
+        {
+          "id": "15.1.1",
+          "title": "Economía y dinero",
+          "A1": [
+            "dinero, tarjeta",
+            "caro, barato",
+            "cambiar dinero"
+          ],
+          "A2": [
+            "cheque, moneda, billete",
+            "rico, pobre"
+          ]
+        },
+        {
+          "id": "15.3.1",
+          "title": "Transacciones comerciales y mercados",
+          "A1": [
+            "vendedor, comprador",
+            "comprar, vender",
+            "pagar con tarjeta"
+          ],
+          "A2": [
+            "negocio",
+            "pagar en efectivo"
+          ]
+        },
+        {
+          "id": "15.3.3",
+          "title": "Publicidad, mercadotecnia",
+          "A2": [
+            "publicidad, anuncio"
+          ]
+        },
+        {
+          "id": "15.4.1",
+          "title": "Tipos de empresa y organización",
+          "A1": [
+            "empresa, oficina, tienda",
+            "jefe, director"
+          ],
+          "A2": [
+            "fábrica, negocio, despacho",
+            "empresario, presidente, empleado, cliente"
+          ]
+        },
+        {
+          "id": "15.5.3",
+          "title": "Pesca",
+          "A1": [
+            "pescado"
+          ]
+        },
+        {
+          "id": "15.5.1",
+          "title": "Construcción, industria pesada y ligera",
+          "A2": [
+            "fábrica",
+            "empresario"
+          ]
+        },
+        {
+          "id": "15.5.2",
+          "title": "Sector agropecuario",
+          "A2": [
+            "agricultor",
+            "cerdo, vaca, cordero"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "16",
+      "section_title": "Ciencia y tecnología",
+      "subsections": [
+        {
+          "id": "16.1",
+          "title": "Cuestiones generales",
+          "A1": [
+            "ciencia, tecnología",
+            "científico"
+          ]
+        },
+        {
+          "id": "16.3",
+          "title": "Matemáticas",
+          "A1": [
+            "número",
+            "Matemáticas"
+          ]
+        },
+        {
+          "id": "16.4",
+          "title": "Informática y nuevas tecnologías",
+          "A1": [
+            "ordenador",
+            "Internet",
+            "correo electrónico",
+            "página web",
+            "(ordenador) portátil, PC",
+            "informática, informático",
+            "CD-ROM , DVD",
+            "programa",
+            "navegar por Internet, chatear",
+            "virus"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "17",
+      "section_title": "Gobierno, política y sociedad",
+      "subsections": [
+        {
+          "id": "17.1.1",
+          "title": "Vida en comunidad",
+          "A1": [
+            "vecino"
+          ]
+        },
+        {
+          "id": "17.1.2",
+          "title": "Conducta social",
+          "A1": [
+            "amable, agradable, generoso",
+            "egoísta",
+            "educación"
+          ]
+        },
+        {
+          "id": "17.2.1",
+          "title": "Instituciones políticas y órganos de gobierno",
+          "A1": [
+            "país, capital",
+            "presidente",
+            "rey, reina"
+          ],
+          "A2": [
+            "gobierno, política, partido político",
+            "(primer) ministro",
+            "príncipe, princesa",
+            "Ayuntamiento"
+          ]
+        },
+        {
+          "id": "17.3",
+          "title": "Ley y justicia",
+          "A1": [
+            "abogado",
+            "juez"
+          ]
+        },
+        {
+          "id": "17.4",
+          "title": "Ejército",
+          "A1": [
+            "ejército",
+            "guerra, paz"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "18",
+      "section_title": "Actividades artísticas",
+      "subsections": [
+        {
+          "id": "18.1",
+          "title": "Disciplinas y cualidades artísticas",
+          "A1": [
+            "cine, teatro, música",
+            "película, concierto, foto",
+            "museo, exposición",
+            "ser ~ interesante/bonito/feo",
+            "arte, artista",
+            "fotografía, literatura",
+            "monumento, estatua, novela, poesía, obra de teatro, cuadro"
+          ]
+        },
+        {
+          "id": "18.2",
+          "title": "Música y danza",
+          "A1": [
+            "música",
+            "cantante",
+            "cantar, bailar",
+            "escuchar música",
+            "ir a un concierto",
+            "músico",
+            "canción",
+            "guitarra, piano, violín",
+            "flamenco, ópera, rock, pop, jazz",
+            "tango, salsa",
+            "(un) musical",
+            "música ~ clásica/moderna",
+            "tocar ~ (un instrumento)"
+          ]
+        },
+        {
+          "id": "18.3",
+          "title": "Arquitectura, escultura y pintura",
+          "A1": [
+            "museo, exposición",
+            "edificio, monumento",
+            "catedral, iglesia",
+            "arquitecto, pintor",
+            "dibujo, cuadro, estatua",
+            "palacio, castillo",
+            "dibujar, pintar"
+          ]
+        },
+        {
+          "id": "18.4",
+          "title": "Literatura",
+          "A1": [
+            "libro",
+            "escribir, leer",
+            "literatura, escritor",
+            "novela, poesía, cuento"
+          ]
+        },
+        {
+          "id": "18.5",
+          "title": "Fotografía",
+          "A1": [
+            "foto",
+            "fotografía, fotógrafo",
+            "cámara (de fotos)",
+            "hacer ~ fotos/una foto",
+            "ver una exposición"
+          ]
+        },
+        {
+          "id": "18.6",
+          "title": "Cine y teatro",
+          "A1": [
+            "cine, teatro",
+            "película, actor, actriz",
+            "ir ~ al cine/al teatro",
+            "director",
+            "obra de teatro"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "19",
+      "section_title": "Religión y filosofía",
+      "subsections": [
+        {
+          "id": "19.1",
+          "title": "Religión",
+          "A1": [
+            "religión",
+            "cristiano, judío, musulmán, budista",
+            "ir ~ a la iglesia/a la mezquita/a la sinagoga",
+            "Iglesia",
+            "Navidad, Ramadán, Sabbat",
+            "creer ~ en Dios/en Alá/en la reencarnación"
+          ]
+        }
+      ]
+    },
+    {
+      "section_id": "20",
+      "section_title": "Geografía y naturaleza",
+      "subsections": [
+        {
+          "id": "20.1",
+          "title": "Universo y espacio",
+          "A1": [
+            "sol",
+            "mundo, cielo",
+            "luna, estrella, planeta"
+          ]
+        },
+        {
+          "id": "20.2.1",
+          "title": "Geografía física, humana y política",
+          "A1": [
+            "mapa, lugar",
+            "país, pueblo, ciudad, capital",
+            "Norte, Sur, Este, Oeste"
+          ],
+          "A2": [
+            "región",
+            "Noroeste, Nordeste, Suroeste, Sudeste"
+          ]
+        },
+        {
+          "id": "20.2.2",
+          "title": "Paisaje y accidentes geográficos",
+          "A1": [
+            "montaña, mar, río, playa"
+          ],
+          "A2": [
+            "isla, desierto, bosque",
+            "costa, interior"
+          ]
+        },
+        {
+          "id": "20.3.1",
+          "title": "Ciudad",
+          "A1": [
+            "(el) centro",
+            "casa, calle, plaza, parque, restaurante, tienda, centro comercial, hospital, iglesia, colegio, escuela, museo",
+            "oficina de ~ información/turismo",
+            "parada ~ de autobús/de taxis/de metro, estación ~ de tren/de autobuses/de metro"
+          ],
+          "A2": [
+            "habitante",
+            "barrio, esquina",
+            "ayuntamiento, catedral, castillo, palacio, plaza mayor",
+            "monumento, estatua",
+            "calle ~ peatonal/mayor/comercial",
+            "ciudad ~ cosmopolita/abierta/industrial/ antigua/moderna/universitaria"
+          ]
+        },
+        {
+          "id": "20.3.2",
+          "title": "Campo",
+          "A1": [
+            "campo, pueblo"
+          ],
+          "A2": [
+            "naturaleza",
+            "bosque, jardín"
+          ]
+        },
+        {
+          "id": "20.4",
+          "title": "Clima y tiempo atmosférico",
+          "A1": [
+            "primavera, verano, otoño, invierno",
+            "llover, nevar",
+            "hacer ~ frío/calor/sol/viento",
+            "hacer ~ buen/mal ~ tiempo",
+            "lluvia, nieve, niebla, tormenta",
+            "nube, aire",
+            "viento ~ del norte/del sur"
+          ]
+        },
+        {
+          "id": "20.5",
+          "title": "Fauna",
+          "A1": [
+            "animal",
+            "perro, gato, pájaro, pez",
+            "caballo, vaca, cerdo",
+            "mosca, mosquito, araña"
+          ]
+        },
+        {
+          "id": "20.6",
+          "title": "Flora",
+          "A1": [
+            "planta, flor, árbol",
+            "rosa, margarita",
+            "bosque, hoja",
+            "pino, olivo",
+            "ramo de flores"
+          ]
+        }
+      ]
+    }
+  ]
+}
