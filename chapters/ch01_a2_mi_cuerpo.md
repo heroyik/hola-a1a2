@@ -1,181 +1,158 @@
-# Chapter 1: El cuerpo y la anatomía (Nivel A2) 🧠🫁💪
+# Chapter 1. Anatomía y Salud (A2) — 인체와 건강
 
-> **Cervantes**: §1 Individuo: dimensión física (Internal organs) + §13 Salud y bienestar
+## 1. Opener (서문)
+¡Bienvenidos de nuevo! A1 레벨에서 우리 몸의 겉모습을 묘사하는 법을 배웠다면, 이제 A2 레벨에서는 신체 내부의 신비로운 장기들과 우리 삶의 가장 소중한 가치인 '건강'에 대해 더 깊이 있게 탐구해 보겠습니다. 병원이나 약국에서 자신의 증상을 상세히 설명하고, 스페인 사람들의 건강 비결인 식단 문화를 이해하는 능력을 길러보겠습니다.
 
----
+### 학습 목표 (Objetivos)
+1. **어휘**: 심장, 폐, 뇌 등 주요 내부 장기와 골격, 근육 체계에 관한 전문 어휘 20개 이상을 습득합니다.
+2. **문법**: 통증을 표현하는 `Doler` 동사의 특수한 문장 구조(역구조/Gustar류)를 완벽하게 이해하고 활용합니다.
+3. **문화**: 유네스코 문화유산이자 세계 최고의 건강 식단으로 꼽히는 '지중해 식단(Dieta Mediterránea)'의 원리와 생활 철학을 배웁니다.
+4. **활용**: 의사와의 상담 시 어디가 어떻게 아픈지 구체적인 시점과 강도를 포함해 말할 수 있습니다.
 
-## 1. Opener (Más allá de la piel)
-
-¡Bienvenidos de nuevo! A1에서 우리가 '거울에 비친 모습'을 공부했다면, A2에서는 한 걸음 더 깊이 들어가 **우리 몸 안에서 일어나는 신비로운 일들**을 스페인어로 탐험해 보겠습니다. 
-
-우리 몸은 하나의 정교한 기계와 같습니다. 심장이 뛰고, 폐가 숨을 쉬며, 뇌가 명령을 내리는 이 모든 과정을 스페인어로 설명할 수 있다면 어떨까요? "심장이 빠르게 뛰어요", "근육을 키우고 싶어요", "건강한 식단이 중요해요"와 같은 구체적인 표현들은 여러분의 스페인어 구사력을 전문가 수준으로 끌어올려 줄 것입니다.
-
-특히 이번 챕터에서는 동사 변화의 정석을 넘어, **목적어 대명사**와 **감정/상태를 나타내는 표현**들을 심화 학습합니다. 단순한 단어의 나열이 아닌, 조화로운 문장을 만드는 즐거움을 느껴보세요. 더 건강하고 똑똑한 스페인어 여행, 지금 바로 시작합니다! ¡Adelante con pasión! ❤️🇪🇸🧠
-
-### ¿Sabías que...? (문화 한 조각) 🤔
-
-> **La siesta y la salud (시에스타와 건강)**
-> 스페인의 '시에스타' 문화는 단순히 잠을 자는 시간이 아닙니다. 과학적으로도 점심 식사 후 짧은 휴식은 심장(Corazón) 질환을 예방하고 스트레스를 낮추는 등 신체 내부의 건강에 큰 도움을 준다고 알려져 있습니다. 스페인 사람들이 건강하고 활기찬 비밀, 바로 이 짧은 휴식의 미학에 있을지도 모릅니다.
+### ¿Sabías que...? (알고 계셨나요?)
+스페인은 전 세계 장기 기증 및 이식 분야에서 수십 년째 1위를 차지하고 있는 의료 선진국입니다. 이는 뛰어난 의료 시스템뿐만 아니라 타인의 생명을 소중히 여기는 사회적 분위기가 반영된 결과라고 하니, '신체'와 '건강'을 대하는 이들의 태도를 엿볼 수 있는 대목입니다.
 
 ---
 
-## 2. Vocabulario Esencial
+## 2. Vocabulario Esencial: Anatomía Interna (내부 해부학)
 
-### 2.1 Anatomía Interna — 내부 해부학 🧠🫁
+우리 몸의 엔진 역할을 하는 내부 기관들을 정밀한 일러스트와 함께 살펴봅시다.
 
-![Anatomía Interna Illustration (A2)](file:///Users/ikyoon/.gemini/antigravity/brain/1b710f87-7082-4e3c-a664-5d801694e66b/ch01_a2_master_final_v411_internal_anatomy.png)
+![인체 내부 구조 다이어그램 - Imagen 3 (Medical Anime - 100% Vocab Mapping)](file:///Users/ikyoon/.gemini/antigravity/brain/1b710f87-7082-4e3c-a664-5d801694e66b/ch01_a2_anatomy_v420_retry_1771247100000_1771247034148.png)
 
-A1보다 한 단계 깊은 내부 기관의 명칭입니다. 영어 단어와의 연관성(Bridge)에 주목해 보세요!
+### 내부 장기 및 시스템 상세 어휘 (Vocabulario de Órganos)
 
-| Spanish | English Bridge | Korean |
-| :--- | :--- | :--- |
-| **el cerebro** | **cerebral** ✅ (뇌의) | 뇌 |
-| **el corazón** | **cordial** (마음에서 우러나오는) | 심장/하트 |
-| **los pulmones** | **pulmonary** ✅ (폐의) | 폐 |
-| **el hígado** | — | 간 |
-| **los riñones** | **renal** ✅ (신장의) | 신장/콩팥 |
-| **los huesos** | **fossil** (뼈가 굳은 화석) | 뼈 |
-| **los músculos** | **muscles** ✅ (Perfect Cognate) | 근육 |
-| **la sangre** | **sanguine** (혈색이 좋은/낙천적인) | 피/혈액 |
-| **el sistema** | **system** ✅ (Perfect Cognate) | 계통/시스템 |
-
-> **✅: 영어 단어와 어원이 동일하거나 매우 유사하여 암기가 쉬운 단어(Perfect Cognate)를 의미합니다.** 💡✨
-
----
-
-## 3. Expresiones Útiles 💬
-
-A2 수준의 더 구체적이고 실용적인 표현들입니다.
-
-- **Mantenerse en forma es vital.** 🏃‍♂️ (건강을 유지하는 것은 필수적입니다.)
-- **Tengo que cuidar mi alimentación.** 🍎 (식단 관리를 해야 합니다.)
-- **Me siento muy fuerte hoy.** 💪 (오늘 정말 힘이 넘치는 것 같아요.)
-- **El corazón late rápidamente.** 💓 (심장이 빠르게 뜁니다.)
-- **Los huesos necesitan calcio.** 🥛 (뼈에는 칼슘이 필요합니다.)
-
----
-
-## 4. Gramática Esencial 📝
-
-### 4.1 규칙 동사 표준 변화 (hablar, comer, vivir)
-
-A2에서도 기초는 변하지 않습니다. 다시 한번 변화표를 복습하며 완벽하게 입에 붙여봅시다.
-
-| Sujeto | hablar (-ar) | comer (-er) | vivir (-ir) |
+| Spanish | English | Korean | 암기 팁 & 전문가적 이해 (English Bridge) |
 | :--- | :--- | :--- | :--- |
-| **yo** | hablo | como | vivo |
-| **tú** | hablas | comes | vives |
-| **él / ella / usted** | habla | come | vive |
-| **nosotros / as** | hablamos | comemos | vivimos |
-| **vosotros / as** | habláis | coméis | vivís |
-| **ellos / ellas / ustedes** | hablan | comen | viven |
+| **Corazón** ✅ | **Heart (Core)** | 심장 | 몸의 '핵심(Core)'이자 중심, '코어 운동' 생각하기 |
+| **Pulmón** ✅ | **Lung (Pulmonary)** | 폐 | 폐 질환을 뜻하는 'Pulmonary'와 같은 어원 |
+| **Estómago** ✅ | **Stomach** | 위(장) | 영어 단어와 거의 흡사하며 발음 주의(에스또마고) |
+| **Cerebro** ✅ | **Brain (Cerebral)** | 뇌 | 지적인 활동인 'Cerebral'(뇌의)과 연결 |
+| **Hueso** | **Bone** | 뼈 | 구멍이 숭숭 뚫린 '우에소(Hueso)' 모양 연상 |
+| **Sangre** ✅ | **Blood (Sanguine)** | 피 | '낙천적인, 핏빛의' 뜻인 'Sanguine'과 어원 공유 |
+| **Músculo** ✅ | **Muscle** | 근육 | 철자가 거의 같습니다. 라틴어 'Musculus'에서 유래! |
+| **Espalda** | **Back** | 등 | 등을 보호하는 '견갑골' 방패(Escudo)와 발음 유사성 |
+| **Hígado** | **Liver** | 간 | 해독 작용의 주인공 '히가도' |
+| **Garganta** ✅ | **Throat (Gargle)** | 목구멍 | 목을 헹구는 행동인 'Gargle'을 기억하세요. |
 
-### 4.2 필수 불규칙 동사 심화 (Presente Irregular)
+> ✅: 영어 단어와 어원이 동일하거나 매우 유사하여 암기가 쉬운 단어 (English Bridge)
 
-지난 챕터의 핵심 동사들을 인칭별로 완벽하게 대조하며 외워봅시다.
+---
 
-#### [표 1] ser, estar, ir, tener
-| Sujeto | ser | estar | ir | tener |
-| :--- | :--- | :--- | :--- | :--- |
-| **yo** | **soy** | **estoy** | **voy** | **tengo** |
-| **tú** | eres | estás | vas | tienes |
-| **él / ella / usted** | es | está | va | tiene |
-| **nosotros / as** | somos | estamos | vamos | tenemos |
-| **vosotros / as** | sois | estáis | vais | tenéis |
-| **ellos / ellas / ustedes** | son | están | van | tienen |
+## 3. Expresiones Útiles (실전 건강 표현)
 
-#### [표 2] saber, poder
-| Sujeto | saber | poder |
+병원이나 일상에서 건강 상태를 표현할 때, 단순한 통증 그 이상의 맥락을 전달하는 법을 익힙니다.
+
+### 🚑 통증 및 증상 호소하기 (Describiendo síntomas)
+- **Me duele mucho la espalda desde ayer.** (어제부터 등이 너무 많이 아파요.)
+- **Tengo un dolor agudo en el corazón.** (심장에 날카로운 통증이 있습니다.)
+- **Me siento mareado y tengo muchas ganas de vomitar.** (어지럽고 토할 것 같은 느낌이 들어요.)
+- **Mi hermano está resfriado; tiene mucha tos y fiebre.** (내 형제는 감기에 걸렸어요. 기침과 열이 많아요.)
+
+### 💊 약국 및 병원에서 (En la farmacia o consulta)
+- **Necesito algo para el dolor de estómago.** (위통에 먹을 약이 좀 필요합니다.)
+- **¿Cada cuántas horas tengo que tomar esta medicina?** (이 약을 몇 시간마다 복용해야 하나요?)
+- **Quiero pedir cita con el médico de cabecera.** (전담 의사와 진료 예약을 하고 싶습니다.)
+- **Soy alérgico a la penicilina.** (저는 페니실린 알레르기가 있습니다.)
+
+---
+
+## 4. Gramática Esencial (핵심 문법)
+
+### Doler 동사 (중요: 역구조 동사)
+`Doler` 동사는 영어의 "It hurts me"와 유사한 논리를 가집니다. 통증을 느끼는 사람이 아니라, **아픈 부위가 주어**가 됩니다.
+
+| 통증 부위 (주어) | 동사 형태 (현재) | 예문 |
 | :--- | :--- | :--- |
-| **yo** | **sé** | **puedo** |
-| **tú** | sabes | puedes |
-| **él / ella / usted** | sabe | puede |
-| **nosotros / as** | sabemos | podemos |
-| **vosotros / as** | sabéis | podéis |
-| **ellos / ellas / ustedes** | saben | pueden |
+| **단수 (Singular)** | **duele** | **Me duele** la cabeza. (머리 하나가 아프다) |
+| **복수 (Plural)** | **duelen** | **Te duelen** los pies. (발들이 아프다) |
+
+### 💡 주의 사항 (Atención)
+주어에 따라 동사가 변하는 것이 아니라, **아픈 부위가 단수냐 복수냐**에 따라 `duele` 또는 `duelen` 딱 두 가지만 씁니다. 대신 "누가" 아픈지는 앞에 붙는 대명사(me, te, le, nos, os, les)가 결정합니다.
 
 ---
 
-## 5. Cultura Viva 🌍☀️
+## 5. Cultura Viva: La Dieta Mediterránea (문화 탐구) 🥗
 
-![Dieta Mediterránea Illustration](file:///Users/ikyoon/.gemini/antigravity/brain/1b710f87-7082-4e3c-a664-5d801694e66b/ch01_a2_master_final_v411_culture_mediterranean_diet_childsafe.png)
+스페인 대학교의 점심시간, 학생들은 패스트푸드 대신 신선한 샐러드와 올리브유를 곁들인 생선을 즐깁니다.
 
-**"La Dieta Mediterránea" — 유네스코가 인정한 건강의 비결**
-스페인의 건강 비결을 논할 때 **'지중해 식단(Dieta Mediterránea)'**을 빼놓을 수 없습니다. 신선한 올리브유, 제철 채소, 과일, 그리고 생선을 중심으로 하는 이 식단은 심장(Corazón) 건강을 지키는 최고의 식단으로 꼽힙니다. 스페인 사람들은 단순히 음식을 먹는 것이 아니라, 가족/친구와 함께 천천히 대화하며 식사를 즐기는 '정서적 건강' 또한 매우 중요하게 생각합니다. 좋은 음식과 좋은 사람들, 이것이 환상적인 스페인식 건강 비결입니다.
+![지중해 식단을 즐기는 대학생들 - Imagen 3 (University Style)](file:///Users/ikyoon/.gemini/antigravity/brain/1b710f87-7082-4e3c-a664-5d801694e66b/ch01_a2_culture_v420_retry_1771247100001_1771247051202.png)
 
----
-
-## 6. Práctica ✍️
-
-**A. 동사 변화 완성 (Fill in the blanks)**
-1. Mis músculos _______ (estar) fuertes porque yo _______ (ir) al gimnasio.
-2. Nosotros _______ (saber) que la sangre _______ (ser) vital.
-3. Ustedes _______ (poder) comer comida saludable.
-4. ¿Tú _______ (tener) dolor de huesos?
-
-**B. 신체 내부 기관 매칭 (Matching)**
-1. el cerebro  -  (A) 뇌
-2. los pulmones -  (B) 폐
-3. el hígado   -  (C) 간
-4. los riñones -  (D) 신장
-
-**C. 번역 연습 (Translation)**
-1. The heart pumps blood. (심장은 피를 펌프질합니다)
-   _________________________________________________
-2. I know the importance of health. (나는 건강의 중요성을 압니다)
-   _________________________________________________
-3. We can live a happy life. (우리는 행복한 삶을 살 수 있습니다)
-   _________________________________________________
+지중해 식단은 올리브유, 통곡물, 신선한 과일과 채소, 콩류, 견과류, 그리고 적당량의 생선과 유제품을 섭취하는 것을 골자로 합니다. 이는 단순한 건강식의 의미를 넘어, 가족이나 친구들과 함께 천천히 식사하며 삶을 즐기는 '생활 철학'에 가깝습니다. 영양학적으로 완벽할 뿐만 아니라 정신 건강에도 지대한 영향을 미친다고 하니, 여러분도 오늘 스페인식 샐러드 한 그릇 어떠신가요?
 
 ---
 
-## 7. Lectura 📖
+## 6. Práctica (연습 문제)
 
-**El motor de nuestra vida**
-El cuerpo humano es increíble. El **cerebro** controla todo lo que **hacemos** y **pensamos**. El **corazón** nunca descansa; **late** y envía **sangre** a todos los **músculos** y órganos. Los **pulmones** nos **dan** el oxígeno necesario para **vivir**. 
+### A. Doler 동사의 알맞은 형태 쓰기 (Duele / Duelen)
+1. A mis abuelos ________ los huesos por el frío.
+2. A mí me ________ mucho la garganta al tragar.
+3. ¿A ti te ________ los ojos por estudiar tanto?
+4. A usted le ________ el estómago después de comer.
 
-Para cuidar este sistema, **tenemos** que **comer** bien y hacer ejercicio. Yo **sé** que no siempre **es** fácil, 하지만 건강한 습관이 우리의 **huesos**를 튼튼하게 만듭니다. 우리는 매일 자신의 몸에 감사하며 살아야 합니다.
+### B. 장기 이름 맞히기 (Definition Match)
+1. Es el motor que bombea la sangre. (       )  a. Cerebro
+2. Es el órgano que usamos para pensar. (       )  b. Corazón
+3. Son dos y los usamos para respirar. (       )  c. Pulmones
 
-### [한국어 번역]
-**우리 삶의 엔진**
-인체는 놀랍습니다. 뇌(cerebro)는 우리가 하고 생각하는 모든 것을 조절합니다. 심장(corazón)은 결코 쉬지 않습니다; 심장은 뛰면서 모든 근육(músculos)과 장기로 피(sangre)를 보냅니다. 폐(pulmones)는 우리가 살아가기 위해 필요한 산소를 공급해 줍니다. 
-
-이 시스템을 관리하기 위해, 우리는 잘 먹고 운동을 해야 합니다. 나는 이것이 항상 쉽지는 않다는 것을 알지만, 건강한 습관이 우리의 뼈(huesos)를 튼튼하게 만듭니다. 우리는 매일 자신의 몸에 감사하며 살아야 합니다.
-
----
-
-## 8. Diálogo 🗣️
-
-**Una visita al médico (의사 선생님과의 상담)**
-
-| 캐릭터 | 스페인어 대화 | 한국어 번역 (구어체) |
-| :--- | :--- | :--- |
-| **Doctor** | Buenos días. ¿Cómo se siente hoy? | 안녕하세요. 오늘은 좀 어떠신가요? |
-| **Paciente** | No muy bien, doctor. **Me duele** el **estómago**. | 그리 좋지 않아요, 선생님. 배(위)가 좀 아파요. |
-| **Doctor** | Entiendo. ¿**Come** usted mucha comida rápida? | 그렇군요. 패스트푸드를 많이 드시나요? |
-| **Paciente** | A veces. Pero **sé** que **tengo** que cuidar mi dieta. | 가끔요. 근데 식단 관리를 해야 한다는 건 알고 있어요. |
-| **Doctor** | Es importante. Su **hígado** necesita alimentos sanos. | 중요합니다. 환자분의 간(hígado)은 건강한 음식이 필요해요. |
-| **Paciente** | ¿**Puedo** hacer ejercicio también? | 운동도 해도 될까요? |
-| **Doctor** | Sí, caminar **es** bueno para el **corazón**. | 네, 걷는 것은 심장(corazón)에 아주 좋습니다. |
-| **Paciente** | Gracias. **Voy** a seguir sus consejos. | 감사합니다. 선생님 조언대로 할게요. |
+### C. 번역 연습 (Traducir al coreano)
+1. El cerebro es la parte más compleja del cuerpo humano.
+2. Siento un dolor fuerte en la espalda baja.
+3. El médico dice que mis pulmones están muy sanos.
+4. ¿Le duelen los músculos después de correr el maratón?
 
 ---
 
-## 9. Repaso ✅
+## 7. Lectura (읽기) 📖
 
-A2 단계의 심화 내용을 다시 한번 정리해 봅시다. 단순 암기를 넘어 문맥을 이해해 보세요!
+### Un sistema perfecto
+El cuerpo humano es una máquina increíblemente compleja y perfecta. En el centro de todo está el corazón, que nunca descansa y envía sangre a cada rincón de nuestro organismo. Los pulmones nos permiten respirar el aire fresco de la mañana, mientras el cerebro procesa trillones de datos cada secondo. Para mantener este sistema en buen estado, es fundamental seguir la dieta mediterránea y hacer ejercicio. Muchos jóvenes en España cuidan sus músculos y sus huesos practicando deportes al aire libre. Recuerda: si algo te duele, es la voz de tu cuerpo pidiendo cuidado. ¡La salud es el tesoro más grande!
 
-1. **내부 기관 마스터**: `el cerebro`, `el corazón`, `los pulmones`, `el hígado`, `los riñones`, `los huesos`, `los músculos`, `la sangre` 등의 단어를 영어 어근과 연결 지어 설명할 수 있나요? (예: renal = 신장의)
-2. **동사의 규칙적 리듬**: `hablar`, `comer`, `vivir`의 변화형이 이제는 생각하지 않아도 자연스럽게 입 밖으로 나오나요? 특히 `vosotros`와 `ellos`의 구분을 명확히 해보세요.
-3. **불규칙의 활용**: `saber`(알다)와 `poder`(-할 수 있다)를 사용하여 자신의 능력이나 지식을 문장으로 표현할 수 있나요? (예: Yo sé hablar español.)
-4. **건강 철학**: 지중해 식단의 핵심과 스페인의 시에스타 문화가 신체 건강에 주는 긍정적인 영향을 스페인어 단어를 섞어 설명해 보세요.
+#### 한국어 번역
+인체는 믿을 수 없을 정도로 복잡하고 완벽한 기계입니다. 그 모든 것의 중심에는 결코 쉬지 않고 우리 유기체의 구석구석으로 피를 보내는 심장이 있습니다. 뇌가 매 초 수조 개의 데이터를 처리하는 동안, 폐는 우리가 아침의 신선한 공기를 들이마실 수 있게 해 줍니다. 이 시스템을 좋은 상태로 유지하기 위해서는 지중해 식단을 따르고 운동을 하는 것이 필수적입니다. 스페인의 많은 젊은이는 야외에서 운동을 하며 근육과 뼈를 관리합니다. 기억하세요. 만약 어디가 아프다면, 그것은 돌봄을 요청하는 당신 몸의 목소리입니다. 건강은 가장 큰 보물입니다!
 
 ---
 
-## 10. Cierre 🏁
+## 8. Diálogo (대화)
 
-¡Excelente trabajo! 🎉 여러분은 이제 피부 너머, 우리 몸의 깊은 곳까지 스페인어로 들여다볼 수 있는 눈을 갖게 되었습니다. 
+대학교 보건진료소에서 의사(Doctora)와 학생(Carlos)이 상담을 하고 있습니다.
 
-단순히 "팔이 아파요"라고 말하는 단계를 넘어, "건강을 위해 심장 관리를 해야 해요"라고 말할 수 있는 여러분의 성장이 정말 눈부십니다. 스페인어는 단순히 지식을 쌓는 것이 아니라, 이처럼 여러분의 삶과 건강, 그리고 문화를 연결해 주는 강력한 도구가 될 것입니다. 
+| 스페인어 (Español) | 한국어 (Coreano) |
+| :--- | :--- |
+| **Doctora**: Buenos días, Carlos. Pase, por favor. ¿Qué le pasa? | **의사**: 안녕하세요, 카를로스. 들어오세요. 어디가 안 좋으신가요? |
+| **Carlos**: Buenos días, doctora. Me duele mucho el estómago y me siento débil. | **학생**: 안녕하세요, 선생님. 배가 너무 아프고 기운이 없어요. |
+| **Doctora**: Entiendo. ¿Le duele el hígado o es más arriba, cerca del corazón? | **의사**: 그렇군요. 간 쪽이 아픈가요, 아니면 더 위쪽인 심장 근처인가요? |
+| **Carlos**: Es justo en el estómago. También me duele un poco la garganta. | **학생**: 바로 위장 쪽이에요. 그리고 목구멍도 조금 아파요. |
+| **Doctora**: ¿Tiene fiebre? Vamos a ver... No, su temperatura es normal. | **의사**: 열이 있나요? 한번 보죠... 아니요, 체온은 정상입니다. |
+| **Carlos**: ¿Es grave, doctora? | **학생**: 심각한 건가요, 선생님? |
+| **Doctora**: No, parece cansancio y mala digestión. Coma ligero hoy. | **의사**: 아니요, 피로와 소화불량인 것 같네요. 오늘은 가볍게 드세요. |
 
-오늘 배운 '지중해식 여유'와 '건강한 습관'을 여러분의 실제 삶에도 적용해 보시는 건 어떨까요? 다음 챕터에서는 우리의 외모와 성격, 즉 우리의 '정체성'을 더 아름답게 표현하는 법을 배워보겠습니다. 여러분의 성장을 진심으로 응원합니다. ¡Gracias por vuestro esfuerzo y hasta pronto! 🌟🇪🇸💪🏁
+---
+
+## 9. Repaso (복습)
+
+- **심화 어휘**: Corazón, Pulmón, Estómago, Cerebro 등 내부 장기를 스페인어로 설명해 보세요.
+- **문법 완성**: `Doler` 동사를 쓸 때 주어가 무엇인지(아픈 부위!) 항상 확인하세요.
+- **문화 연결**: 지중해 식단이 인체(위장, 심장 등)에 구체적으로 어떤 도움을 줄까요?
+
+---
+
+## 10. Cierre (맺음말)
+
+A2 레벨의 첫 장을 멋지게 열어주셨습니다! 이제 여러분은 단순한 신체 부위를 넘어, 자신의 내부 건강 상태를 표현하고 전문가와 상담할 수 있는 기초 체력을 갖추셨습니다. 병원이나 건강 관련 주제는 실생활에서 매우 중요하므로 오늘 배운 표현들을 입 밖으로 소리 내어 자주 연습해 보세요. 다음 장에서는 더욱 심오한 우리의 '정신 건강'과 '성격'에 대해 스페인어로 깊이 있는 대화를 나눠보겠습니다. ¡Mucho ánimo y salud!
+
+---
+
+## Soluciones (정답)
+
+### A. Doler 동사의 알맞은 형태 쓰기
+1. duelen  2. duele  3. duelen  4. duele
+
+### B. 장기 이름 맞히기
+1-b (Corazón), 2-a (Cerebro), 3-c (Pulmones)
+
+### C. 번역 연습
+1. 뇌는 인체에서 가장 복잡한 부분입니다.
+2. 나는 허리(등 아래쪽)에 강한 통증을 느낍니다.
+3. 의사는 내 폐가 매우 건강하다고 말합니다.
+4. 마라톤을 달린 후에 당신은 근육이 아프신가요?
