@@ -21,18 +21,18 @@ At the A2 level, we dive deeper into the nuances of human character. While A1 fo
 
 A2 level vocabulary focuses on abstract traits. Many of these are cognates, making them easy to pick up but requiring precision in usage.
 
-| Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- |
-| **optimista** | **Optimistic** ✅ (Perfect Cognate) | '낙천적인' 뜻으로, 항상 긍정적인 면을 보는 사람입니다. |
-| **pesimista** | **Pessimistic** ✅ (Perfect Cognate) | '비관적인' 뜻입니다. |
-| **abierto/a** | **Open** | '열린' 혹은 '사교적인' 뜻입니다. |
-| **reservado/a** | **Reserved** ✅ (Perfect Cognate) | '내성적인' 혹은 '말수가 적은' 뜻입니다. |
-| **tranquilo/a** | **Tranquil** ✅ (Perfect Cognate) | '차분한' 혹은 '조용한' 뜻입니다. (Tranquilizer와 같은 어원) |
-| **nervioso/a** | **Nervous** ✅ (Perfect Cognate) | '불안한' 혹은 '긴장한' 상태를 뜻합니다. |
-| **generoso/a** | **Generous** ✅ (Perfect Cognate) | '관대한' 혹은 '손이 큰' 뜻입니다. |
-| **egoísta** | **Egoistic** ✅ (Perfect Cognate) | '이기적인' 뜻입니다. |
-| **amable** | **Amicable** (friendly) | '친절한' 뜻으로, 영어의 amiable과도 연결됩니다. |
-| **tolerante** | **Tolerant** ✅ (Perfect Cognate) | '관용적인' 뜻입니다. |
+| # | Spanish | English Bridge | Korean Tip |
+| :--- | :--- | :--- | :--- |
+| 1 | **optimista** | **Optimistic** ✅ (Perfect Cognate) | '낙천적인' 뜻으로, 항상 긍정적인 면을 보는 사람입니다. |
+| 2 | **pesimista** | **Pessimistic** ✅ (Perfect Cognate) | '비관적인' 뜻입니다. |
+| 3 | **abierto/a** | **Open** | '열린' 혹은 '사교적인' 뜻입니다. |
+| 4 | **reservado/a** | **Reserved** ✅ (Perfect Cognate) | '내성적인' 혹은 '말수가 적은' 뜻입니다. |
+| 5 | **tranquilo/a** | **Tranquil** ✅ (Perfect Cognate) | '차분한' 혹은 '조용한' 뜻입니다. (Tranquilizer와 같은 어원) |
+| 6 | **nervioso/a** | **Nervous** ✅ (Perfect Cognate) | '불안한' 혹은 '긴장한' 상태를 뜻합니다. |
+| 7 | **generoso/a** | **Generous** ✅ (Perfect Cognate) | '관대한' 혹은 '손이 큰' 뜻입니다. |
+| 8 | **egoísta** | **Egoistic** ✅ (Perfect Cognate) | '이기적인' 뜻입니다. |
+| 9 | **amable** | **Amicable** (friendly) | '친절한' 뜻으로, 영어의 amiable과도 연결됩니다. |
+| 10 | **tolerante** | **Tolerant** ✅ (Perfect Cognate) | '관용적인' 뜻입니다. |
 
 ✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.
 
