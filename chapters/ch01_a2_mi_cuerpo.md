@@ -23,8 +23,8 @@ Ready to expand your medical lexicon? Many of these words are "Cognates"—look 
 
 | # | Spanish | English Bridge | Korean Tip |
 | :--- | :--- | :--- | :--- |
-| 1 | la **salud** | **Salubrious** (healthy) / **Salute** ✅ | 건강을 빌며 인사(salute)하는 것에서 유래했습니다. |
-| 2 | la **enfermo / enferma**| **Infirm** (weak/sick) ✅ | 아픈 상태를 뜻합니다. '인펌'이라는 영어 단어를 떠올려보세요. |
+| 1 | **paciente** | **Patient** ✅ (Perfect Cognate) | 환자를 뜻하지만 '인내심 있는'이라는 뜻도 공유합니다. |
+| 2 | **enfermo / enferma**| **Infirm** (weak/sick) ✅ | 아픈 상태를 뜻합니다. '인펌'이라는 영어 단어를 떠올려보세요. |
 | 3 | la **farmacia** | **Pharmacy** ✅ (Perfect Cognate) | 스페인 거리에 'F' 모양 초록 간판이 보인다면 이곳입니다. |
 | 4 | **urgencias** | **Urgency** ✅ | 응급실을 뜻하며, 긴급한 상황을 나타냅니다. |
 | 5 | la **gripe** | **Grip** (to seize) | 몸을 꽉 쥐는 듯한 통증을 유발하는 '독감'입니다. |
@@ -32,7 +32,7 @@ Ready to expand your medical lexicon? Many of these words are "Cognates"—look 
 | 7 | la **tos** | — | 기침을 뜻합니다. (짧지만 강한 발음) |
 | 8 | la **receta** | **Recipe / Receipt** ✅ | 약국에 제출하는 '처방전' 혹은 요리 '레시피'입니다. |
 | 9 | **medicina** | **Medicine** ✅ (Perfect Cognate) | 약 혹은 의학 그 자체를 뜻합니다. |
-| 10 | **paciente** | **Patient** ✅ (Perfect Cognate) | 환자를 뜻하지만 '인내심 있는'이라는 뜻도 공유합니다. |
+| 10 | la **salud** | **Salubrious** (healthy) / **Salute** ✅ | 건강을 빌며 인사(salute)하는 것에서 유래했습니다. |
 
 ✅ 표시가 있는 단어는 영어와 어원적 연결고리가 매우 강합니다.
 
