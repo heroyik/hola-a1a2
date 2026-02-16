@@ -17,26 +17,26 @@
 
 ## 2. Vocabulario Esencial
 
-![ 신체 부위 및 건강](../images/ch01_a1_mi_cuerpo_vocab_v52_100pct.png)
+![ 신체 부위 및 건강](../images/ch01_a1_vocab_100pct_v52_numbered.png)
 
 Below is your bridge between English and Spanish. Use your knowledge of English's Latin roots to skip the rote memorization!
 
-| Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- |
-| la **cabeza** | **Capital** (head of a city/column) | 머리를 뜻하며, 영어의 capital과 어원이 같습니다. |
-| el **hombro** | — | 어깨를 뜻합니다. |
-| el **brazo** | **Embrace** (to hold in arms) ✅ | '포옹하다'는 뜻의 embrace를 떠올려보세요. |
-| la **mano** | **Manual** (done by hand) ✅ | 수동을 뜻하는 manual은 '손'에서 왔습니다. |
-| la **pierna** | — | 다리를 뜻합니다. |
-| el **pie** | **Pedal** (foot lever) ✅ | 자전거 페달처럼 발로 밟는 것을 생각하세요. |
-| el **ojo** | **Ocular** (eye-related) ✅ | 안과적인 것을 뜻하는 ocular와 어원이 같습니다. |
-| la **oreja** | **Aural** (ear-related) | 귀를 뜻하며, 청각적인 것을 뜻하는 aural과 연결됩니다. |
-| la **nariz** | **Nasal** (nose-related) ✅ | 코와 관련된 형용사 nasal을 기억하세요. |
-| la **boca** | — | 입을 뜻합니다. |
-| el **estómago** | **Stomach** ✅ (Perfect Cognate) | 복잡한 철자지만 발음은 비슷합니다. |
-| **hospital** | **Hospital** ✅ (Perfect Cognate) | 'h'는 언제나 묵음입니다. [오스피탈] |
-| **doctor / doctora**| **Doctor** ✅ (Perfect Cognate) | 성별에 따라 o/a로 구분합니다. |
-| **enfermero/a** | **Nurse** (care provider) | 간호사를 뜻합니다. |
+| # | Spanish | English Bridge | Korean Tip |
+| :--- | :--- | :--- | :--- |
+| 1 | la **cabeza** | **Capital** (head of a city/column) | 머리를 뜻하며, 영어의 capital과 어원이 같습니다. |
+| 2 | el **hombro** | — | 어깨를 뜻합니다. |
+| 3 | el **brazo** | **Embrace** (to hold in arms) ✅ | '포옹하다'는 뜻의 embrace를 떠올려보세요. |
+| 4 | la **mano** | **Manual** (done by hand) ✅ | 수동을 뜻하는 manual은 '손'에서 왔습니다. |
+| 5 | la **pierna** | — | 다리를 뜻합니다. |
+| 6 | el **pie** | **Pedal** (foot lever) ✅ | 자전거 페달처럼 발로 밟는 것을 생각하세요. |
+| 7 | el **ojo** | **Ocular** (eye-related) ✅ | 안과적인 것을 뜻하는 ocular와 어원이 같습니다. |
+| 8 | la **oreja** | **Aural** (ear-related) | 귀를 뜻하며, 청각적인 것을 뜻하는 aural과 연결됩니다. |
+| 9 | la **nariz** | **Nasal** (nose-related) ✅ | 코와 관련된 형용사 nasal을 기억하세요. |
+| 10 | la **boca** | — | 입을 뜻합니다. |
+| 11 | el **estómago** | **Stomach** ✅ (Perfect Cognate) | 복잡한 철자지만 발음은 비슷합니다. |
+| 12 | **hospital** | **Hospital** ✅ (Perfect Cognate) | 'h'는 언제나 묵음입니다. [오스피탈] |
+| 13 | **doctor / doctora**| **Doctor** ✅ (Perfect Cognate) | 성별에 따라 o/a로 구분합니다. |
+| 14 | **enfermero/a** | **Nurse** (care provider) | 간호사를 뜻합니다. |
 
 ✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.
 
