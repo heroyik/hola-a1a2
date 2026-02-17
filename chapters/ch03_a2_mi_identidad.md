@@ -155,7 +155,10 @@ Elena es una joven que vive en Barcelona. Su padre es de Argentina y su madre es
 ---
 
 ## 8. Diálogo
-**Hablando de los orígenes**
+**Hablando de los orígenes (기원에 대해 말하기)**
+
+**Situación:** Marco y Lucía se acaban de conocer en una fiesta universitaria en Madrid. Interesados por sus apellidos poco comunes, comienzan a compartir sus historias familiares y sus diversas raíces culturales.  
+**상황:** 마르코와 루시아는 마드리드의 한 대학 파티에서 막 통성명을 했습니다. 서로의 독특한 성(last name)에 관심을 가지게 된 그들은 자신들의 가족사와 다양한 문화적 뿌리에 대해 이야기를 나누기 시작합니다.
 
 | Personaje | 스페인어 (ES) | 한국어 (KO) |
 |:--- |:--- |:--- |

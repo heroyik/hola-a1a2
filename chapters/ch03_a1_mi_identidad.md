@@ -155,7 +155,10 @@ Hola, me llamo Minho y soy de Corea del Sur. Ahora vivo en Madrid porque soy est
 ---
 
 ## 8. Diálogo
-**En la oficina de registro**
+**Presentación oficial (공식적인 소개)**
+
+**Situación:** En una oficina de extranjería en Barcelona, una funcionaria ayuda a un estudiante extranjero a completar sus datos para el visado. La conversación es formal y se centra en la precisión de los datos de identidad.  
+**상황:** 바르셀로나의 외국인 사무소에서 한 공무원이 외국인 학생의 비자 신청을 돕고 있습니다. 대화는 격식 있는 분위기에서 진행되며, 신원 정보의 정확한 확인에 집중합니다.
 
 | Personaje | 스페인어 (ES) | 한국어 (KO) |
 |:--- |:--- |:--- |

@@ -141,7 +141,10 @@ En la sociedad actual, las relaciones han cambiado mucho. Juan es divorciado y t
 ---
 
 ## 8. Diálogo
-**Nuevas noticias familiares**
+**La familia moderna (현대적인 가족)**
+
+**Situación:** Dos amigas, Clara y Silvia, están paseando por el Retiro en Madrid. Mientras ven a diferentes familias jugar en el parque, conversan sobre cómo han cambiado las estructuras familiares en España y cómo es su propia relación con sus parientes.  
+**상황:** 두 친구 클라라와 실비아가 마드리드의 레티로 공원을 산책하고 있습니다. 공원에서 놀고 있는 다양한 가족들을 보며, 그들은 스페인의 가족 구조가 어떻게 변해왔는지, 그리고 자신들과 친척들과의 관계는 어떠한지 대화를 나눕니다.
 
 | Personaje | 스페인어 (ES) | 한국어 (KO) |
 |:--- |:--- |:--- |

@@ -157,9 +157,10 @@ Elena es una estudiante de arquitectura en Madrid. En su perfil de Instagram, se
 ---
 
 ## 8. Diálogo
+**¿Eres un adicto a las redes? (너 SNS 중독이야?)**
 
-### La Entrevista de Amistad
-Two students are doing a personality test for a sociology project.
+**Situación:** Dos estudiantes universitarios, Marta y Javier, charlan en la biblioteca sobre sus hábitos digitales. Se preguntan mutuamente cuánto tiempo pasan en Instagram y TikTok, y cómo esto afecta su vida diaria y sus emociones.  
+**상황:** 두 대학생 마르타와 하비에르가 도서관에서 자신들의 디지털 습관에 대해 수다를 떨고 있습니다. 그들은 서로 인스타그램과 틱톡에 얼마나 많은 시간을 쓰는지, 그리고 이것이 일상생활과 감정에 어떤 영향을 미치는지 묻습니다.
 
 | Spanish (ES) | Korean (KO) |
 | :--- | :--- |

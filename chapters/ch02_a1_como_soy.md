@@ -164,8 +164,10 @@ Carlos es mi mejor amigo. Él es de Madrid, pero vive en Barcelona. Carlos es un
 ---
 
 ## 8. Diálogo
+**¿Cómo es tu mejor amigo? (네 베프는 어때?)**
 
-### ¿Cómo es tu nueva profesora?
+**Situación:** Carlos y Elena están tomando un café en una plaza de Salamanca. Mientras observan a la gente pasar, empiezan a hablar sobre sus mejores amigos, describiendo tanto su apariencia física como sus rasgos de personalidad.  
+**상황:** 카를로스와 엘레나는 살라망카의 한 광장에서 커피를 마시고 있습니다. 지나가는 사람들을 바라보며, 그들은 서로의 베프(베스트 프렌드)에 대해 이야기하며 외모와 성격 특징을 묘사하기 시작합니다.
 이 대화는 대학교 캠퍼스에서 두 친구가 새로운 교수에 대해 이야기하는 상황입니다.
 
 | Spanish (ES) | Korean (KO) |

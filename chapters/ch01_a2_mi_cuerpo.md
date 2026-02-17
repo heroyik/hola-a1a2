@@ -145,7 +145,10 @@ Estimado doctor García, le escribo este mensaje porque no me siento bien físic
 ---
 
 ## 8. Diálogo
-**En la consulta del Doctor**
+**En la farmacia (약국에서)**
+
+**Situación:** Sofía tiene un fuerte resfriado y entra en una farmacia en Sevilla para comprar algo que la ayude. Habla con el farmacéutico sobre sus síntomas y pide recomendaciones.  
+**상황:** 소피아는 심한 감기에 걸려 이를 치료할 약을 사러 세비야의 한 약국에 들어갑니다. 그녀는 약사에게 자신의 증상을 설명하고 약을 추천받습니다.
 
 | Spanish | Korean |
 | :--- | :--- |

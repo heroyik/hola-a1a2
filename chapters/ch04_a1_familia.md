@@ -138,7 +138,10 @@ Hoy es domingo y estoy en casa de mis abuelos. Es el cumpleaños de mi tía Carm
 ---
 
 ## 8. Diálogo
-**Presentando a la familia**
+**¡Feliz Santo! (축일 축하해!)**
+
+**Situación:** Es el 19 de marzo, el día de San José. Una familia española se reúne en su casa de Valencia para celebrar el "santo" del abuelo José. Los nietos llegan con regalos y mejores deseos para esta ocasión especial.  
+**상황:** 3월 19일, 성 요셉의 날(San José)입니다. 스페인의 한 가족이 할아버지 호세의 '축일(santo)'을 축하하기 위해 발렌시아에 있는 집으로 모였습니다. 손주들이 특별한 날을 위한 선물과 축복의 인사를 가지고 도착합니다.
 
 | Personaje | 스페인어 (ES) | 한국어 (KO) |
 |:--- |:--- |:--- |

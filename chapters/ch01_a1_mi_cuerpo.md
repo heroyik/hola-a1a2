@@ -156,7 +156,10 @@ Hola, me llamo Ana. Hoy estoy muy cansada. Tengo mucho sueño porque estudio muc
 ---
 
 ## 8. Diálogo
-**En el Centro de Salud**
+**En el médico (의사 진찰)**
+
+**Situación:** Pedro visita al doctor en un Centro de Salud en Madrid porque no se siente bien. El doctor le hace preguntas básicas sobre sus síntomas físicos para diagnosticar su malestar.  
+**상황:** 페드로는 몸이 좋지 않아 마드리드의 보건소(Centro de Salud)에서 의사 선생님을 만납니다. 의사 선생님은 그의 상태를 진단하기 위해 신체적 증상에 대한 기본적인 질문을 합니다.
 
 | Spanish | Korean |
 | :--- | :--- |
