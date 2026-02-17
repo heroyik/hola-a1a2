@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="4-familia-y-amigos">4. Familia y amigos</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Objetivos de aprendizaje:</strong><br />
+- Analizar las nuevas estructuras familiares y los cambios en la sociedad.<br />
+- Utilizar adjetivos posesivos pospuestos para dar énfasis.<br />
+- Expresar afecto y sentimientos en las relaciones personales.<br />
+- Reflexionar sobre el papel de la amistad y la "familia elegida".</p>
+<p><strong>¿Sabías que...?</strong><br />
+En las últimas décadas, España ha pasado de un modelo de familia tradicional a una gran diversidad: familias monoparentales, reconstituidas y matrimonios del mismo sexo. De hecho, España fue uno de los primeros países del mundo en legalizar el matrimonio igualitario en 2005. ¡La identidad de la "familia" es ahora más amplia y flexible que nunca!</p>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p>A nivel A2, exploramos términos sobre relaciones más complejas y el estado civil.</p>
+<p><strong>한국어 번역:</strong><br />
+A2 단계에서는 보다 복잡한 인간관계와 혼인 상태에 관한 어휘들을 탐구합니다.</p>
+<p><img alt="Relaciones y Afecto (100% 반영)" src="../images/ch04_a2_vocab_100pct_v52_numbered.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">pariente</td>
+<td style="text-align: left;">Parent? No! → Relative ✅ (Cognate)</td>
+<td style="text-align: left;">부모님은 'padres'</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">suegro/a</td>
+<td style="text-align: left;">(None obvious)</td>
+<td style="text-align: left;">시아버지 / 장인어른</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">cuñado/a</td>
+<td style="text-align: left;">(None obvious)</td>
+<td style="text-align: left;">형수 / 제수 / 매부</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">sobrino/a</td>
+<td style="text-align: left;">(None obvious)</td>
+<td style="text-align: left;">조카</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">nieto/a</td>
+<td style="text-align: left;">(None obvious)</td>
+<td style="text-align: left;">손주</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">pareja</td>
+<td style="text-align: left;">Pair ✅ (Cognate)</td>
+<td style="text-align: left;">파트너 / 애인</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">casado/a</td>
+<td style="text-align: left;">(None obvious)</td>
+<td style="text-align: left;">결혼한 상태</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">soltero/a</td>
+<td style="text-align: left;">Solitary → Single ✅</td>
+<td style="text-align: left;">미혼의</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">divorciado/a</td>
+<td style="text-align: left;">Divorced ✅ (Cognate)</td>
+<td style="text-align: left;">이혼한</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">viudo/a</td>
+<td style="text-align: left;">Widow ✅ (Cognate)</td>
+<td style="text-align: left;">홀몸이 된</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 기호가 표시된 단어는 영어와 스펠링이 비슷하거나 의미가 같은 'Cognate'입니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>Frases para describir la profundidad de los vínculos personales.</p>
+<ul>
+<li><strong>Un amigo mío me dijo que...</strong></li>
+<li>A friend of mine told me that... (Posposed possessive)</li>
+<li><strong>Hacerse amigo de alguien.</strong></li>
+<li>To become friends with someone.</li>
+<li><strong>Llevarse como el perro y el gato.</strong></li>
+<li>To get along like cats and dogs (to fight a lot).</li>
+<li><strong>Es mi media naranja.</strong></li>
+<li>He/She is my better half (soulmate).</li>
+<li><strong>Confiar plenamente en alguien.</strong></li>
+<li>To trust someone completely.</li>
+<li><strong>Estar prometido/a.</strong></li>
+<li>To be engaged.</li>
+</ul>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<h3 id="41-adjetivos-posesivos-pospuestos-postposed-possessives">4.1 Adjetivos posesivos pospuestos (Postposed Possessives)</h3>
+<p>Se usan después del sustantivo para dar énfasis o cuando hay un determinante (un, este, etc.).</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">단수 (m/f)</th>
+<th style="text-align: left;">복수 (m/f)</th>
+<th style="text-align: left;">English Equivalent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>mío / mía</strong></td>
+<td style="text-align: left;"><strong>míos / mías</strong></td>
+<td style="text-align: left;">of mine</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>tuyo / tuya</strong></td>
+<td style="text-align: left;"><strong>tuyos / tuyas</strong></td>
+<td style="text-align: left;">of yours</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>suyo / suya</strong></td>
+<td style="text-align: left;"><strong>suyos / suyas</strong></td>
+<td style="text-align: left;">of his/hers/yours (fml.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>nuestro / nuestra</strong></td>
+<td style="text-align: left;"><strong>nuestros / nuestras</strong></td>
+<td style="text-align: left;">of ours</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>vuestro / vuestra</strong></td>
+<td style="text-align: left;"><strong>vuestros / vuestras</strong></td>
+<td style="text-align: left;">of yours (pl.)</td>
+</tr>
+</tbody>
+</table>
+<p><em>Ejemplo: "Un libro </em><em>mío</em><em>" (A book of mine) vs "Mi libro" (My book).</em></p>
+<h3 id="42-verbos-de-sentimiento-y-cambio-reflexivos">4.2 Verbos de sentimiento y Cambio (Reflexivos)</h3>
+<p>Muchos verbos que expresan cambio en la relación son reflexivos (ver Ch.2).</p>
+<ul>
+<li><strong>Casarse (con):</strong> To get married (to).</li>
+<li><strong>Divorciarse (de):</strong> To get divorced (from).</li>
+<li><strong>Enamorarse (de):</strong> To fall in love (with).</li>
+</ul>
+<p><strong>Korean Tip:</strong> 스페인어에서 'pariente'는 부모님이 아니라 '친척'을 의미합니다. 영어를 잘하는 학습자들이 가장 많이 하는 실수 중 하나이므로 주의하세요. 부모님은 항상 'padres'입니다.</p>
+<hr />
+<h2 id="5-cultura-viva-la-amistad-y-la-familia-elegida">5. Cultura Viva: La amistad y la familia elegida</h2>
+<p>Aunque los lazos de sangre son fuertes, el concepto de "la familia elegida" (los amigos íntimos) es vital en España. Los amigos a menudo se consideran hermanos. Es muy común tener un grupo de amigos desde la infancia llamado <strong>"la pandilla"</strong> o <strong>"la cuadrilla"</strong>, con quienes se comparte toda la vida. La lealtad a los amigos es una de las virtudes más valoradas en la cultura española y latina.</p>
+<p><strong>한국어 번역:</strong><br />
+혈연 관계가 강력함에도 불구하고, 스페인에서는 '선택된 가족'(친한 친구들)이라는 개념이 매우 중요합니다. 친구들은 종종 형제자매처럼 여겨집니다. 어린 시절부터 형성된 <strong>'라 판디야(la pandilla)'</strong> 또는 <strong>'라 쿠아드리야(la cuadrilla)'</strong>라고 불리는 친구 집단과 평생을 함께 공유하는 것이 매우 흔합니다. 친구에 대한 의리는 스페인 및 라틴 문화에서 가장 높게 평가되는 덕목 중 하나입니다.</p>
+<p><img alt="Friends Group in Plaza" src="../images/ch04_a2_culture_friends_v52.png" /></p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>Match the Spanish relative with the English translation.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Cuñado</td>
+<td style="text-align: left;">a) Nephew/Niece</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Sobrino</td>
+<td style="text-align: left;">b) Brother-in-law</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Nieto</td>
+<td style="text-align: left;">c) Partner</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Pareja</td>
+<td style="text-align: left;">d) Grandchild</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Viudo</td>
+<td style="text-align: left;">e) Widower</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-complete-the-sentences">B. Complete the sentences</h3>
+<p>Use postposed possessives (<strong>mío, tuyo, suyo</strong>, etc.).</p>
+<ol>
+<li>Un primo ................ (mine) vive en Italia.</li>
+<li>¿Es esta maleta ................? (yours - tú)</li>
+<li>Esos zapatos ................ (hers) son nuevos.</li>
+<li>Dos compañeros ................ (ours) aprobaron el examen.</li>
+<li>No es un problema ................ (yours - vosotros).</li>
+</ol>
+<h3 id="c">C. 번역 연습</h3>
+<p>다음 문장을 스페인어로 번역하세요.</p>
+<ol>
+<li>저는 제 사촌과 사랑에 빠졌습니다. (enamorarse de)</li>
+<li>내 친구 하나가 나에게 이 소식을 말해주었습니다. (Un amigo mío...)</li>
+<li>제 시아버지는 매우 친절한 분입니다.</li>
+<li>그들은 작년에 이혼했습니다.</li>
+<li>나의 '반쪽'(영혼의 단짝)은 어디에 있습니까?</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<p><strong>Vínculos que no se rompen</strong></p>
+<p>En la sociedad actual, las relaciones han cambiado mucho. Juan es divorciado y tiene un hijo de su primer matrimonio, pero ahora vive con su nueva pareja, Ana. Ana tiene dos hijas de una relación anterior. Juntos forman una familia "reconstruida". Aunque no tienen lazos de sangre entre todos, se sienten muy unidos. Por otro lado, Juan mantiene una amistad muy fuerte con sus amigos de la escuela. Para él, sus amigos son su segunda familia. "La identidad de una persona se construye con los parientes, pero también con las personas que elegimos amar", afirma Juan.</p>
+<p><strong>Preguntas:</strong><br />
+1. ¿Cuál es el estado civil de Juan?<br />
+2. ¿Qué tipo de familia forman Juan y Ana?<br />
+3. ¿Cómo es la relación entre los miembros de la familia de Juan?<br />
+4. ¿Qué importancia tienen los amigos para Juan?<br />
+5. ¿Qué opina Juan sobre la construcción de la identidad?</p>
+<p><strong>한국어 번역:</strong><br />
+현대 사회에서 인간관계는 많이 변했습니다. 주안은 이혼남이고 첫 번째 결혼에서 얻은 아들이 하나 있지만, 지금은 새로운 파트너인 아나와 함께 살고 있습니다. 아나는 이전 관계에서 얻은 두 딸이 있습니다. 그들은 함께 '재결합 가구'를 형성합니다. 모두가 혈연으로 이어지지는 않았지만, 그들은 매우 유대감을 느낍니다. 한편, 주안은 학교 친구들과 매우 끈끈한 우정을 유지하고 있습니다. 그에게 친구들은 제2의 가족입니다. "사람의 정체성은 친척들과 함께 형성되기도 하지만, 우리가 사랑하기로 선택한 사람들과도 함께 만들어집니다"라고 주안은 단언합니다.</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<p><strong>Nuevas noticias familiares</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Personaje</th>
+<th style="text-align: left;">스페인어 (ES)</th>
+<th style="text-align: left;">한국어 (KO)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Sofía</strong></td>
+<td style="text-align: left;">¿Te has enterado? Un primo mío se casa el mes que viene.</td>
+<td style="text-align: left;">소식 들었어? 내 사촌 중 한 명이 다음 달에 결혼해.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lara</strong></td>
+<td style="text-align: left;">¡Qué bien! ¿Con quién se casa?</td>
+<td style="text-align: left;">잘됐다! 누구랑 결혼하는데?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sofía</strong></td>
+<td style="text-align: left;">Con su novia de toda la vida. Llevan diez años de pareja.</td>
+<td style="text-align: left;">평생을 함께한 여자친구랑. 사귄 지 10년이나 됐대.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lara</strong></td>
+<td style="text-align: left;">¡Vaya! Yo creía que seguía soltero.</td>
+<td style="text-align: left;">와! 나는 그가 아직 미혼인 줄 알았어.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sofía</strong></td>
+<td style="text-align: left;">No, están muy enamorados. Mi suegra ya está preparando el vestido.</td>
+<td style="text-align: left;">아니야, 둘이 아주 사랑에 빠졌어. 우리 시어머니께서 벌써 드레스를 준비하고 계셔.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Lara</strong></td>
+<td style="text-align: left;">Pues me alegro mucho por ellos. ¡Vivan los novios!</td>
+<td style="text-align: left;">정말 축하할 일이네. 신랑 신부 만세!</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<ul>
+<li>[x] 'pariente', 'cuñado', 'pareja' 등 심화 관계 어휘를 익혔나요?</li>
+<li>[x] 소유 형용사 후치형(mío, tuyo...)의 용법과 강조 효과를 이해했나요?</li>
+<li>[x] 'casarse con', 'enamorarse de' 등 전치사를 동반하는 동사를 알고 있나요?</li>
+<li>[x] 스페인의 현대적 가족 형태와 '선택된 가족'의 중요성을 이해했나요?</li>
+</ul>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Enhorabuena! Has llegado al final de este capítulo sobre los vínculos humanos. La familia y los amigos son el soporte emocional que nos permite crecer. Ahora que sabes cómo hablar de las personas, en el próximo capítulo aprenderemos a disfrutar de la comida, ¡otro gran pilar de la cultura hispana! ¡Buen provecho!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<p><strong>A. Match the word</strong><br />
+1-b, 2-a, 3-d, 4-c, 5-e</p>
+<p><strong>B. Complete the sentences</strong><br />
+1. mío, 2. tuya, 3. suyos, 4. nuestros, 5. vuestro</p>
+<p><strong>C. 번역 연습</strong><br />
+1. Me he enamorado de mi primo/a. (o Me enamoré...)<br />
+2. Un amigo mío me dijo esta noticia.<br />
+3. Mi suegro es una persona muy amable.<br />
+4. Ellos se divorciaron el año pasado.<br />
+5. ¿Dónde está mi media naranja?</p>
+</div>
+</body>
+</html>

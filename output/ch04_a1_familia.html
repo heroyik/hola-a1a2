@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="4-familia-y-amigos">4. Familia y amigos</h1>
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Objetivos de aprendizaje:</strong><br />
+- Describir a los miembros de la familia.<br />
+- Hablar de las relaciones personales y la amistad.<br />
+- Expresar posesión (mío, tuyo, etc.).<br />
+- Conocer la importancia de la familia en la cultura hispana.</p>
+<p><strong>¿Sabías que...?</strong><br />
+Para los españoles, la familia no es solo el núcleo básico (padres e hijos), sino que incluye a tíos, primos y abuelos en una relación muy estrecha. Es común que las familias se reúnan todos los domingos para una gran comida que dura horas. ¡La sobremesa es casi tan importante como la comida misma!</p>
+<p><strong>한국어 번역:</strong><br />
+스페인 사람들에게 가족은 단순히 부모와 자녀로 구성된 핵가족만을 의미하지 않고, 삼촌, 이종사촌, 조부모까지 포함하는 매우 긴밀한 관계를 뜻합니다. 매주 일요일이면 온 가족이 모여 몇 시간 동안 성대한 식사를 하는 것이 일상입니다. 식사 후 긴 대화 시간인 '소브레메사(sobremesa)'는 식사 그 자체만큼이나 중요합니다!</p>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<p>Aprenderemos los términos para describir nuestro círculo más cercano.</p>
+<p><strong>한국어 번역:</strong><br />
+우리의 가장 가까운 주변 사람들을 묘사하는 단어들을 배워보겠습니다.</p>
+<p><img alt="Familia y amigos (100% 반영)" src="../images/ch04_a1_vocab_100pct_v52_numbered.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">#</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">padre</td>
+<td style="text-align: left;">Parent? No! → Father (cf. Paternal)</td>
+<td style="text-align: left;">'아빠'는 papá</td>
+</tr>
+<tr>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">madre</td>
+<td style="text-align: left;">Mother ✅ (cf. Maternal)</td>
+<td style="text-align: left;">'엄마'는 mamá</td>
+</tr>
+<tr>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">hermano</td>
+<td style="text-align: left;">Brother (cf. Hermetic? No, from German)</td>
+<td style="text-align: left;">남매면 hermanos</td>
+</tr>
+<tr>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">hermana</td>
+<td style="text-align: left;">Sister ✅</td>
+<td style="text-align: left;">여성형(-a)</td>
+</tr>
+<tr>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">abuelo</td>
+<td style="text-align: left;">Grandfather (cf. Avuncular)</td>
+<td style="text-align: left;">할아버님</td>
+</tr>
+<tr>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">abuela</td>
+<td style="text-align: left;">Grandmother ✅</td>
+<td style="text-align: left;">할머님</td>
+</tr>
+<tr>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">tío</td>
+<td style="text-align: left;">Uncle ✅</td>
+<td style="text-align: left;">친척 아저씨</td>
+</tr>
+<tr>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">tía</td>
+<td style="text-align: left;">Aunt ✅</td>
+<td style="text-align: left;">친척 아주머니</td>
+</tr>
+<tr>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">primo</td>
+<td style="text-align: left;">Cousin (cf. Primary family)</td>
+<td style="text-align: left;">사촌</td>
+</tr>
+<tr>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">hijo</td>
+<td style="text-align: left;">Son (cf. Filial)</td>
+<td style="text-align: left;">아들</td>
+</tr>
+<tr>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">hija</td>
+<td style="text-align: left;">Daughter ✅</td>
+<td style="text-align: left;">딸</td>
+</tr>
+<tr>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">amigo</td>
+<td style="text-align: left;">Friend (cf. Amicable)</td>
+<td style="text-align: left;">친구</td>
+</tr>
+<tr>
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">novio</td>
+<td style="text-align: left;">Boyfriend / Groom (cf. Novice in love?)</td>
+<td style="text-align: left;">약혼자도Novio</td>
+</tr>
+<tr>
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">novia</td>
+<td style="text-align: left;">Girlfriend / Bride ✅</td>
+<td style="text-align: left;">여자친구/신부</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 기호가 표시된 단어는 영어와 스펠링이 비슷하거나 의미가 같은 'Cognate'입니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>Frases esenciales para hablar de tu familia.</p>
+<ul>
+<li><strong>¿Tienes hermanos?</strong></li>
+<li>Do you have siblings?</li>
+<li><strong>¿Cuántos sois en tu familia?</strong></li>
+<li>How many are you in your family?</li>
+<li><strong>Somos cuatro: mi padre, mi madre, mi hermana y yo.</strong></li>
+<li>We are four: my father, my mother, my sister, and I.</li>
+<li><strong>¿Cómo se llama tu mejor amigo?</strong></li>
+<li>What is your best friend's name?</li>
+<li><strong>Me llevo muy bien con mi primo.</strong></li>
+<li>I get along very well with my cousin.</li>
+<li><strong>¡Feliz cumpleaños!</strong> / <strong>¡Felicidades!</strong></li>
+<li>Happy birthday! / Congratulations!</li>
+</ul>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<h3 id="41-los-adjetivos-posesivos-possessive-adjectives">4.1 Los adjetivos posesivos (Possessive Adjectives)</h3>
+<p>Indican a quién pertenece algo. Se colocan <strong>antes</strong> del sustantivo.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">주어</th>
+<th style="text-align: left;">단수</th>
+<th style="text-align: left;">복수</th>
+<th style="text-align: left;">English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>yo</strong></td>
+<td style="text-align: left;">mi</td>
+<td style="text-align: left;">mis</td>
+<td style="text-align: left;">my</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>tú</strong></td>
+<td style="text-align: left;">tu</td>
+<td style="text-align: left;">tus</td>
+<td style="text-align: left;">your (inf.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>él / ella / usted</strong></td>
+<td style="text-align: left;">su</td>
+<td style="text-align: left;">sus</td>
+<td style="text-align: left;">his/her/your (fml.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>nosotros / as</strong></td>
+<td style="text-align: left;">nuestro/a</td>
+<td style="text-align: left;">nuestros/as</td>
+<td style="text-align: left;">our</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>vosotros / as</strong></td>
+<td style="text-align: left;">vuestro/a</td>
+<td style="text-align: left;">vuestros/as</td>
+<td style="text-align: left;">your (pl. inf.)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ellos / ellas / uds</strong></td>
+<td style="text-align: left;">su</td>
+<td style="text-align: left;">sus</td>
+<td style="text-align: left;">their/your (pl.)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="42-los-demostrativos-demonstratives">4.2 Los demostrativos (Demonstratives)</h3>
+<p>Para señalar personas o cosas según la distancia.</p>
+<ul>
+<li><strong>Cerca (This):</strong> este (m) / esta (f) / estos (mp) / estas (fp)</li>
+<li><strong>Media (That):</strong> ese (m) / esa (f) / esos (mp) / esas (fp)</li>
+<li><strong>Lejos (That over there):</strong> aquel (m) / aquella (f) / aquellos (mp) / aquellas (fp)</li>
+</ul>
+<p><strong>Korean Tip:</strong> 스페인어의 'su'는 그의, 그녀의, 당신의, 그들의 등 매우 다양한 뜻이 있습니다. 맥락에 따라 구분해야 하며, 혼동을 피하려면 "el/la de usted" 처럼 표현하기도 합니다.</p>
+<hr />
+<h2 id="5-cultura-viva-el-concepto-de-familia">5. Cultura Viva: El concepto de familia</h2>
+<p>En los países hispanohablantes, la familia es el pilar de la sociedad. La lealtad familiar suele estar por encima de otros intereses. Es muy común vivir con los padres hasta pasados los 30 años, algo que en la cultura anglosajona se ve menos. Además, el papel de los abuelos es fundamental: a menudo son ellos quienes cuidan de los nietos mientras los padres trabajan.</p>
+<p><strong>한국어 번역:</strong><br />
+스페인어권 국가들에서 가족은 사회의 기둥입니다. 가족에 대한 충성심은 대개 다른 어떤 관심사보다 우선시됩니다. 부모님과 30세가 넘어서까지 함께 사는 것이 매우 흔한데, 이는 영미권 문화에서는 보기 드문 현상입니다. 또한, 조부모의 역할이 매우 중요한데, 부모가 일하는 동안 손주들을 돌보는 경우가 많습니다.</p>
+<p><img alt="Family Gathering Lunch" src="../images/ch04_a1_culture_family_v52.png" /></p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word</h3>
+<p>Match the Spanish family member with the English equivalent.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1. Abuelo</td>
+<td style="text-align: left;">a) Cousin</td>
+</tr>
+<tr>
+<td style="text-align: left;">2. Tío</td>
+<td style="text-align: left;">b) Grandfather</td>
+</tr>
+<tr>
+<td style="text-align: left;">3. Primo</td>
+<td style="text-align: left;">c) Son</td>
+</tr>
+<tr>
+<td style="text-align: left;">4. Hermana</td>
+<td style="text-align: left;">d) Uncle</td>
+</tr>
+<tr>
+<td style="text-align: left;">5. Hijo</td>
+<td style="text-align: left;">e) Sister</td>
+</tr>
+</tbody>
+</table>
+<h3 id="b-complete-the-sentences">B. Complete the sentences</h3>
+<p>Fill in the blanks with the correct possessive adjective (<strong>mi, tu, su, nuestro</strong>, etc.).</p>
+<ol>
+<li>Yo vivo con ................ padres. (my)</li>
+<li>¿Cómo se llama ................ hermana? (your - tú)</li>
+<li>................ abuelos son muy simpáticos. (our)</li>
+<li>Ella tiene ................ libros en la mochila. (her)</li>
+<li>................ amigos son divertidos. (your - vosotros)</li>
+</ol>
+<h3 id="c">C. 번역 연습</h3>
+<p>다음 문장을 스페인어로 번역하세요.</p>
+<ol>
+<li>이분은 제 형제입니다.</li>
+<li>당신의 사촌은 어디에 삽니까?</li>
+<li>우리는 대가족입니다. (gran familia)</li>
+<li>제 친구의 이름은 카를로스입니다.</li>
+<li>당신들(vosotros)의 집은 큽니까?</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<p><strong>Una cena familiar</strong></p>
+<p>Hoy es domingo y estoy en casa de mis abuelos. Es el cumpleaños de mi tía Carmen. Toda mi familia está aquí. Mi padre ayuda en la cocina y mi madre habla con mis primos. Yo juego con mis hermanos en el jardín. Tenemos una familia muy grande y ruidosa, pero nos queremos mucho. Mi mejor amigo, Luis, también está aquí porque es como un hermano para mí. ¡Es un día muy feliz!</p>
+<p><strong>Preguntas:</strong><br />
+1. ¿Dónde está el narrador hoy?<br />
+2. ¿De quién es el cumpleaños?<br />
+3. ¿Qué hace el padre?<br />
+4. ¿Cómo describe el narrador a su familia?<br />
+5. ¿Quién es Luis?</p>
+<p><strong>한국어 번역:</strong><br />
+오늘은 일요일이고 저는 조부모님 댁에 있습니다. 카르멘 이모의 생신이에요. 온 가족이 여기 모였습니다. 아버지는 주방에서 도와주시고 어머니는 사촌들과 이야기하고 계세요. 저는 정원에서 형제들과 놀고 있습니다. 우리는 매우 크고 시끌벅적한 가족이지만 서로 아주 많이 사랑합니다. 제 절친인 루이스도 여기 있는데, 그는 저에게 형제와 같기 때문입니다. 정말 행복한 날이에요!</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<p><strong>Presentando a la familia</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Personaje</th>
+<th style="text-align: left;">스페인어 (ES)</th>
+<th style="text-align: left;">한국어 (KO)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong></td>
+<td style="text-align: left;">Hola, Marta. Este es mi primo Diego.</td>
+<td style="text-align: left;">안녕, 마르타. 이쪽은 내 사촌 디에고야.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marta</strong></td>
+<td style="text-align: left;">Hola, Diego. Encantada de conocerte.</td>
+<td style="text-align: left;">안녕, 디에고. 만나서 반가워.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Diego</strong></td>
+<td style="text-align: left;">Igualmente. ¿Eres amiga de Juan de la universidad?</td>
+<td style="text-align: left;">나도 반가워. 너는 주안이랑 같은 대학 친구니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marta</strong></td>
+<td style="text-align: left;">Sí, somos compañeros de clase. ¿Y tú qué haces?</td>
+<td style="text-align: left;">응, 우리는 학과 동기야. 너는 무슨 일을 하니?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Diego</strong></td>
+<td style="text-align: left;">Soy ingeniero, pero vivo en otra ciudad. He venido por el cumple de mi abuela.</td>
+<td style="text-align: left;">나는 엔지니어인데, 다른 도시에 살아. 할머니 생신이라서 왔어.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Juan</strong></td>
+<td style="text-align: left;">Nuestra abuela cumple 80 años hoy. ¡Es una gran fiesta!</td>
+<td style="text-align: left;">우리 할머니께서 오늘 80세가 되시거든. 큰 파티야!</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<ul>
+<li>[x] 가족 구성원 명칭 10개 이상을 외웠나요?</li>
+<li>[x] 소유 형용사(mi, tu, su...)의 단수/복수형을 구분할 수 있나요?</li>
+<li>[x] 지시사(este, ese, aquel)의 거리감을 이해했나요?</li>
+<li>[x] 스페인어권 가족 문화의 특징(대가족, 조부모 역할 등)을 이해했나요?</li>
+</ul>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Buen trabajo! Has aprendido a describir el entorno más importante de la vida: la familia y los amigos. Estos lazos son el corazón de la cultura hispana. En el próximo capítulo, nos sentaremos a la mesa para aprender todo sobre la comida y la bebida. ¡Hasta pronto!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<p><strong>A. Match the word</strong><br />
+1-b, 2-d, 3-a, 4-e, 5-c</p>
+<p><strong>B. Complete the sentences</strong><br />
+1. mis, 2. tu, 3. Nuestros, 4. sus, 5. Vuestros</p>
+<p><strong>C. 번역 연습</strong><br />
+1. Este es mi hermano.<br />
+2. ¿Dónde vive tu primo?<br />
+3. Somos una gran familia.<br />
+4. El nombre de mi amigo es Carlos. / Mi amigo se llama Carlos.<br />
+5. ¿Es vuestra casa grande? / ¿Vuestra casa es grande?</p>
+</div>
+</body>
+</html>
