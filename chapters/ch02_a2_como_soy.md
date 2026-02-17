@@ -6,11 +6,11 @@ At the A2 level, we dive deeper into the nuances of human character. While A1 fo
 **한국어 번역:**
 A2 단계에서는 인간 성격의 미묘한 차이를 더 깊이 파고듭니다. A1이 기본적인 외모에 집중했다면, A2는 성격, 기분, 그리고 사회적 행동과 같은 '내면의 자아'를 탐구합니다. 이러한 뉘앙스를 이해하는 것은 스페인어권 세계에서 의미 있는 관계를 맺는 핵심입니다.
 
-**학습 목표 (Learning Objectives)**:
-- Master 10+ advanced personality adjectives and abstract traits.
-- Use **Reflexive Verbs** to describe daily routines and emotional states (Me levanto, Me siento).
-- Compare and contrast personalities using refined structures.
-- Analyze the impact of digital identity and social media in modern Spanish life.
+**학습 목표**:
+- 10개 이상의 고급 성격 형용사와 추상적 특성을 마스터합니다.
+- **재귀 동사**(Me levanto, Me siento 등)를 사용하여 일상과 감정 상태를 묘사합니다.
+- 세련된 문장 구조를 활용하여 성격을 비교하고 대조합니다.
+- 현대 스페인 사회에서 디지털 정체성과 소셜 미디어가 미치는 영향을 분석합니다.
 
 > [!TIP]
 > **¿Sabías que...? (Did you know?)**
@@ -67,12 +67,13 @@ Expressing personality at the A2 level involves more complex sentence structures
 
 ---
 
-## 4. Gramática Esencial: Verbos Reflexivos (Reflexive Verbs)
+## 4. Gramática Esencial: Verbos Reflexivos (재귀 동사)
 
-At the A2 level, we introduce reflexive verbs to describe actions that "reflect" back on the subject. These are often used for daily routines and emotional changes.
+A2 단계에서는 행동의 주체에게 그 동작이 다시 돌아오는 '재귀 동사'를 도입합니다. 이는 주로 일상적인 생활 습관이나 감정의 변화를 묘사할 때 중요하게 사용됩니다. 
 
-### Reflexive Pronouns
-| Subject | Pronoun | Example (levantarse) | Korean Meaning |
+### 재귀 대명사 (Reflexive Pronouns)
+재귀 동사를 활용할 때는 주어의 인칭에 맞는 재귀 대명사를 동사 앞에 반드시 위치시켜야 합니다.
+| 주어 (Subject) | 재귀 대명사 | 예시 (levantarse) | 의미 |
 | :--- | :--- | :--- | :--- |
 | yo | **me** | Me levanto | 나는 일어난다 |
 | tú | **te** | Te levantas | 너는 일어난다 |
@@ -81,10 +82,10 @@ At the A2 level, we introduce reflexive verbs to describe actions that "reflect"
 | vosotros / vosotras | **os** | Os levantáis | 너희들은 일어난다 |
 | ellos / ellas / ustedes | **se** | Se levantan | 그들/당신들은 일어난다 |
 
-### Emotional Reflexives
-Verbs like `ponerse` (to become/get) are crucial for describing changes in personality or mood:
-- **Me pongo alegre**: I become happy.
-- **Te pones nervioso**: You get nervous.
+### 감정의 변화를 나타내는 재귀 동사
+`ponerse` (어떠한 상태가 되다)와 같은 동사는 성격이나 기분의 변화를 설명할 때 필수적입니다.
+- **Me pongo alegre**: 나는 기분이 좋아진다.
+- **Te pones nervioso**: 너는 긴장하게 된다.
 
 > [!NOTE]
 > **Korean Tip**
@@ -94,11 +95,11 @@ Verbs like `ponerse` (to become/get) are crucial for describing changes in perso
 
 ## 5. Cultura Viva: Identidad Digital y Redes Sociales
 
-![스페인 인플루언서와 디지털 정체성](../images/ch02_a2_culture_sns_v52_1771285496910.png)
+![스페인 인플루언서와 디지털 정체성](../images/ch02_a2_culture_sns_v52.png)
 
-Modern identity in Spain is deeply intertwined with **redes sociales** (social media). Young Spaniards are among the most active "instagrammers" and "tiktokers" in Europe. This has created a new vocabulary of personality.
+La identidad moderna en España está profundamente entrelazada con las **redes sociales**. Los jóvenes españoles se encuentran entre los "instagramers" y "tiktokers" más activos de Europa. Esto ha creado un nuevo vocabulario de la personalidad.
 
-Digital identity is seen as a way to express "quiénes somos" (who we are) to a global audience. However, Spanish culture still places high value on "el cara a cara" (face-to-face interaction). While someone might seem **abierto** and **optimista** on their profile, their true personality is revealed during long sessions of "sobremesa"—the traditional Spanish talk after a meal. This balance between the virtual self and the authentic social self is a key topic for advanced A2 learners.
+La identidad digital se ve como una forma de expresar "quiénes somos" ante una audiencia global. Sin embargo, la cultura española sigue concediendo un gran valor al "cara a cara". Aunque alguien parezca **abierto** y **optimista** en su perfil, su verdadera personalidad se revela durante las largas sesiones de "sobremesa"—la tradicional charla española después de la comida. Este equilibrio entre el yo virtual y el yo social auténtico es un tema clave para los estudiantes avanzados de A2.
 
 **한국어 번역:**
 디지털 정체성은 전 세계 청중에게 '우리가 누구인지(quiénes somos)'를 표현하는 수단으로 여겨집니다. 하지만 스페인 문화는 여전히 '얼굴을 맞대고(el cara a cara)' 소통하는 것에 높은 가치를 둡니다. 누군가의 프로필이 '아비에르토(abierto)'하고 '옵티미스타(optimista)'해 보일지라도, 그들의 진정한 성격은 식사 후 긴 대화 시간인 '소브레메사(sobremesa)'에서 드러납니다. 가상 세계의 자아와 실제 사회적 자아 사이의 균형은 A2 학습자들에게 중요한 주제입니다.

@@ -1,11 +1,11 @@
 # 4. Familia y amigos
 
 ## 1. Opener
-**Objetivos de aprendizaje:**
-- Analizar las nuevas estructuras familiares y los cambios en la sociedad.
-- Utilizar adjetivos posesivos pospuestos para dar énfasis.
-- Expresar afecto y sentimientos en las relaciones personales.
-- Reflexionar sobre el papel de la amistad y la "familia elegida".
+**학습 목표**:
+- 주례, 사촌, 처가 식구 등 보다 확장된 가족 관계 어휘를 익힙니다.
+- 강조를 위한 **소유 형용사 후치형**(mío, tuyo 등)의 용법을 마스터합니다.
+- 현대 스페인 사회의 변화하는 가족 형태와 세대 간의 관계를 분석합니다.
+- 사회적 모임과 공식 행사에서의 예절 및 소통 방식을 배웁니다.
 
 **¿Sabías que...?**
 En las últimas décadas, España ha pasado de un modelo de familia tradicional a una gran diversidad: familias monoparentales, reconstituidas y matrimonios del mismo sexo. De hecho, España fue uno de los primeros países del mundo en legalizar el matrimonio igualitario en 2005. ¡La identidad de la "familia" es ahora más amplia y flexible que nunca!
@@ -55,11 +55,9 @@ Frases para describir la profundidad de los vínculos personales.
 
 ---
 
-## 4. Gramática Esencial
+## 4. Gramática Esencial: Adjetivos Posesivos Tónicos (소유 형용사 후치형)
 
-### 4.1 Adjetivos posesivos pospuestos (Postposed Possessives)
-Se usan después del sustantivo para dar énfasis o cuando hay un determinante (un, este, etc.).
-(소유 형용사 후치형은 강조를 위해 혹은 관사/지시사와 함께 쓰일 때 명사 뒤에 위치합니다.)
+A2 단계에서는 소유를 더욱 강조하거나 명확하게 표현하기 위해 명사 뒤에 위치하는 소유 형용사를 배웁니다. 영어의 "mine, yours, hers"와 유사한 기능을 하지만, 스페인어에서는 형용사로서 수식하는 명사의 **성과 수** 모두에 일치해야 합니다. 주로 강조하거나, 감정을 담아 표현할 때(¡Hijo mío!) 자주 사용됩니다.
 
 | 단수 (m/f) | 복수 (m/f) | English Equivalent | Korean |
 |:--- |:--- |:--- |:--- |
@@ -82,13 +80,13 @@ Muchos verbos que expresan cambio en la relación son reflexivos (ver Ch.2).
 
 ---
 
-## 5. Cultura Viva: La amistad y la familia elegida
-Aunque los lazos de sangre son fuertes, el concepto de "la familia elegida" (los amigos íntimos) es vital en España. Los amigos a menudo se consideran hermanos. Es muy común tener un grupo de amigos desde la infancia llamado **"la pandilla"** o **"la cuadrilla"**, con quienes se comparte toda la vida. La lealtad a los amigos es una de las virtudes más valoradas en la cultura española y latina.
+## 5. Cultura Viva: La Evolución de la Familia Española
 
-**한국어 번역:**
-혈연 관계가 강력함에도 불구하고, 스페인에서는 '선택된 가족'(친한 친구들)이라는 개념이 매우 중요합니다. 친구들은 종종 형제자매처럼 여겨집니다. 어린 시절부터 형성된 **'라 판디야(la pandilla)'** 또는 **'라 쿠아드리야(la cuadrilla)'**라고 불리는 친구 집단과 평생을 함께 공유하는 것이 매우 흔합니다. 친구에 대한 의리는 스페인 및 라틴 문화에서 가장 높게 평가되는 덕목 중 하나입니다.
+![현대 스페인의 변화하는 가족 형태](../images/ch04_a2_culture_family_v52.png)
 
-![Friends Group in Plaza](../images/ch04_a2_culture_friends_v52.png)
+En la España moderna, el concepto de familia está evolucionando rápidamente. Aunque los lazos familiares siguen siendo muy fuertes, han surgido nuevas estructuras como las familias monoparentales, las familias reconstituidas y el matrimonio igualitario, que es legal desde 2005.
+
+Otro fenómeno importante es la **emancipación tardía**. Debido a factores económicos, muchos jóvenes españoles viven con sus padres hasta bien pasados los 30 años. Esto ha reforzado los vínculos intergeneracionales, pero también ha cambiado la dinámica del hogar. Comprender estos cambios es esencial para entender la realidad social de la España del siglo XXI, donde la tradición y la modernidad conviven en el seno de la familia.
 
 ---
 

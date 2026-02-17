@@ -1,10 +1,11 @@
 # 3. Mi identidad
 
 ## 1. Opener
-**Objetivos de aprendizaje:**
-- Presentarse formal e informalmente.
-- Indicar el nombre, la edad, la nacionalidad y la profesión.
-- Entender el sistema de nombres y el documento de identidad en España.
+**학습 목표**:
+- 성명, 국적, 나이 등 기본적인 개인 신상 정보를 주고받습니다.
+- 신분과 고정된 성질을 나타내는 핵심 동사 **SER**의 모든 인칭 변화를 완벽히 익힙니다.
+- 1부터 100까지의 숫자를 익혀 나이와 전화번호를 말합니다.
+- 스페인의 이름 체계와 신분증(DNI) 문화의 특징을 이해합니다.
 
 **한국어 번역:**
 - 격식 및 비격식 상황에서 자기소개하기.
@@ -69,11 +70,9 @@ Aquí tienes las frases clave para presentarte y preguntar por la identidad de o
 
 ---
 
-## 4. Gramática Esencial
+## 4. Gramática Esencial: El verbo SER (신분과 정체성)
 
-### 4.1 El verbo SER (to be)
-Usamos **SER** para identificar a las personas, indicar la nacionalidad y la profesión (aspectos permanentes).
-(우리는 사람을 식별하거나 국적, 직업 등 변하지 않는 특징을 나타낼 때 **SER** 동사를 사용합니다.)
+**SER** 동사(to be)는 스페인어 학습의 기초이자 기둥입니다. 사람의 이름, 국적, 직업 등 변하지 않거나 본질적인 '정체성'을 정의할 때 사용됩니다. 영어의 "be" 동사와 유사하지만, 스페인어 특유의 인칭별 변화 형태를 정확히 익히는 것이 중요합니다.
 
 | 주어 | SER (현재형) | English Mapping |
 |:--- |:--- |:--- |
@@ -95,16 +94,13 @@ Los adjetivos de nacionalidad cambian según el género.
 
 ---
 
-## 5. Cultura Viva: El DNI y los Nombres
-En España, el **DNI** (Documento Nacional de Identidad) es obligatorio a partir de los 14 años. Es una tarjeta inteligente que contiene tus datos y una foto.
-Como mencionamos, los españoles tienen dos apellidos. En documentos oficiales, siempre verás: **Nombre + Primer Apellido + Segundo Apellido**.
-- Ejemplo: *Pedro Almodóvar Caballero* (Almodóvar es el del padre, Caballero el de la madre).
-Cuando se casan, las mujeres **no cambian su apellido** por el del marido, a diferencia de la cultura anglosajona.
+## 5. Cultura Viva: El DNI y los Nombres en España
 
-**한국어 번역:**
-스페인에서 DNI(국가 신분증)는 14세부터 의무적으로 소지해야 합니다. 이는 데이터와 사진이 포함된 스마트 카드입니다. 앞서 언급했듯이, 스페인 사람들은 두 개의 성을 가집니다. 공식 문서에서는 항상 '이름 + 첫 번째 성(부계) + 두 번째 성(모계)'의 순서로 표기됩니다. (예: 페드로 알모도바르 카바예로). 결혼하더라도 여성은 영미권 문화와 달리 남편의 성으로 바꾸지 않습니다.
+![스페인 신분증 DNI와 이름 문화](../images/ch03_a1_culture_dni_v52.png)
 
-![DNI and Naming Culture](../images/ch03_a1_culture_dni_v52.png)
+En España, la identidad personal está profundamente ligada a la estructura familiar. A diferencia de muchos países anglosajones, los españoles tienen legalmente dos apellidos: el primero del padre y el segundo de la madre. Por ejemplo, si Juan García Pérez y María López Ruiz tienen un hijo llamado Pablo, su nombre completo sería Pablo García López.
+
+Además, el **DNI** (Documento Nacional de Identidad) es una pieza fundamental de la vida diaria. Todos los ciudadanos mayores de 14 años deben llevarlo siempre consigo. El número del DNI se utiliza para todo, desde abrir una cuenta bancaria hasta recoger un paquete en el correo. Esta importancia del documento refleja una sociedad organizada donde la identidad oficial es muy relevante en las interacciones diarias.
 
 ---
 

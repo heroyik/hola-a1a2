@@ -1,11 +1,11 @@
 # 4. Familia y amigos
 
 ## 1. Opener
-**Objetivos de aprendizaje:**
-- Describir a los miembros de la familia.
-- Hablar de las relaciones personales y la amistad.
-- Expresar posesión (mío, tuyo, etc.).
-- Conocer la importancia de la familia en la cultura hispana.
+**학습 목표**:
+- 부모, 형제, 조부모 등 가족 구성원 및 친척의 명칭을 익힙니다.
+- 소유 형용사(mi, tu, su 등)를 사용하여 가족 관계와 소유를 표현합니다.
+- 스페인의 가족 중심 문화와 특별한 기념일(축일) 관습을 이해합니다.
+- 감탄문과 기원 표현을 사용하여 축하 메시지를 주고받습니다.
 
 **¿Sabías que...?**
 Para los españoles, la familia no es solo el núcleo básico (padres e hijos), sino que incluye a tíos, primos y abuelos en una relación muy estrecha. Es común que las familias se reúnan todos los domingos para una gran comida que dura horas. ¡La sobremesa es casi tan importante como la comida misma!
@@ -62,11 +62,9 @@ Frases esenciales para hablar de tu familia.
 
 ---
 
-## 4. Gramática Esencial
+## 4. Gramática Esencial: Adjetivos Posesivos (소유 형용사)
 
-### 4.1 Los adjetivos posesivos (Possessive Adjectives)
-Indican a quién pertenece algo. Se colocan **antes** del sustantivo.
-(소유 형용사는 사물이 누구의 것인지 나타내며, 명사 앞에 위치합니다.)
+스페인어에서 소유를 나타낼 때는 명사 앞에 위치하는 소유 형용사를 사용합니다. 영어의 "my, your, his/her"와 역할은 같지만, 스페인어에서는 수식하는 명사의 **수(단수/복수)**에 따라 형태가 변한다는 점이 특징입니다. 주어의 성별이 아니라, **가지고 있는 물건(또는 사람)**의 성과 수에 맞춰야 합니다.
 
 | 주어 | 단수 | 복수 | English | Korean |
 |:--- |:--- |:--- |:--- |:--- |
@@ -77,25 +75,15 @@ Indican a quién pertenece algo. Se colocan **antes** del sustantivo.
 | **vosotros / as** | vuestro/a | vuestros/as | your (pl. inf.) | 너희들의 |
 | **ellos / ellas / uds** | su | sus | their/your (pl.) | 그들의 / 당신들의 |
 
-### 4.2 Los demostrativos (Demonstratives)
-Para señalar personas o cosas según la distancia.
-(지시사는 거리에 따라 사람이나 사물을 가리킬 때 사용합니다.)
-
-- **Cerca (This / 이):** este (m) / esta (f) / estos (mp) / estas (fp)
-- **Media (That / 그):** ese (m) / esa (f) / esos (mp) / esas (fp)
-- **Lejos (That over there / 저):** aquel (m) / aquella (f) / aquellos (mp) / aquellas (fp)
-
-**Korean Tip:** 스페인어의 'su'는 그의, 그녀의, 당신의, 그들의 등 매우 다양한 뜻이 있습니다. 맥락에 따라 구분해야 하며, 혼동을 피하려면 "el/la de usted" 처럼 표현하기도 합니다.
-
 ---
 
-## 5. Cultura Viva: El concepto de familia
-En los países hispanohablantes, la familia es el pilar de la sociedad. La lealtad familiar suele estar por encima de otros intereses. Es muy común vivir con los padres hasta pasados los 30 años, algo que en la cultura anglosajona se ve menos. Además, el papel de los abuelos es fundamental: a menudo son ellos quienes cuidan de los nietos mientras los padres trabajan.
+## 5. Cultura Viva: La Familia y los Santos en España
 
-**한국어 번역:**
-스페인어권 국가들에서 가족은 사회의 기둥입니다. 가족에 대한 충성심은 대개 다른 어떤 관심사보다 우선시됩니다. 부모님과 30세가 넘어서까지 함께 사는 것이 매우 흔한데, 이는 영미권 문화에서는 보기 드문 현상입니다. 또한, 조부모의 역할이 매우 중요한데, 부모가 일하는 동안 손주들을 돌보는 경우가 많습니다.
+![스페인의 가족 식사와 축일 문화](../images/ch04_a1_culture_family_v52.png)
 
-![Family Gathering Lunch](../images/ch04_a1_culture_family_v52.png)
+La familia es el corazón de la sociedad española. A diferencia de las culturas más individualistas, en España es muy común que varias generaciones mantengan un contacto diario y estrecho. Las comidas dominicales en casa de los abuelos son una tradición sagrada que une a todos los parientes.
+
+Una costumbre única es la celebración del **Santo**. Además del cumpleaños, los españoles celebran el día del santo que lleva su nombre según el calendario católico. Por ejemplo, todos los "Josés" celebran su santo el 19 de marzo. Es una oportunidad extra para reunirse, comer bien y compartir alegría con los seres queridos. Esta importancia de la familia y la fe se refleja en la calidez y el sentido de comunidad que define a España.
 
 ---
 

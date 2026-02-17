@@ -6,11 +6,11 @@
 **한국어 번역:**
 다시 만나 반가워요! 기초를 닦았으니 이제 건강에 대해 더 깊이 알아볼 시간입니다. 증상을 설명하고 의료 조언을 이해하는 것은 스페인어권 국가에서 생활하거나 여행할 때 매우 중요합니다. 이 장에서는 의료 어휘를 다듬고 역구조 동사인 'doler'를 완벽히 익힐 것입니다.
 
-**학습 목표 (Learning Objectives)**:
-- Describe complex health symptoms (flu, fever, cough).
-- Master the inverse structure of the verb `doler` (to hurt).
-- Understand the socio-cultural impact of the Mediterranean Diet.
-- Learn phrases for making medical appointments and navigating a pharmacy.
+**학습 목표**:
+- 독감, 열, 기침 등 복잡한 건강 증상을 묘사합니다.
+- 역구조 동사인 `doler`(아프다)의 구조를 마스터합니다.
+- 지중해식 식단이 사회문화적으로 미치는 영향을 이해합니다.
+- 진료 예약 및 약국 이용을 위한 필수 표현을 익힙니다.
 
 > [!TIP]
 > **¿Sabías que...? (Did you know?)**
@@ -67,9 +67,9 @@ Let's move beyond "Tengo dolor." Use these phrases to navigate a real medical si
 
 ---
 
-## 4. Gramática Esencial: El verbo DOLER (to hurt)
+## 4. Gramática Esencial: El verbo DOLER (아프다)
 
-`doler` belongs to a special class of verbs like `gustar`. The subject is NOT the person; it's the **body part that causes the pain**.
+`doler` 동사는 `gustar` 동사와 마찬가지로 특수한 구조를 가진 역구조 동사입니다. 문장의 주어는 사람이 아니라 **통증을 유발하는 신체 부위**가 됩니다. "내가 머리를 아프게 한다"가 아니라 "머리가 나에게 통증을 준다"는 방식으로 사고해야 합니다.
 
 ### 전 인칭 구조 테이블 (Functional Structure)
 | Indirect Object (The Person) | Singular Body Part | Plural Body Part | Korean Meaning |
@@ -91,9 +91,9 @@ Let's move beyond "Tengo dolor." Use these phrases to navigate a real medical si
 
 ![지중해식 식단(Dieta Mediterránea) 일러스트](../images/ch01_a2_culture_diet_v52.png)
 
-Spain consistently ranks among the healthiest nations. The secret? The **Mediterranean Diet**.
+España se sitúa constantemente entre las naciones más saludables del mundo. ¿El secreto? La **Dieta Mediterránea**.
 
-This isn't just a list of foods; it's a UNESCO-recognized intangible cultural heritage. It emphasizes **olive oil**, fresh seasonal vegetables, pulses, and fish. But it's also about *how* they eat: slowly, socially, and without stress. They also have the **Siesta** tradition (though changing in big cities), which helps reduce cardiovascular stress. Incorporating a bit of Spanish "calma" into your lifestyle might actually add years to your life!
+Esto no es solo una lista de alimentos; es un patrimonio cultural inmaterial reconocido por la UNESCO. Destaca el uso del **aceite de oliva**, verduras frescas de temporada, legumbres y pescado. Pero también se trata de *cómo* comen: despacio, socialmente y sin estrés. También tienen la tradición de la **Siesta**, que ayuda a reducir el estrés cardiovascular. ¡Incorporar un poco de la "calma" española en tu estilo de vida podría añadir años a tu vida!
 
 **한국어 번역:**
 스페인은 지속적으로 가장 건강한 국가 중 하나로 꼽힙니다. 그 비결은 무엇일까요? 바로 '지중해식 식단(Dieta Mediterránea)'입니다. 이는 단순한 음식 목록이 아니라 유네스코 인류 무형 문화유산으로 인정받은 것입니다. 올리브 오일, 신선한 제철 채소, 콩류, 생선을 강조합니다. 하지만 무엇을 먹느냐만큼이나 '어떻게' 먹느냐도 중요합니다. 천천히, 사교적으로, 스트레스 없이 먹는 것이 특징입니다. 또한 대도시에서는 변하고 있지만 심혈관 스트레스를 줄여주는 '시에스타(Siesta)' 전통도 있습니다. 스페인식 '여유(calma)'를 일상에 도입하는 것만으로도 수명이 늘어날 수 있습니다!

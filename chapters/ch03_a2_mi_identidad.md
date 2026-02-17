@@ -63,7 +63,9 @@ Frases para describir tu historia y tus sentimientos hacia tu identidad.
 
 ---
 
-## 4. Gramática Esencial
+## 4. Gramática Esencial: Identidad y Documentación
+
+A2 단계에서는 단순한 자기소개를 넘어 공식적인 문맥에서 자신의 신분을 증명하고 설명하는 데 집중합니다. 국가와 국적을 나타내는 형용사는 주어의 성(Masculino/Femenino)과 수(Singular/Plural)에 따라 엄격하게 변하며, 이를 정확히 일치시키는 것이 중급 수준의 유창함을 결정짓는 핵심입니다.
 
 ### 4.1 Repaso de Identidad y Verbos de Cambio
 Para hablar de la identidad que cambia o se adquiere, usamos verbos como **Hacerse** o **Llegar a ser**.
@@ -87,13 +89,18 @@ A2 requiere conocer gentilicios más complejos o irregulares.
 
 ---
 
-## 5. Cultura Viva: La España Multicultural
-La inmigración en España no es un fenómeno nuevo, pero su intensidad sí lo es. Grupos procedentes de **América Latina, Marruecos y Rumanía** son los más numerosos. Esta mezcla ha dado lugar a una "identidad híbrida". Muchos jóvenes hoy se definen como "nuevos españoles", manteniendo las tradiciones de sus padres mientras participan plenamente en la vida social y política de España. La celebración del **Día de la Hispanidad** (12 de octubre) es un momento para reflexionar sobre este pasado y presente compartido.
+## 5. Cultura Viva: Inmigración y Diversidad en España
+
+![현대 스페인의 다문화적 정체성](../images/ch03_a2_culture_diversity_v52.png)
+
+En las últimas décadas, España se ha transformado en una sociedad multicultural y diversa. Aunque tradicionalmente era un país de emigrantes, hoy es uno de los destinos principales para personas de todo el mundo, especialmente de Latinoamérica, África y Europa del Este.
+
+Esta diversidad se refleja en las grandes ciudades como Madrid y Barcelona, donde conviven múltiples lenguas y tradiciones. La identidad española moderna es una mezcla rica de raigambre histórica y nuevas influencias culturales. Los estudiantes de español deben comprender que el "ser español" hoy en día abarca una gran variedad de orígenes, lo que hace de España un país dinámico y abierto al mundo.
 
 **한국어 번역:**
-스페인으로의 이민은 새로운 현상은 아니지만, 그 강도는 매우 거세졌습니다. 라틴 아메리카, 마그레브(북아프리카), 동유럽 출신 그룹이 가장 많습니다. 이러한 혼합은 '하이브리드 정체성'을 탄생시켰습니다. 오늘날 많은 젊은이들은 부모의 전통을 유지하면서도 스페인의 사회적, 정치적 삶에 완전히 참여하며 스스로를 '새로운 스페인 사람'으로 정의합니다. 10월 12일 '이스파니나드의 날(Día de la Hispanidad)'은 이러한 공유된 과거와 현재를 되새기는 시간입니다.
+지난 수십 년 동안 스페인은 다문화적이고 다양한 사회로 변모했습니다. 전통적으로 이민자들의 나라였지만, 오늘날 스페인은 전 세계, 특히 라틴 아메리카, 아프리카, 동유럽 출신 사람들에게 주요 목적지 중 하나입니다.
 
-![Multicultural Spain Landscape](../images/ch03_a2_culture_multicultural_v52.png)
+이러한 다양성은 마드리드와 바르셀로나 같은 대도시에서 여러 언어와 전통이 공존하는 모습으로 나타납니다. 현대 스페인 정체성은 역사적 뿌리와 새로운 문화적 영향이 풍부하게 혼합된 것입니다. 스페인어 학습자들은 오늘날 "스페인 사람"이라는 것이 매우 다양한 기원을 포괄하며, 이는 스페인을 역동적이고 세계에 개방적인 나라로 만든다는 것을 이해해야 합니다.
 
 ---
 

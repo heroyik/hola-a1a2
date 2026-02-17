@@ -6,11 +6,11 @@ Who are you? How do you describe your personality and your physical appearance t
 **한국어 번역:**
 여러분은 누구인가요? 새로운 친구에게 여러분의 성격과 외모를 어떻게 설명하시겠습니까? 이 장에서는 정체성을 묘사하는 생동감 넘치는 언어를 탐구합니다. 단순히 색상과 모양의 이름을 익히는 것을 넘어, 여러분이 이미 알고 있는 영어 어휘를 활용하여 인물의 특징을 설명하는 법을 배울 것입니다.
 
-**학습 목표 (Learning Objectives)**:
-- Describe yourself and others using 15+ physical and personality adjectives.
-- Distinguish between **Ser** (permanent traits) and **Estar** (temporary states) for descriptions.
-- Use gender and number agreement with adjectives correctly.
-- Understand the cultural nuances of greetings in Spain vs. Latin America.
+**학습 목표**:
+- 15개 이상의 외모 및 성격 형용사를 사용하여 자신과 타인을 묘사합니다.
+- 성질(본질)을 나타내는 **Ser**와 상태를 나타내는 **Estar**의 차이를 구분하여 사용합니다.
+- 형용사의 성과 수 일치 규칙을 올바르게 적용합니다.
+- 스페인과 중남미 인사의 문화적 차이와 뉘앙스를 이해합니다.
 
 > [!TIP]
 > **¿Sabías que...? (Did you know?)**
@@ -74,16 +74,15 @@ Describing people isn't just about adjectives. It's about combining them with ve
 
 ---
 
-## 4. Gramática Esencial: SER vs ESTAR (The "To Be" Duo)
+## 4. Gramática Esencial: SER vs ESTAR (두 가지 'be' 동사)
 
-English has one "to be". Spanish has two, and Chapter 2 is where we learn their most important difference: **Permanence vs. State**.
+영어에는 "be" 동사가 하나뿐이지만, 스페인어에는 **SER**와 **ESTAR** 두 가지가 존재합니다. 이 둘의 가장 큰 차이점은 '영속성'과 '상태'입니다. 
 
-### Adjective Agreement (Gender & Number)
-In Spanish, adjectives must match the noun they describe.
-(스페인어에서 형용사는 수식하는 명사의 성과 수에 일치해야 합니다.)
-- Masculine: El chico **alto** (키가 큰 소년)
-- Feminine: La chica **alta** (키가 큰 소녀)
-- Plural: Los chicos **altos** / Las chicas **altas** (키가 큰 소년들 / 소녀들)
+### 형용사의 성·수 일치 (Adjective Agreement)
+스페인어에서 형용사는 수식하는 명사의 성(남성/여성)과 수(단수/복수)에 반드시 일치해야 합니다. 주어가 바뀌면 형용사의 어미도 함께 변한다는 점을 꼭 기억하세요.
+- 남성: El chico **alto** (키가 큰 소년)
+- 여성: La chica **alta** (키가 큰 소녀)
+- 복수: Los chicos **altos** / Las chicas **altas** (키가 큰 소년들 / 소녀들)
 
 ### 전 인칭 SER 변화 (Essential Recap)
 | 주어 (Subject) | SER (Permanent Traits) |
@@ -103,11 +102,11 @@ In Spanish, adjectives must match the noun they describe.
 
 ## 5. Cultura Viva: Saludos en el Mundo Hispano
 
-![스페인과 중남미의 인사 비교](../images/ch02_a1_culture_greeting_v52_1771285475560.png)
+![스페인과 중남미의 인사 비교](../images/ch02_a1_culture_greeting_v52.png)
 
-Greetings are the mirror of personality in the Spanish-speaking world. In Spain, the standard greeting between a man and a woman, or two women, is the **'Dos Besos'**—two light cheek touches starting with the right. Between two men, a firm handshake or a short hug is common.
+Los saludos son el espejo de la personalidad en el mundo hispanohablante. En España, el saludo estándar entre un hombre y una mujer, o entre dos mujeres, son los **'Dos Besos'**—dos ligeros contactos en las mejillas empezando por la derecha. Entre dos hombres, es común un apretón de manos firme o un breve abrazo.
 
-In Latin America, however, the **'Un Beso'** (single kiss) is more common in many regions. People are generally very expressive; "simpático" isn't just a word, it’s a lifestyle! Even when meeting for the first time, people might use familiar terms of endearment, reflecting an "abierto" (open) and "caluroso" (warm) personality trait.
+En Latinoamérica, sin embargo, el **'Un Beso'** es más común en muchas regiones. La gente es generalmente muy expresiva; "simpático" no es solo una palabra, ¡es un estilo de vida! Incluso al conocerse por primera vez, las personas pueden usar términos cariñosos, lo que refleja un rasgo de personalidad "abierto" y "caluroso".
 
 **한국어 번역:**
 인사는 스페인어권 세계에서 성격을 비추는 거울과 같습니다. 스페인에서는 보편적인 인사법으로 남성과 여성 사이, 또는 여성들 사이에서 '도스 베소스(Dos Besos)'를 합니다. 오른쪽 볼부터 시작해 양 볼에 가볍게 맞추는 방식입니다. 남성들 사이에서는 강한 악수나 짧은 포옹이 흔합니다. 반면 라틴 아메리카의 많은 지역에서는 '운 베소(Un Beso, 한 번의 키스)'가 더 일반적입니다. 사람들은 대체로 표현이 매우 풍부합니다. '심파티코(simpático)'는 단순한 단어가 아니라 하나의 라이프스타일입니다! 처음 만났을 때도 친근한 애칭을 사용할 수 있는데, 이는 '아비에르토(abierto, 개방적인)'하고 '카루로소(caluroso, 따뜻한)'한 성격적 특징을 반영합니다.

@@ -6,11 +6,11 @@
 **한국어 번역:**
 환영합니다! 우리의 여행은 우리가 가진 가장 필수적인 도구인 몸에서 시작됩니다. 이 장에서는 신체 부위의 이름을 익히고 신체 상태를 설명하는 방법을 배웁니다. 영어의 학술 어휘 속에 얼마나 많은 스페인어 단어들이 숨겨져 있는지 알게 되면 놀라실 겁니다!
 
-**학습 목표 (Learning Objectives)**:
-- Identify and name 15+ body parts from head to toe.
-- Master the irregular verb `tener` (to have) for physical sensations.
-- Understand the cultural significance of personal space and greetings in Spain.
-- Learn to express basic health states and identify medical professionals.
+**학습 목표**:
+- 머리부터 발끝까지 15개 이상의 신체 부위를 식별하고 이름을 말할 수 있습니다.
+- 신체적 감각을 표현하기 위한 불규칙 동사 `tener`(가지다)의 활용을 마스터합니다.
+- 스페인의 개인 공간과 인사법에 대한 문화적 중요성을 이해합니다.
+- 기본적인 건강 상태를 표현하고 의료 전문가를 식별하는 법을 배웁니다.
 
 > [!TIP]
 > **¿Sabías que...? (Did you know?)**
@@ -72,9 +72,9 @@ In English, we say "I **am** hungry." In Spanish, we use the logic of possession
 
 ---
 
-## 4. Gramática Esencial: El verbo TENER (to have)
+## 4. Gramática Esencial: El verbo TENER (가지다)
 
-`tener` is one of the most versatile irregular verbs in Spanish. It is used for possession, age ("I have 20 years"), and physical states.
+`tener` 동사는 스페인어에서 가장 다재다능한 불규칙 동사 중 하나입니다. 소유(possession), 나이("나는 20살이다"), 그리고 신체적 상태를 표현할 때 필수적으로 사용됩니다. 특히 영어에서는 "I am hungry"라고 형용사를 사용하지만, 스페인어에서는 "배고픔을 가지고 있다(I have hunger)"라는 논리로 접근한다는 점이 핵심입니다.
 
 ### 전 인칭 변화 테이블 (Full Conjugation)
 | 주어 (Subject) | 변화형 (Conjugation) | 한국어 뜻 (Korean) |
@@ -96,9 +96,9 @@ In English, we say "I **am** hungry." In Spanish, we use the logic of possession
 
 ![스페인의 약국(Farmacia) 풍경](../images/ch01_a1_culture_farmacia_v52.png)
 
-Spain boasts one of the world's most efficient public healthcare systems, known as **Seguridad Social**. 
+España cuenta con uno de los sistemas de salud pública más eficientes del mundo, conocido como **Seguridad Social**. 
 
-Every residential neighborhood has a **Centro de Salud** (Health Center) where locals go for their first consultations. Unlike the private-heavy systems elsewhere, most basic care is free for citizens and residents. This accessibility, combined with the **Mediterranean Diet** and a culture of walking, contributes to Spain having one of the highest life expectancies in the world. When you visit, look for the luminous green cross signs—those are the **Farmacias**, and they are almost on every corner!
+Cada barrio residencial tiene un **Centro de Salud** donde los ciudadanos acuden para sus primeras consultas. A diferencia de otros sistemas privados, la mayor parte de la atención básica es gratuita para los ciudadanos y residentes. Esta accesibilidad, combinada con la **Dieta Mediterránea** y la cultura de caminar, contribuye a que España tenga una de las esperanzas de vida más altas del mundo. Cuando visites España, busca las cruces verdes luminosas—¡son las **Farmacias**, y están en casi todas las esquinas!
 
 **한국어 번역:**
 스페인은 '세구리다드 소시알(Seguridad Social)'이라고 불리는 세계적으로 효율적인 공공 의료 시스템을 자랑합니다. 모든 거주 지역에는 주민들이 첫 진료를 받기 위해 찾는 '센트로 데 살루드(Centro de Salud, 보건소)'가 있습니다. 다른 나라의 민간 중심 시스템과 달리, 대부분의 기본 진료는 시민과 거주자에게 무료입니다. 이러한 접근성은 지중해식 식단 및 걷는 문화와 결합되어 스페인이 세계에서 가장 높은 기대 수명을 가진 국가 중 하나가 되도록 기여합니다. 방문하실 때 빛나는 초록색 십자가 간판을 찾아보세요. 그것이 약국(Farmacias)이며, 거의 모든 골목마다 있습니다!
