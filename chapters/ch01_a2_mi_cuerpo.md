@@ -58,10 +58,12 @@ Let's move beyond "Tengo dolor." Use these phrases to navigate a real medical si
 - **Me siento fatal**: I feel terrible (기분이/몸이 정말 안 좋아요)
 
 **실전 예문 (Practical Examples)**:
-- ES: Necesito pedir cita con el doctor para mañana. (내일 의사 선생님 진료 예약을 해야 해요.)
-- EN: I need to make an appointment with the doctor for tomorrow.
-- ES: Mi madre está resfriada y tiene mucha tos. (어머니가 감기에 걸리셔서 기침을 많이 하세요.)
-- EN: My mother has a cold and a lot of coughing.
+- ES: Necesito pedir cita con el doctor para mañana.
+- KO: 내일 의사 선생님 진료 예약을 해야 해요. (EN: I need to make an appointment with the doctor for tomorrow.)
+- ES: Mi madre está resfriada y tiene mucha tos.
+- KO: 어머니가 감기에 걸리셔서 기침을 많이 하세요. (EN: My mother has a cold and a lot of coughing.)
+- ES: ¡Cuídate!
+- KO: 몸 조리 잘해! / 건강 조심해! (EN: Take care of yourself!)
 
 ---
 
@@ -70,14 +72,14 @@ Let's move beyond "Tengo dolor." Use these phrases to navigate a real medical si
 `doler` belongs to a special class of verbs like `gustar`. The subject is NOT the person; it's the **body part that causes the pain**.
 
 ### 전 인칭 구조 테이블 (Functional Structure)
-| Indirect Object (The Person) | Singular Body Part | Plural Body Part |
-| :--- | :--- | :--- |
-| **me** (to me) | **duele** | **duelen** |
-| **te** (to you) | **duele** | **duelen** |
-| **le** (to him/her/you-polite) | **duele** | **duelen** |
-| **nos** (to us) | **duele** | **duelen** |
-| **os** (to you all) | **duele** | **duelen** |
-| **les** (to them/you all) | **duele** | **duelen** |
+| Indirect Object (The Person) | Singular Body Part | Plural Body Part | Korean Meaning |
+| :--- | :--- | :--- | :--- |
+| **me** (to me) | **duele** | **duelen** | 나(는/를) 아프다 |
+| **te** (to you) | **duele** | **duelen** | 너(는/를) 아프다 |
+| **le** (to him/her/you-polite) | **duele** | **duelen** | 그/그녀/당신(은/을) 아프다 |
+| **nos** (to us) | **duele** | **duelen** | 우리(는/를) 아프다 |
+| **os** (to you all) | **duele** | **duelen** | 너희들(은/을) 아프다 |
+| **les** (to them/you all) | **duele** | **duelen** | 그들/당신들(은/을) 아프다 |
 
 > [!NOTE]
 > **Korean Tip**
@@ -187,3 +189,10 @@ Check your progress! Can you do the following?
 3. Tome la temperatura. 
 4. Hablamos de la salud. 
 5. Lleve la receta a la farmacia.
+
+**7. Lectura Questions (독해 정답)**
+1. Le escribe al doctor García porque no se siente bien físicamente. (몸 상태가 좋지 않아 가르시아 의사 선생님께 씁니다.)
+2. Tiene mucha gripe, fiebre muy alta y tos constante. (심한 독감, 고열, 그리고 끊임없는 기침 증상이 있습니다.)
+3. Le duelen todos los músculos del cuerpo. (몸의 모든 근육이 아픕니다.)
+4. Para pedir una receta. (처방전을 받기 위해서입니다.)
+5. En la farmacia de su barrio. (그의 동네 약국에서 살 것입니다.)

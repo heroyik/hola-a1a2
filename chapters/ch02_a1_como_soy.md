@@ -57,6 +57,7 @@ Spanish adjectives often share roots with English academic or descriptive terms.
 
 ## 3. Expresiones Útiles
 Describing people isn't just about adjectives. It's about combining them with verbs to paint a picture.
+(사람을 묘사하는 것은 단순히 형용사만을 사용하는 것이 아닙니다. 동사와 결합하여 한 폭의 그림을 그리듯 묘사하는 법을 배워봅시다.)
 
 - **¿Cómo eres?**: What are you like? (너는 어떤 사람이니?)
 - **Soy una persona alegre**: I am a cheerful person. (나는 명랑한 사람이에요.)
@@ -79,9 +80,10 @@ English has one "to be". Spanish has two, and Chapter 2 is where we learn their 
 
 ### Adjective Agreement (Gender & Number)
 In Spanish, adjectives must match the noun they describe.
-- Masculine: El chico **alto**
-- Feminine: La chica **alta**
-- Plural: Los chicos **altos** / Las chicas **altas**
+(스페인어에서 형용사는 수식하는 명사의 성과 수에 일치해야 합니다.)
+- Masculine: El chico **alto** (키가 큰 소년)
+- Feminine: La chica **alta** (키가 큰 소녀)
+- Plural: Los chicos **altos** / Las chicas **altas** (키가 큰 소년들 / 소녀들)
 
 ### 전 인칭 SER 변화 (Essential Recap)
 | 주어 (Subject) | SER (Permanent Traits) |
@@ -156,6 +158,9 @@ Carlos es mi mejor amigo. Él es de Madrid, pero vive en Barcelona. Carlos es un
 **Questions**:
 1. ¿Cómo es Carlos físicamente? (Carlos의 외모는 어떤가요?)
 2. ¿Qué estudia Carlos? (Carlos는 무엇을 공부하나요?)
+3. ¿Dónde vive Carlos? (Carlos는 어디에 사나요?)
+4. ¿Es Carlos una persona tímida? (Carlos는 내성적인 사람인가요?)
+5. ¿Qué lleva Carlos en la cara? (Carlos는 얼굴에 무엇을 착용하고 있나요?)
 
 ---
 
@@ -210,6 +215,9 @@ Carlos es mi mejor amigo. Él es de Madrid, pero vive en Barcelona. Carlos es un
 4. Somos alegres.
 5. ¿Eres tímido / tímida?
 
-### 7. Lectura Questions
-1. Es alto, moreno, lleva gafas y tiene barba.
-2. Estudia medicina.
+### 7. Lectura Questions (독해 정답)
+1. Es alto, moreno, lleva gafas y tiene barba. (그는 키가 크고 검은 머리이며 안경을 쓰고 수염이 있습니다.)
+2. Estudia medicina. (의학을 공부합니다.)
+3. Vive en Barcelona. (바르셀로나에 삽니다.)
+4. No, no es tímido; es alegre y le gusta hablar con todo el mundo. (아니요, 내성적이지 않습니다. 그는 명랑하며 모든 사람과 이야기하는 것을 좋아합니다.)
+5. Lleva gafas. (안경을 쓰고 있습니다.)

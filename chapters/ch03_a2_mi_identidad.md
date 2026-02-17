@@ -46,19 +46,20 @@ A2 단계에서는 보다 추상적이며 사회 통합 및 개인사와 관련�
 
 ## 3. Expresiones Útiles
 Frases para describir tu historia y tus sentimientos hacia tu identidad.
+(여러분의 역사와 정체성에 대한 감정을 설명하는 데 필요한 표현들입니다.)
 
 - **¿Cuáles son tus raíces?**
-  - What are your roots?
+  - What are your roots? (여러분의 뿌리는 어디인가요?)
 - **Mis padres son de... pero yo nací en...**
-  - My parents are from... but I was born in...
+  - My parents are from... but I was born in... (제 부모님은 ... 출신이시지만, 저는 ...에서 태어났습니다.)
 - **Me siento muy integrado/a en esta cultura.**
-  - I feel very integrated into this culture.
+  - I feel very integrated into this culture. (저는 이 문화에 매우 잘 통합되어 있다고 느낍니다.)
 - **Solicitar el visado o la ciudadanía.**
-  - To apply for a visa or citizenship.
+  - To apply for a visa or citizenship. (비자 또는 시민권을 신청하다.)
 - **La diversidad enriquece a la sociedad.**
-  - Diversity enriches society.
+  - Diversity enriches society. (다양성은 사회를 풍요롭게 합니다.)
 - **Tener doble nacionalidad.**
-  - To have dual nationality.
+  - To have dual nationality. (이중 국적을 가지다.)
 
 ---
 
@@ -66,6 +67,7 @@ Frases para describir tu historia y tus sentimientos hacia tu identidad.
 
 ### 4.1 Repaso de Identidad y Verbos de Cambio
 Para hablar de la identidad que cambia o se adquiere, usamos verbos como **Hacerse** o **Llegar a ser**.
+(변하거나 획득되는 정체성에 대해 말할 때는 **Hacerse** 나 **Llegar a ser** 와 같은 동사를 사용합니다.)
 
 | Verbo | Contexto | Ejemplo |
 |:--- |:--- |:--- |
@@ -186,3 +188,10 @@ La identidad no es algo estático, sino algo que construimos cada día con nuest
 3. La diversidad enriquece a la sociedad.
 4. Él solicitó la ciudadanía española.
 5. Tengo doble nacionalidad.
+
+**D. Lectura Questions (독해 정답)**
+1. Vive en Barcelona. Su padre es de Argentina y su madre es de Japón. (바르셀로나에 삽니다. 아버지는 아르헨티나인이고 어머니는 일본인입니다.)
+2. Habla español, japonés y catalán. (스페인어, 일본어, 카탈루냐어를 합니다.)
+3. Comen sushi y asado argentino. (스시와 아르헨티나식 아사도(바비큐)를 먹습니다.)
+4. Porque le permite entender diferentes puntos de vista. (다양한 관점을 이해할 수 있게 해주기 때문입니다.)
+5. Se define como ciudadana del mundo. ('세계 시민'으로 자신을 정의합니다.)

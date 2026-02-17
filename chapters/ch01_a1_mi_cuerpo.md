@@ -54,6 +54,7 @@ Below is your bridge between English and Spanish. Use your knowledge of English'
 
 ## 3. Expresiones Útiles
 In English, we say "I **am** hungry." In Spanish, we use the logic of possession: "I **have** hunger." This is a key mental shift for English speakers!
+(영어에서는 "I am hungry"라고 하지만, 스페인어에서는 "나는 배고픔을 가지고 있다(I have hunger)"라는 소유의 논리를 사용합니다. 이는 영어 사용자들에게 매우 중요한 사고의 전환입니다!)
 
 - **Tener sueño**: To have sleepiness (졸리다)
 - **Tener sed**: To have thirst (목마르다)
@@ -76,14 +77,14 @@ In English, we say "I **am** hungry." In Spanish, we use the logic of possession
 `tener` is one of the most versatile irregular verbs in Spanish. It is used for possession, age ("I have 20 years"), and physical states.
 
 ### 전 인칭 변화 테이블 (Full Conjugation)
-| 주어 (Subject) | 변화형 (Conjugation) |
-| :--- | :--- |
-| yo | **tengo** |
-| tú | **tienes** |
-| él / ella / usted | **tiene** |
-| nosotros / nosotras | **tenemos** |
-| vosotros / vosotras | **tenéis** |
-| ellos / ellas / ustedes | **tienen** |
+| 주어 (Subject) | 변화형 (Conjugation) | 한국어 뜻 (Korean) |
+| :--- | :--- | :--- |
+| yo | **tengo** | 나는 가지고 있다 |
+| tú | **tienes** | 너는 가지고 있다 |
+| él / ella / usted | **tiene** | 그/그녀/당신은 가지고 있다 |
+| nosotros / nosotras | **tenemos** | 우리는 가지고 있다 |
+| vosotros / vosotras | **tenéis** | 너희들은 가지고 있다 |
+| ellos / ellas / ustedes | **tienen** | 그들/당신들은 가지고 있다 |
 
 > [!NOTE]
 > **Korean Tip**
@@ -141,6 +142,12 @@ Every residential neighborhood has a **Centro de Salud** (Health Center) where l
 **La salud de Ana**
 
 Hola, me llamo Ana. Hoy estoy muy cansada. Tengo mucho sueño porque estudio mucho en la universidad. También tengo hambre porque no como nada por tres horas. Quiero comer algo saludable para mi estómago. Mi brazo está bien, pero mi pierna está un poco cansada de caminar por el campus. ¡Mañana estaré mejor en el hospital con el doctor!
+**Preguntas:**
+1. ¿Por qué tiene Ana mucho sueño? (아나는 왜 매우 졸린가요?)
+2. ¿Por qué tiene Ana hambre? (아나는 왜 배가 고픈가요?)
+3. ¿Cómo está el brazo de Ana? (아나의 팔 상태는 어떤가요?)
+4. ¿Por qué está cansada su pierna? (그녀의 다리는 왜 피곤한가요?)
+5. ¿Con quién estará mejor mañana? (내일 누구와 함께 있으면 상태가 더 나아질까요?)
 
 **한국어 번역 (Korean Translation)**:
 **Ana의 건강**
@@ -188,3 +195,10 @@ Check your progress! Can you do the following?
 3. Tenemos sed. 
 4. Ellos tienen frío. 
 5. ¿Tienes sueño?
+
+**7. Lectura Questions (독해 정답)**
+1. Porque estudia mucho en la universidad. (대학교에서 공부를 많이 하기 때문입니다.)
+2. Porque no come nada por tres horas. (3시간 동안 아무것도 먹지 않았기 때문입니다.)
+3. Su brazo está bien. (그녀의 팔은 괜찮습니다.)
+4. Porque camina por el campus. (캠퍼스를 걷기 때문입니다.)
+5. Con el doctor en el hospital. (병원에서 의사 선생님과 함께 있을 때입니다.)

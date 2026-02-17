@@ -48,17 +48,17 @@ Aprenderemos los términos para describir nuestro círculo más cercano.
 Frases esenciales para hablar de tu familia.
 
 - **¿Tienes hermanos?**
-  - Do you have siblings?
+  - Do you have siblings? (형제자매가 있나요?)
 - **¿Cuántos sois en tu familia?**
-  - How many are you in your family?
+  - How many are you in your family? (가족이 몇 명인가요?)
 - **Somos cuatro: mi padre, mi madre, mi hermana y yo.**
-  - We are four: my father, my mother, my sister, and I.
+  - We are four: my father, my mother, my sister, and I. (우리 가족은 아버지, 어머니, 여동생 그리고 저까지 네 명입니다.)
 - **¿Cómo se llama tu mejor amigo?**
-  - What is your best friend's name?
+  - What is your best friend's name? (가장 친한 친구의 이름은 무엇인가요?)
 - **Me llevo muy bien con mi primo.**
-  - I get along very well with my cousin.
+  - I get along very well with my cousin. (저는 사촌과 매우 잘 지냅니다.)
 - **¡Feliz cumpleaños!** / **¡Felicidades!**
-  - Happy birthday! / Congratulations!
+  - Happy birthday! / Congratulations! (생일 축하해요! / 축하합니다!)
 
 ---
 
@@ -66,22 +66,24 @@ Frases esenciales para hablar de tu familia.
 
 ### 4.1 Los adjetivos posesivos (Possessive Adjectives)
 Indican a quién pertenece algo. Se colocan **antes** del sustantivo.
+(소유 형용사는 사물이 누구의 것인지 나타내며, 명사 앞에 위치합니다.)
 
-| 주어 | 단수 | 복수 | English |
-|:--- |:--- |:--- |:--- |
-| **yo** | mi | mis | my |
-| **tú** | tu | tus | your (inf.) |
-| **él / ella / usted** | su | sus | his/her/your (fml.) |
-| **nosotros / as** | nuestro/a | nuestros/as | our |
-| **vosotros / as** | vuestro/a | vuestros/as | your (pl. inf.) |
-| **ellos / ellas / uds** | su | sus | their/your (pl.) |
+| 주어 | 단수 | 복수 | English | Korean |
+|:--- |:--- |:--- |:--- |:--- |
+| **yo** | mi | mis | my | 나의 |
+| **tú** | tu | tus | your (inf.) | 너의 |
+| **él / ella / usted** | su | sus | his/her/your (fml.) | 그의 / 그녀의 / 당신의 |
+| **nosotros / as** | nuestro/a | nuestros/as | our | 우리의 |
+| **vosotros / as** | vuestro/a | vuestros/as | your (pl. inf.) | 너희들의 |
+| **ellos / ellas / uds** | su | sus | their/your (pl.) | 그들의 / 당신들의 |
 
 ### 4.2 Los demostrativos (Demonstratives)
 Para señalar personas o cosas según la distancia.
+(지시사는 거리에 따라 사람이나 사물을 가리킬 때 사용합니다.)
 
-- **Cerca (This):** este (m) / esta (f) / estos (mp) / estas (fp)
-- **Media (That):** ese (m) / esa (f) / esos (mp) / esas (fp)
-- **Lejos (That over there):** aquel (m) / aquella (f) / aquellos (mp) / aquellas (fp)
+- **Cerca (This / 이):** este (m) / esta (f) / estos (mp) / estas (fp)
+- **Media (That / 그):** ese (m) / esa (f) / esos (mp) / esas (fp)
+- **Lejos (That over there / 저):** aquel (m) / aquella (f) / aquellos (mp) / aquellas (fp)
 
 **Korean Tip:** 스페인어의 'su'는 그의, 그녀의, 당신의, 그들의 등 매우 다양한 뜻이 있습니다. 맥락에 따라 구분해야 하며, 혼동을 피하려면 "el/la de usted" 처럼 표현하기도 합니다.
 
@@ -136,11 +138,11 @@ Fill in the blanks with the correct possessive adjective (**mi, tu, su, nuestro*
 Hoy es domingo y estoy en casa de mis abuelos. Es el cumpleaños de mi tía Carmen. Toda mi familia está aquí. Mi padre ayuda en la cocina y mi madre habla con mis primos. Yo juego con mis hermanos en el jardín. Tenemos una familia muy grande y ruidosa, pero nos queremos mucho. Mi mejor amigo, Luis, también está aquí porque es como un hermano para mí. ¡Es un día muy feliz!
 
 **Preguntas:**
-1. ¿Dónde está el narrador hoy?
-2. ¿De quién es el cumpleaños?
-3. ¿Qué hace el padre?
-4. ¿Cómo describe el narrador a su familia?
-5. ¿Quién es Luis?
+1. ¿Dónde está el narrador hoy? (오늘 화자는 어디에 있나요?)
+2. ¿De quién es el cumpleaños? (누구의 생일인가요?)
+3. ¿Qué hace el padre? (아버지는 무엇을 하시나요?)
+4. ¿Cómo describe el narrador a su familia? (화자는 자신의 가족을 어떻게 묘사하나요?)
+5. ¿Quién es Luis? (루이스는 누구인가요?)
 
 **한국어 번역:**
 오늘은 일요일이고 저는 조부모님 댁에 있습니다. 카르멘 이모의 생신이에요. 온 가족이 여기 모였습니다. 아버지는 주방에서 도와주시고 어머니는 사촌들과 이야기하고 계세요. 저는 정원에서 형제들과 놀고 있습니다. 우리는 매우 크고 시끌벅적한 가족이지만 서로 아주 많이 사랑합니다. 제 절친인 루이스도 여기 있는데, 그는 저에게 형제와 같기 때문입니다. 정말 행복한 날이에요!
@@ -188,3 +190,10 @@ Hoy es domingo y estoy en casa de mis abuelos. Es el cumpleaños de mi tía Carm
 3. Somos una gran familia.
 4. El nombre de mi amigo es Carlos. / Mi amigo se llama Carlos.
 5. ¿Es vuestra casa grande? / ¿Vuestra casa es grande?
+
+**D. Lectura Questions (독해 정답)**
+1. Está en casa de sus abuelos. (조부모님 댁에 있습니다.)
+2. Es el cumpleaños de su tía Carmen. (카르멘 이모의 생일입니다.)
+3. Ayuda en la cocina. (주방에서 도와주십니다.)
+4. La describe como una familia muy grande y ruidosa. (매우 크고 시끌벅적한 가족이라고 묘사합니다.)
+5. Es el mejor amigo del narrador, como un hermano. (화자의 절친이며 형제와 같은 존재입니다.)

@@ -50,21 +50,22 @@ En esta sección aprenderemos las palabras fundamentales para hablar de nuestra 
 
 ## 3. Expresiones Útiles
 Aquí tienes las frases clave para presentarte y preguntar por la identidad de otros.
+(자기소개를 하거나 타인의 정체성을 물어볼 때 필요한 핵심 표현들입니다.)
 
 - **¿Cómo te llamas?** (Informal) / **¿Cómo se llama usted?** (Formal)
-  - What is your name?
+  - What is your name? (이름이 무엇인가요?)
 - **Me llamo...** / **Mi nombre es...**
-  - My name is...
+  - My name is... (제 이름은 ...입니다.)
 - **¿De dónde eres?** / **¿De dónde es usted?**
-  - Where are you from?
+  - Where are you from? (어디 출신인가요?)
 - **Soy de Corea del Sur.** / **Soy coreano.**
-  - I am from South Korea. / I am Korean.
+  - I am from South Korea. / I am Korean. (저는 한국에서 왔습니다. / 저는 한국인입니다.)
 - **¿Cuántos años tienes?**
-  - How old are you? (Literal: How many years do you have?)
+  - How old are you? (Literal: How many years do you have? / 몇 살인가요?)
 - **Tengo veinticinco años.**
-  - I am 25 years old.
+  - I am 25 years old. (저는 25살입니다.)
 - **¿A qué te dedicas?** / **¿Cuál es tu profesión?**
-  - What do you do? / What is your profession?
+  - What do you do? / What is your profession? (직업이 무엇인가요?)
 
 ---
 
@@ -72,6 +73,7 @@ Aquí tienes las frases clave para presentarte y preguntar por la identidad de o
 
 ### 4.1 El verbo SER (to be)
 Usamos **SER** para identificar a las personas, indicar la nacionalidad y la profesión (aspectos permanentes).
+(우리는 사람을 식별하거나 국적, 직업 등 변하지 않는 특징을 나타낼 때 **SER** 동사를 사용합니다.)
 
 | 주어 | SER (현재형) | English Mapping |
 |:--- |:--- |:--- |
@@ -145,11 +147,11 @@ Fill in the blanks with the correct form of the verb **SER**.
 Hola, me llamo Minho y soy de Corea del Sur. Ahora vivo en Madrid porque soy estudiante de intercambio en la universidad. Tengo veintiún años. Mi dirección en Madrid es Calle Mayor, número 10. Mi correo electrónico es minho@uni.es. En mi clase hay personas de muchas nacionalidades: una chica es de Francia y un chico es de Italia. ¡Madrid es una ciudad muy internacional!
 
 **Preguntas:**
-1. ¿De dónde es Minho?
-2. ¿Qué hace Minho en Madrid?
-3. ¿Cuántos años tiene?
-4. ¿Cuál es su dirección?
-5. ¿Hay personas de otras nacionalidades en su clase?
+1. ¿De dónde es Minho? (민호는 어디 출신인가요?)
+2. ¿Qué hace Minho en Madrid? (민호는 마드리드에서 무엇을 하나요?)
+3. ¿Cuántos años tiene? (그는 몇 살인가요?)
+4. ¿Cuál es su dirección? (그의 주소는 무엇인가요?)
+5. ¿Hay personas de otras nacionalidades en su clase? (그의 수업에 다른 국적의 사람들이 있나요?)
 
 **한국어 번역:**
 안녕하세요, 제 이름은 민호이고 한국 출신입니다. 저는 지금 대학 교환학생이라서 마드리드에 살고 있습니다. 저는 21살입니다. 마드리드 제 주소는 마요르 거리 10번지입니다. 제 이메일은 minho@uni.es입니다. 제 수업에는 프랑스에서 온 여학생과 이탈리아에서 온 남학생 등 다양한 국적의 사람들이 있습니다. 마드리드는 정말 국제적인 도시입니다!
@@ -197,7 +199,14 @@ Hola, me llamo Minho y soy de Corea del Sur. Ahora vivo en Madrid porque soy est
 
 **C. 번역 연습**
 1. Me llamo María. / Mi nombre es María.
-2. ¿A qué te dedicas? / ¿Cuál es tu profesión?
+2. ¿A qué te dedicas? / ¿Cuál es tu profession?
 3. Tengo veinte años.
 4. Somos coreanos.
 5. Él es ingeniero.
+
+**D. Lectura Questions (독해 정답)**
+1. Es de Corea del Sur. (한국 출신입니다.)
+2. Es estudiante de intercambio en la universidad. (대학교 교환학생입니다.)
+3. Tiene veintiún años. (21살입니다.)
+4. Es Calle Mayor, número 10. (마요르 거리 10번지입니다.)
+5. Sí, una chica de Francia y un chico de Italia. (네, 프랑스 여학생과 이탈리아 남학생이 있습니다.)

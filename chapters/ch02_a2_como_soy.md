@@ -50,6 +50,7 @@ A2 level vocabulary focuses on abstract traits. Many of these are cognates, maki
 
 ## 3. Expresiones Útiles
 Expressing personality at the A2 level involves more complex sentence structures and frequency adverbs.
+(A2 단계에서 성격을 표현하는 것은 더 복잡한 문장 구조와 빈도 부사를 사용하는 것을 포함합니다.)
 
 - **Suelo ser una persona...**: I tend to be a... person. (나는 대체로 ...한 사람이에요.)
 - **Me parece que él es...**: It seems to me that he is... (그는 ...인 것 같아요.)
@@ -71,14 +72,14 @@ Expressing personality at the A2 level involves more complex sentence structures
 At the A2 level, we introduce reflexive verbs to describe actions that "reflect" back on the subject. These are often used for daily routines and emotional changes.
 
 ### Reflexive Pronouns
-| Subject | Pronoun | Example (levantarse - to get up) |
-| :--- | :--- | :--- |
-| yo | **me** | Me levanto |
-| tú | **te** | Te levantas |
-| él / ella / usted | **se** | Se levanta |
-| nosotros / nosotras | **nos** | Nos levantamos |
-| vosotros / vosotras | **os** | Os levantáis |
-| ellos / ellas / ustedes | **se** | Se levantan |
+| Subject | Pronoun | Example (levantarse) | Korean Meaning |
+| :--- | :--- | :--- | :--- |
+| yo | **me** | Me levanto | 나는 일어난다 |
+| tú | **te** | Te levantas | 너는 일어난다 |
+| él / ella / usted | **se** | Se levanta | 그/그녀/당신은 일어난다 |
+| nosotros / nosotras | **nos** | Nos levantamos | 우리는 일어난다 |
+| vosotros / vosotras | **os** | Os levantáis | 너희들은 일어난다 |
+| ellos / ellas / ustedes | **se** | Se levantan | 그들/당신들은 일어난다 |
 
 ### Emotional Reflexives
 Verbs like `ponerse` (to become/get) are crucial for describing changes in personality or mood:
@@ -148,6 +149,9 @@ Elena es una estudiante de arquitectura en Madrid. En su perfil de Instagram, se
 **Questions**:
 1. ¿Cómo se describe Elena en Instagram? (엘레나는 인스타그램에서 자신을 어떻게 설명합니까?)
 2. ¿Por qué es Elena generosa, según sus amigos? (친구들에 따르면 엘레나가 왜 관대한가요?)
+3. ¿Cómo es Elena en clase? (수업 시간에 엘레나는 어떤가요?)
+4. ¿Qué estudia Elena? (엘레나는 무엇을 공부하나요?)
+5. ¿Qué opina Elena sobre el trato con otras culturas? (다른 문화에 대한 태도에 대해 엘레나는 어떻게 생각하나요?)
 
 ---
 
@@ -201,6 +205,9 @@ Congratulations! You've moved from physical descriptions to psychological depth.
 4. A veces me pongo nervioso / nerviosa.
 5. Ella es muy amable.
 
-### 7. Lectura Questions
-1. Se describe como optimista y abierta.
-2. Porque siempre comparte sus apuntes.
+### 7. Lectura Questions (독해 정답)
+1. Se describe como optimista y abierta. (낙천적이고 외향적이라고 설명합니다.)
+2. Porque siempre comparte sus apuntes. (항상 그녀의 노트를 공유하기 때문입니다.)
+3. Es un poco reservada y tranquila. (조금 내성적이고 조용한 편입니다.)
+4. Estudia arquitectura en Madrid. (마드리드에서 건축학을 공부합니다.)
+5. Cree que es importante ser tolerante con todas las culturas. (모든 문화에 관용적인 태도를 갖는 것이 중요하다고 생각합니다.)

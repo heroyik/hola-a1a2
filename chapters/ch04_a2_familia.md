@@ -41,17 +41,17 @@ A2 단계에서는 보다 복잡한 인간관계와 혼인 상태에 관한 어�
 Frases para describir la profundidad de los vínculos personales.
 
 - **Un amigo mío me dijo que...**
-  - A friend of mine told me that... (Posposed possessive)
+  - A friend of mine told me that... (제 친구 중 한 명이 말하길...)
 - **Hacerse amigo de alguien.**
-  - To become friends with someone.
+  - To become friends with someone. (누군가와 친구가 되다.)
 - **Llevarse como el perro y el gato.**
-  - To get along like cats and dogs (to fight a lot).
+  - To get along like cats and dogs. (매우 자주 싸우다 / 견원지간이다.)
 - **Es mi media naranja.**
-  - He/She is my better half (soulmate).
+  - He/She is my better half / soulmate. (나의 반쪽 / 영혼의 단짝입니다.)
 - **Confiar plenamente en alguien.**
-  - To trust someone completely.
+  - To trust someone completely. (누군가를 완전히 신뢰하다.)
 - **Estar prometido/a.**
-  - To be engaged.
+  - To be engaged. (약혼한 상태이다.)
 
 ---
 
@@ -59,16 +59,17 @@ Frases para describir la profundidad de los vínculos personales.
 
 ### 4.1 Adjetivos posesivos pospuestos (Postposed Possessives)
 Se usan después del sustantivo para dar énfasis o cuando hay un determinante (un, este, etc.).
+(소유 형용사 후치형은 강조를 위해 혹은 관사/지시사와 함께 쓰일 때 명사 뒤에 위치합니다.)
 
-| 단수 (m/f) | 복수 (m/f) | English Equivalent |
-|:--- |:--- |:--- |
-| **mío / mía** | **míos / mías** | of mine |
-| **tuyo / tuya** | **tuyos / tuyas** | of yours |
-| **suyo / suya** | **suyos / suyas** | of his/hers/yours (fml.) |
-| **nuestro / nuestra** | **nuestros / nuestras** | of ours |
-| **vuestro / vuestra** | **vuestros / vuestras** | of yours (pl.) |
+| 단수 (m/f) | 복수 (m/f) | English Equivalent | Korean |
+|:--- |:--- |:--- |:--- |
+| **mío / mía** | **míos / mías** | of mine | 나의 것 (중 하나) |
+| **tuyo / tuya** | **tuyos / tuyas** | of yours | 너의 것 (중 하나) |
+| **suyo / suya** | **suyos / suyas** | of his/hers/yours (fml.) | 그의/그녀의/당신의 것 |
+| **nuestro / nuestra** | **nuestros / nuestras** | of ours | 우리의 것 |
+| **vuestro / vuestra** | **vuestros / vuestras** | of yours (pl.) | 너희들의 것 |
 
-*Ejemplo: "Un libro **mío**" (A book of mine) vs "Mi libro" (My book).*
+*Ejemplo: "Un libro **mío**" (나의 책 중 하나) vs "Mi libro" (나의 책).*
 
 ### 4.2 Verbos de sentimiento y Cambio (Reflexivos)
 Muchos verbos que expresan cambio en la relación son reflexivos (ver Ch.2).
@@ -130,11 +131,11 @@ Use postposed possessives (**mío, tuyo, suyo**, etc.).
 En la sociedad actual, las relaciones han cambiado mucho. Juan es divorciado y tiene un hijo de su primer matrimonio, pero ahora vive con su nueva pareja, Ana. Ana tiene dos hijas de una relación anterior. Juntos forman una familia "reconstruida". Aunque no tienen lazos de sangre entre todos, se sienten muy unidos. Por otro lado, Juan mantiene una amistad muy fuerte con sus amigos de la escuela. Para él, sus amigos son su segunda familia. "La identidad de una persona se construye con los parientes, pero también con las personas que elegimos amar", afirma Juan.
 
 **Preguntas:**
-1. ¿Cuál es el estado civil de Juan?
-2. ¿Qué tipo de familia forman Juan y Ana?
-3. ¿Cómo es la relación entre los miembros de la familia de Juan?
-4. ¿Qué importancia tienen los amigos para Juan?
-5. ¿Qué opina Juan sobre la construcción de la identidad?
+1. ¿Cuál es el estado civil de Juan? (주안의 혼인 상태는 무엇인가요?)
+2. ¿Qué tipo de familia forman Juan y Ana? (주안과 아나는 어떤 형태의 가족을 형성하나요?)
+3. ¿Cómo es la relación entre los miembros de la familia de Juan? (주안의 가족 구성원들 사이의 관계는 어떤가요?)
+4. ¿Qué importancia tienen los amigos para Juan? (주안에게 친구들은 어떤 의미인가요?)
+5. ¿Qué opina Juan sobre la construcción de la identidad? (정체성 형성에 대해 주안은 어떻게 생각하나요?)
 
 **한국어 번역:**
 현대 사회에서 인간관계는 많이 변했습니다. 주안은 이혼남이고 첫 번째 결혼에서 얻은 아들이 하나 있지만, 지금은 새로운 파트너인 아나와 함께 살고 있습니다. 아나는 이전 관계에서 얻은 두 딸이 있습니다. 그들은 함께 '재결합 가구'를 형성합니다. 모두가 혈연으로 이어지지는 않았지만, 그들은 매우 유대감을 느낍니다. 한편, 주안은 학교 친구들과 매우 끈끈한 우정을 유지하고 있습니다. 그에게 친구들은 제2의 가족입니다. "사람의 정체성은 친척들과 함께 형성되기도 하지만, 우리가 사랑하기로 선택한 사람들과도 함께 만들어집니다"라고 주안은 단언합니다.
@@ -182,3 +183,10 @@ En la sociedad actual, las relaciones han cambiado mucho. Juan es divorciado y t
 3. Mi suegro es una persona muy amable.
 4. Ellos se divorciaron el año pasado.
 5. ¿Dónde está mi media naranja?
+
+**D. Lectura Questions (독해 정답)**
+1. Es divorciado. (이혼한 상태입니다.)
+2. Forman una familia "reconstruida". ('재결합 가족'을 형성합니다.)
+3. Se sienten muy unidos, aunque no todos tengan lazos de sangre. (모두가 혈연 관계는 아니지만 매우 유대감을 느낍니다.)
+4. Son su segunda familia. (그의 제2의 가족입니다.)
+5. Opina que la identidad se construye con parientes y con las personas que elegimos amar. (정체성은 친척들뿐만 아니라 우리가 사랑하기로 선택한 사람들과 함께 형성된다고 생각합니다.)
