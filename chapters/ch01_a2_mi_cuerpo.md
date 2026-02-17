@@ -1,146 +1,148 @@
 # Chapter 1: Mi cuerpo y salud (A2)
+<p class="cervantes-ref">Cervantes: §1 Identidad: 심화된 신체 특징 묘사, §13 Salud: 건강 관련 문제, 질병 및 생활 습관 표현</p>
 
 ## 1. Opener
-¡Hola de nuevo! Since you've mastered the basics, it's time to dive deeper into our well-being. Knowing how to describe symptoms and understand healthcare advice is crucial for living or traveling in a Spanish-speaking country. In this chapter, we will refine our medical vocabulary and master the "Gustar-like" verb `doler`.
-
-**한국어 번역:**
-다시 만나 반가워요! 기초를 닦았으니 이제 건강에 대해 더 깊이 알아볼 시간입니다. 증상을 설명하고 의료 조언을 이해하는 것은 스페인어권 국가에서 생활하거나 여행할 때 매우 중요합니다. 이 장에서는 의료 어휘를 다듬고 역구조 동사인 'doler'를 완벽히 익힐 것입니다.
-
 **학습 목표**:
-- 독감, 열, 기침 등 복잡한 건강 증상을 묘사합니다.
-- 역구조 동사인 `doler`(아프다)의 구조를 마스터합니다.
-- 지중해식 식단이 사회문화적으로 미치는 영향을 이해합니다.
-- 진료 예약 및 약국 이용을 위한 필수 표현을 익힙니다.
+- 복잡한 신체 부위와 장기, 그리고 세부적인 건강 상태를 설명할 수 있습니다.
+- `doler`(아프다) 동사와 간접 목적 대명사의 결합을 마스터하여 통증을 정확히 표현합니다.
+- 스페인의 약국 문화와 자가 진단 및 처방에 대한 문화적 에티켓을 익힙니다.
+- 병원 예약 및 약국에서의 심화 상담 시나리오를 수행할 수 있습니다.
 
-> [!TIP]
-> **¿Sabías que...? (Did you know?)**
-> Spain has one of the highest organ donation rates in the world. This is a source of great national pride and reflects a deep cultural commitment to public health and solidarity.
-
-**한국어 번역:**
-스페인은 세계에서 장기 기증률이 가장 높은 국가 중 하나입니다. 이는 국가적인 큰 자부심의 원천이며, 공공 보건과 연대에 대한 깊은 문화적 헌신을 반영합니다.
+**¿Sabías que...? (알고 계셨나요?)**
+스페인의 약국(Farmacia)은 단순히 약을 파는 곳을 넘어, 가벼운 증상에 대해 전문적인 조언을 해주는 '준의료기관' 역할을 합니다. 밤늦게나 공휴일에도 당번 약국인 'Farmacia de guardia'가 항상 열려 있어 시민들의 건강을 책임집니다.
 
 ---
 
-## 2. Vocabulario Esencial
-En esta sección profundizamos en los síntomas y el sistema sanitario.
+## 2. Vocabulario Esencial: Salud y Medicina
+A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위를 확인해보세요.
 
-**한국어 번역:**
-이 섹션에서는 증상과 보건 의료 시스템에 대해 더 깊이 알아봅니다.
+![건강 및 의료 심화 일러스트 (Modern Anime Style)](../images/ch01_a2_vocab_health_v55.png)
 
-![ 건강 및 의료 서비스](../images/ch01_a2_vocab_100pct_v52_numbered.png)
+| 번호 | Spanish | English Bridge | Korean Tip |
+|:---:|:---|:---|:---|
+| 1 | el corazón | Cordial (→ heart-related) ✅ | 심장입니다. |
+| 2 | los pulmones | Pulmonary ✅ | 폐입니다. |
+| 3 | la espalda | — | 등, 허리입니다. |
+| 4 | la garganta | — | 목구멍, 인후입니다. |
+| 5 | el síntoma | Symptom ✅ | 증상입니다. |
+| 6 | la gripe | Grippe (archaic English for flu) | 독감입니다. |
+| 7 | la fiebre | Fever ✅ | 열입니다. |
+| 8 | la receta | Recipe ✅ (→ prescription/formula) | 처방전입니다. |
+| 9 | la pastilla | Pastille (→ lozenge/pill) | 알약입니다. |
+| 10 | el jarabe | — | 시럽(시럽 형태의 약)입니다. |
+| 11 | la farmacia | Pharmacy ✅ | 약국입니다. |
+| 12 | la cita médica | — | 병원 예약입니다. |
 
-Ready to expand your medical lexicon? Many of these words are "Cognates"—look for the English reflection in each one.
-
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **paciente** | **Patient** ✅ (Perfect Cognate) | 환자를 뜻하지만 '인내심 있는'이라는 뜻도 공유합니다. |
-| 2 | **enfermo / enferma**| **Infirm** (weak/sick) ✅ | 아픈 상태를 뜻합니다. '인펌'이라는 영어 단어를 떠올려보세요. |
-| 3 | la **farmacia** | **Pharmacy** ✅ (Perfect Cognate) | 스페인 거리에 'F' 모양 초록 간판이 보인다면 이곳입니다. |
-| 4 | **urgencias** | **Urgency** ✅ | 응급실을 뜻하며, 긴급한 상황을 나타냅니다. |
-| 5 | la **gripe** | **Grip** (to seize) | 몸을 꽉 쥐는 듯한 통증을 유발하는 '독감'입니다. |
-| 6 | la **fiebre** | **Febrile** (feverish) ✅ | 열을 뜻하며, 영어의 fever와 어원적으로 친척입니다. |
-| 7 | la **tos** | — | 기침을 뜻합니다. (짧지만 강한 발음) |
-| 8 | la **receta** | **Recipe / Receipt** ✅ | 약국에 제출하는 '처방전' 혹은 요리 '레시피'입니다. |
-| 9 | **medicina** | **Medicine** ✅ (Perfect Cognate) | 약 혹은 의학 그 자체를 뜻합니다. |
-| 10 | la **salud** | **Salubrious** (healthy) / **Salute** ✅ | 건강을 빌며 인사(salute)하는 것에서 유래했습니다. |
-
-✅ 표시가 있는 단어는 영어와 어원적 연결고리가 매우 강합니다.
+✅ **범례**: ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.
 
 ---
 
 ## 3. Expresiones Útiles
-Let's move beyond "Tengo dolor." Use these phrases to navigate a real medical situation.
+병원과 약국에서 사용하는 세부적인 표현들입니다.
 
-- **¡Cuídate!**: Take care of yourself! (몸 조리 잘해!)
-- **Estar resfriado/a**: To have a cold (감기 걸리다)
-- **Pedir cita**: To make an appointment (진료 예약을 하다)
-- **Tomar la temperatura**: To take the temperature (열을 재다)
-- **Me siento fatal**: I feel terrible (기분이/몸이 정말 안 좋아요)
+**A. 통증 및 증상 상세 설명**
+- **¿Qué le pasa?** (What's wrong? / 어디가 편치 않으신가요?)
+- **Me duele mucho la espalda.** (My back hurts a lot. / 허리가 너무 아파요.)
+- **Tengo una fiebre muy alta.** (I have a very high fever. / 열이 아주 높아요.)
+- **Tengo alergia al polen.** (I'm allergic to pollen. / 꽃가루 알레르기가 있어요.)
 
-**실전 예문 (Practical Examples)**:
-- ES: Necesito pedir cita con el doctor para mañana.
-- KO: 내일 의사 선생님 진료 예약을 해야 해요. (EN: I need to make an appointment with the doctor for tomorrow.)
-- ES: Mi madre está resfriada y tiene mucha tos.
-- KO: 어머니가 감기에 걸리셔서 기침을 많이 하세요. (EN: My mother has a cold and a lot of coughing.)
-- ES: ¡Cuídate!
-- KO: 몸 조리 잘해! / 건강 조심해! (EN: Take care of yourself!)
+**B. 약국에서 사용하기**
+- **¿Tiene algo para la tos?** (Do you have something for the cough? / 기침에 좋은 약이 있나요?)
+- **Quiero este medicamento con receta.** (I want this medicine with a prescription. / 처방전이 있는 이 약을 사고 싶어요.)
+- **¿Cuántas veces al día debo tomarlo?** (How many times a day should I take it? / 하루에 몇 번 먹어야 하나요?)
 
 ---
 
 ## 4. Gramática Esencial: El verbo DOLER (아프다)
 
-`doler` 동사는 `gustar` 동사와 마찬가지로 특수한 구조를 가진 역구조 동사입니다. 문장의 주어는 사람이 아니라 **통증을 유발하는 신체 부위**가 됩니다. "내가 머리를 아프게 한다"가 아니라 "머리가 나에게 통증을 준다"는 방식으로 사고해야 합니다.
+`doler` 동사는 `gustar`(좋아하다) 동사와 동일한 구조를 가집니다. 즉, '내가 주어'가 아니라 '아픈 부위가 주어'가 됩니다.
 
-### 전 인칭 구조 테이블 (Functional Structure)
-| Indirect Object (The Person) | Singular Body Part | Plural Body Part | Korean Meaning |
-| :--- | :--- | :--- | :--- |
-| **me** (to me) | **duele** | **duelen** | 나(는/를) 아프다 |
-| **te** (to you) | **duele** | **duelen** | 너(는/를) 아프다 |
-| **le** (to him/her/you-polite) | **duele** | **duelen** | 그/그녀/당신(은/을) 아프다 |
-| **nos** (to us) | **duele** | **duelen** | 우리(는/를) 아프다 |
-| **os** (to you all) | **duele** | **duelen** | 너희들(은/을) 아프다 |
-| **les** (to them/you all) | **duele** | **duelen** | 그들/당신들(은/을) 아프다 |
+### A. 기본 구조
+**[간접 목적 대명사] + duele/duelen + [아픈 신체 부위]**
 
-> [!NOTE]
-> **Korean Tip**
-> 주객전도! "내가 머리를 아프게 한다"가 아니라 **"머리가 나에게 통증을 준다"**라고 생각해야 합니다. 따라서 동사는 '머리(단수)'면 `duele`, '눈들(복수)'이면 `duelen`이 됩니다.
+| 간접 목적 대명사 | 설명 |
+|:---|:---|
+| **me** | 나에게 (내 ~가 아프다) |
+| **te** | 너에게 |
+| **le** | 그/그녀/당신에게 |
+| **nos** | 우리에게 |
+| **os** | 너희에게 |
+| **les** | 그들/그녀들/당신들에게 |
+
+### B. 주의사항
+1. **변화**: 아픈 부위가 단수이면 *duele*, 복수이면 *duelen*을 사용합니다.
+   - *Me duele la cabeza.* (My head hurts. / 머리가 아파요.)
+   - *Me duelen los ojos.* (My eyes hurt. / 눈이 아파요.)
+2. **관사**: 스페인어에서는 신체 부위에 소유 형용사(mi, tu...) 대신 정관사(el, la...)를 주로 사용합니다. (이미 대명사 me, te 등으로 주체를 알 수 있기 때문입니다.)
+
+**Korean Tip!**
+한국어로는 "나는 머리가 아파"라고 내가 주어인 것처럼 말하지만, 스페인어에서는 "나에게 머리가 통증을 준다"는 식의 역구조 동사임을 명심하세요. 영어의 "My head hurts"와 구조적으로 더 유사합니다.
 
 ---
 
-## 5. Cultura Viva: La Dieta Mediterránea y Longevidad
+## 5. Cultura Viva: Las Farmacias y la Automedicación en España
 
-![지중해식 식단(Dieta Mediterránea) 일러스트](../images/ch01_a2_culture_diet_v52.png)
+![스페인의 약국 내부와 약사 상담 모습](../images/ch01_a2_culture_pharmacy_v55.png)
 
-España se sitúa constantemente entre las naciones más saludables del mundo. ¿El secreto? La **Dieta Mediterránea**.
+En España, las farmacias son instituciones muy respetadas. Los farmacéuticos tienen una formación académica rigurosa y a menudo actúan como el primer punto de contacto para consultas de salud menores. A diferencia de otros países, no se puede comprar medicamentos fuertes sin una receta médica oficial de un profesional de la Seguridad Social o de una clínica privada.
 
-Esto no es solo una lista de alimentos; es un patrimonio cultural inmaterial reconocido por la UNESCO. Destaca el uso del **aceite de oliva**, verduras frescas de temporada, legumbres y pescado. Pero también se trata de *cómo* comen: despacio, socialmente y sin estrés. También tienen la tradición de la **Siesta**, que ayuda a reducir el estrés cardiovascular. ¡Incorporar un poco de la "calma" española en tu estilo de vida podría añadir años a tu vida!
+La cultura de la **automedicación** está controlada. Para problemas comunes como resfriados o dolores leves, el farmacéutico puede recomendar medicamentos de venta libre. Un detalle importante es la **Farmacia de Guardia**: cada municipio tiene un calendario para asegurar que al menos una farmacia esté abierta las 24 horas. Si estás en España y necesitas medicinas por la noche, solo tienes que buscar en internet o en la puerta de cualquier farmacia el cartel de "Guardia".
 
-**한국어 번역:**
-스페인은 지속적으로 가장 건강한 국가 중 하나로 꼽힙니다. 그 비결은 무엇일까요? 바로 '지중해식 식단(Dieta Mediterránea)'입니다. 이는 단순한 음식 목록이 아니라 유네스코 인류 무형 문화유산으로 인정받은 것입니다. 올리브 오일, 신선한 제철 채소, 콩류, 생선을 강조합니다. 하지만 무엇을 먹느냐만큼이나 '어떻게' 먹느냐도 중요합니다. 천천히, 사교적으로, 스트레스 없이 먹는 것이 특징입니다. 또한 대도시에서는 변하고 있지만 심혈관 스트레스를 줄여주는 '시에스타(Siesta)' 전통도 있습니다. 스페인식 '여유(calma)'를 일상에 도입하는 것만으로도 수명이 늘어날 수 있습니다!
+**[한국어 번역]**
+스페인에서 약국은 매우 존경받는 기관입니다. 약사들은 엄격한 학술 교육을 받았으며 종종 가벼운 건강 상담의 첫 번째 접점 역할을 합니다. 다른 국가들과 달리, 사회 보장 제도나 사립 클리닉의 공식 처방전 없이는 강력한 약물을 구매할 수 없습니다.
+
+**자가 처방** 문화는 엄격히 관리됩니다. 감기나 가벼운 통증 같은 일반적인 문제에 대해서는 약사가 일반 의약품(OTC)을 추천할 수 있습니다. 중요한 디테일 중 하나는 **당번 약국(Farmacia de Guardia)**입니다. 모든 지자체는 최소 한 곳의 약국이 24시간 문을 열도록 일정을 관리합니다. 만약 스페인에서 밤에 약이 필요하다면, 인터넷을 검색하거나 약국 문에 붙은 "Guardia(당번)" 공고를 확인하면 됩니다.
 
 ---
 
 ## 6. Práctica
 
-### A. Match the word
-깔끔한 정렬을 위해 아래 표를 참조하여 알맞은 번호와 알파벳을 연결하세요.
+**A. Match the word (알맞은 단어를 연결하세요)**
 
-| ES 단어 (Spanish) | 선택지 (Selection) |
-| :--- | :--- |
-| 1. Fiebre | a) Recipe / Prescription |
-| 2. Gripe | b) Sick / Ill |
-| 3. Receta | c) Pharmacy |
-| 4. Farmacia | d) Fever |
-| 5. Enfermo | e) Flu |
+| Spanish | English / Korean |
+|:---|:---|
+| 1. Corazón | a. Fever |
+| 2. Fiebre | b. Prescription |
+| 3. Jarabe | c. Heart |
+| 4. Receta | d. Cold (Flu) |
+| 5. Gripe | e. Syrup |
 
-### B. Fill in the blanks
-문맥에 맞게 `doler` 동사(duele/duelen)와 알맞은 간접목적대명사(me, te, le, nos, les)를 조합하세요.
+**B. Choose the correct form: duele or duelen (duele 또는 duelen 중 알맞은 것을 고르세요)**
 
-1. (I) ................... la cabeza. (My head hurts.)
-2. (You, informal) ................... los ojos. (Your eyes hurt.)
-3. (We) ................... la garganta (throat). (Our throat hurts.)
-4. (She) ................... los pies. (Her feet hurt.)
-5. (They) ................... la espalda (back). (Their back hurts.)
+1. Me ............................. los pies después de caminar mucho.
+2. ¿A ti te ............................. la garganta?
+3. A Juan le ............................. las piernas.
+4. Nos ............................. la espalda por el trabajo.
+5. ¿Os ............................. el estómago?
 
-### C. 번역 연습 (Translation Practice)
-다음 문장을 Spanish로 번역하세요.
+**C. 번역 연습 (스페인어로 번역하세요)**
 
-1. 너는 감기에 걸렸니? (Use: 'estar resfriado')
-2. 내일 의사 선생님과 진료 예약을 해야 합니다.
-3. 열을 재 보세요. (Hint: 'Tome...')
-4. 우리는 건강에 대해 이야기합니다.
-5. 처방전을 약국에 가져가세요. (Hint: 'Lleve...')
+1. 나는 눈이(복수) 아파요.
+   (............................................................)
+2. 당신은 독감에 걸렸나요?
+   (............................................................)
+3. 기침에 좋은 시럽을 원합니다.
+   (............................................................)
+4. 우리는 병원 예약이 있습니다.
+   (............................................................)
+5. 그녀는 약 알레르기가 있어요.
+   (............................................................)
 
 ---
 
 ## 7. Lectura 📖
-**Una consulta médica necesaria**
+**Una visita inesperada al médico (예상치 못한 병원 방문)**
 
-Estimado doctor García, le escribo este mensaje porque no me siento bien físicamente. Desde ayer tengo mucha gripe y una fiebre muy alta (39 grados). Me duelen todos los músculos del cuerpo y tengo una tos constante que no para. Mañana iré a su clínica temprano para pedir una receta y comprar las medicinas necesarias en la farmacia de mi barrio. Muchas gracias por su atención y ayuda. Atentamente, Juan.
+El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se levantó con mucha fiebre y dolor de garganta. Ella llamó al Centro de Salud para pedir una cita médica. El doctor la examinó y le dijo: "Tienes una infección leve". El doctor le dio una receta para un jarabe y unas pastillas. Elena fue a la farmacia de su barrio y compró los medicamentos. Ahora tiene que descansar en casa por tres días.
 
-**한국어 번역 (Korean Translation)**:
-**꼭 필요한 진료**
-존경하는 García 의사 선생님께, 몸 상태가 좋지 않아 이 메시지를 씁니다. 어제부터 독감이 심하고 열이 매우 높습니다(39도). 몸의 모든 근육이 아프고 기침이 끊이지 않고 계속됩니다. 내일 일찍 선생님의 병원에 가서 처방전을 받고 우리 동네 약국에서 필요한 약들을 사려고 합니다. 선생님의 관심과 도움에 정말 감사드립니다. Juan 올림.
+**Questions:**
+1. ¿Por qué Elena pidió una cita médica? (엘레나는 왜 병원 예약을 했나요?)
+   - ............................................................
+2. ¿Qué compró Elena en la farmacia? (엘레나는 약국에서 무엇을 샀나요?)
+   - ............................................................
+
+**[한국어 번역]**
+마드리드의 겨울은 매우 춥고 많은 사람이 독감에 걸립니다. 어제 엘레나는 높은 열과 목 통증을 느끼며 일어났습니다. 그녀는 보건소에 전화를 걸어 병원 예약을 했습니다. 의사는 그녀를 진찰하고 "가벼운 감염이 있습니다"라고 말했습니다. 의사는 그녀에게 시럽과 알약 처방전을 주었습니다. 엘레나는 동네 약국에 가서 약을 샀습니다. 이제 그녀는 집에서 3일 동안 쉬어야 합니다.
 
 ---
 
@@ -152,53 +154,49 @@ Estimado doctor García, le escribo este mensaje porque no me siento bien físic
 
 | Spanish | Korean |
 | :--- | :--- |
-| **Doctor**: Buenos días, Pedro. ¿Qué le pasa hoy? | **Doctor**: 안녕하세요, Pedro. 오늘은 어디가 불편하신가요? |
-| **Pedro**: Buenos días, doctor. Me duele mucho la garganta. | **Pedro**: 안녕하세요, 선생님. 목이 너무 아파요. |
-| **Doctor**: Entiendo. ¿Tiene usted fiebre o tos? | **Doctor**: 그렇군요. 열이 나거나 기침을 하시나요? |
-| **Pedro**: Sí, tengo 38 grados y me duele el pecho. | **Pedro**: 네, 38도이고 가슴이 아파요. |
-| **Doctor**: Parece que está usted resfriado. Debe descansar. | **Doctor**: 감기에 걸리신 것 같군요. 쉬어야 합니다. |
-| **Pedro**: ¿Necesito tomar alguna medicina fuerte? | **Pedro**: 강한 약을 먹어야 하나요? |
-| **Doctor**: Sí, aquí tiene la receta médica para la farmacia. | **Doctor**: 네, 여기 약국에 가져갈 처방전입니다. |
-| **Pedro**: Muchas gracias, doctor. ¡Cuídate mucho! | **Pedro**: 정말 감사합니다, 선생님. 건강하세요! |
+| **Farmacéutico:** Hola, buenas tardes. ¿En qué puedo ayudarla? | **약사:** 안녕하세요, 좋은 오후입니다. 무엇을 도와드릴까요? |
+| **Sofía:** Hola. Tengo un resfriado muy fuerte. | **소피아:** 안녕하세요. 감기가 아주 심하게 걸렸어요. |
+| **Farmacéutico:** ¿Cuáles son sus síntomas? | **약사:** 증상이 어떠신가요? |
+| **Sofía:** Me duele la garganta y tengo un poco de fiebre. | **소피아:** 목이 아프고 열이 약간 있어요. |
+| **Farmacéutico:** ¿Tiene tos también? | **약사:** 기침도 하시나요? |
+| **Sofía:** Sí, tengo mucha tos, sobre todo por la noche. | **소피아:** 네, 특히 밤에 기침을 많이 해요. |
+| **Farmacéutico:** Le recomiendo este jarabe para la tos y estas pastillas para el dolor. | **약사:** 이 기침 시럽과 통증 완화 알약을 추천해 드립니다. |
+| **Sofía:** ¿Cómo debo tomarlos? | **소피아:** 어떻게 복용해야 하나요? |
+| **Farmacéutico:** Tome el jarabe cada ocho horas y una pastilla antes de dormir. | **약사:** 시럽은 8시간마다 드시고, 알약은 자기 전에 한 알 드세요. |
+| **Sofía:** Muchas gracias por su ayuda. | **소피아:** 도와주셔서 정말 감사합니다. |
 
 ---
 
 ## 9. Repaso
-Check your progress! Can you do the following?
-- [ ] Utilize `doler` correctly for both singular and plural body parts.
-- [ ] Identify 10 high-level medical terms (gripe, fiebre, receta, etc.).
-- [ ] Describe the components of the Mediterranean Diet.
-- [ ] Simulate a basic conversation with a doctor.
+이번 장에서 배운 핵심 내용을 확인해보세요.
+
+- [ ] 심장, 폐, 등, 목구멍 등 주요 장기와 신체 부위 어휘를 익혔나요?
+- [ ] `doler` 동사의 역구조(me duele/duelen)를 문법적으로 이해했나요?
+- [ ] 병원 예약(`cita médica`)과 처방전(`receta`) 관련 표현을 사용할 수 있나요?
+- [ ] 스페인의 당번 약국(`Farmacia de Guardia`) 시스템과 상담 문화를 이해했나요?
 
 ---
 
 ## 10. Cierre
-¡Enhorabuena! Has profundizado en el conocimiento de tu cuerpo, salud y bienestar. Entender cómo funciona tu cuerpo y cómo expresar sensaciones físicas es un paso gigante hacia la fluidez y la autonomía. En el próximo capítulo, llevaremos este conocimiento más allá: exploraremos cómo describir la personalidad y el carácter para conectar mejor con los demás. ¡Hasta pronto!
-
-**한국어 번역:**
-축하합니다! 신체, 건강, 웰빙에 대한 지식을 심화하셨습니다. 신체가 어떻게 작동하는지 이해하고 신체적 감각을 표현하는 것은 유창함과 자율성을 향한 큰 발걸음입니다. 다음 장에서는 이 지식을 더 확장하여, 타인과 더 잘 소통하기 위해 성격과 기질을 묘사하는 방법을 탐구해 보겠습니다. 곧 만나요!
+잘하셨습니다! A2 수준으로 넘어오면서 더 복잡한 신체 기관과 상세한 통증 표현법을 배웠습니다. 특히 `doler` 동사는 스페인어 특유의 역구조 동사 중 하나이므로, `gustar`와 함께 충분히 연습하는 것이 중요합니다. 건강은 언어 학습 못지않게 중요하니 항상 몸 관리 잘하세요. ¡Salud y mucha suerte! (건강과 행운을 빕니다!)
 
 ---
 
 ## 11. Soluciones
 
-**6. Práctica A**: 1-d, 2-e, 3-a, 4-c, 5-b
-**6. Práctica B**: 
-1. Me duele
-2. Te duelen
-3. Nos duele
-4. Le duelen
-5. Les duele
-**6. Práctica C**: 
-1. ¿Estás resfriado? 
-2. Tengo que pedir cita con el doctor para mañana. 
-3. Tome la temperatura. 
-4. Hablamos de la salud. 
-5. Lleve la receta a la farmacia.
+**6. Práctica - A. Match the word**
+1-c, 2-a, 3-e, 4-b, 5-d
 
-**7. Lectura Questions (독해 정답)**
-1. Le escribe al doctor García porque no se siente bien físicamente. (몸 상태가 좋지 않아 가르시아 의사 선생님께 씁니다.)
-2. Tiene mucha gripe, fiebre muy alta y tos constante. (심한 독감, 고열, 그리고 끊임없는 기침 증상이 있습니다.)
-3. Le duelen todos los músculos del cuerpo. (몸의 모든 근육이 아픕니다.)
-4. Para pedir una receta. (처방전을 받기 위해서입니다.)
-5. En la farmacia de su barrio. (그의 동네 약국에서 살 것입니다.)
+**6. Práctica - B. Fill in the blanks (Choose duele/duelen)**
+1. duelen, 2. duele, 3. duelen, 4. duele, 5. duele
+
+**6. Práctica - C. 번역 연습**
+1. Me duelen los ojos.
+2. ¿Tienes la gripe?
+3. Quiero un jarabe para la tos.
+4. Tenemos una cita médica.
+5. Ella tiene alergia a los medicamentos.
+
+**7. Lectura Questions**
+1. Elena pidió una cita médica porque tenía fiebre y dolor de garganta.
+2. Elena compró un jarabe y unas pastillas.

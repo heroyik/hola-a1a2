@@ -1,218 +1,205 @@
 # Chapter 2: ¿Cómo soy? (A2)
+<p class="cervantes-ref">Cervantes: §2 Persona: 심화된 성격 묘사, 일시적/영구적 상태의 구분 및 형용사의 의미 변화</p>
 
 ## 1. Opener
-At the A2 level, we dive deeper into the nuances of human character. While A1 focused on basic appearance, A2 explores the "inner self"—personality, moods, and social behaviors. Understanding these nuances is key to meaningful relationship-building in the Spanish-speaking world.
+**Más allá de la superficie (표면 그 너머)**  
+A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡한 감정 상태와 재귀동사를 활용한 일상적인 심리 변화에 대해 다룹니다. 또한, 같은 형용사라도 Ser와 Estar 중 어느 동사와 결합하느냐에 따라 의미가 어떻게 변하는지 심층적으로 탐구합니다.
 
-**한국어 번역:**
-A2 단계에서는 인간 성격의 미묘한 차이를 더 깊이 파고듭니다. A1이 기본적인 외모에 집중했다면, A2는 성격, 기분, 그리고 사회적 행동과 같은 '내면의 자아'를 탐구합니다. 이러한 뉘앙스를 이해하는 것은 스페인어권 세계에서 의미 있는 관계를 맺는 핵심입니다.
-
-**학습 목표**:
-- 10개 이상의 고급 성격 형용사와 추상적 특성을 마스터합니다.
-- **재귀 동사**(Me levanto, Me siento 등)를 사용하여 일상과 감정 상태를 묘사합니다.
-- 세련된 문장 구조를 활용하여 성격을 비교하고 대조합니다.
-- 현대 스페인 사회에서 디지털 정체성과 소셜 미디어가 미치는 영향을 분석합니다.
+**학습 목표**
+- 복합적인 감정 및 심리 상태를 나타내는 고급 형용사 습득
+- 재귀동사(Verbos reflexivos)를 활용한 기분과 상태의 변화 표현
+- Ser vs Estar 결합에 따른 형용사의 의미 변화(Semantic shifts) 이해
+- 스페인 디지털 세대의 자아 표현 방식과 SNS 문화 이해
 
 > [!TIP]
-> **¿Sabías que...? (Did you know?)**
-> The word "Amable" (kind) comes from the Latin "Amabilis," meaning "worthy of being loved." In Spanish culture, being "amable" is more than just a polite gesture; it’s a core social value that facilitates community and family bonds ("el familismo").
-
-**한국어 번역:**
-'아마블레(Amable, 친절한)'라는 단어는 라틴어 'Amabilis'에서 유래되었으며, '사랑받을 가치가 있는'이라는 뜻입니다. 스페인 문화에서 친절하다는 것은 단순히 예의 바른 태도 그 이상입니다. 이는 공동체와 가족 유대('el familismo')를 촉진하는 핵심적인 사회적 가치입니다.
+> **¿Sabías que...?** 스페인어에서 'Listo'라는 단어는 **'Ser listo'**일 때는 '똑똑하다(Smart)'는 뜻이지만, **'Estar listo'**일 때는 '준비가 되었다(Ready)'는 뜻이 됩니다. 동사 하나로 의미가 완전히 달라지는 스페인어의 묘미를 느껴보세요!
 
 ---
 
 ## 2. Vocabulario Esencial
-A nivel A2, exploramos adjetivos más precisos para describir la personality y estados emocionales.
+더 섬세한 감정의 결을 표현하기 위한 어휘들입니다.
 
-**한국어 번역:**
-A2 단계에서는 성격과 감정 상태를 묘사하는 보다 정밀한 형용사들을 탐구합니다.
-
-![고급 성격 및 심리 묘사](../images/ch02_a2_vocab_100pct_v52_1771285448528.png)
-
-A2 level vocabulary focuses on abstract traits. Many of these are cognates, making them easy to pick up but requiring precision in usage.
+![Muro de las Emociones](../images/ch02_a2_vocab_emotions_v56.png)
 
 | # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **optimista** | **Optimistic** ✅ (Perfect Cognate) | '낙천적인' 뜻으로, 항상 긍정적인 면을 보는 사람입니다. |
-| 2 | **pesimista** | **Pessimistic** ✅ (Perfect Cognate) | '비관적인' 뜻입니다. |
-| 3 | **abierto/a** | **Open** | '열린' 혹은 '사교적인' 뜻입니다. |
-| 4 | **reservado/a** | **Reserved** ✅ (Perfect Cognate) | '내성적인' 혹은 '말수가 적은' 뜻입니다. |
-| 5 | **tranquilo/a** | **Tranquil** ✅ (Perfect Cognate) | '차분한' 혹은 '조용한' 뜻입니다. (Tranquilizer와 같은 어원) |
-| 6 | **nervioso/a** | **Nervous** ✅ (Perfect Cognate) | '불안한' 혹은 '긴장한' 상태를 뜻합니다. |
-| 7 | **generoso/a** | **Generous** ✅ (Perfect Cognate) | '관대한' 혹은 '손이 큰' 뜻입니다. |
-| 8 | **egoísta** | **Egoistic** ✅ (Perfect Cognate) | '이기적인' 뜻입니다. |
-| 9 | **amable** | **Amicable** (friendly) | '친절한' 뜻으로, 영어의 amiable과도 연결됩니다. |
-| 10 | **tolerante** | **Tolerant** ✅ (Perfect Cognate) | '관용적인' 뜻입니다. |
+|---|:--- |:--- |:--- |
+| 1 | **confundido / -a** | **Confused** ✅ | '꼰뿐디도' |
+| 2 | **orgulloso / -a** | **Proud** (Proud of self) | '오르구요소' |
+| 3 | **avergonzado / -a** | — (Ashamed / Embarrassed) | ⚠️ Embarrassed와 소리 비슷 |
+| 4 | **aburrido / -a** | **Bored** | Ser/Estar 의미 변화 주의 |
+| 5 | **preocupado / -a** | **Preoccupied** → Worried | 걱정에 사로잡힌 상태 |
+| 6 | **sorprendido / -a** | **Surprised** ✅ | 놀란 상태 |
+| 7 | **enfadado / -a** | — (Angry / Mad) | '엔파다도' |
+| 8 | **celoso / -a** | **Jealous** ✅ | 질투하는 |
+| 9 | **esperanzado / -a** | **Hope** (Esperanza) → Hopeful | 희망에 가득 찬 |
+| 10 | **agotado / -a** | **Exhausted** | 에너지가 고갈(ex-haust)된 |
+| 11 | **asustado / -a** | — (Scared / Frightened) | 겁먹은 상태 |
+| 12 | **tranquilo / -a** | **Tranquil** ✅ | 차분하고 평온한 |
 
-✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.
+✅ 항목은 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.
 
 ---
 
 ## 3. Expresiones Útiles
-Expressing personality at the A2 level involves more complex sentence structures and frequency adverbs.
-(A2 단계에서 성격을 표현하는 것은 더 복잡한 문장 구조와 빈도 부사를 사용하는 것을 포함합니다.)
+감정의 변화와 심화된 묘사를 위한 표현들입니다.
 
-- **Suelo ser una persona...**: I tend to be a... person. (나는 대체로 ...한 사람이에요.)
-- **Me parece que él es...**: It seems to me that he is... (그는 ...인 것 같아요.)
-- **A veces me pongo nervioso/a**: Sometimes I get nervous. (가끔 나는 긴장해요.)
-- **No soporto a la gente egoísta**: I can't stand selfish people. (나는 이기적인 사람들을 참을 수 없어요.)
-- **¡Qué amable eres!**: How kind you are! (정말 친절하시네요!)
-- **Espero ser más tolerante**: I hope to be more tolerant. (나는 더 관용적인 사람이 되기를 바래요.)
-
-**실전 예문 (Practical Examples)**:
-- ES: Mi padre es muy generoso, siempre ayuda a los demás. (제 아버지는 매우 관대하셔서 항상 다른 사람들을 도와주십니다.)
-- EN: My father is very generous; he always helps others.
-- ES: ¿Eres una persona abierta o reservada? (너는 외향적인 사람이니 아니면 내향적인 사람이니?)
-- EN: Are you an open or a reserved person?
+| Spanish | English Mapping | Korean Translation |
+|:--- |:--- |:--- |
+| **Me siento un poco confundido.** | I feel a bit confused. | 조금 혼란스러워요. |
+| **¡No te preocupes!** | Don't worry! | 걱정하지 마세요! |
+| **Estoy orgulloso de ti.** | I am proud of you. | 네가 자랑스러워. |
+| **Me pongo nervioso antes de un examen.** | I get nervous before an exam. | 나는 시험 전에 긴장하게 돼. |
+| **¿Estás enfadado conmigo?** | Are you mad at me? | 나한테 화났니? |
+| **Él es muy listo.** | He is very smart. | 그는 정말 똑똑해. |
+| **¿Estás listo para salir?** | Are you ready to go out? | 나갈 준비 됐니? |
 
 ---
 
-## 4. Gramática Esencial: Verbos Reflexivos (재귀 동사)
+## 4. Gramática Esencial
+### 1. 동사 결합에 따른 의미 변화 (Ser vs. Estar)
 
-A2 단계에서는 행동의 주체에게 그 동작이 다시 돌아오는 '재귀 동사'를 도입합니다. 이는 주로 일상적인 생활 습관이나 감정의 변화를 묘사할 때 중요하게 사용됩니다. 
+어떤 형용사는 Ser와 Estar 중 무엇과 쓰이느냐에 따라 뜻이 완전히 바뀝니다. 이는 A2 레벨의 핵심 역량입니다.
 
-### 재귀 대명사 (Reflexive Pronouns)
-재귀 동사를 활용할 때는 주어의 인칭에 맞는 재귀 대명사를 동사 앞에 반드시 위치시켜야 합니다.
-| 주어 (Subject) | 재귀 대명사 | 예시 (levantarse) | 의미 |
-| :--- | :--- | :--- | :--- |
-| yo | **me** | Me levanto | 나는 일어난다 |
-| tú | **te** | Te levantas | 너는 일어난다 |
-| él / ella / usted | **se** | Se levanta | 그/그녀/당신은 일어난다 |
-| nosotros / nosotras | **nos** | Nos levantamos | 우리는 일어난다 |
-| vosotros / vosotras | **os** | Os levantáis | 너희들은 일어난다 |
-| ellos / ellas / ustedes | **se** | Se levantan | 그들/당신들은 일어난다 |
+| 형용사 | Ser (본질/성격) | Estar (상태) |
+|:--- |:--- |:--- |
+| **listo / -a** | 똑똑하다 (Smart) | 준비되다 (Ready) |
+| **malo / -a** | 나쁘다 (Bad character) | 아프다 (Sick) / 맛없다 (Bad taste) |
+| **aburrido / -a** | 지루한 사람 (Boring) | 지루함을 느끼다 (Bored) |
+| **verde** | 초록색이다 | 미숙하다 (Not ripe) |
+| **rico / -a** | 부자다 (Rich) | 맛있다 (Delicious) |
 
-### 감정의 변화를 나타내는 재귀 동사
-`ponerse` (어떠한 상태가 되다)와 같은 동사는 성격이나 기분의 변화를 설명할 때 필수적입니다.
-- **Me pongo alegre**: 나는 기분이 좋아진다.
-- **Te pones nervioso**: 너는 긴장하게 된다.
+### 2. 재귀동사 (Verbos Reflexivos): 기분의 변화
+주어의 행동이 다시 주어 자신에게 돌아오는 재귀동사는 '기분이나 상태의 변화'를 나타낼 때 자주 쓰입니다.
 
-> [!NOTE]
-> **Korean Tip**
-> 한국어의 재귀 대명사(자신, 스스로)와 비슷하지만, 스페인어에서는 '나를 씻기다(씻다)', '나를 깨우다(일어나다)'처럼 훨씬 더 빈번하게 쓰입니다. 영어의 "I wash **myself**"와 구조가 같다고 생각하면 'English Bridge'가 확실해집니다.
+**재귀대명사**: me, te, se, nos, os, se
+
+| 주어 | **Sentirse** (느끼다) | **Ponerse** (~이 되다-상태변화) |
+|:--- |:--- |:--- |
+| **yo** | **me siento** | **me pongo** |
+| **tú** | **te sientes** | **te pones** |
+| **él / ella / usted** | **se siente** | **se pone** |
+| **nosotros / nosotras** | **nos sentimos** | **nos ponemos** |
+| **vosotros / vosotras** | **os sentís** | **os ponéis** |
+| **ellos / ellas / ustedes** | **se sienten** | **se ponen** |
+
+> [!IMPORTANT]
+> **Korean Tip**: '나는 슬퍼(Estoy triste)'는 현재의 상태지만, **'나는 슬퍼져(Me pongo triste)'**는 감정의 변화 과정을 강조합니다. 재귀동사는 이 '변화'의 느낌을 잘 살려줍니다.
 
 ---
 
-## 5. Cultura Viva: Identidad Digital y Redes Sociales
+## 5. Cultura Viva: El "Yo" digital en España 📱
+ 스페인 청년들의 SNS와 자아 표현 문화를 살펴봅니다.
 
-![스페인 인플루언서와 디지털 정체성](../images/ch02_a2_culture_sns_v52.png)
+**La imagen personal en la era de Instagram**
 
-La identidad moderna en España está profundamente entrelazada con las **redes sociales**. Los jóvenes españoles se encuentran entre los "instagramers" y "tiktokers" más activos de Europa. Esto ha creado un nuevo vocabulario de la personalidad.
+Hoy en día, para los jóvenes españoles (la "Generación Z"), la identidad no solo se construye en la vida real, sino también en el mundo digital. Redes sociales como Instagram y TikTok son espacios fundamentales para mostrar quiénes son y cómo se sienten. En España, existe una fuerte cultura visual; a la gente le gusta compartir fotos de sus viajes, de la comida ("comida instagrameable") y de sus momentos de ocio con amigos.
 
-La identidad digital se ve como una forma de expresar "quiénes somos" ante una audiencia global. Sin embargo, la cultura española sigue concediendo un gran valor al "cara a cara". Aunque alguien parezca **abierto** y **optimista** en su perfil, su verdadera personalidad se revela durante las largas sesiones de "sobremesa"—la tradicional charla española después de la comida. Este equilibrio entre el yo virtual y el yo social auténtico es un tema clave para los estudiantes avanzados de A2.
+Sin embargo, esto también genera una presión por mostrar una "vida perfecta". Muchos jóvenes se sienten **preocupados** o **estresados** por su imagen pública. A pesar de esto, el carácter español sigue siendo muy expresivo y abierto. Es común ver perfiles con mensajes positivos y directos. La palabra "postureo" es muy famosa en España: se usa para describir cuando alguien hace algo solo para lucirse en las redes sociales, aunque no sea su realidad cotidiana.
 
-**한국어 번역:**
-디지털 정체성은 전 세계 청중에게 '우리가 누구인지(quiénes somos)'를 표현하는 수단으로 여겨집니다. 하지만 스페인 문화는 여전히 '얼굴을 맞대고(el cara a cara)' 소통하는 것에 높은 가치를 둡니다. 누군가의 프로필이 '아비에르토(abierto)'하고 '옵티미스타(optimista)'해 보일지라도, 그들의 진정한 성격은 식사 후 긴 대화 시간인 '소브레메사(sobremesa)'에서 드러납니다. 가상 세계의 자아와 실제 사회적 자아 사이의 균형은 A2 학습자들에게 중요한 주제입니다.
+**한국어 번역**
+오늘날 스페인 청년들(Z세대)에게 정체성은 현실 세계뿐만 아니라 디지털 세계에서도 구축됩니다. 인스타그램이나 틱톡 같은 소셜 미디어는 그들이 누구인지, 그리고 어떻게 느끼는지를 보여주는 핵심적인 공간입니다. 스페인에는 강력한 시각 문화가 존재합니다. 사람들은 여행, 음식("인스타 감성 음식"), 그리고 친구들과의 여가 시간을 공유하는 것을 좋아합니다.
+
+하지만 이는 또한 "완벽한 삶"을 보여줘야 한다는 압박감을 생성하기도 합니다. 많은 청년이 자신의 공적인 이미지에 대해 **걱정하거나(preocupados)** **스트레스를(estresados)** 받기도 합니다. 그럼에도 불구하고, 스페인 사람들의 성격은 여전히 매우 표현력이 풍부하고 개방적입니다. 긍정적이고 직설적인 메시지가 담긴 프로필을 흔히 볼 수 있습니다. 스페인에서 "postureo(포스투레오)"라는 단어는 매우 유명한데, 이는 누군가가 실제 현실이 아님에도 오직 소셜 미디어에 뽐내기 위해 행동하는 것을 묘사할 때 사용됩니다.
+
+![Digital Identity](../images/ch02_a2_culture_social_v56.png)
 
 ---
 
 ## 6. Práctica
 
-### A. Match the word
-Match the A2 personality trait with its opposite.
+**A. ¿Ser o Estar? (문맥에 맞는 동사를 선택하세요)**
 
-| Trato (Trait) | Opuesto (Opposite) |
-| :--- | :--- |
-| 1. Optimista | a. Reservado |
-| 2. Abierto | b. Egoísta |
-| 3. Generoso | c. Pesimista |
-| 4. Tranquilo | d. Antipático (unfriendly) |
-| 5. Amable | e. Nervioso |
+1. Carlos es (listo / preocupado). Siempre saca buenas notas.
+2. La manzana está (verde / rica). No podemos comerla todavía.
+3. No quiero ver esa película, es muy (aburrida / confundida).
+4. El café está (malo / rico) hoy. ¡Me encanta!
+5. Estoy (listo / verde) para el viaje. Tengo mi maleta.
 
-### B. Fill in the blanks
-Fill in the correct reflexive pronoun (**me, te, se, nos, os, se**).
+**B. Completa con el verbo reflexivo (재귀동사를 알맞게 변화시키세요)**
 
-1. Yo ................ levanto a las ocho. (I get up at eight.)
-2. Nosotros ................ sentimos bien hoy. (We feel good today.)
-3. ¿Tú ................ pones nervioso en los exámenes? (Do you get nervous during exams?)
-4. Ella ................ llama Carmen. (Her name is Carmen.)
-5. Los estudiantes ................ preparan para la clase. (The students prepare themselves for class.)
+1. Yo (sentirse) ............................ muy bien hoy.
+2. Cuando llueve, Lucía (ponerse) ............................ triste.
+3. ¿Por qué (tú / sentirse) ............................ confundido?
+4. Nosotros (ponerse) ............................ nerviosos en los exámenes.
+5. Los niños (asustarse) ............................ con la tormenta.
 
-### C. 번역 연습 (Translation)
-다음 문장을 스페인어로 번역하세요.
+**C. 번역 연습 (스페인어로 옮겨보세요)**
 
-1. I am an optimistic person.
-2. He is very reserved.
-3. We are generous with our friends.
-4. Sometimes I get nervous.
-5. She is very kind.
+1. 나는 우리 가족이 자랑스러워(orgulloso).
+   ...........................................................................................
+2. 시험 때문에 걱정하지 마!
+   ...........................................................................................
+3. 그는 학교에서 가장 똑똑한 학생이야.
+   ...........................................................................................
+4. 너는 오늘 왜 그렇게 화가 났니?
+   ...........................................................................................
+5. 우리는 새로운 소식에 깜짝 놀랐어(sorprendidos).
+   ...........................................................................................
 
 ---
 
 ## 7. Lectura 📖
+**Un día de muchas emociones**
 
-### El Perfil de Elena
-Elena es una estudiante de arquitectura en Madrid. En su perfil de Instagram, se describe como una persona **optimista** y **abierta**. Le encanta viajar y conocer gente nueva. Sin embargo, en clase, es un poco **reservada** y **tranquila**. Sus amigos dicen que es 매우 **generosa** porque siempre comparte sus apuntes. Elena cree que es importante ser **tolerante** con todas las culturas.
+Ayer fue un día muy intenso para Manuel. Por la mañana, se sintió muy **orgulloso** porque terminó un proyecto importante en su trabajo. Pero al mediodía, se puso **preocupado** porque no encontraba las llaves de su coche. Después de buscarlas por una hora, estaba **agotado**. Al final, su novia las encontró y Manuel se sintió **tranquilo** otra vez. ¡Qué día tan loco!
 
-**한국어 번역**:
-엘레나는 마드리드에서 건축을 공부하는 학생입니다. 그녀의 인스타그램 프로필에서 그녀는 자신을 낙천적이고 외향적인 사람으로 설명합니다. 그녀는 여행하고 새로운 사람들을 만나는 것을 정말 좋아합니다. 하지만 수업 중에는 조금 내성적이고 조용한 편입니다. 그녀의 친구들은 그녀가 항상 자신의 노트를 공유하기 때문에 매우 관대하다고 말합니다. 엘레나는 모든 문화에 대해 관용적인 태도를 갖는 것이 중요하다고 믿습니다.
+**Questions**
+1. Manuel은 왜 아침에 자신을 자랑스럽게 느꼈나요?
+2. 점심 무렵에 그는 왜 걱정하고 지쳤나요?
+3. 결국 누가 열쇠를 찾았고, Manuel의 기분은 어떻게 변했나요?
 
-**Questions**:
-1. ¿Cómo se describe Elena en Instagram? (엘레나는 인스타그램에서 자신을 어떻게 설명합니까?)
-2. ¿Por qué es Elena generosa, según sus amigos? (친구들에 따르면 엘레나가 왜 관대한가요?)
-3. ¿Cómo es Elena en clase? (수업 시간에 엘레나는 어떤가요?)
-4. ¿Qué estudia Elena? (엘레나는 무엇을 공부하나요?)
-5. ¿Qué opina Elena sobre el trato con otras culturas? (다른 문화에 대한 태도에 대해 엘레나는 어떻게 생각하나요?)
+**한국어 번역**
+**많은 감정이 교차한 하루**
+어제는 마누엘에게 매우 강렬한 하루였습니다. 아침에 그는 직장에서 중요한 프로젝트를 끝냈기 때문에 매우 **자랑스러움을(orgulloso)** 느꼈습니다. 하지만 정오쯤, 차 열쇠를 찾을 수 없어서 **걱정이(preocupado)** 되었습니다. 한 시간 동안 열쇠를 찾은 후, 그는 **녹초가(agotado)** 되었습니다. 결국, 그의 여자친구가 열쇠를 찾았고 마누엘은 다시 **안도감을(tranquilo)** 느꼈습니다. 정말 미친 하루였어요!
 
 ---
 
 ## 8. Diálogo
-**¿Eres un adicto a las redes? (너 SNS 중독이야?)**
+**¡No te pongas nervioso! (긴장하지 마!)**
 
-**Situación:** Dos estudiantes universitarios, Marta y Javier, charlan en la biblioteca sobre sus hábitos digitales. Se preguntan mutuamente cuánto tiempo pasan en Instagram y TikTok, y cómo esto afecta su vida diaria y sus emociones.  
-**상황:** 두 대학생 마르타와 하비에르가 도서관에서 자신들의 디지털 습관에 대해 수다를 떨고 있습니다. 그들은 서로 인스타그램과 틱톡에 얼마나 많은 시간을 쓰는지, 그리고 이것이 일상생활과 감정에 어떤 영향을 미치는지 묻습니다.
+**Situación:** Javier tiene una entrevista de trabajo por primera vez. Su hermana Elena intenta tranquilizarlo porque Javier está muy estresado y preocupado por su imagen.  
+**상황:** 하비에르는 처음으로 구직 면접을 앞두고 있습니다. 그의 누나 엘레나는 하비에르가 자신의 이미지 때문에 매우 스트레스를 받고 걱정하고 있는 것을 보고 그를 안심시키려 노력합니다.
 
-| Spanish (ES) | Korean (KO) |
-| :--- | :--- |
-| **Luis**: Hola Marta, ¿tienes un momento? | **Luis**: 안녕 Marta, 시간 좀 있니? |
-| **Marta**: Sí, claro. ¿Qué pasa? | **Marta**: 응, 물론이지. 무슨 일이야? |
-| **Luis**: Estoy haciendo un test sobre la personalidad. ¿Cómo te defines? | **Luis**: 성격 테스트를 하나 하고 있어. 너는 너 자신을 어떻게 정의하니? |
-| **Marta**: Pues, me considero una persona **tranquila** y **amable**. | **Marta**: 음, 나는 나 자신이 차분하고 친절한 사람이라고 생각해. |
-| **Luis**: ¿Eres **optimista** 또는 **pesimista**? | **Luis**: 너는 낙천적이니 아니면 비관적이니? |
-| **Marta**: Siempre **optimista**. Creo que todo tiene solución. | **Marta**: 언제나 낙천적이야. 모든 일에는 해결책이 있다고 믿거든. |
-| **Luis**: ¿Y te pones **nerviosa** en las presentaciones? | **Luis**: 그럼 발표할 때 긴장되니? |
-| **Marta**: ¡Mucho! Me pongo muy **nerviosa**, pero trato de controlarlo. | **Marta**: 아주 많이! 정말 긴장이 되지만, 조절하려고 노력해. |
+| Speaker | Spanish | Korean |
+|:--- |:--- |:--- |
+| **Javier** | Elena, me pongo muy nervioso. | 엘레나, 나 너무 긴장돼. |
+| **Elena** | ¡Tranquilo, Javier! Eres una persona muy lista. | 진정해, 하비에르! 넌 정말 똑똑한 사람이잖아. |
+| **Javier** | Pero hoy no me siento seguro. Estoy confundido. | 하지만 오늘은 자신감이 안 생겨. 혼란스러워. |
+| **Elena** | Es normal estar asustado la primera vez. | 처음에는 겁나는 게 당연해. |
+| **Javier** | ¿Cómo me veo? ¿Estoy bien con esta camisa? | 나 어때 보여? 이 셔츠 괜찮아? |
+| **Elena** | Estás muy guapo y serio. ¡Perfecto para el trabajo! | 아주 잘 생겨 보이고 진중해 보여. 일하기에 완벽해! |
+| **Javier** | Gracias. Ahora me siento un poco más esperanzado. | 고마워. 이제 조금 더 희망이 생기는 것 같아. |
+| **Elena** | ¡Mucha suerte! Estamos orgullosos de ti. | 행운을 빌어! 우린 네가 자랑스러워. |
 
 ---
 
 ## 9. Repaso
-- **Vocabulario**: Advanced personality traits (optimista, generoso, tolerante).
-- **English Bridge**: Perfect cognates for abstract psychological terms.
-- **Grammar**: Using reflexive pronouns to describe self-actions and emotional changes.
-
-**Checklist**:
-- [ ] Can I conjugate a reflexive verb in all person forms?
-- [ ] Can I explain the difference between `optimista` and `pesimista`?
-- [ ] Do I understand the social value of being `amable` in Spain?
+이 장에서 배운 내용을 확인해 보세요:
+- [ ] 감정과 심리 상태를 나타내는 심화 형용사 12개를 익혔다.
+- [ ] Ser와 Estar 결합에 따라 뜻이 변하는 형용사(listo, rico 등)를 구분한다.
+- [ ] 재귀동사(sentirse, ponerse)를 사용하여 상태의 변화를 표현할 수 있다.
+- [ ] 스페인 청년들의 SNS 문화와 'postureo'의 의미를 이해했다.
 
 ---
 
 ## 10. Cierre
-¡Felicidades! Has pasado de las descripciones físicas a la profundidad psicológica. Ser capaz de hablar sobre la personalidad te permite expresar tu identidad y conectar con los caracteres únicos del mundo hispanohablante. En el próximo capítulo, consolidaremos esta identidad explorando tus orígenes, edad e identidad profesional. ¡Hablamos pronto!
-
-**한국어 번역:**
-축하합니다! 신체적 묘사에서 한 걸음 나아가 심리적 깊이까지 다루게 되었습니다. 성격에 대해 말할 수 있게 된 것은 여러분의 정체성을 표현하고 스페인어권 세계의 독특한 인물들과 연결될 수 있게 해줍니다. 다음 장에서는 여러분의 기원, 나이, 직업적 정체성을 탐구하며 이러한 정체성을 공고히 할 것입니다. 곧 다시 이야기 나눠요!
+¡Excelente! 이제 여러분은 단순한 외모 묘사를 넘어, 사람의 깊은 내면과 감정의 변화까지 스페인어로 풍부하게 표현할 수 있게 되었습니다. 
+A2 수준에서 중요한 것은 '뉘앙스'의 차이를 아는 것입니다. 
+다음 장에서는 우리의 '정체성'과 이를 증명하는 '서류(Identidad/DNI)'에 대해 배우며 실무적인 스페인어 능력을 키워보겠습니다. ¡Ánimo!
 
 ---
 
 ## 11. Soluciones
 
-### A. Match the word
-1-c, 2-a, 3-b, 4-e, 5-d
+**A. ¿Ser o Estar?**
+1. listo / 2. verde / 3. aburrida / 4. rico / 5. listo
 
-### B. Fill in the blanks
-1. me, 2. nos, 3. te, 4. se, 5. se
+**B. Completa con el verbo reflexivo**
+1. me siento / 2. se pone / 3. te sientes / 4. nos ponemos / 5. se asustan
 
-### C. 번역 연습
-1. Soy una persona optimista.
-2. Él es muy reservado.
-3. Somos generosos con nuestros amigos.
-4. A veces me pongo nervioso / nerviosa.
-5. Ella es muy amable.
-
-### 7. Lectura Questions (독해 정답)
-1. Se describe como optimista y abierta. (낙천적이고 외향적이라고 설명합니다.)
-2. Porque siempre comparte sus apuntes. (항상 그녀의 노트를 공유하기 때문입니다.)
-3. Es un poco reservada y tranquila. (조금 내성적이고 조용한 편입니다.)
-4. Estudia arquitectura en Madrid. (마드리드에서 건축학을 공부합니다.)
-5. Cree que es importante ser tolerante con todas las culturas. (모든 문화에 관용적인 태도를 갖는 것이 중요하다고 생각합니다.)
+**C. 번역 연습**
+1. Estoy orgulloso de mi familia.
+2. ¡No te preocupes por el examen!
+3. Él es el estudiante más listo de la escuela.
+4. ¿Por qué estás tan enfadado hoje?
+5. Estamos sorprendidos por las nuevas noticias.

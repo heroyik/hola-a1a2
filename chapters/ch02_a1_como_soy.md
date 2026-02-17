@@ -1,227 +1,208 @@
 # Chapter 2: ¿Cómo soy? (A1)
+<p class="cervantes-ref">Cervantes: §2 Persona: 신체적 외모 기술 및 기본적인 성격, 기분 상태 표현</p>
 
 ## 1. Opener
-Who are you? How do you describe your personality and your physical appearance to a new friend? In this chapter, we explore the vibrant language of identity. We will move beyond just naming colors and shapes to describing characters—all while leveraging the English vocabulary you already know.
+**¿Cómo eres tú?**  
+이 장에서는 나와 주변 사람들의 성격, 외모, 그리고 현재의 기분과 감정을 묘사하는 방법을 배웁니다. 스페인어에서 가장 중요한 두 동사, **ser**와 **estar**의 결전이 시작됩니다!
 
-**한국어 번역:**
-여러분은 누구인가요? 새로운 친구에게 여러분의 성격과 외모를 어떻게 설명하시겠습니까? 이 장에서는 정체성을 묘사하는 생동감 넘치는 언어를 탐구합니다. 단순히 색상과 모양의 이름을 익히는 것을 넘어, 여러분이 이미 알고 있는 영어 어휘를 활용하여 인물의 특징을 설명하는 법을 배울 것입니다.
-
-**학습 목표**:
-- 15개 이상의 외모 및 성격 형용사를 사용하여 자신과 타인을 묘사합니다.
-- 성질(본질)을 나타내는 **Ser**와 상태를 나타내는 **Estar**의 차이를 구분하여 사용합니다.
-- 형용사의 성과 수 일치 규칙을 올바르게 적용합니다.
-- 스페인과 중남미 인사의 문화적 차이와 뉘앙스를 이해합니다.
+**학습 목표**
+- 성격과 외모를 나타내는 핵심 형용사 습득
+- '본질'을 나타내는 ser 동사와 '상태'를 나타내는 estar 동사의 완벽 구분
+- 긍정형과 부정형을 사용한 자기소개 및 타인 묘사
+- 스페인의 인사 문화(Dos besos) 이해
 
 > [!TIP]
-> **¿Sabías que...? (Did you know?)**
-> In Spanish, telling someone they are "salado/a" (salty) actually means they are witty, funny, or charming. It’s a compliment! Personality is often described using food metaphors, showing how central culinary culture is to the Spanish identity.
-
-**한국어 번역:**
-스페인어로 누군가에게 '살라도/아(salado/a, 짠)'라고 말하는 것은 사실 그 사람이 재치 있고 재미있거나 매력적이라는 뜻입니다. 이는 칭찬입니다! 성격은 종종 음식 비유를 통해 묘사되곤 하는데, 이는 스페인 정체성에서 음식 문화가 얼마나 중심적인지를 잘 보여줍니다.
+> **¿Sabías que...?** 스페인 사람들은 처음 만났을 때나 인사를 할 때 양쪽 볼에 가볍게 키스를 하는 'Dos besos' 문화를 가지고 있습니다. 이건 연인 사이뿐만 아니라 친구, 가족, 심지어 처음 본 사이에서도 흔히 일어나는 친근함의 표시랍니다!
 
 ---
 
 ## 2. Vocabulario Esencial
-Aprenderemos los términos clave para describir a las personas físicamente y su carácter.
+아래 삽화 속 인물들의 특징을 살펴보며 필수 형용사를 익혀보세요.
 
-**한국어 번역:**
-사람들의 외모와 성격을 묘사하는 핵심 단어들을 배워보겠습니다.
-
-![성격 및 외모 묘사](../images/ch02_a1_vocab_100pct_v52_1771285427474.png)
-
-Spanish adjectives often share roots with English academic or descriptive terms. Use these links to build your vocabulary faster!
+![¿Cómo somos?](../images/ch02_a1_vocab_personality_v56.png)
 
 | # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | el **alto** | **Altitude** (height) ✅ | 고도를 뜻하는 altitude처럼 '키가 큰'을 의미합니다. |
-| 2 | el **bajo** | **Base** (bottom/low) | '낮은' 혹은 '키가 작은'을 뜻합니다. 베이스 기타를 떠올려보세요. |
-| 3 | el **gordo** | — | '뚱뚱한' 혹은 '살집이 있는'을 뜻합니다. (친한 사이엔 애칭으로도 쓰임) |
-| 4 | el **delgado** | **Delicate** (slender) | '날씬한' 혹은 '마른'을 뜻합니다. |
-| 5 | el **rubio** | **Ruby** (shining/reddish-gold) | '금발의'를 의미하며, 빛나는 보석 루비와 어원이 비슷합니다. |
-| 6 | el **moreno** | **Moor** (dark-skinned) | '검은 머리(피부)의'를 뜻하며, 역사적 맥락의 Moor와 연결됩니다. |
-| 7 | el **guapo** | — | '잘생긴' 혹은 '예쁜'을 뜻합니다. |
-| 8 | el **feo** | — | '못생긴'을 뜻합니다. |
-| 9 | el **calvo** | — | '대머리의'를 뜻합니다. |
-| 10 | la **barba** | **Barber** (one who cuts beards) ✅ | 이발사를 뜻하는 barber의 어원인 '수염'입니다. |
-| 11 | el **bigote** | — | '콧수염'을 뜻합니다. |
-| 12 | las **gafas** | — | '안경'을 뜻합니다. (중남미에선 lentes/anteojos 도 사용) |
-| 13 | **simpático/a** | **Sympathetic** (friendly/likable) ✅ | 단순히 동정하는 게 아니라 '성격이 좋은', '친절한' 뜻입니다. |
-| 14 | **trabajador/a** | — | '일꾼'이라는 뜻에서 온 '근면한/열심히 일하는'입니다. |
-| 15 | **tímido/a** | **Timid** ✅ (Perfect Cognate) | '내성적인' 혹은 '부끄러움을 타는' 뜻입니다. |
-| 16 | **alegre** | **Allergretto** (lively music tempo) | '명랑한' 혹은 '즐거운' 뜻으로, 음악 용어와 어원이 같습니다. |
-| 17 | **serio/a** | **Serious** ✅ (Perfect Cognate) | '진지한' 혹은 '엄격한' 뜻입니다. |
+|---|:--- |:--- |:--- |
+| 1 | **alegre** | **Cheerful / Allegro** (mus.) ✅ | 활기찬 느낌 |
+| 2 | **triste** | **Triste** (fr.) → Sad | '트리스테'라고 발음 |
+| 3 | **serio / seria** | **Serious** ✅ | -o/-a 성수 변화 주의 |
+| 4 | **antipático / -a** | **Antipathy** → Unpleasant | '비호감인' 느낌 |
+| 5 | **simpático / -a** | **Sympathetic** → Nice / Friendly | '호감가는' 느낌 |
+| 6 | **alto / alta** | **Altitude** → Tall | 높은 곳을 상상하세요 |
+| 7 | **bajo / baja** | **Base** → Short / Low | 낮은 곳을 상상하세요 |
+| 8 | **delgado / -a** | — (Thin / Slender) | '델가도' |
+| 9 | **gordo / gorda** | — (Fat / Chubby) | '고르도' |
+| 10 | **inteligente** | **Intelligent** ✅ | 완벽한 인지어 |
 
-✅ 표시가 있는 단어는 영어 단어와 어원이 매우 유사하여 기억하기 쉽습니다.
+✅ 항목은 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.
 
 ---
 
 ## 3. Expresiones Útiles
-Describing people isn't just about adjectives. It's about combining them with verbs to paint a picture.
-(사람을 묘사하는 것은 단순히 형용사만을 사용하는 것이 아닙니다. 동사와 결합하여 한 폭의 그림을 그리듯 묘사하는 법을 배워봅시다.)
+일상에서 나를 표현하거나 남을 물어볼 때 사용하는 핵심 문장들입니다.
 
-- **¿Cómo eres?**: What are you like? (너는 어떤 사람이니?)
-- **Soy una persona alegre**: I am a cheerful person. (나는 명랑한 사람이에요.)
-- **Eres muy simpático**: You are very friendly. (너는 정말 친절해.)
-- **Él tiene barba y bigote**: He has a beard and mustache. (그는 수염과 콧수염이 있어요.)
-- **Ella lleva gafas**: She wears glasses. (그녀는 안경을 썼어요.)
-- **No soy tímido**: I am not shy. (나는 수줍음을 타지 않아요.)
-
-**실전 예문 (Practical Examples)**:
-- ES: Mi hermano es muy alto y trabajador. (제 형은 키가 아주 크고 부지런해요.)
-- EN: My brother is very tall and hardworking.
-- ES: ¿Eres rubio o moreno? (너는 금발이니 아니면 검은 머리니?)
-- EN: Are you blonde or dark-haired?
+| Spanish | English Mapping | Korean Translation |
+|:--- |:--- |:--- |
+| **¿Cómo eres?** | What are you like? (Personality/Appearance) | 너는 어떤 사람이니? (성격/외모) |
+| **¿Cómo estás?** | How are you? (Condition/Emotion) | 요즘 기분 어때? / 어떻게 지내? |
+| **Soy una persona alegre.** | I am a cheerful person. | 나는 밝은 사람이야. |
+| **Estoy un poco cansado.** | I am a bit tired. | 나는 좀 피곤해. |
+| **Mi amigo es muy simpático.** | My friend is very friendly. | 내 친구는 정말 성격이 좋아. |
+| **Ella está muy feliz hoy.** | She is very happy today. | 그녀는 오늘 아주 행복해 보여. |
 
 ---
 
-## 4. Gramática Esencial: SER vs ESTAR (두 가지 'be' 동사)
+## 4. Gramática Esencial
+### Ser vs. Estar: '본질'과 '상태'의 구분
 
-영어에는 "be" 동사가 하나뿐이지만, 스페인어에는 **SER**와 **ESTAR** 두 가지가 존재합니다. 이 둘의 가장 큰 차이점은 '영속성'과 '상태'입니다. 
+스페인어의 'be 동사'는 두 가지로 나뉩니다. 이를 구분하는 것이 초급 단계의 가장 큰 산입니다.
 
-### 형용사의 성·수 일치 (Adjective Agreement)
-스페인어에서 형용사는 수식하는 명사의 성(남성/여성)과 수(단수/복수)에 반드시 일치해야 합니다. 주어가 바뀌면 형용사의 어미도 함께 변한다는 점을 꼭 기억하세요.
-- 남성: El chico **alto** (키가 큰 소년)
-- 여성: La chica **alta** (키가 큰 소녀)
-- 복수: Los chicos **altos** / Las chicas **altas** (키가 큰 소년들 / 소녀들)
+**1. Ser 동사 (본질, 정체성, 지속적 특성)**
+- 이름, 국적, 직업, 성격, 외모 등 쉽게 변하지 않는 특징에 사용합니다.
+- **English Mapping**: "I AM (who I am)."
 
-### 전 인칭 SER 변화 (Essential Recap)
-| 주어 (Subject) | SER (Permanent Traits) |
-| :--- | :--- |
-| yo | **soy** |
-| tú | **eres** |
-| él / ella / usted | **es** |
-| nosotros / nosotras | **somos** |
-| vosotros / vosotras | **sois** |
-| ellos / ellas / ustedes | **son** |
+| 주어 | Ser (현재형) |
+|--- |--- |
+| **yo** | **soy** |
+| **tú** | **eres** |
+| **él / ella / usted** | **es** |
+| **nosotros / nosotras** | **somos** |
+| **vosotros / vosotras** | **sois** |
+| **ellos / ellas / ustedes** | **son** |
 
-> [!NOTE]
-> **Korean Tip**
-> 키, 성격, 눈 색깔처럼 쉽게 변하지 않는 '본질'은 **SER**를 씁니다. 반면, 기분(happy, sad)이나 일시적인 상태(sick, tired)는 나중에 배울 **ESTAR**를 사용합니다. "I am tall"은 평생의 특징이므로 `Soy alto`가 맞습니다!
+**2. Estar 동사 (상태, 위치, 일시적 기분)**
+- 기분, 건강 상태, 물리적 위치 등 가변적인 상황에 사용합니다.
+- **English Mapping**: "I AM (how/where I am)."
+
+| 주어 | Estar (현재형) |
+|--- |--- |
+| **yo** | **estoy** |
+| **tú** | **estás** |
+| **él / ella / usted** | **está** |
+| **nosotros / nosotras** | **estamos** |
+| **vosotros / vosotras** | **estáis** |
+| **ellos / ellas / ustedes** | **están** |
+
+> [!IMPORTANT]
+> **Korean Tip**: 한국어로는 둘 다 "~이다/있다"로 번역되지만, **"내 친구는 친절하다(Ser)"**와 **"내 친구는 지금 화가 났다(Estar)"**의 차이를 생각하면 이해가 빠릅니다. 성격은 Ser, 기분은 Estar입니다!
 
 ---
 
-## 5. Cultura Viva: Saludos en el Mundo Hispano
+## 5. Cultura Viva: Dos Besos 💋
+ 스페인 사람들의 따뜻한 인사법을 알아볼까요?
 
-![스페인과 중남미의 인사 비교](../images/ch02_a1_culture_greeting_v52.png)
+**¡Dos besos para todos!**
 
-Los saludos son el espejo de la personalidad en el mundo hispanohablante. En España, el saludo estándar entre un hombre y una mujer, o entre dos mujeres, son los **'Dos Besos'**—dos ligeros contactos en las mejillas empezando por la derecha. Entre dos hombres, es común un apretón de manos firme o un breve abrazo.
+En España, la forma más común de saludar, especialmente entre mujeres o entre un hombre y una mujer, es dándose dos besos en las mejillas. No son besos reales con los labios, sino un ligero contacto de mejilla con mejilla mientras se hace el sonido del beso. Se empieza siempre por la mejilla derecha. 
 
-En Latinoamérica, sin embargo, el **'Un Beso'** es más común en muchas regiones. La gente es generalmente muy expresiva; "simpático" no es solo una palabra, ¡es un estilo de vida! Incluso al conocerse por primera vez, las personas pueden usar términos cariñosos, lo que refleja un rasgo de personalidad "abierto" y "caluroso".
+Este gesto refleja la calidez y la naturaleza social de la cultura española. A diferencia de otras culturas donde se mantiene una distancia física, en España el contacto cercano es una señal de confianza y amistad. Incluso en entornos profesionales menos formales, los dos besos son normales para saludar a colegas o conocidos. Entre hombres que no son familiares cercanos, lo habitual suele ser un apretón de manos o un abrazo corto si hay mucha confianza.
 
-**한국어 번역:**
-인사는 스페인어권 세계에서 성격을 비추는 거울과 같습니다. 스페인에서는 보편적인 인사법으로 남성과 여성 사이, 또는 여성들 사이에서 '도스 베소스(Dos Besos)'를 합니다. 오른쪽 볼부터 시작해 양 볼에 가볍게 맞추는 방식입니다. 남성들 사이에서는 강한 악수나 짧은 포옹이 흔합니다. 반면 라틴 아메리카의 많은 지역에서는 '운 베소(Un Beso, 한 번의 키스)'가 더 일반적입니다. 사람들은 대체로 표현이 매우 풍부합니다. '심파티코(simpático)'는 단순한 단어가 아니라 하나의 라이프스타일입니다! 처음 만났을 때도 친근한 애칭을 사용할 수 있는데, 이는 '아비에르토(abierto, 개방적인)'하고 '카루로소(caluroso, 따뜻한)'한 성격적 특징을 반영합니다.
+**한국어 번역**
+스페인에서 가장 일반적인 인사법은, 특히 여성 사이나 남성과 여성 사이에서, 양쪽 볼에 두 번의 키스를 하는 것입니다. 이는 입술을 직접 대는 실제 키스가 아니라, 볼과 볼을 가볍게 맞대며 입으로 키스 소리를 내는 방식입니다. 항상 오른쪽 볼부터 시작합니다.
+
+이 제스처는 스페인 문화 특유의 따뜻함과 사회성을 잘 보여줍니다. 신체적 거리를 유지하는 다른 문화권과 달리, 스페인에서는 가까운 접촉이 신뢰와 우정의 표시입니다. 심지어 격식이 덜한 전문적인 환경에서도 동료나 지인을 만날 때 두 번의 키스로 인사하는 것이 일반적입니다. 가족 관계가 아닌 남성들 사이에서는 보통 악수를 하거나, 아주 친한 경우에는 가벼운 포옹을 합니다.
+
+![Dos Besos](../images/ch02_a1_culture_greeting_v56.png)
 
 ---
 
 ## 6. Práctica
 
-### A. Match the word
-깔끔한 정렬을 위해 아래 표를 참조하여 알맞은 번호와 알파벳을 연결하세요.
+**A. Match the word (알맞은 보기를 연결하세요)**
 
-| ES 단어 (Spanish) | 선택지 (Selection) |
-| :--- | :--- |
-| 1. Delgado | a. Hardworking |
-| 2. Trabajador | b. Thin / Slender |
-| 3. Gafas | c. Friendly / Likable |
-| 4. Simpático | d. Shy |
-| 5. Tímido | e. Glasses |
+| Spanish | Option | English |
+|:--- |:---: |:--- |
+| 1. alegre | ( ) | a. serious |
+| 2. alto | ( ) | b. friendly |
+| 3. serio | ( ) | c. cheerful |
+| 4. simpático | ( ) | d. thin |
+| 5. delgado | ( ) | e. tall |
 
-### B. Fill in the blanks
-주어에 맞는 `ser` 동사 변화형을 넣으세요.
+**B. Completa con 'ser' o 'estar' (알맞은 동사를 빈칸에 쓰세요)**
 
-1. Yo ................ bajo. (I am short.)
-2. Tú ................ muy simpática. (You are very friendly.)
-3. Nosotros ................ altos. (We are tall.)
-4. Ella ................ rubia. (She is blonde.)
-5. Ellos ................ serios. (They are serious.)
+1. Yo ............................ de Corea del Sur. (본질: 국적)
+2. Mi hermano ............................ muy alto. (본질: 외모)
+3. Hoy nosotros ............................ muy felices. (상태: 기분)
+4. ¿Cómo ............................ tú hoy? (상태: 안부)
+5. Elena ............................ en la biblioteca. (상태: 위치)
 
-### C. 번역 연습 (Translation)
-다음 문장을 스페인어로 번역하세요.
+**C. 번역 연습 (스페인어로 옮겨보세요)**
 
-1. I am hardworking.
-2. My brother is handsome.
-3. She has a beard. (Wait, use 'Él' for 'He'!) -> He has a beard.
-4. We are cheerful.
-5. Are you shy? (singular/informal)
+1. 나는 똑똑한 사람이야.
+   ...........................................................................................
+2. 너는 오늘 슬프니?
+   ...........................................................................................
+3. 페드로는 정말 성격이 좋아(simpático).
+   ...........................................................................................
+4. 우리는 지금 피곤해(cansados).
+   ...........................................................................................
+5. 그녀는 아주 예쁘다.
+   ...........................................................................................
 
 ---
 
 ## 7. Lectura 📖
+**Mi familia es especial**
 
-### Mi mejor amigo, Carlos
-Carlos es mi mejor amigo. Él es de Madrid, pero vive en Barcelona. Carlos es un chico **alto** y **moreno**. Él es 매우 **simpático** y 항상 **alegre**. No es **tímido**; le gusta hablar con todo el mundo. Él es 아주 **trabajador**; estudia medicina en la universidad. También lleva **gafas** y tiene una pequeña **barba**. ¡Es un buen amigo!
+Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto y serio, pero muy inteligente. Mi madre es alegre y siempre está feliz. Mi hermano menor, Pablo, es un poco bajo y muy simpático. Yo soy una persona tranquila y hoy estoy muy contenta porque es mi cumpleaños. ¡Somos una familia muy unida!
 
-**한국어 번역**:
-카를로스는 나의 가장 친한 친구입니다. 그는 마드리드 출신이지만 바르셀로나에 삽니다. 카를로스는 키가 크고 검은 머리의 소년입니다. 그는 매우 친절하고 항상 명랑합니다. 그는 수줍음을 타지 않으며, 모든 사람과 이야기하는 것을 좋아합니다. 그는 매우 부지런하며 대학에서 의학을 공부합니다. 또한 그는 안경을 쓰고 짧은 수염을 가지고 있습니다. 그는 참 좋은 친구입니다!
+**Questions**
+1. ¿Cómo은 Sofía의 아버지를 묘사하나요? (성격과 외모)
+2. Pablo는 어떤 사람인가요?
+3. Sofía가 오늘 기분이 좋은 이유는 무엇인가요?
 
-**Questions**:
-1. ¿Cómo es Carlos físicamente? (Carlos의 외모는 어떤가요?)
-2. ¿Qué estudia Carlos? (Carlos는 무엇을 공부하나요?)
-3. ¿Dónde vive Carlos? (Carlos는 어디에 사나요?)
-4. ¿Es Carlos una persona tímida? (Carlos는 내성적인 사람인가요?)
-5. ¿Qué lleva Carlos en la cara? (Carlos는 얼굴에 무엇을 착용하고 있나요?)
+**한국어 번역**
+**우리 가족은 특별해요**
+안녕, 내 이름은 소피아야. 우리 가족은 네 명이야. 우리 아버지는 키가 매우 크고 진지하시지만, 정말 똑똑하셔. 우리 어머니는 밝으시고 항상 행복해하셔. 내 남동생 파블로는 키가 좀 작고 정말 성격이 좋아. 나는 차분한 사람이고, 오늘은 내 생일이라서 정말 기뻐. 우리는 정말 화목한 가족이야!
 
 ---
 
 ## 8. Diálogo
-**¿Cómo es tu mejor amigo? (네 베프는 어때?)**
+**¿Cómo estás hoy? (오늘 기분 어때?)**
 
-**Situación:** Carlos y Elena están tomando un café en una plaza de Salamanca. Mientras observan a la gente pasar, empiezan a hablar sobre sus mejores amigos, describiendo tanto su apariencia física como sus rasgos de personalidad.  
-**상황:** 카를로스와 엘레나는 살라망카의 한 광장에서 커피를 마시고 있습니다. 지나가는 사람들을 바라보며, 그들은 서로의 베프(베스트 프렌드)에 대해 이야기하며 외모와 성격 특징을 묘사하기 시작합니다.
-이 대화는 대학교 캠퍼스에서 두 친구가 새로운 교수에 대해 이야기하는 상황입니다.
+**Situación:** Pedro se encuentra con su amiga Lucía en la universidad. Pedro nota que Lucía se ve un poco diferente hoy y le pregunta por su estado de ánimo y su salud.  
+**상황:** 페드로는 대학교에서 친구 루시아를 만납니다. 페드로는 오늘 루시아의 모습이 평소와 조금 다르다는 것을 느끼고, 그녀의 기분과 건강 상태에 대해 묻습니다.
 
-| Spanish (ES) | Korean (KO) |
-| :--- | :--- |
-| **Juan**: ¡Hola, Ana! ¿Qué tal tu nueva clase de español? | **Juan**: 안녕, Ana! 새로운 스페인어 수업은 어때? |
-| **Ana**: Muy bien. La profesora es fantástica. | **Ana**: 아주 좋아. 교수님이 정말 멋져. |
-| **Juan**: ¿Ah, sí? ¿Cómo es ella? | **Juan**: 아, 그래? 그녀는 어떤 분이니? |
-| **Ana**: Es una mujer muy **simpática** y **alegre**. | **Ana**: 아주 친절하고 명랑한 분이야. |
-| **Juan**: ¿Es **alta** 또는 **baja**? | **Juan**: 키가 크셔 아니면 작으셔? |
-| **Ana**: Es un poco **baja** y lleva **gafas**. Tiene el pelo **rubio**. | **Ana**: 조금 작으시고 안경을 쓰셨어. 금발 머리야. |
-| **Juan**: ¿Es **seria** en clase? | **Juan**: 수업 시간에 엄격하시니? |
-| **Ana**: Un poco, 코라고는 하지만 아주 **trabajadora**. | **Ana**: 약간은, 하지만 정말 열정적이셔(부지런하셔). |
-| **Juan**: ¡Qué bien! Yo quiero esa clase también. | **Juan**: 잘됐다! 나도 그 수업 듣고 싶어. |
+| Speaker | Spanish | Korean |
+|:--- |:--- |:--- |
+| **Pedro** | ¡Hola, Lucía! ¿Cómo estás hoy? | 안녕, 루시아! 오늘 기분 어때? |
+| **Lucía** | Hola, Pedro. Estoy un poco cansada. | 안녕, 페드로. 좀 피곤해. |
+| **Pedro** | ¿Por qué? ¿Estás enferma? | 왜? 어디 아파? |
+| **Lucía** | No, no estoy enferma, pero tengo mucho trabajo. | 아니, 아픈 건 아닌데 일이 너무 많아. |
+| **Pedro** | ¡Qué pena! Pero hoy estás muy guapa. | 안타깝네! 근데 너 오늘 되게 예쁘다. |
+| **Lucía** | Gracias. Eres muy amable. | 고마워. 넌 참 친절하구나. |
+| **Pedro** | ¿Y tu hermano? ¿Cómo está él? | 네 남동생은? 그는 어떻게 지내? |
+| **Lucía** | Él está muy alegre porque tiene un perro nuevo. | 그는 새 강아지가 생겨서 아주 기분이 좋아. |
 
 ---
 
 ## 9. Repaso
-- **Vocabulario**: Adjectives for height (alto/bajo), hair (rubio/moreno), and personality (simpático/serio).
-- **English Bridge**: Recognizing cognates like `música` and `gafas` (okay, maybe not glasses, but `manual` for `mano`!).
-- **Grammar**: Using `SER` for identifying people and describing permanent traits. Adjective matching with gender/number.
-
-**Checklist**:
-- [ ] Can I name 3 physical traits and 3 personality traits?
-- [ ] Do I know the full conjugation of `SER`?
-- [ ] Can I use the English Bridge to remember `simpático`?
+이 장에서 배운 내용을 확인해 보세요:
+- [ ] 사람의 외모와 성격을 묘사하는 형용사 10개 이상을 알고 있다.
+- [ ] Ser 동사와 Estar 동사의 변화형을 모두 외웠다.
+- [ ] 언제 Ser를 쓰고 언제 Estar를 쓰는지 명확히 구분할 수 있다.
+- [ ] 스페인의 인사 문화 'Dos besos'의 특징을 설명할 수 있다.
 
 ---
 
 ## 10. Cierre
-¡Buen trabajo! Ahora tienes las herramientas básicas para describir a las personas, tanto física como psicológicamente. La capacidad de observar y describir es fundamental para la comunicación. En el próximo capítulo, exploraremos cómo presentarnos formalmente y hablar de nuestra identidad personal. ¡Nos vemos!
-
-**한국어 번역:**
-잘하셨습니다! 이제 사람들을 신체적, 심리적으로 묘사할 수 있는 기본적인 도구를 갖추게 되었습니다. 관찰하고 묘사하는 능력은 의사소통의 기초입니다. 다음 장에서는 공식적으로 자기소개를 하고 개인의 정체성에 대해 이야기하는 법을 탐구해 보겠습니다. 다음에 만나요!
+¡Buen trabajo! 성격과 외모를 표현하는 법을 배우면서 여러분은 이제 자신을 스페인어로 소개할 수 있게 되었습니다. 
+성격은 '본질(Ser)', 기분은 '상태(Estar)'라는 점만 기억한다면 여러분의 스페인어 실력은 한 단계 더 도약할 것입니다. 
+다음 장에서는 우리의 '정체성'과 '국적'에 대해 더 자세히 알아보겠습니다. ¡Hasta pronto!
 
 ---
 
 ## 11. Soluciones
 
-### A. Match the word
-1-b, 2-a, 3-e, 4-c, 5-d
+**A. Match the word**
+1-c, 2-e, 3-a, 4-b, 5-d
 
-### B. Fill in the blanks
-1. soy, 2. eres, 3. somos, 4. es, 5. son
+**B. Completa con 'ser' o 'estar'**
+1. soy / 2. es / 3. estamos / 4. estás / 5. está
 
-### C. 번역 연습
-1. Soy trabajador.
-2. Mi hermano es guapo.
-3. Él tiene barba.
-4. Somos alegres.
-5. ¿Eres tímido / tímida?
-
-### 7. Lectura Questions (독해 정답)
-1. Es alto, moreno, lleva gafas y tiene barba. (그는 키가 크고 검은 머리이며 안경을 쓰고 수염이 있습니다.)
-2. Estudia medicina. (의학을 공부합니다.)
-3. Vive en Barcelona. (바르셀로나에 삽니다.)
-4. No, no es tímido; es alegre y le gusta hablar con todo el mundo. (아니요, 내성적이지 않습니다. 그는 명랑하며 모든 사람과 이야기하는 것을 좋아합니다.)
-5. Lleva gafas. (안경을 쓰고 있습니다.)
+**C. 번역 연습**
+1. Soy una persona inteligente.
+2. ¿Estás triste hoy?
+3. Pedro es muy simpático.
+4. (Nosotros) estamos cansados ahora.
+5. Ella es muy guapa.

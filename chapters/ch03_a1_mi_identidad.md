@@ -1,214 +1,197 @@
-# 3. Mi identidad
+# Chapter 3: Mi identidad (A1)
+<p class="cervantes-ref">Cervantes: §1 Identidad: 데이터 수집 및 신분 확인을 위한 기본 정보 (이름, 나이, 국적, 직업, 주소 및 주요 신분 증명 서류)</p>
 
 ## 1. Opener
-**학습 목표**:
-- 성명, 국적, 나이 등 기본적인 개인 신상 정보를 주고받습니다.
-- 신분과 고정된 성질을 나타내는 핵심 동사 **SER**의 모든 인칭 변화를 완벽히 익힙니다.
-- 1부터 100까지의 숫자를 익혀 나이와 전화번호를 말합니다.
-- 스페인의 이름 체계와 신분증(DNI) 문화의 특징을 이해합니다.
+**¿Quién eres tú? (당신은 누구인가요?)**  
+언어를 배우는 첫걸음은 나 자신을 정의하는 정보를 표현하는 것입니다. 이름, 국적, 나이, 그리고 우리가 누구인지 증명하는 서류들에 대해 배웁니다. 스페인어권 국가에서 가장 중요한 신분증인 'DNI'에 대해서도 알아봅시다.
 
-**한국어 번역:**
-- 격식 및 비격식 상황에서 자기소개하기.
-- 이름, 나이, 국적 및 직업 나타내기.
-- 스페인의 이름 체계와 신분증 이해하기.
+**학습 목표**
+- 개인 정보(이름, 국적, 직업 등) 관련 필수 어휘 습득
+- 숫자(1-100) 표현 익히기
+- 'Tener' 동사를 활용한 나이 표현 및 소유 표현
+- 국적 형용사의 성수 변화 이해
+- 스페인의 신분증(DNI) 문화 이해
 
-**¿Sabías que...?**
-En España y en muchos países hispanohablantes, las personas tienen **dos apellidos**. El primero es el del padre y el segundo es el de la madre. Por ejemplo, si Juan García López y María Martínez Ruiz tienen una hija llamada Ana, su nombre completo será Ana García Martínez. ¡Es una excelente manera de mantener vivo el linaje de ambos padres!
-
-**한국어 번역:**
-스페인과 많은 스페인어권 국가에서 사람들은 두 개의 성(apellidos)을 갖습니다. 첫 번째는 아버지의 성이고 두 번째는 어머니의 성입니다. 예를 들어, 주안 가르시아 로페스와 마리아 마르티네스 루이스가 아나라는 딸을 낳으면, 그녀의 전체 이름은 아나 가르시아 마르티네스가 됩니다. 이는 부모 양측의 혈통을 보존하는 아주 훌륭한 방법입니다!
+> [!TIP]
+> **¿Sabías que...?** 스페인에서는 만 14세 이상의 모든 국민이 'DNI(Documento Nacional de Identidad)'를 반드시 휴대해야 합니다. 이는 단순한 신분증 이상의 의미를 지니며, 모든 행정 절차의 핵심이 됩니다.
 
 ---
 
 ## 2. Vocabulario Esencial
-En esta sección aprenderemos las palabras fundamentales para hablar de nuestra identidad personal.
+개인 정보를 나타내는 핵심 서류와 항목들입니다.
 
-**한국어 번역:**
-이번 섹션에서는 개인의 정체성에 대해 말하는 데 필수적인 단어들을 배웁니다.
-
-![Mi identidad (100% 반영)](../images/ch03_a1_vocab_100pct_v52_numbered.png)
+![Mi Identidad](../images/ch03_a1_vocab_identity_v56.png)
 
 | # | Spanish | English Bridge | Korean Tip |
-|:---:|:--- |:--- |:--- |
-| 1 | nombre | Name ✅ | 'n' 발음 주의 |
-| 2 | apellido | Appellation (→ surname) | 'll'은 'y'처럼 발음 |
-| 3 | nacionalidad | Nationality ✅ | '-dad'는 여성 명사 |
-| 4 | edad | Age (cf. Eternal → Etad) | 나이를 물을 때 사용 |
-| 5 | dirección | Direction → Address | 주소를 나타냄 |
-| 6 | teléfono | Telephone ✅ | 강세(é) 주의 |
-| 7 | correo electrónico | Electronic Mail ✅ | 'email'로도 통함 |
-| 8 | pasaporte | Passport ✅ | 's'가 하나임 |
-| 9 | estudiante | Student ✅ | '-e'로 끝나 성별 동일 |
-| 10 | profesor | Professor ✅ | 직업 앞 관사 생략 |
-| 11 | médico | Medical → Doctor | 강세(é) 주의 |
-| 12 | ingeniero | Engineer ✅ | 'g'는 'h' 발음 |
-| 13 | camarero | Camera? No! → Waiter | '방'을 뜻하는 càmera에서 유래 |
-| 14 | artista | Artist ✅ | '-ista'는 성별 동일 |
+|---|:--- |:--- |:--- |
+| 1 | **el DNI / el carné** | **ID Card** | '데엔이'라고 읽음 |
+| 2 | **el pasaporte** | **Passport** ✅ | 완벽한 인지어 |
+| 3 | **el carné de conducir**| **License** (Conducting) | 운전면허증 |
+| 4 | **el carné de estudiante**| **Student ID** | '에스투디안테' 카드 |
+| 5 | **el certificado** | **Certificate** ✅ | 증명서 |
+| 6 | **la firma** | **Firm** (Confirmation) | 서명 / 사인 |
+| 7 | **la dirección** | **Direction** (Address) | 주소 |
+| 8 | **la fecha de nacimiento**| **Date of Birth** | 태어난 날짜 |
+| 9 | **la nacionalidad** | **Nationality** ✅ | 국적 |
+| 10 | **la profesión** | **Profession** ✅ | 직업 |
 
-✅ 기호가 표시된 단어는 영어와 스펠링이 비슷하거나 의미가 같은 'Cognate'입니다.
+✅ 항목은 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.
 
 ---
 
 ## 3. Expresiones Útiles
-Aquí tienes las frases clave para presentarte y preguntar por la identidad de otros.
-(자기소개를 하거나 타인의 정체성을 물어볼 때 필요한 핵심 표현들입니다.)
+나의 데이터를 말하거나 타인에게 질문할 때 꼭 필요한 표현입니다.
 
-- **¿Cómo te llamas?** (Informal) / **¿Cómo se llama usted?** (Formal)
-  - What is your name? (이름이 무엇인가요?)
-- **Me llamo...** / **Mi nombre es...**
-  - My name is... (제 이름은 ...입니다.)
-- **¿De dónde eres?** / **¿De dónde es usted?**
-  - Where are you from? (어디 출신인가요?)
-- **Soy de Corea del Sur.** / **Soy coreano.**
-  - I am from South Korea. / I am Korean. (저는 한국에서 왔습니다. / 저는 한국인입니다.)
-- **¿Cuántos años tienes?**
-  - How old are you? (Literal: How many years do you have? / 몇 살인가요?)
-- **Tengo veinticinco años.**
-  - I am 25 years old. (저는 25살입니다.)
-- **¿A qué te dedicas?** / **¿Cuál es tu profesión?**
-  - What do you do? / What is your profession? (직업이 무엇인가요?)
-
----
-
-## 4. Gramática Esencial: El verbo SER (신분과 정체성)
-
-**SER** 동사(to be)는 스페인어 학습의 기초이자 기둥입니다. 사람의 이름, 국적, 직업 등 변하지 않거나 본질적인 '정체성'을 정의할 때 사용됩니다. 영어의 "be" 동사와 유사하지만, 스페인어 특유의 인칭별 변화 형태를 정확히 익히는 것이 중요합니다.
-
-| 주어 | SER (현재형) | English Mapping |
+| Spanish | English Mapping | Korean Translation |
 |:--- |:--- |:--- |
-| **yo** | soy | I am |
-| **tú** | eres | you are (inf.) |
-| **él / ella / usted** | es | he/she/it is, you are (fml.) |
-| **nosotros / nosotras** | somos | we are |
-| **vosotros / vosotras** | sois | you are (pl. inf.) |
-| **ellos / ellas / ustedes** | son | they are, you are (pl. fml.) |
-
-### 4.2 Nacionalidades y Género
-Los adjetivos de nacionalidad cambian según el género.
-
-- **Terminados en -o/-a:** coreano / coreana, mexicano / mexicana.
-- **Terminados en consonante (+a):** español / española, alemán / alemana.
-- **Terminados en -ense 또는 -í:** estadounidense, marroquí (igual para ambos).
-
-**Korean Tip:** 스페인어에서 직업을 말할 때는 영어와 달리 부정관사(un/una)를 쓰지 않습니다. 예: "Soy profesor" (o) / "Soy un profesor" (x - 강조할 때만 사용).
+| **¿Cómo te llamas?** | What is your name? | 이름이 뭐니? |
+| **Me llamo Jin.** | My name is Jin. | 내 이름은 진이야. |
+| **¿Cuántos años tienes?** | How old are you? | 몇 살이니? |
+| **Tengo veinte años.** | I am twenty years old. | 나는 스무 살이야. |
+| **¿De dónde eres?** | Where are you from? | 어디 출신이니? |
+| **Soy coreano / coreana.** | I am Korean. | 나는 한국 사람이야. |
+| **Mi dirección es...** | My address is... | 제 주소는...입니다. |
 
 ---
 
-## 5. Cultura Viva: El DNI y los Nombres en España
+## 4. Gramática Esencial
+### 1. Tener 동사 (가지다/나이를 말하다)
 
-![스페인 신분증 DNI와 이름 문화](../images/ch03_a1_culture_dni_v52.png)
+스페인어에서는 나이를 '형용사(am)'가 아닌 '동사(have)'로 표현합니다. 나이를 "가지고 있다"고 표현하는 것이죠.
 
-En España, la identidad personal está profundamente ligada a la estructura familiar. A diferencia de muchos países anglosajones, los españoles tienen legalmente dos apellidos: el primero del padre y el segundo de la madre. Por ejemplo, si Juan García Pérez y María López Ruiz tienen un hijo llamado Pablo, su nombre completo sería Pablo García López.
+| 주어 | Tener (현재형) |
+|--- |--- |
+| **yo** | **tengo** |
+| **tú** | **tienes** |
+| **él / ella / usted** | **tiene** |
+| **nosotros / nosotras** | **tenemos** |
+| **vosotros / vosotras** | **tenéis** |
+| **ellos / ellas / ustedes** | **tienen** |
 
-Además, el **DNI** (Documento Nacional de Identidad) es una pieza fundamental de la vida diaria. Todos los ciudadanos mayores de 14 años deben llevarlo siempre consigo. El número del DNI se utiliza para todo, desde abrir una cuenta bancaria hasta recoger un paquete en el correo. Esta importancia del documento refleja una sociedad organizada donde la identidad oficial es muy relevante en las interacciones diarias.
+### 2. 국적 형용사의 성수 변화 (Nacionalidades)
+
+국적을 나타내는 형용사는 꾸며주는 주어의 성(남자/여자)과 수(단수/복수)에 따라 바뀝니다.
+
+- **남성(-o) / 여성(-a)**: **coreano / coreana**, **español / española**
+- **자음으로 끝나는 경우**: **alemán / alemana**, **francés / francesa**
+- **-e나 -ista로 끝나는 경우 (성 변화 없음)**: **estadounidense**, **belga**, **optimista**
+
+---
+
+## 5. Cultura Viva: El DNI en España 🪪
+ 스페인 사람들에게 없어서는 안 될 가장 중요한 카드, DNI를 알아봅시다.
+
+**Mucho más que un plástico**
+
+El DNI (Documento Nacional de Identidad) es la tarjeta más importante para un español. Es un documento inteligente que contiene un chip con todos los datos personales y la firma digital. En España, es obligatorio para todos los ciudadanos mayores de 14 años. Lo necesitas para todo: abrir una cuenta en el banco, entrar a un examen en la universidad, recoger un paquete en correos o viajar por los países de la Unión Europea sin necesidad de pasaporte.
+
+La policía nacional es la encargada de emitir este documento. Cada DNI tiene un número único de ocho cifras y una letra al final. Este número es para toda la vida. Por eso, cuando te preguntan "¿Cuál es tu número?", normalmente se refieren al número de tu DNI.
+
+**한국어 번역**
+DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다. 모든 개인 정보와 디지털 서명이 담긴 칩이 포함된 스마트 카드입니다. 스페인에서는 14세 이상의 모든 시민이 의무적으로 소지해야 합니다. 은행 계좌를 개설하거나, 대학교 시험을 치르거나, 우체국에서 택배를 찾거나, 여권 없이 유럽 연합(EU) 국가를 여행할 때 반드시 필요합니다.
+
+국가 경찰이 이 서류를 발급하는 책임을 집니다. 각 DNI에는 8자리 숫자와 마지막에 한 글자의 알파벳으로 구성된 고유 번호가 있습니다. 이 번호는 평생 변하지 않습니다. 그래서 누군가 "¿Cuál es tu número?(당신의 번호가 무엇입니까?)"라고 묻는다면, 보통은 당신의 DNI 번호를 의미합니다.
+
+![El DNI](../images/ch03_a1_culture_dni_v56.png)
 
 ---
 
 ## 6. Práctica
 
-### A. Match the word
-Match the Spanish word with its English equivalent.
+**A. Completa con la forma correcta de 'Tener' (Tener 동사를 알맞게 변화시키세요)**
 
-| Spanish | English |
-| :--- | :--- |
-| 1. Apellido | a) Age |
-| 2. Edad | b) Waiter |
-| 3. Dirección | c) Surname |
-| 4. Pasaporte | d) Address |
-| 5. Camarero | e) Passport |
+1. Yo ............................ veinticinco años.
+2. Juan y Ana ............................ un pasaporte nuevo.
+3. ¿Cuántos años ............................ tú?
+4. Nosotros ............................ clase de español hoy.
+5. Usted ............................ una firma muy bonita.
 
-### B. Complete the sentences
-Fill in the blanks with the correct form of the verb **SER**.
+**B. 국적 형용사 바꾸기 (알맞은 성수 변화를 적용하세요)**
 
-1. Yo ................ de Seúl.
-2. ¿De dónde ................ tú?
-3. Nosotros ................ estudiantes de español.
-4. Ella ................ médica en un hospital grande.
-5. Ellos ................ de España.
+1. Pablo es (España) .............................
+2. Mis amigas son (Corea) .............................
+3. Ella es (Francia) .............................
+4. Nosotros somos (Alemania) .............................
+5. Ellos son (Estados Unidos) .............................
 
-### C. 번역 연습
-다음 문장을 스페인어로 번역하세요.
+**C. 번역 연습 (스페인어로 옮겨보세요)**
 
-1. 제 이름은 마리아입니다.
-2. 당신은 무엇을 합니까? (직업이 무엇입니까?)
-3. 저는 20살입니다.
-4. 우리는 한국인입니다.
-5. 그는 엔지니어입니다.
+1. 내 이름은 마리아이고, 나는 스페인 사람이야.
+   ...........................................................................................
+2. 친구는 몇 살이니?
+   ...........................................................................................
+3. 제 주소는 마드리드, 7번가입니다.
+   ...........................................................................................
+4. 여기 내 신분증(DNI)이 있어.
+   ...........................................................................................
+5. 우리는 똑똑한 학생(estudiantes)들이야.
+   ...........................................................................................
 
 ---
 
 ## 7. Lectura 📖
-**Mi nueva vida en Madrid**
+**Una nueva vida en Madrid**
 
-Hola, me llamo Minho y soy de Corea del Sur. Ahora vivo en Madrid porque soy estudiante de intercambio en la universidad. Tengo veintiún años. Mi dirección en Madrid es Calle Mayor, número 10. Mi correo electrónico es minho@uni.es. En mi clase hay personas de muchas nacionalidades: una chica es de Francia y un chico es de Italia. ¡Madrid es una ciudad muy internacional!
+Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estudiar. Tengo veintidós años. En mi mochila siempre llevo mi pasaporte y mi carné de estudiante de la Universidad Complutense. Mi dirección en Madrid es la calle Mayor, número 10. Mi profesión es estudiante de arquitectura. ¡Me encanta mi nueva vida en España!
 
-**Preguntas:**
-1. ¿De dónde es Minho? (민호는 어디 출신인가요?)
-2. ¿Qué hace Minho en Madrid? (민호는 마드리드에서 무엇을 하나요?)
-3. ¿Cuántos años tiene? (그는 몇 살인가요?)
-4. ¿Cuál es su dirección? (그의 주소는 무엇인가요?)
-5. ¿Hay personas de otras nacionalidades en su clase? (그의 수업에 다른 국적의 사람들이 있나요?)
+**Questions**
+1. Min-su의 국적과 나이는 무엇인가요?
+2. 그는 가방 속에 무엇을 항상 가지고 다니나요?
+3. 그의 현재 직업과 주소는 무엇인가요?
 
-**한국어 번역:**
-안녕하세요, 제 이름은 민호이고 한국 출신입니다. 저는 지금 대학 교환학생이라서 마드리드에 살고 있습니다. 저는 21살입니다. 마드리드 제 주소는 마요르 거리 10번지입니다. 제 이메일은 minho@uni.es입니다. 제 수업에는 프랑스에서 온 여학생과 이탈리아에서 온 남학생 등 다양한 국적의 사람들이 있습니다. 마드리드는 정말 국제적인 도시입니다!
+**한국어 번역**
+**마드리드에서의 새로운 삶**
+안녕하세요, 저는 박민수입니다. 서울 출신의 한국인이지만, 지금은 공부를 위해 마드리드에 살고 있습니다. 저는 22살입니다. 제 배낭 속에는 항상 여권과 마드리드 콤플루텐세 대학교 학생증이 들어 있습니다. 마드리드에서의 제 주소는 마요르 거리 10번지입니다. 제 직업은 건축학도입니다. 스페인에서의 제 새로운 삶이 정말 즐겁습니다!
 
 ---
 
 ## 8. Diálogo
-**Presentación oficial (공식적인 소개)**
+**En la comisaría (경찰서에서)**
 
-**Situación:** En una oficina de extranjería en Barcelona, una funcionaria ayuda a un estudiante extranjero a completar sus datos para el visado. La conversación es formal y se centra en la precisión de los datos de identidad.  
-**상황:** 바르셀로나의 외국인 사무소에서 한 공무원이 외국인 학생의 비자 신청을 돕고 있습니다. 대화는 격식 있는 분위기에서 진행되며, 신원 정보의 정확한 확인에 집중합니다.
+**Situación:** Elena ha perdido su cartera en el parque y va a la comisaría de policía para informar del problema. El oficial de policía le pide sus datos personales para completar el formulario.  
+**상황:** 엘레나는 공원에서 지갑을 잃어버리고 경찰서에 신고하러 갑니다. 경찰관은 양식을 작성하기 위해 그녀의 개인 정보를 묻습니다.
 
-| Personaje | 스페인어 (ES) | 한국어 (KO) |
+| Speaker | Spanish | Korean |
 |:--- |:--- |:--- |
-| **Empleado** | Buenos días. ¿Cuál es su nombre, por favor? | 좋은 아침입니다. 성함이 어떻게 되시나요? |
-| **Sara** | Me llamo Sara García. | 사라 가르시아입니다. |
-| **Empleado** | ¿Cuál es su primer apellido y su segundo apellido? | 첫 번째 성과 두 번째 성은 무엇인가요? |
-| **Sara** | Mi primer apellido es García y el segundo es Martínez. | 첫 번째 성은 가르시아이고, 두 번째는 마르티네스입니다. |
-| **Empleado** | Entiendo. ¿Cuántos años tiene usted? | 알겠습니다. 몇 살이신가요? |
-| **Sara** | Tengo treinta años. | 30살입니다. |
-| **Empleado** | ¿Y cuál es su nacionalidad? | 그리고 국적은 무엇인가요? |
-| **Sara** | Soy mexicana. | 멕시코인입니다. |
-| **Empleado** | Muy bien. Necesito su pasaporte, por favor. | 아주 좋습니다. 여권이 필요합니다. 부탁드려요. |
-| **Sara** | Aquí tiene. | 여기 있습니다. |
+| **Oficial** | Buenos días. ¿Cómo se llama usted? | 안녕하세요. 성함이 어떻게 되시나요? |
+| **Elena** | Me llamo Elena Sánchez García. | 엘레나 산체스 가르시아입니다. |
+| **Oficial** | ¿Cuál es su nacionalidad? | 국적이 어디신가요? |
+| **Elena** | Soy española, de Sevilla. | 스페인 사람이고, 세비야 출신입니다. |
+| **Oficial** | ¿Tiene su número de DNI a mano? | DNI 번호를 알고 계신가요? |
+| **Elena** | Sí, es el 12345678-X. | 네, 12345678-X입니다. |
+| **Oficial** | ¿Y cuál es su dirección actual? | 현재 주소는 어떻게 되시나요? |
+| **Elena** | Vivo en la calle Alcalá, número 45. | 알칼라 거리 45번에 살고 있습니다. |
+| **Oficial** | Muy bien. Por favor, firme aquí. | 좋습니다. 여기에 서명해 주세요. |
 
 ---
 
 ## 9. Repaso
-- [x] 'SER' 동사 변화를 완벽하게 외웠나요? (soy, eres, es, somos, sois, son)
-- [x] 이름, 성, 나이, 국적을 묻고 답할 수 있나요?
-- [x] 스페인의 '두 개의 성' 문화와 DNI의 개념을 이해했나요?
-- [x] 직업 앞에 관사가 붙지 않는 규칙을 기억하나요?
+이 장에서 배운 내용을 확인해 보세요:
+- [ ] 이름, 나이, 주소, 직업을 스페인어로 말할 수 있다.
+- [ ] Tener 동사의 현재 변화형을 모두 외웠다.
+- [ ] 국적 형용사의 성수 변화(o/a/as/os) 규칙을 이해한다.
+- [ ] 스페인 DNI의 중요성과 특징을 설명할 수 있다.
 
 ---
 
 ## 10. Cierre
-¡Felicidades! Ahora ya sabes cómo definir quién eres en español. La identidad es el primer paso para conectar con los demás. En el próximo capítulo, conoceremos a la familia y a los amigos para seguir ampliando tu world. ¡Sigue así!
-
-**한국어 번역:**
-축하합니다! 이제 여러분은 스페인어로 자신이 누구인지 정의하는 법을 알게 되었습니다. 정체성은 타인과 연결되는 첫 번째 단계입니다. 다음 장에서는 가족과 친구들을 만나며 여러분의 세계를 계속 넓혀갈 것입니다. 계속 힘내세요!
+¡Excelente! 이제 여러분은 스페인어로 자신을 공식적으로 소개하고 필요한 정보를 제공할 수 있는 능력을 갖추었습니다. 
+나이는 'Tener' 동사를 쓴다는 점을 꼭 기억하세요! 
+다음 장에서는 우리의 사랑하는 '가족과 친구들'에 대해 이야기하며 더 풍성한 스페인어 대화를 나눠보겠습니다. ¡Buen trabajo!
 
 ---
 
 ## 11. Soluciones
 
-**A. Match the word**
-1-c, 2-a, 3-d, 4-e, 5-b
+**A. Completa con la forma correcta de 'Tener'**
+1. tengo / 2. tienen / 3. tienes / 4. tenemos / 5. tiene
 
-**B. Complete the sentences**
-1. soy, 2. eres, 3. somos, 4. es, 5. son
+**B. 국적 형용사 바꾸기**
+1. español / 2. coreanas / 3. francesa / 4. alemanes / 5. estadounidenses
 
 **C. 번역 연습**
-1. Me llamo María. / Mi nombre es María.
-2. ¿A qué te dedicas? / ¿Cuál es tu profession?
-3. Tengo veinte años.
-4. Somos coreanos.
-5. Él es ingeniero.
-
-**D. Lectura Questions (독해 정답)**
-1. Es de Corea del Sur. (한국 출신입니다.)
-2. Es estudiante de intercambio en la universidad. (대학교 교환학생입니다.)
-3. Tiene veintiún años. (21살입니다.)
-4. Es Calle Mayor, número 10. (마요르 거리 10번지입니다.)
-5. Sí, una chica de Francia y un chico de Italia. (네, 프랑스 여학생과 이탈리아 남학생이 있습니다.)
+1. Me llamo María y soy española.
+2. ¿Cuántos años tiene tu amigo?
+3. Mi dirección es calle Mayor, número 7, en Madrid.
+4. Aquí está mi DNI.
+5. Somos estudiantes inteligentes.

@@ -287,6 +287,14 @@ h3:has(+ ol) {
     background-color: white;
 }
 
+.cervantes-ref {
+    font-size: 10.5pt;
+    color: var(--text-main);
+    margin: 10pt 0 20pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
 @media print {
     .container {
         max-width: none;

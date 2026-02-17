@@ -1,210 +1,197 @@
-# 3. Mi identidad
+# Chapter 3: Mi identidad (A2)
+<p class="cervantes-ref">Cervantes: §1 Identidad: datos personales (Nivel A2) - 이 장에서는 개인의 정체성을 구성하는 기본적인 정보들을 스페인어로 표현하는 방법을 학습합니다. 이름, 국적, 출신지 등 자신을 소개하는 데 필요한 핵심 어휘와 문법을 다룹니다.</p>
 
 ## 1. Opener
-**Objetivos de aprendizaje:**
-- Profundizar en el concepto de identidad personal y colectiva.
-- Discutir temas de inmigración, diversidad y ciudadanía.
-- Explicar trayectorias personales y orígenes multiculturales.
+**Identidades múltiples (다양한 정체성)**  
+A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아가 우리의 배경과 뿌리, 그리고 현대 사회의 다문화적 정체성에 대해 다룹니다. 또한, 출신뿐만 아니라 과거의 배경을 설명하기 위한 'Ser' 동사의 과거형과 'Estar' 동사의 심화된 쓰임을 배웁니다.
 
-**한국어 번역:**
-- 개인적 및 집단적 정체성의 개념 심화하기.
-- 이민, 다양성 및 시민권 문제 논의하기.
-- 개인적인 궤적과 다문화적 기원 설명하기.
+**학습 목표**
+- 다문화 및 인종, 배경 관련 고급 어휘 습득
+- 과거의 정체성을 표현하는 용법 (Ser - Imperfecto/Indefinido 기초)
+- 'Ser' 동사와 'Origen(출처)' 표현의 심화
+- 스페인의 다문화 사회와 이주민 문화 이해
 
-**¿Sabías que...?**
-España se ha transformado en las últimas décadas en una sociedad altamente **multicultural**. Más del 12% de la población actual es de origen extranjero. Esto ha enriquecido la gastronomía, la música y la lengua, creando una identidad española moderna que es diversa y abierta al mundo.
-
-**한국어 번역:**
-스페인은 지난 수십 년 동안 고도의 다문화 사회로 변모해 왔습니다. 현재 인구의 12% 이상이 외국인 출신입니다. 이는 요리, 음악, 언어를 풍요롭게 했으며, 다양하고 세계에 열려 있는 현대 스페인 정체성을 형성했습니다.
+> [!TIP]
+> **¿Sabías que...?** 스페인은 역사적으로 다양한 문화(로마, 아랍, 유대 등)가 융합된 나라이며, 오늘날에는 중남미, 유럽, 아시아 등지에서 온 이민자들과 함께 더욱 다채로운 다문화 사회를 형성하고 있습니다.
 
 ---
 
 ## 2. Vocabulario Esencial
-A nivel A2, exploramos términos más abstractos y relacionados con la integración social y la historia personal.
+정체성의 다양성을 표현하기 위한 어휘들입니다.
 
-**한국어 번역:**
-A2 단계에서는 보다 추상적이며 사회 통합 및 개인사와 관련된 용어들을 탐구합니다.
-
-![Identidad y Diversidad (100% 반영)](../images/ch03_a2_vocab_100pct_v52_numbered.png)
+![Barrio Multicultural](../images/ch03_a2_vocab_multicultural_v56.png)
 
 | # | Spanish | English Bridge | Korean Tip |
-|:---:|:--- |:--- |:--- |
-| 1 | origen | Origin ✅ | 발음(o-rí-hen) 주의 |
-| 2 | identidad | Identity ✅ | '-dad' 성별 주의 |
-| 3 | raíces | Roots (cf. Radical) | 정체성의 근원 |
-| 4 | diversidad | Diversity ✅ | 사회적 다양성 |
-| 5 | integración | Integration ✅ | 강세(ó) 필수 |
-| 6 | inmigración | Immigration ✅ | 'n'이 하나임 (inmi-) |
-| 7 | extranjero | Stranger? No! → Foreigner | '외부의'라는 뜻의 Extra에서 유래 |
-| 8 | ciudadanía | Citizenship (cf. City → Ciudad) | 시민권 또는 시민 의식 |
-| 9 | visado | Visa ✅ | '비자' 문서 |
-| 10 | multicultural | Multicultural ✅ | 형용사/명사 동일 |
+|---|:--- |:--- |:--- |
+| 1 | **español / -a** | **Spanish** ✅ | 기본 국적 |
+| 2 | **latinoamericano / -a**| **Latin American** ✅ | '라티노'의 공식 명칭 |
+| 3 | **asiático / -a** | **Asian** ✅ | '아시아티코' |
+| 4 | **africano / -a** | **African** ✅ | '아프리카노' |
+| 5 | **europeo / -a** | **European** ✅ | '에우로페오' |
+| 6 | **el mapa del mundo** | **World Map** | 세상을 보는 창 |
+| 7 | **las raíces mixtas** | **Mixed Roots** | **Raíz**(뿌리)에서 유래 |
+| 8 | **la diversidad** | **Diversity** ✅ | 다양성이란 가치 |
+| 9 | **el respeto** | **Respect** ✅ | 존중의 아이콘 |
+| 10 | **la integración** | **Integration** ✅ | 함께 어우러짐 |
 
-✅ 기호가 표시된 단어는 영어와 스펠링이 비슷하거나 의미가 같은 'Cognate'입니다.
+✅ 항목은 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.
 
 ---
 
 ## 3. Expresiones Útiles
-Frases para describir tu historia y tus sentimientos hacia tu identidad.
-(여러분의 역사와 정체성에 대한 감정을 설명하는 데 필요한 표현들입니다.)
+나와 타인의 배경에 대해 더 깊이 있게 질문하고 답하는 표현들입니다.
 
-- **¿Cuáles son tus raíces?**
-  - What are your roots? (여러분의 뿌리는 어디인가요?)
-- **Mis padres son de... pero yo nací en...**
-  - My parents are from... but I was born in... (제 부모님은 ... 출신이시지만, 저는 ...에서 태어났습니다.)
-- **Me siento muy integrado/a en esta cultura.**
-  - I feel very integrated into this culture. (저는 이 문화에 매우 잘 통합되어 있다고 느낍니다.)
-- **Solicitar el visado o la ciudadanía.**
-  - To apply for a visa or citizenship. (비자 또는 시민권을 신청하다.)
-- **La diversidad enriquece a la sociedad.**
-  - Diversity enriches society. (다양성은 사회를 풍요롭게 합니다.)
-- **Tener doble nacionalidad.**
-  - To have dual nationality. (이중 국적을 가지다.)
-
----
-
-## 4. Gramática Esencial: Identidad y Documentación
-
-A2 단계에서는 단순한 자기소개를 넘어 공식적인 문맥에서 자신의 신분을 증명하고 설명하는 데 집중합니다. 국가와 국적을 나타내는 형용사는 주어의 성(Masculino/Femenino)과 수(Singular/Plural)에 따라 엄격하게 변하며, 이를 정확히 일치시키는 것이 중급 수준의 유창함을 결정짓는 핵심입니다.
-
-### 4.1 Repaso de Identidad y Verbos de Cambio
-Para hablar de la identidad que cambia o se adquiere, usamos verbos como **Hacerse** o **Llegar a ser**.
-(변하거나 획득되는 정체성에 대해 말할 때는 **Hacerse** 나 **Llegar a ser** 와 같은 동사를 사용합니다.)
-
-| Verbo | Contexto | Ejemplo |
+| Spanish | English Mapping | Korean Translation |
 |:--- |:--- |:--- |
-| **Hacerse** | Cambio voluntad/esfuerzo (profesión/ideología) | *Se hizo ciudadano español.* |
-| **Llegar a ser** | Resultado de un proceso largo | *Llegó a ser un artista famoso.* |
-
-### 4.2 Adjetivos Gentilicios (Gentilics)
-A2 requiere conocer gentilicios más complejos o irregulares.
-
-- **Madrid:** madrileño/a
-- **Barcelona:** barcelonés/a
-- **Costa Rica:** costarricense
-- **EE. UU.:** estadounidense
-- **Cádiz:** gaditano/a (Irregular)
-
-**Korean Tip:** 'nacimiento'(출생)와 'origen'(기원)의 차이를 이해하는 것이 중요합니다. "Soy de Corea"는 현재의 소속을, "Mi origen es coreano"는 뿌리나 혈통을 강조할 때 더 자주 쓰입니다.
+| **Mis padres son de origen peruano.**| My parents are of Peruvian origin. | 부모님의 뿌리는 페루예요. |
+| **Tengo doble nacionalidad.** | I have dual nationality. | 저는 이중 국적입니다. |
+| **Me siento orgulloso de mis raíces.** | I feel proud of my roots. | 저는 제 뿌리가 자랑스러워요. |
+| **España es un país multicultural.** | Spain is a multicultural country. | 스페인은 다문화 국가입니다. |
+| **Él se ha integrado muy bien.** | He has integrated very well. | 그는 매우 잘 적응(통합)했어요. |
+| **¿Cuáles son tus orígenes?** | What are your origins? | 당신의 뿌리(배경)는 무엇인가요? |
 
 ---
 
-## 5. Cultura Viva: Inmigración y Diversidad en España
+## 4. Gramática Esencial
+### 1. Ser 동사와 출신(Origen)의 심화 표현
 
-![현대 스페인의 다문화적 정체성](../images/ch03_a2_culture_diversity_v52.png)
+단순히 "어디 출신이다"를 넘어, 배경을 설명할 때 사용하는 구조입니다.
 
-En las últimas décadas, España se ha transformado en una sociedad multicultural y diversa. Aunque tradicionalmente era un país de emigrantes, hoy es uno de los destinos principales para personas de todo el mundo, especialmente de Latinoamérica, África y Europa del Este.
+- **Ser de + [Country/City]**: Soy de Seúl. (가장 기본)
+- **Ser de origen + [Adjective]**: Ella es de origen árabe. (그녀는 아랍계이다.)
+- **Tener raíces en + [Place]**: Tengo raíces en Galicia. (내 뿌리는 갈리시아에 있다.)
 
-Esta diversidad se refleja en las grandes ciudades como Madrid y Barcelona, donde conviven múltiples lenguas y tradiciones. La identidad española moderna es una mezcla rica de raigambre histórica y nuevas influencias culturales. Los estudiantes de español deben comprender que el "ser español" hoy en día abarca una gran variedad de orígenes, lo que hace de España un país dinámico y abierto al mundo.
+### 2. 과거의 정체성 표현 (Ser의 불완료 과거)
 
-**한국어 번역:**
-지난 수십 년 동안 스페인은 다문화적이고 다양한 사회로 변모했습니다. 전통적으로 이민자들의 나라였지만, 오늘날 스페인은 전 세계, 특히 라틴 아메리카, 아프리카, 동유럽 출신 사람들에게 주요 목적지 중 하나입니다.
+과거에 내가 누구였는지, 어떤 사람이었는지 묘사할 때 사용합니다. 구체적인 과거 시제보다는 "상태의 묘사"에 초점을 맞춥니다.
 
-이러한 다양성은 마드리드와 바르셀로나 같은 대도시에서 여러 언어와 전통이 공존하는 모습으로 나타납니다. 현대 스페인 정체성은 역사적 뿌리와 새로운 문화적 영향이 풍부하게 혼합된 것입니다. 스페인어 학습자들은 오늘날 "스페인 사람"이라는 것이 매우 다양한 기원을 포괄하며, 이는 스페인을 역동적이고 세계에 개방적인 나라로 만든다는 것을 이해해야 합니다.
+| 주어 | **Era** (과거에 ~였다) |
+|:--- |:--- |
+| **yo** | **era** |
+| **tú** | **eras** |
+| **él / ella / usted** | **era** |
+| **nosotros / nosotras** | **éramos** |
+| **vosotros / vosotras** | **erais** |
+| **ellos / ellas / ustedes** | **eran** |
+
+> [!IMPORTANT]
+> **Korean Tip**: "나는 어릴 때 부끄러움이 많았어(Cuando **era** pequeño, **era** tímido)"처럼 과거의 나를 묘사할 때 'era'를 사용합니다. 현재의 'soy'와 대조하며 연습해 보세요.
+
+---
+
+## 5. Culture Viva: Los "Expats" y la diversidad en España 🌍
+ 스페인의 다문화적 변화와 그 안에서 살아가는 외국인들에 대해 알아봅시다.
+
+**España: Un crisol de culturas (스페인: 문화의 용광로)**
+
+En los últimos veinte años, España ha cambiado mucho. El país ha pasado de ser un lugar de donde la gente salía para trabajar a ser un destino muy popular para personas de todo el mundo. Hoy en día, ciudades como Madrid, Barcelona, Valencia y Málaga son centros internacionales. Los "expats" (extranjeros que trabajan fuera de su país) eligen España por su calidad de vida, su clima y su gente abierta.
+
+Esto ha creado una sociedad donde la **diversidad** es la norma. Es muy común encontrar niños con **raíces mixtas** en las escuelas o barrios donde se hablan muchos idiomas diferentes. La **integración** es un proceso importante y, aunque a veces es difícil, los españoles valoran mucho el **respeto** y la convivencia. Muchos latinoamericanos se sienten como en casa por el idioma, mientras que europeos y otros prefieren el estilo de vida mediterráneo.
+
+**한국어 번역**
+지난 20년 동안 스페인은 많이 변했습니다. 스페인은 사람들이 일자리를 찾아 떠나던 나라에서 이제는 전 세계 사람들이 모여드는 매우 인기 있는 목적지가 되었습니다. 오늘날 마드리드, 바르셀로나, 발렌시아, 말라가 같은 도시들은 세계적인 중심지가 되었습니다. "Expats(국외 거주자/외국인 노동자)"들은 삶의 질, 기후, 그리고 개방적인 사람들 때문에 스페인을 선택합니다.
+
+이로 인해 **다양성이(diversidad)** 일상이 된 사회가 만들어졌습니다. 학교에서 **다양한 뿌리를(raíces mixtas)** 가진 아이들을 만나거나, 여러 언어가 들리는 동네를 보는 것은 매우 흔한 일입니다. **통합은(integración)** 중요한 과정이며 때로는 어렵기도 하지만, 스페인 사람들은 **존중과(respeto)** 공존을 매우 가치 있게 여깁니다. 많은 중남미 사람들은 언어 때문에 이곳을 집처럼 느끼고, 유럽인들이나 다른 지역 사람들은 지중해식 생활 방식을 선호합니다.
+
+![Co-working in Spain](../images/ch03_a2_culture_expats_v56.png)
 
 ---
 
 ## 6. Práctica
 
-### A. Match the word
-Match the Spanish word with its English equivalent.
+**A. ¿Soy o Era? (문맥에 맞게 현재 또는 과거형을 선택하세요)**
 
-| Spanish | English |
-| :--- | :--- |
-| 1. Raíces | a) Citizenship |
-| 2. Extranjero | b) Roots |
-| 3. Ciudadanía | c) Visa |
-| 4. Visado | d) Integration |
-| 5. Integración | e) Foreigner |
+1. Ahora (soy / era) estudiante de medicina en Madrid.
+2. Cuando (soy / era) pequeño, (soy / era) muy bajo.
+3. Mi padre (es / era) profesor de historia antes de jubilarse.
+4. Nosotros (somos / éramos) amigos desde la infancia.
+5. ¿Tú (eres / eras) el chico que vivía al lado de mi casa?
 
-### B. Complete the sentences
-Fill in the blanks with the correct vocabulary word.
+**B. Origen y Nacionalidad (괄호 안의 단어를 사용해 문장을 완성하세요)**
 
-1. La ................ es importante para vivir en armonía con personas de otros países.
-2. Él no es de aquí, es ................
-3. Para viajar a algunos países necesito un ................
-4. Mis ................ son coreanas, aunque vivo en Chile.
-5. La ................ de una persona se forma con su cultura y sus experiencias.
+1. Mis abuelos son de (Andalucía) .............................
+2. Tengo (doble) ............................ nacionalidad.
+3. Carmen es de (origen) ............................ colombiano.
+4. Me siento (orgulloso) ............................ de ser coreano.
+5. En este barrio hay mucha (diversidad) .............................
 
-### C. 번역 연습
-다음 문장을 스페인어로 번역하세요.
+**C. 번역 연습 (스페인어로 옮겨보세요)**
 
-1. 제 부모님은 멕시코 출신입니다.
-2. 저는 이 나라에 매우 잘 통합되어 있다고 느낍니다.
-3. 다양성은 사회를 풍요롭게 합니다.
-4. 그는 스페인 시민권을 신청했습니다.
-5. 저는 이중 국적을 가지고 있습니다.
+1. 나는 어릴 때 매우 수줍음이 많았어(tímido).
+   ...........................................................................................
+2. 내 부모님은 멕시코계 배경(origen)을 가지고 계셔.
+   ...........................................................................................
+3. 스페인은 정말 다문화적인 나라야.
+   ...........................................................................................
+4. 우리는 학교에서 다른 문화권 친구들과 잘 어울려(integrarse).
+   ...........................................................................................
+5. 당신의 가족적인 뿌리(raíces)는 어디인가요?
+   ...........................................................................................
 
 ---
 
 ## 7. Lectura 📖
-**Identidades sin fronteras**
+**La historia de Ricardo**
 
-Elena es una joven que vive en Barcelona. Su padre es de Argentina y su madre es de Japón, pero ella nació en España. "¿Cuál es mi identidad?", se pregunta Elena a menudo. Ella habla español, japonés y catalán. En su casa, comen sushi y también asado argentino. Elena cree que su origen multicultural es una ventaja porque le permite entender diferentes puntos de vista. "No soy solo de un lugar, soy ciudadana del mundo", dice con orgullo.
+Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, pero mis abuelos **eran** de Italia y España. Por eso, me siento orgulloso de mis **raíces mixtas**. Ahora vivo en Valencia y trabajo como arquitecto. Me he **integrado** perfectamente en la ciudad porque la gente es muy acogedora. Para mí, la **diversidad** es una riqueza y creo que el **respeto** es la base de todo.
 
-**Preguntas:**
-1. ¿Dónde vive Elena y cuál es el origen de sus padres?
-2. ¿Qué idiomas habla ella?
-3. ¿Qué comen en su casa?
-4. ¿Por qué cree Elena que su origen es una ventaja?
-5. ¿Cómo se define ella al final del texto?
+**Questions**
+1. Ricardo의 조부모님은 어디 출신이었나요?
+2. 그는 자신의 배경(뿌리)에 대해 어떻게 느끼나요?
+3. 그는 왜 발렌시아에 잘 적응했다고 생각하나요?
 
-**한국어 번역:**
-바르셀로나에 사는 젊은 여성 엘레나는 아버지가 아르헨티나인이고 어머니가 일본인이지만, 본인은 스페인에서 태어났습니다. "나의 정체성은 무엇인가?"라고 엘레나는 자주 스스로에게 묻습니다. 그녀는 스페인어, 일본어, 카탈루냐어를 합니다. 그녀의 집에서는 스시와 아르헨티나식 아사도(바비큐)를 모두 먹습니다. 엘레나는 자신의 다문화적 배경이 다양한 관점을 이해할 수 있게 해주기 때문에 장점이라고 믿습니다. "나는 단지 한 곳 출신이 아니라, 세계 시민입니다"라고 그녀는 자랑스럽게 말합니다.
+**한국어 번역**
+**리카르도의 이야기**
+제 이름은 리카르도이고 제 이야기는 조금 복잡합니다. 저는 부에노스아이레스에서 태어났지만, 제 조부모님은 이탈리아와 스페인 분이셨습니다. 그래서 저는 제 **혼합된 뿌리가(raíces mixtas)** 자랑스럽습니다. 지금 저는 발렌시아에 살며 건축가로 일하고 있습니다. 사람들이 매우 친절하기 때문에 저는 이 도시에서 완벽하게 **적응했습니다(integrado)**. 저에게 **다양성은(diversidad)** 풍요로움이며, **존중이(respeto)** 모든 것의 기초라고 믿습니다.
 
 ---
 
 ## 8. Diálogo
-**Hablando de los orígenes (기원에 대해 말하기)**
+**¿De dónde son tus abuelos? (할아버지, 할머니는 어디 분이셔?)**
 
-**Situación:** Marco y Lucía se acaban de conocer en una fiesta universitaria en Madrid. Interesados por sus apellidos poco comunes, comienzan a compartir sus historias familiares y sus diversas raíces culturales.  
-**상황:** 마르코와 루시아는 마드리드의 한 대학 파티에서 막 통성명을 했습니다. 서로의 독특한 성(last name)에 관심을 가지게 된 그들은 자신들의 가족사와 다양한 문화적 뿌리에 대해 이야기를 나누기 시작합니다.
+**Situación:** Mateo y Sara están hablando sobre sus familias en un café. Sara nota que Mateo tiene apellidos que no suenan muy españoles y le pregunta por sus antepasados.  
+**상황:** 마테오와 사라는 카페에서 가족 이야기를 나누고 있습니다. 사라는 마테오의 성(apellido)이 스페인 이름처럼 들리지 않는다는 것을 알아차리고 조상들에 대해 묻습니다.
 
-| Personaje | 스페인어 (ES) | 한국어 (KO) |
+| Speaker | Spanish | Korean |
 |:--- |:--- |:--- |
-| **Marco** | Qué nombre tan interesante tienes, Lucía. ¿De dónde es tu familia? | 루시아, 이름이 아주 흥미롭네. 가족이 어디 출신이야? |
-| **Lucía** | Gracias, Marco. Mis raíces son italianas por parte de mi abuelo, pero mi madre es colombiana. | 고마워, 마르코. 할아버지 쪽 뿌리는 이탈리아인이지만, 어머니는 콜롬비아인이야. |
-| **Marco** | ¡Vaya mezcla! ¿Y tú dónde naciste? | 와, 대단한 혼혈이네! 그럼 너는 어디서 태어났어? |
-| **Lucía** | Yo nací en Madrid, así que tengo la ciudadanía española y también la colombiana. | 나는 마드리드에서 태어났어. 그래서 스페인 시민권과 콜롬비아 시민권을 모두 가지고 있지. |
-| **Marco** | Eso es genial. ¿Te sientes más española o colombiana? | 그거 멋지다. 스페인 사람이라고 느껴, 아니면 콜롬비아 사람이라고 느껴? |
-| **Lucía** | Me siento una mezcla de ambas. No puedo elegir una sola identidad. | 두 가지가 섞인 기분이야. 단 하나의 정체성만 고를 수는 없어. |
+| **Sara** | Mateo, tu apellido es curioso. ¿Cuál es tu origen? | 마테오, 네 성이 특이해. 배경이 어떻게 되니? |
+| **Mateo** | Tienes razón. Mis antepasados **eran** alemanes. | 맞아. 내 조상들은 독일 분들이셨어. |
+| **Sara** | ¡Qué interesante! ¿Tienes raíces alemanas entonces? | 정말 흥미롭다! 그럼 독일인의 뿌리가 있는 거네? |
+| **Mateo** | Sí, pero mi madre es de origen argentino. | 응, 하지만 우리 어머니는 아르헨티나계셔. |
+| **Sara** | ¡Vaya! Tienes una identidad muy multicultural. | 와! 정말 다문화적인 정체성을 가지고 있구나. |
+| **Mateo** | Sí, me encanta la diversidad de mi familia. | 맞아, 우리 가족의 다양성이 정말 좋아. |
+| **Sara** | Yo también soy de origen mixto. Mi padre es francés. | 나도 혼혈 배경이 있어. 우리 아버지는 프랑스 분이야. |
+| **Mateo** | ¡Genial! Al final, todos somos ciudadanos del mundo. | 멋지다! 결국 우리는 모두 세계 시민이네. |
 
 ---
 
 ## 9. Repaso
-- [x] 'origen', 'raíces', 'diversidad' 등 추상적인 정체성 어휘를 익혔나요?
-- [x] 'hacerse'와 'llegar a ser'의 차이를 이해했나요?
-- [x] 주요 Gentilicios(출신지 형용사)를 알고 있나요?
-- [x] 스페인의 다문화적 사회 특성을 이해했나요?
+이 장에서 배운 내용을 확인해 보세요:
+- [ ] 다문화 사회와 관련된 어휘(diversidad, integración 등)를 안다.
+- [ ] Ser 동사의 불완료 과거(era)를 사용하여 과거의 상태를 묘사할 수 있다.
+- [ ] 'Ser de origen'과 'Tener raíces en'을 사용하여 배경을 설명한다.
+- [ ] 스페인 사회의 다문화화와 Expats의 특징을 이해한다.
 
 ---
 
 ## 10. Cierre
-La identidad no es algo estático, sino algo que construimos cada día con nuestras acciones y relaciones. Entender tus orígenes te da la fuerza para enfrentar el futuro. En el próximo capítulo, exploraremos el núcleo de nuestra vida: la familia y los amigos. ¡Buen trabajo!
-
-**한국어 번역:**
-정체성은 고정된 것이 아니라, 우리의 행동과 관계로 매일 만들어가는 것입니다. 자신의 기원을 이해하는 것은 미래를 마주할 힘을 줍니다. 다음 장에서는 우리 삶의 핵심인 가족과 친구들을 탐구해 보겠습니다. 잘하셨습니다!
+¡Fantástico! 이제 여러분은 단순한 호구조사를 넘어, 한 사람의 깊은 뿌리와 정체성의 다양성까지 스페인어로 심도 있게 이야기할 수 있게 되었습니다. 
+정체성은 고정된 것이 아니라 과거와 현재가 섞인 '이야기'와 같다는 점을 배웠습니다. 
+다음 장에서는 이 정체성을 함께 공유하는 가장 소중한 사람들, '가족과 친구들'에 대해 배우며 풍성한 대화를 나누어 보겠습니다. ¡Hasta pronto!
 
 ---
 
 ## 11. Soluciones
 
-**A. Match the word**
-1-b, 2-e, 3-a, 4-c, 5-d
+**A. ¿Soy o Era?**
+1. soy / 2. era, era / 3. era / 4. somos / 5. eras
 
-**B. Complete the sentences**
-1. integración, 2. extranjero, 3. visado, 4. raíces, 5. identidad
+**B. Origen y Nacionalidad**
+1. origen / 2. doble / 3. origen / 4. orgulloso / 5. diversidad
 
 **C. 번역 연습**
-1. Mis padres son de México. / El origen de mis padres es mexicano.
-2. Me siento muy integrado/a en este país.
-3. La diversidad enriquece a la sociedad.
-4. Él solicitó la ciudadanía española.
-5. Tengo doble nacionalidad.
-
-**D. Lectura Questions (독해 정답)**
-1. Vive en Barcelona. Su padre es de Argentina y su madre es de Japón. (바르셀로나에 삽니다. 아버지는 아르헨티나인이고 어머니는 일본인입니다.)
-2. Habla español, japonés y catalán. (스페인어, 일본어, 카탈루냐어를 합니다.)
-3. Comen sushi y asado argentino. (스시와 아르헨티나식 아사도(바비큐)를 먹습니다.)
-4. Porque le permite entender diferentes puntos de vista. (다양한 관점을 이해할 수 있게 해주기 때문입니다.)
-5. Se define como ciudadana del mundo. ('세계 시민'으로 자신을 정의합니다.)
+1. Cuando era pequeño, era muy tímido.
+2. Mis padres tienen origen mexicano.
+3. España es un país realmente multicultural.
+4. Nos integramos bien con amigos de otras culturas en la escuela.
+5. ¿Dónde están tus raíces familiares?
