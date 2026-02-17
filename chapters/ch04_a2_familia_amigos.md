@@ -1,0 +1,208 @@
+# Chapter 4: Familia y amigos (A2)
+<p class="cervantes-ref">Cervantes: §4 Relaciones personales: 사회적 관계의 심화, 우정 및 현대적 가족 형태와 가치관 묘사</p>
+
+## 1. Opener
+**Lazos que nos unen (우리를 묶어주는 유대감)**  
+A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 더 나아가 친구, 동료와의 사회적 유대감과 현대 사회의 다양한 가족 형태에 대해 깊이 있게 다룹니다. 또한 소유를 더 강조하는 소유형용사 후치형과 관계 대명사의 기초를 통해 더 정교한 문장을 만드는 법을 배웁니다. 스페인의 현대적 라이프스타일과 세대 간의 관계 변화에 대해서도 탐구해 봅시다.
+
+**학습 목표**
+- 사회적 관계 및 우정 관련 심화 어휘 습득
+- 소유형용사 후치형(mío, tuyo 등) 및 소유대명사 마스터
+- 상호 재귀동사를 활용한 관계 묘사
+- 스페인의 현대적 가족 가치관 및 독립 문화 이해
+
+> [!TIP]
+> **¿Sabías que...?** 스페인 젊은이들의 독립 시기는 다른 유럽 국가들에 비해 상대적으로 늦은 편입니다(평균 30세 전후). 이는 높은 주거 비용과 실업률 문제도 있지만, 가족 간의 매우 끈끈한 유대감과 일요일 식사 문화를 소중히 여기는 정서적 요인도 큽니다.
+
+---
+
+## 2. Vocabulario Esencial: Amigos y Sociedad
+현대적인 마드리드의 루프탑 바에서 친구들과 동료들이 어울리는 모습입니다. 다양한 사회적 상호작용 관련 어휘를 익혀보세요.
+
+![Amigos y Sociedad](../images/ch04_a2_vocab_friendship.png)
+
+| # | Spanish | English Bridge | Korean Tip |
+| :--- | :--- | :--- | :--- |
+| 1 | **el mejor amigo** | **Major** (Main friend) | 단짝 친구 |
+| 2 | **la colega** | **Colleague** ✅ | 동료 (여성) |
+| 3 | **la pandilla** | — | (자주 어울리는) 친구 무리 |
+| 4 | **el conocido** | **Recognized** (Known person) | 아는 사람 (지인) |
+| 5 | **la pareja** | **Pair** ✅ | 커플 / 파트너 |
+| 6 | **discutir** | **Discuss** ⚠️ (False Friend!) | 토론하다가 아닌 '말다툼하다' |
+| 7 | **quedarse** | — | (약속을 잡아) 만나다 / 머물다 |
+| 8 | **presentar** | **Present** ✅ | 소개하다 |
+| 9 | **felicitar** | **Felicitate** ✅ | 축하하다 |
+| 10 | **sacar una foto** | — | 사진을 찍다 |
+
+✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.
+⚠️ 표시된 단어는 영어와 스펠링은 비슷하나 의미가 다른 'False Friends'이므로 주의하세요.
+
+---
+
+## 3. Expresiones Útiles
+사회적 관계와 감정을 더 구체적으로 표현하는 방법입니다.
+
+**A. 우정과 유대감 표현**
+- **Nos llevamos muy bien.** (We get along very well. / 우리는 사이가 아주 좋아요.)
+- **Él es un amigo de toda la vida.** (He is a lifelong friend. / 그는 평생지기 친구야.)
+- **Confío plenamente en ti.** (I trust you completely. / 나는 너를 전적으로 신뢰해.)
+- **¿Quieres salir con nosotros?** (Do you want to go out with us? / 우리랑 같이 나갈래?)
+
+**B. 소유의 강조**
+- **Este libro es mío.** (This book is mine. / 이 책은 내 것이야.)
+- **¿Es tuya esta maleta?** (Is this suitcase yours? / 이 가방 네 것이니?)
+- **Lo mío es tuyo.** (What is mine is yours. / 내 것이 네 거야. - 아주 친한 사이)
+
+---
+
+## 4. Gramática Esencial
+A2 수준의 정교한 표현을 위해 소유사의 후치형과 상호 재귀동사를 배웁니다.
+
+### A. 소유형용사 후치형 (Adjetivos Posesivos Pospuestos)
+명사 뒤에 위치하여 소유를 강조하거나, 명사 없이 '나의 것'이라는 대명사 역할을 할 때 사용됩니다. 항상 수식하는 명사의 **성과 수**에 일치시켜야 합니다.
+
+| 주어 | 남성 단수/복수 | 여성 단수/복수 |
+| :--- | :--- | :--- |
+| **yo** | mío / míos | mía / mías |
+| **tú** | tuyo / tuyos | tuya / tuyas |
+| **él/ella/usted** | suyo / suyos | suya / suyas |
+| **nosotros/as** | nuestro / nuestros | nuestra / nuestras |
+| **vosotros/as** | vuestro / vuestros | vuestra / vuestras |
+| **ellos/ellas/ustedes** | suyo / suyos | suya / suyas |
+
+**Example:**
+- *Un amigo mío* (A friend of mine / 내 친구 중 한 명)
+- *¡Dios mío!* (My God! / 세상에나!)
+
+### B. 상호 재귀동사 (Reciprocal Reflexive Verbs)
+두 사람 이상이 '서로 ~하다'라는 의미를 나타낼 때 복수 인칭 재귀대명사(nos, os, se)와 함께 사용합니다.
+
+| 동사 | 의미 | 예문 |
+| :--- | :--- | :--- |
+| **quererse** | 서로 사랑하다 | *Se quieren mucho.* |
+| **conocerse** | 서로 알다 | *Nos conocemos desde niños.* |
+| **ayudarse** | 서로 돕다 | *Ellos se ayudan siempre.* |
+| **escribirse** | 서로 쓰다(연락하다) | *Os escribís a menudo.* |
+
+---
+
+## 5. Cultura Viva: Tradición vs. Modernidad
+스페인의 가족 가치관은 급격한 현대화를 겪으면서도 고유의 색깔을 유지하고 있습니다.
+
+![Tradition vs Modernity](../images/ch04_a2_culture_lifestyle.png)
+
+España ha experimentado grandes cambios sociales en las últimas décadas. Aunque la familia tradicional sigue siendo muy valorada, hoy existen diversos modelos familiares: parejas de hecho, familias monoparentales o familias reconstituidas. La ley del matrimonio igualitario de 2005 fue un hito en la modernización del país.
+
+Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a abuelos cuidando de sus nietos por la tarde, lo que crea un vínculo intergeneracional muy fuerte. Al mismo tiempo, los jóvenes españoles son muy sociables y consideran a sus amigos como su "familia elegida". La vida se desarrolla mucho en la calle, compartiendo tiempo con los colegas en las terrazas, lo que equilibra la intensa vida familiar con una vibrante vida social moderna.
+
+**[한국어 번역]**
+스페인은 지난 수십 년 동안 큰 사회적 변화를 겪었습니다. 전통적인 가족은 여전히 높게 평가받지만, 오늘날에는 사실혼 커플, 한부모 가족 또는 재결합 가족 등 다양한 가족 모델이 존재합니다. 2005년의 동성결혼법은 국가 현대화의 이정표가 되었습니다.
+
+그럼에도 불구하고 어르신들에 대한 존경은 여전히 핵심적입니다. 오후에 손주들을 돌보는 조부모의 모습을 흔히 볼 수 있는데, 이는 매우 강력한 세대 간 유대감을 형성합니다. 동시에 스페인 청년들은 매우 사교적이며 친구들을 자신의 "선택한 가족"으로 여깁니다. 삶은 주로 거리에서 이루어지며 야외 테라스에서 동료들과 시간을 공유하는데, 이는 강렬한 가족 생활과 활기찬 현대적 사교 생활의 균형을 맞춥니다.
+
+---
+
+## 6. Práctica
+
+**A. Match the word (알맞은 단어를 연결하세요)**
+
+| Spanish | English / Korean |
+| :--- | :--- |
+| 1. El mejor amigo | a. To argue (False Friend) |
+| 2. La pareja | b. To congratulate |
+| 3. Discutir | c. Best friend |
+| 4. Felicitar | d. Partner / Couple |
+| 5. Quedarse | e. To meet up |
+
+**B. Fill in the blanks with the correct long-form possessive (알맞은 소유형용사 후치형을 쓰세요)**
+
+1. Este coche es (mine - masc. sing.). .............................
+2. La culpa no es (yours - fem. sing.). .............................
+3. Esas llaves são (hers - fem. plural). .............................
+4. Un primo (of ours - masc. sing.) vive en Chile. .............................
+5. ¿Es (yours - formal sing.) este paraguas? .............................
+
+**C. 번역 연습 (상호 재귀동사를 사용하여 번역하세요)**
+
+1. 우리는 서로 아주 잘 알아요.
+   (............................................................)
+2. 디에고와 일레나는 서로 사랑해요.
+   (............................................................)
+3. 너희들은 서로 자주 편지를 쓰니?
+   (............................................................)
+4. 좋은 친구들은 서로 도와주어야 합니다.
+   (............................................................)
+5. 그들은 매일 서로 전화해요.
+   (............................................................)
+
+---
+
+## 7. Lectura 📖
+**Mi familia elegida (나의 선택한 가족)**
+
+En España decimos que "los amigos son la familia que se elige". Yo tengo un grupo de amigos desde la universidad, nos llamamos 'la pandilla'. Somos cinco personas de diferentes nacionalidades. Aunque todos tenemos trabajos estresantes, nos vemos todos los viernes para cenar. Nos ayudamos en los momentos difíciles y celebramos juntos los éxitos. Mi madre siempre dice: "Hija, esos amigos tuyos son como tus hermanos". Y tiene razón. En esta sociedad moderna, el apoyo de los amigos es vital, pero nunca olvido mis raíces y el amor de mis padres.
+
+**Questions:**
+1. 'La pandilla'는 누구를 의미하나요?
+   - ............................................................
+2. 필자의 어머니는 친구들에 대해 어떻게 평가하시나요?
+   - ............................................................
+
+**[한국어 번역]**
+스페인에서는 "친구는 본인이 선택한 가족이다"라고 말합니다. 저는 대학 때부터 '라 판디야(la pandilla)'라고 부르는 친구 무리가 있습니다. 우리는 서로 국적이 다른 5명입니다. 우리 모두 스트레스 받는 직업을 가졌지만, 매주 금요일 저녁 식사를 위해 만납니다. 우리는 힘든 순간에 서로 돕고 성공을 함께 축하합니다. 어머니는 항상 말씀하세요. "딸아, 네 그 친구들은 마치 네 형제들 같구나." 어머니 말씀이 맞습니다. 이 현대 사회에서 친구들의 지지는 필수적이지만, 저는 결코 제 뿌리와 부모님의 사랑을 잊지 않습니다.
+
+---
+
+## 8. Diálogo
+**Hablando de raíces y amigos (뿌리와 친구들에 대한 대화)**
+
+**Situación:** Javier y Carmen están tomando un café en una terraza y conversan sobre sus planes para las vacaciones y la importancia de sus círculos sociales.
+**상황:** 하비에르와 카르멘은 테라스에서 커피를 마시며 휴가 계획과 사회적 인맥의 중요성에 대해 대화를 나눕니다.
+
+| Spanish | Korean |
+| :--- | :--- |
+| **Javier:** Carmen, ¿qué planes tienes para este verano? | **하비에르:** 카르멘, 이번 여름에 무슨 계획이 있니? |
+| **Carmen:** Voy a visitar a un primo mío que vive en México. | **카르멘:** 멕시코에 사는 내 사촌 한 명을 방문할 거야. |
+| **Javier:** ¡Qué bien! ¿Vas sola o con tu pareja? | **하비에르:** 좋겠다! 혼자 가니, 아니면 파트너랑 가니? |
+| **Carmen:** Voy sola. Mi pareja tiene que trabajar. | **카르멘:** 혼자 가. 내 파트너는 일을 해야 하거든. |
+| **Javier:** Entiendo. Yo me quedo aquí con mi pandilla. | **하비에르:** 그렇구나. 난 내 친구들이랑 여기 머물 거야. |
+| **Carmen:** Siempre te ves con ellos, ¿verdad? | **카르멘:** 넌 항상 그 친구들과 만나더라, 그렇지? |
+| **Javier:** Sí, nos conocemos desde hace diez años. | **하비에르:** 응, 우리는 서로 안 지 10년이나 됐어. |
+| **Carmen:** Es importante tener amigos en los que confiar. | **카르멘:** 신뢰할 수 있는 친구들을 갖는 건 중요해. |
+| **Javier:** Tienes razón. Para mí, son como una familia. | **하비에르:** 맞아. 나에게 그들은 가족 같아. |
+| **Carmen:** Pues, ¡disfruta mucho de tu tiempo con ellos! | **카르멘:** 그럼, 그들과 즐거운 시간 많이 보내! |
+
+---
+
+## 9. Repaso
+이 장에서 배운 내용을 확인해 보세요:
+- [ ] 단짝 친구, 동료, 꾸러미 친구 등 사회적 관계 어휘를 익혔나요?
+- [ ] 소유형용사 후치형(mío, tuyo...)을 강조 표현에 사용할 수 있나요?
+- [ ] 상호 재귀동사(conocerse, ayudarse 등)의 개념을 이해했나요?
+- [ ] 스페인의 현대적 가족 형태와 세대 간 유대감을 이해했나요?
+
+---
+
+## 10. Cierre
+¡Enhorabuena! A2의 이번 장을 통해 여러분은 단순한 가족 소개를 넘어, 더 깊고 복잡한 사회적 유대감을 스페인어로 표현하는 법을 배웠습니다. 'Mío'와 'Tuyo' 같은 강조 표현은 여러분의 스페인어를 훨씬 더 원어민스럽게 만들어 줄 것입니다. 또한 현대 스페인 사회의 열린 가족관과 변치 않는 효(孝) 사상의 조화를 이해하는 것도 언어 학습의 큰 재미입니다. 다음 장에서는 우리의 오감을 자극하는 '음식' 이야기로 돌아오겠습니다. ¡Sigue así!
+
+---
+
+## 11. Soluciones
+
+**6. Práctica - A. Match the word**
+1-c, 2-d, 3-a, 4-b, 5-e
+
+**6. Práctica - B. Fill in the blanks**
+1. mío / 2. tuya / 3. suyas / 4. nuestro / 5. suya
+
+**6. Práctica - C. 번역 연습**
+1. Nos conocemos muy bien.
+2. Diego y Elena se quieren.
+3. ¿Os escribís a menudo?
+4. Los buenos amigos deben ayudarse.
+5. Se llaman todos los días.
+
+**7. Lectura Questions**
+1. 대학 때부터 알고 지낸 친한 친구 무리(5명)를 의미합니다.
+2. 마치 필자의 형제들 같다고 매우 긍정적으로 평가하십니다.
