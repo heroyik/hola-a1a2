@@ -83,6 +83,9 @@ Spain consistently ranks among the healthiest nations. The secret? The **Mediter
 
 This isn't just a list of foods; it's a UNESCO-recognized intangible cultural heritage. It emphasizes **olive oil**, fresh seasonal vegetables, pulses, and fish. But it's also about *how* they eat: slowly, socially, and without stress. They also have the **Siesta** tradition (though changing in big cities), which helps reduce cardiovascular stress. Incorporating a bit of Spanish "calma" into your lifestyle might actually add years to your life!
 
+**한국어 번역:**
+스페인은 지속적으로 가장 건강한 국가 중 하나로 꼽힙니다. 그 비결은 무엇일까요? 바로 '지중해식 식단(Dieta Mediterránea)'입니다. 이는 단순한 음식 목록이 아니라 유네스코 인류 무형 문화유산으로 인정받은 것입니다. 올리브 오일, 신선한 제철 채소, 콩류, 생선을 강조합니다. 하지만 무엇을 먹느냐만큼이나 '어떻게' 먹느냐도 중요합니다. 천천히, 사교적으로, 스트레스 없이 먹는 것이 특징입니다. 또한 대도시에서는 변하고 있지만 심혈관 스트레스를 줄여주는 '시에스타(Siesta)' 전통도 있습니다. 스페인식 '여유(calma)'를 일상에 도입하는 것만으로도 수명이 늘어날 수 있습니다!
+
 ---
 
 ## 6. Práctica

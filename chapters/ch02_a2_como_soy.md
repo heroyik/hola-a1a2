@@ -89,6 +89,9 @@ Modern identity in Spain is deeply intertwined with **redes sociales** (social m
 
 Digital identity is seen as a way to express "quiénes somos" (who we are) to a global audience. However, Spanish culture still places high value on "el cara a cara" (face-to-face interaction). While someone might seem **abierto** and **optimista** on their profile, their true personality is revealed during long sessions of "sobremesa"—the traditional Spanish talk after a meal. This balance between the virtual self and the authentic social self is a key topic for advanced A2 learners.
 
+**한국어 번역:**
+디지털 정체성은 전 세계 청중에게 '우리가 누구인지(quiénes somos)'를 표현하는 수단으로 여겨집니다. 하지만 스페인 문화는 여전히 '얼굴을 맞대고(el cara a cara)' 소통하는 것에 높은 가치를 둡니다. 누군가의 프로필이 '아비에르토(abierto)'하고 '옵티미스타(optimista)'해 보일지라도, 그들의 진정한 성격은 식사 후 긴 대화 시간인 '소브레메사(sobremesa)'에서 드러납니다. 가상 세계의 자아와 실제 사회적 자아 사이의 균형은 A2 학습자들에게 중요한 주제입니다.
+
 ---
 
 ## 6. Práctica

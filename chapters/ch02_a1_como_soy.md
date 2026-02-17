@@ -97,6 +97,9 @@ Greetings are the mirror of personality in the Spanish-speaking world. In Spain,
 
 In Latin America, however, the **'Un Beso'** (single kiss) is more common in many regions. People are generally very expressive; "simpático" isn't just a word, it’s a lifestyle! Even when meeting for the first time, people might use familiar terms of endearment, reflecting an "abierto" (open) and "caluroso" (warm) personality trait.
 
+**한국어 번역:**
+인사는 스페인어권 세계에서 성격을 비추는 거울과 같습니다. 스페인에서는 보편적인 인사법으로 남성과 여성 사이, 또는 여성들 사이에서 '도스 베소스(Dos Besos)'를 합니다. 오른쪽 볼부터 시작해 양 볼에 가볍게 맞추는 방식입니다. 남성들 사이에서는 강한 악수나 짧은 포옹이 흔합니다. 반면 라틴 아메리카의 많은 지역에서는 '운 베소(Un Beso, 한 번의 키스)'가 더 일반적입니다. 사람들은 대체로 표현이 매우 풍부합니다. '심파티코(simpático)'는 단순한 단어가 아니라 하나의 라이프스타일입니다! 처음 만났을 때도 친근한 애칭을 사용할 수 있는데, 이는 '아비에르토(abierto, 개방적인)'하고 '카루로소(caluroso, 따뜻한)'한 성격적 특징을 반영합니다.
+
 ---
 
 ## 6. Práctica

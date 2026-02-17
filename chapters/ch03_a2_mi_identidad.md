@@ -77,6 +77,9 @@ A2 requiere conocer gentilicios más complejos o irregulares.
 ## 5. Cultura Viva: La España Multicultural
 La inmigración en España no es un fenómeno nuevo, pero su intensidad sí lo es. Grupos procedentes de **América Latina, Marruecos y Rumanía** son los más numerosos. Esta mezcla ha dado lugar a una "identidad híbrida". Muchos jóvenes hoy se definen como "nuevos españoles", manteniendo las tradiciones de sus padres mientras participan plenamente en la vida social y política de España. La celebración del **Día de la Hispanidad** (12 de octubre) es un momento para reflexionar sobre este pasado y presente compartido.
 
+**한국어 번역:**
+스페인으로의 이민은 새로운 현상은 아니지만, 그 강도는 매우 거세졌습니다. 라틴 아메리카, 마그레브(북아프리카), 동유럽 출신 그룹이 가장 많습니다. 이러한 혼합은 '하이브리드 정체성'을 탄생시켰습니다. 오늘날 많은 젊은이들은 부모의 전통을 유지하면서도 스페인의 사회적, 정치적 삶에 완전히 참여하며 스스로를 '새로운 스페인 사람'으로 정의합니다. 10월 12일 '이스파니나드의 날(Día de la Hispanidad)'은 이러한 공유된 과거와 현재를 되새기는 시간입니다.
+
 ![Multicultural Spain Landscape](../images/ch03_a2_culture_multicultural_v52.png)
 
 ---

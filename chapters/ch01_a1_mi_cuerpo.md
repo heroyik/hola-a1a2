@@ -89,6 +89,9 @@ Spain boasts one of the world's most efficient public healthcare systems, known 
 
 Every residential neighborhood has a **Centro de Salud** (Health Center) where locals go for their first consultations. Unlike the private-heavy systems elsewhere, most basic care is free for citizens and residents. This accessibility, combined with the **Mediterranean Diet** and a culture of walking, contributes to Spain having one of the highest life expectancies in the world. When you visit, look for the luminous green cross signs—those are the **Farmacias**, and they are almost on every corner!
 
+**한국어 번역:**
+스페인은 '세구리다드 소시알(Seguridad Social)'이라고 불리는 세계적으로 효율적인 공공 의료 시스템을 자랑합니다. 모든 거주 지역에는 주민들이 첫 진료를 받기 위해 찾는 '센트로 데 살루드(Centro de Salud, 보건소)'가 있습니다. 다른 나라의 민간 중심 시스템과 달리, 대부분의 기본 진료는 시민과 거주자에게 무료입니다. 이러한 접근성은 지중해식 식단 및 걷는 문화와 결합되어 스페인이 세계에서 가장 높은 기대 수명을 가진 국가 중 하나가 되도록 기여합니다. 방문하실 때 빛나는 초록색 십자가 간판을 찾아보세요. 그것이 약국(Farmacias)이며, 거의 모든 골목마다 있습니다!
+
 ---
 
 ## 6. Práctica

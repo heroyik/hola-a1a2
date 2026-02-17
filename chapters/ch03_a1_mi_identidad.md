@@ -88,6 +88,9 @@ Como mencionamos, los españoles tienen dos apellidos. En documentos oficiales, 
 - Ejemplo: *Pedro Almodóvar Caballero* (Almodóvar es el del padre, Caballero el de la madre).
 Cuando se casan, las mujeres **no cambian su apellido** por el del marido, a diferencia de la cultura anglosajona.
 
+**한국어 번역:**
+스페인에서 DNI(국가 신분증)는 14세부터 의무적으로 소지해야 합니다. 이는 데이터와 사진이 포함된 스마트 카드입니다. 앞서 언급했듯이, 스페인 사람들은 두 개의 성을 가집니다. 공식 문서에서는 항상 '이름 + 첫 번째 성(부계) + 두 번째 성(모계)'의 순서로 표기됩니다. (예: 페드로 알모도바르 카바예로). 결혼하더라도 여성은 영미권 문화와 달리 남편의 성으로 바꾸지 않습니다.
+
 ![DNI and Naming Culture](../images/ch03_a1_culture_dni_v52.png)
 
 ---
