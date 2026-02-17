@@ -15,6 +15,9 @@ En las últimas décadas, España ha pasado de un modelo de familia tradicional 
 ## 2. Vocabulario Esencial
 A nivel A2, exploramos términos sobre relaciones más complejas y el estado civil.
 
+**한국어 번역:**
+A2 단계에서는 보다 복잡한 인간관계와 혼인 상태에 관한 어휘들을 탐구합니다.
+
 ![Relaciones y Afecto (100% 반영)](../images/ch04_a2_vocab_100pct_v52_numbered.png)
 
 | # | Spanish | English Bridge | Korean Tip |

@@ -6,13 +6,24 @@
 - Discutir temas de inmigración, diversidad y ciudadanía.
 - Explicar trayectorias personales y orígenes multiculturales.
 
+**한국어 번역:**
+- 개인적 및 집단적 정체성의 개념 심화하기.
+- 이민, 다양성 및 시민권 문제 논의하기.
+- 개인적인 궤적과 다문화적 기원 설명하기.
+
 **¿Sabías que...?**
 España se ha transformado en las últimas décadas en una sociedad altamente **multicultural**. Más del 12% de la población actual es de origen extranjero. Esto ha enriquecido la gastronomía, la música y la lengua, creando una identidad española moderna que es diversa y abierta al mundo.
+
+**한국어 번역:**
+스페인은 지난 수십 년 동안 고도의 다문화 사회로 변모해 왔습니다. 현재 인구의 12% 이상이 외국인 출신입니다. 이는 요리, 음악, 언어를 풍요롭게 했으며, 다양하고 세계에 열려 있는 현대 스페인 정체성을 형성했습니다.
 
 ---
 
 ## 2. Vocabulario Esencial
 A nivel A2, exploramos términos más abstractos y relacionados con la integración social y la historia personal.
+
+**한국어 번역:**
+A2 단계에서는 보다 추상적이며 사회 통합 및 개인사와 관련된 용어들을 탐구합니다.
 
 ![Identidad y Diversidad (100% 반영)](../images/ch03_a2_vocab_100pct_v52_numbered.png)
 

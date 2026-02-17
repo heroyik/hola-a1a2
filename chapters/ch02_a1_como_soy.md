@@ -3,6 +3,9 @@
 ## 1. Opener
 Who are you? How do you describe your personality and your physical appearance to a new friend? In this chapter, we explore the vibrant language of identity. We will move beyond just naming colors and shapes to describing characters—all while leveraging the English vocabulary you already know.
 
+**한국어 번역:**
+여러분은 누구인가요? 새로운 친구에게 여러분의 성격과 외모를 어떻게 설명하시겠습니까? 이 장에서는 정체성을 묘사하는 생동감 넘치는 언어를 탐구합니다. 단순히 색상과 모양의 이름을 익히는 것을 넘어, 여러분이 이미 알고 있는 영어 어휘를 활용하여 인물의 특징을 설명하는 법을 배울 것입니다.
+
 **학습 목표 (Learning Objectives)**:
 - Describe yourself and others using 15+ physical and personality adjectives.
 - Distinguish between **Ser** (permanent traits) and **Estar** (temporary states) for descriptions.
@@ -13,9 +16,16 @@ Who are you? How do you describe your personality and your physical appearance t
 > **¿Sabías que...? (Did you know?)**
 > In Spanish, telling someone they are "salado/a" (salty) actually means they are witty, funny, or charming. It’s a compliment! Personality is often described using food metaphors, showing how central culinary culture is to the Spanish identity.
 
+**한국어 번역:**
+스페인어로 누군가에게 '살라도/아(salado/a, 짠)'라고 말하는 것은 사실 그 사람이 재치 있고 재미있거나 매력적이라는 뜻입니다. 이는 칭찬입니다! 성격은 종종 음식 비유를 통해 묘사되곤 하는데, 이는 스페인 정체성에서 음식 문화가 얼마나 중심적인지를 잘 보여줍니다.
+
 ---
 
 ## 2. Vocabulario Esencial
+Aprenderemos los términos clave para describir a las personas físicamente y su carácter.
+
+**한국어 번역:**
+사람들의 외모와 성격을 묘사하는 핵심 단어들을 배워보겠습니다.
 
 ![성격 및 외모 묘사](../images/ch02_a1_vocab_100pct_v52_1771285427474.png)
 

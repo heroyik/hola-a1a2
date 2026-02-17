@@ -6,13 +6,24 @@
 - Indicar el nombre, la edad, la nacionalidad y la profesión.
 - Entender el sistema de nombres y el documento de identidad en España.
 
+**한국어 번역:**
+- 격식 및 비격식 상황에서 자기소개하기.
+- 이름, 나이, 국적 및 직업 나타내기.
+- 스페인의 이름 체계와 신분증 이해하기.
+
 **¿Sabías que...?**
 En España y en muchos países hispanohablantes, las personas tienen **dos apellidos**. El primero es el del padre y el segundo es el de la madre. Por ejemplo, si Juan García López y María Martínez Ruiz tienen una hija llamada Ana, su nombre completo será Ana García Martínez. ¡Es una excelente manera de mantener vivo el linaje de ambos padres!
+
+**한국어 번역:**
+스페인과 많은 스페인어권 국가에서 사람들은 두 개의 성(apellidos)을 갖습니다. 첫 번째는 아버지의 성이고 두 번째는 어머니의 성입니다. 예를 들어, 주안 가르시아 로페스와 마리아 마르티네스 루이스가 아나라는 딸을 낳으면, 그녀의 전체 이름은 아나 가르시아 마르티네스가 됩니다. 이는 부모 양측의 혈통을 보존하는 아주 훌륭한 방법입니다!
 
 ---
 
 ## 2. Vocabulario Esencial
 En esta sección aprenderemos las palabras fundamentales para hablar de nuestra identidad personal.
+
+**한국어 번역:**
+이번 섹션에서는 개인의 정체성에 대해 말하는 데 필수적인 단어들을 배웁니다.
 
 ![Mi identidad (100% 반영)](../images/ch03_a1_vocab_100pct_v52_numbered.png)
 

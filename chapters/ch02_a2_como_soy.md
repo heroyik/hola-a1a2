@@ -3,6 +3,9 @@
 ## 1. Opener
 At the A2 level, we dive deeper into the nuances of human character. While A1 focused on basic appearance, A2 explores the "inner self"—personality, moods, and social behaviors. Understanding these nuances is key to meaningful relationship-building in the Spanish-speaking world.
 
+**한국어 번역:**
+A2 단계에서는 인간 성격의 미묘한 차이를 더 깊이 파고듭니다. A1이 기본적인 외모에 집중했다면, A2는 성격, 기분, 그리고 사회적 행동과 같은 '내면의 자아'를 탐구합니다. 이러한 뉘앙스를 이해하는 것은 스페인어권 세계에서 의미 있는 관계를 맺는 핵심입니다.
+
 **학습 목표 (Learning Objectives)**:
 - Master 10+ advanced personality adjectives and abstract traits.
 - Use **Reflexive Verbs** to describe daily routines and emotional states (Me levanto, Me siento).
@@ -13,9 +16,16 @@ At the A2 level, we dive deeper into the nuances of human character. While A1 fo
 > **¿Sabías que...? (Did you know?)**
 > The word "Amable" (kind) comes from the Latin "Amabilis," meaning "worthy of being loved." In Spanish culture, being "amable" is more than just a polite gesture; it’s a core social value that facilitates community and family bonds ("el familismo").
 
+**한국어 번역:**
+'아마블레(Amable, 친절한)'라는 단어는 라틴어 'Amabilis'에서 유래되었으며, '사랑받을 가치가 있는'이라는 뜻입니다. 스페인 문화에서 친절하다는 것은 단순히 예의 바른 태도 그 이상입니다. 이는 공동체와 가족 유대('el familismo')를 촉진하는 핵심적인 사회적 가치입니다.
+
 ---
 
 ## 2. Vocabulario Esencial
+A nivel A2, exploramos adjetivos más precisos para describir la personality y estados emocionales.
+
+**한국어 번역:**
+A2 단계에서는 성격과 감정 상태를 묘사하는 보다 정밀한 형용사들을 탐구합니다.
 
 ![고급 성격 및 심리 묘사](../images/ch02_a2_vocab_100pct_v52_1771285448528.png)
 

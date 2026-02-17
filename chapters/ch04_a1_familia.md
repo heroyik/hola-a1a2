@@ -10,10 +10,16 @@
 **¿Sabías que...?**
 Para los españoles, la familia no es solo el núcleo básico (padres e hijos), sino que incluye a tíos, primos y abuelos en una relación muy estrecha. Es común que las familias se reúnan todos los domingos para una gran comida que dura horas. ¡La sobremesa es casi tan importante como la comida misma!
 
+**한국어 번역:**
+스페인 사람들에게 가족은 단순히 부모와 자녀로 구성된 핵가족만을 의미하지 않고, 삼촌, 이종사촌, 조부모까지 포함하는 매우 긴밀한 관계를 뜻합니다. 매주 일요일이면 온 가족이 모여 몇 시간 동안 성대한 식사를 하는 것이 일상입니다. 식사 후 긴 대화 시간인 '소브레메사(sobremesa)'는 식사 그 자체만큼이나 중요합니다!
+
 ---
 
 ## 2. Vocabulario Esencial
 Aprenderemos los términos para describir nuestro círculo más cercano.
+
+**한국어 번역:**
+우리의 가장 가까운 주변 사람들을 묘사하는 단어들을 배워보겠습니다.
 
 ![Familia y amigos (100% 반영)](../images/ch04_a1_vocab_100pct_v52_numbered.png)
 

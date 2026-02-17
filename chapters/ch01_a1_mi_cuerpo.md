@@ -3,6 +3,9 @@
 ## 1. Opener
 ¡Bienvenidos a bordo! Our journey begins with the most essential tool we have: our body. In this chapter, we will learn how to name the parts of the body and describe how we feel physically. You'll be surprised to find how many Spanish words are hidden in English academic vocabulary!
 
+**한국어 번역:**
+환영합니다! 우리의 여행은 우리가 가진 가장 필수적인 도구인 몸에서 시작됩니다. 이 장에서는 신체 부위의 이름을 익히고 신체 상태를 설명하는 방법을 배웁니다. 영어의 학술 어휘 속에 얼마나 많은 스페인어 단어들이 숨겨져 있는지 알게 되면 놀라실 겁니다!
+
 **학습 목표 (Learning Objectives)**:
 - Identify and name 15+ body parts from head to toe.
 - Master the irregular verb `tener` (to have) for physical sensations.
@@ -13,9 +16,16 @@
 > **¿Sabías que...? (Did you know?)**
 > When Spaniards meet, they often perform **'Dos Besos'** (two kisses). It’s not a full kiss on the lips, but a light touch of cheeks—right side first, then left. This reflects the warm, physical nature of Spanish social interaction, which we'll see reflected in how they talk about their 'cuerpo'.
 
+**한국어 번역:**
+스페인 사람들은 만날 때 종종 '도스 베소스(Dos Besos, 두 번의 키스)'를 합니다. 입술에 하는 진짜 키스가 아니라 양 볼을 가볍게 맞추는 것인데, 오른쪽부터 시작해 왼쪽으로 합니다. 이는 스페인 사람들의 따뜻하고 신체적인 사교 문화를 반영하며, 신체(cuerpo)에 대해 말하는 방식에서도 이러한 특징이 드러납니다.
+
 ---
 
 ## 2. Vocabulario Esencial
+Aprenderemos las partes del cuerpo y el entorno de la salud.
+
+**한국어 번역:**
+신체 부위와 건강 관련 환경에 대한 단어들을 배워보겠습니다.
 
 ![ 신체 부위 및 건강](../images/ch01_a1_vocab_100pct_v52_numbered.png)
 

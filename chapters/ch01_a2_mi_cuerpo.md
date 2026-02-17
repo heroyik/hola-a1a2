@@ -3,6 +3,9 @@
 ## 1. Opener
 ¡Hola de nuevo! Since you've mastered the basics, it's time to dive deeper into our well-being. Knowing how to describe symptoms and understand healthcare advice is crucial for living or traveling in a Spanish-speaking country. In this chapter, we will refine our medical vocabulary and master the "Gustar-like" verb `doler`.
 
+**한국어 번역:**
+다시 만나 반가워요! 기초를 닦았으니 이제 건강에 대해 더 깊이 알아볼 시간입니다. 증상을 설명하고 의료 조언을 이해하는 것은 스페인어권 국가에서 생활하거나 여행할 때 매우 중요합니다. 이 장에서는 의료 어휘를 다듬고 역구조 동사인 'doler'를 완벽히 익힐 것입니다.
+
 **학습 목표 (Learning Objectives)**:
 - Describe complex health symptoms (flu, fever, cough).
 - Master the inverse structure of the verb `doler` (to hurt).
@@ -13,9 +16,16 @@
 > **¿Sabías que...? (Did you know?)**
 > Spain has one of the highest organ donation rates in the world. This is a source of great national pride and reflects a deep cultural commitment to public health and solidarity.
 
+**한국어 번역:**
+스페인은 세계에서 장기 기증률이 가장 높은 국가 중 하나입니다. 이는 국가적인 큰 자부심의 원천이며, 공공 보건과 연대에 대한 깊은 문화적 헌신을 반영합니다.
+
 ---
 
 ## 2. Vocabulario Esencial
+En esta sección profundizamos en los síntomas y el sistema sanitario.
+
+**한국어 번역:**
+이 섹션에서는 증상과 보건 의료 시스템에 대해 더 깊이 알아봅니다.
 
 ![ 건강 및 의료 서비스](../images/ch01_a2_vocab_100pct_v52_numbered.png)
 
