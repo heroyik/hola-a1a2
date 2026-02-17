@@ -172,6 +172,9 @@ Elena es una joven que vive en Barcelona. Su padre es de Argentina y su madre es
 ## 10. Cierre
 La identidad no es algo estático, sino algo que construimos cada día con nuestras acciones y relaciones. Entender tus orígenes te da la fuerza para enfrentar el futuro. En el próximo capítulo, exploraremos el núcleo de nuestra vida: la familia y los amigos. ¡Buen trabajo!
 
+**한국어 번역:**
+정체성은 고정된 것이 아니라, 우리의 행동과 관계로 매일 만들어가는 것입니다. 자신의 기원을 이해하는 것은 미래를 마주할 힘을 줍니다. 다음 장에서는 우리 삶의 핵심인 가족과 친구들을 탐구해 보겠습니다. 잘하셨습니다!
+
 ---
 
 ## 11. Soluciones

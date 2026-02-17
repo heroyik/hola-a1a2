@@ -186,7 +186,10 @@ Two students are doing a personality test for a sociology project.
 ---
 
 ## 10. Cierre
-Congratulations! You've moved from physical descriptions to psychological depth. Being able to talk about personality allows you to express your identity and connect with the unique characters of the Spanish-speaking world. In the next chapter, we will consolidate this identity by exploring your origins, age, and professional identity. ¡Hablamos pronto!
+¡Felicidades! Has pasado de las descripciones físicas a la profundidad psicológica. Ser capaz de hablar sobre la personalidad te permite expresar tu identidad y conectar con los caracteres únicos del mundo hispanohablante. En el próximo capítulo, consolidaremos esta identidad explorando tus orígenes, edad e identidad profesional. ¡Hablamos pronto!
+
+**한국어 번역:**
+축하합니다! 신체적 묘사에서 한 걸음 나아가 심리적 깊이까지 다루게 되었습니다. 성격에 대해 말할 수 있게 된 것은 여러분의 정체성을 표현하고 스페인어권 세계의 독특한 인물들과 연결될 수 있게 해줍니다. 다음 장에서는 여러분의 기원, 나이, 직업적 정체성을 탐구하며 이러한 정체성을 공고히 할 것입니다. 곧 다시 이야기 나눠요!
 
 ---
 

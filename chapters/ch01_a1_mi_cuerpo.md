@@ -181,7 +181,10 @@ Check your progress! Can you do the following?
 ---
 
 ## 10. Cierre
-¡Excelente trabajo! You've successfully navigated the first chapter of your Spanish journey. You now have the tools to talk about your physical self and basic needs. Remember, learning a language is like exercising a muscle—keep practicing the `tener` phrases daily. ¡Hasta pronto!
+¡Buen trabajo! Has completado el primer capítulo de tu viaje por la lengua española. Ahora conoces las partes de tu cuerpo y cómo cuidarlas. Esta es la base para expresar tus necesidades físicas y bienestar. En el próximo capítulo, aprenderemos a describir quiénes somos y cómo es nuestra personalidad. ¡Sigue así!
+
+**한국어 번역:**
+잘하셨습니다! 스페인어 여행의 첫 번째 장을 마쳤습니다. 이제 여러분은 신체 부위와 관리 방법을 알게 되었습니다. 이것은 신체적 필요와 웰빙을 표현하는 기초가 됩니다. 다음 장에서는 우리가 누구인지, 그리고 우리의 성격은 어떤지 묘사하는 법을 배울 것입니다. 계속 힘내세요!
 
 ---
 

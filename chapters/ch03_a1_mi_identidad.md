@@ -185,7 +185,10 @@ Hola, me llamo Minho y soy de Corea del Sur. Ahora vivo en Madrid porque soy est
 ---
 
 ## 10. Cierre
-¡Felicidades! Ahora ya sabes cómo definir quién eres en español. La identidad es el primer paso para conectar con los demás. En el próximo capítulo, conoceremos a la familia y a los amigos para seguir ampliando tu mundo. ¡Sigue así!
+¡Felicidades! Ahora ya sabes cómo definir quién eres en español. La identidad es el primer paso para conectar con los demás. En el próximo capítulo, conoceremos a la familia y a los amigos para seguir ampliando tu world. ¡Sigue así!
+
+**한국어 번역:**
+축하합니다! 이제 여러분은 스페인어로 자신이 누구인지 정의하는 법을 알게 되었습니다. 정체성은 타인과 연결되는 첫 번째 단계입니다. 다음 장에서는 가족과 친구들을 만나며 여러분의 세계를 계속 넓혀갈 것입니다. 계속 힘내세요!
 
 ---
 

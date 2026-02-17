@@ -170,7 +170,10 @@ Check your progress! Can you do the following?
 ---
 
 ## 10. Cierre
-¡Fantástico! You have elevated your Spanish to a practical, functional level regarding health. Navigating a foreign healthcare system can be daunting, but with these words and structures, you are well-prepared. Stay healthy and continue applying these "English Bridge" connections! ¡Ánimo!
+¡Enhorabuena! Has profundizado en el conocimiento de tu cuerpo, salud y bienestar. Entender cómo funciona tu cuerpo y cómo expresar sensaciones físicas es un paso gigante hacia la fluidez y la autonomía. En el próximo capítulo, llevaremos este conocimiento más allá: exploraremos cómo describir la personalidad y el carácter para conectar mejor con los demás. ¡Hasta pronto!
+
+**한국어 번역:**
+축하합니다! 신체, 건강, 웰빙에 대한 지식을 심화하셨습니다. 신체가 어떻게 작동하는지 이해하고 신체적 감각을 표현하는 것은 유창함과 자율성을 향한 큰 발걸음입니다. 다음 장에서는 이 지식을 더 확장하여, 타인과 더 잘 소통하기 위해 성격과 기질을 묘사하는 방법을 탐구해 보겠습니다. 곧 만나요!
 
 ---
 

@@ -196,7 +196,10 @@ Carlos es mi mejor amigo. Él es de Madrid, pero vive en Barcelona. Carlos es un
 ---
 
 ## 10. Cierre
-¡Buen trabajo! You now have the power to describe the world and people around you. Language is about connection, and being able to explain "who you are" is the first step to building a bridge with others. Next, we will dive into your identity—name, age, and where you come from. ¡Nos vemos!
+¡Buen trabajo! Ahora tienes las herramientas básicas para describir a las personas, tanto física como psicológicamente. La capacidad de observar y describir es fundamental para la comunicación. En el próximo capítulo, exploraremos cómo presentarnos formalmente y hablar de nuestra identidad personal. ¡Nos vemos!
+
+**한국어 번역:**
+잘하셨습니다! 이제 사람들을 신체적, 심리적으로 묘사할 수 있는 기본적인 도구를 갖추게 되었습니다. 관찰하고 묘사하는 능력은 의사소통의 기초입니다. 다음 장에서는 공식적으로 자기소개를 하고 개인의 정체성에 대해 이야기하는 법을 탐구해 보겠습니다. 다음에 만나요!
 
 ---
 

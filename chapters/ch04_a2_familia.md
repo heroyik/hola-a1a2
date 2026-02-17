@@ -165,7 +165,10 @@ En la sociedad actual, las relaciones han cambiado mucho. Juan es divorciado y t
 ---
 
 ## 10. Cierre
-¡Enhorabuena! Has llegado al final de este capítulo sobre los vínculos humanos. La familia y los amigos son el soporte emocional que nos permite crecer. Ahora que sabes cómo hablar de las personas, en el próximo capítulo aprenderemos a disfrutar de la comida, ¡otro gran pilar de la cultura hispana! ¡Buen provecho!
+¡Felicidades! Has profundizado en la complejidad de las relaciones humanas y la diversidad de las familias modernas. Esta comprensión es clave para integrarse en cualquier sociedad hispanohablante. En el próximo capítulo, cambiaremos de escala: del núcleo familiar al espacio físico donde habitamos. ¡Nos vemos en el capítulo sobre la casa!
+
+**한국어 번역:**
+축하합니다! 인간관계의 복잡성과 현대 가족의 다양성에 대해 깊이 있게 탐구하셨습니다. 이러한 이해는 스페인어권 사회에 통합되는 핵심 열쇠입니다. 다음 장에서는 규모를 바꿔서, 가족이라는 핵심단위에서 우리가 거주하는 물리적 공간인 집으로 넘어가 보겠습니다. 집 단원에서 만나요!
 
 ---
 

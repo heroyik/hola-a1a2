@@ -172,7 +172,10 @@ Hoy es domingo y estoy en casa de mis abuelos. Es el cumpleaños de mi tía Carm
 ---
 
 ## 10. Cierre
-¡Buen trabajo! Has aprendido a describir el entorno más importante de la vida: la familia y los amigos. Estos lazos son el corazón de la cultura hispana. En el próximo capítulo, nos sentaremos a la mesa para aprender todo sobre la comida y la bebida. ¡Hasta pronto!
+¡Excelente! Has aprendido a hablar de las personas más importantes en tu vida: tu familia y tus amigos. Ahora puedes compartir tus raíces y tus relaciones con otros. En el próximo capítulo, exploraremos los lugares donde vivimos y cómo describir nuestra casa. ¡Hasta la próxima!
+
+**한국어 번역:**
+훌륭합니다! 여러분의 삶에서 가장 중요한 사람들인 가족과 친구들에 대해 말하는 법을 배웠습니다. 이제 여러분의 뿌리와 주변 관계를 다른 사람들과 공유할 수 있습니다. 다음 장에서는 우리가 사는 장소와 집을 묘사하는 법을 탐구해 보겠습니다. 다음에 만나요!
 
 ---
 
