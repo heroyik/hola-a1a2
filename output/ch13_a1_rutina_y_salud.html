@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-ochre: #D4AC0D;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: white;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ─── CHAPTER TITLE ─── */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    text-align: left;
+    margin: 30pt 0 10pt 0;
+    padding-bottom: 20pt;
+    border-bottom: 4pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -0.5pt;
+}
+
+/* ─── SECTION HEADINGS ─── */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 30pt 0 12pt 0;
+    padding-bottom: 5pt;
+    border-bottom: 1px solid var(--border-color);
+    display: flex;
+    align-items: center;
+}
+
+h2::before {
+    content: "●";
+    color: var(--spanish-ochre);
+    margin-right: 10pt;
+    font-size: 14pt;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 20pt 0 8pt 0;
+    background-color: var(--bg-warm);
+    padding: 5pt 10pt;
+    border-radius: 4pt;
+    border-left: 3pt solid var(--spanish-olive);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 15pt 0 5pt 0;
+}
+
+/* ─── BLOCKQUOTES ─── */
+blockquote {
+    background: var(--bg-warm);
+    border-left: 4pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+    font-style: italic;
+    color: var(--slate-grey);
+}
+
+/* ─── TABLES ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 15pt 0 20pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 8pt;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    page-break-inside: avoid;
+    display: table; /* Ensure block-level behavior for break avoidance */
+}
+
+thead {
+    background-color: var(--spanish-red);
+    color: white;
+}
+
+th {
+    padding: 10pt 12pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1pt;
+    font-size: 8pt;
+}
+
+td {
+    padding: 8pt 12pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 4pt 12pt 4pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 5pt;
+    margin-bottom: 15pt;
+    text-align: left;
+}
+
+em {
+    font-style: italic;
+    color: var(--text-light);
+    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 5pt solid #3498DB;
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-important {
+    background: #FEF9E7;
+    border-left: 5pt solid var(--spanish-ochre);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+.admonition-warning {
+    background: #FDEDEC;
+    border-left: 5pt solid var(--spanish-red);
+    padding: 12pt 16pt;
+    margin: 15pt 0;
+    border-radius: 8pt;
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12pt;
+    margin: 20pt 0;
+    display: block;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--border-color);
+    margin: 30pt 100pt;
+    opacity: 0.3;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 10pt 0 15pt 25pt;
+}
+
+li {
+    margin-bottom: 5pt;
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    border-bottom: 1px dashed var(--spanish-red);
+}
+p {
+    margin: 6pt 0 10pt 0;
+}
+
+/* ─── EMOJI SIZING ─── */
+p, td, li {
+    line-height: 1.8;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-ochre);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 30pt 50pt;
+    background-color: white;
+}
+
+.cervantes-ref {
+    font-size: 10.5pt;
+    color: var(--text-main);
+    margin: 10pt 0 20pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+}
+
+@media print {
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+    }
+}
+</style>
+</head>
+<body>
+<div class="container">
+<h1 id="chapter-13-rutina-y-salud-a1">Chapter 13: Rutina y salud (A1)</h1>
+<p class="cervantes-ref">Cervantes: §11 일상생활, §15 신체 및 건강 기초</p>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Mi día a día (나의 하루하루)</strong><br />
+우리의 일상은 작은 습관들로 채워집니다. 아침에 일어나서 세수를 하고, 밥을 먹고, 잠자리에 들기까지의 과정을 스페인어로 표현할 수 있다면 여러분의 일상은 더욱 생생해질 것입니다. 이번 장에서는 '나를 씻기다(lavarse)'와 같이 나 자신에게 일어나는 행동을 나타내는 '재귀 동사(Reflexive Verbs)'를 배웁니다. 또한 한국과는 사뭇 다른 스페인 사람들의 독특한 하루 일과표와 기초적인 건강 관련 표현들도 함께 알아볼까요?</p>
+<p><strong>학습 목표</strong><br />
+- 일상 일과, 시간 표현 및 신체 부위 기초 어휘 15개 이상 습득<br />
+- 재귀 동사(Levantarse, Ducharse, Acostarse 등)의 현재형 변화와 활용<br />
+- 하루 일과를 시간 순서대로 말하기 (Primero, Después, Luego, Por último)<br />
+- 스페인의 전형적인 식사 시간과 늦은 밤 문화 이해</p>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...?</strong> 스페인의 저녁 식사 시간은 유럽에서 가장 늦기로 유명합니다. 보통 밤 9시나 10시에 저녁을 먹죠. 그래서 스페인의 밤거리는 자정이 넘어도 활기가 넘칩니다. "¡Qué tarde!"라고 놀라지 마세요, 그것이 스페인의 진정한 라이프스타일이니까요!</div>
+<hr />
+<h2 id="2-vocabulario-esencial-mi-rutina-diaria">2. Vocabulario Esencial: Mi Rutina Diaria</h2>
+<p>우리의 아침부터 밤까지를 채우는 활동들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
+<p><img alt="Rutina" src="../images/ch13_a1_vocab_routine.png" /></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">#</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">1</td>
+<td style="text-align: left;"><strong>levantarse</strong></td>
+<td style="text-align: left;"><strong>Levitate</strong> (get up)</td>
+<td style="text-align: left;">일어나다</td>
+</tr>
+<tr>
+<td style="text-align: left;">2</td>
+<td style="text-align: left;"><strong>ducharse</strong></td>
+<td style="text-align: left;"><strong>Douche / Shower</strong> ✅</td>
+<td style="text-align: left;">샤워하다</td>
+</tr>
+<tr>
+<td style="text-align: left;">3</td>
+<td style="text-align: left;"><strong>desayunar</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">아침 식사하다</td>
+</tr>
+<tr>
+<td style="text-align: left;">4</td>
+<td style="text-align: left;"><strong>lavarse los dientes</strong></td>
+<td style="text-align: left;"><strong>Lave</strong> (wash) / <strong>Dental</strong></td>
+<td style="text-align: left;">양치하다</td>
+</tr>
+<tr>
+<td style="text-align: left;">5</td>
+<td style="text-align: left;"><strong>trabajar / estudiar</strong></td>
+<td style="text-align: left;"><strong>Work / Study</strong> ✅</td>
+<td style="text-align: left;">일하다 / 공부하다</td>
+</tr>
+<tr>
+<td style="text-align: left;">6</td>
+<td style="text-align: left;"><strong>almorzar / comer</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">점심 식사하다</td>
+</tr>
+<tr>
+<td style="text-align: left;">7</td>
+<td style="text-align: left;"><strong>descansar</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">쉬다</td>
+</tr>
+<tr>
+<td style="text-align: left;">8</td>
+<td style="text-align: left;"><strong>cenar</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">저녁 식사하다</td>
+</tr>
+<tr>
+<td style="text-align: left;">9</td>
+<td style="text-align: left;"><strong>acostarse</strong></td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">잠자리에 들다</td>
+</tr>
+<tr>
+<td style="text-align: left;">10</td>
+<td style="text-align: left;"><strong>dormir</strong></td>
+<td style="text-align: left;"><strong>Dormitory</strong> (sleep)</td>
+<td style="text-align: left;">자다</td>
+</tr>
+</tbody>
+</table>
+<p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<p>하루의 일과와 건강 상태를 말할 때 자주 사용하는 패턴입니다.</p>
+<p><strong>A. 일과 말하기 (La Rutina)</strong><br />
+- <strong>Me levanto a las siete.</strong> (I get up at seven. / 나는 7시에 일어나요.)<br />
+- <strong>Me ducho por la mañana.</strong> (I shower in the morning. / 나는 아침에 샤워해요.)<br />
+- <strong>Salgo de casa a las ocho y media.</strong> (I leave home at eight-thirty. / 8시 반에 집을 나섭니다.)<br />
+- <strong>Vuelvo a casa tarde.</strong> (I return home late. / 집에 늦게 돌아와요.)</p>
+<p><strong>B. 건강 및 상태 표현 (Salud)</strong><br />
+- <strong>¿Cómo estás?</strong> (How are you? / 기분이 어때요? / 건강은 어떠세요?)<br />
+- <strong>Me siento bien / mal.</strong> (I feel good / bad. / 기분이 좋아요 / 안 좋아요.)<br />
+- <strong>Estoy cansado / cansada.</strong> (I am tired. / 피곤해요.)<br />
+- <strong>Tengo sueño.</strong> (I am sleepy. / 졸려요.)</p>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<p>나 자신에게 일어나는 행동을 표현하는 재귀 동사를 정복해 봅시다.</p>
+<h3 id="verbos-reflexivos">재귀 동사 (Verbos Reflexivos)</h3>
+<p>동사원형 끝에 <code>-se</code>가 붙은 동사들입니다. 주어가 하는 행동이 다시 주어 자신에게 돌아올 때 사용합니다.<br />
+<strong>구조: 재귀 대명사(me, te, se, nos, os, se) + 변형된 동사</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">인칭</th>
+<th style="text-align: left;"><strong>Levantars</strong> (일어나다)</th>
+<th style="text-align: left;">영어 매핑</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Yo</strong></td>
+<td style="text-align: left;"><strong>me</strong> levant<strong>o</strong></td>
+<td style="text-align: left;">I get (myself) up</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Tú</strong></td>
+<td style="text-align: left;"><strong>te</strong> levant<strong>as</strong></td>
+<td style="text-align: left;">You get (yourself) up</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Él/Ella/Ud.</strong></td>
+<td style="text-align: left;"><strong>se</strong> levant<strong>a</strong></td>
+<td style="text-align: left;">He/She/You get (him/her/yourself) up</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Nosotros/as</strong></td>
+<td style="text-align: left;"><strong>nos</strong> levant<strong>amos</strong></td>
+<td style="text-align: left;">We get (ourselves) up</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Vosotros/as</strong></td>
+<td style="text-align: left;"><strong>os</strong> levant<strong>áis</strong></td>
+<td style="text-align: left;">You all get (yourselves) up</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ellos/Ellas/Uds.</strong></td>
+<td style="text-align: left;"><strong>se</strong> levant<strong>an</strong></td>
+<td style="text-align: left;">They/You all get (themselves/yourselves) up</td>
+</tr>
+</tbody>
+</table>
+<p><strong>순서 표현 부사 (Connectors):</strong><br />
+- <strong>Primero</strong> (First) → <strong>Después / Luego</strong> (Then / After) → <strong>Por último</strong> (Finally)</p>
+<hr />
+<h2 id="5-cultura-viva-el-horario-espanol-vida-nocturna">5. Cultura Viva: El Horario Español - Vida Nocturna</h2>
+<p>스페인의 하루는 어떻게 흘러갈까요?</p>
+<p><img alt="Spanish Night Culture" src="../images/ch13_a1_culture_schedule.png" /></p>
+<p>El horario en España es único. La mayoría de los españoles empiezan el día entre las 7:30 y las 8:30. El <strong>desayuno</strong> es ligero, a menudo solo un café. A las 11:00 hay una pausa para el café y un pequeño bocadillo. La comida más importante es el <strong>almuerzo</strong> (a las 14:00), que es largo y social.</p>
+<p>Después del almuerzo, algunos todavía mantienen la tradición de la <strong>siesta</strong>, aunque es menos común en las grandes ciudades. Por la tarde, la gente pasea o se reúne en los bares para tomar algo. La <strong>cena</strong> es muy tarde, normalmente entre las 21:00 y las 22:30. Debido a este horario, la vida nocturna en España es muy vibrante; las calles están llenas de gente de todas las edades disfrutando del aire fresco de la noche. ¡Es un país que nunca duerme temprano!</p>
+<p><strong>[한국어 번역]</strong><br />
+스페인의 시간표는 독특합니다. 대부분의 스페인 사람들은 아침 7시 반에서 8시 반 사이에 하루를 시작합니다. 아침 식사는 가볍게, 종종 커피 한 잔 정도로 끝냅니다. 오전 11시에는 커피와 작은 샌드위치를 먹는 휴식 시간이 있죠. 하루 중 가장 중요한 식사는 오후 2시에 먹는 점심(<strong>알무에르소</strong>)인데, 길고 사교적인 시간입니다.</p>
+<p>점심 식사 후 일부는 여전히 <strong>낮잠(siesta)</strong> 전통을 유지하지만, 대도시에서는 덜 흔합니다. 오후에는 사람들이 산책하거나 바(bar)에 모여 음료를 마십니다. 저녁 식사는 매우 늦어서, 보통 밤 9시에서 10시 반 사이에 먹습니다. 이러한 시간표 덕분에 스페인의 밤문화는 매우 활기찹니다. 밤의 신선한 공기를 즐기며 거리는 모든 연령대의 사람들로 가득 차죠. 스페인은 일찍 잠들지 않는 나라입니다!</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<p><strong>A. Put the routine in order (일과를 시간 순서대로 나열하세요)</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Activity</th>
+<th style="text-align: left;">Order (1-5)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">a. Cenar con la familia</td>
+<td style="text-align: left;">( )</td>
+</tr>
+<tr>
+<td style="text-align: left;">b. Levantarse y ducharse</td>
+<td style="text-align: left;">( )</td>
+</tr>
+<tr>
+<td style="text-align: left;">c. Acostarse y dormir</td>
+<td style="text-align: left;">( )</td>
+</tr>
+<tr>
+<td style="text-align: left;">d. Trabajar o estudiar</td>
+<td style="text-align: left;">( )</td>
+</tr>
+<tr>
+<td style="text-align: left;">e. Almorzar con compañeros</td>
+<td style="text-align: left;">( )</td>
+</tr>
+</tbody>
+</table>
+<p><strong>B. 재귀 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)</strong></p>
+<ol>
+<li>Yo (..........) a las ocho. (levantarse)</li>
+<li>¿Tú (..........) todos los días? (ducharse)</li>
+<li>Nosotros (..........) muy temprano. (acostarse - o&gt;ue 불규칙: nos acostamos)</li>
+<li>Mi hermano (..........) los dientes. (lavarse)</li>
+<li>Ellos (..........) tarde los domingos. (levantarse)</li>
+</ol>
+<p><strong>C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)</strong></p>
+<ol>
+<li>나는 아침 7시에 일어납니다.<br />
+   (............................................................)</li>
+<li>당신은 언제 샤워를 하나요?<br />
+   (............................................................)</li>
+<li>우리는 집에서 저녁을 먹어요.<br />
+   (............................................................)</li>
+<li>제 친구는 늘 피곤해요.<br />
+   (............................................................)</li>
+<li>먼저 밥을 먹고, 그 다음에 공부해요. (Primero/Después 활용)<br />
+   (............................................................)</li>
+</ol>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<p><strong>Un día normal para Elena (엘레나의 평범한 하루)</strong></p>
+<p>¡Hola! Soy Elena y vivo en Madrid. Mi rutina es muy española. Primero, me levanto a las ocho y me ducho rápidamente. No desayuno mucho, solo un café con leche. Después, voy a la universidad en metro. Tengo clases hasta las 두 시(dos de la tarde). A esa hora, almuerzo con mis amigos en la cafetería. Estudiamos un poco por la tarde y luego voy al gimnasio. Vuelvo a casa a las ocho de la tarde. Ceno con mi familia a las diez de la noche. Por último, leo un libro y me acuesto a las doce. ¡Estoy cansada pero muy feliz!</p>
+<p><strong>Questions:</strong><br />
+1. Elena는 아침에 무엇을 먹나요? (What does Elena have for breakfast?)<br />
+   - ............................................................<br />
+2. Elena는 몇 시에 저녁을 먹나요? (What time does Elena have dinner?)<br />
+   - ............................................................</p>
+<p><strong>[한국어 번역]</strong><br />
+안녕하세요! 저는 엘레나이고 마드리드에 삽니다. 제 일과는 매우 스페인식이에요. 먼저, 8시에 일어나서 빨리 샤워를 합니다. 아침은 많이 먹지 않고, 카페라테 한 잔만 마셔요. 그 후, 지하철을 타고 대학교에 갑니다. 오후 2시까지 수업이 있어요. 그 시간에 친구들과 함께 카페테리아에서 점심을 먹습니다. 오후에는 공부를 좀 하고 체육관에 가요. 오후 8시에 집에 돌아옵니다. 밤 10시에 가족들과 저녁을 먹어요. 마지막으로 책을 읽고 자정에 잠자리에 듭니다. 피곤하지만 정말 행복해요!</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<p><strong>¿Qué tal tu día? (오늘 하루 어땠어?)</strong></p>
+<p><strong>Situación:</strong> Dos amigos, Marc y Sonia, hablan sobre sus rutinas diarias.<br />
+<strong>상황:</strong> 두 친구 마르크와 소니아가 서로의 일과에 대해 이야기합니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">Korean</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Marc:</strong> Hola Sonia, ¿cómo estás? Te veo cansada.</td>
+<td style="text-align: left;"><strong>마르크:</strong> 안녕 소니아, 어때? 피곤해 보이네.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sonia:</strong> Sí, estoy muy cansada. Me levanto a las seis todos los días.</td>
+<td style="text-align: left;"><strong>소니아:</strong> 응, 정말 피곤해. 매일 6시에 일어나거든.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marc:</strong> ¡Qué temprano! ¿Por qué?</td>
+<td style="text-align: left;"><strong>마르크:</strong> 진짜 빠르네! 왜?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sonia:</strong> Trabajo en una oficina lejos de casa. Salgo a las siete de la mañana.</td>
+<td style="text-align: left;"><strong>소니아:</strong> 집에서 먼 사무실에서 일해. 아침 7시에 나가야 해.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marc:</strong> Entiendo. ¿A qué hora vuelves a casa?</td>
+<td style="text-align: left;"><strong>마르크:</strong> 그렇구나. 집에 몇 시에 돌아와?</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Sonia:</strong> Vuelvo a las ocho de la tarde. Ceno y me acuesto enseguida.</td>
+<td style="text-align: left;"><strong>소니아:</strong> 저녁 8시에 돌아와. 저녁 먹고 바로 자.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Marc:</strong> ¡Pobre Sonia! Los fines de semana tienes que descansar mucho.</td>
+<td style="text-align: left;"><strong>마르트:</strong> 가엾은 소니아! 주말에는 푹 쉬어야 해.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
+<p>이번 장의 핵심 내용을 복습해 보세요.<br />
+- [ ] 일상 일과와 관련된 단어 10개 이상을 알고 있나요?<br />
+- [ ] 재귀 동사의 변화와 재귀 대명사(me, te, se...)를 외웠나요?<br />
+- [ ] 시간 순서를 나타내는 부사(Primero, Luego...)를 사용할 수 있나요?<br />
+- [ ] 스페인의 늦은 저녁 식사 문화를 이해했나요?</p>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Buen ritmo! 오늘 여러분은 삶의 가장 기본인 '일과'를 스페인어로 통제하는 법을 배웠습니다. 재귀 동사를 통해 나 자신의 행동을 설명할 수 있게 되었고, 스페인의 독특한 시간표를 통해 그들의 삶의 리듬을 이해하게 되었습니다. 언어는 습관입니다. 매일 조금씩 스페인어를 사용하는 습관이 여러분을 마스터로 이끌 것입니다. 다음 장에서는 우리의 몸과 마음을 돌보는 '가사, 건강 심화 및 증상 말하기(A2)' 섹션으로 이어가겠습니다. ¡Cuídate mucho! (몸조심하세요!)</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<p><strong>6. Práctica - A. Put the routine in order</strong><br />
+b - d - e - a - c</p>
+<p><strong>6. Práctica - B. 재귀 동사 변형 연습</strong><br />
+1. me levanto / 2. te duchas / 3. nos acostamos / 4. se lava / 5. se levantan</p>
+<p><strong>6. Práctica - C. 번역 연습</strong><br />
+1. Me levanto a las siete de la mañana.<br />
+2. ¿A qué hora te duchas? (또는 ¿Cuándo te duchas?)<br />
+3. Cenamos en casa.<br />
+4. Mi amigo está siempre cansado. (또는 Mi amigo siempre está cansado.)<br />
+5. Primero como, y después estudio.</p>
+<p><strong>7. Lectura Questions</strong><br />
+1. 카페라테 한 잔 (Un café con leche).<br />
+2. 밤 10시 (A las diez de la noche).</p>
+</div>
+</body>
+</html>
