@@ -21,18 +21,28 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 
 ![Vida Universitaria](../images/ch07_a2_vocab_university.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la biblioteca** | **Library** ✅ | 도서관 |
-| 2 | **la facultad** | **Faculty** ✅ | 학부 (단과 대학 건물) |
-| 3 | **el carné de estudiante** | — | 학생증 |
-| 4 | **la beca** | — | 장학금 (증서) |
-| 5 | **el horario** | **Hour** / **Schedule** | 시간표 |
-| 6 | **la asignatura** | — | 과목 (전공/교양) |
-| 7 | **la nota** | **Note** ✅ (Grade) | 성적 (점수) |
-| 8 | **la graduación** | **Graduation** ✅ | 졸업 (식) |
-| 9 | **el pasillo** | **Passage** | 복도 |
-| 10 | **la cafetería** | **Cafeteria** ✅ | 카페테리아 (학생 식당) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la biblioteca</strong></td><td><strong>Library</strong> ✅</td><td>도서관</td></tr>
+    <tr><td>2</td><td><strong>la facultad</strong></td><td><strong>Faculty</strong> ✅</td><td>학부 (단과 대학 건물)</td></tr>
+    <tr><td>3</td><td><strong>el carné de estudiante</strong></td><td>—</td><td>학생증</td></tr>
+    <tr><td>4</td><td><strong>la beca</strong></td><td>—</td><td>장학금 (증서)</td></tr>
+    <tr><td>5</td><td><strong>el horario</strong></td><td><strong>Hour</strong> / <strong>Schedule</strong></td><td>시간표</td></tr>
+    <tr><td>6</td><td><strong>la asignatura</strong></td><td>—</td><td>과목 (전공/교양)</td></tr>
+    <tr><td>7</td><td><strong>la nota</strong></td><td><strong>Note</strong> ✅ (Grade)</td><td>성적 (점수)</td></tr>
+    <tr><td>8</td><td><strong>la graduación</strong></td><td><strong>Graduation</strong> ✅</td><td>졸업 (식)</td></tr>
+    <tr><td>9</td><td><strong>el pasillo</strong></td><td><strong>Passage</strong></td><td>복도</td></tr>
+    <tr><td>10</td><td><strong>la cafetería</strong></td><td><strong>Cafeteria</strong> ✅</td><td>카페테리아 (학생 식당)</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -58,18 +68,60 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 ## 4. Gramática Esencial
 이번 장에서는 생생한 동작을 나타내는 진행형과 대상을 비교하는 정교한 문법을 배웁니다.
 
-### A. 현재진행형 (Estar + Gerundio)
-지금 이 순간 일어나고 있는 동작을 나타냅니다. (be + -ing)
+### A. 현재진행형 (Presente Continuo: Estar + Gerundio)
+지금 이 순간 일어나고 있는 동작을 나타낼 때 사용합니다. 영어의 'be + -ing'와 구조가 매우 비슷하여 영어 상급자인 여러분이 가장 쉽게 익힐 수 있는 시제 중 하나입니다.
 
-1. **규칙 변화**:
-   - **-AR**: -ando (*hablando*)
-   - **-ER / -IR**: -iendo (*comiendo, viviendo*)
-2. **불규칙 변화 (주의!)**:
-   - **i로 변함**: decir → d**i**ciendo, pedir → p**i**diendo, servir → s**i**rviendo
-   - **u로 변함**: dormir → d**u**rmiendo, morir → m**u**riendo
-   - **y로 변함**: leer → le**y**endo, traer → tra**y**endo, ir → va**y**endo
+**💡 English Bridge: "be + -ing"**
+- 스페인어 진행형은 **Estar 동사(be)** + **Gerundio(-ing)** 형태로 만듭니다.
+- *Tip*: 영어에서는 진행형으로 미래를 나타내기도 하지만(I'm leaving tomorrow), 스페인어에서는 반드시 **'지금 하고 있는 일'**에만 사용합니다!
 
-**예문**: *Ahora **estoy estudiando** en la biblioteca.* (지금 나는 도서관에서 공부하고 있다.)
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">동사 형태 (-ar / -er / -ir)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">규칙 어미 (Ending)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">예시 (Example)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>-AR</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>-ando</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Hablar → Habl<strong>ando</strong></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>-ER / -IR</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;"><strong>-iendo</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Comer → Com<strong>iendo</strong> / Vivir → Viv<strong>iendo</strong></td>
+    </tr>
+  </tbody>
+</table>
+
+#### 필수 불규칙 현재분사 (Mandatory Irregular Gerunds - Presente Continuo)
+다음 동사들은 Gerundio 형태가 불규칙하므로 주의해야 합니다. 특히 모음 변화가 일어나는 경우(e→i, o→u)와 y가 삽입되는 경우를 잘 봐두세요. (Estar, Ir, Leer, Repetir, Decir, Venir, Dormir, Morir)
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">유형 (Type)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">동사 원형 (Infinitive)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">진행형 어미 (Gerundio)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Estar</strong></td><td>estar</td><td>estando</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ir</strong></td><td>ir</td><td>yendo</td></tr>
+    <tr><td rowspan="3" style="padding: 10px; border: 1px solid #ddd;"><strong>e → i 변화</strong></td><td>decir (to say)</td><td>d<strong>i</strong>ciendo</td></tr>
+    <tr><td>repetir (to repeat)</td><td>rep<strong>i</strong>tiendo</td></tr>
+    <tr><td>venir (to come)</td><td>v<strong>i</strong>niendo</td></tr>
+    <tr><td rowspan="2" style="padding: 10px; border: 1px solid #ddd;"><strong>o → u 변화</strong></td><td>dormir (to sleep)</td><td>d<strong>u</strong>rmiendo</td></tr>
+    <tr><td>morir (to die)</td><td>m<strong>u</strong>riendo</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>y 삽입 / 기타</strong></td><td>leer (to read)</td><td>le<strong>y</strong>endo</td></tr>
+  </tbody>
+</table>
+
+**💡 Korean Tip!**
+현재진행형(Presente Continuo)은 'Estar' 동사를 주어에 맞춰 변화시킨 후, 그 뒤에 Gerundio를 붙입니다. (예: Estoy comiendo, Están viviendo). Estar 변화를 잊지 마세요!
 
 ### B. 비교급과 최상급 (Comparativos y Superlativos)
 사물이나 사람의 상태를 비교할 때 사용합니다.
@@ -155,16 +207,24 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 **Situación:** Elena y Javier están hablando sobre sus asignaturas y el nuevo horario del semestre.
 **상황:** 엘레나와 하비에르가 그들의 과목과 이번 학기 새 시간표에 대해 이야기하고 있습니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Elena:** Hola Javier, ¿qué estás haciendo? Te veo muy concentrado. | **엘레나:** 안녕 하비에르, 뭐 하고 있어? 아주 집중하고 있네. |
-| **Javier:** Estoy mirando mi nuevo horario. Tengo una asignatura muy temprano. | **하비에르:** 내 새 시간표를 보고 있어. 아주 이른 아침 수업이 하나 있거든. |
-| **Elena:** ¿Es más difícil que la del semestre pasado? | **엘레나:** 지난 학기 과목보다 더 어렵니? |
-| **Javier:** Sí, es la peor. Además, la facultad de economía está más lejos que esta. | **하비에르:** 응, 최악이야. 게다가 경제학부는 여기보다 더 멀어. |
-| **Elena:** Yo estoy solicitando un cambio de grupo ahora mismo. | **엘레나:** 나는 지금 바로 반 변경을 신청하고 있어. |
-| **Javier:** ¿Ah sí? ¿Por qué? | **하비에르:** 아 그래? 왜? |
-| **Elena:** Porque el otro profesor es mejor y explica más claro. | **엘레나:** 왜냐하면 다른 교수님이 더 좋고 더 명확하게 설명해주시거든. |
-| **Javier:** ¡Buena idea! Yo también voy a ver 만약 내가 할 수 있는지. | **하비에르:** 좋은 생각이다! 나도 할 수 있는지 한번 봐야겠어. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Hola Javier, ¿qué estás haciendo? Te veo muy concentrado.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 안녕 하비에르, 뭐 하고 있어? 아주 집중하고 있네.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> Estoy mirando mi nuevo horario. Tengo una asignatura muy temprano.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 내 새 시간표를 보고 있어. 아주 이른 아침 수업이 하나 있거든.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> ¿Es más difícil que la del semestre pasado?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 지난 학기 과목보다 더 어렵니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> Sí, es la peor. Además, la facultad de economía está más lejos que esta.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 응, 최악이야. 게다가 경제학부는 여기보다 더 멀어.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Yo estoy solicitando un cambio de grupo ahora mismo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 나는 지금 바로 반 변경을 신청하고 있어.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> ¿Ah sí? ¿Por qué?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 아 그래? 왜?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Porque el otro profesor es mejor y explica más claro.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 왜냐하면 다른 교수님이 더 좋고 더 명확하게 설명해주시거든.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> ¡Buena idea! Yo también voy a ver si puedo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 좋은 생각이다! 나도 할 수 있는지 한번 봐야겠어.</td></tr>
+  </tbody>
+</table>
 
 ---
 

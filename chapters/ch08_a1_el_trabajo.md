@@ -58,24 +58,39 @@
 ## 4. Gramática Esencial
 직업을 표현할 때 꼭 필요한 'Ser' 동사의 복습과 'Trabajar' 동사의 활용을 배워봅시다.
 
-### A. Ser + 직업
+### A. Ser + 직업 (Presente)
 주어의 신분이나 직업을 나타낼 때는 `Ser` 동사를 사용합니다. 이때 직업 앞에 관사(un, una)를 생략하는 것이 표준입니다.
 - **Yo soy profesor.** (나는 선생님이다.)
 - **Ella es ingeniera.** (그녀는 엔지니어이다.)
 
-### B. Trabajar (일하다) - 현재형
+### B. Trabajar (일하다) - 현재형 (Presente)
 'trabajar'는 전형적인 -ar 규칙 동사입니다.
-| 인칭 | **Trabajar** | 영어 매핑 (to work) |
-| :--- | :--- | :--- |
-| **Yo** | trabaj**o** | I work |
-| **Tú** | trabaj**as** | You work |
-| **Él/Ella/Ud.** | trabaj**a** | He/She/You work |
-| **Nosotros/as** | trabaj**amos** | We work |
-| **Vosotros/as** | trabaj**áis** | You all work |
-| **Ellos/Ellas/Uds.** | trabaj**an** | They/You all work |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">인칭</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Trabajar</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to work)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>trabaj<strong>o</strong></td><td>I work</td></tr>
+    <tr><td><strong>Tú</strong></td><td>trabaj<strong>as</strong></td><td>You work</td></tr>
+    <tr><td><strong>Él, Ella, Ud.</strong></td><td>trabaj<strong>a</strong></td><td>He, She, You work</td></tr>
+    <tr><td><strong>Nosotros</strong></td><td>trabaj<strong>amos</strong></td><td>We work</td></tr>
+    <tr><td><strong>Vosotros</strong></td><td>trabaj<strong>áis</strong></td><td>You all work</td></tr>
+    <tr><td><strong>Ellos, Ellas, Uds.</strong></td><td>trabaj<strong>an</strong></td><td>They, You all work</td></tr>
+  </tbody>
+</table>
 
-**Korean Tip!**
-'Dedicarse a'(~에 종사하다)라는 표현도 자주 씁니다. 만약 "저는 마케팅 분야에 종사해요"라고 하고 싶다면 "Me dedico al marketing"이라고 말해보세요. 훨씬 전문적인 느낌을 줍니다!
+**💡 English Bridge: Stem & Ending**
+- **Stem (어근)**: 동사의 의미를 담고 있는 앞부분
+- **Ending (어미)**: 주어에 따라 변하는 뒷부분
+
+**💡 Korean Tip!**
+직업을 말할 때 관사를 생략하는 스페인어만의 독특한 규칙을 꼭 기억하세요!
+
+**Mandatory Irregulars (Presente):** ser, estar, ir, tener, saber, poder
 
 ---
 

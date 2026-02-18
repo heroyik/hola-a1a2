@@ -21,18 +21,28 @@
 
 ![La Escuela](../images/ch07_a1_vocab_school.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **el profesor** | **Professor** ✅ | 교수님 (선생님) |
-| 2 | **el estudiante** | **Student** ✅ | 학생 |
-| 3 | **la pizarra** | — | 칠판 (화이트보드) |
-| 4 | **el pupitre** | — | 학생용 책상 |
-| 5 | **el ordenador portátil** | — | 노트북 컴퓨터 |
-| 6 | **el libro** | **Library** (place for books) | 책 |
-| 7 | **el cuaderno** | — | 공책 (노트) |
-| 8 | **el bolígrafo / el boli** | — | 볼펜 |
-| 9 | **la mochila** | — | 배낭 (책가방) |
-| 10 | **el examen** | **Exam** ✅ | 시험 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>el profesor</strong></td><td><strong>Professor</strong> ✅</td><td>교수님 (선생님)</td></tr>
+    <tr><td>2</td><td><strong>el estudiante</strong></td><td><strong>Student</strong> ✅</td><td>학생</td></tr>
+    <tr><td>3</td><td><strong>la pizarra</strong></td><td>—</td><td>칠판 (화이트보드)</td></tr>
+    <tr><td>4</td><td><strong>el pupitre</strong></td><td>—</td><td>학생용 책상</td></tr>
+    <tr><td>5</td><td><strong>el ordenador portátil</strong></td><td>—</td><td>노트북 컴퓨터</td></tr>
+    <tr><td>6</td><td><strong>el libro</strong></td><td><strong>Library</strong> (place for books)</td><td>책</td></tr>
+    <tr><td>7</td><td><strong>el cuaderno</strong></td><td>—</td><td>공책 (노트)</td></tr>
+    <tr><td>8</td><td><strong>el bolígrafo</strong></td><td>—</td><td>볼펜 (el boli)</td></tr>
+    <tr><td>9</td><td><strong>la mochila</strong></td><td>—</td><td>배낭 (책가방)</td></tr>
+    <tr><td>10</td><td><strong>el examen</strong></td><td><strong>Exam</strong> ✅</td><td>시험</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -58,26 +68,86 @@
 ## 4. Gramática Esencial
 스페인어 문장의 뼈대가 되는 규칙 동사의 변화와 능력/지식을 나타내는 동사를 기초부터 다져봅시다.
 
-### A. 규칙 동사 현재형 (Presente de Indicativo)
-동사 원형의 끝부분(-ar, -er, -ir)에 따라 어미가 규칙적으로 변합니다.
+### A. 규칙 동사 현재형 (Presente)
+스페인어 동사 원형은 끝부분에 따라 **-ar, -er, -ir** 그룹으로 나뉩니다. 영어와 달리 스페인어는 '누가(주어)' 행동하는지에 따라 스페인어 동사는 주어에 따라 6가지 형태로 변합니다. 여기서는 가장 기본인 **현재 시제(Presente)** 규칙 변화를 배웁니다.
 
-| 인칭 | **-AR (Hablar)** | **-ER (Comer)** | **-IR (Vivir)** |
-| :--- | :--- | :--- | :--- |
-| **Yo** | habl**o** | com**o** | viv**o** |
-| **Tú** | habl**as** | com**es** | viv**es** |
-| **Él/Ella/Ud.** | habl**a** | com**e** | viv**e** |
-| **Nosotros/as** | habl**amos** | com**emos** | viv**imos** |
-| **Vosotros/as** | habl**áis** | com**éis** | viv**ís** |
-| **Ellos/Ellas/Uds.** | habl**an** | com**en** | viv**en** |
+**💡 English Bridge: Stem & Ending**
+- **Stem (어근)**: 동사의 의미를 담고 있는 앞부분 (예: *habl-*, *com-*, *viv-*)
+- **Ending (어미)**: 주어에 따라 변하는 뒷부분 (예: *-o*, *-as*, *-a*)
+- *Thinking Tip*: English only has one change (I speak vs. He speak**s**), but Spanish has a unique ending for every person!
 
-**Korean Tip!**
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">인칭 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">-AR (Hablar)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">-ER (Comer)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">-IR (Vivir)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>habl<strong>o</strong></td><td>com<strong>o</strong></td><td>viv<strong>o</strong></td></tr>
+    <tr><td><strong>Tú</strong></td><td>habl<strong>as</strong></td><td>com<strong>es</strong></td><td>viv<strong>es</strong></td></tr>
+    <tr><td><strong>He/She/Ud.</strong></td><td>habl<strong>a</strong></td><td>com<strong>e</strong></td><td>viv<strong>e</strong></td></tr>
+    <tr><td><strong>Nosotros</strong></td><td>habl<strong>amos</strong></td><td>com<strong>emos</strong></td><td>viv<strong>imos</strong></td></tr>
+    <tr><td><strong>Vosotros</strong></td><td>habl<strong>áis</strong></td><td>com<strong>éis</strong></td><td>viv<strong>ís</strong></td></tr>
+    <tr><td><strong>They/Uds.</strong></td><td>habl<strong>an</strong></td><td>com<strong>en</strong></td><td>viv<strong>en</strong></td></tr>
+  </tbody>
+</table>
+
+**💡 Korean Tip!**
 스페인어는 동사 변화만으로 주어를 알 수 있는 경우가 많아 주어 대명사(Yo, Tú 등)를 자주 생략합니다. 동사 꼬리(어미)를 정확히 익히는 것이 핵심입니다!
 
-### B. Saber vs Poder (기초)
-- **Saber**: '지식'이나 '학습을 통해 익힌 능력'을 나타냅니다. (~할 줄 안다, 알다)
-  - 예: *Yo **sé** cocinar.* (나는 요리할 줄 안다.)
-- **Poder**: '허락'이나 '물리적 가능성'을 나타냅니다. (~할 수 있다)
-  - 예: *No **puedo** ir hoy.* (나는 오늘 갈 수 없다.)
+### B. 필수 불규칙 동사 (Essential Irregulars - Presente)
+현재 시제(Presente)에서 가장 많이 쓰이는 6대 필수 불규칙 동사입니다. 변화형이 불규칙하므로 통째로 암기하는 것이 가장 효율적입니다.
+
+**Mandatory Irregulars (Presente):** ser, estar, ir, tener, saber, poder
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ser (to be)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Estar (to be)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ir (to go)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>soy</td><td>estoy</td><td>voy</td></tr>
+    <tr><td><strong>Tú</strong></td><td>eres</td><td>estás</td><td>vas</td></tr>
+    <tr><td><strong>He/She/Ud.</strong></td><td>es</td><td>está</td><td>va</td></tr>
+    <tr><td><strong>Nosotros</strong></td><td>somos</td><td>estamos</td><td>vamos</td></tr>
+    <tr><td><strong>Vosotros</strong></td><td>sois</td><td>estáis</td><td>vais</td></tr>
+    <tr><td><strong>They/Uds.</strong></td><td>son</td><td>están</td><td>van</td></tr>
+  </tbody>
+</table>
+
+<br>
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Tener (to have)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Saber (to know)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Poder (can)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>tengo</td><td>sé</td><td>puedo</td></tr>
+    <tr><td><strong>Tú</strong></td><td>tienes</td><td>sabes</td><td>puedes</td></tr>
+    <tr><td><strong>He/She/Ud.</strong></td><td>tiene</td><td>sabe</td><td>puede</td></tr>
+    <tr><td><strong>Nosotros</strong></td><td>tenemos</td><td>sabemos</td><td>podemos</td></tr>
+    <tr><td><strong>Vosotros</strong></td><td>tenéis</td><td>sabéis</td><td>podéis</td></tr>
+    <tr><td><strong>They/Uds.</strong></td><td>tienen</td><td>saben</td><td>pueden</td></tr>
+  </tbody>
+</table>
+
+### C. Saber vs Poder (기초 구분)
+- **Saber**: '지식'이나 '학습을 통해 익힌 능력' (Knowing fact or how to do something)
+  - *English Bridge*: "I **know** how to speak Spanish." → *Yo **sé** hablar español.*
+- **Poder**: '허락'이나 '물리적/상황적 가능성' (Being able to do due to permission or means)
+  - *English Bridge*: "I **can** go now (I'm permitted/free)." → *Yo **puedo** ir ahora.*
 
 ---
 
@@ -101,11 +171,11 @@ A diferencia de otros países, en muchos colegios españoles los niños no lleva
 
 **A. Choose the correct verb ending (알맞은 동사 어미를 고르세요)**
 
-1. Yo habl(o / as) español en casa.
-2. Nosotros viv(emos / imos) en Madrid.
-3. ¿Tú com(es / e) una manzana?
-4. Ellos estudi(an / amos) mucho para el examen.
-5. Vosotros escrib(ís / éis) en el cuaderno.
+1. Yo habl**o** (또는 **o**) español en casa.
+2. Nosotros viv**imos** (또는 **imos**) en Madrid.
+3. ¿Tú com**es** (또는 **es**) una manzana?
+4. Ellos estudi**an** (또는 **an**) mucho para el examen.
+5. Vosotros escrib**ís** (또는 **ís**) en el cuaderno.
 
 **B. Saber vs Poder (알맞은 동사를 활용해 문장을 완성하세요)**
 
@@ -152,15 +222,23 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 **Situación:** Lucía le pregunta a Diego sobre el examen de mañana mientras estudian en la biblioteca.
 **상황:** 루시아가 도서관에서 공부하던 중 디에고에게 내일 시험에 대해 물어봅니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Lucía:** Hola Diego, ¿sabes dónde está el libro de historia? | **루시아:** 안녕 디에고, 역사 책이 어디에 있는지 아니? |
-| **Diego:** Sí, está encima de aquella mesa. ¿Lo necesitas? | **디에고:** 응, 저쪽 테이블 위에 있어. 필요해? |
-| **Lucía:** Sí, gracias. No puedo encontrar mis notas y mañana tenemos un examen. | **루시아:** 응, 고마워. 내 노트를 못 찾겠어. 그런데 우리 내일 시험이잖아. |
-| **Diego:** ¿De verdad? Yo estudio ahora, pero no entiendo bien el tema 3. | **디에고:** 정말? 나 지금 공부 중인데, 3단원이 잘 이해가 안 돼. |
-| **Lucía:** Yo sé la respuesta. Es muy fácil, si quieres hablamos después. | **루시아:** 내가 정답을 알아. 아주 쉬워, 원한다면 나중에 이야기하자. |
-| **Diego:** ¡Genial! ¿Podemos estudiar juntos en la cafetería? | **디에고:** 멋지다! 카페테리아에서 같이 공부할 수 있을까? |
-| **Lucía:** Vale. Pero primero vamos a terminar este capítulo. | **루시아:** 좋아. 하지만 먼저 이 단원을 끝내자. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Hola Diego, ¿sabes dónde está el libro de historia?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 안녕 디에고, 역사 책이 어디에 있는지 아니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Diego:</strong> Sí, está encima de aquella mesa. ¿Lo necesitas?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>디에고:</strong> 응, 저쪽 테이블 위에 있어. 필요해?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Sí, gracias. No puedo encontrar mis notas y mañana tenemos un examen.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 응, 고마워. 내 노트를 못 찾겠어. 그런데 우리 내일 시험이잖아.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Diego:</strong> ¿De verdad? Yo estudio ahora, pero no entiendo bien el tema 3.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>디에고:</strong> 정말? 나 지금 공부 중인데, 3단원이 잘 이해가 안 돼.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Yo sé la respuesta. Es muy fácil, si quieres hablamos después.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 내가 정답을 알아. 아주 쉬워, 원한다면 나중에 이야기하자.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Diego:</strong> ¡Genial! ¿Podemos estudiar juntos en la cafetería?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>디에고:</strong> 멋지다! 카페테리아에서 같이 공부할 수 있을까?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Vale. Pero primero vamos a terminar este capítulo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 좋아. 하지만 먼저 이 단원을 끝내자.</td></tr>
+  </tbody>
+</table>
 
 ---
 

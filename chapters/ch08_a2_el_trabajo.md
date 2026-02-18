@@ -11,8 +11,12 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 - 구인 광고 이해 및 면접 질문에 대한 답변 전략 수립
 - 스페인의 채용 프로세스와 링크드인 등 전문 네트워크 활용 이해
 
-> [!TIP]
-> **¿Sabías que...?** 스페인에서 이력서를 부를 때 'Currículum Vitae' 혹은 줄여서 'CV'라고 합니다. 스페인에서는 전통적으로 이력서에 사진을 포함하는 것이 일반적이었으나, 최근에는 국제적인 추세에 맞춰 사진을 넣지 않는 경우도 늘어나고 있습니다.
+**💡 English Bridge: Professional Terms**
+- **CV**: Curriculum Vitae
+- **Interview**: Entrevista de trabajo
+
+**💡 Korean Tip!**
+스페인어로 전공을 말할 때는 'estudiar' 동사를 주로 사용한다는 점을 명심하세요!
 
 ---
 
@@ -57,7 +61,30 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 ## 4. Gramática Esencial
 과거의 업무 경험을 입체적으로 표현하기 위해 시제를 조화롭게 사용하는 법을 익혀봅시다.
 
-### A. 단순과거 vs 불완료과거 (경력 기술 시)
+### A. 단순과거 (Indefinido) vs 불완료과거 (Imperfecto) (경력 기술 시)
+과거의 업무 경력을 설명하는 데 필수적인 시제들입니다.
+
+**Mandatory Irregulars (Indefinido):**
+estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Estar</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Poder</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ir & Ser</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>estuve</td><td>pude</td><td>fui</td></tr>
+    <tr><td><strong>Tú</strong></td><td>estuviste</td><td>pudiste</td><td>fuiste</td></tr>
+    <tr><td><strong>He/She/Ud.</strong></td><td>estuvo</td><td>pudo</td><td>fue</td></tr>
+    <tr><td><strong>Nosotros</strong></td><td>estuvimos</td><td>pudimos</td><td>fuimos</td></tr>
+    <tr><td><strong>Vosotros</strong></td><td>estuvisteis</td><td>pudisteis</td><td>fuisteis</td></tr>
+    <tr><td><strong>They/Uds.</strong></td><td>estuvieron</td><td>pudieron</td><td>fueron</td></tr>
+  </tbody>
+</table>
 - **단순과거 (Indefinido)**: 특정 기간 동안 완료된 사건을 말할 때 씁니다.
   - 예: *Trabajé en Sony de 2018 a 2021.* (2018년부터 2021년까지 소니에서 일했다.)
 - **불완료과거 (Imperfecto)**: 과거에 반복되던 습관이나 당시의 상태를 묘사할 때 씁니다.
@@ -148,7 +175,7 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 | :--- | :--- |
 | **Sr. Martínez:** Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto? | **마르티네스:** 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요? |
 | **Sofía:** Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia. | **소피아:** 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다. |
-| **Sr. Martínez:** Veo en tu CV 분야가 마케팅이네요. 무엇을 배웠나요? | **마르티네스:** CV를 보니 마케팅 분야군요. 무엇을 배웠나요? |
+| **Sr. Martínez:** Veo en tu CV que tu especialidad es el marketing. ¿Qué aprendiste? | **마르티네스:** 이력서를 보니 귀하의 전공이 마케팅이군요. 무엇을 배웠나요? |
 | **Sofía:** Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión. | **소피아:** 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다. |
 | **Sr. Martínez:** ¿Qué horarios prefieres? | **마르티네스:** 어떤 근무 시간대를 선호하시나요? |
 | **Sofía:** Soy flexible, pero prefiero el horario intensivo si es posible. | **소피아:** 유연합니다만, 가능하다면 집중 근무제를 선호합니다. |
