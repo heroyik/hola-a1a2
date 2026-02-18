@@ -21,18 +21,28 @@
 
 ![Medios](../images/ch11_a1_vocab_media.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la televisión / la tele** | **Television** ✅ | 텔레비전 / TV |
-| 2 | **el teléfono móvil / el móvil** | **Mobile** (phone) ✅ | 휴대폰 |
-| 3 | **el ordenador** | — (To order/organize) | 컴퓨터 (스페인) |
-| 4 | **la computadora** | **Computer** ✅ | 컴퓨터 (중남미) |
-| 5 | **el periódico** | **Periodical** ✅ | 신문 |
-| 6 | **la radio** | **Radio** ✅ (Perfect Cognate) | 라디오 |
-| 7 | **internet** | **Internet** ✅ (Perfect Cognate) | 인터넷 |
-| 8 | **el mensaje** | **Message** ✅ | 메시지 |
-| 9 | **la noticia** | **Notice / News** (related) | 뉴스 / 소식 |
-| 10 | **la pantalla** | — | 화면 / 스크린 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la televisión / la tele</strong></td><td><strong>Television</strong> ✅</td><td>텔레비전 / TV</td></tr>
+    <tr><td>2</td><td><strong>el teléfono móvil / el móvil</strong></td><td><strong>Mobile</strong> (phone) ✅</td><td>휴대폰</td></tr>
+    <tr><td>3</td><td><strong>el ordenador</strong></td><td>— (To order/organize)</td><td>컴퓨터 (스페인)</td></tr>
+    <tr><td>4</td><td><strong>la computadora</strong></td><td><strong>Computer</strong> ✅</td><td>컴퓨터 (중남미)</td></tr>
+    <tr><td>5</td><td><strong>el periódico</strong></td><td><strong>Periodical</strong> ✅</td><td>신문</td></tr>
+    <tr><td>6</td><td><strong>la radio</strong></td><td><strong>Radio</strong> ✅ (Perfect Cognate)</td><td>라디오</td></tr>
+    <tr><td>7</td><td><strong>internet</strong></td><td><strong>Internet</strong> ✅ (Perfect Cognate)</td><td>인터넷</td></tr>
+    <tr><td>8</td><td><strong>el mensaje</strong></td><td><strong>Message</strong> ✅</td><td>메시지</td></tr>
+    <tr><td>9</td><td><strong>la noticia</strong></td><td><strong>Notice / News</strong> (related)</td><td>뉴스 / 소식</td></tr>
+    <tr><td>10</td><td><strong>la pantalla</strong></td><td>—</td><td>화면 / 스크린</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,10 +70,19 @@
 
 ### 직접 목적대명사 (Complemento Directo)
 문장에서 '을/를'에 해당하는 목적어를 대신합니다. 영어의 `it, them`과 같습니다.
-| 대상 | 단수 | 복수 |
-| :--- | :--- | :--- |
-| **남성** (him, it) | **lo** | **los** |
-| **여성** (her, it) | **la** | **las** |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">대상</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">단수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">복수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>남성</strong> (him, it)</td><td><strong>lo</strong></td><td><strong>los</strong></td></tr>
+    <tr><td><strong>여성</strong> (her, it)</td><td><strong>la</strong></td><td><strong>las</strong></td></tr>
+  </tbody>
+</table>
 
 **위치 (MANDATORY RULE):**
 1. **변형된 동사 앞**: *Yo leo el libro. → Yo **lo** leo.* (나는 그것을 읽는다.)
@@ -94,13 +113,21 @@ Hoy en día, el consumo de medios ha cambiado mucho. Los jóvenes prefieren las 
 
 **A. Match the action with the medium (행동과 미디어를 연결하세요)**
 
-| 좌측 (행동) | 우측 (미디어) |
-| :--- | :--- |
-| 1. Ver (보다) | a. El periódico (신문) |
-| 2. Escuchar (듣다) | b. El teléfono (전화) |
-| 3. Leer (읽다) | c. La televisión (TV) |
-| 4. Llamar (전화하다) | d. La radio (라디오) |
-| 5. Navegar (서핑하다) | e. Internet (인터넷) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">좌측 (행동)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">우측 (미디어)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Ver (보다)</td><td style="padding: 10px; border: 1px solid #ddd;">a. El periódico (신문)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Escuchar (듣다)</td><td style="padding: 10px; border: 1px solid #ddd;">b. El teléfono (전화)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Leer (읽다)</td><td style="padding: 10px; border: 1px solid #ddd;">c. La televisión (TV)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. Llamar (전화하다)</td><td style="padding: 10px; border: 1px solid #ddd;">d. La radio (라디오)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Navegar (서핑하다)</td><td style="padding: 10px; border: 1px solid #ddd;">e. Internet (인터넷)</td></tr>
+  </tbody>
+</table>
 
 **B. 직접 목적대명사 연습 (밑줄 친 목적어를 lo, la, los, las로 바꾸어 문장을 다시 쓰세요)**
 
@@ -147,15 +174,23 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 **Situación:** Javier y Carla hablan sobre una noticia importante que ha salido en los medios.
 **상황:** 하비에르와 카를라가 미디어에 나온 중요한 뉴스에 대해 이야기합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Javier:** ¡Hola Carla! ¿Has visto la noticia de hoy? | **하비에르:** 안녕 카를라! 오늘 뉴스 봤니? |
-| **Carla:** No, no la he visto. ¿Qué ha pasado? | **카를라:** 아니, 못 봤어. 무슨 일이 있었는데? |
-| **Javier:** Hay un festival de música gratuito en el parque. | **하비에르:** 공원에서 무료 음악 축제가 열린대. |
-| **Carla:** ¡Qué bien! ¿Dónde has buscado la información? | **카를라:** 대박! 어디서 정보를 찾았어? |
-| **Javier:** La he buscado en internet, en la página del ayuntamiento. | **하비에르:** 인터넷에서 찾았어, 시청 페이지에서. |
-| **Carla:** Pásame el enlace (link), por favor. | **카를라:** 링크 좀 보내줘. |
-| **Javier:** Claro, te lo mando por WhatsApp ahora mismo. | **하비에르:** 당연하지, 지금 바로 왓츠앱으로 보낼게. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> ¡Hola Carla! ¿Has visto la noticia de hoy?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 안녕 카를라! 오늘 뉴스 봤니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Carla:</strong> No, no la he visto. ¿Qué ha pasado?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>카를라:</strong> 아니, 못 봤어. 무슨 일이 있었는데?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> Hay un festival de música gratuito en el parque.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 공원에서 무료 음악 축제가 열린대.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Carla:</strong> ¡Qué bien! ¿Dónde has buscado la información?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>카를라:</strong> 대박! 어디서 정보를 찾았어?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> La he buscado en internet, en la página del ayuntamiento.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 인터넷에서 찾았어, 시청 페이지에서.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Carla:</strong> Pásame el enlace (link), por favor.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>카를라:</strong> 링크 좀 보내줘.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> Claro, te lo mando por WhatsApp ahora mismo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 당연하지, 지금 바로 왓츠앱으로 보낼게.</td></tr>
+  </tbody>
+</table>
 
 ---
 

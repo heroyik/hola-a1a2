@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch11_a2_medios_y_tecnologia.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,408 +27,235 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-11-medios-y-tecnologia-a2">Chapter 11: Medios y tecnología (A2)</h1>
+    <div class="container"><h1>Chapter 11: Medios y tecnología (A2)</h1>
 <p class="cervantes-ref">Cervantes: §9 미디어 심화: 소셜 미디어, 팟캐스트 및 §16 과학 및 기술: 실전 IT 어휘</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>La era digital (디지털 시대)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>La era digital (디지털 시대)</strong><br>
 A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환경에서의 소통 방식과 그 기술이 우리 삶에 미치는 영향에 대해 이야기합니다. 소셜 미디어의 장단점을 논하거나, 스마트폰 앱을 이용해 문제를 해결하고, 최신 기술 트렌드에 대해 자신의 의견을 표현할 수 있을까요? 이번 장에서는 전화 통화 에티켓, 빈도 부사(frecuencia)를 활용한 디지털 습관 표현, 그리고 전차상거래와 보안 관련 고급 IT 어휘를 배웁니다. 스페인어로 여러분의 디지털 라이프를 더욱 스마트하게 표현해 봅시다.</p>
-<p><strong>학습 목표</strong><br />
-- 소프트웨어, 앱, 소셜 미디어 및 하이테크 관련 고급 어휘 15개 이상 습득<br />
-- 전화 통화 필수 관용구 및 비즈니스 에티켓<br />
-- 빈도 부사(siempre, a menudo, a veces, never)를 활용한 습관 기술<br />
-- 스페인의 팟캐스트 문화와 디지털 콘텐츠 소비 트렌드 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>소프트웨어, 앱, 소셜 미디어 및 하이테크 관련 고급 어휘 15개 이상 습득</li>
+<li>전화 통화 필수 관용구 및 비즈니스 에티켓</li>
+<li>빈도 부사(siempre, a menudo, a veces, never)를 활용한 습관 기술</li>
+<li>스페인의 팟캐스트 문화와 디지털 콘텐츠 소비 트렌드 이해</li>
+</ul>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인어로 '애플리케이션'은 'Aplicación'이라고 하지만, 일상적으로는 영어처럼 '<strong>App</strong>'이라고 부르는 경우가 아주 많습니다. 또한 소셜 미디어는 'Redes sociales'라고 하며, 인스타그램(Instagram)이나 틱톡(TikTok)은 스페인 젊은이들의 일상에서 빼놓을 수 없는 소통 창구입니다.</div>
-<hr />
-<h2 id="2-vocabulario-esencial-el-mundo-de-la-it">2. Vocabulario Esencial: El Mundo de la IT</h2>
+<hr>
+<h2>2. Vocabulario Esencial: El Mundo de la IT</h2>
 <p>우리의 삶을 바꾸고 있는 최신 기술과 디지털 환경입니다. 이미지 속의 스마트한 연구 공간과 함께 어휘를 익혀보세요.</p>
-<p><img alt="Tecnología" src="../images/ch11_a2_vocab_it.png" /></p>
+<p><img src="../images/ch11_a2_vocab_it.png" alt="Tecnología"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:left">#</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"><strong>la aplicación / la app</strong></td>
-<td style="text-align: left;"><strong>Application / App</strong> ✅</td>
-<td style="text-align: left;">앱</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>la aplicación / la app</strong></td>
+<td style="text-align:left"><strong>Application / App</strong> ✅</td>
+<td style="text-align:left">앱</td>
 </tr>
 <tr>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"><strong>el software</strong></td>
-<td style="text-align: left;"><strong>Software</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align: left;">소프트웨어</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>el software</strong></td>
+<td style="text-align:left"><strong>Software</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align:left">소프트웨어</td>
 </tr>
 <tr>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"><strong>la red social</strong></td>
-<td style="text-align: left;"><strong>Social Network</strong> ✅</td>
-<td style="text-align: left;">소셜 미디어 / SNS</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left"><strong>la red social</strong></td>
+<td style="text-align:left"><strong>Social Network</strong> ✅</td>
+<td style="text-align:left">소셜 미디어 / SNS</td>
 </tr>
 <tr>
-<td style="text-align: left;">4</td>
-<td style="text-align: left;"><strong>la contraseña</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">비밀번호</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>la contraseña</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">비밀번호</td>
 </tr>
 <tr>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;"><strong>el enlace</strong></td>
-<td style="text-align: left;"><strong>Link</strong> (to bind/lace)</td>
-<td style="text-align: left;">링크 / 연결</td>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>el enlace</strong></td>
+<td style="text-align:left"><strong>Link</strong> (to bind/lace)</td>
+<td style="text-align:left">링크 / 연결</td>
 </tr>
 <tr>
-<td style="text-align: left;">6</td>
-<td style="text-align: left;"><strong>la nube</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">클라우드 (원래 의미: 구름)</td>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>la nube</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">클라우드 (원래 의미: 구름)</td>
 </tr>
 <tr>
-<td style="text-align: left;">7</td>
-<td style="text-align: left;"><strong>el archivo</strong></td>
-<td style="text-align: left;"><strong>Archive</strong> ✅</td>
-<td style="text-align: left;">파일 / 기록물</td>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>el archivo</strong></td>
+<td style="text-align:left"><strong>Archive</strong> ✅</td>
+<td style="text-align:left">파일 / 기록물</td>
 </tr>
 <tr>
-<td style="text-align: left;">8</td>
-<td style="text-align: left;"><strong>descargar</strong></td>
-<td style="text-align: left;"><strong>Discharge / Download</strong> (near)</td>
-<td style="text-align: left;">다운로드하다</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left"><strong>descargar</strong></td>
+<td style="text-align:left"><strong>Discharge / Download</strong> (near)</td>
+<td style="text-align:left">다운로드하다</td>
 </tr>
 <tr>
-<td style="text-align: left;">9</td>
-<td style="text-align: left;"><strong>actualizar</strong></td>
-<td style="text-align: left;"><strong>Actualize / Update</strong> (near)</td>
-<td style="text-align: left;">업데이트하다</td>
+<td style="text-align:left">9</td>
+<td style="text-align:left"><strong>actualizar</strong></td>
+<td style="text-align:left"><strong>Actualize / Update</strong> (near)</td>
+<td style="text-align:left">업데이트하다</td>
 </tr>
 <tr>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;"><strong>la inteligencia artificial</strong></td>
-<td style="text-align: left;"><strong>Artificial Intelligence</strong> ✅</td>
-<td style="text-align: left;">인공지능 (AI)</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left"><strong>la inteligencia artificial</strong></td>
+<td style="text-align:left"><strong>Artificial Intelligence</strong> ✅</td>
+<td style="text-align:left">인공지능 (AI)</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>전화 통화와 디지털 기기 사용 시 꼭 필요한 실전 패턴입니다.</p>
-<p><strong>A. 전화 통화 표현 (Por Teléfono)</strong><br />
-- <strong>¿Diga?</strong> (Hello? / 여보세요? - 전화를 받을 때)<br />
-- <strong>¿De parte de quién?</strong> (Who is calling? / 누구신가요?)<br />
-- <strong>Un momento, por favor.</strong> (One moment, please. / 잠시만 기다려주세요.)<br />
-- <strong>Se ha cortado la comunicación.</strong> (The communication was cut off. / 전화가 끊겼어요.)<br />
-- <strong>Te llamo luego.</strong> (I'll call you later. / 나중에 다시 전화할게.)</p>
-<p><strong>B. 빈도와 습관 (Frecuencia)</strong><br />
-- <strong>Siempre reviso mis correos.</strong> (I always check my emails. / 저는 항상 이메일을 확인합니다.)<br />
-- <strong>A menudo escucho 팟캐스트.</strong> (I often listen to podcasts. / 종종 팟캐스트를 들어요.)<br />
-- <strong>A veces navego por internet sin rumbo.</strong> (Sometimes I surf the web aimlessly. / 가끔 목적 없이 인터넷 서핑을 해요.)<br />
-- <strong>Nunca comparto mi contraseña.</strong> (I never share my password. / 제 비밀번호는 절대 공유하지 않아요.)</p>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<p><strong>A. 전화 통화 표현 (Por Teléfono)</strong></p>
+<ul>
+<li><strong>¿Diga?</strong> (Hello? / 여보세요? - 전화를 받을 때)</li>
+<li><strong>¿De parte de quién?</strong> (Who is calling? / 누구신가요?)</li>
+<li><strong>Un momento, por favor.</strong> (One moment, please. / 잠시만 기다려주세요.)</li>
+<li><strong>Se ha cortado la comunicación.</strong> (The communication was cut off. / 전화가 끊겼어요.)</li>
+<li><strong>Te llamo luego.</strong> (I'll call you later. / 나중에 다시 전화할게.)</li>
+</ul>
+<p><strong>B. 빈도와 습관 (Frecuencia)</strong></p>
+<ul>
+<li><strong>Siempre reviso mis correos.</strong> (I always check my emails. / 저는 항상 이메일을 확인합니다.)</li>
+<li><strong>A menudo escucho 팟캐스트.</strong> (I often listen to podcasts. / 종종 팟캐스트를 들어요.)</li>
+<li><strong>A veces navego por internet sin rumbo.</strong> (Sometimes I surf the web aimlessly. / 가끔 목적 없이 인터넷 서핑을 해요.)</li>
+<li><strong>Nunca comparto mi contraseña.</strong> (I never share my password. / 제 비밀번호는 절대 공유하지 않아요.)</li>
+</ul>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>디지털 생활의 반복되는 패턴을 표현하는 법과 전화 통화의 특징을 알아봅시다.</p>
-<h3 id="a">A. 빈도 부사의 위치</h3>
-<p>동사의 위치에 따라 강조점이 달라질 수 있지만, 표준적인 위치는 다음과 같습니다.<br />
-- <strong>Siempre / Nunca</strong>: 주로 동사 앞 (<em>Siempre uso el móvil.</em> / <em>Nunca uso el móvil.</em>)<br />
-- <strong>A menudo / A veces</strong>: 문장의 앞, 뒤, 동사 뒤 모두 가능 (<em>A veces escucho música.</em> / <em>Escucho música a veces.</em>)</p>
-<h3 id="b-review">B. 목적대명사의 결합 (Review)</h3>
-<p>전기 장치나 앱을 다룰 때 목적대명사는 필수적입니다.<br />
-- <strong>¿Has actualizado la app?</strong> → <strong>Sí, la he actualizado.</strong> (응, 업데이트했어.)<br />
-- <strong>No puedo descargar el archivo.</strong> → <strong>No puedo descargarlo.</strong> (그 파일을 다운로드할 수 없어.)</p>
-<hr />
-<h2 id="5-culture-viva-el-auge-de-los-podcasts-y-youtube-en-espana">5. Culture Viva: El Auge de los Podcasts y YouTube en España</h2>
+<h3>A. 빈도 부사의 위치</h3>
+<p>동사의 위치에 따라 강조점이 달라질 수 있지만, 표준적인 위치는 다음과 같습니다.</p>
+<ul>
+<li><strong>Siempre / Nunca</strong>: 주로 동사 앞 (<em>Siempre uso el móvil.</em> / <em>Nunca uso el móvil.</em>)</li>
+<li><strong>A menudo / A veces</strong>: 문장의 앞, 뒤, 동사 뒤 모두 가능 (<em>A veces escucho música.</em> / <em>Escucho música a veces.</em>)</li>
+</ul>
+<h3>B. 목적대명사의 결합 (Review)</h3>
+<p>전기 장치나 앱을 다룰 때 목적대명사는 필수적입니다.</p>
+<ul>
+<li><strong>¿Has actualizado la app?</strong> → <strong>Sí, la he actualizado.</strong> (응, 업데이트했어.)</li>
+<li><strong>No puedo descargar el archivo.</strong> → <strong>No puedo descargarlo.</strong> (그 파일을 다운로드할 수 없어.)</li>
+</ul>
+<hr>
+<h2>5. Cultura Viva: El Auge de los Podcasts y YouTube en España</h2>
 <p>스페인의 새로운 미디어 트렌드를 살펴봅시다.</p>
-<p><img alt="Podcast Studio" src="../images/ch11_a2_culture_podcast.png" /></p>
+<p><img src="../images/ch11_a2_culture_podcast.png" alt="Podcast Studio"></p>
 <p>España se ha convertido en uno de los mayores consumidores de <strong>podcasts</strong> en el mundo hispanohablante. Temas como la tecnología, la historia, el humor y el desarrollo personal son extremadamente populares. Plataformas como iVoox o Spotify permiten a los creadores españoles llegar a audiencias locales e internacionales.</p>
 <p>Además, los <strong>YouTubers</strong> y <strong>Streamers</strong> españoles (como Ibai Llanos o AuronPlay) son figuras de gran influencia cultural, superando a menudo a la televisión tradicional en audiencia joven. Estos creadores han revolucionado la forma en que los españoles consumen entretenimiento e información. La cultura digital en España es dinámica, participativa y está en constante evolución, reflejando una sociedad que valora la creatividad y la conexión instantánea.</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 스페인은 스페인어권 세계에서 가장 큰 <strong>팟캐스트</strong> 소비국 중 하나가 되었습니다. 기술, 역사, 유머, 자기계발 같은 주제들이 매우 인기가 높습니다. iVoox나 Spotify와 같은 플랫폼들은 스페인 크리에이터들이 국내외 청중들에게 다가갈 수 있게 해줍니다.</p>
 <p>또한, 이바이 야노스(Ibai Llanos)나 아우론플레이(AuronPlay) 같은 스페인 <strong>유튜버</strong>와 <strong>스트리머</strong>들은 젊은 층 시청자 수에서 종종 전통적인 TV를 능가할 정도로 큰 문화적 영향력을 가진 인물들입니다. 이 크리에이터들은 스페인 사람들이 엔터테인먼트와 정보를 소비하는 방식을 혁신적으로 변화시켰습니다. 스페인의 디지털 문화는 역동적이고 참여적이며 끊임없이 진화하고 있으며, 창의성과 즉각적인 연결을 소중히 여기는 사회적 분위기를 반영합니다.</p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
+<hr>
+<h2>6. Práctica</h2>
 <p><strong>A. Choose the correct frequency adverb (알맞은 빈도 부사를 선택하세요)</strong></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Situation</th>
-<th style="text-align: left;">Frequency Adverb</th>
+<th style="text-align:left">Situation</th>
+<th style="text-align:left">Frequency Adverb</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. Every single day (매일 매 순간)</td>
-<td style="text-align: left;">a. Muchas veces</td>
+<td style="text-align:left">1. Every single day (매일 매 순간)</td>
+<td style="text-align:left">a. Muchas veces</td>
 </tr>
 <tr>
-<td style="text-align: left;">2. Not even once (한 번도 없음)</td>
-<td style="text-align: left;">b. A veces</td>
+<td style="text-align:left">2. Not even once (한 번도 없음)</td>
+<td style="text-align:left">b. A veces</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. Regularly (정기적으로, 자주)</td>
-<td style="text-align: left;">c. Siempre</td>
+<td style="text-align:left">3. Regularly (정기적으로, 자주)</td>
+<td style="text-align:left">c. Siempre</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. Occasionally (가끔씩)</td>
-<td style="text-align: left;">d. Nunca</td>
+<td style="text-align:left">4. Occasionally (가끔씩)</td>
+<td style="text-align:left">d. Nunca</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. Many times (여러 번)</td>
-<td style="text-align: left;">e. A menudo</td>
+<td style="text-align:left">5. Many times (여러 번)</td>
+<td style="text-align:left">e. A menudo</td>
 </tr>
 </tbody>
 </table>
@@ -463,96 +269,110 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 </ol>
 <p><strong>C. 번역 연습 (디지털 기술 및 빈도 표현을 활용하세요)</strong></p>
 <ol>
-<li>나는 매일 앱을 업데이트해.<br />
-   (............................................................)</li>
-<li>너는 비밀번호를 자주 바꾸니? (cambiar)<br />
-   (............................................................)</li>
-<li>그는 절대 소셜 미디어를 사용하지 않아.<br />
-   (............................................................)</li>
-<li>우리는 인터넷에서 그 파일(남성)을 다운로드할 거야.<br />
-   (............................................................)</li>
-<li>제 컴퓨터가 가끔 작동하지 않아요.<br />
-   (............................................................)</li>
+<li>나는 매일 앱을 업데이트해.<br>
+(............................................................)</li>
+<li>너는 비밀번호를 자주 바꾸니? (cambiar)<br>
+(............................................................)</li>
+<li>그는 절대 소셜 미디어를 사용하지 않아.<br>
+(............................................................)</li>
+<li>우리는 인터넷에서 그 파일(남성)을 다운로드할 거야.<br>
+(............................................................)</li>
+<li>제 컴퓨터가 가끔 작동하지 않아요.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>Mi vida en las redes (나의 소셜 미디어 생활)</strong></p>
-<p>Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la tecnología. Siempre uso el ordenador y la nube para guardar mis archivos. A menudo comparto mis diseños en Instagram para recibir comentarios de otros artistas. Mi red social favorita es Twitter (X) porque allí me informo de las noticias de tecnología. A veces, escucho un podcast sobre inteligencia artificial mientras trabajo. "Si no te actualizas, te quedas atrás", es mi lema. Sin embargo, intento desconectar los fines de semana. Nunca reviso el móvil después de las diez de la noche porque quiero descansar bien. La tecnología es una herramienta increíble, pero lo más importante es cómo la usamos para conectar con las personas.</p>
-<p><strong>Questions:</strong><br />
-1. Marta는 본인의 파일을 어디에 저장하나요? (Where does Marta save her files?)<br />
-   - ............................................................<br />
-2. Marta의 좌우명(lema)은 무엇인가요? (What is Marta's motto?)<br />
-   - ............................................................</p>
-<p><strong>[한국어 번역]</strong><br />
-제 이름은 마르타이고 그래픽 디자이너입니다. 제 업무는 기술과 매우 밀접하게 연결되어 있습니다. 저는 파일들을 저장하기 위해 항상 컴퓨터와 클라우드를 사용합니다. 종종 다른 아티스트들의 피드백을 받기 위해 제 디자인들을 인스타그램에 공유합니다. 제가 가장 좋아하는 소셜 미디어는 트위터(X)인데, 그곳에서 기술 뉴스 정보를 얻기 때문입니다. 가끔은 일을 하면서 인공지능에 관한 팟캐스트를 들어요. "업데이트하지 않으면 뒤처진다"는 것이 제 좌우명입니다. 하지만 주말에는 연결을 끊으려 노력합니다. 밤 10시 이후에는 잘 쉬고 싶어서 절대 휴대폰을 확인하지 않아요. 기술은 놀라운 도구이지만, 가장 중요한 것은 우리가 그것을 사람들과 연결하는 데 어떻게 사용하느냐 하는 것입니다.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<p>Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la tecnología. Siempre uso el ordenador y la nube para guardar mis archivos. A menudo comparto mis diseños en Instagram para recibir comentarios de otros artistas. Mi red social favorita es Twitter (X) porque allí me informo de las noticias de tecnología. A veces, escucho un podcast sobre inteligencia artificial mientras trabajo. &quot;Si no te actualizas, te quedas atrás&quot;, es mi lema. Sin embargo, intento desconectar los fines de semana. Nunca reviso el móvil después de las diez de la noche porque quiero descansar bien. La tecnología es una herramienta increíble, pero lo más importante es cómo la usamos para conectar con las personas.</p>
+<p><strong>Questions:</strong></p>
+<ol>
+<li>Marta는 본인의 파일을 어디에 저장하나요? (Where does Marta save her files?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+<li>Marta의 좌우명(lema)은 무엇인가요? (What is Marta's motto?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+</ol>
+<p><strong>[한국어 번역]</strong><br>
+제 이름은 마르타이고 그래픽 디자이너입니다. 제 업무는 기술과 매우 밀접하게 연결되어 있습니다. 저는 파일들을 저장하기 위해 항상 컴퓨터와 클라우드를 사용합니다. 종종 다른 아티스트들의 피드백을 받기 위해 제 디자인들을 인스타그램에 공유합니다. 제가 가장 좋아하는 소셜 미디어는 트위터(X)인데, 그곳에서 기술 뉴스 정보를 얻기 때문입니다. 가끔은 일을 하면서 인공지능에 관한 팟캐스트를 들어요. &quot;업데이트하지 않으면 뒤처진다&quot;는 것이 제 좌우명입니다. 하지만 주말에는 연결을 끊으려 노력합니다. 밤 10시 이후에는 잘 쉬고 싶어서 절대 휴대폰을 확인하지 않아요. 기술은 놀라운 도구이지만, 가장 중요한 것은 우리가 그것을 사람들과 연결하는 데 어떻게 사용하느냐 하는 것입니다.</p>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>Un problema técnico (기술적인 문제)</strong></p>
-<p><strong>Situación:</strong> Pedro llama al servicio técnico porque no puede entrar en su cuenta de internet.<br />
+<p><strong>Situación:</strong> Pedro llama al servicio técnico porque no puede entrar en su cuenta de internet.<br>
 <strong>상황:</strong> 파블로가 인터넷 계정에 접속할 수 없어 기술 서비스 센터에 전화합니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Operador:</strong> ¿Dígame? Soporte técnico, ¿en qué puedo ayudarle?</td>
-<td style="text-align: left;"><strong>상담원:</strong> 여보세요? 기술 지원팀입니다, 무엇을 도와드릴까요?</td>
+<td style="text-align:left"><strong>Operador:</strong> ¿Dígame? Soporte técnico, ¿en qué puedo ayudarle?</td>
+<td style="text-align:left"><strong>상담원:</strong> 여보세요? 기술 지원팀입니다, 무엇을 도와드릴까요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pedro:</strong> Hola, llamo porque no puedo entrar en mi cuenta.</td>
-<td style="text-align: left;"><strong>페드로:</strong> 안녕하세요, 제 계정에 로그인할 수 없어서 전화드렸어요.</td>
+<td style="text-align:left"><strong>Pedro:</strong> Hola, llamo porque no puedo entrar en mi cuenta.</td>
+<td style="text-align:left"><strong>페드로:</strong> 안녕하세요, 제 계정에 로그인할 수 없어서 전화드렸어요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Operador:</strong> ¿Ha olvidado su contraseña?</td>
-<td style="text-align: left;"><strong>상담원:</strong> 비밀번호를 잊어버리셨나요?</td>
+<td style="text-align:left"><strong>Operador:</strong> ¿Ha olvidado su contraseña?</td>
+<td style="text-align:left"><strong>상담원:</strong> 비밀번호를 잊어버리셨나요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pedro:</strong> No, la sé perfectamente, pero el enlace no funciona.</td>
-<td style="text-align: left;"><strong>페드로:</strong> 아니요, 정확히 알고 있는데 링크가 작동하지 않아요.</td>
+<td style="text-align:left"><strong>Pedro:</strong> No, la sé perfectamente, pero el enlace no funciona.</td>
+<td style="text-align:left"><strong>페드로:</strong> 아니요, 정확히 알고 있는데 링크가 작동하지 않아요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Operador:</strong> Entiendo. Vamos a intentar actualizar la página.</td>
-<td style="text-align: left;"><strong>상담원:</strong> 이해했습니다. 페이지를 새로고침(업데이트)해봅시다.</td>
+<td style="text-align:left"><strong>Operador:</strong> Entiendo. Vamos a intentar actualizar la página.</td>
+<td style="text-align:left"><strong>상담원:</strong> 이해했습니다. 페이지를 새로고침(업데이트)해봅시다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pedro:</strong> Ya lo he hecho, 하지만 sigue igual.</td>
-<td style="text-align: left;"><strong>페드로:</strong> 이미 해봤는데, 여전해요.</td>
+<td style="text-align:left"><strong>Pedro:</strong> Ya lo he hecho, 하지만 sigue igual.</td>
+<td style="text-align:left"><strong>페드로:</strong> 이미 해봤는데, 여전해요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Operador:</strong> Un momento, por favor. Voy a revisar el servidor.</td>
-<td style="text-align: left;"><strong>상담원:</strong> 잠시만 기다려주세요. 서버를 확인해 보겠습니다.</td>
+<td style="text-align:left"><strong>Operador:</strong> Un momento, por favor. Voy a revisar el servidor.</td>
+<td style="text-align:left"><strong>상담원:</strong> 잠시만 기다려주세요. 서버를 확인해 보겠습니다.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이번 장의 핵심 내용을 복습해 보세요.<br />
-- [ ] IT 및 디지털 관련 고급 어휘 10개 이상을 이해하나요?<br />
-- [ ] 빈도 부사의 종류와 문장 내 위치를 정확히 알 수 있나요?<br />
-- [ ] 전화 통화 시 필요한 필수 관용구들을 익혔나요?<br />
-- [ ] 스페인의 팟캐스트와 스트리밍 문화에 대해 이해했나요?</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>9. Repaso</h2>
+<p>이번 장의 핵심 내용을 복습해 보세요.</p>
+<ul>
+<li>[ ] IT 및 디지털 관련 고급 어휘 10개 이상을 이해하나요?</li>
+<li>[ ] 빈도 부사의 종류와 문장 내 위치를 정확히 알 수 있나요?</li>
+<li>[ ] 전화 통화 시 필요한 필수 관용구들을 익혔나요?</li>
+<li>[ ] 스페인의 팟캐스트와 스트리밍 문화에 대해 이해했나요?</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Excelente trabajo! 이번 장을 통해 여러분은 현대 사회의 언어인 '기술'에 대해 스페인어로 소통하는 법을 배웠습니다. 디지털 기기 사용 습관부터 전화 에티켓까지, 여러분의 스페인어는 이제 더욱 현실적이고 스마트해졌습니다. 기술은 단순한 도구이지만, 그것을 스페인어로 다루는 여러분의 모습은 이미 글로벌 경쟁력을 갖춘 인재입니다. 다음 장에서는 우리의 세상을 더욱 넓혀줄 '여행, 대중교통 및 위치 찾기(A2)' 섹션으로 넘어가겠습니다. ¡Sigue innovando con el español!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>6. Práctica - A. Choose the correct frequency adverb</strong><br />
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>6. Práctica - A. Choose the correct frequency adverb</strong><br>
 1-c / 2-d / 3-e / 4-b / 5-a</p>
-<p><strong>6. Práctica - B. 전화 통화 표현 연습</strong><br />
+<p><strong>6. Práctica - B. 전화 통화 표현 연습</strong><br>
 1-b / 2-d / 3-a / 4-c / 5-e</p>
-<p><strong>6. Práctica - C. 번역 연습</strong><br />
-1. Actualizo la app (또는 las apps) todos los días.<br />
-2. ¿Cambias tu contraseña a menudo?<br />
-3. Él nunca usa las redes sociales.<br />
-4. Vamos a descargarlo (또는 Lo vamos a descargar) de internet.<br />
-5. Mi ordenador a veces no funciona.</p>
-<p>** Lectura Questions**<br />
-1. 클라우드 (En la nube).<br />
-2. 업데이트하지 않으면 뒤처진다 (Si no te actualizas, te quedas atrás).</p>
+<p><strong>6. Práctica - C. 번역 연습</strong></p>
+<ol>
+<li>Actualizo la app (또는 las apps) todos los días.</li>
+<li>¿Cambias tu contraseña a menudo?</li>
+<li>Él nunca usa las redes sociales.</li>
+<li>Vamos a descargarlo (또는 Lo vamos a descargar) de internet.</li>
+<li>Mi ordenador a veces no funciona.</li>
+</ol>
+<p>** Lectura Questions**</p>
+<ol>
+<li>클라우드 (En la nube).</li>
+<li>업데이트하지 않으면 뒤처진다 (Si no te actualizas, te quedas atrás).</li>
+</ol>
 </div>
 </body>
 </html>

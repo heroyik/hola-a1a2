@@ -21,18 +21,28 @@
 
 ![Artes](../images/ch14_a2_vocab_arts.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **el patrimonio** | **Patrimony / Heritage** ✅ | 유산 / 자산 |
-| 2 | **el flamenco** | **Flamenco** ✅ (Perfect Cognate) | 플라멩코 |
-| 3 | **la escultura** | **Sculpture** ✅ | 조각 |
-| 4 | **la arquitectura** | **Architecture** ✅ | 건축 |
-| 5 | **la literatura** | **Literature** ✅ | 문학 |
-| 6 | **la historia** | **History** ✅ | 역사 |
-| 7 | **el castillo** | **Castle** ✅ | 성 |
-| 8 | **la catedral** | **Cathedral** ✅ | 대성당 |
-| 9 | **la pintura** | **Painting** ✅ | 회화 / 그림 |
-| 10 | **el museo de arte** | **Art Museum** ✅ | 미술관 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>el patrimonio</strong></td><td><strong>Patrimony / Heritage</strong> ✅</td><td>유산 / 자산</td></tr>
+    <tr><td>2</td><td><strong>el flamenco</strong></td><td><strong>Flamenco</strong> ✅ (Perfect Cognate)</td><td>플라멩코</td></tr>
+    <tr><td>3</td><td><strong>la escultura</strong></td><td><strong>Sculpture</strong> ✅</td><td>조각</td></tr>
+    <tr><td>4</td><td><strong>la arquitectura</strong></td><td><strong>Architecture</strong> ✅</td><td>건축</td></tr>
+    <tr><td>5</td><td><strong>la literatura</strong></td><td><strong>Literature</strong> ✅</td><td>문학</td></tr>
+    <tr><td>6</td><td><strong>la historia</strong></td><td><strong>History</strong> ✅</td><td>역사</td></tr>
+    <tr><td>7</td><td><strong>el castillo</strong></td><td><strong>Castle</strong> ✅</td><td>성</td></tr>
+    <tr><td>8</td><td><strong>la catedral</strong></td><td><strong>Cathedral</strong> ✅</td><td>대성당</td></tr>
+    <tr><td>9</td><td><strong>la pintura</strong></td><td><strong>Painting</strong> ✅</td><td>회화 / 그림</td></tr>
+    <tr><td>10</td><td><strong>el museo de arte</strong></td><td><strong>Art Museum</strong> ✅</td><td>미술관</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,14 +70,23 @@
 
 ### A. Saber (알다) - 1인칭 불규칙
 정보, 지식, 혹은 '할 줄 알다'라는 기술을 나타낼 때 사용합니다.
-| 인칭 | **Saber** | 영어 매핑 (to know/can) |
-| :--- | :--- | :--- |
-| **Yo** | **sé** | I know |
-| **Tú** | **sabes** | You know |
-| **Él/Ella/Ud.** | **sabe** | He/She/You know |
-| **Nosotros/as** | **sabemos** | We know |
-| **Vosotros/as** | **sabéis** | You all know |
-| **Ellos/Ellas/Uds.** | **saben** | They/You all know |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Saber</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to know/can)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>sé</strong></td><td>I know</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>sabes</strong></td><td>You know</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>sabe</strong></td><td>He/She/You know</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>sabemos</strong></td><td>We know</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>sabéis</strong></td><td>You all know</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>saben</strong></td><td>They/You all know</td></tr>
+  </tbody>
+</table>
 
 ### B. Saber vs Conocer 가이드
 - **Saber + 정보/사실**: *Sé que hoy es fiesta.* (오늘이 축제인 걸 알아.)
@@ -76,7 +95,7 @@
 
 ---
 
-## 5. Culture Viva: Semana Santa - Pasión y Devoción
+## 5. Cultura Viva: Semana Santa - Pasión y Devoción
 스페인에서 가장 장엄한 종교 행사, 성주간을 알아봅시다.
 
 ![Semana Santa](../images/ch14_a2_culture_faith.png)
@@ -147,15 +166,23 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 **Situación:** Clara le explica a su amigo de intercambio, Jin, qué es la Semana Santa.
 **상황:** 클라라가 교환학생 친구인 진에게 세마나 산타가 무엇인지 설명해줍니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Jin:** Clara, ¿qué es este ruido de música y trompetas? | **진:** 클라라, 이 음악이랑 나팔 소리는 뭐야? |
-| **Clara:** Es una procesión de Semana Santa. ¿No la conoces? | **클라라:** 세마나 산타 행렬이야. 몰랐니? |
-| **Jin:** No, no sé mucho sobre las tradiciones religiosas de aquí. | **진:** 응, 여기 종교 전통에 대해서는 잘 몰라. |
-| **Clara:** Es muy bonito. Las hermandades llevan los 'pasos' por la ciudad. | **클라라:** 매우 아름다워. 형제회들이 '파소'를 메고 도시를 돌아다녀. |
-| **Jin:** ¡Guau! ¿Y tú conoces a alguien que participe? | **진:** 와! 너 참여하는 사람 알아? |
-| **Clara:** Sí, mi abuelo participa todos los años. Él sabe mucho de la historia local. | **클라라:** 응, 우리 할아버지가 매년 참여하셔. 지역 역사에 대해 아주 잘 아시지. |
-| **Jin:** Me gustaría saber más. ¿Podemos ver la procesión juntos? | **진:** 나도 더 알고 싶어. 우리 같이 행렬 볼 수 있을까? |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Jin:</strong> Clara, ¿qué es este ruido de música y trompetas?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>진:</strong> 클라라, 이 음악이랑 나팔 소리는 뭐야?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Clara:</strong> Es una procesión de Semana Santa. ¿No la conoces?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>클라라:</strong> 세마나 산타 행렬이야. 몰랐니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Jin:</strong> No, no sé mucho sobre las tradiciones religiosas de aquí.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>진:</strong> 응, 여기 종교 전통에 대해서는 잘 몰라.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Clara:</strong> Es muy bonito. Las hermandades llevan los 'pasos' por la ciudad.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>클라라:</strong> 매우 아름다워. 형제회들이 '파소'를 메고 도시를 돌아다녀.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Jin:</strong> ¡Guau! ¿Y tú conoces a alguien que participe?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>진:</strong> 와! 너 참여하는 사람 알아?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Clara:</strong> Sí, mi abuelo participa todos los años. Él sabe mucho de la historia local.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>클라라:</strong> 응, 우리 할아버지가 매년 참여하셔. 지역 역사에 대해 아주 잘 아시지.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Jin:</strong> Me gustaría saber más. ¿Podemos ver la procesión juntos?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>진:</strong> 나도 더 알고 싶어. 우리 같이 행렬 볼 수 있을까?</td></tr>
+  </tbody>
+</table>
 
 ---
 

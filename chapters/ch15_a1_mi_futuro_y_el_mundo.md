@@ -21,18 +21,28 @@
 
 ![Futuro](../images/ch15_a1_vocab_technology_future.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **el futuro** | **Future** ✅ | 미래 |
-| 2 | **el plan** | **Plan** ✅ (Perfect Cognate) | 계획 |
-| 3 | **el medio ambiente** | **Ambient** (related) | 환경 |
-| 4 | **el reciclaje** | **Recycling** ✅ | 재활용 |
-| 5 | **la naturaleza** | **Nature** ✅ | 자연 |
-| 6 | **la tecnología** | **Technology** ✅ | 기술 |
-| 7 | **el mundo** | — | 세상 / 세계 |
-| 8 | **la paz** | — | 평화 |
-| 9 | **la esperanza** | — | 희망 |
-| 10 | **el sueño** | — | 꿈 (잠 또는 장래 희망) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>el futuro</strong></td><td><strong>Future</strong> ✅</td><td>미래</td></tr>
+    <tr><td>2</td><td><strong>el plan</strong></td><td><strong>Plan</strong> ✅ (Perfect Cognate)</td><td>계획</td></tr>
+    <tr><td>3</td><td><strong>el medio ambiente</strong></td><td><strong>Ambient</strong> (related)</td><td>환경</td></tr>
+    <tr><td>4</td><td><strong>el reciclaje</strong></td><td><strong>Recycling</strong> ✅</td><td>재활용</td></tr>
+    <tr><td>5</td><td><strong>la naturaleza</strong></td><td><strong>Nature</strong> ✅</td><td>자연</td></tr>
+    <tr><td>6</td><td><strong>la tecnología</strong></td><td><strong>Technology</strong> ✅</td><td>기술</td></tr>
+    <tr><td>7</td><td><strong>el mundo</strong></td><td>—</td><td>세상 / 세계</td></tr>
+    <tr><td>8</td><td><strong>la paz</strong></td><td>—</td><td>평화</td></tr>
+    <tr><td>9</td><td><strong>la esperanza</strong></td><td>—</td><td>희망</td></tr>
+    <tr><td>10</td><td><strong>el sueño</strong></td><td>—</td><td>꿈 (잠 또는 장래 희망)</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,21 +70,31 @@
 
 ### Ir a + 동사원형 (가까운 미래 / 의도)
 'Ir' 동사를 주어에 맞게 변형하고 `a`를 쓴 뒤, 하고 싶은 동작을 동사원형으로 둡니다.
-| 인칭 | **Ir** | **a + 동사원형** | 예시 |
-| :--- | :--- | :--- | :--- |
-| **Yo** | **voy** | a estudiar | I am going to study |
-| **Tú** | **vas** | a trabajar | You are going to work |
-| **Él/Ella/Ud.** | **va** | a comer | He/She is going to eat |
-| **Nosotros/as** | **vamos** | a viajar | We are going to travel |
-| **Vosotros/as** | **vais** | a bailar | You all are going to dance |
-| **Ellos/Ellas/Uds.** | **van** | a descansar | They are going to rest |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Ir</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>a + 동사원형</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>voy</strong></td><td>a estudiar</td><td>I am going to study</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>vas</strong></td><td>a trabajar</td><td>You are going to work</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>va</strong></td><td>a comer</td><td>He/She is going to eat</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>vamos</strong></td><td>a viajar</td><td>We are going to travel</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>vais</strong></td><td>a bailar</td><td>You all are going to dance</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>van</strong></td><td>a descansar</td><td>They are going to rest</td></tr>
+  </tbody>
+</table>
 
 **Korean Tip!**
 이미 결정된 계획이나 아주 조만간 일어날 일에 대해 확신을 가지고 말할 때 씁니다. 만약 "나 이제 밥 먹으러 가"라고 할 때는 "Voy a comer"라고 하면 완벽합니다!
 
 ---
 
-## 5. Culture Viva: Una España Verde y Sostenible
+## 5. Cultura Viva: Una España Verde y Sostenible
 스페인은 환경을 지키기 위해 어떤 노력을 하고 있을까요?
 
 ![Green Future](../images/ch15_a1_culture_future.png)
@@ -150,14 +170,22 @@ En las ciudades, el **reciclaje** es parte de la vida diaria: hay contenedores d
 **Situación:** Sara y Pablo hablan de lo que van a hacer este fin de semana.
 **상황:** 사라와 파블로가 이번 주말에 할 일에 대해 이야기합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Sara:** Pablo, ¿qué vas a hacer este sábado? | **사라:** 파블로, 이번 토요일에 뭐 할 거야? |
-| **Pablo:** Voy a ir a la montaña con mi familia. Queremos disfrutar de la naturaleza. | **파블로:** 가족이랑 산에 갈 거야. 자연을 즐기고 싶거든. |
-| **Sara:** ¡Qué bien! Yo voy a quedarme en casa y voy a estudiar para el examen. | **사라:** 멋지다! 나는 집에 머물면서 시험 공부를 할 거야. |
-| **Pablo:** Es un poco aburrido, ¿no? | **파블로:** 좀 지루하겠다, 그치? |
-| **Sara:** Sí, 하지만 después del examen voy a viajar a la playa. | **사라:** 응, 그래도 시험 끝나고 나면 바다로 여행 갈 거야. |
-| **Pablo:** ¡Buena idea! El futuro (después del examen) va a ser mejor. | **파블로:** 좋은 생각이야! (시험 이후의) 미래는 더 나을 거야. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sara:</strong> Pablo, ¿qué vas a hacer este sábado?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>사라:</strong> 파블로, 이번 토요일에 뭐 할 거야?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pablo:</strong> Voy a ir a la montaña con mi familia. Queremos disfrutar de la naturaleza.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>파블로:</strong> 가족이랑 산에 갈 거야. 자연을 즐기고 싶거든.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sara:</strong> ¡Qué bien! Yo voy a quedarme en casa y voy a estudiar para el examen.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>사라:</strong> 멋지다! 나는 집에 머물면서 시험 공부를 할 거야.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pablo:</strong> Es un poco aburrido, ¿no?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>파블로:</strong> 좀 지루하겠다, 그치?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sara:</strong> Sí, 하지만 después del examen voy a viajar a la playa.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>사라:</strong> 응, 그래도 시험 끝나고 나면 바다로 여행 갈 거야.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pablo:</strong> ¡Buena idea! El futuro (después del examen) va a ser mejor.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>파블로:</strong> 좋은 생각이야! (시험 이후의) 미래는 더 나을 거야.</td></tr>
+  </tbody>
+</table>
 
 ---
 

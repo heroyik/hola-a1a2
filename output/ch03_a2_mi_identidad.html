@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch03_a2_mi_identidad.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,447 +27,266 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-3-mi-identidad-a2">Chapter 3: Mi identidad (A2)</h1>
+    <div class="container"><h1>Chapter 3: Mi identidad (A2)</h1>
 <p class="cervantes-ref">Cervantes: §1 Identidad: datos personales (Nivel A2) - 이 장에서는 개인의 정체성을 구성하는 기본적인 정보들을 스페인어로 표현하는 방법을 학습합니다. 이름, 국적, 출신지 등 자신을 소개하는 데 필요한 핵심 어휘와 문법을 다룹니다.</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Identidades múltiples (다양한 정체성)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Identidades múltiples (다양한 정체성)</strong><br>
 A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아가 우리의 배경과 뿌리, 그리고 현대 사회의 다문화적 정체성에 대해 다룹니다. 또한, 출신뿐만 아니라 과거의 배경을 설명하기 위한 'Ser' 동사의 과거형과 'Estar' 동사의 심화된 쓰임을 배웁니다.</p>
-<p><strong>학습 목표</strong><br />
-- 다문화 및 인종, 배경 관련 고급 어휘 습득<br />
-- 과거의 정체성을 표현하는 용법 (Ser - Imperfecto/Indefinido 기초)<br />
-- 'Ser' 동사와 'Origen(출처)' 표현의 심화<br />
-- 스페인의 다문화 사회와 이주민 문화 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>다문화 및 인종, 배경 관련 고급 어휘 습득</li>
+<li>과거의 정체성을 표현하는 용법 (Ser - Imperfecto/Indefinido 기초)</li>
+<li>'Ser' 동사와 'Origen(출처)' 표현의 심화</li>
+<li>스페인의 다문화 사회와 이주민 문화 이해</li>
+</ul>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인은 역사적으로 다양한 문화(로마, 아랍, 유대 등)가 융합된 나라이며, 오늘날에는 중남미, 유럽, 아시아 등지에서 온 이민자들과 함께 더욱 다채로운 다문화 사회를 형성하고 있습니다.</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>정체성의 다양성을 표현하기 위한 어휘들입니다.</p>
-<p><img alt="Barrio Multicultural" src="../images/ch03_a2_vocab_multicultural_v56.png" /></p>
+<p><img src="../images/ch03_a2_vocab_multicultural_v56.png" alt="Barrio Multicultural"></p>
 <table>
 <thead>
 <tr>
 <th>#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td style="text-align: left;"><strong>español / -a</strong></td>
-<td style="text-align: left;"><strong>Spanish</strong> ✅</td>
-<td style="text-align: left;">기본 국적</td>
+<td style="text-align:left"><strong>español / -a</strong></td>
+<td style="text-align:left"><strong>Spanish</strong> ✅</td>
+<td style="text-align:left">기본 국적</td>
 </tr>
 <tr>
 <td>2</td>
-<td style="text-align: left;"><strong>latinoamericano / -a</strong></td>
-<td style="text-align: left;"><strong>Latin American</strong> ✅</td>
-<td style="text-align: left;">'라티노'의 공식 명칭</td>
+<td style="text-align:left"><strong>latinoamericano / -a</strong></td>
+<td style="text-align:left"><strong>Latin American</strong> ✅</td>
+<td style="text-align:left">'라티노'의 공식 명칭</td>
 </tr>
 <tr>
 <td>3</td>
-<td style="text-align: left;"><strong>asiático / -a</strong></td>
-<td style="text-align: left;"><strong>Asian</strong> ✅</td>
-<td style="text-align: left;">'아시아티코'</td>
+<td style="text-align:left"><strong>asiático / -a</strong></td>
+<td style="text-align:left"><strong>Asian</strong> ✅</td>
+<td style="text-align:left">'아시아티코'</td>
 </tr>
 <tr>
 <td>4</td>
-<td style="text-align: left;"><strong>africano / -a</strong></td>
-<td style="text-align: left;"><strong>African</strong> ✅</td>
-<td style="text-align: left;">'아프리카노'</td>
+<td style="text-align:left"><strong>africano / -a</strong></td>
+<td style="text-align:left"><strong>African</strong> ✅</td>
+<td style="text-align:left">'아프리카노'</td>
 </tr>
 <tr>
 <td>5</td>
-<td style="text-align: left;"><strong>europeo / -a</strong></td>
-<td style="text-align: left;"><strong>European</strong> ✅</td>
-<td style="text-align: left;">'에우로페오'</td>
+<td style="text-align:left"><strong>europeo / -a</strong></td>
+<td style="text-align:left"><strong>European</strong> ✅</td>
+<td style="text-align:left">'에우로페오'</td>
 </tr>
 <tr>
 <td>6</td>
-<td style="text-align: left;"><strong>el mapa del mundo</strong></td>
-<td style="text-align: left;"><strong>World Map</strong></td>
-<td style="text-align: left;">세상을 보는 창</td>
+<td style="text-align:left"><strong>el mapa del mundo</strong></td>
+<td style="text-align:left"><strong>World Map</strong></td>
+<td style="text-align:left">세상을 보는 창</td>
 </tr>
 <tr>
 <td>7</td>
-<td style="text-align: left;"><strong>las raíces mixtas</strong></td>
-<td style="text-align: left;"><strong>Mixed Roots</strong></td>
-<td style="text-align: left;"><strong>Raíz</strong>(뿌리)에서 유래</td>
+<td style="text-align:left"><strong>las raíces mixtas</strong></td>
+<td style="text-align:left"><strong>Mixed Roots</strong></td>
+<td style="text-align:left"><strong>Raíz</strong>(뿌리)에서 유래</td>
 </tr>
 <tr>
 <td>8</td>
-<td style="text-align: left;"><strong>la diversidad</strong></td>
-<td style="text-align: left;"><strong>Diversity</strong> ✅</td>
-<td style="text-align: left;">다양성이란 가치</td>
+<td style="text-align:left"><strong>la diversidad</strong></td>
+<td style="text-align:left"><strong>Diversity</strong> ✅</td>
+<td style="text-align:left">다양성이란 가치</td>
 </tr>
 <tr>
 <td>9</td>
-<td style="text-align: left;"><strong>el respeto</strong></td>
-<td style="text-align: left;"><strong>Respect</strong> ✅</td>
-<td style="text-align: left;">존중의 아이콘</td>
+<td style="text-align:left"><strong>el respeto</strong></td>
+<td style="text-align:left"><strong>Respect</strong> ✅</td>
+<td style="text-align:left">존중의 아이콘</td>
 </tr>
 <tr>
 <td>10</td>
-<td style="text-align: left;"><strong>la integración</strong></td>
-<td style="text-align: left;"><strong>Integration</strong> ✅</td>
-<td style="text-align: left;">함께 어우러짐</td>
+<td style="text-align:left"><strong>la integración</strong></td>
+<td style="text-align:left"><strong>Integration</strong> ✅</td>
+<td style="text-align:left">함께 어우러짐</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 항목은 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>나와 타인의 배경에 대해 더 깊이 있게 질문하고 답하는 표현들입니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Mapping</th>
-<th style="text-align: left;">Korean Translation</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Mapping</th>
+<th style="text-align:left">Korean Translation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Mis padres son de origen peruano.</strong></td>
-<td style="text-align: left;">My parents are of Peruvian origin.</td>
-<td style="text-align: left;">부모님의 뿌리는 페루예요.</td>
+<td style="text-align:left"><strong>Mis padres son de origen peruano.</strong></td>
+<td style="text-align:left">My parents are of Peruvian origin.</td>
+<td style="text-align:left">부모님의 뿌리는 페루예요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Tengo doble nacionalidad.</strong></td>
-<td style="text-align: left;">I have dual nationality.</td>
-<td style="text-align: left;">저는 이중 국적입니다.</td>
+<td style="text-align:left"><strong>Tengo doble nacionalidad.</strong></td>
+<td style="text-align:left">I have dual nationality.</td>
+<td style="text-align:left">저는 이중 국적입니다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Me siento orgulloso de mis raíces.</strong></td>
-<td style="text-align: left;">I feel proud of my roots.</td>
-<td style="text-align: left;">저는 제 뿌리가 자랑스러워요.</td>
+<td style="text-align:left"><strong>Me siento orgulloso de mis raíces.</strong></td>
+<td style="text-align:left">I feel proud of my roots.</td>
+<td style="text-align:left">저는 제 뿌리가 자랑스러워요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>España es un país multicultural.</strong></td>
-<td style="text-align: left;">Spain is a multicultural country.</td>
-<td style="text-align: left;">스페인은 다문화 국가입니다.</td>
+<td style="text-align:left"><strong>España es un país multicultural.</strong></td>
+<td style="text-align:left">Spain is a multicultural country.</td>
+<td style="text-align:left">스페인은 다문화 국가입니다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Él se ha integrado muy bien.</strong></td>
-<td style="text-align: left;">He has integrated very well.</td>
-<td style="text-align: left;">그는 매우 잘 적응(통합)했어요.</td>
+<td style="text-align:left"><strong>Él se ha integrado muy bien.</strong></td>
+<td style="text-align:left">He has integrated very well.</td>
+<td style="text-align:left">그는 매우 잘 적응(통합)했어요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>¿Cuáles son tus orígenes?</strong></td>
-<td style="text-align: left;">What are your origins?</td>
-<td style="text-align: left;">당신의 뿌리(배경)는 무엇인가요?</td>
+<td style="text-align:left"><strong>¿Cuáles son tus orígenes?</strong></td>
+<td style="text-align:left">What are your origins?</td>
+<td style="text-align:left">당신의 뿌리(배경)는 무엇인가요?</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
-<h3 id="1-ser-origen">1. Ser 동사와 출신(Origen)의 심화 표현</h3>
-<p>단순히 "어디 출신이다"를 넘어, 배경을 설명할 때 사용하는 구조입니다.</p>
+<hr>
+<h2>4. Gramática Esencial</h2>
+<h3>1. Ser 동사와 출신(Origen)의 심화 표현</h3>
+<p>단순히 &quot;어디 출신이다&quot;를 넘어, 배경을 설명할 때 사용하는 구조입니다.</p>
 <ul>
 <li><strong>Ser de + [Country/City]</strong>: Soy de Seúl. (가장 기본)</li>
 <li><strong>Ser de origen + [Adjective]</strong>: Ella es de origen árabe. (그녀는 아랍계이다.)</li>
 <li><strong>Tener raíces en + [Place]</strong>: Tengo raíces en Galicia. (내 뿌리는 갈리시아에 있다.)</li>
 </ul>
-<h3 id="2-ser">2. 과거의 정체성 표현 (Ser의 불완료 과거)</h3>
-<p>과거에 내가 누구였는지, 어떤 사람이었는지 묘사할 때 사용합니다. 구체적인 과거 시제보다는 "상태의 묘사"에 초점을 맞춥니다.</p>
+<h3>2. 과거의 정체성 표현 (Ser의 불완료 과거)</h3>
+<p>과거에 내가 누구였는지, 어떤 사람이었는지 묘사할 때 사용합니다. 구체적인 과거 시제보다는 &quot;상태의 묘사&quot;에 초점을 맞춥니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">주어</th>
-<th style="text-align: left;"><strong>Era</strong> (과거에 ~였다)</th>
+<th style="text-align:left">주어</th>
+<th style="text-align:left"><strong>Era</strong> (과거에 ~였다)</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>yo</strong></td>
-<td style="text-align: left;"><strong>era</strong></td>
+<td style="text-align:left"><strong>yo</strong></td>
+<td style="text-align:left"><strong>era</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>tú</strong></td>
-<td style="text-align: left;"><strong>eras</strong></td>
+<td style="text-align:left"><strong>tú</strong></td>
+<td style="text-align:left"><strong>eras</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>él / ella / usted</strong></td>
-<td style="text-align: left;"><strong>era</strong></td>
+<td style="text-align:left"><strong>él / ella / usted</strong></td>
+<td style="text-align:left"><strong>era</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>nosotros / nosotras</strong></td>
-<td style="text-align: left;"><strong>éramos</strong></td>
+<td style="text-align:left"><strong>nosotros / nosotras</strong></td>
+<td style="text-align:left"><strong>éramos</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>vosotros / vosotras</strong></td>
-<td style="text-align: left;"><strong>erais</strong></td>
+<td style="text-align:left"><strong>vosotros / vosotras</strong></td>
+<td style="text-align:left"><strong>erais</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>ellos / ellas / ustedes</strong></td>
-<td style="text-align: left;"><strong>eran</strong></td>
+<td style="text-align:left"><strong>ellos / ellas / ustedes</strong></td>
+<td style="text-align:left"><strong>eran</strong></td>
 </tr>
 </tbody>
 </table>
-<div class="admonition-important"><strong>💡 Important</strong><br/><br />
-<strong>Korean Tip</strong>: "나는 어릴 때 부끄러움이 많았어(Cuando <strong>era</strong> pequeño, <strong>era</strong> tímido)"처럼 과거의 나를 묘사할 때 'era'를 사용합니다. 현재의 'soy'와 대조하며 연습해 보세요.</div>
-<hr />
-<h2 id="5-culture-viva-los-expats-y-la-diversidad-en-espana">5. Culture Viva: Los "Expats" y la diversidad en España 🌍</h2>
+<div class="admonition-important"><strong>💡 important</strong><br/><br>
+<strong>Korean Tip</strong>: &quot;나는 어릴 때 부끄러움이 많았어(Cuando <strong>era</strong> pequeño, <strong>era</strong> tímido)&quot;처럼 과거의 나를 묘사할 때 'era'를 사용합니다. 현재의 'soy'와 대조하며 연습해 보세요.</div>
+<hr>
+<h2>5. Cultura Viva: Los &quot;Expats&quot; y la diversidad en España 🌍</h2>
 <p>스페인의 다문화적 변화와 그 안에서 살아가는 외국인들에 대해 알아봅시다.</p>
 <p><strong>España: Un crisol de culturas (스페인: 문화의 용광로)</strong></p>
-<p>En los últimos veinte años, España ha cambiado mucho. El país ha pasado de ser un lugar de donde la gente salía para trabajar a ser un destino muy popular para personas de todo el mundo. Hoy en día, ciudades como Madrid, Barcelona, Valencia y Málaga son centros internacionales. Los "expats" (extranjeros que trabajan fuera de su país) eligen España por su calidad de vida, su clima y su gente abierta.</p>
+<p>En los últimos veinte años, España ha cambiado mucho. El país ha pasado de ser un lugar de donde la gente salía para trabajar a ser un destino muy popular para personas de todo el mundo. Hoy en día, ciudades como Madrid, Barcelona, Valencia y Málaga son centros internacionales. Los &quot;expats&quot; (extranjeros que trabajan fuera de su país) eligen España por su calidad de vida, su clima y su gente abierta.</p>
 <p>Esto ha creado una sociedad donde la <strong>diversidad</strong> es la norma. Es muy común encontrar niños con <strong>raíces mixtas</strong> en las escuelas o barrios donde se hablan muchos idiomas diferentes. La <strong>integración</strong> es un proceso importante y, aunque a veces es difícil, los españoles valoran mucho el <strong>respeto</strong> y la convivencia. Muchos latinoamericanos se sienten como en casa por el idioma, mientras que europeos y otros prefieren el estilo de vida mediterráneo.</p>
-<p><strong>한국어 번역</strong><br />
-지난 20년 동안 스페인은 많이 변했습니다. 스페인은 사람들이 일자리를 찾아 떠나던 나라에서 이제는 전 세계 사람들이 모여드는 매우 인기 있는 목적지가 되었습니다. 오늘날 마드리드, 바르셀로나, 발렌시아, 말라가 같은 도시들은 세계적인 중심지가 되었습니다. "Expats(국외 거주자/외국인 노동자)"들은 삶의 질, 기후, 그리고 개방적인 사람들 때문에 스페인을 선택합니다.</p>
+<p><strong>한국어 번역</strong><br>
+지난 20년 동안 스페인은 많이 변했습니다. 스페인은 사람들이 일자리를 찾아 떠나던 나라에서 이제는 전 세계 사람들이 모여드는 매우 인기 있는 목적지가 되었습니다. 오늘날 마드리드, 바르셀로나, 발렌시아, 말라가 같은 도시들은 세계적인 중심지가 되었습니다. &quot;Expats(국외 거주자/외국인 노동자)&quot;들은 삶의 질, 기후, 그리고 개방적인 사람들 때문에 스페인을 선택합니다.</p>
 <p>이로 인해 <strong>다양성이(diversidad)</strong> 일상이 된 사회가 만들어졌습니다. 학교에서 <strong>다양한 뿌리를(raíces mixtas)</strong> 가진 아이들을 만나거나, 여러 언어가 들리는 동네를 보는 것은 매우 흔한 일입니다. <strong>통합은(integración)</strong> 중요한 과정이며 때로는 어렵기도 하지만, 스페인 사람들은 <strong>존중과(respeto)</strong> 공존을 매우 가치 있게 여깁니다. 많은 중남미 사람들은 언어 때문에 이곳을 집처럼 느끼고, 유럽인들이나 다른 지역 사람들은 지중해식 생활 방식을 선호합니다.</p>
-<p><img alt="Co-working in Spain" src="../images/ch03_a2_culture_expats_v56.png" /></p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
+<p><img src="../images/ch03_a2_culture_expats_v56.png" alt="Co-working in Spain"></p>
+<hr>
+<h2>6. Práctica</h2>
 <p><strong>A. ¿Soy o Era? (문맥에 맞게 현재 또는 과거형을 선택하세요)</strong></p>
 <ol>
 <li>Ahora (soy / era) estudiante de medicina en Madrid.</li>
@@ -507,108 +305,118 @@ A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아�
 </ol>
 <p><strong>C. 번역 연습 (스페인어로 옮겨보세요)</strong></p>
 <ol>
-<li>나는 어릴 때 매우 수줍음이 많았어(tímido).<br />
-   ...........................................................................................</li>
-<li>내 부모님은 멕시코계 배경(origen)을 가지고 계셔.<br />
-   ...........................................................................................</li>
-<li>스페인은 정말 다문화적인 나라야.<br />
-   ...........................................................................................</li>
-<li>우리는 학교에서 다른 문화권 친구들과 잘 어울려(integrarse).<br />
-   ...........................................................................................</li>
-<li>당신의 가족적인 뿌리(raíces)는 어디인가요?<br />
-   ...........................................................................................</li>
+<li>나는 어릴 때 매우 수줍음이 많았어(tímido).<br>
+...........................................................................................</li>
+<li>내 부모님은 멕시코계 배경(origen)을 가지고 계셔.<br>
+...........................................................................................</li>
+<li>스페인은 정말 다문화적인 나라야.<br>
+...........................................................................................</li>
+<li>우리는 학교에서 다른 문화권 친구들과 잘 어울려(integrarse).<br>
+...........................................................................................</li>
+<li>당신의 가족적인 뿌리(raíces)는 어디인가요?<br>
+...........................................................................................</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>La historia de Ricardo</strong></p>
 <p>Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, pero mis abuelos <strong>eran</strong> de Italia y España. Por eso, me siento orgulloso de mis <strong>raíces mixtas</strong>. Ahora vivo en Valencia y trabajo como arquitecto. Me he <strong>integrado</strong> perfectamente en la ciudad porque la gente es muy acogedora. Para mí, la <strong>diversidad</strong> es una riqueza y creo que el <strong>respeto</strong> es la base de todo.</p>
-<p><strong>Questions</strong><br />
-1. Ricardo의 조부모님은 어디 출신이었나요?<br />
-2. 그는 자신의 배경(뿌리)에 대해 어떻게 느끼나요?<br />
-3. 그는 왜 발렌시아에 잘 적응했다고 생각하나요?</p>
-<p><strong>한국어 번역</strong><br />
-<strong>리카르도의 이야기</strong><br />
+<p><strong>Questions</strong></p>
+<ol>
+<li>Ricardo의 조부모님은 어디 출신이었나요?</li>
+<li>그는 자신의 배경(뿌리)에 대해 어떻게 느끼나요?</li>
+<li>그는 왜 발렌시아에 잘 적응했다고 생각하나요?</li>
+</ol>
+<p><strong>한국어 번역</strong><br>
+<strong>리카르도의 이야기</strong><br>
 제 이름은 리카르도이고 제 이야기는 조금 복잡합니다. 저는 부에노스아이레스에서 태어났지만, 제 조부모님은 이탈리아와 스페인 분이셨습니다. 그래서 저는 제 <strong>혼합된 뿌리가(raíces mixtas)</strong> 자랑스럽습니다. 지금 저는 발렌시아에 살며 건축가로 일하고 있습니다. 사람들이 매우 친절하기 때문에 저는 이 도시에서 완벽하게 <strong>적응했습니다(integrado)</strong>. 저에게 <strong>다양성은(diversidad)</strong> 풍요로움이며, <strong>존중이(respeto)</strong> 모든 것의 기초라고 믿습니다.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>¿De dónde son tus abuelos? (할아버지, 할머니는 어디 분이셔?)</strong></p>
-<p><strong>Situación:</strong> Mateo y Sara están hablando sobre sus familias en un café. Sara nota que Mateo tiene apellidos que no suenan muy españoles y le pregunta por sus antepasados.<br />
+<p><strong>Situación:</strong> Mateo y Sara están hablando sobre sus familias en un café. Sara nota que Mateo tiene apellidos que no suenan muy españoles y le pregunta por sus antepasados.<br>
 <strong>상황:</strong> 마테오와 사라는 카페에서 가족 이야기를 나누고 있습니다. 사라는 마테오의 성(apellido)이 스페인 이름처럼 들리지 않는다는 것을 알아차리고 조상들에 대해 묻습니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Speaker</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Speaker</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Sara</strong></td>
-<td style="text-align: left;">Mateo, tu apellido es curioso. ¿Cuál es tu origen?</td>
-<td style="text-align: left;">마테오, 네 성이 특이해. 배경이 어떻게 되니?</td>
+<td style="text-align:left"><strong>Sara</strong></td>
+<td style="text-align:left">Mateo, tu apellido es curioso. ¿Cuál es tu origen?</td>
+<td style="text-align:left">마테오, 네 성이 특이해. 배경이 어떻게 되니?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Mateo</strong></td>
-<td style="text-align: left;">Tienes razón. Mis antepasados <strong>eran</strong> alemanes.</td>
-<td style="text-align: left;">맞아. 내 조상들은 독일 분들이셨어.</td>
+<td style="text-align:left"><strong>Mateo</strong></td>
+<td style="text-align:left">Tienes razón. Mis antepasados <strong>eran</strong> alemanes.</td>
+<td style="text-align:left">맞아. 내 조상들은 독일 분들이셨어.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sara</strong></td>
-<td style="text-align: left;">¡Qué interesante! ¿Tienes raíces alemanas entonces?</td>
-<td style="text-align: left;">정말 흥미롭다! 그럼 독일인의 뿌리가 있는 거네?</td>
+<td style="text-align:left"><strong>Sara</strong></td>
+<td style="text-align:left">¡Qué interesante! ¿Tienes raíces alemanas entonces?</td>
+<td style="text-align:left">정말 흥미롭다! 그럼 독일인의 뿌리가 있는 거네?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Mateo</strong></td>
-<td style="text-align: left;">Sí, pero mi madre es de origen argentino.</td>
-<td style="text-align: left;">응, 하지만 우리 어머니는 아르헨티나계셔.</td>
+<td style="text-align:left"><strong>Mateo</strong></td>
+<td style="text-align:left">Sí, pero mi madre es de origen argentino.</td>
+<td style="text-align:left">응, 하지만 우리 어머니는 아르헨티나계셔.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sara</strong></td>
-<td style="text-align: left;">¡Vaya! Tienes una identidad muy multicultural.</td>
-<td style="text-align: left;">와! 정말 다문화적인 정체성을 가지고 있구나.</td>
+<td style="text-align:left"><strong>Sara</strong></td>
+<td style="text-align:left">¡Vaya! Tienes una identidad muy multicultural.</td>
+<td style="text-align:left">와! 정말 다문화적인 정체성을 가지고 있구나.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Mateo</strong></td>
-<td style="text-align: left;">Sí, me encanta la diversidad de mi familia.</td>
-<td style="text-align: left;">맞아, 우리 가족의 다양성이 정말 좋아.</td>
+<td style="text-align:left"><strong>Mateo</strong></td>
+<td style="text-align:left">Sí, me encanta la diversidad de mi familia.</td>
+<td style="text-align:left">맞아, 우리 가족의 다양성이 정말 좋아.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sara</strong></td>
-<td style="text-align: left;">Yo también soy de origen mixto. Mi padre es francés.</td>
-<td style="text-align: left;">나도 혼혈 배경이 있어. 우리 아버지는 프랑스 분이야.</td>
+<td style="text-align:left"><strong>Sara</strong></td>
+<td style="text-align:left">Yo también soy de origen mixto. Mi padre es francés.</td>
+<td style="text-align:left">나도 혼혈 배경이 있어. 우리 아버지는 프랑스 분이야.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Mateo</strong></td>
-<td style="text-align: left;">¡Genial! Al final, todos somos ciudadanos del mundo.</td>
-<td style="text-align: left;">멋지다! 결국 우리는 모두 세계 시민이네.</td>
+<td style="text-align:left"><strong>Mateo</strong></td>
+<td style="text-align:left">¡Genial! Al final, todos somos ciudadanos del mundo.</td>
+<td style="text-align:left">멋지다! 결국 우리는 모두 세계 시민이네.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이 장에서 배운 내용을 확인해 보세요:<br />
-- [ ] 다문화 사회와 관련된 어휘(diversidad, integración 등)를 안다.<br />
-- [ ] Ser 동사의 불완료 과거(era)를 사용하여 과거의 상태를 묘사할 수 있다.<br />
-- [ ] 'Ser de origen'과 'Tener raíces en'을 사용하여 배경을 설명한다.<br />
-- [ ] 스페인 사회의 다문화화와 Expats의 특징을 이해한다.</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
-<p>¡Fantástico! 이제 여러분은 단순한 호구조사를 넘어, 한 사람의 깊은 뿌리와 정체성의 다양성까지 스페인어로 심도 있게 이야기할 수 있게 되었습니다. <br />
-정체성은 고정된 것이 아니라 과거와 현재가 섞인 '이야기'와 같다는 점을 배웠습니다. <br />
+<hr>
+<h2>9. Repaso</h2>
+<p>이 장에서 배운 내용을 확인해 보세요:</p>
+<ul>
+<li>[ ] 다문화 사회와 관련된 어휘(diversidad, integración 등)를 안다.</li>
+<li>[ ] Ser 동사의 불완료 과거(era)를 사용하여 과거의 상태를 묘사할 수 있다.</li>
+<li>[ ] 'Ser de origen'과 'Tener raíces en'을 사용하여 배경을 설명한다.</li>
+<li>[ ] 스페인 사회의 다문화화와 Expats의 특징을 이해한다.</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
+<p>¡Fantástico! 이제 여러분은 단순한 호구조사를 넘어, 한 사람의 깊은 뿌리와 정체성의 다양성까지 스페인어로 심도 있게 이야기할 수 있게 되었습니다.<br>
+정체성은 고정된 것이 아니라 과거와 현재가 섞인 '이야기'와 같다는 점을 배웠습니다.<br>
 다음 장에서는 이 정체성을 함께 공유하는 가장 소중한 사람들, '가족과 친구들'에 대해 배우며 풍성한 대화를 나누어 보겠습니다. ¡Hasta pronto!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>A. ¿Soy o Era?</strong><br />
-1. soy / 2. era, era / 3. era / 4. somos / 5. eras</p>
-<p><strong>B. Origen y Nacionalidad</strong><br />
-1. origen / 2. doble / 3. origen / 4. orgulloso / 5. diversidad</p>
-<p><strong>C. 번역 연습</strong><br />
-1. Cuando era pequeño, era muy tímido.<br />
-2. Mis padres tienen origen mexicano.<br />
-3. España es un país realmente multicultural.<br />
-4. Nos integramos bien con amigos de otras culturas en la escuela.<br />
-5. ¿Dónde están tus raíces familiares?</p>
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>A. ¿Soy o Era?</strong></p>
+<ol>
+<li>soy / 2. era, era / 3. era / 4. somos / 5. eras</li>
+</ol>
+<p><strong>B. Origen y Nacionalidad</strong></p>
+<ol>
+<li>origen / 2. doble / 3. origen / 4. orgulloso / 5. diversidad</li>
+</ol>
+<p><strong>C. 번역 연습</strong></p>
+<ol>
+<li>Cuando era pequeño, era muy tímido.</li>
+<li>Mis padres tienen origen mexicano.</li>
+<li>España es un país realmente multicultural.</li>
+<li>Nos integramos bien con amigos de otras culturas en la escuela.</li>
+<li>¿Dónde están tus raíces familiares?</li>
+</ol>
 </div>
 </body>
 </html>

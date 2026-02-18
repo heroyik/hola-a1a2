@@ -21,18 +21,28 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 
 ![Lugares](../images/ch12_a2_vocab_places.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la recepción** | **Reception** ✅ | 리셉션 / 접수처 |
-| 2 | **la reserva** | **Reserve / Reservation** ✅ | 예약 |
-| 3 | **la habitación doble** | **Double** (room) ✅ | 2인실 / 더블룸 |
-| 4 | **el aire acondicionado** | **Air Conditioning** ✅ | 에어컨 |
-| 5 | **el monumento** | **Monument** ✅ | 기념물 / 유적 |
-| 6 | **la catedral** | **Cathedral** ✅ (Perfect Cognate) | 대성당 |
-| 7 | **la playa** | — | 해변 |
-| 8 | **la montaña** | **Mountain** ✅ | 산 |
-| 9 | **el paisaje** | **Passage** (landscape view) | 풍경 / 경치 |
-| 10 | **el turismo cultural** | **Cultural Tourism** ✅ | 문화 관광 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la recepción</strong></td><td><strong>Reception</strong> ✅</td><td>리셉션 / 접수처</td></tr>
+    <tr><td>2</td><td><strong>la reserva</strong></td><td><strong>Reserve / Reservation</strong> ✅</td><td>예약</td></tr>
+    <tr><td>3</td><td><strong>la habitación doble</strong></td><td><strong>Double</strong> (room) ✅</td><td>2인실 / 더블룸</td></tr>
+    <tr><td>4</td><td><strong>el aire acondicionado</strong></td><td><strong>Air Conditioning</strong> ✅</td><td>에어컨</td></tr>
+    <tr><td>5</td><td><strong>el monumento</strong></td><td><strong>Monument</strong> ✅</td><td>기념물 / 유적</td></tr>
+    <tr><td>6</td><td><strong>la catedral</strong></td><td><strong>Cathedral</strong> ✅</td><td>대성당</td></tr>
+    <tr><td>7</td><td><strong>la playa</strong></td><td>—</td><td>해변</td></tr>
+    <tr><td>8</td><td><strong>la montaña</strong></td><td><strong>Mountain</strong> ✅</td><td>산</td></tr>
+    <tr><td>9</td><td><strong>el paisaje</strong></td><td><strong>Passage</strong></td><td>풍경 / 경치</td></tr>
+    <tr><td>10</td><td><strong>el turismo cultural</strong></td><td><strong>Cultural Tourism</strong> ✅</td><td>문화 관광</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -62,14 +72,23 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 현재와 가까운 과거 혹은 시점이 정해지지 않은 경험을 말할 때 씁니다. (영어의 `Present Perfect`와 유사)
 **구조: Haber 동사의 현재형 + 과거분사(-ado / -ido)**
 
-| 인칭 | **Haber** | **과거분사 (예: viajar / comer)** |
-| :--- | :--- | :--- |
-| **Yo** | **he** | viaj**ado** / com**ido** |
-| **Tú** | **has** | viaj**ado** / com**ido** |
-| **Él/Ella/Ud.** | **ha** | viaj**ado** / com**ido** |
-| **Nosotros/as** | **hemos** | viaj**ado** / com**ido** |
-| **Vosotros/as** | **habéis** | viaj**ado** / com**ido** |
-| **Ellos/Ellas/Uds.** | **han** | viaj**ado** / com**ido** |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Haber</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Participio (viajar / comer)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>yo</td><td><strong>he</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>tú</td><td><strong>has</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>él/ella/ud.</td><td><strong>ha</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>nosotros/as</td><td><strong>hemos</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>vosotros/as</td><td><strong>habéis</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>ellos/ellas/uds.</td><td><strong>han</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+  </tbody>
+</table>
 
 **부사와의 결합:**
 - **Ya**: 이미 (*Ya he hecho la maleta.*)
@@ -98,13 +117,21 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 
 **A. Select the appropriate hotel facility (알맞은 호텔 시설을 선택하세요)**
 
-| Description | Facility |
-| :--- | :--- |
-| 1. Where you check in | a. El aire acondicionado |
-| 2. A room for one person | b. El gimnasio |
-| 3. To cool the room | c. La recepción |
-| 4. Where you do exercise | d. La habitación individual |
-| 5. To save your money/passport | e. la caja fuerte (금고) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Facility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1. Where one checks in</td><td>c. <strong>La recepción</strong></td></tr>
+    <tr><td>2. A room for one person</td><td>d. <strong>La habitación individual</strong></td></tr>
+    <tr><td>3. To cool the room</td><td>a. <strong>El aire acondicionado</strong></td></tr>
+    <tr><td>4. Where one does exercise</td><td>b. <strong>El gimnasio</strong></td></tr>
+    <tr><td>5. To save one's money/passport</td><td>e. <strong>La caja fuerte</strong></td></tr>
+  </tbody>
+</table>
 
 **B. 완료 과거 변형 연습 (괄호 안의 동사를 완료 과거 형태로 바꾸세요)**
 
@@ -151,15 +178,23 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 **Situación:** Lucía llama a recepción porque tiene problemas con su habitación en el hotel.
 **상황:** 루시아가 호텔 방의 문제 때문에 리셉션에 전화합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Recepcionista:** ¿Diga? Recepción, buenas tardes. | **리셉션 직원:** 여보세요? 리셉션입니다, 안녕하세요. |
-| **Lucía:** Hola, llamo de la habitación 305. Tengo un problema. | **루시아:** 안녕하세요, 305호인데요. 문제가 좀 있습니다. |
-| **Recepcionista:** Dígame, ¿qué ocurre? | **리셉션 직원:** 말씀하세요, 무슨 일인가요? |
-| **Lucía:** El aire acondicionado no funciona y hace mucho calor. | **루시아:** 에어컨이 작동하지 않아서 너무 더워요. |
-| **Recepcionista:** Lo siento mucho. ¿Ha probado a encenderlo con el mando? | **리셉션 직원:** 죄송합니다. 리모컨으로 켜보셨나요? |
-| **Lucía:** Sí, lo he hecho, 하지만 no pasa nada. | **루시아:** 네, 해봤는데 아무 반응이 없어요. |
-| **Recepcionista:** Entiendo. Envío a un técnico ahora mismo. | **리셉션 직원:** 알겠습니다. 지금 바로 기술자를 보내드릴게요. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> ¿Diga? Recepción, buenas tardes.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 여보세요? 리셉션입니다, 안녕하세요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Hola, llamo de la habitación 305. Tengo un problema.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 안녕하세요, 305호인데요. 문제가 좀 있습니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Dígame, ¿qué ocurre?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 말씀하세요, 무슨 일인가요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> El aire acondicionado no funciona y hace mucho calor.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 에어컨이 작동하지 않아서 너무 더워요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Lo siento mucho. ¿Ha probado a encenderlo con el mando?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 죄송합니다. 리모컨으로 켜보셨나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Sí, lo he hecho, 하지만 no pasa nada.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 네, 해봤는데 아무 반응이 없어요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Entiendo. Envío a un técnico ahora mismo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 알겠습니다. 지금 바로 기술자를 보내드릴게요.</td></tr>
+  </tbody>
+</table>
 
 ---
 

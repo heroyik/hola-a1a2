@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch02_a1_como_soy.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,395 +27,216 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-2-como-soy-a1">Chapter 2: ¿Cómo soy? (A1)</h1>
+    <div class="container"><h1>Chapter 2: ¿Cómo soy? (A1)</h1>
 <p class="cervantes-ref">Cervantes: §2 Persona: 신체적 외모 기술 및 기본적인 성격, 기분 상태 표현</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>¿Cómo eres tú?</strong><br />
+<h2>1. Opener</h2>
+<p><strong>¿Cómo eres tú?</strong><br>
 이 장에서는 나와 주변 사람들의 성격, 외모, 그리고 현재의 기분과 감정을 묘사하는 방법을 배웁니다. 스페인어에서 가장 중요한 두 동사, <strong>ser</strong>와 <strong>estar</strong>의 결전이 시작됩니다!</p>
-<p><strong>학습 목표</strong><br />
-- 성격과 외모를 나타내는 핵심 형용사 습득<br />
-- '본질'을 나타내는 ser 동사와 '상태'를 나타내는 estar 동사의 완벽 구분<br />
-- 긍정형과 부정형을 사용한 자기소개 및 타인 묘사<br />
-- 스페인의 인사 문화(Dos besos) 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>성격과 외모를 나타내는 핵심 형용사 습득</li>
+<li>'본질'을 나타내는 ser 동사와 '상태'를 나타내는 estar 동사의 완벽 구분</li>
+<li>긍정형과 부정형을 사용한 자기소개 및 타인 묘사</li>
+<li>스페인의 인사 문화(Dos besos) 이해</li>
+</ul>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인 사람들은 처음 만났을 때나 인사를 할 때 양쪽 볼에 가볍게 키스를 하는 'Dos besos' 문화를 가지고 있습니다. 이건 연인 사이뿐만 아니라 친구, 가족, 심지어 처음 본 사이에서도 흔히 일어나는 친근함의 표시랍니다!</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>아래 삽화 속 인물들의 특징을 살펴보며 필수 형용사를 익혀보세요.</p>
-<p><img alt="¿Cómo somos?" src="../images/ch02_a1_vocab_personality_v56.png" /></p>
+<p><img src="../images/ch02_a1_vocab_personality_v56.png" alt="¿Cómo somos?"></p>
 <table>
 <thead>
 <tr>
 <th>#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td>1</td>
-<td style="text-align: left;"><strong>alegre</strong></td>
-<td style="text-align: left;"><strong>Cheerful / Allegro</strong> (mus.) ✅</td>
-<td style="text-align: left;">활기찬 느낌</td>
+<td style="text-align:left"><strong>alegre</strong></td>
+<td style="text-align:left"><strong>Cheerful / Allegro</strong> (mus.) ✅</td>
+<td style="text-align:left">활기찬 느낌</td>
 </tr>
 <tr>
 <td>2</td>
-<td style="text-align: left;"><strong>triste</strong></td>
-<td style="text-align: left;"><strong>Triste</strong> (fr.) → Sad</td>
-<td style="text-align: left;">'트리스테'라고 발음</td>
+<td style="text-align:left"><strong>triste</strong></td>
+<td style="text-align:left"><strong>Triste</strong> (fr.) → Sad</td>
+<td style="text-align:left">'트리스테'라고 발음</td>
 </tr>
 <tr>
 <td>3</td>
-<td style="text-align: left;"><strong>serio / seria</strong></td>
-<td style="text-align: left;"><strong>Serious</strong> ✅</td>
-<td style="text-align: left;">-o/-a 성수 변화 주의</td>
+<td style="text-align:left"><strong>serio / seria</strong></td>
+<td style="text-align:left"><strong>Serious</strong> ✅</td>
+<td style="text-align:left">-o/-a 성수 변화 주의</td>
 </tr>
 <tr>
 <td>4</td>
-<td style="text-align: left;"><strong>antipático / -a</strong></td>
-<td style="text-align: left;"><strong>Antipathy</strong> → Unpleasant</td>
-<td style="text-align: left;">'비호감인' 느낌</td>
+<td style="text-align:left"><strong>antipático / -a</strong></td>
+<td style="text-align:left"><strong>Antipathy</strong> → Unpleasant</td>
+<td style="text-align:left">'비호감인' 느낌</td>
 </tr>
 <tr>
 <td>5</td>
-<td style="text-align: left;"><strong>simpático / -a</strong></td>
-<td style="text-align: left;"><strong>Sympathetic</strong> → Nice / Friendly</td>
-<td style="text-align: left;">'호감가는' 느낌</td>
+<td style="text-align:left"><strong>simpático / -a</strong></td>
+<td style="text-align:left"><strong>Sympathetic</strong> → Nice / Friendly</td>
+<td style="text-align:left">'호감가는' 느낌</td>
 </tr>
 <tr>
 <td>6</td>
-<td style="text-align: left;"><strong>alto / alta</strong></td>
-<td style="text-align: left;"><strong>Altitude</strong> → Tall</td>
-<td style="text-align: left;">높은 곳을 상상하세요</td>
+<td style="text-align:left"><strong>alto / alta</strong></td>
+<td style="text-align:left"><strong>Altitude</strong> → Tall</td>
+<td style="text-align:left">높은 곳을 상상하세요</td>
 </tr>
 <tr>
 <td>7</td>
-<td style="text-align: left;"><strong>bajo / baja</strong></td>
-<td style="text-align: left;"><strong>Base</strong> → Short / Low</td>
-<td style="text-align: left;">낮은 곳을 상상하세요</td>
+<td style="text-align:left"><strong>bajo / baja</strong></td>
+<td style="text-align:left"><strong>Base</strong> → Short / Low</td>
+<td style="text-align:left">낮은 곳을 상상하세요</td>
 </tr>
 <tr>
 <td>8</td>
-<td style="text-align: left;"><strong>delgado / -a</strong></td>
-<td style="text-align: left;">— (Thin / Slender)</td>
-<td style="text-align: left;">'델가도'</td>
+<td style="text-align:left"><strong>delgado / -a</strong></td>
+<td style="text-align:left">— (Thin / Slender)</td>
+<td style="text-align:left">'델가도'</td>
 </tr>
 <tr>
 <td>9</td>
-<td style="text-align: left;"><strong>gordo / gorda</strong></td>
-<td style="text-align: left;">— (Fat / Chubby)</td>
-<td style="text-align: left;">'고르도'</td>
+<td style="text-align:left"><strong>gordo / gorda</strong></td>
+<td style="text-align:left">— (Fat / Chubby)</td>
+<td style="text-align:left">'고르도'</td>
 </tr>
 <tr>
 <td>10</td>
-<td style="text-align: left;"><strong>inteligente</strong></td>
-<td style="text-align: left;"><strong>Intelligent</strong> ✅</td>
-<td style="text-align: left;">완벽한 인지어</td>
+<td style="text-align:left"><strong>inteligente</strong></td>
+<td style="text-align:left"><strong>Intelligent</strong> ✅</td>
+<td style="text-align:left">완벽한 인지어</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 항목은 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>일상에서 나를 표현하거나 남을 물어볼 때 사용하는 핵심 문장들입니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Mapping</th>
-<th style="text-align: left;">Korean Translation</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Mapping</th>
+<th style="text-align:left">Korean Translation</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>¿Cómo eres?</strong></td>
-<td style="text-align: left;">What are you like? (Personality/Appearance)</td>
-<td style="text-align: left;">너는 어떤 사람이니? (성격/외모)</td>
+<td style="text-align:left"><strong>¿Cómo eres?</strong></td>
+<td style="text-align:left">What are you like? (Personality/Appearance)</td>
+<td style="text-align:left">너는 어떤 사람이니? (성격/외모)</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>¿Cómo estás?</strong></td>
-<td style="text-align: left;">How are you? (Condition/Emotion)</td>
-<td style="text-align: left;">요즘 기분 어때? / 어떻게 지내?</td>
+<td style="text-align:left"><strong>¿Cómo estás?</strong></td>
+<td style="text-align:left">How are you? (Condition/Emotion)</td>
+<td style="text-align:left">요즘 기분 어때? / 어떻게 지내?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Soy una persona alegre.</strong></td>
-<td style="text-align: left;">I am a cheerful person.</td>
-<td style="text-align: left;">나는 밝은 사람이야.</td>
+<td style="text-align:left"><strong>Soy una persona alegre.</strong></td>
+<td style="text-align:left">I am a cheerful person.</td>
+<td style="text-align:left">나는 밝은 사람이야.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Estoy un poco cansado.</strong></td>
-<td style="text-align: left;">I am a bit tired.</td>
-<td style="text-align: left;">나는 좀 피곤해.</td>
+<td style="text-align:left"><strong>Estoy un poco cansado.</strong></td>
+<td style="text-align:left">I am a bit tired.</td>
+<td style="text-align:left">나는 좀 피곤해.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Mi amigo es muy simpático.</strong></td>
-<td style="text-align: left;">My friend is very friendly.</td>
-<td style="text-align: left;">내 친구는 정말 성격이 좋아.</td>
+<td style="text-align:left"><strong>Mi amigo es muy simpático.</strong></td>
+<td style="text-align:left">My friend is very friendly.</td>
+<td style="text-align:left">내 친구는 정말 성격이 좋아.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Ella está muy feliz hoy.</strong></td>
-<td style="text-align: left;">She is very happy today.</td>
-<td style="text-align: left;">그녀는 오늘 아주 행복해 보여.</td>
+<td style="text-align:left"><strong>Ella está muy feliz hoy.</strong></td>
+<td style="text-align:left">She is very happy today.</td>
+<td style="text-align:left">그녀는 오늘 아주 행복해 보여.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
-<h3 id="ser-vs-estar">Ser vs. Estar: '본질'과 '상태'의 구분</h3>
+<hr>
+<h2>4. Gramática Esencial</h2>
+<h3>Ser vs. Estar: '본질'과 '상태'의 구분</h3>
 <p>스페인어의 'be 동사'는 두 가지로 나뉩니다. 이를 구분하는 것이 초급 단계의 가장 큰 산입니다.</p>
-<p><strong>1. Ser 동사 (본질, 정체성, 지속적 특성)</strong><br />
-- 이름, 국적, 직업, 성격, 외모 등 쉽게 변하지 않는 특징에 사용합니다.<br />
-- <strong>English Mapping</strong>: "I AM (who I am)."</p>
+<p><strong>1. Ser 동사 (본질, 정체성, 지속적 특성)</strong></p>
+<ul>
+<li>이름, 국적, 직업, 성격, 외모 등 쉽게 변하지 않는 특징에 사용합니다.</li>
+<li><strong>English Mapping</strong>: &quot;I AM (who I am).&quot;</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -471,9 +271,11 @@ h3:has(+ ol) {
 </tr>
 </tbody>
 </table>
-<p><strong>2. Estar 동사 (상태, 위치, 일시적 기분)</strong><br />
-- 기분, 건강 상태, 물리적 위치 등 가변적인 상황에 사용합니다.<br />
-- <strong>English Mapping</strong>: "I AM (how/where I am)."</p>
+<p><strong>2. Estar 동사 (상태, 위치, 일시적 기분)</strong></p>
+<ul>
+<li>기분, 건강 상태, 물리적 위치 등 가변적인 상황에 사용합니다.</li>
+<li><strong>English Mapping</strong>: &quot;I AM (how/where I am).&quot;</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -508,54 +310,54 @@ h3:has(+ ol) {
 </tr>
 </tbody>
 </table>
-<div class="admonition-important"><strong>💡 Important</strong><br/><br />
-<strong>Korean Tip</strong>: 한국어로는 둘 다 "~이다/있다"로 번역되지만, <strong>"내 친구는 친절하다(Ser)"</strong>와 <strong>"내 친구는 지금 화가 났다(Estar)"</strong>의 차이를 생각하면 이해가 빠릅니다. 성격은 Ser, 기분은 Estar입니다!</div>
-<hr />
-<h2 id="5-cultura-viva-dos-besos">5. Cultura Viva: Dos Besos 💋</h2>
+<div class="admonition-important"><strong>💡 important</strong><br/><br>
+<strong>Korean Tip</strong>: 한국어로는 둘 다 &quot;~이다/있다&quot;로 번역되지만, **&quot;내 친구는 친절하다(Ser)&quot;**와 **&quot;내 친구는 지금 화가 났다(Estar)&quot;**의 차이를 생각하면 이해가 빠릅니다. 성격은 Ser, 기분은 Estar입니다!</div>
+<hr>
+<h2>5. Cultura Viva: Dos Besos 💋</h2>
 <p>스페인 사람들의 따뜻한 인사법을 알아볼까요?</p>
 <p><strong>¡Dos besos para todos!</strong></p>
-<p>En España, la forma más común de saludar, especialmente entre mujeres o entre un hombre y una mujer, es dándose dos besos en las mejillas. No son besos reales con los labios, sino un ligero contacto de mejilla con mejilla mientras se hace el sonido del beso. Se empieza siempre por la mejilla derecha. </p>
+<p>En España, la forma más común de saludar, especialmente entre mujeres o entre un hombre y una mujer, es dándose dos besos en las mejillas. No son besos reales con los labios, sino un ligero contacto de mejilla con mejilla mientras se hace el sonido del beso. Se empieza siempre por la mejilla derecha.</p>
 <p>Este gesto refleja la calidez y la naturaleza social de la cultura española. A diferencia de otras culturas donde se mantiene una distancia física, en España el contacto cercano es una señal de confianza y amistad. Incluso en entornos profesionales menos formales, los dos besos son normales para saludar a colegas o conocidos. Entre hombres que no son familiares cercanos, lo habitual suele ser un apretón de manos o un abrazo corto si hay mucha confianza.</p>
-<p><strong>한국어 번역</strong><br />
+<p><strong>한국어 번역</strong><br>
 스페인에서 가장 일반적인 인사법은, 특히 여성 사이나 남성과 여성 사이에서, 양쪽 볼에 두 번의 키스를 하는 것입니다. 이는 입술을 직접 대는 실제 키스가 아니라, 볼과 볼을 가볍게 맞대며 입으로 키스 소리를 내는 방식입니다. 항상 오른쪽 볼부터 시작합니다.</p>
 <p>이 제스처는 스페인 문화 특유의 따뜻함과 사회성을 잘 보여줍니다. 신체적 거리를 유지하는 다른 문화권과 달리, 스페인에서는 가까운 접촉이 신뢰와 우정의 표시입니다. 심지어 격식이 덜한 전문적인 환경에서도 동료나 지인을 만날 때 두 번의 키스로 인사하는 것이 일반적입니다. 가족 관계가 아닌 남성들 사이에서는 보통 악수를 하거나, 아주 친한 경우에는 가벼운 포옹을 합니다.</p>
-<p><img alt="Dos Besos" src="../images/ch02_a1_culture_greeting_v56.png" /></p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
+<p><img src="../images/ch02_a1_culture_greeting_v56.png" alt="Dos Besos"></p>
+<hr>
+<h2>6. Práctica</h2>
 <p><strong>A. Match the word (알맞은 보기를 연결하세요)</strong></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: center;">Option</th>
-<th style="text-align: left;">English</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:center">Option</th>
+<th style="text-align:left">English</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. alegre</td>
-<td style="text-align: center;">( )</td>
-<td style="text-align: left;">a. serious</td>
+<td style="text-align:left">1. alegre</td>
+<td style="text-align:center">( )</td>
+<td style="text-align:left">a. serious</td>
 </tr>
 <tr>
-<td style="text-align: left;">2. alto</td>
-<td style="text-align: center;">( )</td>
-<td style="text-align: left;">b. friendly</td>
+<td style="text-align:left">2. alto</td>
+<td style="text-align:center">( )</td>
+<td style="text-align:left">b. friendly</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. serio</td>
-<td style="text-align: center;">( )</td>
-<td style="text-align: left;">c. cheerful</td>
+<td style="text-align:left">3. serio</td>
+<td style="text-align:center">( )</td>
+<td style="text-align:left">c. cheerful</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. simpático</td>
-<td style="text-align: center;">( )</td>
-<td style="text-align: left;">d. thin</td>
+<td style="text-align:left">4. simpático</td>
+<td style="text-align:center">( )</td>
+<td style="text-align:left">d. thin</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. delgado</td>
-<td style="text-align: center;">( )</td>
-<td style="text-align: left;">e. tall</td>
+<td style="text-align:left">5. delgado</td>
+<td style="text-align:center">( )</td>
+<td style="text-align:left">e. tall</td>
 </tr>
 </tbody>
 </table>
@@ -569,108 +371,116 @@ h3:has(+ ol) {
 </ol>
 <p><strong>C. 번역 연습 (스페인어로 옮겨보세요)</strong></p>
 <ol>
-<li>나는 똑똑한 사람이야.<br />
-   ...........................................................................................</li>
-<li>너는 오늘 슬프니?<br />
-   ...........................................................................................</li>
-<li>페드로는 정말 성격이 좋아(simpático).<br />
-   ...........................................................................................</li>
-<li>우리는 지금 피곤해(cansados).<br />
-   ...........................................................................................</li>
-<li>그녀는 아주 예쁘다.<br />
-   ...........................................................................................</li>
+<li>나는 똑똑한 사람이야.<br>
+...........................................................................................</li>
+<li>너는 오늘 슬프니?<br>
+...........................................................................................</li>
+<li>페드로는 정말 성격이 좋아(simpático).<br>
+...........................................................................................</li>
+<li>우리는 지금 피곤해(cansados).<br>
+...........................................................................................</li>
+<li>그녀는 아주 예쁘다.<br>
+...........................................................................................</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>Mi familia es especial</strong></p>
 <p>Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto y serio, pero muy inteligente. Mi madre es alegre y siempre está feliz. Mi hermano menor, Pablo, es un poco bajo y muy simpático. Yo soy una persona tranquila y hoy estoy muy contenta porque es mi cumpleaños. ¡Somos una familia muy unida!</p>
-<p><strong>Questions</strong><br />
-1. ¿Cómo은 Sofía의 아버지를 묘사하나요? (성격과 외모)<br />
-2. Pablo는 어떤 사람인가요?<br />
-3. Sofía가 오늘 기분이 좋은 이유는 무엇인가요?</p>
-<p><strong>한국어 번역</strong><br />
-<strong>우리 가족은 특별해요</strong><br />
+<p><strong>Questions</strong></p>
+<ol>
+<li>¿Cómo은 Sofía의 아버지를 묘사하나요? (성격과 외모)</li>
+<li>Pablo는 어떤 사람인가요?</li>
+<li>Sofía가 오늘 기분이 좋은 이유는 무엇인가요?</li>
+</ol>
+<p><strong>한국어 번역</strong><br>
+<strong>우리 가족은 특별해요</strong><br>
 안녕, 내 이름은 소피아야. 우리 가족은 네 명이야. 우리 아버지는 키가 매우 크고 진지하시지만, 정말 똑똑하셔. 우리 어머니는 밝으시고 항상 행복해하셔. 내 남동생 파블로는 키가 좀 작고 정말 성격이 좋아. 나는 차분한 사람이고, 오늘은 내 생일이라서 정말 기뻐. 우리는 정말 화목한 가족이야!</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>¿Cómo estás hoy? (오늘 기분 어때?)</strong></p>
-<p><strong>Situación:</strong> Pedro se encuentra con su amiga Lucía en la universidad. Pedro nota que Lucía se ve un poco diferente hoy y le pregunta por su estado de ánimo y su salud.<br />
+<p><strong>Situación:</strong> Pedro se encuentra con su amiga Lucía en la universidad. Pedro nota que Lucía se ve un poco diferente hoy y le pregunta por su estado de ánimo y su salud.<br>
 <strong>상황:</strong> 페드로는 대학교에서 친구 루시아를 만납니다. 페드로는 오늘 루시아의 모습이 평소와 조금 다르다는 것을 느끼고, 그녀의 기분과 건강 상태에 대해 묻습니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Speaker</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Speaker</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Pedro</strong></td>
-<td style="text-align: left;">¡Hola, Lucía! ¿Cómo estás hoy?</td>
-<td style="text-align: left;">안녕, 루시아! 오늘 기분 어때?</td>
+<td style="text-align:left"><strong>Pedro</strong></td>
+<td style="text-align:left">¡Hola, Lucía! ¿Cómo estás hoy?</td>
+<td style="text-align:left">안녕, 루시아! 오늘 기분 어때?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía</strong></td>
-<td style="text-align: left;">Hola, Pedro. Estoy un poco cansada.</td>
-<td style="text-align: left;">안녕, 페드로. 좀 피곤해.</td>
+<td style="text-align:left"><strong>Lucía</strong></td>
+<td style="text-align:left">Hola, Pedro. Estoy un poco cansada.</td>
+<td style="text-align:left">안녕, 페드로. 좀 피곤해.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pedro</strong></td>
-<td style="text-align: left;">¿Por qué? ¿Estás enferma?</td>
-<td style="text-align: left;">왜? 어디 아파?</td>
+<td style="text-align:left"><strong>Pedro</strong></td>
+<td style="text-align:left">¿Por qué? ¿Estás enferma?</td>
+<td style="text-align:left">왜? 어디 아파?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía</strong></td>
-<td style="text-align: left;">No, no estoy enferma, pero tengo mucho trabajo.</td>
-<td style="text-align: left;">아니, 아픈 건 아닌데 일이 너무 많아.</td>
+<td style="text-align:left"><strong>Lucía</strong></td>
+<td style="text-align:left">No, no estoy enferma, pero tengo mucho trabajo.</td>
+<td style="text-align:left">아니, 아픈 건 아닌데 일이 너무 많아.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pedro</strong></td>
-<td style="text-align: left;">¡Qué pena! Pero hoy estás muy guapa.</td>
-<td style="text-align: left;">안타깝네! 근데 너 오늘 되게 예쁘다.</td>
+<td style="text-align:left"><strong>Pedro</strong></td>
+<td style="text-align:left">¡Qué pena! Pero hoy estás muy guapa.</td>
+<td style="text-align:left">안타깝네! 근데 너 오늘 되게 예쁘다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía</strong></td>
-<td style="text-align: left;">Gracias. Eres muy amable.</td>
-<td style="text-align: left;">고마워. 넌 참 친절하구나.</td>
+<td style="text-align:left"><strong>Lucía</strong></td>
+<td style="text-align:left">Gracias. Eres muy amable.</td>
+<td style="text-align:left">고마워. 넌 참 친절하구나.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pedro</strong></td>
-<td style="text-align: left;">¿Y tu hermano? ¿Cómo está él?</td>
-<td style="text-align: left;">네 남동생은? 그는 어떻게 지내?</td>
+<td style="text-align:left"><strong>Pedro</strong></td>
+<td style="text-align:left">¿Y tu hermano? ¿Cómo está él?</td>
+<td style="text-align:left">네 남동생은? 그는 어떻게 지내?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía</strong></td>
-<td style="text-align: left;">Él está muy alegre porque tiene un perro nuevo.</td>
-<td style="text-align: left;">그는 새 강아지가 생겨서 아주 기분이 좋아.</td>
+<td style="text-align:left"><strong>Lucía</strong></td>
+<td style="text-align:left">Él está muy alegre porque tiene un perro nuevo.</td>
+<td style="text-align:left">그는 새 강아지가 생겨서 아주 기분이 좋아.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이 장에서 배운 내용을 확인해 보세요:<br />
-- [ ] 사람의 외모와 성격을 묘사하는 형용사 10개 이상을 알고 있다.<br />
-- [ ] Ser 동사와 Estar 동사의 변화형을 모두 외웠다.<br />
-- [ ] 언제 Ser를 쓰고 언제 Estar를 쓰는지 명확히 구분할 수 있다.<br />
-- [ ] 스페인의 인사 문화 'Dos besos'의 특징을 설명할 수 있다.</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
-<p>¡Buen trabajo! 성격과 외모를 표현하는 법을 배우면서 여러분은 이제 자신을 스페인어로 소개할 수 있게 되었습니다. <br />
-성격은 '본질(Ser)', 기분은 '상태(Estar)'라는 점만 기억한다면 여러분의 스페인어 실력은 한 단계 더 도약할 것입니다. <br />
+<hr>
+<h2>9. Repaso</h2>
+<p>이 장에서 배운 내용을 확인해 보세요:</p>
+<ul>
+<li>[ ] 사람의 외모와 성격을 묘사하는 형용사 10개 이상을 알고 있다.</li>
+<li>[ ] Ser 동사와 Estar 동사의 변화형을 모두 외웠다.</li>
+<li>[ ] 언제 Ser를 쓰고 언제 Estar를 쓰는지 명확히 구분할 수 있다.</li>
+<li>[ ] 스페인의 인사 문화 'Dos besos'의 특징을 설명할 수 있다.</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
+<p>¡Buen trabajo! 성격과 외모를 표현하는 법을 배우면서 여러분은 이제 자신을 스페인어로 소개할 수 있게 되었습니다.<br>
+성격은 '본질(Ser)', 기분은 '상태(Estar)'라는 점만 기억한다면 여러분의 스페인어 실력은 한 단계 더 도약할 것입니다.<br>
 다음 장에서는 우리의 '정체성'과 '국적'에 대해 더 자세히 알아보겠습니다. ¡Hasta pronto!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>A. Match the word</strong><br />
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>A. Match the word</strong><br>
 1-c, 2-e, 3-a, 4-b, 5-d</p>
-<p><strong>B. Completa con 'ser' o 'estar'</strong><br />
-1. soy / 2. es / 3. estamos / 4. estás / 5. está</p>
-<p><strong>C. 번역 연습</strong><br />
-1. Soy una persona inteligente.<br />
-2. ¿Estás triste hoy?<br />
-3. Pedro es muy simpático.<br />
-4. (Nosotros) estamos cansados ahora.<br />
-5. Ella es muy guapa.</p>
+<p><strong>B. Completa con 'ser' o 'estar'</strong></p>
+<ol>
+<li>soy / 2. es / 3. estamos / 4. estás / 5. está</li>
+</ol>
+<p><strong>C. 번역 연습</strong></p>
+<ol>
+<li>Soy una persona inteligente.</li>
+<li>¿Estás triste hoy?</li>
+<li>Pedro es muy simpático.</li>
+<li>(Nosotros) estamos cansados ahora.</li>
+<li>Ella es muy guapa.</li>
+</ol>
 </div>
 </body>
 </html>

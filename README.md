@@ -30,13 +30,28 @@ book/
 -   🇰🇷 **Korean Tip**: 한국인 학습자를 위한 전용 언어 간섭 해결 팁
 -   🌍 **Cultura Viva**: 스페인 현지의 의료, 식단, 관습 등을 다루는 심층 칼럼
 
-## 🛠 실행 가이드
+## 🛠 Project Infrastructure
 
-```bash
-# 가상 환경 활성화 후 PDF 생성
-source venv/bin/activate
-python3 scripts/generate_pdf.py chapters/ch01_a1_mi_cuerpo.md output/ch01_a1_mi_cuerpo.pdf
-```
+### Technical Stack
+- **Premium Rendering**: `scripts/render_chapters.js` with `markdown-it` and professional CSS for consistent "Gold Standard" output.
+- **Automated Verification**: `scripts/verify_grammar.js` (Playwright-based) for strict structural and grammatical audits.
+- **Production Skill**: Codified writing rules in `.agent/skills/spanish_textbook_v2`.
+
+### 실행 가이드 (Quick Start)
+1. **Remediate**: Update chapters in `chapters/` using the production skill template.
+2. **Render (HTML)**:
+   ```bash
+   node scripts/render_chapters.js
+   ```
+3. **Verify**:
+   ```bash
+   node scripts/verify_grammar.js
+   ```
+4. **Export (PDF)**:
+   ```bash
+   source venv/bin/activate
+   python3 scripts/generate_pdf.py chapters/ch01_a1_mi_cuerpo.md output/ch01_a1_mi_cuerpo.pdf
+   ```
 
 ## 현재 진행 상태
 

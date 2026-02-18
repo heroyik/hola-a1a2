@@ -21,18 +21,28 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 
 ![Cine y Arte](../images/ch09_a2_vocab_cinema_music.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la película** | — | 영화 |
-| 2 | **el director / la directora** | **Director** ✅ | 감독 |
-| 3 | **el concierto** | **Concert** ✅ | 콘서트 / 연주회 |
-| 4 | **la exposición** | **Exposition** ✅ | 전시회 |
-| 5 | **el actor / la actriz** | **Actor / Actress** ✅ | 배우 (남/여) |
-| 6 | **la entrada** | **Entry** (ticket to enter) | 입장권 / 티켓 |
-| 7 | **el guion** | — | 시나리오 / 대본 |
-| 8 | **el escenario** | **Scenery** (related) | 무대 |
-| 9 | **la pintura** | **Painting** (near cognate) | 그림 / 회화 |
-| 10 | **el espectáculo** | **Spectacle** ✅ | 공연 / 볼거리 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la película</strong></td><td>—</td><td>영화</td></tr>
+    <tr><td>2</td><td><strong>el director / la directora</strong></td><td><strong>Director</strong> ✅</td><td>감독</td></tr>
+    <tr><td>3</td><td><strong>el concierto</strong></td><td><strong>Concert</strong> ✅</td><td>콘서트 / 연주회</td></tr>
+    <tr><td>4</td><td><strong>la exposición</strong></td><td><strong>Exposition</strong> ✅</td><td>전시회</td></tr>
+    <tr><td>5</td><td><strong>el actor / la actriz</strong></td><td><strong>Actor / Actress</strong> ✅</td><td>배우 (남/여)</td></tr>
+    <tr><td>6</td><td><strong>la entrada</strong></td><td><strong>Entry</strong> (ticket to enter)</td><td>입장권 / 티켓</td></tr>
+    <tr><td>7</td><td><strong>el guion</strong></td><td>—</td><td>시나리오 / 대본</td></tr>
+    <tr><td>8</td><td><strong>el escenario</strong></td><td><strong>Scenery</strong> (related)</td><td>무대</td></tr>
+    <tr><td>9</td><td><strong>la pintura</strong></td><td><strong>Painting</strong> (near cognate)</td><td>그림 / 회화</td></tr>
+    <tr><td>10</td><td><strong>el espectáculo</strong></td><td><strong>Spectacle</strong> ✅</td><td>공연 / 볼거리</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,17 +70,48 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 
 ### A. 단순 미래 (Futuro Simple)
 미래 시제는 동사 원형 뒤에 어미를 붙이는 방식으로, -ar, -er, -ir 동사의 어미가 모두 동일합니다.
-| 인칭 | **Hablar / Comer / Vivir** | 어미 |
-| :--- | :--- | :--- |
-| **Yo** | hablar**é** | -é |
-| **Tú** | hablar**ás** | -ás |
-| **Él/Ella/Ud.** | hablar**á** | -á |
-| **Nosotros/as** | hablar**emos** | -emos |
-| **Vosotros/as** | hablar**éis** | -éis |
-| **Ellos/Ellas/Uds.** | hablar**án** | -án |
 
-**주요 불규칙 동사 (필수):**
-- **decir** → dir- (diré) / **hacer** → har- (haré) / **querer** → querr- (querré) / **saber** → sabr- (sabré) / **tener** → tendr- (tendré) / **venir** → vendr- (vendré)
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Hablar / Comer / Vivir</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ending</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>yo</td><td>hablar<strong>é</strong></td><td>-é</td></tr>
+    <tr><td>tú</td><td>hablar<strong>ás</strong></td><td>-ás</td></tr>
+    <tr><td>él/ella/ud.</td><td>hablar<strong>á</strong></td><td>-á</td></tr>
+    <tr><td>nosotros/as</td><td>hablar<strong>emos</strong></td><td>-emos</td></tr>
+    <tr><td>vosotros/as</td><td>hablar<strong>éis</strong></td><td>-éis</td></tr>
+    <tr><td>ellos/ellas/uds.</td><td>hablar<strong>án</strong></td><td>-án</td></tr>
+  </tbody>
+</table>
+
+#### 필수 불규칙 동사 (Mandatory Irregular Verbs - Futuro)
+미래 시제에서 불규칙한 어간(Stem)을 가지는 필수 동사들입니다. 어미 변화는 규칙 동사와 동일하게 적용됩니다.
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Infinitivo</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Stem (Future)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">yo (Example)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>poder</strong> (to be able to)</td><td>podr-</td><td>podr<strong>é</strong></td></tr>
+    <tr><td><strong>salir</strong> (to go out)</td><td>saldr-</td><td>saldr<strong>é</strong></td></tr>
+    <tr><td><strong>poner</strong> (to put)</td><td>pondr-</td><td>pondr<strong>é</strong></td></tr>
+    <tr><td><strong>haber</strong> (to have/exist)</td><td>habr-</td><td>habr<strong>é</strong></td></tr>
+    <tr><td><strong>decir</strong> (to say)</td><td>dir-</td><td>dir<strong>é</strong></td></tr>
+    <tr><td><strong>hacer</strong> (to do/make)</td><td>har-</td><td>har<strong>é</strong></td></tr>
+    <tr><td><strong>tener</strong> (to have)</td><td>tendr-</td><td>tendr<strong>é</strong></td></tr>
+    <tr><td><strong>querer</strong> (to want)</td><td>querr-</td><td>querr<strong>é</strong></td></tr>
+    <tr><td><strong>saber</strong> (to know)</td><td>sabr-</td><td>sabr<strong>é</strong></td></tr>
+  </tbody>
+</table>
 
 ### B. Si + 현재, 미래 (현실적 가정)
 '만약 ~하면, ~할 것이다'라는 조건문을 만드는 가장 기초적인 방법입니다.
@@ -99,13 +140,21 @@ En cuanto a la música, España ofrece una mezcla fascinante de tradición y mod
 
 **A. Match the art form with the description (예술 장르와 설명을 연결하세요)**
 
-| Spanish | Description |
-| :--- | :--- |
-| 1. El cine | a. Ver actores en un escenario físico. |
-| 2. La pintura | b. Escuchar canciones y melodías. |
-| 3. La música | c. Ver imágenes en una pantalla grande. |
-| 4. El teatro | d. Exposición de cuadros en un museo. |
-| 5. La literatura | e. Leer libros y novelas. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. El cine</td><td style="padding: 10px; border: 1px solid #ddd;">a. Ver actores en un escenario físico.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. La pintura</td><td style="padding: 10px; border: 1px solid #ddd;">b. Escuchar canciones y melodías.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. La música</td><td style="padding: 10px; border: 1px solid #ddd;">c. Ver imágenes en una pantalla grande.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. El teatro</td><td style="padding: 10px; border: 1px solid #ddd;">d. Exposición de cuadros en un museo.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. La literatura</td><td style="padding: 10px; border: 1px solid #ddd;">e. Leer libros y novelas.</td></tr>
+  </tbody>
+</table>
 
 **B. 미래 시제 연습 (괄호 안의 동사를 미래형으로 변형하세요)**
 
@@ -152,14 +201,22 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 **Situación:** Ana y David acaban de ver el estreno de una película de Almodóvar en la Gran Vía.
 **상황:** 아나와 다비드가 그란 비아에서 알모도바르 영화의 시사회를 막 보고 나왔습니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Ana:** ¡Qué fuerte! La película ha sido increíble, ¿no crees? | **아나:** 대단해! 영화가 정말 믿기지 않을 정도였어, 그렇지 않니? |
-| **David:** Sí, me ha gustado mucho el guion. Los actores estuvieron estupendos. | **다비드:** 응, 시나리오가 아주 마음에 들었어. 배우들도 훌륭했고. |
-| **Ana:** Si gana el Goya, el director hará una gran fiesta. | **아나:** 만약 고야상을 받으면, 감독님이 큰 파티를 열 거야. |
-| **David:** Seguro. ¿Irás tú a la exposición de arte moderno mañana? | **다비드:** 확실해. 너 내일 현대 미술 전시회에 갈 거니? |
-| **Ana:** No podré, tendré que trabajar. Pero si terminas pronto, llámame. | **아나:** 못 갈 거야, 일해야 하거든. 하지만 네가 일찍 끝나면 나한테 전화해. |
-| **David:** De acuerdo. Te llamaré y cenaremos juntos. | **다비드:** 알았어. 전화할게 그리고 같이 저녁 먹자. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> ¡Qué fuerte! La película ha sido increíble, ¿no crees?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 대단해! 영화가 정말 믿기지 않을 정도였어, 그렇지 않니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> Sí, me ha gustado mucho el guion. Los actores estuvieron estupendos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 응, 시나리오가 아주 마음에 들었어. 배우들도 훌륭했고.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Si gana el Goya, el director hará una gran fiesta.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 만약 고야상을 받으면, 감독님이 큰 파티를 열 거야.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> Seguro. ¿Irás tú a la exposición de arte moderno mañana?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 확실해. 너 내일 현대 미술 전시회에 갈 거니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> No podré, tendré que trabajar. Pero si terminas pronto, llámame.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 못 갈 거야, 일해야 하거든. 하지만 네가 일찍 끝나면 나한테 전화해.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> De acuerdo. Te llamaré y cenaremos juntos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 알았어. 전화할게 그리고 같이 저녁 먹자.</td></tr>
+  </tbody>
+</table>
 
 ---
 

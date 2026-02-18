@@ -21,18 +21,28 @@
 
 ![Rutina](../images/ch13_a1_vocab_routine.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **levantarse** | **Levitate** (get up) | 일어나다 |
-| 2 | **ducharse** | **Douche / Shower** ✅ | 샤워하다 |
-| 3 | **desayunar** | — | 아침 식사하다 |
-| 4 | **lavarse los dientes** | **Lave** (wash) / **Dental** | 양치하다 |
-| 5 | **trabajar / estudiar** | **Work / Study** ✅ | 일하다 / 공부하다 |
-| 6 | **almorzar / comer** | — | 점심 식사하다 |
-| 7 | **descansar** | — | 쉬다 |
-| 8 | **cenar** | — | 저녁 식사하다 |
-| 9 | **acostarse** | — | 잠자리에 들다 |
-| 10 | **dormir** | **Dormitory** (sleep) | 자다 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>levantarse</strong></td><td><strong>Levitate</strong> (get up)</td><td>일어나다</td></tr>
+    <tr><td>2</td><td><strong>ducharse</strong></td><td><strong>Douche / Shower</strong> ✅</td><td>샤워하다</td></tr>
+    <tr><td>3</td><td><strong>desayunar</strong></td><td>—</td><td>아침 식사하다</td></tr>
+    <tr><td>4</td><td><strong>lavarse los dientes</strong></td><td><strong>Lave</strong> (wash) / <strong>Dental</strong></td><td>양치하다</td></tr>
+    <tr><td>5</td><td><strong>trabajar / estudiar</strong></td><td><strong>Work / Study</strong> ✅</td><td>일하다 / 공부하다</td></tr>
+    <tr><td>6</td><td><strong>almorzar / comer</strong></td><td>—</td><td>점심 식사하다</td></tr>
+    <tr><td>7</td><td><strong>descansar</strong></td><td>—</td><td>쉬다</td></tr>
+    <tr><td>8</td><td><strong>cenar</strong></td><td>—</td><td>저녁 식사하다</td></tr>
+    <tr><td>9</td><td><strong>acostarse</strong></td><td>—</td><td>잠자리에 들다</td></tr>
+    <tr><td>10</td><td><strong>dormir</strong></td><td><strong>Dormitory</strong> (sleep)</td><td>자다</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -62,14 +72,23 @@
 동사원형 끝에 `-se`가 붙은 동사들입니다. 주어가 하는 행동이 다시 주어 자신에게 돌아올 때 사용합니다.
 **구조: 재귀 대명사(me, te, se, nos, os, se) + 변형된 동사**
 
-| 인칭 | **Levantars** (일어나다) | 영어 매핑 |
-| :--- | :--- | :--- |
-| **Yo** | **me** levant**o** | I get (myself) up |
-| **Tú** | **te** levant**as** | You get (yourself) up |
-| **Él/Ella/Ud.** | **se** levant**a** | He/She/You get (him/her/yourself) up |
-| **Nosotros/as** | **nos** levant**amos** | We get (ourselves) up |
-| **Vosotros/as** | **os** levant**áis** | You all get (yourselves) up |
-| **Ellos/Ellas/Uds.** | **se** levant**an** | They/You all get (themselves/yourselves) up |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Levantarse</strong> (일어나다)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>me</strong> levant<strong>o</strong></td><td>I get (myself) up</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>te</strong> levant<strong>as</strong></td><td>You get (yourself) up</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>se</strong> levant<strong>a</strong></td><td>He/She/You get (him/her/yourself) up</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>nos</strong> levant<strong>amos</strong></td><td>We get (ourselves) up</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>os</strong> levant<strong>áis</strong></td><td>You all get (yourselves) up</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>se</strong> levant<strong>an</strong></td><td>They/You all get (themselves/yourselves) up</td></tr>
+  </tbody>
+</table>
 
 **순서 표현 부사 (Connectors):**
 - **Primero** (First) → **Después / Luego** (Then / After) → **Por último** (Finally)
@@ -96,13 +115,21 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 
 **A. Put the routine in order (일과를 시간 순서대로 나열하세요)**
 
-| Activity | Order (1-5) |
-| :--- | :--- |
-| a. Cenar con la familia | ( ) |
-| b. Levantarse y ducharse | ( ) |
-| c. Acostarse y dormir | ( ) |
-| d. Trabajar o estudiar | ( ) |
-| e. Almorzar con compañeros | ( ) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Activity</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Order (1-5)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">a. Cenar con la familia</td><td style="padding: 10px; border: 1px solid #ddd;">( )</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">b. Levantarse y ducharse</td><td style="padding: 10px; border: 1px solid #ddd;">( )</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">c. Acostarse y dormir</td><td style="padding: 10px; border: 1px solid #ddd;">( )</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">d. Trabajar o estudiar</td><td style="padding: 10px; border: 1px solid #ddd;">( )</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">e. Almorzar con compañeros</td><td style="padding: 10px; border: 1px solid #ddd;">( )</td></tr>
+  </tbody>
+</table>
 
 **B. 재귀 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)**
 
@@ -149,15 +176,23 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 **Situación:** Dos amigos, Marc y Sonia, hablan sobre sus rutinas diarias.
 **상황:** 두 친구 마르크와 소니아가 서로의 일과에 대해 이야기합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Marc:** Hola Sonia, ¿cómo estás? Te veo cansada. | **마르크:** 안녕 소니아, 어때? 피곤해 보이네. |
-| **Sonia:** Sí, estoy muy cansada. Me levanto a las seis todos los días. | **소니아:** 응, 정말 피곤해. 매일 6시에 일어나거든. |
-| **Marc:** ¡Qué temprano! ¿Por qué? | **마르크:** 진짜 빠르네! 왜? |
-| **Sonia:** Trabajo en una oficina lejos de casa. Salgo a las siete de la mañana. | **소니아:** 집에서 먼 사무실에서 일해. 아침 7시에 나가야 해. |
-| **Marc:** Entiendo. ¿A qué hora vuelves a casa? | **마르크:** 그렇구나. 집에 몇 시에 돌아와? |
-| **Sonia:** Vuelvo a las ocho de la tarde. Ceno y me acuesto enseguida. | **소니아:** 저녁 8시에 돌아와. 저녁 먹고 바로 자. |
-| **Marc:** ¡Pobre Sonia! Los fines de semana tienes que descansar mucho. | **마르트:** 가엾은 소니아! 주말에는 푹 쉬어야 해. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Marc:</strong> Hola Sonia, ¿cómo estás? Te veo cansada.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르크:</strong> 안녕 소니아, 어때? 피곤해 보이네.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sonia:</strong> Sí, estoy muy cansada. Me levanto a las seis todos los días.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소니아:</strong> 응, 정말 피곤해. 매일 6시에 일어나거든.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Marc:</strong> ¡Qué temprano! ¿Por qué?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르크:</strong> 진짜 빠르네! 왜?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sonia:</strong> Trabajo en una oficina lejos de casa. Salgo a las siete de la mañana.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소니아:</strong> 집에서 먼 사무실에서 일해. 아침 7시에 나가야 해.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Marc:</strong> Entiendo. ¿A qué hora vuelves a casa?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르크:</strong> 그렇구나. 집에 몇 시에 돌아와?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sonia:</strong> Vuelvo a las ocho de la tarde. Ceno y me acuesto enseguida.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소니아:</strong> 저녁 8시에 돌아와. 저녁 먹고 바로 자.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Marc:</strong> ¡Pobre Sonia! Los fines de semana tienes que descansar mucho.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르트:</strong> 가엾은 소니아! 주말에는 푹 쉬어야 해.</td></tr>
+  </tbody>
+</table>
 
 ---
 

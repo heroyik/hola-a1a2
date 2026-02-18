@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch12_a2_viajes_y_lugares.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,449 +27,185 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-12-viajes-y-lugares-a2">Chapter 12: Viajes y lugares (A2)</h1>
+    <div class="container"><h1>Chapter 12: Viajes y lugares (A2)</h1>
 <p class="cervantes-ref">Cervantes: §10 여행 및 숙박 심화: 호텔 예약, 불만 사항 및 §12 지리 및 장소: 자연 경관 및 도시 구조</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Explorando nuevos horizontes (새로운 지평을 탐험하다)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Explorando nuevos horizontes (새로운 지평을 탐험하다)</strong><br>
 A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 소통하고 문제를 해결하며 잊지 못할 추억을 만드는 과정입니다. 호텔 체크인 시 요구사항을 정확히 말하거나, 여행 중 발생한 사소한 문제(reclamaciones)를 해결하고, 지난 여행의 감동을 생생하게 묘사할 수 있을까요? 이번 장에서는 숙박 관련 핵심 어휘, 완료 과거(Pretérito Perfecto)를 활용한 경험 공유, 그리고 스페인의 상징적인 여행지인 '산티아고 순례길'에 대해 배웁니다. 여러분의 스페인 여행이 한층 더 깊어질 준비가 되셨나요?</p>
-<p><strong>학습 목표</strong><br />
-- 호텔 시설, 관광지 및 자연 경관 관련 고급 어휘 15개 이상 습득<br />
-- 완료 과거(Haber + 과거분사)를 이용한 여행 경험 묻고 답하기<br />
-- 호텔 예약, 체크인 및 서비스 요청 실전 표현<br />
-- 산티아고 순례길(Camino de Santiago)의 역사와 문화적 가치 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>호텔 시설, 관광지 및 자연 경관 관련 고급 어휘 15개 이상 습득</li>
+<li>완료 과거(Haber + 과거분사)를 이용한 여행 경험 묻고 답하기</li>
+<li>호텔 예약, 체크인 및 서비스 요청 실전 표현</li>
+<li>산티아고 순례길(Camino de Santiago)의 역사와 문화적 가치 이해</li>
+</ul>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인에서 호텔 등급은 'Estrellas(별)'로 표시됩니다. 하지만 독특하게도 'Parador(파라도르)'라는 숙박 시설이 있는데, 이는 고성(Castillo), 수도원(Monasterio) 등 역사적인 건물을 개조해 만든 국영 호텔입니다. 스페인의 역사를 몸소 느끼며 잠들 수 있는 최고의 장소죠!</div>
-<hr />
-<h2 id="2-vocabulario-esencial-el-turismo-y-la-naturaleza">2. Vocabulario Esencial: El Turismo y la Naturaleza</h2>
+<hr>
+<h2>2. Vocabulario Esencial: El Turismo y la Naturaleza</h2>
 <p>여행을 더욱 풍요롭게 해주는 장소와 시설들입니다. 다양한 풍경이 어우러진 이미지를 보며 어휘를 익혀보세요.</p>
-<p><img alt="Lugares" src="../images/ch12_a2_vocab_places.png" /></p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"><strong>la recepción</strong></td>
-<td style="text-align: left;"><strong>Reception</strong> ✅</td>
-<td style="text-align: left;">리셉션 / 접수처</td>
-</tr>
-<tr>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"><strong>la reserva</strong></td>
-<td style="text-align: left;"><strong>Reserve / Reservation</strong> ✅</td>
-<td style="text-align: left;">예약</td>
-</tr>
-<tr>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"><strong>la habitación doble</strong></td>
-<td style="text-align: left;"><strong>Double</strong> (room) ✅</td>
-<td style="text-align: left;">2인실 / 더블룸</td>
-</tr>
-<tr>
-<td style="text-align: left;">4</td>
-<td style="text-align: left;"><strong>el aire acondicionado</strong></td>
-<td style="text-align: left;"><strong>Air Conditioning</strong> ✅</td>
-<td style="text-align: left;">에어컨</td>
-</tr>
-<tr>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;"><strong>el monumento</strong></td>
-<td style="text-align: left;"><strong>Monument</strong> ✅</td>
-<td style="text-align: left;">기념물 / 유적</td>
-</tr>
-<tr>
-<td style="text-align: left;">6</td>
-<td style="text-align: left;"><strong>la catedral</strong></td>
-<td style="text-align: left;"><strong>Cathedral</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align: left;">대성당</td>
-</tr>
-<tr>
-<td style="text-align: left;">7</td>
-<td style="text-align: left;"><strong>la playa</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">해변</td>
-</tr>
-<tr>
-<td style="text-align: left;">8</td>
-<td style="text-align: left;"><strong>la montaña</strong></td>
-<td style="text-align: left;"><strong>Mountain</strong> ✅</td>
-<td style="text-align: left;">산</td>
-</tr>
-<tr>
-<td style="text-align: left;">9</td>
-<td style="text-align: left;"><strong>el paisaje</strong></td>
-<td style="text-align: left;"><strong>Passage</strong> (landscape view)</td>
-<td style="text-align: left;">풍경 / 경치</td>
-</tr>
-<tr>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;"><strong>el turismo cultural</strong></td>
-<td style="text-align: left;"><strong>Cultural Tourism</strong> ✅</td>
-<td style="text-align: left;">문화 관광</td>
-</tr>
-</tbody>
+<p><img src="../images/ch12_a2_vocab_places.png" alt="Lugares"></p>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la recepción</strong></td><td><strong>Reception</strong> ✅</td><td>리셉션 / 접수처</td></tr>
+    <tr><td>2</td><td><strong>la reserva</strong></td><td><strong>Reserve / Reservation</strong> ✅</td><td>예약</td></tr>
+    <tr><td>3</td><td><strong>la habitación doble</strong></td><td><strong>Double</strong> (room) ✅</td><td>2인실 / 더블룸</td></tr>
+    <tr><td>4</td><td><strong>el aire acondicionado</strong></td><td><strong>Air Conditioning</strong> ✅</td><td>에어컨</td></tr>
+    <tr><td>5</td><td><strong>el monumento</strong></td><td><strong>Monument</strong> ✅</td><td>기념물 / 유적</td></tr>
+    <tr><td>6</td><td><strong>la catedral</strong></td><td><strong>Cathedral</strong> ✅</td><td>대성당</td></tr>
+    <tr><td>7</td><td><strong>la playa</strong></td><td>—</td><td>해변</td></tr>
+    <tr><td>8</td><td><strong>la montaña</strong></td><td><strong>Mountain</strong> ✅</td><td>산</td></tr>
+    <tr><td>9</td><td><strong>el paisaje</strong></td><td><strong>Passage</strong></td><td>풍경 / 경치</td></tr>
+    <tr><td>10</td><td><strong>el turismo cultural</strong></td><td><strong>Cultural Tourism</strong> ✅</td><td>문화 관광</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>호텔과 관광지에서 자신의 의사를 정확히 표현하는 패턴입니다.</p>
-<p><strong>A. 호텔에서 (En el Hotel)</strong><br />
-- <strong>Tengo una reserva a nombre de Kim.</strong> (I have a reservation under the name Kim. / 김이라는 이름으로 예약했습니다.)<br />
-- <strong>¿Está incluido el desayuno?</strong> (Is breakfast included? / 조식이 포함되어 있나요?)<br />
-- <strong>Quiero una habitación con vistas al mar.</strong> (I want a room with sea views. / 바다 전망의 방을 원합니다.)<br />
-- <strong>No funciona el grifo de la ducha.</strong> (The shower tap is not working. / 샤워기 수도꼭지가 고장 났어요.)</p>
-<p><strong>B. 여행 경험 말하기 (Experiencias)</strong><br />
-- <strong>¿Has visitado alguna vez Madrid?</strong> (Have you ever visited Madrid? / 마드리드에 가본 적이 있나요?)<br />
-- <strong>Sí, he estado allí dos veces.</strong> (Yes, I have been there twice. / 네, 거기 두 번 가봤어요.)<br />
-- <strong>Nunca he viajado en crucero.</strong> (I have never traveled on a cruise. / 크루즈 여행은 한 번도 안 해봤어요.)<br />
-- <strong>Lo que más me ha gustado es la comida.</strong> (What I liked most is the food. / 가장 좋았던 것은 음식이에요.)</p>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<p><strong>A. 호텔에서 (En el Hotel)</strong></p>
+<ul>
+<li><strong>Tengo una reserva a nombre de Kim.</strong> (I have a reservation under the name Kim. / 김이라는 이름으로 예약했습니다.)</li>
+<li><strong>¿Está incluido el desayuno?</strong> (Is breakfast included? / 조식이 포함되어 있나요?)</li>
+<li><strong>Quiero una habitación con vistas al mar.</strong> (I want a room with sea views. / 바다 전망의 방을 원합니다.)</li>
+<li><strong>No funciona el grifo de la ducha.</strong> (The shower tap is not working. / 샤워기 수도꼭지가 고장 났어요.)</li>
+</ul>
+<p><strong>B. 여행 경험 말하기 (Experiencias)</strong></p>
+<ul>
+<li><strong>¿Has visitado alguna vez Madrid?</strong> (Have you ever visited Madrid? / 마드리드에 가본 적이 있나요?)</li>
+<li><strong>Sí, he estado allí dos veces.</strong> (Yes, I have been there twice. / 네, 거기 두 번 가봤어요.)</li>
+<li><strong>Nunca he viajado en crucero.</strong> (I have never traveled on a cruise. / 크루즈 여행은 한 번도 안 해봤어요.)</li>
+<li><strong>Lo que más me ha gustado es la comida.</strong> (What I liked most is the food. / 가장 좋았던 것은 음식이에요.)</li>
+</ul>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>과거의 경험을 현재와 연결해 말하는 완료 과거를 공략해 봅시다.</p>
-<h3 id="preterito-perfecto">완료 과거 (Pretérito Perfecto)</h3>
-<p>현재와 가까운 과거 혹은 시점이 정해지지 않은 경험을 말할 때 씁니다. (영어의 <code>Present Perfect</code>와 유사)<br />
+<h3>완료 과거 (Pretérito Perfecto)</h3>
+<p>현재와 가까운 과거 혹은 시점이 정해지지 않은 경험을 말할 때 씁니다. (영어의 <code>Present Perfect</code>와 유사)<br>
 <strong>구조: Haber 동사의 현재형 + 과거분사(-ado / -ido)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">인칭</th>
-<th style="text-align: left;"><strong>Haber</strong></th>
-<th style="text-align: left;"><strong>과거분사 (예: viajar / comer)</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;"><strong>Yo</strong></td>
-<td style="text-align: left;"><strong>he</strong></td>
-<td style="text-align: left;">viaj<strong>ado</strong> / com<strong>ido</strong></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Tú</strong></td>
-<td style="text-align: left;"><strong>has</strong></td>
-<td style="text-align: left;">viaj<strong>ado</strong> / com<strong>ido</strong></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Él/Ella/Ud.</strong></td>
-<td style="text-align: left;"><strong>ha</strong></td>
-<td style="text-align: left;">viaj<strong>ado</strong> / com<strong>ido</strong></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Nosotros/as</strong></td>
-<td style="text-align: left;"><strong>hemos</strong></td>
-<td style="text-align: left;">viaj<strong>ado</strong> / com<strong>ido</strong></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Vosotros/as</strong></td>
-<td style="text-align: left;"><strong>habéis</strong></td>
-<td style="text-align: left;">viaj<strong>ado</strong> / com<strong>ido</strong></td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Ellos/Ellas/Uds.</strong></td>
-<td style="text-align: left;"><strong>han</strong></td>
-<td style="text-align: left;">viaj<strong>ado</strong> / com<strong>ido</strong></td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Haber</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Participio (viajar / comer)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>yo</td><td><strong>he</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>tú</td><td><strong>has</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>él/ella/ud.</td><td><strong>ha</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>nosotros/as</td><td><strong>hemos</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>vosotros/as</td><td><strong>habéis</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>ellos/ellas/uds.</td><td><strong>han</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+  </tbody>
 </table>
-<p><strong>부사와의 결합:</strong><br />
-- <strong>Ya</strong>: 이미 (<em>Ya he hecho la maleta.</em>)<br />
-- <strong>Todavía no</strong>: 아직 ~않다 (<em>Todavía no he visitado la Alhambra.</em>)<br />
-- <strong>Alguna vez</strong>: 언젠가/한 번이라도 (<em>¿Has comido paella alguna vez?</em>)</p>
-<hr />
-<h2 id="5-cultura-viva-el-camino-de-santiago-mas-que-un-viaje">5. Cultura Viva: El Camino de Santiago - Más que un Viaje</h2>
+<p><strong>부사와의 결합:</strong></p>
+<ul>
+<li><strong>Ya</strong>: 이미 (<em>Ya he hecho la maleta.</em>)</li>
+<li><strong>Todavía no</strong>: 아직 ~않다 (<em>Todavía no he visitado la Alhambra.</em>)</li>
+<li><strong>Alguna vez</strong>: 언젠가/한 번이라도 (<em>¿Has comido paella alguna vez?</em>)</li>
+</ul>
+<hr>
+<h2>5. Cultura Viva: El Camino de Santiago - Más que un Viaje</h2>
 <p>스페인을 가장 깊게 만나는 방법, 순례길을 알아봅시다.</p>
-<p><img alt="Camino de Santiago" src="../images/ch12_a2_culture_hiking.png" /></p>
+<p><img src="../images/ch12_a2_culture_hiking.png" alt="Camino de Santiago"></p>
 <p>El <strong>Camino de Santiago</strong> es una de las rutas de peregrinación más antiguas y famosas de Europa. Miles de personas de todo el mundo recorren a pie o en bicicleta cientos de kilómetros para llegar a la Catedral de Santiago de Compostela, donde se dice que está la tumba del apóstol Santiago.</p>
 <p>No es solo un viaje religioso; para muchos es una experiencia de introspección, deporte y cultura. El símbolo más conocido es la <strong>concha de vieira</strong> y la <strong>flecha amarilla</strong>가 길을 안내합니다. A lo largo del camino, los peregrinos duermen en <strong>albergues</strong> (hostels) y comparten sus historias. Es el lugar perfecto para practicar español con gente de todas partes mientras disfrutas de los paisajes verdes del norte de España (Galicia). ¡Buen camino!</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 <strong>산티아고 순례길</strong>은 유럽에서 가장 오래되고 유명한 순례길 중 하나입니다. 전 세계에서 온 수만 명의 사람들이 사도 야고보의 무덤이 있다고 전해지는 산티아고 데 콤포스텔라 대성당에 도착하기 위해 수백 킬로미터를 걷거나 자전거를 탑니다.</p>
-<p>이곳은 단순히 종교적인 여행만이 아닙니다. 많은 이들에게 자기 성찰, 스포츠, 그리고 문화적 경험의 장입니다. 가장 잘 알려진 상징은 <strong>조개껍데기</strong>와 길을 안내하는 <strong>노란 화살표</strong>입니다. 길을 따라 순례자들은 <strong>알베르게</strong>(호스텔)에서 잠을 자며 서로의 이야기를 공유합니다. 스페인 북부(갈리시아)의 초록빛 풍경을 즐기며 곳곳에서 온 사람들과 스페인어를 연습하기에 완벽한 장소입니다. "부엔 까미노!" (좋은 길 되세요!)</p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
+<p>이곳은 단순히 종교적인 여행만이 아닙니다. 많은 이들에게 자기 성찰, 스포츠, 그리고 문화적 경험의 장입니다. 가장 잘 알려진 상징은 <strong>조개껍데기</strong>와 길을 안내하는 <strong>노란 화살표</strong>입니다. 길을 따라 순례자들은 <strong>알베르게</strong>(호스텔)에서 잠을 자며 서로의 이야기를 공유합니다. 스페인 북부(갈리시아)의 초록빛 풍경을 즐기며 곳곳에서 온 사람들과 스페인어를 연습하기에 완벽한 장소입니다. &quot;부엔 까미노!&quot; (좋은 길 되세요!)</p>
+<hr>
+<h2>6. Práctica</h2>
 <p><strong>A. Select the appropriate hotel facility (알맞은 호텔 시설을 선택하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align: left;">Description</th>
-<th style="text-align: left;">Facility</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align: left;">1. Where you check in</td>
-<td style="text-align: left;">a. El aire acondicionado</td>
-</tr>
-<tr>
-<td style="text-align: left;">2. A room for one person</td>
-<td style="text-align: left;">b. El gimnasio</td>
-</tr>
-<tr>
-<td style="text-align: left;">3. To cool the room</td>
-<td style="text-align: left;">c. La recepción</td>
-</tr>
-<tr>
-<td style="text-align: left;">4. Where you do exercise</td>
-<td style="text-align: left;">d. La habitación individual</td>
-</tr>
-<tr>
-<td style="text-align: left;">5. To save your money/passport</td>
-<td style="text-align: left;">e. la caja fuerte (금고)</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Facility</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1. Where one checks in</td><td>c. <strong>La recepción</strong></td></tr>
+    <tr><td>2. A room for one person</td><td>d. <strong>La habitación individual</strong></td></tr>
+    <tr><td>3. To cool the room</td><td>a. <strong>El aire acondicionado</strong></td></tr>
+    <tr><td>4. Where one does exercise</td><td>b. <strong>El gimnasio</strong></td></tr>
+    <tr><td>5. To save one's money/passport</td><td>e. <strong>La caja fuerte</strong></td></tr>
+  </tbody>
 </table>
 <p><strong>B. 완료 과거 변형 연습 (괄호 안의 동사를 완료 과거 형태로 바꾸세요)</strong></p>
 <ol>
@@ -502,96 +217,112 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 </ol>
 <p><strong>C. 번역 연습 (완료 과거 및 여행 표현을 활용하세요)</strong></p>
 <ol>
-<li>저는 이미 호텔 예약을 했습니다.<br />
-   (............................................................)</li>
-<li>너는 산티아고 대성당을 본 적이 있니?<br />
-   (............................................................)</li>
-<li>우리는 아직 그 박물관에 가보지 않았어.<br />
-   (............................................................)</li>
-<li>조식이 포함되어 있나요?<br />
-   (............................................................)</li>
-<li>가장 좋았던 것은 해변의 풍경이야.<br />
-   (............................................................)</li>
+<li>저는 이미 호텔 예약을 했습니다.<br>
+(............................................................)</li>
+<li>너는 산티아고 대성당을 본 적이 있니?<br>
+(............................................................)</li>
+<li>우리는 아직 그 박물관에 가보지 않았어.<br>
+(............................................................)</li>
+<li>조식이 포함되어 있나요?<br>
+(............................................................)</li>
+<li>가장 좋았던 것은 해변의 풍경이야.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>Una experiencia inolvidable (잊을 수 없는 경험)</strong></p>
 <p>¡Hola! Soy Diego. Este año he hecho algo increíble: he recorrido parte del Camino de Santiago. He empezado en León y he caminado durante diez días. ¡Ha sido duro pero maravilloso! He conocido a personas de Alemania, Brasil와 일본에서 온 사람들도 만났습니다. Hemos hablado mucho en español y en inglés. Lo que más me ha gustado ha sido el paisaje verde de Galicia y la comida de los pueblos. Nunca he comido un pulpo (문어) tan rico. Ya he llegado a la Catedral de Santiago y me siento muy feliz. He tomado muchas fotos y voy a compartirlas en mis redes sociales. Todavía no he planeado mi próximo viaje, 하지만 seguro que voy a volver a España pronto.</p>
-<p><strong>Questions:</strong><br />
-1. Diego는 며칠 동안 걸었나요? (How many days did Diego walk?)<br />
-   - ............................................................<br />
-2. Diego가 가장 좋아했던 것은 무엇인가요? (What did Diego like most?)<br />
-   - ............................................................</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>Questions:</strong></p>
+<ol>
+<li>Diego는 며칠 동안 걸었나요? (How many days did Diego walk?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+<li>Diego가 가장 좋아했던 것은 무엇인가요? (What did Diego like most?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+</ol>
+<p><strong>[한국어 번역]</strong><br>
 안녕하세요! 저는 디에고입니다. 올해 저는 대단한 일을 했어요. 산티아고 순례길의 일부를 완주했습니다. 레온에서 시작해서 10일 동안 걸었습니다. 힘들었지만 경이로웠어요! 독일, 브라질, 일본에서 온 사람들을 만났습니다. 우리는 스페인어와 영어로 이야기를 많이 나눴어요. 가장 좋았던 것은 갈리시아의 초록색 풍경과 마을의 음식이었습니다. 그렇게 맛있는 문어는 처음 먹어봤어요. 저는 이미 산티아고 대성당에 도착했고 정말 행복합니다. 사진을 많이 찍어서 제 소셜 미디어에 공유할 예정이에요. 아직 다음 여행 계획은 세우지 않았지만, 조만간 꼭 스페인에 다시 돌아올 거예요.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>Un problema en la habitación (방 안의 문제)</strong></p>
-<p><strong>Situación:</strong> Lucía llama a recepción porque tiene problemas con su habitación en el hotel.<br />
+<p><strong>Situación:</strong> Lucía llama a recepción porque tiene problemas con su habitación en el hotel.<br>
 <strong>상황:</strong> 루시아가 호텔 방의 문제 때문에 리셉션에 전화합니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Recepcionista:</strong> ¿Diga? Recepción, buenas tardes.</td>
-<td style="text-align: left;"><strong>리셉션 직원:</strong> 여보세요? 리셉션입니다, 안녕하세요.</td>
+<td style="text-align:left"><strong>Recepcionista:</strong> ¿Diga? Recepción, buenas tardes.</td>
+<td style="text-align:left"><strong>리셉션 직원:</strong> 여보세요? 리셉션입니다, 안녕하세요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía:</strong> Hola, llamo de la habitación 305. Tengo un problema.</td>
-<td style="text-align: left;"><strong>루시아:</strong> 안녕하세요, 305호인데요. 문제가 좀 있습니다.</td>
+<td style="text-align:left"><strong>Lucía:</strong> Hola, llamo de la habitación 305. Tengo un problema.</td>
+<td style="text-align:left"><strong>루시아:</strong> 안녕하세요, 305호인데요. 문제가 좀 있습니다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Recepcionista:</strong> Dígame, ¿qué ocurre?</td>
-<td style="text-align: left;"><strong>리셉션 직원:</strong> 말씀하세요, 무슨 일인가요?</td>
+<td style="text-align:left"><strong>Recepcionista:</strong> Dígame, ¿qué ocurre?</td>
+<td style="text-align:left"><strong>리셉션 직원:</strong> 말씀하세요, 무슨 일인가요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía:</strong> El aire acondicionado no funciona y hace mucho calor.</td>
-<td style="text-align: left;"><strong>루시아:</strong> 에어컨이 작동하지 않아서 너무 더워요.</td>
+<td style="text-align:left"><strong>Lucía:</strong> El aire acondicionado no funciona y hace mucho calor.</td>
+<td style="text-align:left"><strong>루시아:</strong> 에어컨이 작동하지 않아서 너무 더워요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Recepcionista:</strong> Lo siento mucho. ¿Ha probado a encenderlo con el mando?</td>
-<td style="text-align: left;"><strong>리셉션 직원:</strong> 죄송합니다. 리모컨으로 켜보셨나요?</td>
+<td style="text-align:left"><strong>Recepcionista:</strong> Lo siento mucho. ¿Ha probado a encenderlo con el mando?</td>
+<td style="text-align:left"><strong>리셉션 직원:</strong> 죄송합니다. 리모컨으로 켜보셨나요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Lucía:</strong> Sí, lo he hecho, 하지만 no pasa nada.</td>
-<td style="text-align: left;"><strong>루시아:</strong> 네, 해봤는데 아무 반응이 없어요.</td>
+<td style="text-align:left"><strong>Lucía:</strong> Sí, lo he hecho, 하지만 no pasa nada.</td>
+<td style="text-align:left"><strong>루시아:</strong> 네, 해봤는데 아무 반응이 없어요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Recepcionista:</strong> Entiendo. Envío a un técnico ahora mismo.</td>
-<td style="text-align: left;"><strong>리셉션 직원:</strong> 알겠습니다. 지금 바로 기술자를 보내드릴게요.</td>
+<td style="text-align:left"><strong>Recepcionista:</strong> Entiendo. Envío a un técnico ahora mismo.</td>
+<td style="text-align:left"><strong>리셉션 직원:</strong> 알겠습니다. 지금 바로 기술자를 보내드릴게요.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이번 장의 핵심 내용을 복습해 보세요.<br />
-- [ ] 여행 심화 및 숙박 관련 어휘 10개 이상을 알고 있나요?<br />
-- [ ] 완료 과거(Pretérito Perfecto)의 변화와 용법을 이해했나요?<br />
-- [ ] 호텔 예약 및 서비스 요청 시 필요한 표현들을 익혔나요?<br />
-- [ ] 산티아고 순례길이 갖는 문화적 의미를 이해했나요?</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>9. Repaso</h2>
+<p>이번 장의 핵심 내용을 복습해 보세요.</p>
+<ul>
+<li>[ ] 여행 심화 및 숙박 관련 어휘 10개 이상을 알고 있나요?</li>
+<li>[ ] 완료 과거(Pretérito Perfecto)의 변화와 용법을 이해했나요?</li>
+<li>[ ] 호텔 예약 및 서비스 요청 시 필요한 표현들을 익혔나요?</li>
+<li>[ ] 산티아고 순례길이 갖는 문화적 의미를 이해했나요?</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Enhorabuena! 이번 장을 통해 여러분은 스페인어로 자신의 경험을 공유하고 실제 여행 상황에서 문제를 해결하는 능력을 갖추게 되었습니다. 완료 과거를 사용하면서 여러분의 이야기는 더욱 풍성해졌고, 호텔 에티켓을 통해 더욱 매너 있는 여행자가 되었습니다. 언어는 목적지가 아니라 그 과정 자체가 즐거운 여행입니다. 다음 장에서는 우리의 하루를 더욱 생동감 있게 만들어 줄 '일과, 가사와 건강(A2)' 섹션으로 이어가겠습니다. ¡Buen camino en tu aprendizaje!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>6. Práctica - A. Select the appropriate hotel facility</strong><br />
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>6. Práctica - A. Select the appropriate hotel facility</strong><br>
 1-c / 2-d / 3-a / 4-b / 5-e</p>
-<p><strong>6. Práctica - B. 완료 과거 변형 연습</strong><br />
-1. he viajado / 2. has perdido / 3. hemos dormido / 4. ha hecho / 5. habéis ido</p>
-<p><strong>6. Práctica - C. 번역 연습</strong><br />
-1. Ya he hecho la reserva del hotel.<br />
-2. ¿Has visto la Catedral de Santiago alguna vez?<br />
-3. Todavía no hemos ido a ese museo.<br />
-4. ¿Está incluido el desayuno?<br />
-5. Lo que más me ha gustado es el paisaje de la playa.</p>
-<p><strong>7. Lectura Questions</strong><br />
-1. 10일 (Diez días).<br />
-2. 갈리시아의 초록색 풍경과 마을의 음식 (El paisaje verde de Galicia y la comida de los pueblos).</p>
+<p><strong>6. Práctica - B. 완료 과거 변형 연습</strong></p>
+<ol>
+<li>he viajado / 2. has perdido / 3. hemos dormido / 4. ha hecho / 5. habéis ido</li>
+</ol>
+<p><strong>6. Práctica - C. 번역 연습</strong></p>
+<ol>
+<li>Ya he hecho la reserva del hotel.</li>
+<li>¿Has visto la Catedral de Santiago alguna vez?</li>
+<li>Todavía no hemos ido a ese museo.</li>
+<li>¿Está incluido el desayuno?</li>
+<li>Lo que más me ha gustado es el paisaje de la playa.</li>
+</ol>
+<p><strong>7. Lectura Questions</strong></p>
+<ol>
+<li>10일 (Diez días).</li>
+<li>갈리시아의 초록색 풍경과 마을의 음식 (El paisaje verde de Galicia y la comida de los pueblos).</li>
+</ol>
 </div>
 </body>
 </html>

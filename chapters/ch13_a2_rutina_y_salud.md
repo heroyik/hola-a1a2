@@ -21,18 +21,28 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 
 ![Salud](../images/ch13_a2_vocab_health.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **las tareas domésticas** | **Domestic Tasks** ✅ | 집안일 / 가사 |
-| 2 | **limpiar la casa** | — | 집을 청소하다 |
-| 3 | **planchar la ropa** | — | 옷을 다리다 |
-| 4 | **hacer la compra** | — | 장을 보다 |
-| 5 | **la garganta** | **Gargle** (related) | 목 (구멍) |
-| 6 | **el estómago** | **Stomach** ✅ | 배 / 위 |
-| 7 | **la espalda** | — | 등 / 허리 |
-| 8 | **la farmacia** | **Pharmacy** ✅ (Perfect Cognate) | 약국 |
-| 9 | **la receta** | **Recipe / Receipt** (related) | 처방전 (또는 요리법) |
-| 10 | **la dieta mediterránea** | **Mediterranean Diet** ✅ | 지중해 식단 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>las tareas domésticas</strong></td><td><strong>Domestic Tasks</strong> ✅</td><td>집안일 / 가사</td></tr>
+    <tr><td>2</td><td><strong>limpiar la casa</strong></td><td>—</td><td>집을 청소하다</td></tr>
+    <tr><td>3</td><td><strong>planchar la ropa</strong></td><td>—</td><td>옷을 다리다</td></tr>
+    <tr><td>4</td><td><strong>hacer la compra</strong></td><td>—</td><td>장을 보다</td></tr>
+    <tr><td>5</td><td><strong>la garganta</strong></td><td><strong>Gargle</strong> (related)</td><td>목 (구멍)</td></tr>
+    <tr><td>6</td><td><strong>el estómago</strong></td><td><strong>Stomach</strong> ✅</td><td>배 / 위</td></tr>
+    <tr><td>7</td><td><strong>la espalda</strong></td><td>—</td><td>등 / 허리</td></tr>
+    <tr><td>8</td><td><strong>la farmacia</strong></td><td><strong>Pharmacy</strong> ✅ (Perfect Cognate)</td><td>약국</td></tr>
+    <tr><td>9</td><td><strong>la receta</strong></td><td><strong>Recipe / Receipt</strong> (related)</td><td>처방전 (또는 요리법)</td></tr>
+    <tr><td>10</td><td><strong>la dieta mediterránea</strong></td><td><strong>Mediterranean Diet</strong> ✅</td><td>지중해 식단</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,20 +70,29 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 
 ### Doler (아프다) - 역구조 동사
 주어는 '아픈 부위'가 되며, '나에게'에 해당하는 대명사를 동사 앞에 씁니다.
-| 인칭 | **Doler** (부위에 따라 달라짐) | 예시 |
-| :--- | :--- | :--- |
-| **A mí** | **me duele / duelen** | Me duele el pie. / Me duelen los ojos. |
-| **A ti** | **te duele / duelen** | ¿Te duele algo? |
-| **A él/ella/Ud.** | **le duele / duelen** | Le duele la cabeza. |
-| **A nosotros/as** | **nos duele / duelen** | Nos duele el estómago. |
-| **A ellos/as/Uds.** | **les duele / duelen** | Les duelen las piernas. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Doler</strong> (부위에 따라 달라짐)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>A mí</strong></td><td><strong>me duele / duelen</strong></td><td>Me duele el pie. / Me duelen los ojos.</td></tr>
+    <tr><td><strong>A ti</strong></td><td><strong>te duele / duelen</strong></td><td>¿Te duele algo?</td></tr>
+    <tr><td><strong>A él/ella/Ud.</strong></td><td><strong>le duele / duelen</strong></td><td>Le duele la cabeza.</td></tr>
+    <tr><td><strong>A nosotros/as</strong></td><td><strong>nos duele / duelen</strong></td><td>Nos duele el estómago.</td></tr>
+    <tr><td><strong>A ellos/as/Uds.</strong></td><td><strong>les duele / duelen</strong></td><td>Les duelen las piernas.</td></tr>
+  </tbody>
+</table>
 
 **Important!**
 아픈 부위가 하나면 `duele`(단수), 여러 곳이거나 복수 명사면 `duelen`(복수)를 씁니다.
 
 ---
 
-## 5. Culture Viva: La Dieta Mediterránea - El Secreto de la Longevidad
+## 5. Cultura Viva: La Dieta Mediterránea - El Secreto de la Longevidad
 스페인 사람들이 건강하게 오래 사는 비결은 무엇일까요?
 
 ![Mediterranean Lifestyle](../images/ch13_a2_culture_lifestyle.png)
@@ -93,13 +112,21 @@ Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frut
 
 **A. Match the symptom with the body part (증상과 신체 부위를 연결하세요)**
 
-| Symptom | Body Part |
-| :--- | :--- |
-| 1. Me duele (아프다) | a. La garganta (목구몽) |
-| 2. Tengo tos (기침나다) | b. La cabeza (머리) |
-| 3. Tengo fiebre (열나다) | c. Todo el cuerpo (전신) |
-| 4. No puedo caminar | d. El estómago (배) |
-| 5. Tengo náuseas | e. Los pies (발) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Symptom</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Body Part</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Me duele (아프다)</td><td style="padding: 10px; border: 1px solid #ddd;">a. La garganta (목구몽)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Tengo tos (기침나다)</td><td style="padding: 10px; border: 1px solid #ddd;">b. La cabeza (머리)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Tengo fiebre (열나다)</td><td style="padding: 10px; border: 1px solid #ddd;">c. Todo el cuerpo (전신)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. No puedo caminar</td><td style="padding: 10px; border: 1px solid #ddd;">d. El estómago (배)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Tengo náuseas</td><td style="padding: 10px; border: 1px solid #ddd;">e. Los pies (발)</td></tr>
+  </tbody>
+</table>
 
 **B. Doler 동사 변형 연습 (알맞은 대명사와 duele/duelen을 쓰세요)**
 
@@ -146,15 +173,23 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 **Situación:** Juan va a la farmacia porque se siente mal y tiene gripe.
 **상황:** 후안이 몸이 안 좋고 독기 기운이 있어 약국에 갑니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Farmacéutico:** Buenos días, ¿en qué puedo ayudarle? | **약사:** 안녕하세요, 무엇을 도와드릴까요? |
-| **Juan:** Buenos días. Me siento muy mal. Tengo fiebre y me duele todo el cuerpo. | **후안:** 안녕하세요. 몸이 너무 안 좋아요. 열이 나고 온몸이 아파요. |
-| **Farmacéutico:** Entiendo. ¿Tiene tos o dolor de garganta? | **약사:** 그렇군요. 기침이나 목 통증도 있으신가요? |
-| **Juan:** Sí, me duele mucho la garganta al tragar. | **후안:** 네, 침 삼킬 때 목이 너무 아파요. |
-| **Farmacéutico:** Parece una gripe. Debería tomar este jarabe y descansar. | **약사:** 독감(감기) 같네요. 이 시럽을 드시고 쉬셔야 해요. |
-| **Juan:** Gracias. ¿Cuántas veces al día lo tomo? | **후안:** 감사합니다. 하루에 몇 번 먹나요? |
-| **Farmacéutico:** Tres veces al día, después de las comidas. | **약사:** 하루 세 번, 식후에 드세요. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Farmacéutico:</strong> Buenos días, ¿en qué puedo ayudarle?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>약사:</strong> 안녕하세요, 무엇을 도와드릴까요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Juan:</strong> Buenos días. Me siento muy mal. Tengo fiebre y me duele todo el cuerpo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>후안:</strong> 안녕하세요. 몸이 너무 안 좋아요. 열이 나고 온몸이 아파요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Farmacéutico:</strong> Entiendo. ¿Tiene tos o dolor de garganta?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>약사:</strong> 그렇군요. 기침이나 목 통증도 있으신가요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Juan:</strong> Sí, me duele mucho la garganta al tragar.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>후안:</strong> 네, 침 삼킬 때 목이 너무 아파요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Farmacéutico:</strong> Parece una gripe. Debería tomar este jarabe y descansar.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>약사:</strong> 독감(감기) 같네요. 이 시럽을 드시고 쉬셔야 해요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Juan:</strong> Gracias. ¿Cuántas veces al día lo tomo?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>후안:</strong> 감사합니다. 하루에 몇 번 먹나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Farmacéutico:</strong> Tres veces al día, después de las comidas.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>약사:</strong> 하루 세 번, 식후에 드세요.</td></tr>
+  </tbody>
+</table>
 
 ---
 

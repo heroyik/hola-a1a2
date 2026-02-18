@@ -25,7 +25,7 @@ CSS = """
         font-size: 7.5pt;
         color: #b0b0b0;
         text-transform: uppercase;
-        letter-spacing: 1pt;
+        letter-spacing: 1.5pt;
     }
     @bottom-center {
         content: counter(page);
@@ -38,13 +38,18 @@ CSS = """
 
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 * {
@@ -58,108 +63,117 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
+    background-color: var(--bg-warm);
     -webkit-font-smoothing: antialiased;
 }
 
 /* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
     text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
     text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    letter-spacing: -1pt;
 }
 
 /* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
     display: flex;
     align-items: center;
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
 h3 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
+    font-size: 14pt;
     font-weight: 600;
     color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
 }
 
 h4 {
     font-size: 11pt;
     font-weight: 600;
     color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
 }
 
 /* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
+    background: var(--bg-white);
+    border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
     font-style: italic;
     color: var(--slate-grey);
+    position: relative;
 }
 
-/* ─── TABLES ─── */
+/* ─── TABLES (HIGH-END DESIGN) ─── */
 table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 15pt 0 20pt 0;
+    margin: 20pt 0 25pt 0;
     font-size: 9.5pt;
     border: 1px solid var(--border-color);
-    border-radius: 8pt;
+    border-radius: 10pt;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
     page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
 }
 
 thead {
-    background-color: var(--spanish-red);
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
     color: white;
 }
 
 th {
-    padding: 10pt 12pt;
+    padding: 12pt 15pt;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
 }
 
 td {
-    padding: 8pt 12pt;
+    padding: 10pt 15pt;
     border-bottom: 1px solid var(--border-color);
     vertical-align: middle;
+    transition: background-color 0.2s ease;
 }
 
 tr:last-child td {
@@ -167,7 +181,11 @@ tr:last-child td {
 }
 
 tr:nth-child(even) {
-    background-color: #FAFAFA;
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
 }
 
 /* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
@@ -181,7 +199,7 @@ table.borderless {
 
 table.borderless td {
     border: none !important;
-    padding: 4pt 12pt 4pt 0;
+    padding: 5pt 15pt 5pt 0;
     background-color: transparent !important;
 }
 
@@ -194,112 +212,136 @@ table.borderless tr:nth-child(even) {
     font-size: 8.5pt;
     color: var(--text-light);
     display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
     text-align: left;
+    font-style: italic;
 }
 
 em {
     font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
+    color: var(--spanish-red);
+    font-weight: 500;
 }
 
 /* ─── ADMONITIONS ─── */
 .admonition-tip {
     background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
+    border-left: 6pt solid #3498DB;
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
 .admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
 .admonition-warning {
-    background: #FDEDEC;
-    border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
 /* ─── IMAGES ─── */
 img {
     max-width: 100%;
     height: auto;
-    border-radius: 12pt;
-    margin: 20pt 0;
+    border-radius: 15pt;
+    margin: 25pt 0;
     display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
 }
 
 /* ─── HR ─── */
 hr {
     border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
 }
 
 /* ─── LISTS ─── */
 ul, ol {
-    margin: 10pt 0 15pt 25pt;
+    margin: 12pt 0 18pt 30pt;
 }
 
 li {
-    margin-bottom: 5pt;
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
 }
 
 /* ─── LINKS ─── */
 a {
     color: var(--spanish-red);
     text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
 }
 
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
 }
 
 /* ─── PRACTICE SECTION ─── */
 h3:has(+ table),
 h3:has(+ ol) {
     color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
+    border-left-color: var(--spanish-red);
 }
 
 /* ─── WEB READABILITY ─── */
 .container {
     max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
 }
 
 .cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
     line-height: 1.6;
     font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
 }
 
 @media print {
+    body {
+        background-color: white;
+    }
     .container {
         max-width: none;
         margin: 0;
         padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
     }
 }
 """

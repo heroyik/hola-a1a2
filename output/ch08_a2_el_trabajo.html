@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch08_a2_el_trabajo.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,409 +27,256 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-8-el-trabajo-a2">Chapter 8: El trabajo (A2)</h1>
+    <div class="container"><h1>Chapter 8: El trabajo (A2)</h1>
 <p class="cervantes-ref">Cervantes: §7 Trabajo: 실전 비즈니스 어휘, 이력서 및 면접 표현</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Mi futuro profesional (나의 전문적인 미래)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Mi futuro profesional (나의 전문적인 미래)</strong><br>
 A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력을 관리하고 새로운 기회를 찾는 과정에 집중합니다. 어떻게 하면 나를 효과적으로 소개하고, 면접에서 당당하게 질문에 답할 수 있을까요? 이번 장에서는 이력서(CV) 작성에 필요한 어휘와 면접에서 쓰이는 실전 표현들을 배웁니다. 또한 과거의 업무 경험을 설명하기 위해 단순과거와 불완료과거를 적절히 섞어 사용하는 법을 익힙니다. 여러분의 꿈이 현실이 되는 과정을 스페인어로 그려봅시다.</p>
-<p><strong>학습 목표</strong><br />
-- 이력서, 면접, 고용 계약 등 고급 비즈니스 어휘 15개 이상 습득<br />
-- 과거 업무 경험 설명을 위한 시제(단순과거/불완료과거) 활용법 복습<br />
-- 구인 광고 이해 및 면접 질문에 대한 답변 전략 수립<br />
-- 스페인의 채용 프로세스와 링크드인 등 전문 네트워크 활용 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
-<strong>¿Sabías que...?</strong> 스페인에서 이력서를 부를 때 'Currículum Vitae' 혹은 줄여서 'CV'라고 합니다. 스페인에서는 전통적으로 이력서에 사진을 포함하는 것이 일반적이었으나, 최근에는 국제적인 추세에 맞춰 사진을 넣지 않는 경우도 늘어나고 있습니다.</div>
-<hr />
-<h2 id="2-vocabulario-esencial-el-proceso-de-seleccion">2. Vocabulario Esencial: El Proceso de Selección</h2>
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>이력서, 면접, 고용 계약 등 고급 비즈니스 어휘 15개 이상 습득</li>
+<li>과거 업무 경험 설명을 위한 시제(단순과거/불완료과거) 활용법 복습</li>
+<li>구인 광고 이해 및 면접 질문에 대한 답변 전략 수립</li>
+<li>스페인의 채용 프로세스와 링크드인 등 전문 네트워크 활용 이해</li>
+</ul>
+<p><strong>💡 English Bridge: Professional Terms</strong></p>
+<ul>
+<li><strong>CV</strong>: Curriculum Vitae</li>
+<li><strong>Interview</strong>: Entrevista de trabajo</li>
+</ul>
+<p><strong>💡 Korean Tip!</strong><br>
+스페인어로 전공을 말할 때는 'estudiar' 동사를 주로 사용한다는 점을 명심하세요!</p>
+<hr>
+<h2>2. Vocabulario Esencial: El Proceso de Selección</h2>
 <p>성공적인 취업을 위한 채용 과정의 핵심 요소들입니다. 이미지 속의 면접 장면과 함께 어휘를 익혀보세요.</p>
-<p><img alt="Entrevista de Trabajo" src="../images/ch08_a2_vocab_interview.png" /></p>
+<p><img src="../images/ch08_a2_vocab_interview.png" alt="Entrevista de Trabajo"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:left">#</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"><strong>la entrevista</strong></td>
-<td style="text-align: left;"><strong>Interview</strong> ✅</td>
-<td style="text-align: left;">면접</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>la entrevista</strong></td>
+<td style="text-align:left"><strong>Interview</strong> ✅</td>
+<td style="text-align:left">면접</td>
 </tr>
 <tr>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"><strong>el currículum / el CV</strong></td>
-<td style="text-align: left;"><strong>Curriculum</strong> ✅</td>
-<td style="text-align: left;">이력서</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>el currículum / el CV</strong></td>
+<td style="text-align:left"><strong>Curriculum</strong> ✅</td>
+<td style="text-align:left">이력서</td>
 </tr>
 <tr>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"><strong>el candidato / la candidata</strong></td>
-<td style="text-align: left;"><strong>Candidate</strong> ✅</td>
-<td style="text-align: left;">지원자 / 후보자</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left"><strong>el candidato / la candidata</strong></td>
+<td style="text-align:left"><strong>Candidate</strong> ✅</td>
+<td style="text-align:left">지원자 / 후보자</td>
 </tr>
 <tr>
-<td style="text-align: left;">4</td>
-<td style="text-align: left;"><strong>el contrato</strong></td>
-<td style="text-align: left;"><strong>Contract</strong> ✅</td>
-<td style="text-align: left;">계약(서)</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>el contrato</strong></td>
+<td style="text-align:left"><strong>Contract</strong> ✅</td>
+<td style="text-align:left">계약(서)</td>
 </tr>
 <tr>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;"><strong>el sueldo / el salario</strong></td>
-<td style="text-align: left;"><strong>Salary</strong> ✅</td>
-<td style="text-align: left;">급여 / 월급</td>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>el sueldo / el salario</strong></td>
+<td style="text-align:left"><strong>Salary</strong> ✅</td>
+<td style="text-align:left">급여 / 월급</td>
 </tr>
 <tr>
-<td style="text-align: left;">6</td>
-<td style="text-align: left;"><strong>la experiencia</strong></td>
-<td style="text-align: left;"><strong>Experience</strong> ✅</td>
-<td style="text-align: left;">경력 / 경험</td>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>la experiencia</strong></td>
+<td style="text-align:left"><strong>Experience</strong> ✅</td>
+<td style="text-align:left">경력 / 경험</td>
 </tr>
 <tr>
-<td style="text-align: left;">7</td>
-<td style="text-align: left;"><strong>la empresa / la compañía</strong></td>
-<td style="text-align: left;"><strong>Company</strong> ✅</td>
-<td style="text-align: left;">회사 / 기업</td>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>la empresa / la compañía</strong></td>
+<td style="text-align:left"><strong>Company</strong> ✅</td>
+<td style="text-align:left">회사 / 기업</td>
 </tr>
 <tr>
-<td style="text-align: left;">8</td>
-<td style="text-align: left;"><strong>el puesto de trabajo</strong></td>
-<td style="text-align: left;"><strong>Post</strong> (job post)</td>
-<td style="text-align: left;">직책 / 자리</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left"><strong>el puesto de trabajo</strong></td>
+<td style="text-align:left"><strong>Post</strong> (job post)</td>
+<td style="text-align:left">직책 / 자리</td>
 </tr>
 <tr>
-<td style="text-align: left;">9</td>
-<td style="text-align: left;"><strong>la formación</strong></td>
-<td style="text-align: left;"><strong>Formation</strong> (training)</td>
-<td style="text-align: left;">학력 / 교육 이수</td>
+<td style="text-align:left">9</td>
+<td style="text-align:left"><strong>la formación</strong></td>
+<td style="text-align:left"><strong>Formation</strong> (training)</td>
+<td style="text-align:left">학력 / 교육 이수</td>
 </tr>
 <tr>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;"><strong>el ascenso</strong></td>
-<td style="text-align: left;"><strong>Ascent</strong> (climbing up)</td>
-<td style="text-align: left;">승진</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left"><strong>el ascenso</strong></td>
+<td style="text-align:left"><strong>Ascent</strong> (climbing up)</td>
+<td style="text-align:left">승진</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>면접관의 질문에 답하거나 자신의 경력을 설명할 때 유용한 표현들입니다.</p>
-<p><strong>A. 면접관의 질문 (Preguntas del entrevistador)</strong><br />
-- <strong>¿Por qué quiere trabajar con nosotros?</strong> (Why do you want to work with us? / 왜 우리 회사와 일하고 싶으신가요?)<br />
-- <strong>Hábleme de su experiencia laboral.</strong> (Tell me about your work experience. / 본인의 업무 경력에 대해 말씀해 주세요.)<br />
-- <strong>¿Cuáles son sus mayores fortalezas?</strong> (What are your greatest strengths? / 본인의 가장 큰 강점은 무엇인가요?)</p>
-<p><strong>B. 자신의 경력 설명하기 (Describir la trayectoria)</strong><br />
-- <strong>Trabajé tres años en una multinacional.</strong> (I worked for three years in a multinational. / 저는 다국적 기업에서 3년 동안 일했습니다.)<br />
-- <strong>Tengo mucha experiencia en ventas.</strong> (I have a lot of experience in sales. / 저는 영업 분야에 많은 경험이 있습니다.)<br />
-- <strong>Soy una persona responsable y creativa.</strong> (I am a responsible and creative person. / 저는 책임감 있고 창의적인 사람입니다.)<br />
-- <strong>Busco un puesto con más responsabilidad.</strong> (I am looking for a position with more responsibility. / 더 많은 책임감이 있는 직책을 찾고 있습니다.)</p>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
-<p>과거의 업무 경험을 입체적으로 표현하기 위해 시제를 조화롭게 사용하는 법을 익혀봅시다.</p>
-<h3 id="a-vs">A. 단순과거 vs 불완료과거 (경력 기술 시)</h3>
+<p><strong>A. 면접관의 질문 (Preguntas del entrevistador)</strong></p>
 <ul>
-<li><strong>단순과거 (Indefinido)</strong>: 특정 기간 동안 완료된 사건을 말할 때 씁니다.</li>
-<li>예: <em>Trabajé en Sony de 2018 a 2021.</em> (2018년부터 2021년까지 소니에서 일했다.)</li>
-<li><strong>불완료과거 (Imperfecto)</strong>: 과거에 반복되던 습관이나 당시의 상태를 묘사할 때 씁니다.</li>
-<li>예: <em>En mi antiguo trabajo, hablaba mucho con clientes extranjeros.</em> (전 직장에서 저는 외국 고객들과 대화를 많이 하곤 했습니다.)</li>
+<li><strong>¿Por qué quiere trabajar con nosotros?</strong> (Why do you want to work with us? / 왜 우리 회사와 일하고 싶으신가요?)</li>
+<li><strong>Hábleme de su experiencia laboral.</strong> (Tell me about your work experience. / 본인의 업무 경력에 대해 말씀해 주세요.)</li>
+<li><strong>¿Cuáles son sus mayores fortalezas?</strong> (What are your greatest strengths? / 본인의 가장 큰 강점은 무엇인가요?)</li>
 </ul>
-<h3 id="b">B. 시제 활용 팁</h3>
+<p><strong>B. 자신의 경력 설명하기 (Describir la trayectoria)</strong></p>
+<ul>
+<li><strong>Trabajé tres años en una multinacional.</strong> (I worked for three years in a multinational. / 저는 다국적 기업에서 3년 동안 일했습니다.)</li>
+<li><strong>Tengo mucha experiencia en ventas.</strong> (I have a lot of experience in sales. / 저는 영업 분야에 많은 경험이 있습니다.)</li>
+<li><strong>Soy una persona responsable y creativa.</strong> (I am a responsible and creative person. / 저는 책임감 있고 창의적인 사람입니다.)</li>
+<li><strong>Busco un puesto con más responsabilidad.</strong> (I am looking for a position with more responsibility. / 더 많은 책임감이 있는 직책을 찾고 있습니다.)</li>
+</ul>
+<hr>
+<h2>4. Gramática Esencial</h2>
+<p>과거의 업무 경험을 입체적으로 표현하기 위해 시제를 조화롭게 사용하는 법을 익혀봅시다.</p>
+<h3>A. 단순과거 (Indefinido) vs 불완료과거 (Imperfecto) (경력 기술 시)</h3>
+<p>과거의 업무 경력을 설명하는 데 필수적인 시제들입니다.</p>
+<p><strong>Mandatory Irregulars (Indefinido):</strong><br>
+estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber</p>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Estar</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Poder</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ir & Ser</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>estuve</td><td>pude</td><td>fui</td></tr>
+    <tr><td><strong>Tú</strong></td><td>estuviste</td><td>pudiste</td><td>fuiste</td></tr>
+    <tr><td><strong>He/She/Ud.</strong></td><td>estuvo</td><td>pudo</td><td>fue</td></tr>
+    <tr><td><strong>Nosotros</strong></td><td>estuvimos</td><td>pudimos</td><td>fuimos</td></tr>
+    <tr><td><strong>Vosotros</strong></td><td>estuvisteis</td><td>pudisteis</td><td>fuisteis</td></tr>
+    <tr><td><strong>They/Uds.</strong></td><td>estuvieron</td><td>pudieron</td><td>fueron</td></tr>
+  </tbody>
+</table>
+- **단순과거 (Indefinido)**: 특정 기간 동안 완료된 사건을 말할 때 씁니다.
+  - 예: *Trabajé en Sony de 2018 a 2021.* (2018년부터 2021년까지 소니에서 일했다.)
+- **불완료과거 (Imperfecto)**: 과거에 반복되던 습관이나 당시의 상태를 묘사할 때 씁니다.
+  - 예: *En mi antiguo trabajo, hablaba mucho con clientes extranjeros.* (전 직장에서 저는 외국 고객들과 대화를 많이 하곤 했습니다.)
+<h3>B. 시제 활용 팁</h3>
 <p>이력서의 '경력 사항'에는 보통 <strong>단순과거</strong>를, 면접에서 당시의 분위기나 일상적인 업무 루틴을 설명할 때는 <strong>불완료과거</strong>를 주로 사용합니다.</p>
-<p><strong>Korean Tip!</strong><br />
-"나는 ~를 전공했다"라고 할 때 영어로는 "I majored in..."이라고 하지만, 스페인어에서는 <code>estudiar</code> 동사를 써서 "Estudié [전공명]" 또는 "Soy licenciado en [전공명]" 스타일로 표현합니다.</p>
-<hr />
-<h2 id="5-cultura-viva-el-mercado-laboral-en-espana">5. Cultura Viva: El Mercado Laboral en España</h2>
+<p><strong>Korean Tip!</strong><br>
+&quot;나는 ~를 전공했다&quot;라고 할 때 영어로는 &quot;I majored in...&quot;이라고 하지만, 스페인어에서는 <code>estudiar</code> 동사를 써서 &quot;Estudié [전공명]&quot; 또는 &quot;Soy licenciado en [전공명]&quot; 스타일로 표현합니다.</p>
+<hr>
+<h2>5. Cultura Viva: El Mercado Laboral en España</h2>
 <p>스페인의 채용 시장과 기업 문화의 특징을 알아봅시다.</p>
-<p><img alt="Professional Success" src="../images/ch08_a2_culture_siesta.png" /></p>
+<p><img src="../images/ch08_a2_culture_siesta.png" alt="Professional Success"></p>
 <p>En los últimos años, el mercado laboral español ha experimentado grandes cambios hacia la digitalización. Plataformas como LinkedIn son esenciales para encontrar empleo en las grandes ciudades. Sin embargo, el contacto personal (networking) sigue siendo muy influyente en España; a menudo, las recomendaciones personales abren puertas que los anuncios públicos no pueden.</p>
 <p>Un aspecto importante es el <strong>horario intensivo</strong> durante el verano, donde muchas empresas permiten trabajar de 8:00 a 15:00 para disfrutar de las tardes calurosas. Además, las relaciones entre jefe y empleado tienden a ser más horizontales y cercanas que en otros países de Europa del Norte, fomentando un ambiente de trabajo más social y comunicativo.</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 최근 몇 년 동안 스페인 노동 시장은 디지털화와 함께 큰 변화를 겪었습니다. 링크드인(LinkedIn)과 같은 플랫폼은 대도시에서 일자리를 찾는 데 필수적입니다. 하지만 스페인에서는 여전히 개인적인 인맥(네트워킹)이 매우 영향력이 큽니다. 종종 개인적인 추천이 공개된 공고가 할 수 없는 기회의 문을 열어주기도 합니다.</p>
-<p>중요한 특징 중 하나는 여름 동안의 <strong>집중 근무제(horario intensivo)</strong>인데, 많은 기업들이 더운 오후를 즐길 수 있도록 오전 8시부터 오후 3시까지만 근무하는 것을 허용합니다. 또한, 상사와 직원 사이의 관계는 북유럽 국가들에 비해 더 수평적이고 친근한 경향이 있어, 더 사교적이고 소통이 활발한 업무 분위기를 조성합니다.</p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
+<p>중요한 특징 중 하나는 여름 동안의 **집중 근무제(horario intensivo)**인데, 많은 기업들이 더운 오후를 즐길 수 있도록 오전 8시부터 오후 3시까지만 근무하는 것을 허용합니다. 또한, 상사와 직원 사이의 관계는 북유럽 국가들에 비해 더 수평적이고 친근한 경향이 있어, 더 사교적이고 소통이 활발한 업무 분위기를 조성합니다.</p>
+<hr>
+<h2>6. Práctica</h2>
 <p><strong>A. CV Vocabulary Checklist (이력서 어휘 체크리스트 - 알맞은 의미를 연결하세요)</strong></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. Datos personales</td>
-<td style="text-align: left;">a. 경력 사항</td>
+<td style="text-align:left">1. Datos personales</td>
+<td style="text-align:left">a. 경력 사항</td>
 </tr>
 <tr>
-<td style="text-align: left;">2. Experiencia laboral</td>
-<td style="text-align: left;">b. 인적 사항</td>
+<td style="text-align:left">2. Experiencia laboral</td>
+<td style="text-align:left">b. 인적 사항</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. Formación académica</td>
-<td style="text-align: left;">c. 언어 능력</td>
+<td style="text-align:left">3. Formación académica</td>
+<td style="text-align:left">c. 언어 능력</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. Idiomas</td>
-<td style="text-align: left;">d. 기타 기술</td>
+<td style="text-align:left">4. Idiomas</td>
+<td style="text-align:left">d. 기타 기술</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. Otros datos de interés</td>
-<td style="text-align: left;">e. 학력 사항</td>
+<td style="text-align:left">5. Otros datos de interés</td>
+<td style="text-align:left">e. 학력 사항</td>
 </tr>
 </tbody>
 </table>
@@ -464,96 +290,112 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 </ol>
 <p><strong>C. 번역 연습 (면접 상황에 맞는 문장을 만드세요)</strong></p>
 <ol>
-<li>저는 다국적 기업에서 소통하는 법을 배웠습니다. (aprender - Indefinido)<br />
-   (............................................................)</li>
-<li>매일 저는 아침 미팅에 참석하곤 했습니다. (asistir - Imperfecto)<br />
-   (............................................................)</li>
-<li>새로운 도전을 찾고 있기 때문에 지원했습니다. (porque busco nuevos retos)<br />
-   (............................................................)</li>
-<li>저는 영어와 스페인어를 할 줄 압니다. (saber)<br />
-   (............................................................)</li>
-<li>어제 면접 후에 계약서에 서명했습니다. (firmar el contrato)<br />
-   (............................................................)</li>
+<li>저는 다국적 기업에서 소통하는 법을 배웠습니다. (aprender - Indefinido)<br>
+(............................................................)</li>
+<li>매일 저는 아침 미팅에 참석하곤 했습니다. (asistir - Imperfecto)<br>
+(............................................................)</li>
+<li>새로운 도전을 찾고 있기 때문에 지원했습니다. (porque busco nuevos retos)<br>
+(............................................................)</li>
+<li>저는 영어와 스페인어를 할 줄 압니다. (saber)<br>
+(............................................................)</li>
+<li>어제 면접 후에 계약서에 서명했습니다. (firmar el contrato)<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>Cómo prepararse para una entrevista (면접 준비 방법)</strong></p>
-<p>Para tener éxito en una entrevista en España, la preparación es clave. Primero, debes investigar la empresa y entender sus valores. Es importante vestir de forma adecuada según el puesto de trabajo. Durante la entrevista, sé puntual y mantén el contacto visual. Cuando hables de tu experiencia, sé específico: explica qué hiciste y qué resultados lograste. No olvides hacer preguntas al final, como "¿Cuál es el siguiente paso en el proceso?". Recuerda que la actitud positiva y la confianza son tan importantes como tu formación académica. ¡Mucha suerte!</p>
-<p><strong>Questions:</strong><br />
-1. 면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요? (What is the first thing to do to succeed?)<br />
-   - ............................................................<br />
-2. 대화 중 태도에 대해 어떤 조언을 하고 있나요? (What advice is given about attitude/behavior?)<br />
-   - ............................................................</p>
-<p><strong>[한국어 번역]</strong><br />
-스페인에서 면접에 성공하기 위해서는 준비가 핵심입니다. 첫째, 기업을 조사하고 그들의 가치를 이해해야 합니다. 직책에 맞게 적절한 옷차림을 하는 것이 중요합니다. 면접 동안 시간을 엄수하고 시선을 맞추세요. 본인의 경력에 대해 말할 때 구체적으로 하세요. 무엇을 했고 어떤 결과를 얻었는지 설명하세요. 마지막에 "채용 과정의 다음 단계는 무엇인가요?"와 같은 질문을 하는 것을 잊지 마세요. 긍정적인 태도와 자신감은 여러분의 학력만큼이나 중요하다는 것을 기억하세요. 행운을 빕니다!</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<p>Para tener éxito en una entrevista en España, la preparación es clave. Primero, debes investigar la empresa y entender sus valores. Es importante vestir de forma adecuada según el puesto de trabajo. Durante la entrevista, sé puntual y mantén el contacto visual. Cuando hables de tu experiencia, sé específico: explica qué hiciste y qué resultados lograste. No olvides hacer preguntas al final, como &quot;¿Cuál es el siguiente paso en el proceso?&quot;. Recuerda que la actitud positiva y la confianza son tan importantes como tu formación académica. ¡Mucha suerte!</p>
+<p><strong>Questions:</strong></p>
+<ol>
+<li>면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요? (What is the first thing to do to succeed?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+<li>대화 중 태도에 대해 어떤 조언을 하고 있나요? (What advice is given about attitude/behavior?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+</ol>
+<p><strong>[한국어 번역]</strong><br>
+스페인에서 면접에 성공하기 위해서는 준비가 핵심입니다. 첫째, 기업을 조사하고 그들의 가치를 이해해야 합니다. 직책에 맞게 적절한 옷차림을 하는 것이 중요합니다. 면접 동안 시간을 엄수하고 시선을 맞추세요. 본인의 경력에 대해 말할 때 구체적으로 하세요. 무엇을 했고 어떤 결과를 얻었는지 설명하세요. 마지막에 &quot;채용 과정의 다음 단계는 무엇인가요?&quot;와 같은 질문을 하는 것을 잊지 마세요. 긍정적인 태도와 자신감은 여러분의 학력만큼이나 중요하다는 것을 기억하세요. 행운을 빕니다!</p>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>La Entrevista de Selección (채용 면접)</strong></p>
-<p><strong>Situación:</strong> El Sr. Martínez entrevista a Sofía para un puesto de Coordinadora de Proyectos.<br />
+<p><strong>Situación:</strong> El Sr. Martínez entrevista a Sofía para un puesto de Coordinadora de Proyectos.<br>
 <strong>상황:</strong> 마르티네스 씨가 프로젝트 코디네이터 직책을 위해 소피아를 면접합니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Sr. Martínez:</strong> Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto?</td>
-<td style="text-align: left;"><strong>마르티네스:</strong> 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요?</td>
+<td style="text-align:left"><strong>Sr. Martínez:</strong> Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto?</td>
+<td style="text-align:left"><strong>마르티네스:</strong> 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sofía:</strong> Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia.</td>
-<td style="text-align: left;"><strong>소피아:</strong> 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다.</td>
+<td style="text-align:left"><strong>Sofía:</strong> Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia.</td>
+<td style="text-align:left"><strong>소피아:</strong> 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sr. Martínez:</strong> Veo en tu CV 분야가 마케팅이네요. 무엇을 배웠나요?</td>
-<td style="text-align: left;"><strong>마르티네스:</strong> CV를 보니 마케팅 분야군요. 무엇을 배웠나요?</td>
+<td style="text-align:left"><strong>Sr. Martínez:</strong> Veo en tu CV que tu especialidad es el marketing. ¿Qué aprendiste?</td>
+<td style="text-align:left"><strong>마르티네스:</strong> 이력서를 보니 귀하의 전공이 마케팅이군요. 무엇을 배웠나요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sofía:</strong> Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión.</td>
-<td style="text-align: left;"><strong>소피아:</strong> 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다.</td>
+<td style="text-align:left"><strong>Sofía:</strong> Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión.</td>
+<td style="text-align:left"><strong>소피아:</strong> 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sr. Martínez:</strong> ¿Qué horarios prefieres?</td>
-<td style="text-align: left;"><strong>마르티네스:</strong> 어떤 근무 시간대를 선호하시나요?</td>
+<td style="text-align:left"><strong>Sr. Martínez:</strong> ¿Qué horarios prefieres?</td>
+<td style="text-align:left"><strong>마르티네스:</strong> 어떤 근무 시간대를 선호하시나요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sofía:</strong> Soy flexible, pero prefiero el horario intensivo si es posible.</td>
-<td style="text-align: left;"><strong>소피아:</strong> 유연합니다만, 가능하다면 집중 근무제를 선호합니다.</td>
+<td style="text-align:left"><strong>Sofía:</strong> Soy flexible, pero prefiero el horario intensivo si es posible.</td>
+<td style="text-align:left"><strong>소피아:</strong> 유연합니다만, 가능하다면 집중 근무제를 선호합니다.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sr. Martínez:</strong> Muy bien. Te llamaremos la próxima semana.</td>
-<td style="text-align: left;"><strong>마르티네스:</strong> 좋습니다. 다음 주에 연락드리겠습니다.</td>
+<td style="text-align:left"><strong>Sr. Martínez:</strong> Muy bien. Te llamaremos la próxima semana.</td>
+<td style="text-align:left"><strong>마르티네스:</strong> 좋습니다. 다음 주에 연락드리겠습니다.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이번 장의 핵심 내용을 복습해 보세요.<br />
-- [ ] 이력서와 면접에 필요한 고급 어휘 10개 이상을 익혔나요?<br />
-- [ ] 단순과거와 불완료과거를 업무 경력 설명에 맞게 사용할 수 있나요?<br />
-- [ ] 면접관의 질문에 답하는 기본적인 패턴을 연습했나요?<br />
-- [ ] 스페인의 집중 근무제(horario intensivo)와 네트워킹 문화를 이해했나요?</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>9. Repaso</h2>
+<p>이번 장의 핵심 내용을 복습해 보세요.</p>
+<ul>
+<li>[ ] 이력서와 면접에 필요한 고급 어휘 10개 이상을 익혔나요?</li>
+<li>[ ] 단순과거와 불완료과거를 업무 경력 설명에 맞게 사용할 수 있나요?</li>
+<li>[ ] 면접관의 질문에 답하는 기본적인 패턴을 연습했나요?</li>
+<li>[ ] 스페인의 집중 근무제(horario intensivo)와 네트워킹 문화를 이해했나요?</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Enhorabuena! 비즈니스 스페인어의 세계에 발을 내디딘 것을 축하합니다. 단순히 일하는 것을 넘어 자신의 가치를 증명하고 소통하는 법을 배우는 것은 매우 큰 자산입니다. 이번 장에서 배운 표현들이 여러분의 커리어에 날개가 되기를 바랍니다. 다음 장에서는 우리가 살고 있는 지구와 사회적 책임에 대해 다루는 '지구촌과 경제(A2)' 섹션으로 이어가겠습니다. 성장은 계속됩니다! ¡Adelante!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>6. Práctica - A. CV Vocabulary Checklist</strong><br />
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>6. Práctica - A. CV Vocabulary Checklist</strong><br>
 1-b / 2-a / 3-e / 4-c / 5-d</p>
-<p><strong>6. Práctica - B. Fill in the blanks with the correct past tense</strong><br />
-1. hice / 2. era / 3. Viví / 4. llegaba / 5. tuve</p>
-<p><strong>6. Práctica - C. 번역 연습</strong><br />
-1. Aprendí a comunicarme en una multinacional.<br />
-2. Cada día asistía a una reunión matutina.<br />
-3. He solicitado el puesto porque busco nuevos retos. (또는 me presento...)<br />
-4. Sé hablar inglés y español.<br />
-5. Ayer firmé el contrato después de la entrevista.</p>
-<p><strong>7. Lectura Questions</strong><br />
-1. 기업 조사 및 가치 이해 (Investigar la empresa y entender sus valores).<br />
-2. 긍정적인 태도와 자신감을 유지하고 시선을 맞추기 (Mantener actitud positiva, confianza y contacto visual).</p>
+<p><strong>6. Práctica - B. Fill in the blanks with the correct past tense</strong></p>
+<ol>
+<li>hice / 2. era / 3. Viví / 4. llegaba / 5. tuve</li>
+</ol>
+<p><strong>6. Práctica - C. 번역 연습</strong></p>
+<ol>
+<li>Aprendí a comunicarme en una multinacional.</li>
+<li>Cada día asistía a una reunión matutina.</li>
+<li>He solicitado el puesto porque busco nuevos retos. (또는 me presento...)</li>
+<li>Sé hablar inglés y español.</li>
+<li>Ayer firmé el contrato después de la entrevista.</li>
+</ol>
+<p><strong>7. Lectura Questions</strong></p>
+<ol>
+<li>기업 조사 및 가치 이해 (Investigar la empresa y entender sus valores).</li>
+<li>긍정적인 태도와 자신감을 유지하고 시선을 맞추기 (Mantener actitud positiva, confianza y contacto visual).</li>
+</ol>
 </div>
 </body>
 </html>

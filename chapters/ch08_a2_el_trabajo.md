@@ -25,18 +25,28 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 
 ![Entrevista de Trabajo](../images/ch08_a2_vocab_interview.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la entrevista** | **Interview** ✅ | 면접 |
-| 2 | **el currículum / el CV** | **Curriculum** ✅ | 이력서 |
-| 3 | **el candidato / la candidata** | **Candidate** ✅ | 지원자 / 후보자 |
-| 4 | **el contrato** | **Contract** ✅ | 계약(서) |
-| 5 | **el sueldo / el salario** | **Salary** ✅ | 급여 / 월급 |
-| 6 | **la experiencia** | **Experience** ✅ | 경력 / 경험 |
-| 7 | **la empresa / la compañía** | **Company** ✅ | 회사 / 기업 |
-| 8 | **el puesto de trabajo** | **Post** (job post) | 직책 / 자리 |
-| 9 | **la formación** | **Formation** (training) | 학력 / 교육 이수 |
-| 10 | **el ascenso** | **Ascent** (climbing up) | 승진 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la entrevista</strong></td><td><strong>Interview</strong> ✅</td><td>면접</td></tr>
+    <tr><td>2</td><td><strong>el currículum / el CV</strong></td><td><strong>Curriculum</strong> ✅</td><td>이력서</td></tr>
+    <tr><td>3</td><td><strong>el candidato / la candidata</strong></td><td><strong>Candidate</strong> ✅</td><td>지원자 / 후보자</td></tr>
+    <tr><td>4</td><td><strong>el contrato</strong></td><td><strong>Contract</strong> ✅</td><td>계약(서)</td></tr>
+    <tr><td>5</td><td><strong>el sueldo / el salario</strong></td><td><strong>Salary</strong> ✅</td><td>급여 / 월급</td></tr>
+    <tr><td>6</td><td><strong>la experiencia</strong></td><td><strong>Experience</strong> ✅</td><td>경력 / 경험</td></tr>
+    <tr><td>7</td><td><strong>la empresa / la compañía</strong></td><td><strong>Company</strong> ✅</td><td>회사 / 기업</td></tr>
+    <tr><td>8</td><td><strong>el puesto de trabajo</strong></td><td><strong>Post</strong> (job post)</td><td>직책 / 자리</td></tr>
+    <tr><td>9</td><td><strong>la formación</strong></td><td><strong>Formation</strong> (training)</td><td>학력 / 교육 이수</td></tr>
+    <tr><td>10</td><td><strong>el ascenso</strong></td><td><strong>Ascent</strong> (climbing up)</td><td>승진</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -118,13 +128,21 @@ Un aspecto importante es el **horario intensivo** durante el verano, donde mucha
 
 **A. CV Vocabulary Checklist (이력서 어휘 체크리스트 - 알맞은 의미를 연결하세요)**
 
-| Spanish | Korean |
-| :--- | :--- |
-| 1. Datos personales | a. 경력 사항 |
-| 2. Experiencia laboral | b. 인적 사항 |
-| 3. Formación académica | c. 언어 능력 |
-| 4. Idiomas | d. 기타 기술 |
-| 5. Otros datos de interés | e. 학력 사항 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Datos personales</td><td style="padding: 10px; border: 1px solid #ddd;">a. 경력 사항</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Experiencia laboral</td><td style="padding: 10px; border: 1px solid #ddd;">b. 인적 사항</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Formación académica</td><td style="padding: 10px; border: 1px solid #ddd;">c. 언어 능력</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. Idiomas</td><td style="padding: 10px; border: 1px solid #ddd;">d. 기타 기술</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Otros datos de interés</td><td style="padding: 10px; border: 1px solid #ddd;">e. 학력 사항</td></tr>
+  </tbody>
+</table>
 
 **B. Fill in the blanks with the correct past tense (알맞은 과거 시제를 사용하세요)**
 
@@ -171,15 +189,23 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 **Situación:** El Sr. Martínez entrevista a Sofía para un puesto de Coordinadora de Proyectos.
 **상황:** 마르티네스 씨가 프로젝트 코디네이터 직책을 위해 소피아를 면접합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Sr. Martínez:** Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto? | **마르티네스:** 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요? |
-| **Sofía:** Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia. | **소피아:** 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다. |
-| **Sr. Martínez:** Veo en tu CV que tu especialidad es el marketing. ¿Qué aprendiste? | **마르티네스:** 이력서를 보니 귀하의 전공이 마케팅이군요. 무엇을 배웠나요? |
-| **Sofía:** Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión. | **소피아:** 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다. |
-| **Sr. Martínez:** ¿Qué horarios prefieres? | **마르티네스:** 어떤 근무 시간대를 선호하시나요? |
-| **Sofía:** Soy flexible, pero prefiero el horario intensivo si es posible. | **소피아:** 유연합니다만, 가능하다면 집중 근무제를 선호합니다. |
-| **Sr. Martínez:** Muy bien. Te llamaremos la próxima semana. | **마르티네스:** 좋습니다. 다음 주에 연락드리겠습니다. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sofía:</strong> Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소피아:</strong> 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> Veo en tu CV que tu especialidad es el marketing. ¿Qué aprendiste?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 이력서를 보니 귀하의 전공이 마케팅이군요. 무엇을 배웠나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sofía:</strong> Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소피아:</strong> 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> ¿Qué horarios prefieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 어떤 근무 시간대를 선호하시나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sofía:</strong> Soy flexible, pero prefiero el horario intensivo si es posible.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소피아:</strong> 유연합니다만, 가능하다면 집중 근무제를 선호합니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> Muy bien. Te llamaremos la próxima semana.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 좋습니다. 다음 주에 연락드리겠습니다.</td></tr>
+  </tbody>
+</table>
 
 ---
 

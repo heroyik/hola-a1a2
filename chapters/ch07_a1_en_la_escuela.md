@@ -79,7 +79,7 @@
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">인칭 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
       <th style="padding: 10px; border: 1px solid #ddd;">-AR (Hablar)</th>
       <th style="padding: 10px; border: 1px solid #ddd;">-ER (Comer)</th>
       <th style="padding: 10px; border: 1px solid #ddd;">-IR (Vivir)</th>
@@ -225,8 +225,8 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
     </tr>
   </thead>
   <tbody>

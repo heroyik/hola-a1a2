@@ -1,0 +1,24 @@
+{
+  "name": "book",
+  "version": "1.0.0",
+  "description": "**Advanced English speakers를 위한 모듈형 A1/A2 스페인어 교재**",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heroyik/hola-al-textbook.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heroyik/hola-al-textbook/issues"
+  },
+  "homepage": "https://github.com/heroyik/hola-al-textbook#readme",
+  "dependencies": {
+    "markdown-it": "^14.1.1",
+    "playwright": "^1.58.2"
+  }
+}

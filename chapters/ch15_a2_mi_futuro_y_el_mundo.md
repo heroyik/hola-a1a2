@@ -21,18 +21,28 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 ![Sociedad](../images/ch15_a2_vocab_society.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la sociedad** | **Society** ✅ (Perfect Cognate) | 사회 |
-| 2 | **el ciudadano / la ciudadana** | **Citizen** ✅ | 시민 |
-| 3 | **la pobreza** | — | 가난 / 빈곤 |
-| 4 | **la desigualdad** | **Inequality** ✅ | 불평등 |
-| 5 | **la solidaridad** | **Solidarity** ✅ | 연대 / 결속 |
-| 6 | **la paz mundial** | **World Peace** ✅ | 세계 평화 |
-| 7 | **el voluntariado** | **Volunteer** ✅ | 자원봉사 |
-| 8 | **el cambio climático** | **Climatic Change** ✅ | 기후 변화 |
-| 9 | **los derechos humanos** | **Human Rights** ✅ | 인권 |
-| 10 | **el desarrollo sostenible** | **Sustainable Development** ✅ | 지속 가능한 발전 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la sociedad</strong></td><td><strong>Society</strong> ✅ (Perfect Cognate)</td><td>사회</td></tr>
+    <tr><td>2</td><td><strong>el ciudadano / la ciudadana</strong></td><td><strong>Citizen</strong> ✅</td><td>시민</td></tr>
+    <tr><td>3</td><td><strong>la pobreza</strong></td><td>—</td><td>가난 / 빈곤</td></tr>
+    <tr><td>4</td><td><strong>la desigualdad</strong></td><td><strong>Inequality</strong> ✅</td><td>불평등</td></tr>
+    <tr><td>5</td><td><strong>la solidaridad</strong></td><td><strong>Solidarity</strong> ✅</td><td>연대 / 결속</td></tr>
+    <tr><td>6</td><td><strong>la paz mundial</strong></td><td><strong>World Peace</strong> ✅</td><td>세계 평화</td></tr>
+    <tr><td>7</td><td><strong>el voluntariado</strong></td><td><strong>Volunteer</strong> ✅</td><td>자원봉사</td></tr>
+    <tr><td>8</td><td><strong>el cambio climático</strong></td><td><strong>Climatic Change</strong> ✅</td><td>기후 변화</td></tr>
+    <tr><td>9</td><td><strong>los derechos humanos</strong></td><td><strong>Human Rights</strong> ✅</td><td>인권</td></tr>
+    <tr><td>10</td><td><strong>el desarrollo sostenible</strong></td><td><strong>Sustainable Development</strong> ✅</td><td>지속 가능한 발전</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,20 +70,30 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 ### Futuro Simple (단순 미래) - 규칙형
 모든 -ar, -er, -ir 동사의 끝에 동일한 어미를 붙입니다.
-| 인칭 | **Estudiar / Comer / Vivir** | 어미 (끝부분) | 영어 매핑 (will) |
-| :--- | :--- | :--- | :--- |
-| **Yo** | estudi**aré** / com**eré** / viv**iré** | **-é** | I will |
-| **Tú** | estudi**arás** / com**erás** / viv**irás** | **-ás** | You will |
-| **Él/Ella/Ud.** | estudi**ará** / com**erá** / viv**irá** | **-á** | He/She/You will |
-| **Nosotros/as** | estudi**aremos** / com**eremos** / viv**iremos** | **-emos** | We will |
-| **Vosotros/as** | estudi**aréis** / com**eréis** / viv**iréis** | **-éis** | You all will |
-| **Ellos/Ellas/Uds.** | estudi**arán** / com**erán** / viv**irán** | **-án** | They/You all will |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Estudiar / Comer / Vivir</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">어미 (끝부분)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (will)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td>estudi<strong>aré</strong> / com<strong>eré</strong> / viv<strong>iré</strong></td><td><strong>-é</strong></td><td>I will</td></tr>
+    <tr><td><strong>Tú</strong></td><td>estudi<strong>arás</strong> / com<strong>erás</strong> / viv<strong>irás</strong></td><td><strong>-ás</strong></td><td>You will</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td>estudi<strong>ará</strong> / com<strong>erá</strong> / viv<strong>irá</strong></td><td><strong>-á</strong></td><td>He/She/You will</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td>estudi<strong>aremos</strong> / com<strong>eremos</strong> / viv<strong>iremos</strong></td><td><strong>-emos</strong></td><td>We will</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td>estudi<strong>aréis</strong> / com<strong>eréis</strong> / viv<strong>iréis</strong></td><td><strong>-éis</strong></td><td>You all will</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td>estudi<strong>arán</strong> / com<strong>erán</strong> / viv<strong>irán</strong></td><td><strong>-án</strong></td><td>They/You all will</td></tr>
+  </tbody>
+</table>
 
 **Important!** 1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acceso)가 있다는 점을 꼭 기억하세요!
 
 ---
 
-## 5. Culture Viva: Los Jóvenes Españoles y el Compromiso Social
+## 5. Cultura Viva: Los Jóvenes Españoles y el Compromiso Social
 스페인 청년들은 오늘날의 사회 문제에 어떻게 대응하고 있을까요?
 
 ![Social Action](../images/ch15_a2_culture_engagement.png)
@@ -146,14 +166,22 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 **Situación:** Dos estudiantes, Elena와 Mateo, discuten sobre los desafíos del futuro.
 **상황:** 두 학생 엘레나와 마테오가 미래의 과제에 대해 토론합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Elena:** Mateo, ¿crees que el mundo cambiará a mejor? | **엘레나:** 마테오, 세상이 더 좋게 변할 거라 생각하니? |
-| **Mateo:** Sí, creo que la tecnología nos ayudará a resolver muchos problemas. | **마테오:** 응, 기술이 많은 문제를 해결하도록 도와줄 거라 믿어. |
-| **Elena:** Pero también es necesaria la solidaridad. Hay mucha desigualdad todavía. | **엘레나:** 하지만 연대도 필요해. 아직 불평등이 아주 많거든. |
-| **Mateo:** Tienes razón. Debemos trabajar juntos por el desarrollo sostenible. | **마테오:** 맞아. 우리는 지속 가능한 발전을 위해 함께 일해야 해. |
-| **Elena:** Exacto. Yo seré voluntaria en África el próximo verano. | **엘레나:** 정확해. 나는 내년 여름에 아프리카에서 자원봉사를 할 거야. |
-| **Mateo:** ¡Qué bien! El futuro estará en nuestras manos. | **마테오:** 멋지다! 미래는 우리 손에 달려 있을 거야. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Mateo, ¿crees que el mundo cambiará a mejor?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 마테오, 세상이 더 좋게 변할 거라 생각하니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> Sí, creo que la tecnología nos ayudará a resolver muchos problemas.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 응, 기술이 많은 문제를 해결하도록 도와줄 거라 믿어.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Pero también es necesaria la solidaridad. Hay mucha desigualdad todavía.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 하지만 연대도 필요해. 아직 불평등이 아주 많거든.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> Tienes razón. Debemos trabajar juntos por el desarrollo sostenible.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 맞아. 우리는 지속 가능한 발전을 위해 함께 일해야 해.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Exacto. Yo seré voluntaria en África el próximo verano.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 정확해. 나는 내년 여름에 아프리카에서 자원봉사를 할 거야.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> ¡Qué bien! El futuro estará en nuestras manos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 멋지다! 미래는 우리 손에 달려 있을 거야.</td></tr>
+  </tbody>
+</table>
 
 ---
 

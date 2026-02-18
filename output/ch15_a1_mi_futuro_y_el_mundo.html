@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch15_a1_mi_futuro_y_el_mundo.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,383 +27,246 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-15-mi-futuro-y-el-mundo-a1">Chapter 15: Mi futuro y el mundo (A1)</h1>
+    <div class="container"><h1>Chapter 15: Mi futuro y el mundo (A1)</h1>
 <p class="cervantes-ref">Cervantes: §15 미래 계획 및 §16 환경과 세계 기초</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Hacia el futuro (미래를 향해)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Hacia el futuro (미래를 향해)</strong><br>
 우리가 지금까지 배운 스페인어는 과거와 현재에 머물지 않습니다. 이제 여러분은 자신이 꿈꾸는 미래, 하고 싶은 일, 그리고 우리가 함께 살아가는 소중한 지구에 대해 이야기할 준비가 되었습니다. 이번 마지막 장에서는 'Ir a + 동사원형' 패턴을 통해 가까운 미래의 계획을 간단하고 확실하게 표현하는 방법을 배웁니다. 또한 환경 보호와 관련된 기초 어휘를 익히며, 더 나은 세상을 위해 우리가 할 수 있는 일들에 대해 생각해 봅니다. 여러분의 스페인어 여정은 이제 시작입니다!</p>
-<p><strong>학습 목표</strong><br />
-- 미래 계획, 꿈, 환경 보호 및 기술 관련 기초 어휘 15개 이상 습득<br />
-- 'Ir a + 동사원형' (근접 미래) 패턴 익히기 및 활용<br />
-- 소망과 의도를 나타내는 표현 (Quiero, Me gustaría)<br />
-- 스페인의 환경 보호 정책과 지속 가능한 삶에 대한 태도 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
-<strong>¿Sabías que...?</strong> 스페인어에서 미래를 말하는 가장 쉽고 대중적인 방법은 미래 시제 변화를 외우는 것이 아니라 바로 "Ir a + infinitive"입니다. 영어의 "be going to"와 똑같은 이 마법의 패턴 하나만 알아도 여러분은 내일, 다음 주, 그리고 내년의 계획을 완벽하게 말할 수 있습니다!</div>
-<hr />
-<h2 id="2-vocabulario-esencial-mi-futuro-y-el-planeta">2. Vocabulario Esencial: Mi Futuro y el Planeta</h2>
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>미래 계획, 꿈, 환경 보호 및 기술 관련 기초 어휘 15개 이상 습득</li>
+<li>'Ir a + 동사원형' (근접 미래) 패턴 익히기 및 활용</li>
+<li>소망과 의도를 나타내는 표현 (Quiero, Me gustaría)</li>
+<li>스페인의 환경 보호 정책과 지속 가능한 삶에 대한 태도 이해</li>
+</ul>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<strong>¿Sabías que...?</strong> 스페인어에서 미래를 말하는 가장 쉽고 대중적인 방법은 미래 시제 변화를 외우는 것이 아니라 바로 &quot;Ir a + infinitive&quot;입니다. 영어의 &quot;be going to&quot;와 똑같은 이 마법의 패턴 하나만 알아도 여러분은 내일, 다음 주, 그리고 내년의 계획을 완벽하게 말할 수 있습니다!</div>
+<hr>
+<h2>2. Vocabulario Esencial: Mi Futuro y el Planeta</h2>
 <p>우리가 꿈꾸는 내일과 우리가 지켜야 할 지구입니다. 희망적인 미래의 이미지를 보며 어휘를 익혀보세요.</p>
-<p><img alt="Futuro" src="../images/ch15_a1_vocab_technology_future.png" /></p>
+<p><img src="../images/ch15_a1_vocab_technology_future.png" alt="Futuro"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:left">#</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"><strong>el futuro</strong></td>
-<td style="text-align: left;"><strong>Future</strong> ✅</td>
-<td style="text-align: left;">미래</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>el futuro</strong></td>
+<td style="text-align:left"><strong>Future</strong> ✅</td>
+<td style="text-align:left">미래</td>
 </tr>
 <tr>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"><strong>el plan</strong></td>
-<td style="text-align: left;"><strong>Plan</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align: left;">계획</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>el plan</strong></td>
+<td style="text-align:left"><strong>Plan</strong> ✅ (Perfect Cognate)</td>
+<td style="text-align:left">계획</td>
 </tr>
 <tr>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"><strong>el medio ambiente</strong></td>
-<td style="text-align: left;"><strong>Ambient</strong> (related)</td>
-<td style="text-align: left;">환경</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left"><strong>el medio ambiente</strong></td>
+<td style="text-align:left"><strong>Ambient</strong> (related)</td>
+<td style="text-align:left">환경</td>
 </tr>
 <tr>
-<td style="text-align: left;">4</td>
-<td style="text-align: left;"><strong>el reciclaje</strong></td>
-<td style="text-align: left;"><strong>Recycling</strong> ✅</td>
-<td style="text-align: left;">재활용</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>el reciclaje</strong></td>
+<td style="text-align:left"><strong>Recycling</strong> ✅</td>
+<td style="text-align:left">재활용</td>
 </tr>
 <tr>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;"><strong>la naturaleza</strong></td>
-<td style="text-align: left;"><strong>Nature</strong> ✅</td>
-<td style="text-align: left;">자연</td>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>la naturaleza</strong></td>
+<td style="text-align:left"><strong>Nature</strong> ✅</td>
+<td style="text-align:left">자연</td>
 </tr>
 <tr>
-<td style="text-align: left;">6</td>
-<td style="text-align: left;"><strong>la tecnología</strong></td>
-<td style="text-align: left;"><strong>Technology</strong> ✅</td>
-<td style="text-align: left;">기술</td>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>la tecnología</strong></td>
+<td style="text-align:left"><strong>Technology</strong> ✅</td>
+<td style="text-align:left">기술</td>
 </tr>
 <tr>
-<td style="text-align: left;">7</td>
-<td style="text-align: left;"><strong>el mundo</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">세상 / 세계</td>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>el mundo</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">세상 / 세계</td>
 </tr>
 <tr>
-<td style="text-align: left;">8</td>
-<td style="text-align: left;"><strong>la paz</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">평화</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left"><strong>la paz</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">평화</td>
 </tr>
 <tr>
-<td style="text-align: left;">9</td>
-<td style="text-align: left;"><strong>la esperanza</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">희망</td>
+<td style="text-align:left">9</td>
+<td style="text-align:left"><strong>la esperanza</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">희망</td>
 </tr>
 <tr>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;"><strong>el sueño</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">꿈 (잠 또는 장래 희망)</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left"><strong>el sueño</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">꿈 (잠 또는 장래 희망)</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>미래의 계획과 소망을 말할 때 사용하는 핵심 패턴입니다.</p>
-<p><strong>A. 미래 계획 말하기 (Planes)</strong><br />
-- <strong>Voy a estudiar español mañana.</strong> (I am going to study Spanish tomorrow. / 내일 스페인어를 공부할 거예요.)<br />
-- <strong>¿Qué vas a hacer el próximo año?</strong> (What are you going to do next year? / 내년에 무엇을 할 거니?)<br />
-- <strong>Vamos a viajar a México.</strong> (We are going to travel to Mexico. / 우리는 멕시코로 여행 갈 거예요.)<br />
-- <strong>Va a llover mañana.</strong> (It is going to rain tomorrow. / 내일은 비가 올 거예요.)</p>
-<p><strong>B. 소망과 의도 표현하기 (Deseos)</strong><br />
-- <strong>Quiero ayudar al planeta.</strong> (I want to help the planet. / 나는 지구를 돕고 싶어요.)<br />
-- <strong>Me gustaría ser ingeniero.</strong> (I would like to be an engineer. / 나는 엔지니어가 되고 싶어요.)<br />
-- <strong>Es importante cuidar la naturaleza.</strong> (It is important to care for nature. / 자연을 돌보는 것은 중요합니다.)<br />
-- <strong>Tengo el sueño de vivir en España.</strong> (I have the dream of living in Spain. / 나는 스페인에서 사는 꿈이 있어요.)</p>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<p><strong>A. 미래 계획 말하기 (Planes)</strong></p>
+<ul>
+<li><strong>Voy a estudiar español mañana.</strong> (I am going to study Spanish tomorrow. / 내일 스페인어를 공부할 거예요.)</li>
+<li><strong>¿Qué vas a hacer el próximo año?</strong> (What are you going to do next year? / 내년에 무엇을 할 거니?)</li>
+<li><strong>Vamos a viajar a México.</strong> (We are going to travel to Mexico. / 우리는 멕시코로 여행 갈 거예요.)</li>
+<li><strong>Va a llover mañana.</strong> (It is going to rain tomorrow. / 내일은 비가 올 거예요.)</li>
+</ul>
+<p><strong>B. 소망과 의도 표현하기 (Deseos)</strong></p>
+<ul>
+<li><strong>Quiero ayudar al planeta.</strong> (I want to help the planet. / 나는 지구를 돕고 싶어요.)</li>
+<li><strong>Me gustaría ser ingeniero.</strong> (I would like to be an engineer. / 나는 엔지니어가 되고 싶어요.)</li>
+<li><strong>Es importante cuidar la naturaleza.</strong> (It is important to care for nature. / 자연을 돌보는 것은 중요합니다.)</li>
+<li><strong>Tengo el sueño de vivir en España.</strong> (I have the dream of living in Spain. / 나는 스페인에서 사는 꿈이 있어요.)</li>
+</ul>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>가장 실용적인 미래 표현인 'Ir a + 동사원형'을 정복해 봅시다.</p>
-<h3 id="ir-a">Ir a + 동사원형 (가까운 미래 / 의도)</h3>
-<p>'Ir' 동사를 주어에 맞게 변형하고 <code>a</code>를 쓴 뒤, 하고 싶은 동작을 동사원형으로 둡니다.<br />
-| 인칭 | <strong>Ir</strong> | <strong>a + 동사원형</strong> | 예시 |<br />
-| :--- | :--- | :--- | :--- |<br />
-| <strong>Yo</strong> | <strong>voy</strong> | a estudiar | I am going to study |<br />
-| <strong>Tú</strong> | <strong>vas</strong> | a trabajar | You are going to work |<br />
-| <strong>Él/Ella/Ud.</strong> | <strong>va</strong> | a comer | He/She is going to eat |<br />
-| <strong>Nosotros/as</strong> | <strong>vamos</strong> | a viajar | We are going to travel |<br />
-| <strong>Vosotros/as</strong> | <strong>vais</strong> | a bailar | You all are going to dance |<br />
-| <strong>Ellos/Ellas/Uds.</strong> | <strong>van</strong> | a descansar | They are going to rest |</p>
-<p><strong>Korean Tip!</strong><br />
-이미 결정된 계획이나 아주 조만간 일어날 일에 대해 확신을 가지고 말할 때 씁니다. 만약 "나 이제 밥 먹으러 가"라고 할 때는 "Voy a comer"라고 하면 완벽합니다!</p>
-<hr />
-<h2 id="5-culture-viva-una-espana-verde-y-sostenible">5. Culture Viva: Una España Verde y Sostenible</h2>
+<h3>Ir a + 동사원형 (가까운 미래 / 의도)</h3>
+<p>'Ir' 동사를 주어에 맞게 변형하고 <code>a</code>를 쓴 뒤, 하고 싶은 동작을 동사원형으로 둡니다.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">인칭</th>
+<th style="text-align:left"><strong>Ir</strong></th>
+<th style="text-align:left"><strong>a + 동사원형</strong></th>
+<th style="text-align:left">예시</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left"><strong>Yo</strong></td>
+<td style="text-align:left"><strong>voy</strong></td>
+<td style="text-align:left">a estudiar</td>
+<td style="text-align:left">I am going to study</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Tú</strong></td>
+<td style="text-align:left"><strong>vas</strong></td>
+<td style="text-align:left">a trabajar</td>
+<td style="text-align:left">You are going to work</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Él/Ella/Ud.</strong></td>
+<td style="text-align:left"><strong>va</strong></td>
+<td style="text-align:left">a comer</td>
+<td style="text-align:left">He/She is going to eat</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Nosotros/as</strong></td>
+<td style="text-align:left"><strong>vamos</strong></td>
+<td style="text-align:left">a viajar</td>
+<td style="text-align:left">We are going to travel</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Vosotros/as</strong></td>
+<td style="text-align:left"><strong>vais</strong></td>
+<td style="text-align:left">a bailar</td>
+<td style="text-align:left">You all are going to dance</td>
+</tr>
+<tr>
+<td style="text-align:left"><strong>Ellos/Ellas/Uds.</strong></td>
+<td style="text-align:left"><strong>van</strong></td>
+<td style="text-align:left">a descansar</td>
+<td style="text-align:left">They are going to rest</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Korean Tip!</strong><br>
+이미 결정된 계획이나 아주 조만간 일어날 일에 대해 확신을 가지고 말할 때 씁니다. 만약 &quot;나 이제 밥 먹으러 가&quot;라고 할 때는 &quot;Voy a comer&quot;라고 하면 완벽합니다!</p>
+<hr>
+<h2>5. Cultura Viva: Una España Verde y Sostenible</h2>
 <p>스페인은 환경을 지키기 위해 어떤 노력을 하고 있을까요?</p>
-<p><img alt="Green Future" src="../images/ch15_a1_culture_future.png" /></p>
-<p>España es pionera en el uso de <strong>energías renovables</strong>. Si viajas por el país, vas a ver muchos parques eólicos (풍력 발전소) y campos de energía solar. Los españoles valoran mucho su naturaleza diversa, desde las playas del Mediterráneo hasta los bosques del norte. </p>
+<p><img src="../images/ch15_a1_culture_future.png" alt="Green Future"></p>
+<p>España es pionera en el uso de <strong>energías renovables</strong>. Si viajas por el país, vas a ver muchos parques eólicos (풍력 발전소) y campos de energía solar. Los españoles valoran mucho su naturaleza diversa, desde las playas del Mediterráneo hasta los bosques del norte.</p>
 <p>En las ciudades, el <strong>reciclaje</strong> es parte de la vida diaria: hay contenedores de diferentes colores para el vidrio, el papel, el plástico y los residuos orgánicos. Además, el uso de la bicicleta y el transporte público es cada vez más común para reducir la contaminación. El objetivo es crear un futuro más verde y sostenible para las próximas generaciones. ¡Tú también vas a contribuir a este cambio aprendiendo y compartiendo estas ideas!</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 스페인은 <strong>재생 에너지</strong> 사용의 선구자입니다. 나라를 여행하다 보면 많은 풍력 발전소와 태양광 에너지 단지를 보게 될 것입니다. 스페인 사람들은 지중해의 해변부터 북부의 숲까지 자신들의 다양한 자연을 매우 소중히 여깁니다.</p>
 <p>도시에서 <strong>재활용</strong>은 일상의 일부입니다. 유리, 종이, 플라스틱, 유기물 폐기물을 위한 다양한 색깔의 컨테이너가 있죠. 또한 오염을 줄이기 위해 자전거와 대중교통 이용이 점점 더 일반화되고 있습니다. 목표는 다음 세대를 위해 더 푸르고 지속 가능한 미래를 만드는 것입니다. 여러분도 이러한 아이디어들을 배우고 공유함으로써 이 변화에 기여하게 될 것입니다!</p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
+<hr>
+<h2>6. Práctica</h2>
 <p><strong>A. Choose the correct form of 'Ir a' (알맞은 형태로 문장을 완성하세요)</strong></p>
 <ol>
 <li>Yo (..........) a reciclar el papel. (voy/vas)</li>
@@ -435,109 +277,127 @@ h3:has(+ ol) {
 </ol>
 <p><strong>B. Arrange the words to make a sentence (단어를 조합하여 미래 계획 문장을 만드세요)</strong></p>
 <ol>
-<li>viajar / Manuel / a / va / España.<br />
-   (............................................................)</li>
-<li>vamos / Nosotras / a / la / limpiar / casa.<br />
-   (............................................................)</li>
-<li>¿vas / Qué / a / hacer / tú?<br />
-   (............................................................)</li>
-<li>Voy / a / tecnología / la / usar.<br />
-   (............................................................)</li>
-<li>mañana / van / a / comer / Ellos / paella.<br />
-   (............................................................)</li>
+<li>viajar / Manuel / a / va / España.<br>
+(............................................................)</li>
+<li>vamos / Nosotras / a / la / limpiar / casa.<br>
+(............................................................)</li>
+<li>¿vas / Qué / a / hacer / tú?<br>
+(............................................................)</li>
+<li>Voy / a / tecnología / la / usar.<br>
+(............................................................)</li>
+<li>mañana / van / a / comer / Ellos / paella.<br>
+(............................................................)</li>
 </ol>
 <p><strong>C. 번역 연습 (미래 및 소망 표현을 활용하세요)</strong></p>
 <ol>
-<li>나는 내일 책을 읽을 거예요.<br />
-   (............................................................)</li>
-<li>우리는 자연을 보호하고 싶어요 (사용: querer).<br />
-   (............................................................)</li>
-<li>지구를 돌보는 것은 매우 중요합니다.<br />
-   (............................................................)</li>
-<li>너는 내년에 무엇을 할 거니?<br />
-   (............................................................)</li>
-<li>저는 스페인 친구를 사귀고 싶어요 (사용: me gustaría).<br />
-   (............................................................)</li>
+<li>나는 내일 책을 읽을 거예요.<br>
+(............................................................)</li>
+<li>우리는 자연을 보호하고 싶어요 (사용: querer).<br>
+(............................................................)</li>
+<li>지구를 돌보는 것은 매우 중요합니다.<br>
+(............................................................)</li>
+<li>너는 내년에 무엇을 할 거니?<br>
+(............................................................)</li>
+<li>저는 스페인 친구를 사귀고 싶어요 (사용: me gustaría).<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>Mis sueños para el próximo año (내년의 나의 꿈들)</strong></p>
 <p>¡Hola a todos! Este ha sido un gran curso de español. El próximo año tengo muchos planes. Primero, voy a viajar a Madrid para practicar mi español con gente nativa. Después, voy a estudiar ingeniería ambiental porque quiero ayudar al medio ambiente. Mi sueño es trabajar en una empresa de energía solar. También voy a reciclar en casa todos los días. Sé que el mundo tiene problemas, 하지만 tengo esperanza. Me gustaría conocer a muchas personas de diferentes países y compartir mis ideas. ¡El futuro va a ser brillante! ¿Y tú? ¿Qué vas a hacer para cambiar el mundo?</p>
-<p><strong>Questions:</strong><br />
-1. 주인공은 내년에 어디로 여행을 갈 예정인가요? (Where is the protagonist going to travel next year?)<br />
-   - ............................................................<br />
-2. 주인공의 꿈은 무엇인가요? (What is the protagonist's dream?)<br />
-   - ............................................................</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>Questions:</strong></p>
+<ol>
+<li>주인공은 내년에 어디로 여행을 갈 예정인가요? (Where is the protagonist going to travel next year?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+<li>주인공의 꿈은 무엇인가요? (What is the protagonist's dream?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+</ol>
+<p><strong>[한국어 번역]</strong><br>
 모두들 안녕하세요! 정말 멋진 스페인어 과정이었습니다. 내년에는 많은 계획이 있어요. 우선, 현지인들과 스페인어를 연습하기 위해 마드리드로 여행을 갈 거예요. 그 후에는 환경을 돕고 싶어서 환경 공학을 공부할 예정입니다. 제 꿈은 태양광 에너지 회사에서 일하는 것이에요. 또한 매일 집에서 재활용을 할 거예요. 세상에 많은 문제가 있다는 걸 알지만, 저는 희망을 가지고 있습니다. 저는 다양한 나라의 사람들을 만나고 제 아이디어를 공유하고 싶어요. 미래는 밝을 것입니다! 여러분은요? 세상을 바꾸기 위해 무엇을 할 건가요?</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>Planes para el fin de semana (주말 계획)</strong></p>
-<p><strong>Situación:</strong> Sara y Pablo hablan de lo que van a hacer este fin de semana.<br />
+<p><strong>Situación:</strong> Sara y Pablo hablan de lo que van a hacer este fin de semana.<br>
 <strong>상황:</strong> 사라와 파블로가 이번 주말에 할 일에 대해 이야기합니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Sara:</strong> Pablo, ¿qué vas a hacer este sábado?</td>
-<td style="text-align: left;"><strong>사라:</strong> 파블로, 이번 토요일에 뭐 할 거야?</td>
+<td style="text-align:left"><strong>Sara:</strong> Pablo, ¿qué vas a hacer este sábado?</td>
+<td style="text-align:left"><strong>사라:</strong> 파블로, 이번 토요일에 뭐 할 거야?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pablo:</strong> Voy a ir a la montaña con mi familia. Queremos disfrutar de la naturaleza.</td>
-<td style="text-align: left;"><strong>파블로:</strong> 가족이랑 산에 갈 거야. 자연을 즐기고 싶거든.</td>
+<td style="text-align:left"><strong>Pablo:</strong> Voy a ir a la montaña con mi familia. Queremos disfrutar de la naturaleza.</td>
+<td style="text-align:left"><strong>파블로:</strong> 가족이랑 산에 갈 거야. 자연을 즐기고 싶거든.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sara:</strong> ¡Qué bien! Yo voy a quedarme en casa y voy a estudiar para el examen.</td>
-<td style="text-align: left;"><strong>사라:</strong> 멋지다! 나는 집에 머물면서 시험 공부를 할 거야.</td>
+<td style="text-align:left"><strong>Sara:</strong> ¡Qué bien! Yo voy a quedarme en casa y voy a estudiar para el examen.</td>
+<td style="text-align:left"><strong>사라:</strong> 멋지다! 나는 집에 머물면서 시험 공부를 할 거야.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pablo:</strong> Es un poco aburrido, ¿no?</td>
-<td style="text-align: left;"><strong>파블로:</strong> 좀 지루하겠다, 그치?</td>
+<td style="text-align:left"><strong>Pablo:</strong> Es un poco aburrido, ¿no?</td>
+<td style="text-align:left"><strong>파블로:</strong> 좀 지루하겠다, 그치?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Sara:</strong> Sí, 하지만 después del examen voy a viajar a la playa.</td>
-<td style="text-align: left;"><strong>사라:</strong> 응, 그래도 시험 끝나고 나면 바다로 여행 갈 거야.</td>
+<td style="text-align:left"><strong>Sara:</strong> Sí, 하지만 después del examen voy a viajar a la playa.</td>
+<td style="text-align:left"><strong>사라:</strong> 응, 그래도 시험 끝나고 나면 바다로 여행 갈 거야.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Pablo:</strong> ¡Buena idea! El futuro (después del examen) va a ser mejor.</td>
-<td style="text-align: left;"><strong>파블로:</strong> 좋은 생각이야! (시험 이후의) 미래는 더 나을 거야.</td>
+<td style="text-align:left"><strong>Pablo:</strong> ¡Buena idea! El futuro (después del examen) va a ser mejor.</td>
+<td style="text-align:left"><strong>파블로:</strong> 좋은 생각이야! (시험 이후의) 미래는 더 나을 거야.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이번 장의 핵심 내용을 복습해 보세요.<br />
-- [ ] 미래, 계획, 환경과 관련된 단어 10개 이상을 알고 있나요?<br />
-- [ ] 'Ir a + 동사원형' 패턴을 사용하여 자신의 계획을 말할 수 있나요?<br />
-- [ ] 'Quiero'와 'Me gustaría'를 구분하여 소망을 표현할 수 있나요?<br />
-- [ ] 스페인의 지속 가능한 삶에 대한 태도를 이해했나요?</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>9. Repaso</h2>
+<p>이번 장의 핵심 내용을 복습해 보세요.</p>
+<ul>
+<li>[ ] 미래, 계획, 환경과 관련된 단어 10개 이상을 알고 있나요?</li>
+<li>[ ] 'Ir a + 동사원형' 패턴을 사용하여 자신의 계획을 말할 수 있나요?</li>
+<li>[ ] 'Quiero'와 'Me gustaría'를 구분하여 소망을 표현할 수 있나요?</li>
+<li>[ ] 스페인의 지속 가능한 삶에 대한 태도를 이해했나요?</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Felicidades! 여러분은 드디어 스페인어 입문의 마지막 단계에 도달했습니다. 이제 여러분은 단순히 언어를 배우는 단계를 넘어, 그 언어로 자신의 미래를 그리고 세상을 더 아름답게 바꿀 준비를 마쳤습니다. 1장부터 15장까지의 여정은 끝났지만, 여러분의 실제 스페인어 대화는 지금부터 시작입니다. ¡Buen viaje y mucha suerte en vuestro camino!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>6. Práctica - A. Choose the correct form of 'Ir a'</strong><br />
-1. voy / 2. vamos / 3. vas / 4. van / 5. va</p>
-<p><strong>6. Práctica - B. Arrange the words to make a sentence</strong><br />
-1. Manuel va a viajar a España.<br />
-2. Nosotras vamos a limpiar la casa.<br />
-3. ¿Qué vas a hacer tú?<br />
-4. Voy a usar la tecnología.<br />
-5. Ellos van a comer paella mañana.</p>
-<p><strong>6. Práctica - C. 번역 연습</strong><br />
-1. Voy a leer un libro mañana.<br />
-2. Queremos cuidar la naturaleza.<br />
-3. Es muy importante cuidar el planeta.<br />
-4. ¿Qué vas a hacer el próximo año?<br />
-5. Me gustaría tener amigos españoles.</p>
-<p><strong>7. Lectura Questions</strong><br />
-1. 마드리드 (Madrid).<br />
-2. 태양광 에너지 회사에서 일하는 것 (Trabajar en una empresa de energía solar).</p>
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>6. Práctica - A. Choose the correct form of 'Ir a'</strong></p>
+<ol>
+<li>voy / 2. vamos / 3. vas / 4. van / 5. va</li>
+</ol>
+<p><strong>6. Práctica - B. Arrange the words to make a sentence</strong></p>
+<ol>
+<li>Manuel va a viajar a España.</li>
+<li>Nosotras vamos a limpiar la casa.</li>
+<li>¿Qué vas a hacer tú?</li>
+<li>Voy a usar la tecnología.</li>
+<li>Ellos van a comer paella mañana.</li>
+</ol>
+<p><strong>6. Práctica - C. 번역 연습</strong></p>
+<ol>
+<li>Voy a leer un libro mañana.</li>
+<li>Queremos cuidar la naturaleza.</li>
+<li>Es muy importante cuidar el planeta.</li>
+<li>¿Qué vas a hacer el próximo año?</li>
+<li>Me gustaría tener amigos españoles.</li>
+</ol>
+<p><strong>7. Lectura Questions</strong></p>
+<ol>
+<li>마드리드 (Madrid).</li>
+<li>태양광 에너지 회사에서 일하는 것 (Trabajar en una empresa de energía solar).</li>
+</ol>
 </div>
 </body>
 </html>

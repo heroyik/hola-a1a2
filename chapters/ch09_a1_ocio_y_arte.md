@@ -21,18 +21,28 @@
 
 ![Ocio](../images/ch09_a1_vocab_leisure.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **el fútbol** | **Football** ✅ | 축구 |
-| 2 | **la natación** | — (To swim) | 수영 |
-| 3 | **el cine** | **Cinema** ✅ | 영화관 / 영화 |
-| 4 | **el museo** | **Museum** ✅ | 박물관 / 미술관 |
-| 5 | **el parque** | **Park** ✅ | 공원 |
-| 6 | **la música** | **Music** ✅ | 음악 |
-| 7 | **bailar** | **Ball** (dance hall) | 춤추다 |
-| 8 | **leer** | **Lecture** (reading) | 읽다 |
-| 9 | **el arte** | **Art** ✅ | 예술 |
-| 10 | **el deporte** | **Sport** (near cognate) | 스포츠 / 운동 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>el fútbol</strong></td><td><strong>Football</strong> ✅</td><td>축구</td></tr>
+    <tr><td>2</td><td><strong>la natación</strong></td><td>— (To swim)</td><td>수영</td></tr>
+    <tr><td>3</td><td><strong>el cine</strong></td><td><strong>Cinema</strong> ✅</td><td>영화관 / 영화</td></tr>
+    <tr><td>4</td><td><strong>el museo</strong></td><td><strong>Museum</strong> ✅</td><td>박물관 / 미술관</td></tr>
+    <tr><td>5</td><td><strong>el parque</strong></td><td><strong>Park</strong> ✅</td><td>공원</td></tr>
+    <tr><td>6</td><td><strong>la música</strong></td><td><strong>Music</strong> ✅</td><td>음악</td></tr>
+    <tr><td>7</td><td><strong>bailar</strong></td><td><strong>Ball</strong> (dance hall)</td><td>춤추다</td></tr>
+    <tr><td>8</td><td><strong>leer</strong></td><td><strong>Lecture</strong> (reading)</td><td>읽다</td></tr>
+    <tr><td>9</td><td><strong>el arte</strong></td><td><strong>Art</strong> ✅</td><td>예술</td></tr>
+    <tr><td>10</td><td><strong>el deporte</strong></td><td><strong>Sport</strong> (near cognate)</td><td>스포츠 / 운동</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,14 +70,23 @@
 
 ### A. Ir (가다) & Venir (오다)
 두 동사는 매우 중요한 불규칙 동사입니다.
-| 인칭 | **Ir** (To Go) | **Venir** (To Come) |
-| :--- | :--- | :--- |
-| **Yo** | voy | vengo |
-| **Tú** | vas | vienes |
-| **Él/Ella/Ud.** | va | viene |
-| **Nosotros/as** | vamos | venimos |
-| **Vosotros/as** | vais | venís |
-| **Ellos/Ellas/Uds.** | van | vienen |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ir (To Go)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Venir (To Come)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>voy</strong></td><td><strong>vengo</strong></td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>vas</strong></td><td>v<strong>ienes</strong></td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>va</strong></td><td>v<strong>iene</strong></td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>vamos</strong></td><td>ven<strong>imos</strong></td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>vais</strong></td><td>ven<strong>ís</strong></td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>van</strong></td><td>v<strong>ienen</strong></td></tr>
+  </tbody>
+</table>
 
 **Korean Tip!**
 'Ir'는 말하는 사람에게서 멀어지는 방향으로 가다, 'Venir'는 말하는 사람 쪽으로 오는 방향일 때 씁니다. 만약 친구가 "우리 집에 올래?"라고 물을 때 "응, 갈게!"라고 답하려면 (내가 친구 쪽으로 가는 것이므로) "Sí, **voy**"라고 답하는 것이 자연스럽습니다.
@@ -99,13 +118,22 @@ El arte también está en el ADN de España. El Triángulo del Arte en Madrid, c
 
 **A. Choose the correct word (알맞은 단어를 선택하세요)**
 
-| Spanish | Option | Korean |
-| :--- | :--- | :--- |
-| 1. El fútbol | a. 스포츠 | a. (..........) |
-| 2. El cine | b. 음악 | b. (..........) |
-| 3. La música | c. 영화 | c. (..........) |
-| 4. El parque | d. 독서 | d. (..........) |
-| 5. Leer | e. 공원 | e. (..........) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Option</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. El fútbol</td><td style="padding: 10px; border: 1px solid #ddd;">a. 스포츠</td><td style="padding: 10px; border: 1px solid #ddd;">a. (..........)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. El cine</td><td style="padding: 10px; border: 1px solid #ddd;">b. 음악</td><td style="padding: 10px; border: 1px solid #ddd;">b. (..........)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. La música</td><td style="padding: 10px; border: 1px solid #ddd;">c. 영화</td><td style="padding: 10px; border: 1px solid #ddd;">c. (..........)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. El parque</td><td style="padding: 10px; border: 1px solid #ddd;">d. 독서</td><td style="padding: 10px; border: 1px solid #ddd;">d. (..........)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Leer</td><td style="padding: 10px; border: 1px solid #ddd;">e. 공원</td><td style="padding: 10px; border: 1px solid #ddd;">e. (..........)</td></tr>
+  </tbody>
+</table>
 
 **B. 동사 변형 연습 (괄호 안의 주어에 맞게 'ir' 또는 'venir'를 변형하세요)**
 
@@ -152,15 +180,23 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 **Situación:** Mateo y Sara hablan sobre qué hacer el viernes por la tarde.
 **상황:** 마테오와 사라가 금요일 오후에 무엇을 할지 이야기합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Mateo:** Hola Sara, ¿qué vas a hacer el viernes? | **마테오:** 안녕 사라, 금요일에 뭐 할 거니? |
-| **Sara:** No sé. No tengo planes todavía. ¿Por qué? | **사라:** 모르겠어. 아직 계획이 없어. 왜? |
-| **Mateo:** Voy a ir al cine para ver una película nueva. ¿Quieres venir? | **마테오:** 난 새 영화를 보러 영화관에 갈 거야. 같이 갈래? |
-| **Sara:** ¡Me encantaría! ¿A qué hora empieza? | **사라:** 정말 좋아! 몇 시에 시작하는데? |
-| **Mateo:** A las siete. Pero primero vamos a comer algo. | **마테오:** 7시에. 하지만 먼저 무언가 좀 먹자. |
-| **Sara:** Vale. ¿Vamos a la pizzería de la plaza? | **사라:** 좋아. 광장에 있는 피자집으로 갈까? |
-| **Mateo:** Perfecto. Mi amigo Luis también viene. | **마테오:** 완벽해. 내 친구 루이스도 올 거야. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> Hola Sara, ¿qué vas a hacer el viernes?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 안녕 사라, 금요일에 뭘 할 거니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sara:</strong> No sé. No tengo planes todavía. ¿Por qué?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>사라:</strong> 모르겠어. 아직 계획이 없어. 왜?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> Voy a ir al cine para ver una película nueva. ¿Quieres venir?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 난 새 영화를 보러 영화관에 갈 거야. 같이 갈래?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sara:</strong> ¡Me encantaría! ¿A qué hora empieza?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>사라:</strong> 정말 좋아! 몇 시에 시작하는데?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> A las siete. Pero primero vamos a comer algo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 7시에. 하지만 먼저 무언가 좀 먹자.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sara:</strong> Vale. ¿Vamos a la pizzería de la plaza?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>사라:</strong> 좋아. 광장에 있는 피자집으로 갈까?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> Perfecto. Mi amigo Luis también viene.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 완벽해. 내 친구 루이스도 올 거야.</td></tr>
+  </tbody>
+</table>
 
 ---
 

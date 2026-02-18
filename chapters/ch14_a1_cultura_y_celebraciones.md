@@ -21,18 +21,28 @@
 
 ![Festivales](../images/ch14_a1_vocab_festivals.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la fiesta** | **Feast** ✅ | 축제 / 파티 |
-| 2 | **la música** | **Music** ✅ (Perfect Cognate) | 음악 |
-| 3 | **el baile / la danza** | **Dance** ✅ | 춤 |
-| 4 | **la guitarra** | **Guitar** ✅ (Perfect Cognate) | 기타 |
-| 5 | **el traje típico** | — | 전통 의상 |
-| 6 | **la procesión** | **Procession** ✅ | 행렬 / 퍼레이드 |
-| 7 | **el concierto** | **Concert** ✅ | 콘서트 |
-| 8 | **el arte** | **Art** ✅ | 예술 |
-| 9 | **la tradición** | **Tradition** ✅ | 전통 |
-| 10 | **el espectáculo** | **Spectacle** ✅ | 공연 / 쇼 |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la fiesta</strong></td><td><strong>Feast</strong> ✅</td><td>축제 / 파티</td></tr>
+    <tr><td>2</td><td><strong>la música</strong></td><td><strong>Music</strong> ✅ (Perfect Cognate)</td><td>음악</td></tr>
+    <tr><td>3</td><td><strong>el baile / la danza</strong></td><td><strong>Dance</strong> ✅</td><td>춤</td></tr>
+    <tr><td>4</td><td><strong>la guitarra</strong></td><td><strong>Guitar</strong> ✅ (Perfect Cognate)</td><td>기타</td></tr>
+    <tr><td>5</td><td><strong>el traje típico</strong></td><td>—</td><td>전통 의상</td></tr>
+    <tr><td>6</td><td><strong>la procesión</strong></td><td><strong>Procession</strong> ✅</td><td>행렬 / 퍼레이드</td></tr>
+    <tr><td>7</td><td><strong>el concierto</strong></td><td><strong>Concert</strong> ✅</td><td>콘서트</td></tr>
+    <tr><td>8</td><td><strong>el arte</strong></td><td><strong>Art</strong> ✅</td><td>예술</td></tr>
+    <tr><td>9</td><td><strong>la tradición</strong></td><td><strong>Tradition</strong> ✅</td><td>전통</td></tr>
+    <tr><td>10</td><td><strong>el espectáculo</strong></td><td><strong>Spectacle</strong> ✅</td><td>공연 / 쇼</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -60,14 +70,23 @@
 
 ### Conocer (알다, 알게 되다) - 1인칭 불규칙
 사람, 장소, 사물에 대해 경험적으로 알고 있을 때 사용합니다.
-| 인칭 | **Conocer** | 영어 매핑 (to know/be familiar with) |
-| :--- | :--- | :--- |
-| **Yo** | **conozco** | I know |
-| **Tú** | **conoces** | You know |
-| **Él/Ella/Ud.** | **conoce** | He/She/You know |
-| **Nosotros/as** | **conocemos** | We know |
-| **Vosotros/as** | **conocéis** | You all know |
-| **Ellos/Ellas/Uds.** | **conocen** | They/You all know |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Conocer</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to know/be familiar with)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>conozco</strong></td><td>I know</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>conoces</strong></td><td>You know</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>conoce</strong></td><td>He/She/You know</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>conocemos</strong></td><td>We know</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>conocéis</strong></td><td>You all know</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>conocen</strong></td><td>They/You all know</td></tr>
+  </tbody>
+</table>
 
 **Important Rule!**
 사람을 목적어로 받을 때는 동사와 목적어 사이에 전치사 `a`를 씁니다.
@@ -76,7 +95,7 @@
 
 ---
 
-## 5. Culture Viva: Las Tres Grandes Fiestas de España
+## 5. Cultura Viva: Las Tres Grandes Fiestas de España
 스페인을 대표하는 3대 축제는 무엇일까요?
 
 ![Spanish Fiesta](../images/ch14_a1_culture_fiesta.png)
@@ -96,11 +115,19 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 
 **A. Match the festival with the city (축제와 도시를 연결하세요)**
 
-| Festival | City |
-| :--- | :--- |
-| 1. Las Fallas | a. Pamplona |
-| 2. La Feria de Abril | b. Valencia |
-| 3. San Fermín | c. Sevilla |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Festival</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Las Fallas</td><td style="padding: 10px; border: 1px solid #ddd;">a. Pamplona</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. La Feria de Abril</td><td style="padding: 10px; border: 1px solid #ddd;">b. Valencia</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. San Fermín</td><td style="padding: 10px; border: 1px solid #ddd;">c. Sevilla</td></tr>
+  </tbody>
+</table>
 
 **B. Conocer 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)**
 
@@ -147,15 +174,23 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 **Situación:** Ana y Luis hablan de sus gustos musicales y un concierto próximo.
 **상황:** 아나와 루이스가 음악적 취향과 다가올 콘서트에 대해 이야기합니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Ana:** Luis, ¿conoces a este grupo de música? | **아나:** 루이스, 이 음악 그룹 아니? |
-| **Luis:** Sí, los conozco. Tocan música tradicional española con un toque moderno. | **루이스:** 응, 알아. 현대적인 감각을 더한 스페인 전통 음악을 연주하더라고. |
-| **Ana:** Me encanta su arte. Van a dar un concierto mañana. | **아나:** 난 그들의 예술이 너무 좋아. 내일 콘서트를 한대. |
-| **Luis:** ¡Qué bien! ¿Cuánto cuesta el billete? | **루이스:** 멋지다! 표가 얼마야? |
-| **Ana:** Cuesta cincuenta euros. Es un poco caro, ¿no? | **아나:** 50유로야. 조금 비싸지 그치? |
-| **Luis:** Sí, 하지만 el espectáculo es muy bueno. Vamos, ¿quieres? | **루이스:** 응, 하지만 공연이 아주 좋잖아. 가자, 어때? |
-| **Ana:** ¡Vale! Quiero conocer su música en directo. | **아나:** 좋아! 그들의 음악을 라이브로 알고(접하고) 싶어. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Luis, ¿conoces a este grupo de música?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 루이스, 이 음악 그룹 아니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> Sí, los conozco. Tocan música tradicional española con un toque moderno.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 응, 알아. 현대적인 감각을 더한 스페인 전통 음악을 연주하더라고.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Me encanta su arte. Van a dar un concierto mañana.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 난 그들의 예술이 너무 좋아. 내일 콘서트를 한대.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> ¡Qué bien! ¿Cuánto cuesta el billete?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 멋지다! 표가 얼마야?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Cuesta cincuenta euros. Es un poco caro, ¿no?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 50유로야. 조금 비싸지 그치?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> Sí, 하지만 el espectáculo es muy bueno. Vamos, ¿quieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 응, 하지만 공연이 아주 좋잖아. 가자, 어때?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> ¡Vale! Quiero conocer su música en directo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 좋아! 그들의 음악을 라이브로 알고(접하고) 싶어.</td></tr>
+  </tbody>
+</table>
 
 ---
 

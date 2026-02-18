@@ -21,18 +21,28 @@
 
 ![Shopping](../images/ch10_a1_vocab_shopping.png)
 
-| # | Spanish | English Bridge | Korean Tip |
-| :--- | :--- | :--- | :--- |
-| 1 | **la camisa** | — | 셔츠 |
-| 2 | **la camiseta** | — | 티셔츠 |
-| 3 | **los pantalones** | **Pants** ✅ (near cognate) | 바지 |
-| 4 | **el vestido** | **Vest** (related to clothing) | 원피스 / 드레스 |
-| 5 | **la falda** | — | 치마 |
-| 6 | **los zapatos** | — | 구두 / 신발 |
-| 7 | **la chaqueta** | **Jacket** ✅ | 재킷 |
-| 8 | **el bolso** | — | 가방 / 핸드백 |
-| 9 | **pagar** | **Pay** ✅ (near cognate) | 지불하다 / 계산하다 |
-| 10 | **la tarjeta** | **Target / Card** (near) | 카드 (신용카드) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la camisa</strong></td><td>—</td><td>셔츠</td></tr>
+    <tr><td>2</td><td><strong>la camiseta</strong></td><td>—</td><td>티셔츠</td></tr>
+    <tr><td>3</td><td><strong>los pantalones</strong></td><td><strong>Pants</strong> ✅ (near cognate)</td><td>바지</td></tr>
+    <tr><td>4</td><td><strong>el vestido</strong></td><td><strong>Vest</strong> (related to clothing)</td><td>원피스 / 드레스</td></tr>
+    <tr><td>5</td><td><strong>la falda</strong></td><td>—</td><td>치마</td></tr>
+    <tr><td>6</td><td><strong>los zapatos</strong></td><td>—</td><td>구두 / 신발</td></tr>
+    <tr><td>7</td><td><strong>la chaqueta</strong></td><td><strong>Jacket</strong> ✅</td><td>재킷</td></tr>
+    <tr><td>8</td><td><strong>el bolso</strong></td><td>—</td><td>가방 / 핸드백</td></tr>
+    <tr><td>9</td><td><strong>pagar</strong></td><td><strong>Pay</strong> ✅ (near cognate)</td><td>지불하다 / 계산하다</td></tr>
+    <tr><td>10</td><td><strong>la tarjeta</strong></td><td><strong>Target / Card</strong> (near)</td><td>카드 (신용카드)</td></tr>
+  </tbody>
+</table>
 
 ✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.
 
@@ -61,11 +71,22 @@
 
 ### A. 지시사 (Este, Ese, Aquel)
 쇼핑할 때 "이것", "저것"을 가리키는 것은 필수입니다.
-| 거리 | 남성 단수 | 여성 단수 | 남성 복수 | 여성 복수 |
-| :--- | :--- | :--- | :--- | :--- |
-| **가까움** (this) | **este** | **esta** | **estos** | **estas** |
-| **중간** (that) | **ese** | **esa** | **esos** | **esas** |
-| **멂** (that over there) | **aquel** | **aquella** | **aquellos** | **aquellas** |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">거리</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">남성 단수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">여성 단수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">남성 복수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">여성 복수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>가까움</strong> (this)</td><td><strong>este</strong></td><td><strong>esta</strong></td><td><strong>estos</strong></td><td><strong>estas</strong></td></tr>
+    <tr><td><strong>중간</strong> (that)</td><td><strong>ese</strong></td><td><strong>esa</strong></td><td><strong>esos</strong></td><td><strong>esas</strong></td></tr>
+    <tr><td><strong>멂</strong> (that over there)</td><td><strong>aquel</strong></td><td><strong>aquella</strong></td><td><strong>aquellos</strong></td><td><strong>aquellas</strong></td></tr>
+  </tbody>
+</table>
 
 **Korean Tip!**
 스페인어는 명사의 성(gender)에 따라 지시사도 변한다는 점을 꼭 기억하세요! "이 셔츠(la camisa)"는 "**esta** camisa"가 됩니다.
@@ -97,13 +118,21 @@ Aunque los grandes centros comerciales son populares, a los españoles les encan
 
 **A. Match the item with its category (물건과 카테고리를 연결하세요)**
 
-| 좌측 (물건) | 우측 (카테고리) |
-| :--- | :--- |
-| 1. Camisa | a. Calzado (신발류) |
-| 2. Pantalones | b. Parte superior (상의) |
-| 3. Zapatos | c. Accesorios (액세서리) |
-| 4. Bolso | d. Parte inferior (하의) |
-| 5. Vestido | e. Cuerpo entero (전신) |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">좌측 (물건)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">우측 (카테고리)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Camisa</td><td style="padding: 10px; border: 1px solid #ddd;">a. Calzado (신발류)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Pantalones</td><td style="padding: 10px; border: 1px solid #ddd;">b. Parte superior (상의)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Zapatos</td><td style="padding: 10px; border: 1px solid #ddd;">c. Accesorios (액세서리)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. Bolso</td><td style="padding: 10px; border: 1px solid #ddd;">d. Parte inferior (하의)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Vestido</td><td style="padding: 10px; border: 1px solid #ddd;">e. Cuerpo entero (전신)</td></tr>
+  </tbody>
+</table>
 
 **B. 지시사 연습 (괄호 안의 위치에 맞는 지시사를 넣으세요)**
 
@@ -150,16 +179,24 @@ El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos lo
 **Situación:** Un cliente busca algo para una fiesta y el dependiente le ayuda.
 **상황:** 손님이 파티를 위한 옷을 찾고 있고 점원이 도와줍니다.
 
-| Spanish | Korean |
-| :--- | :--- |
-| **Dependiente:** ¡Hola! ¿Puedo ayudarte? | **점원:** 안녕하세요! 도와드릴까요? |
-| **Cliente:** Hola. Sí, busco un pantalón para una fiesta. | **손님:** 안녕하세요. 네, 파티 때 입을 바지를 찾고 있어요. |
-| **Dependiente:** Tenemos estos negros y esos azules. ¿Cuál prefieres? | **점원:** 여기 이 검은색들과 저기 저 파란색들이 있어요. 어떤 걸 선호하시나요? |
-| **Cliente:** Prefiero los negros. ¿Tienen la talla 40? | **손님:** 검은색이 좋겠네요. 40 사이즈 있나요? |
-| **Dependiente:** Sí, aquí tienes. ¿Quieres probártelos? | **점원:** 네, 여기 있습니다. 입어보시겠어요? |
-| **Cliente:** Sí, gracias. (...) Me quedan bien. ¿Cuánto cuestan? | **손님:** 네, 감사합니다. (...) 잘 맞네요. 얼마인가요? |
-| **Dependiente:** Cincuenta euros. Están en rebaja. | **점원:** 50유로입니다. 세일 중이에요. |
-| **Cliente:** Perfecto. Los llevo. | **손님:** 좋네요. 이걸로 살게요. |
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> ¡Hola! ¿Puedo ayudarte?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 안녕하세요! 도와드릴까요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Hola. Sí, busco un pantalón para una fiesta.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 안녕하세요. 네, 파티 때 입을 바지를 찾고 있어요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> Tenemos estos negros y esos azules. ¿Cuál prefieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 여기 이 검은색들과 저기 저 파란색들이 있어요. 어떤 걸 선호하시나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Prefiero los negros. ¿Tienen la talla 40?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 검은색이 좋겠네요. 40 사이즈 있나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> Sí, aquí tienes. ¿Quieres probártelos?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 네, 여기 있습니다. 입어보시겠어요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Sí, gracias. (...) Me quedan bien. ¿Cuánto cuestan?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 네, 감사합니다. (...) 잘 맞네요. 얼마인가요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> Cincuenta euros. Están en rebaja.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 50유로입니다. 세일 중이에요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Perfecto. Los llevo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 좋네요. 이걸로 살게요.</td></tr>
+  </tbody>
+</table>
 
 ---
 

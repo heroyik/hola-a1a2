@@ -97,6 +97,28 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
   </tbody>
 </table>
 
+#### 필수 불규칙 동사 (Mandatory Irregular Verbs - Presente)
+A2 단계에서 반드시 마스터해야 하는 현재 시제 불규칙 동사입니다. (Presente: ser, estar, ir, tener, saber, poder)
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">tener (to have)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">saber (to know)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">poder (to be able to)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>yo</td><td>t<strong>engo</strong></td><td>s<strong>é</strong></td><td>p<strong>uedo</strong></td></tr>
+    <tr><td>tú</td><td>t<strong>ienes</strong></td><td>s<strong>abes</strong></td><td>p<strong>uedes</strong></td></tr>
+    <tr><td>él/ella/ud.</td><td>t<strong>iene</strong></td><td>s<strong>abe</strong></td><td>p<strong>uede</strong></td></tr>
+    <tr><td>nosotros/as</td><td>ten<strong>emos</strong></td><td>sab<strong>emos</strong></td><td>pod<strong>emos</strong></td></tr>
+    <tr><td>vosotros/as</td><td>ten<strong>éis</strong></td><td>sab<strong>éis</strong></td><td>pod<strong>éis</strong></td></tr>
+    <tr><td>ellos/ellas/uds.</td><td>t<strong>ienen</strong></td><td>s<strong>aben</strong></td><td>p<strong>ueden</strong></td></tr>
+  </tbody>
+</table>
+
 #### 필수 불규칙 현재분사 (Mandatory Irregular Gerunds - Presente Continuo)
 다음 동사들은 Gerundio 형태가 불규칙하므로 주의해야 합니다. 특히 모음 변화가 일어나는 경우(e→i, o→u)와 y가 삽입되는 경우를 잘 봐두세요. (Estar, Ir, Leer, Repetir, Decir, Venir, Dormir, Morir)
 
@@ -210,8 +232,8 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
     </tr>
   </thead>
   <tbody>

@@ -18,20 +18,92 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 
 ![건강 및 의료 심화 일러스트 (Modern Anime Style)](../images/ch01_a2_vocab_health_v55.png)
 
-| 번호 | Spanish | English Bridge | Korean Tip |
-|:---:|:---|:---|:---|
-| 1 | el corazón | Cordial (→ heart-related) ✅ | 심장입니다. |
-| 2 | los pulmones | Pulmonary ✅ | 폐입니다. |
-| 3 | la espalda | — | 등, 허리입니다. |
-| 4 | la garganta | — | 목구멍, 인후입니다. |
-| 5 | el síntoma | Symptom ✅ | 증상입니다. |
-| 6 | la gripe | Grippe (archaic English for flu) | 독감입니다. |
-| 7 | la fiebre | Fever ✅ | 열입니다. |
-| 8 | la receta | Recipe ✅ (→ prescription/formula) | 처방전입니다. |
-| 9 | la pastilla | Pastille (→ lozenge/pill) | 알약입니다. |
-| 10 | el jarabe | — | 시럽(시럽 형태의 약)입니다. |
-| 11 | la farmacia | Pharmacy ✅ | 약국입니다. |
-| 12 | la cita médica | — | 병원 예약입니다. |
+<div class="table-container">
+<table class="standard-table">
+  <thead>
+    <tr>
+      <th>번호</th>
+      <th>Spanish</th>
+      <th>English Bridge</th>
+      <th>Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>el corazón</td>
+      <td>Cordial (→ heart-related) ✅</td>
+      <td>심장입니다.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>los pulmones</td>
+      <td>Pulmonary ✅</td>
+      <td>폐입니다.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>la espalda</td>
+      <td>—</td>
+      <td>등, 허리입니다.</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>la garganta</td>
+      <td>—</td>
+      <td>목구멍, 인후입니다.</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>el síntoma</td>
+      <td>Symptom ✅</td>
+      <td>증상입니다.</td>
+    </tr>
+    <tr>
+      <td>6</td>
+      <td>la gripe</td>
+      <td>Grippe (archaic English for flu)</td>
+      <td>독감입니다.</td>
+    </tr>
+    <tr>
+      <td>7</td>
+      <td>la fiebre</td>
+      <td>Fever ✅</td>
+      <td>열입니다.</td>
+    </tr>
+    <tr>
+      <td>8</td>
+      <td>la receta</td>
+      <td>Recipe ✅ (→ prescription/formula)</td>
+      <td>처방전입니다.</td>
+    </tr>
+    <tr>
+      <td>9</td>
+      <td>la pastilla</td>
+      <td>Pastille (→ lozenge/pill)</td>
+      <td>알약입니다.</td>
+    </tr>
+    <tr>
+      <td>10</td>
+      <td>el jarabe</td>
+      <td>—</td>
+      <td>시럽(시럽 형태의 약)입니다.</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>la farmacia</td>
+      <td>Pharmacy ✅</td>
+      <td>약국입니다.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>la cita médica</td>
+      <td>—</td>
+      <td>병원 예약입니다.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 ✅ **범례**: ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.
 
@@ -60,19 +132,73 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 ### A. 기본 구조
 **[간접 목적 대명사] + duele/duelen + [아픈 신체 부위]**
 
-| 간접 목적 대명사 | 설명 |
-|:---|:---|
-| **me** | 나에게 (내 ~가 아프다) |
-| **te** | 너에게 |
-| **le** | 그/그녀/당신에게 |
-| **nos** | 우리에게 |
-| **os** | 너희에게 |
-| **les** | 그들/그녀들/당신들에게 |
+<div class="table-container">
+<table class="standard-table">
+  <thead>
+    <tr>
+      <th>간접 목적 대명사</th>
+      <th>설명</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>me</strong></td>
+      <td>나에게 (내 ~가 아프다)</td>
+    </tr>
+    <tr>
+      <td><strong>te</strong></td>
+      <td>너에게</td>
+    </tr>
+    <tr>
+      <td><strong>le</strong></td>
+      <td>그/그녀/당신에게</td>
+    </tr>
+    <tr>
+      <td><strong>nos</strong></td>
+      <td>우리에게</td>
+    </tr>
+    <tr>
+      <td><strong>os</strong></td>
+      <td>너희에게</td>
+    </tr>
+    <tr>
+      <td><strong>les</strong></td>
+      <td>그들/그녀들/당신들에게</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
-### B. 주의사항
-1. **변화**: 아픈 부위가 단수이면 *duele*, 복수이면 *duelen*을 사용합니다.
-   - *Me duele la cabeza.* (My head hurts. / 머리가 아파요.)
-   - *Me duelen los ojos.* (My eyes hurt. / 눈이 아파요.)
+### B. 단수/복수 일치 (Conjugación)
+
+`doler`는 '아픈 신체 부위'의 수에 따라 다음과 같이 두 가지만 사용합니다.
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어 (아픈 부위)</th>
+      <th>동사 변화</th>
+      <th>예시</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>단수 (la cabeza, el pie)</td>
+      <td>du<strong>ele</strong></td>
+      <td>Me du<strong>ele</strong> la cabeza.</td>
+    </tr>
+    <tr>
+      <td>복수 (los ojos, las manos)</td>
+      <td>du<strong>elen</strong></td>
+      <td>Me du<strong>elen</strong> los ojos.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### C. 주의사항
+1. **변화**: 아픈 부위가 단수이면 *duele*, 복수이면 *duelen*을 사용합니다. 과감히 소유 대명사를 생략하고 정관사를 사용하는 스페인어의 특징에 주목하세요.
 2. **관사**: 스페인어에서는 신체 부위에 소유 형용사(mi, tu...) 대신 정관사(el, la...)를 주로 사용합니다. (이미 대명사 me, te 등으로 주체를 알 수 있기 때문입니다.)
 
 **Korean Tip!**

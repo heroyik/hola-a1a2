@@ -1,46 +1,25 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch10_a1_de_compras.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
 
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
-
 :root {
     --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
     --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
     --spanish-olive: #1D8348;
     --slate-grey: #2C3E50;
     --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
     --text-main: #34495E;
     --text-light: #7F8C8D;
     --border-color: #E5E7E9;
-}
-
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
 body {
@@ -48,413 +27,267 @@ body {
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
-    background-color: white;
-    -webkit-font-smoothing: antialiased;
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 32pt;
+    font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 30pt 0 10pt 0;
-    padding-bottom: 20pt;
-    border-bottom: 4pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -0.5pt;
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
-    font-size: 18pt;
+    font-size: 19pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 30pt 0 12pt 0;
-    padding-bottom: 5pt;
-    border-bottom: 1px solid var(--border-color);
-    display: flex;
-    align-items: center;
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
 }
 
 h2::before {
-    content: "●";
-    color: var(--spanish-ochre);
-    margin-right: 10pt;
-    font-size: 14pt;
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 13pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 20pt 0 8pt 0;
-    background-color: var(--bg-warm);
-    padding: 5pt 10pt;
-    border-radius: 4pt;
-    border-left: 3pt solid var(--spanish-olive);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 15pt 0 5pt 0;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
-    background: var(--bg-warm);
-    border-left: 4pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-    font-style: italic;
-    color: var(--slate-grey);
-}
-
-/* ─── TABLES ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 15pt 0 20pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 8pt;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.02);
-    page-break-inside: avoid;
-    display: table; /* Ensure block-level behavior for break avoidance */
-}
-
-thead {
-    background-color: var(--spanish-red);
-    color: white;
-}
-
-th {
-    padding: 10pt 12pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1pt;
-    font-size: 8pt;
-}
-
-td {
-    padding: 8pt 12pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FAFAFA;
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 4pt 12pt 4pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 5pt;
-    margin-bottom: 15pt;
-    text-align: left;
-}
-
-em {
-    font-style: italic;
-    color: var(--text-light);
-    font-size: inherit; /* Ensure inline em doesn't shrink by default */
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 5pt solid #3498DB;
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-important {
-    background: #FEF9E7;
-    border-left: 5pt solid var(--spanish-ochre);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-.admonition-warning {
-    background: #FDEDEC;
+    background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 12pt 16pt;
-    margin: 15pt 0;
-    border-radius: 8pt;
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 12pt;
+    padding: 15pt 20pt;
     margin: 20pt 0;
-    display: block;
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
 }
 
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--border-color);
-    margin: 30pt 100pt;
-    opacity: 0.3;
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 10pt 0 15pt 25pt;
-}
-
-li {
-    margin-bottom: 5pt;
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    border-bottom: 1px dashed var(--spanish-red);
-}
-p {
-    margin: 6pt 0 10pt 0;
-}
-
-/* ─── EMOJI SIZING ─── */
-p, td, li {
-    line-height: 1.8;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-ochre);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 30pt 50pt;
-    background-color: white;
-}
-
-.cervantes-ref {
-    font-size: 10.5pt;
-    color: var(--text-main);
-    margin: 10pt 0 20pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-}
-
-@media print {
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-10-de-compras-a1">Chapter 10: De compras (A1)</h1>
+    <div class="container"><h1>Chapter 10: De compras (A1)</h1>
 <p class="cervantes-ref">Cervantes: §12 쇼핑, 상점 및 시설 기초</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>¿Vamos de compras? (쇼핑하러 갈까요?)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>¿Vamos de compras? (쇼핑하러 갈까요?)</strong><br>
 새로운 옷을 사거나 일상에 필요한 물건을 고르는 쇼핑은 일상의 큰 즐거움 중 하나입니다. 이번 장에서는 스페인어로 다양한 의류 명칭과 쇼핑할 때 꼭 필요한 표현들을 배웁니다. 대형 쇼핑몰부터 정겨운 전통 시장까지, 스페인의 다양한 쇼핑 문화를 경험해 보세요. 특히 가격을 묻고 답하거나, 원하는 물건을 찾는 실전 대화를 통해 여행 중에도 당당하게 쇼핑할 수 있는 자신감을 길러봅시다.</p>
-<p><strong>학습 목표</strong><br />
-- 의류, 액세서리 및 쇼핑 관련 어휘 15개 이상 습득<br />
-- '어떤 물건을 찾다(buscar)', '입어보다(probarse)' 등 쇼핑 동사 활용<br />
-- 가격 묻기 및 숫자(100 이상) 표현 복습<br />
-- 스페인의 전통 시장 문화와 흥정(regateo) 에티켓 이해</p>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<p><strong>학습 목표</strong></p>
+<ul>
+<li>의류, 액세서리 및 쇼핑 관련 어휘 15개 이상 습득</li>
+<li>'어떤 물건을 찾다(buscar)', '입어보다(probarse)' 등 쇼핑 동사 활용</li>
+<li>가격 묻기 및 숫자(100 이상) 표현 복습</li>
+<li>스페인의 전통 시장 문화와 흥정(regateo) 에티켓 이해</li>
+</ul>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인은 자라(ZARA), 망고(MANGO) 등 세계적인 패션 브랜드의 본고장입니다. 스페인어로 'Rebajas'는 '세일'이라는 뜻인데, 주로 1월과 7월에 대규모 세일을 진행합니다. 이때 거리를 걷다 보면 상점마다 붙어 있는 'Rebajas' 문구를 아주 많이 보게 될 거예요!</div>
-<hr />
-<h2 id="2-vocabulario-esencial-ropa-y-compras">2. Vocabulario Esencial: Ropa y Compras</h2>
+<hr>
+<h2>2. Vocabulario Esencial: Ropa y Compras</h2>
 <p>세련된 스페인 패션과 쇼핑 현장입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
-<p><img alt="Shopping" src="../images/ch10_a1_vocab_shopping.png" /></p>
+<p><img src="../images/ch10_a1_vocab_shopping.png" alt="Shopping"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">#</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:left">#</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1</td>
-<td style="text-align: left;"><strong>la camisa</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">셔츠</td>
+<td style="text-align:left">1</td>
+<td style="text-align:left"><strong>la camisa</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">셔츠</td>
 </tr>
 <tr>
-<td style="text-align: left;">2</td>
-<td style="text-align: left;"><strong>la camiseta</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">티셔츠</td>
+<td style="text-align:left">2</td>
+<td style="text-align:left"><strong>la camiseta</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">티셔츠</td>
 </tr>
 <tr>
-<td style="text-align: left;">3</td>
-<td style="text-align: left;"><strong>los pantalones</strong></td>
-<td style="text-align: left;"><strong>Pants</strong> ✅ (near cognate)</td>
-<td style="text-align: left;">바지</td>
+<td style="text-align:left">3</td>
+<td style="text-align:left"><strong>los pantalones</strong></td>
+<td style="text-align:left"><strong>Pants</strong> ✅ (near cognate)</td>
+<td style="text-align:left">바지</td>
 </tr>
 <tr>
-<td style="text-align: left;">4</td>
-<td style="text-align: left;"><strong>el vestido</strong></td>
-<td style="text-align: left;"><strong>Vest</strong> (related to clothing)</td>
-<td style="text-align: left;">원피스 / 드레스</td>
+<td style="text-align:left">4</td>
+<td style="text-align:left"><strong>el vestido</strong></td>
+<td style="text-align:left"><strong>Vest</strong> (related to clothing)</td>
+<td style="text-align:left">원피스 / 드레스</td>
 </tr>
 <tr>
-<td style="text-align: left;">5</td>
-<td style="text-align: left;"><strong>la falda</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">치마</td>
+<td style="text-align:left">5</td>
+<td style="text-align:left"><strong>la falda</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">치마</td>
 </tr>
 <tr>
-<td style="text-align: left;">6</td>
-<td style="text-align: left;"><strong>los zapatos</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">구두 / 신발</td>
+<td style="text-align:left">6</td>
+<td style="text-align:left"><strong>los zapatos</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">구두 / 신발</td>
 </tr>
 <tr>
-<td style="text-align: left;">7</td>
-<td style="text-align: left;"><strong>la chaqueta</strong></td>
-<td style="text-align: left;"><strong>Jacket</strong> ✅</td>
-<td style="text-align: left;">재킷</td>
+<td style="text-align:left">7</td>
+<td style="text-align:left"><strong>la chaqueta</strong></td>
+<td style="text-align:left"><strong>Jacket</strong> ✅</td>
+<td style="text-align:left">재킷</td>
 </tr>
 <tr>
-<td style="text-align: left;">8</td>
-<td style="text-align: left;"><strong>el bolso</strong></td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">가방 / 핸드백</td>
+<td style="text-align:left">8</td>
+<td style="text-align:left"><strong>el bolso</strong></td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">가방 / 핸드백</td>
 </tr>
 <tr>
-<td style="text-align: left;">9</td>
-<td style="text-align: left;"><strong>pagar</strong></td>
-<td style="text-align: left;"><strong>Pay</strong> ✅ (near cognate)</td>
-<td style="text-align: left;">지불하다 / 계산하다</td>
+<td style="text-align:left">9</td>
+<td style="text-align:left"><strong>pagar</strong></td>
+<td style="text-align:left"><strong>Pay</strong> ✅ (near cognate)</td>
+<td style="text-align:left">지불하다 / 계산하다</td>
 </tr>
 <tr>
-<td style="text-align: left;">10</td>
-<td style="text-align: left;"><strong>la tarjeta</strong></td>
-<td style="text-align: left;"><strong>Target / Card</strong> (near)</td>
-<td style="text-align: left;">카드 (신용카드)</td>
+<td style="text-align:left">10</td>
+<td style="text-align:left"><strong>la tarjeta</strong></td>
+<td style="text-align:left"><strong>Target / Card</strong> (near)</td>
+<td style="text-align:left">카드 (신용카드)</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>상점에서 물건을 사고팔 때 가장 많이 사용하는 핵심 패턴입니다.</p>
-<p><strong>A. 물건 찾기 및 도움 요청</strong><br />
-- <strong>¿Puedo ayudarte?</strong> (Can I help you? / 도와드릴까요?)<br />
-- <strong>Busco una camisa blanca.</strong> (I am looking for a white shirt. / 흰색 셔츠를 찾고 있어요.)<br />
-- <strong>¿Tienen la talla M?</strong> (Do you have size M? / M 사이즈 있나요?)<br />
-- <strong>Quiero ver ese bolso.</strong> (I want to see that bag. / 저 가방을 보고 싶어요.)</p>
-<p><strong>B. 가격 및 계산</strong><br />
-- <strong>¿Cuánto cuesta?</strong> (How much does it cost? / 얼마인가요?)<br />
-- <strong>¿Cuánto valen estos zapatos?</strong> (How much are these shoes? / 이 구두 얼마예요?)<br />
-- <strong>Es muy barato.</strong> (It is very cheap. / 아주 저렴하네요.)<br />
-- <strong>Es demasiado caro.</strong> (It is too expensive. / 너무 비싸요.)<br />
-- <strong>Voy a pagar en efectivo.</strong> (I'm going to pay in cash. / 현금으로 계산할게요.)</p>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<p><strong>A. 물건 찾기 및 도움 요청</strong></p>
+<ul>
+<li><strong>¿Puedo ayudarte?</strong> (Can I help you? / 도와드릴까요?)</li>
+<li><strong>Busco una camisa blanca.</strong> (I am looking for a white shirt. / 흰색 셔츠를 찾고 있어요.)</li>
+<li><strong>¿Tienen la talla M?</strong> (Do you have size M? / M 사이즈 있나요?)</li>
+<li><strong>Quiero ver ese bolso.</strong> (I want to see that bag. / 저 가방을 보고 싶어요.)</li>
+</ul>
+<p><strong>B. 가격 및 계산</strong></p>
+<ul>
+<li><strong>¿Cuánto cuesta?</strong> (How much does it cost? / 얼마인가요?)</li>
+<li><strong>¿Cuánto valen estos zapatos?</strong> (How much are these shoes? / 이 구두 얼마예요?)</li>
+<li><strong>Es muy barato.</strong> (It is very cheap. / 아주 저렴하네요.)</li>
+<li><strong>Es demasiado caro.</strong> (It is too expensive. / 너무 비싸요.)</li>
+<li><strong>Voy a pagar en efectivo.</strong> (I'm going to pay in cash. / 현금으로 계산할게요.)</li>
+</ul>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>쇼핑할 때 유용한 지시사와 의복 관련 동사의 특징을 알아봅시다.</p>
-<h3 id="a-este-ese-aquel">A. 지시사 (Este, Ese, Aquel)</h3>
-<p>쇼핑할 때 "이것", "저것"을 가리키는 것은 필수입니다.<br />
-| 거리 | 남성 단수 | 여성 단수 | 남성 복수 | 여성 복수 |<br />
-| :--- | :--- | :--- | :--- | :--- |<br />
-| <strong>가까움</strong> (this) | <strong>este</strong> | <strong>esta</strong> | <strong>estos</strong> | <strong>estas</strong> |<br />
-| <strong>중간</strong> (that) | <strong>ese</strong> | <strong>esa</strong> | <strong>esos</strong> | <strong>esas</strong> |<br />
-| <strong>멂</strong> (that over there) | <strong>aquel</strong> | <strong>aquella</strong> | <strong>aquellos</strong> | <strong>aquellas</strong> |</p>
-<p><strong>Korean Tip!</strong><br />
-스페인어는 명사의 성(gender)에 따라 지시사도 변한다는 점을 꼭 기억하세요! "이 셔츠(la camisa)"는 "<strong>esta</strong> camisa"가 됩니다.</p>
-<h3 id="b-llevar">B. Llevar (입고 있다 / 가지고 가다)</h3>
-<p>'Llevar'는 옷을 입고 있는 상태를 나타낼 때 가장 많이 쓰입니다.<br />
-- <strong>Hoy llevo una camiseta roja.</strong> (나는 오늘 빨간 티셔츠를 입고 있다.)<br />
-- <strong>¿Qué llevas puesto?</strong> (너 뭐 입고 있니?)</p>
-<hr />
-<h2 id="5-cultura-viva-mercados-y-vida-social">5. Cultura Viva: Mercados y Vida Social</h2>
-<p>스페인의 활기찬 시장 문화를 경험해 보세요.</p>
-<p><img alt="Spanish Market" src="../images/ch10_a1_culture_market.png" /></p>
-<p>Los mercados tradicionales en España son el corazón de la vida social. No son solo lugares para comprar comida fresca como jamón, aceitunas o queso; son puntos de encuentro para amigos. El <strong>Mercado de San Miguel</strong> en Madrid o <strong>La Boquería</strong> en Barcelona son famosos en todo el mundo por su arquitectura y su ambiente vibrante.</p>
-<p>Aunque los grandes centros comerciales son populares, a los españoles les encanta ir a las tiendas locales y a los mercados al aire libre (mercadillos). En estos lugares, a veces es posible practicar el <strong>regateo</strong> (흥정), especialmente en objetos de artesanía o antigüedades. ¡Es una experiencia llena de color, sabor y mucha conversación!</p>
-<p><strong>[한국어 번역]</strong><br />
-스페인의 전통 시장은 사회 생활의 중심입니다. 이곳은 하몬, 올리브, 치즈 같은 신선한 음식을 사는 곳일 뿐만 아니라, 친구들을 만나는 장소이기도 합니다. 마드리드의 <strong>산 미겔 시장</strong>이나 바르셀로나의 <strong>라 보케리아</strong>는 그 건축 양식과 활기찬 분위기로 전 세계적으로 유명합니다.</p>
-<p>대형 쇼핑몰도 인기가 많지만, 스페인 사람들은 동네 상점이나 노천 시장(mercadillos)에 가는 것을 아주 좋아합니다. 이런 곳에서는 때때로 수공예품이나 골동품을 살 때 <strong>흥정(regateo)</strong>을 해볼 수도 있습니다. 색감과 맛, 그리고 풍부한 대화로 가득 찬 경험이 될 것입니다!</p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<p><strong>A. Match the item with its category (물건과 카테고리를 연결하세요)</strong></p>
+<h3>A. 지시사 (Este, Ese, Aquel)</h3>
+<p>쇼핑할 때 &quot;이것&quot;, &quot;저것&quot;을 가리키는 것은 필수입니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">좌측 (물건)</th>
-<th style="text-align: left;">우측 (카테고리)</th>
+<th style="text-align:left">거리</th>
+<th style="text-align:left">남성 단수</th>
+<th style="text-align:left">여성 단수</th>
+<th style="text-align:left">남성 복수</th>
+<th style="text-align:left">여성 복수</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. Camisa</td>
-<td style="text-align: left;">a. Calzado (신발류)</td>
+<td style="text-align:left"><strong>가까움</strong> (this)</td>
+<td style="text-align:left"><strong>este</strong></td>
+<td style="text-align:left"><strong>esta</strong></td>
+<td style="text-align:left"><strong>estos</strong></td>
+<td style="text-align:left"><strong>estas</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;">2. Pantalones</td>
-<td style="text-align: left;">b. Parte superior (상의)</td>
+<td style="text-align:left"><strong>중간</strong> (that)</td>
+<td style="text-align:left"><strong>ese</strong></td>
+<td style="text-align:left"><strong>esa</strong></td>
+<td style="text-align:left"><strong>esos</strong></td>
+<td style="text-align:left"><strong>esas</strong></td>
 </tr>
 <tr>
-<td style="text-align: left;">3. Zapatos</td>
-<td style="text-align: left;">c. Accesorios (액세서리)</td>
+<td style="text-align:left"><strong>멂</strong> (that over there)</td>
+<td style="text-align:left"><strong>aquel</strong></td>
+<td style="text-align:left"><strong>aquella</strong></td>
+<td style="text-align:left"><strong>aquellos</strong></td>
+<td style="text-align:left"><strong>aquellas</strong></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Korean Tip!</strong><br>
+스페인어는 명사의 성(gender)에 따라 지시사도 변한다는 점을 꼭 기억하세요! &quot;이 셔츠(la camisa)&quot;는 &quot;<strong>esta</strong> camisa&quot;가 됩니다.</p>
+<h3>B. Llevar (입고 있다 / 가지고 가다)</h3>
+<p>'Llevar'는 옷을 입고 있는 상태를 나타낼 때 가장 많이 쓰입니다.</p>
+<ul>
+<li><strong>Hoy llevo una camiseta roja.</strong> (나는 오늘 빨간 티셔츠를 입고 있다.)</li>
+<li><strong>¿Qué llevas puesto?</strong> (너 뭐 입고 있니?)</li>
+</ul>
+<hr>
+<h2>5. Cultura Viva: Mercados y Vida Social</h2>
+<p>스페인의 활기찬 시장 문화를 경험해 보세요.</p>
+<p><img src="../images/ch10_a1_culture_market.png" alt="Spanish Market"></p>
+<p>Los mercados tradicionales en España son el corazón de la vida social. No son solo lugares para comprar comida fresca como jamón, aceitunas o queso; son puntos de encuentro para amigos. El <strong>Mercado de San Miguel</strong> en Madrid o <strong>La Boquería</strong> en Barcelona son famosos en todo el mundo por su arquitectura y su ambiente vibrante.</p>
+<p>Aunque los grandes centros comerciales son populares, a los españoles les encanta ir a las tiendas locales y a los mercados al aire libre (mercadillos). En estos lugares, a veces es posible practicar el <strong>regateo</strong> (흥정), especialmente en objetos de artesanía o antigüedades. ¡Es una experiencia llena de color, sabor y mucha conversación!</p>
+<p><strong>[한국어 번역]</strong><br>
+스페인의 전통 시장은 사회 생활의 중심입니다. 이곳은 하몬, 올리브, 치즈 같은 신선한 음식을 사는 곳일 뿐만 아니라, 친구들을 만나는 장소이기도 합니다. 마드리드의 <strong>산 미겔 시장</strong>이나 바르셀로나의 <strong>라 보케리아</strong>는 그 건축 양식과 활기찬 분위기로 전 세계적으로 유명합니다.</p>
+<p>대형 쇼핑몰도 인기가 많지만, 스페인 사람들은 동네 상점이나 노천 시장(mercadillos)에 가는 것을 아주 좋아합니다. 이런 곳에서는 때때로 수공예품이나 골동품을 살 때 **흥정(regateo)**을 해볼 수도 있습니다. 색감과 맛, 그리고 풍부한 대화로 가득 찬 경험이 될 것입니다!</p>
+<hr>
+<h2>6. Práctica</h2>
+<p><strong>A. Match the item with its category (물건과 카테고리를 연결하세요)</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">좌측 (물건)</th>
+<th style="text-align:left">우측 (카테고리)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">1. Camisa</td>
+<td style="text-align:left">a. Calzado (신발류)</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. Bolso</td>
-<td style="text-align: left;">d. Parte inferior (하의)</td>
+<td style="text-align:left">2. Pantalones</td>
+<td style="text-align:left">b. Parte superior (상의)</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. Vestido</td>
-<td style="text-align: left;">e. Cuerpo entero (전신)</td>
+<td style="text-align:left">3. Zapatos</td>
+<td style="text-align:left">c. Accesorios (액세서리)</td>
+</tr>
+<tr>
+<td style="text-align:left">4. Bolso</td>
+<td style="text-align:left">d. Parte inferior (하의)</td>
+</tr>
+<tr>
+<td style="text-align:left">5. Vestido</td>
+<td style="text-align:left">e. Cuerpo entero (전신)</td>
 </tr>
 </tbody>
 </table>
@@ -468,100 +301,116 @@ h3:has(+ ol) {
 </ol>
 <p><strong>C. 번역 연습 (쇼핑 표현을 활용해 문장을 완성하세요)</strong></p>
 <ol>
-<li>이 티셔츠는 얼마인가요?<br />
-   (............................................................)</li>
-<li>나는 청바지를 찾고 있습니다. (unos vaqueros)<br />
-   (............................................................)</li>
-<li>카드로 계산할 수 있나요? (¿Puedo pagar con...?)<br />
-   (............................................................)</li>
-<li>저 파란색 원피스는 너무 비싸요.<br />
-   (............................................................)</li>
-<li>저는 오늘 재킷을 입고 있어요.<br />
-   (............................................................)</li>
+<li>이 티셔츠는 얼마인가요?<br>
+(............................................................)</li>
+<li>나는 청바지를 찾고 있습니다. (unos vaqueros)<br>
+(............................................................)</li>
+<li>카드로 계산할 수 있나요? (¿Puedo pagar con...?)<br>
+(............................................................)</li>
+<li>저 파란색 원피스는 너무 비싸요.<br>
+(............................................................)</li>
+<li>저는 오늘 재킷을 입고 있어요.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
+<hr>
+<h2>7. Lectura 📖</h2>
 <p><strong>Un día en el Rastro (엘 라스트로에서의 하루)</strong></p>
-<p>El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos los domingos por la mañana. Hoy voy al Rastro con mi amiga Elena. Hay mucha gente y muchas cosas bonitas. Elena busca una chaqueta de cuero (가죽 재킷) y yo busco unos zapatos cómodos. En una tienda pequeña, vemos una chaqueta perfecta. Elena pregunta: "¿Cuánto cuesta esta chaqueta?". El vendedor responde: "Cuesta cuarenta euros". Elena regatea un poco y finalmente paga treinta y cinco euros. ¡Es una ganga! Después de las compras, vamos a tomar unas tapas en la Plaza Mayor.</p>
-<p><strong>Questions:</strong><br />
-1. El Rastro는 언제 열리나요? (When does El Rastro take place?)<br />
-   - ............................................................<br />
-2. Elena는 최종적으로 자켓을 얼마에 샀나요? (How much did Elena finally pay for the jacket?)<br />
-   - ............................................................</p>
-<p><strong>[한국어 번역]</strong><br />
-'엘 라스트로'는 마드리드에서 가장 유명한 노천 시장입니다. 매주 일요일 아침에 열리죠. 오늘 저는 제 친구 엘레나와 함께 '엘 라스트로'에 갑니다. 사람도 많고 예쁜 물건들도 많네요. 엘레나는 가죽 재킷을 찾고 있고, 저는 편한 신발을 찾고 있습니다. 작은 가게에서 우리는 완벽한 재킷을 발견합니다. 엘레나가 묻습니다. "이 재킷 얼마예요?" 판매자가 대답합니다. "40유로입니다." 엘레나가 조금 흥정을 해서 결국 35유로를 냅니다. 정말 싸게 샀네요! 쇼핑 후에 우리는 마요르 광장에 가서 타파스를 먹으러 갑니다.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
+<p>El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos los domingos por la mañana. Hoy voy al Rastro con mi amiga Elena. Hay mucha gente y muchas cosas bonitas. Elena busca una chaqueta de cuero (가죽 재킷) y yo busco unos zapatos cómodos. En una tienda pequeña, vemos una chaqueta perfecta. Elena pregunta: &quot;¿Cuánto cuesta esta chaqueta?&quot;. El vendedor responde: &quot;Cuesta cuarenta euros&quot;. Elena regatea un poco y finalmente paga treinta y cinco euros. ¡Es una ganga! Después de las compras, vamos a tomar unas tapas en la Plaza Mayor.</p>
+<p><strong>Questions:</strong></p>
+<ol>
+<li>El Rastro는 언제 열리나요? (When does El Rastro take place?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+<li>Elena는 최종적으로 자켓을 얼마에 샀나요? (How much did Elena finally pay for the jacket?)
+<ul>
+<li>............................................................</li>
+</ul>
+</li>
+</ol>
+<p><strong>[한국어 번역]</strong><br>
+'엘 라스트로'는 마드리드에서 가장 유명한 노천 시장입니다. 매주 일요일 아침에 열리죠. 오늘 저는 제 친구 엘레나와 함께 '엘 라스트로'에 갑니다. 사람도 많고 예쁜 물건들도 많네요. 엘레나는 가죽 재킷을 찾고 있고, 저는 편한 신발을 찾고 있습니다. 작은 가게에서 우리는 완벽한 재킷을 발견합니다. 엘레나가 묻습니다. &quot;이 재킷 얼마예요?&quot; 판매자가 대답합니다. &quot;40유로입니다.&quot; 엘레나가 조금 흥정을 해서 결국 35유로를 냅니다. 정말 싸게 샀네요! 쇼핑 후에 우리는 마요르 광장에 가서 타파스를 먹으러 갑니다.</p>
+<hr>
+<h2>8. Diálogo</h2>
 <p><strong>En la tienda de ropa (옷가게에서)</strong></p>
-<p><strong>Situación:</strong> Un cliente busca algo para una fiesta y el dependiente le ayuda.<br />
+<p><strong>Situación:</strong> Un cliente busca algo para una fiesta y el dependiente le ayuda.<br>
 <strong>상황:</strong> 손님이 파티를 위한 옷을 찾고 있고 점원이 도와줍니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;"><strong>Dependiente:</strong> ¡Hola! ¿Puedo ayudarte?</td>
-<td style="text-align: left;"><strong>점원:</strong> 안녕하세요! 도와드릴까요?</td>
+<td style="text-align:left"><strong>Dependiente:</strong> ¡Hola! ¿Puedo ayudarte?</td>
+<td style="text-align:left"><strong>점원:</strong> 안녕하세요! 도와드릴까요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cliente:</strong> Hola. Sí, busco un pantalón para una fiesta.</td>
-<td style="text-align: left;"><strong>손님:</strong> 안녕하세요. 네, 파티 때 입을 바지를 찾고 있어요.</td>
+<td style="text-align:left"><strong>Cliente:</strong> Hola. Sí, busco un pantalón para una fiesta.</td>
+<td style="text-align:left"><strong>손님:</strong> 안녕하세요. 네, 파티 때 입을 바지를 찾고 있어요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Dependiente:</strong> Tenemos estos negros y esos azules. ¿Cuál prefieres?</td>
-<td style="text-align: left;"><strong>점원:</strong> 여기 이 검은색들과 저기 저 파란색들이 있어요. 어떤 걸 선호하시나요?</td>
+<td style="text-align:left"><strong>Dependiente:</strong> Tenemos estos negros y esos azules. ¿Cuál prefieres?</td>
+<td style="text-align:left"><strong>점원:</strong> 여기 이 검은색들과 저기 저 파란색들이 있어요. 어떤 걸 선호하시나요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cliente:</strong> Prefiero los negros. ¿Tienen la talla 40?</td>
-<td style="text-align: left;"><strong>손님:</strong> 검은색이 좋겠네요. 40 사이즈 있나요?</td>
+<td style="text-align:left"><strong>Cliente:</strong> Prefiero los negros. ¿Tienen la talla 40?</td>
+<td style="text-align:left"><strong>손님:</strong> 검은색이 좋겠네요. 40 사이즈 있나요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Dependiente:</strong> Sí, aquí tienes. ¿Quieres probártelos?</td>
-<td style="text-align: left;"><strong>점원:</strong> 네, 여기 있습니다. 입어보시겠어요?</td>
+<td style="text-align:left"><strong>Dependiente:</strong> Sí, aquí tienes. ¿Quieres probártelos?</td>
+<td style="text-align:left"><strong>점원:</strong> 네, 여기 있습니다. 입어보시겠어요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cliente:</strong> Sí, gracias. (...) Me quedan bien. ¿Cuánto cuestan?</td>
-<td style="text-align: left;"><strong>손님:</strong> 네, 감사합니다. (...) 잘 맞네요. 얼마인가요?</td>
+<td style="text-align:left"><strong>Cliente:</strong> Sí, gracias. (...) Me quedan bien. ¿Cuánto cuestan?</td>
+<td style="text-align:left"><strong>손님:</strong> 네, 감사합니다. (...) 잘 맞네요. 얼마인가요?</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Dependiente:</strong> Cincuenta euros. Están en rebaja.</td>
-<td style="text-align: left;"><strong>점원:</strong> 50유로입니다. 세일 중이에요.</td>
+<td style="text-align:left"><strong>Dependiente:</strong> Cincuenta euros. Están en rebaja.</td>
+<td style="text-align:left"><strong>점원:</strong> 50유로입니다. 세일 중이에요.</td>
 </tr>
 <tr>
-<td style="text-align: left;"><strong>Cliente:</strong> Perfecto. Los llevo.</td>
-<td style="text-align: left;"><strong>손님:</strong> 좋네요. 이걸로 살게요.</td>
+<td style="text-align:left"><strong>Cliente:</strong> Perfecto. Los llevo.</td>
+<td style="text-align:left"><strong>손님:</strong> 좋네요. 이걸로 살게요.</td>
 </tr>
 </tbody>
 </table>
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
-<p>이번 장의 핵심 내용을 복습해 보세요.<br />
-- [ ] 의류 명칭과 쇼핑 관련 단어 10개 이상을 알고 있나요?<br />
-- [ ] 지시사(este, ese, aquel)를 거리에 따라 정확히 사용할 수 있나요?<br />
-- [ ] 가격을 묻고 계산할 때 필요한 표현을 익혔나요?<br />
-- [ ] 스페인의 세일(Rebajas)과 시장 문화에 대해 이해했나요?</p>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
-<p>¡Muy bien! 오늘 여러분은 스페인어로 자신 있게 쇼핑하는 법을 배웠습니다. "Busco...", "¿Cuánto cuesta?"와 같은 표현들은 실전에서 가장 유용하게 쓰이는 도구들입니다. 쇼핑은 단순한 소비 이상의 문화적 체험이며, 여러분이 배운 단어들은 스페인의 거리를 더욱 친숙하게 만들어줄 것입니다. 다음 장에서는 우리의 취향을 더욱 세련되게 표현해 줄 '색깔, 가격 심화 및 온라인 쇼핑(A2)'에 대해 더 깊이 있게 배워보겠습니다. ¡Felices compras!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<p><strong>6. Práctica - A. Match the item with its category</strong><br />
+<hr>
+<h2>9. Repaso</h2>
+<p>이번 장의 핵심 내용을 복습해 보세요.</p>
+<ul>
+<li>[ ] 의류 명칭과 쇼핑 관련 단어 10개 이상을 알고 있나요?</li>
+<li>[ ] 지시사(este, ese, aquel)를 거리에 따라 정확히 사용할 수 있나요?</li>
+<li>[ ] 가격을 묻고 계산할 때 필요한 표현을 익혔나요?</li>
+<li>[ ] 스페인의 세일(Rebajas)과 시장 문화에 대해 이해했나요?</li>
+</ul>
+<hr>
+<h2>10. Cierre</h2>
+<p>¡Muy bien! 오늘 여러분은 스페인어로 자신 있게 쇼핑하는 법을 배웠습니다. &quot;Busco...&quot;, &quot;¿Cuánto cuesta?&quot;와 같은 표현들은 실전에서 가장 유용하게 쓰이는 도구들입니다. 쇼핑은 단순한 소비 이상의 문화적 체험이며, 여러분이 배운 단어들은 스페인의 거리를 더욱 친숙하게 만들어줄 것입니다. 다음 장에서는 우리의 취향을 더욱 세련되게 표현해 줄 '색깔, 가격 심화 및 온라인 쇼핑(A2)'에 대해 더 깊이 있게 배워보겠습니다. ¡Felices compras!</p>
+<hr>
+<h2>11. Soluciones</h2>
+<p><strong>6. Práctica - A. Match the item with its category</strong><br>
 1-b / 2-d / 3-a / 4-c / 5-e</p>
-<p><strong>6. Práctica - B. 지시사 연습</strong><br />
-1. Esta / 2. Esos / 3. aquel / 4. Estas / 5. ese</p>
-<p><strong>6. Práctica - C. 번역 연습</strong><br />
-1. ¿Cuánto cuesta esta camiseta?<br />
-2. Busco unos vaqueros (또는 unos pantalones vaqueros).<br />
-3. ¿Pued고 pagar con tarjeta?<br />
-4. Aquel vestido azul es demasiado caro.<br />
-5. Hoy llevo una chaqueta (또는 Llevo puesta...).</p>
-<p><strong>7. Lectura Questions</strong><br />
-1. 매주 일요일 아침 (Todos los domingos por la mañana).<br />
-2. 35유로 (Treinta y cinco euros).</p>
+<p><strong>6. Práctica - B. 지시사 연습</strong></p>
+<ol>
+<li>Esta / 2. Esos / 3. aquel / 4. Estas / 5. ese</li>
+</ol>
+<p><strong>6. Práctica - C. 번역 연습</strong></p>
+<ol>
+<li>¿Cuánto cuesta esta camiseta?</li>
+<li>Busco unos vaqueros (또는 unos pantalones vaqueros).</li>
+<li>¿Pued고 pagar con tarjeta?</li>
+<li>Aquel vestido azul es demasiado caro.</li>
+<li>Hoy llevo una chaqueta (또는 Llevo puesta...).</li>
+</ol>
+<p><strong>7. Lectura Questions</strong></p>
+<ol>
+<li>매주 일요일 아침 (Todos los domingos por la mañana).</li>
+<li>35유로 (Treinta y cinco euros).</li>
+</ol>
 </div>
 </body>
 </html>
