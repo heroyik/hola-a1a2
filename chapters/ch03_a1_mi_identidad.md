@@ -1,11 +1,14 @@
 # Chapter 3: Mi identidad (A1)
+
 <p class="cervantes-ref">Cervantes: §1 Identidad: 데이터 수집 및 신분 확인을 위한 기본 정보 (이름, 나이, 국적, 직업, 주소 및 주요 신분 증명 서류)</p>
 
 ## 1. Opener
+
 **¿Quién eres tú? (당신은 누구인가요?)**
 언어를 배우는 첫걸음은 나 자신을 정의하는 정보를 표현하는 것입니다. 이름, 국적, 나이, 그리고 우리가 누구인지 증명하는 서류들에 대해 배웁니다. 스페인어권 국가에서 가장 중요한 신분증인 'DNI'에 대해서도 알아봅시다.
 
 **학습 목표**
+
 - 개인 정보(이름, 국적, 직업 등) 관련 필수 어휘 10개 습득
 - 숫자(1-100) 표현 익히기
 - 'Tener' 동사를 활용한 나이 표현 및 소유 표현
@@ -18,9 +21,10 @@
 ---
 
 ## 2. Vocabulario Esencial
+
 개인 정보를 나타내는 핵심 서류와 항목들입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch03_a1_vocab_identity_v56.png)
+![Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch03_a1_vocab_identity_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -40,17 +44,20 @@
 ---
 
 ## 3. Expresiones Útiles
+
 나의 데이터를 말하거나 타인에게 질문할 때 꼭 필요한 표현입니다.
 
 **A. 개인 정보 묻고 답하기**
+
 - **¿Cómo te llamas?** (What is your name? / 이름이 뭐니?)
 - **Me llamo Jin.** (My name is Jin. / 내 이름은 진이야.)
-    - 💡 **English Bridge**: "Llamarse" literally means "to call oneself" — *Me llamo* = "I call myself"
+  - 💡 **English Bridge**: "Llamarse" literally means "to call oneself" — *Me llamo* = "I call myself"
 - **¿Cuántos años tienes?** (How old are you? / 몇 살이니?)
 - **Tengo veinte años.** (I am twenty years old. / 나는 스무 살이야.)
-    - 💡 **English Bridge**: Spanish uses "I **have** 20 years" instead of "I **am** 20 years old"
+  - 💡 **English Bridge**: Spanish uses "I **have** 20 years" instead of "I **am** 20 years old"
 
 **B. 출신과 직업**
+
 - **¿De dónde eres?** (Where are you from? / 어디 출신이니?)
 - **Soy coreano / coreana.** (I am Korean. / 나는 한국 사람이야.)
 - **Mi dirección es...** (My address is... / 제 주소는...입니다.)
@@ -122,6 +129,7 @@
 ---
 
 ## 5. Cultura Viva: El DNI en España 🪪
+
 스페인 사람들에게 없어서는 안 될 가장 중요한 카드, DNI를 알아봅시다.
 
 **Mucho más que un plástico**
@@ -135,7 +143,7 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 
 국가 경찰이 이 서류를 발급하는 책임을 집니다. 각 DNI에는 8자리 숫자와 마지막에 한 글자의 알파벳으로 구성된 고유 번호가 있습니다. 이 번호는 평생 변하지 않습니다. 그래서 누군가 "¿Cuál es tu número?(당신의 번호가 무엇입니까?)"라고 묻는다면, 보통은 당신의 DNI 번호를 의미합니다.
 
-![스페인의 DNI(국가 신분증) 카드와 칩 기반 인증 시스템](../images/ch03_a1_culture_dni_v56.png)
+![스페인의 DNI(국가 신분증) 카드와 칩 기반 인증 시스템](../images/ch03_a1_culture_dni_v2_1.png)
 
 ---
 
@@ -173,11 +181,13 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 ---
 
 ## 7. Lectura 📖
+
 **Una nueva vida en Madrid**
 
 Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estudiar. Tengo veintidós años. En mi mochila siempre llevo mi pasaporte y mi carné de estudiante de la Universidad Complutense. Mi dirección en Madrid es la calle Mayor, número 10. Mi profesión es estudiante de arquitectura. ¡Me encanta mi nueva vida en España!
 
 **Preguntas (질문):**
+
 1. ¿Cuál es la nacionalidad y la edad de Min-su? (민수의 국적과 나이는?)
 2. ¿Qué lleva siempre en su mochila? (가방 속에 무엇을 가지고 다니나요?)
 3. ¿Cuál es su profesión y su dirección? (직업과 주소는?)
@@ -189,6 +199,7 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 ---
 
 ## 8. Diálogo
+
 **En la comisaría (경찰서에서)**
 
 **Situación:** Elena ha perdido su cartera en el parque y va a la comisaría de policía para informar del problema. El oficial de policía le pide sus datos personales para completar el formulario.
@@ -245,7 +256,9 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 ---
 
 ## 9. Repaso
+
 이 장에서 배운 내용을 확인해 보세요:
+
 - [ ] 이름, 나이, 주소, 직업을 스페인어로 말할 수 있다.
 - [ ] **Tener** 동사의 현재 변화형(**tengo, tienes, tiene, tenemos, tenéis, tienen**)을 모두 외웠다.
 - [ ] 나이 표현 시 **tener + 숫자 + años** 구문을 사용할 수 있다.
@@ -255,6 +268,7 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 ---
 
 ## 10. Cierre
+
 ¡Excelente! 🎉 이제 여러분은 스페인어로 자신을 공식적으로 소개하고 필요한 정보를 제공할 수 있는 능력을 갖추었습니다.
 
 나이는 영어의 "I am..."과 달리 **Tener** 동사를 쓴다는 점을 꼭 기억하세요! 또한 국적 형용사가 주어의 성별에 따라 변한다는 것은 영어에는 없는 스페인어 고유의 특성입니다.
@@ -266,22 +280,25 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 ## 11. Soluciones
 
 **6. Práctica - A. Completa con la forma correcta de 'Tener'**
-1. tengo
-2. tienen
-3. tienes
-4. tenemos
-5. tiene
+
+1. 1. tengo
+2. 1. tienen
+3. 1. tienes
+4. 1. tenemos
+5. 1. tiene
 
 **6. Práctica - B. 국적 형용사 바꾸기**
-1. español
-2. coreanas
-3. francesa
-4. alemanes
-5. estadounidenses
+
+1. 1. español
+2. 1. coreanas
+3. 1. francesa
+4. 1. alemanes
+5. 1. estadounidenses
 
 **6. Práctica - C. 번역 연습**
-1. Me llamo María y soy española.
-2. ¿Cuántos años tiene tu amigo?
-3. Mi dirección es calle Mayor, número 7, en Madrid.
-4. Aquí está mi DNI.
-5. Somos estudiantes inteligentes.
+
+1. 1. Me llamo María y soy española.
+2. 1. ¿Cuántos años tiene tu amigo?
+3. 1. Mi dirección es calle Mayor, número 7, en Madrid.
+4. 1. Aquí está mi DNI.
+5. 1. Somos estudiantes inteligentes.

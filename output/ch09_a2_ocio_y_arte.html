@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 <h2>2. Vocabulario Esencial: Cine, Música y Arte</h2>
 <p>감각적인 예술의 세계로 초대합니다. 번호와 매칭되는 단어를 확인하며 분야별 핵심 어휘들을 익혀보세요.</p>
 <p><img src="../images/ch09_a2_vocab_cinema_music.png" alt="Cine y Arte"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>la película</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">영화</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>el director / la directora</strong></td>
-<td style="text-align:left"><strong>Director</strong> ✅</td>
-<td style="text-align:left">감독</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>el concierto</strong></td>
-<td style="text-align:left"><strong>Concert</strong> ✅</td>
-<td style="text-align:left">콘서트 / 연주회</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>la exposición</strong></td>
-<td style="text-align:left"><strong>Exposition</strong> ✅</td>
-<td style="text-align:left">전시회</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>el actor / la actriz</strong></td>
-<td style="text-align:left"><strong>Actor / Actress</strong> ✅</td>
-<td style="text-align:left">배우 (남/여)</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>la entrada</strong></td>
-<td style="text-align:left"><strong>Entry</strong> (ticket to enter)</td>
-<td style="text-align:left">입장권 / 티켓</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>el guion</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">시나리오 / 대본</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>el escenario</strong></td>
-<td style="text-align:left"><strong>Scenery</strong> (related)</td>
-<td style="text-align:left">무대</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>la pintura</strong></td>
-<td style="text-align:left"><strong>Painting</strong> (near cognate)</td>
-<td style="text-align:left">그림 / 회화</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>el espectáculo</strong></td>
-<td style="text-align:left"><strong>Spectacle</strong> ✅</td>
-<td style="text-align:left">공연 / 볼거리</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la película</strong></td><td>—</td><td>영화</td></tr>
+    <tr><td>2</td><td><strong>el director / la directora</strong></td><td><strong>Director</strong> ✅</td><td>감독</td></tr>
+    <tr><td>3</td><td><strong>el concierto</strong></td><td><strong>Concert</strong> ✅</td><td>콘서트 / 연주회</td></tr>
+    <tr><td>4</td><td><strong>la exposición</strong></td><td><strong>Exposition</strong> ✅</td><td>전시회</td></tr>
+    <tr><td>5</td><td><strong>el actor / la actriz</strong></td><td><strong>Actor / Actress</strong> ✅</td><td>배우 (남/여)</td></tr>
+    <tr><td>6</td><td><strong>la entrada</strong></td><td><strong>Entry</strong> (ticket to enter)</td><td>입장권 / 티켓</td></tr>
+    <tr><td>7</td><td><strong>el guion</strong></td><td>—</td><td>시나리오 / 대본</td></tr>
+    <tr><td>8</td><td><strong>el escenario</strong></td><td><strong>Scenery</strong> (related)</td><td>무대</td></tr>
+    <tr><td>9</td><td><strong>la pintura</strong></td><td><strong>Painting</strong> (near cognate)</td><td>그림 / 회화</td></tr>
+    <tr><td>10</td><td><strong>el espectáculo</strong></td><td><strong>Spectacle</strong> ✅</td><td>공연 / 볼거리</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -263,35 +214,20 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Match the art form with the description (예술 장르와 설명을 연결하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. El cine</td>
-<td style="text-align:left">a. Ver actores en un escenario físico.</td>
-</tr>
-<tr>
-<td style="text-align:left">2. La pintura</td>
-<td style="text-align:left">b. Escuchar canciones y melodías.</td>
-</tr>
-<tr>
-<td style="text-align:left">3. La música</td>
-<td style="text-align:left">c. Ver imágenes en una pantalla grande.</td>
-</tr>
-<tr>
-<td style="text-align:left">4. El teatro</td>
-<td style="text-align:left">d. Exposición de cuadros en un museo.</td>
-</tr>
-<tr>
-<td style="text-align:left">5. La literatura</td>
-<td style="text-align:left">e. Leer libros y novelas.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. El cine</td><td style="padding: 10px; border: 1px solid #ddd;">a. Ver actores en un escenario físico.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. La pintura</td><td style="padding: 10px; border: 1px solid #ddd;">b. Escuchar canciones y melodías.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. La música</td><td style="padding: 10px; border: 1px solid #ddd;">c. Ver imágenes en una pantalla grande.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. El teatro</td><td style="padding: 10px; border: 1px solid #ddd;">d. Exposición de cuadros en un museo.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. La literatura</td><td style="padding: 10px; border: 1px solid #ddd;">e. Leer libros y novelas.</td></tr>
+  </tbody>
 </table>
 <p><strong>B. 미래 시제 연습 (괄호 안의 동사를 미래형으로 변형하세요)</strong></p>
 <ol>
@@ -338,39 +274,21 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 <p><strong>En el estreno de cine (영화 시사회에서)</strong></p>
 <p><strong>Situación:</strong> Ana y David acaban de ver el estreno de una película de Almodóvar en la Gran Vía.<br>
 <strong>상황:</strong> 아나와 다비드가 그란 비아에서 알모도바르 영화의 시사회를 막 보고 나왔습니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> ¡Qué fuerte! La película ha sido increíble, ¿no crees?</td>
-<td style="text-align:left"><strong>아나:</strong> 대단해! 영화가 정말 믿기지 않을 정도였어, 그렇지 않니?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>David:</strong> Sí, me ha gustado mucho el guion. Los actores estuvieron estupendos.</td>
-<td style="text-align:left"><strong>다비드:</strong> 응, 시나리오가 아주 마음에 들었어. 배우들도 훌륭했고.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> Si gana el Goya, el director hará una gran fiesta.</td>
-<td style="text-align:left"><strong>아나:</strong> 만약 고야상을 받으면, 감독님이 큰 파티를 열 거야.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>David:</strong> Seguro. ¿Irás tú a la exposición de arte moderno mañana?</td>
-<td style="text-align:left"><strong>다비드:</strong> 확실해. 너 내일 현대 미술 전시회에 갈 거니?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> No podré, tendré que trabajar. Pero si terminas pronto, llámame.</td>
-<td style="text-align:left"><strong>아나:</strong> 못 갈 거야, 일해야 하거든. 하지만 네가 일찍 끝나면 나한테 전화해.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>David:</strong> De acuerdo. Te llamaré y cenaremos juntos.</td>
-<td style="text-align:left"><strong>다비드:</strong> 알았어. 전화할게 그리고 같이 저녁 먹자.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> ¡Qué fuerte! La película ha sido increíble, ¿no crees?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 대단해! 영화가 정말 믿기지 않을 정도였어, 그렇지 않니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> Sí, me ha gustado mucho el guion. Los actores estuvieron estupendos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 응, 시나리오가 아주 마음에 들었어. 배우들도 훌륭했고.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Si gana el Goya, el director hará una gran fiesta.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 만약 고야상을 받으면, 감독님이 큰 파티를 열 거야.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> Seguro. ¿Irás tú a la exposición de arte moderno mañana?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 확실해. 너 내일 현대 미술 전시회에 갈 거니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> No podré, tendré que trabajar. Pero si terminas pronto, llámame.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 못 갈 거야, 일해야 하거든. 하지만 네가 일찍 끝나면 나한테 전화해.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> De acuerdo. Te llamaré y cenaremos juntos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 알았어. 전화할게 그리고 같이 저녁 먹자.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

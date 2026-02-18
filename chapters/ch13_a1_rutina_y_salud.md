@@ -1,11 +1,14 @@
 # Chapter 13: Rutina y salud (A1)
+
 <p class="cervantes-ref">Cervantes: §11 일상생활, §15 신체 및 건강 기초</p>
 
 ## 1. Opener
+
 **Mi día a día (나의 하루하루)**  
 우리의 일상은 작은 습관들로 채워집니다. 아침에 일어나서 세수를 하고, 밥을 먹고, 잠자리에 들기까지의 과정을 스페인어로 표현할 수 있다면 여러분의 일상은 더욱 생생해질 것입니다. 이번 장에서는 '나를 씻기다(lavarse)'와 같이 나 자신에게 일어나는 행동을 나타내는 '재귀 동사(Reflexive Verbs)'를 배웁니다. 또한 한국과는 사뭇 다른 스페인 사람들의 독특한 하루 일과표와 기초적인 건강 관련 표현들도 함께 알아볼까요?
 
 **학습 목표**
+
 - 일상 일과, 시간 표현 및 신체 부위 기초 어휘 15개 이상 습득
 - 재귀 동사(Levantarse, Ducharse, Acostarse 등)의 현재형 변화와 활용
 - 하루 일과를 시간 순서대로 말하기 (Primero, Después, Luego, Por último)
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: Mi Rutina Diaria
+
 우리의 아침부터 밤까지를 채우는 활동들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Rutina](../images/ch13_a1_vocab_routine.png)
+![Rutina](../images/ch13_a1_vocab_routine_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 하루의 일과와 건강 상태를 말할 때 자주 사용하는 패턴입니다.
 
 **A. 일과 말하기 (La Rutina)**
+
 - **Me levanto a las siete.** (I get up at seven. / 나는 7시에 일어나요.)
 - **Me ducho por la mañana.** (I shower in the morning. / 나는 아침에 샤워해요.)
 - **Salgo de casa a las ocho y media.** (I leave home at eight-thirty. / 8시 반에 집을 나섭니다.)
 - **Vuelvo a casa tarde.** (I return home late. / 집에 늦게 돌아와요.)
 
 **B. 건강 및 상태 표현 (Salud)**
+
 - **¿Cómo estás?** (How are you? / 기분이 어때요? / 건강은 어떠세요?)
 - **Me siento bien / mal.** (I feel good / bad. / 기분이 좋아요 / 안 좋아요.)
 - **Estoy cansado / cansada.** (I am tired. / 피곤해요.)
@@ -66,9 +73,11 @@
 ---
 
 ## 4. Gramática Esencial
+
 나 자신에게 일어나는 행동을 표현하는 재귀 동사를 정복해 봅시다.
 
 ### 재귀 동사 (Verbos Reflexivos)
+
 동사원형 끝에 `-se`가 붙은 동사들입니다. 주어가 하는 행동이 다시 주어 자신에게 돌아올 때 사용합니다.
 **구조: 재귀 대명사(me, te, se, nos, os, se) + 변형된 동사**
 
@@ -91,14 +100,16 @@
 </table>
 
 **순서 표현 부사 (Connectors):**
+
 - **Primero** (First) → **Después / Luego** (Then / After) → **Por último** (Finally)
 
 ---
 
 ## 5. Cultura Viva: El Horario Español - Vida Nocturna
+
 스페인의 하루는 어떻게 흘러갈까요?
 
-![Spanish Night Culture](../images/ch13_a1_culture_schedule.png)
+![Spanish Night Culture](../images/ch13_a1_culture_schedule_v2_1.png)
 
 El horario en España es único. La mayoría de los españoles empiezan el día entre las 7:30 y las 8:30. El **desayuno** es ligero, a menudo solo un café. A las 11:00 hay una pausa para el café y un pequeño bocadillo. La comida más importante es el **almuerzo** (a las 14:00), que es largo y social.
 
@@ -155,11 +166,13 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 ---
 
 ## 7. Lectura 📖
+
 **Un día normal para Elena (엘레나의 평범한 하루)**
 
-¡Hola! Soy Elena y vivo en Madrid. Mi rutina es muy española. Primero, me levanto a las ocho y me ducho rápidamente. No desayuno mucho, solo un café con leche. Después, voy a la universidad en metro. Tengo clases hasta las 두 시(dos de la tarde). A esa hora, almuerzo con mis amigos en la cafetería. Estudiamos un poco por la tarde y luego voy al gimnasio. Vuelvo a casa a las ocho de la tarde. Ceno con mi familia a las diez de la noche. Por último, leo un libro y me acuesto a las doce. ¡Estoy cansada pero muy feliz!
+¡Hola! Soy Elena y vivo en Madrid. Mi rutina es muy española. Primero, me levanto a las ocho y me ducho rápidamente. No desayuno mucho, solo un café con leche. Después, voy a la universidad en metro. Tengo clases hasta las dos de la tarde. A esa hora, almuerzo con mis amigos en la cafetería. Estudiamos un poco por la tarde y luego voy al gimnasio. Vuelvo a casa a las ocho de la tarde. Ceno con mi familia a las diez de la noche. Por último, leo un libro y me acuesto a las doce. ¡Estoy cansada pero muy feliz!
 
 **Questions:**
+
 1. Elena는 아침에 무엇을 먹나요? (What does Elena have for breakfast?)
    - ............................................................
 2. Elena는 몇 시에 저녁을 먹나요? (What time does Elena have dinner?)
@@ -171,6 +184,7 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 ---
 
 ## 8. Diálogo
+
 **¿Qué tal tu día? (오늘 하루 어땠어?)**
 
 **Situación:** Dos amigos, Marc y Sonia, hablan sobre sus rutinas diarias.
@@ -197,7 +211,9 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 일상 일과와 관련된 단어 10개 이상을 알고 있나요?
 - [ ] 재귀 동사의 변화와 재귀 대명사(me, te, se...)를 외웠나요?
 - [ ] 시간 순서를 나타내는 부사(Primero, Luego...)를 사용할 수 있나요?
@@ -206,6 +222,7 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 ---
 
 ## 10. Cierre
+
 ¡Buen ritmo! 오늘 여러분은 삶의 가장 기본인 '일과'를 스페인어로 통제하는 법을 배웠습니다. 재귀 동사를 통해 나 자신의 행동을 설명할 수 있게 되었고, 스페인의 독특한 시간표를 통해 그들의 삶의 리듬을 이해하게 되었습니다. 언어는 습관입니다. 매일 조금씩 스페인어를 사용하는 습관이 여러분을 마스터로 이끌 것입니다. 다음 장에서는 우리의 몸과 마음을 돌보는 '가사, 건강 심화 및 증상 말하기(A2)' 섹션으로 이어가겠습니다. ¡Cuídate mucho! (몸조심하세요!)
 
 ---
@@ -213,18 +230,18 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 ## 11. Soluciones
 
 **6. Práctica - A. Put the routine in order**
-b - d - e - a - c
+
+1. 1-b, 2-d, 3-e, 4-a, 5-c
 
 **6. Práctica - B. 재귀 동사 변형 연습**
-1. me levanto / 2. te duchas / 3. nos acostamos / 4. se lava / 5. se levantan
+
+1. 1. me levanto, 2. te duchas, 3. nos acostamos, 4. se lava, 5. se levantan
 
 **6. Práctica - C. 번역 연습**
-1. Me levanto a las siete de la mañana.
-2. ¿A qué hora te duchas? (또는 ¿Cuándo te duchas?)
-3. Cenamos en casa.
-4. Mi amigo está siempre cansado. (또는 Mi amigo siempre está cansado.)
-5. Primero como, y después estudio.
 
-**7. Lectura Questions**
-1. 카페라테 한 잔 (Un café con leche).
-2. 밤 10시 (A las diez de la noche).
+1. 1. Me levanto a las siete de la mañana., 2. ¿A qué hora te duchas? (또는 ¿Cuándo te duchas?), 3. Cenamos en casa., 4. Mi amigo está siempre cansado., 5. Primero como, y después estudio.
+
+**7. Lectura - Preguntas**
+
+1. 1. 카페라테 한 잔 (Un café con leche).
+2. 1. 밤 10시 (A las diez de la noche).

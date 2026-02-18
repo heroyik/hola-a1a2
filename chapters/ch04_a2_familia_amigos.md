@@ -1,11 +1,14 @@
 # Chapter 4: Familia y amigos (A2)
+
 <p class="cervantes-ref">Cervantes: §4 Relaciones personales: 사회적 관계의 심화, 우정 및 현대적 가족 형태와 가치관 묘사</p>
 
 ## 1. Opener
+
 **Lazos que nos unen (우리를 묶어주는 유대감)**
 A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 더 나아가 친구, 동료와의 사회적 유대감과 현대 사회의 다양한 가족 형태에 대해 깊이 있게 다룹니다. 또한 소유를 더 강조하는 소유형용사 후치형과 상호 재귀동사를 배웁니다.
 
 **학습 목표**
+
 - 사회적 관계 및 우정 관련 심화 어휘 10개 습득
 - 소유형용사 후치형(mío, tuyo 등) 및 소유대명사 마스터
 - 상호 재귀동사를 활용한 관계 묘사
@@ -17,9 +20,10 @@ A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 �
 ---
 
 ## 2. Vocabulario Esencial
+
 현대적인 마드리드의 루프탑 바에서 친구들과 동료들이 어울리는 모습입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Amigos y Sociedad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a2_vocab_friendship.png)
+![Amigos y Sociedad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a2_vocab_friendship_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -40,16 +44,19 @@ A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 �
 ---
 
 ## 3. Expresiones Útiles
+
 사회적 관계와 감정을 더 구체적으로 표현하는 방법입니다.
 
 **A. 우정과 유대감 표현**
+
 - **Nos llevamos muy bien.** (We get along very well. / 우리는 사이가 아주 좋아요.)
 - **Él es un amigo de toda la vida.** (He is a lifelong friend. / 그는 평생지기 친구야.)
-    - 💡 **English Bridge**: "De toda la vida" = "Of all the life" — a lifelong bond
+  - 💡 **English Bridge**: "De toda la vida" = "Of all the life" — a lifelong bond
 - **Confío plenamente en ti.** (I trust you completely. / 나는 너를 전적으로 신뢰해.)
-    - 💡 **English Bridge**: "Confiar" → **Confide** ✅ (to trust in someone)
+  - 💡 **English Bridge**: "Confiar" → **Confide** ✅ (to trust in someone)
 
 **B. 소유의 강조**
+
 - **Este libro es mío.** (This book is **mine**. / 이 책은 내 것이야.)
 - **¿Es tuya esta maleta?** (Is this suitcase **yours**? / 이 가방 네 것이니?)
 - **Lo mío es tuyo.** (What is mine is yours. / 내 것이 네 거야.)
@@ -57,6 +64,7 @@ A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 �
 ---
 
 ## 4. Gramática Esencial
+
 A2 수준의 정교한 표현을 위해 소유사의 후치형과 상호 재귀동사를 배웁니다.
 
 ### A. 소유형용사 후치형 (Stressed Possessive Adjectives)
@@ -154,6 +162,7 @@ A2 수준의 정교한 표현을 위해 소유사의 후치형과 상호 재귀�
 ---
 
 ## 5. Cultura Viva: Tradición vs. Modernidad 🏠
+
 스페인의 가족 가치관은 급격한 현대화를 겪으면서도 고유의 색깔을 유지하고 있습니다.
 
 España ha experimentado grandes cambios sociales en las últimas décadas. Aunque la familia tradicional sigue siendo muy valorada, hoy existen diversos modelos familiares: parejas de hecho, familias monoparentales o familias reconstituidas. La ley del matrimonio igualitario de 2005 fue un hito en la modernización del país.
@@ -165,7 +174,7 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 
 그럼에도 불구하고 어르신들에 대한 존경은 여전히 핵심적입니다. 오후에 손주들을 돌보는 조부모의 모습을 흔히 볼 수 있는데, 이는 매우 강력한 세대 간 유대감을 형성합니다. 동시에 스페인 청년들은 매우 사교적이며 친구들을 자신의 "선택한 가족"으로 여깁니다.
 
-![스페인 전통 가족 가치관과 현대적 라이프스타일의 공존](../images/ch04_a2_culture_lifestyle.png)
+![스페인 전통 가족 가치관과 현대적 라이프스타일의 공존](../images/ch04_a2_culture_lifestyle_v2_1.png)
 
 ---
 
@@ -205,11 +214,13 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 ---
 
 ## 7. Lectura 📖
+
 **Mi familia elegida (나의 선택한 가족)**
 
 En España decimos que "los amigos son la familia que se elige". Yo tengo un grupo de amigos desde la universidad, nos llamamos 'la pandilla'. Somos cinco personas de diferentes nacionalidades. Aunque todos tenemos trabajos estresantes, nos vemos todos los viernes para cenar. Nos ayudamos en los momentos difíciles y celebramos juntos los éxitos. Mi madre siempre dice: "Hija, esos amigos tuyos son como tus hermanos". Y tiene razón. En esta sociedad moderna, el apoyo de los amigos es vital, pero nunca olvido mis raíces y el amor de mis padres.
 
 **Preguntas (질문):**
+
 1. ¿Qué es 'la pandilla'? ('라 판디야'는 무엇인가요?)
 2. ¿Qué dice la madre de la autora sobre sus amigos? (필자의 어머니는 친구들에 대해 뭐라고 하시나요?)
 
@@ -220,6 +231,7 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 ---
 
 ## 8. Diálogo
+
 **Hablando de raíces y amigos (뿌리와 친구들에 대한 대화)**
 
 **Situación:** Javier y Carmen están tomando un café en una terraza y conversan sobre sus planes para las vacaciones y la importancia de sus círculos sociales.
@@ -280,7 +292,9 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 ---
 
 ## 9. Repaso
+
 이 장에서 배운 내용을 확인해 보세요:
+
 - [ ] 단짝 친구, 동료, 친구 무리 등 사회적 관계 어휘를 익혔다.
 - [ ] 소유형용사 후치형(**mío, tuyo, suyo**)을 강조 표현에 사용할 수 있다.
 - [ ] 후치형이 성과 수에 따라 변한다는 점을 이해했다 (**mío/mía/míos/mías**).
@@ -290,6 +304,7 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 ---
 
 ## 10. Cierre
+
 ¡Enhorabuena! 🎉 A2의 이번 장을 통해 여러분은 단순한 가족 소개를 넘어, 더 깊고 복잡한 사회적 유대감을 스페인어로 표현하는 법을 배웠습니다.
 
 '**Mío**'와 '**Tuyo**' 같은 강조 표현은 여러분의 스페인어를 훨씬 더 원어민스럽게 만들어 줄 것입니다. 또한 "**Los amigos son la familia que se elige**"(친구는 선택한 가족이다)라는 스페인의 가치관이 보여주듯, 사회적 유대와 가족의 사랑 모두를 소중히 여기는 문화를 이해하는 것도 언어 학습의 큰 재미입니다.
@@ -301,22 +316,26 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-c, 2-d, 3-a, 4-b, 5-e
 
-**6. Práctica - B. Fill in the blanks**
-1. mío
-2. tuya
-3. suyas
-4. nuestro
-5. suyo
+1. 1-c, 2-d, 3-a, 4-b, 5-e
+
+**6. Práctica - B. Fill in the blanks with the correct long-form possessive**
+
+1. 1. mío
+2. 1. tuya
+3. 1. suyas
+4. 1. nuestro
+5. 1. suyo
 
 **6. Práctica - C. 번역 연습**
-1. Nos conocemos muy bien.
-2. Diego y Elena se quieren.
-3. ¿Os escribís a menudo?
-4. Los buenos amigos deben ayudarse.
-5. Se llaman todos los días.
+
+1. 1. Nos conocemos muy bien.
+2. 1. Diego y Elena se quieren.
+3. 1. ¿Os escribís a menudo?
+4. 1. Los buenos amigos deben ayudarse.
+5. 1. Se llaman todos los días.
 
 **7. Lectura - Preguntas**
-1. 대학 때부터 알고 지낸 친한 친구 무리(5명)를 의미합니다.
-2. 마치 필자의 형제들 같다고 매우 긍정적으로 평가하십니다.
+
+1. 1. 대학 때부터 알고 지낸 친한 친구 무리(5명)를 의미합니다.
+2. 1. 마치 필자의 형제들 같다고 매우 긍정적으로 평가하십니다.

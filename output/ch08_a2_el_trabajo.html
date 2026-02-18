@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -116,77 +117,27 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 <h2>2. Vocabulario Esencial: El Proceso de Selección</h2>
 <p>성공적인 취업을 위한 채용 과정의 핵심 요소들입니다. 이미지 속의 면접 장면과 함께 어휘를 익혀보세요.</p>
 <p><img src="../images/ch08_a2_vocab_interview.png" alt="Entrevista de Trabajo"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>la entrevista</strong></td>
-<td style="text-align:left"><strong>Interview</strong> ✅</td>
-<td style="text-align:left">면접</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>el currículum / el CV</strong></td>
-<td style="text-align:left"><strong>Curriculum</strong> ✅</td>
-<td style="text-align:left">이력서</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>el candidato / la candidata</strong></td>
-<td style="text-align:left"><strong>Candidate</strong> ✅</td>
-<td style="text-align:left">지원자 / 후보자</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>el contrato</strong></td>
-<td style="text-align:left"><strong>Contract</strong> ✅</td>
-<td style="text-align:left">계약(서)</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>el sueldo / el salario</strong></td>
-<td style="text-align:left"><strong>Salary</strong> ✅</td>
-<td style="text-align:left">급여 / 월급</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>la experiencia</strong></td>
-<td style="text-align:left"><strong>Experience</strong> ✅</td>
-<td style="text-align:left">경력 / 경험</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>la empresa / la compañía</strong></td>
-<td style="text-align:left"><strong>Company</strong> ✅</td>
-<td style="text-align:left">회사 / 기업</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>el puesto de trabajo</strong></td>
-<td style="text-align:left"><strong>Post</strong> (job post)</td>
-<td style="text-align:left">직책 / 자리</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>la formación</strong></td>
-<td style="text-align:left"><strong>Formation</strong> (training)</td>
-<td style="text-align:left">학력 / 교육 이수</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>el ascenso</strong></td>
-<td style="text-align:left"><strong>Ascent</strong> (climbing up)</td>
-<td style="text-align:left">승진</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la entrevista</strong></td><td><strong>Interview</strong> ✅</td><td>면접</td></tr>
+    <tr><td>2</td><td><strong>el currículum / el CV</strong></td><td><strong>Curriculum</strong> ✅</td><td>이력서</td></tr>
+    <tr><td>3</td><td><strong>el candidato / la candidata</strong></td><td><strong>Candidate</strong> ✅</td><td>지원자 / 후보자</td></tr>
+    <tr><td>4</td><td><strong>el contrato</strong></td><td><strong>Contract</strong> ✅</td><td>계약(서)</td></tr>
+    <tr><td>5</td><td><strong>el sueldo / el salario</strong></td><td><strong>Salary</strong> ✅</td><td>급여 / 월급</td></tr>
+    <tr><td>6</td><td><strong>la experiencia</strong></td><td><strong>Experience</strong> ✅</td><td>경력 / 경험</td></tr>
+    <tr><td>7</td><td><strong>la empresa / la compañía</strong></td><td><strong>Company</strong> ✅</td><td>회사 / 기업</td></tr>
+    <tr><td>8</td><td><strong>el puesto de trabajo</strong></td><td><strong>Post</strong> (job post)</td><td>직책 / 자리</td></tr>
+    <tr><td>9</td><td><strong>la formación</strong></td><td><strong>Formation</strong> (training)</td><td>학력 / 교육 이수</td></tr>
+    <tr><td>10</td><td><strong>el ascenso</strong></td><td><strong>Ascent</strong> (climbing up)</td><td>승진</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -250,35 +201,20 @@ estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber</p>
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. CV Vocabulary Checklist (이력서 어휘 체크리스트 - 알맞은 의미를 연결하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. Datos personales</td>
-<td style="text-align:left">a. 경력 사항</td>
-</tr>
-<tr>
-<td style="text-align:left">2. Experiencia laboral</td>
-<td style="text-align:left">b. 인적 사항</td>
-</tr>
-<tr>
-<td style="text-align:left">3. Formación académica</td>
-<td style="text-align:left">c. 언어 능력</td>
-</tr>
-<tr>
-<td style="text-align:left">4. Idiomas</td>
-<td style="text-align:left">d. 기타 기술</td>
-</tr>
-<tr>
-<td style="text-align:left">5. Otros datos de interés</td>
-<td style="text-align:left">e. 학력 사항</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Datos personales</td><td style="padding: 10px; border: 1px solid #ddd;">a. 경력 사항</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Experiencia laboral</td><td style="padding: 10px; border: 1px solid #ddd;">b. 인적 사항</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Formación académica</td><td style="padding: 10px; border: 1px solid #ddd;">c. 언어 능력</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. Idiomas</td><td style="padding: 10px; border: 1px solid #ddd;">d. 기타 기술</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Otros datos de interés</td><td style="padding: 10px; border: 1px solid #ddd;">e. 학력 사항</td></tr>
+  </tbody>
 </table>
 <p><strong>B. Fill in the blanks with the correct past tense (알맞은 과거 시제를 사용하세요)</strong></p>
 <ol>
@@ -325,43 +261,22 @@ estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber</p>
 <p><strong>La Entrevista de Selección (채용 면접)</strong></p>
 <p><strong>Situación:</strong> El Sr. Martínez entrevista a Sofía para un puesto de Coordinadora de Proyectos.<br>
 <strong>상황:</strong> 마르티네스 씨가 프로젝트 코디네이터 직책을 위해 소피아를 면접합니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Sr. Martínez:</strong> Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto?</td>
-<td style="text-align:left"><strong>마르티네스:</strong> 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Sofía:</strong> Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia.</td>
-<td style="text-align:left"><strong>소피아:</strong> 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Sr. Martínez:</strong> Veo en tu CV que tu especialidad es el marketing. ¿Qué aprendiste?</td>
-<td style="text-align:left"><strong>마르티네스:</strong> 이력서를 보니 귀하의 전공이 마케팅이군요. 무엇을 배웠나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Sofía:</strong> Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión.</td>
-<td style="text-align:left"><strong>소피아:</strong> 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Sr. Martínez:</strong> ¿Qué horarios prefieres?</td>
-<td style="text-align:left"><strong>마르티네스:</strong> 어떤 근무 시간대를 선호하시나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Sofía:</strong> Soy flexible, pero prefiero el horario intensivo si es posible.</td>
-<td style="text-align:left"><strong>소피아:</strong> 유연합니다만, 가능하다면 집중 근무제를 선호합니다.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Sr. Martínez:</strong> Muy bien. Te llamaremos la próxima semana.</td>
-<td style="text-align:left"><strong>마르티네스:</strong> 좋습니다. 다음 주에 연락드리겠습니다.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> Buenos días, Sofía. Cuéntame, ¿por qué te interesa este puesto?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 좋은 아침입니다, 소피아. 왜 이 자리에 관심이 있는지 말씀해 보시겠어요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sofía:</strong> Buenos días. Me interesa porque su empresa es líder en innovación y quiero aplicar mi experiencia.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소피아:</strong> 안녕하세요. 귀사가 혁신의 리더이고 제 경험을 적용하고 싶기 때문입니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> Veo en tu CV que tu especialidad es el marketing. ¿Qué aprendiste?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 이력서를 보니 귀하의 전공이 마케팅이군요. 무엇을 배웠나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sofía:</strong> Sí, en mi último trabajo aprendí a gestionar equipos y a trabajar bajo presión.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소피아:</strong> 네, 전 직장에서 팀 관리와 압박 속에서 일하는 법을 배웠습니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> ¿Qué horarios prefieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 어떤 근무 시간대를 선호하시나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sofía:</strong> Soy flexible, pero prefiero el horario intensivo si es posible.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>소피아:</strong> 유연합니다만, 가능하다면 집중 근무제를 선호합니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Sr. Martínez:</strong> Muy bien. Te llamaremos la próxima semana.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마르티네스:</strong> 좋습니다. 다음 주에 연락드리겠습니다.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

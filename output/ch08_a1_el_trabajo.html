@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <h2>2. Vocabulario Esencial: Profesiones y Lugares</h2>
 <p>모던한 애니메이션 스타일로 표현된 다양한 직업의 세계입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
 <p><img src="../images/ch08_a1_vocab_jobs.png" alt="Profesiones"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>el profesor / la profesora</strong></td>
-<td style="text-align:left"><strong>Professor</strong> ✅</td>
-<td style="text-align:left">선생님 / 교수님</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>el médico / la médica</strong></td>
-<td style="text-align:left"><strong>Medical</strong> (related)</td>
-<td style="text-align:left">의사</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>el ingeniero / la ingeniera</strong></td>
-<td style="text-align:left"><strong>Engineer</strong> ✅</td>
-<td style="text-align:left">엔지니어</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>el camarero / la camarera</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">웨이터 / 식당 종업원</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>el dependiente / la dependienta</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">점원 (상점 직원)</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>el abogado / la abogada</strong></td>
-<td style="text-align:left"><strong>Advocate</strong> (legal)</td>
-<td style="text-align:left">변호사</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>el estudiante / la estudiante</strong></td>
-<td style="text-align:left"><strong>Student</strong> ✅</td>
-<td style="text-align:left">학생</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>la oficina</strong></td>
-<td style="text-align:left"><strong>Office</strong> ✅</td>
-<td style="text-align:left">사무실</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>la tienda</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">상점 / 가게</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>el hospital</strong></td>
-<td style="text-align:left"><strong>Hospital</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align:left">병원</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>el profesor / la profesora</strong></td><td><strong>Professor</strong> ✅</td><td>선생님 / 교수님</td></tr>
+    <tr><td>2</td><td><strong>el médico / la médica</strong></td><td><strong>Medical</strong> (related)</td><td>의사</td></tr>
+    <tr><td>3</td><td><strong>el ingeniero / la ingeniera</strong></td><td><strong>Engineer</strong> ✅</td><td>엔지니어</td></tr>
+    <tr><td>4</td><td><strong>el camarero / la camarera</strong></td><td>—</td><td>웨이터 / 식당 종업원</td></tr>
+    <tr><td>5</td><td><strong>el dependiente / la dependienta</strong></td><td>—</td><td>점원 (상점 직원)</td></tr>
+    <tr><td>6</td><td><strong>el abogado / la abogada</strong></td><td><strong>Advocate</strong> (legal)</td><td>변호사</td></tr>
+    <tr><td>7</td><td><strong>el estudiante / la estudiante</strong></td><td><strong>Student</strong> ✅</td><td>학생</td></tr>
+    <tr><td>8</td><td><strong>la oficina</strong></td><td><strong>Office</strong> ✅</td><td>사무실</td></tr>
+    <tr><td>9</td><td><strong>la tienda</strong></td><td>—</td><td>상점 / 가게</td></tr>
+    <tr><td>10</td><td><strong>el hospital</strong></td><td><strong>Hospital</strong> ✅ (Perfect Cognate)</td><td>병원</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -215,7 +166,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">인칭</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
       <th style="padding: 10px; border: 1px solid #ddd;">Trabajar</th>
       <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to work)</th>
     </tr>
@@ -249,35 +200,20 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Match the job with the place (직업과 어울리는 장소를 연결하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">좌측 (직업)</th>
-<th style="text-align:left">우측 (장소)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. El médico</td>
-<td style="text-align:left">a. El restaurante</td>
-</tr>
-<tr>
-<td style="text-align:left">2. El profesor</td>
-<td style="text-align:left">b. El hospital</td>
-</tr>
-<tr>
-<td style="text-align:left">3. El camarero</td>
-<td style="text-align:left">c. La tienda</td>
-</tr>
-<tr>
-<td style="text-align:left">4. El dependiente</td>
-<td style="text-align:left">d. La escuela</td>
-</tr>
-<tr>
-<td style="text-align:left">5. El abogado</td>
-<td style="text-align:left">e. La oficina</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">좌측 (직업)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">우측 (장소)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. El médico</td><td style="padding: 10px; border: 1px solid #ddd;">a. El restaurante</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. El profesor</td><td style="padding: 10px; border: 1px solid #ddd;">b. El hospital</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. El camarero</td><td style="padding: 10px; border: 1px solid #ddd;">c. La tienda</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. El dependiente</td><td style="padding: 10px; border: 1px solid #ddd;">d. La escuela</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. El abogado</td><td style="padding: 10px; border: 1px solid #ddd;">e. La oficina</td></tr>
+  </tbody>
 </table>
 <p><strong>B. 동사 변형 연습 (괄호 안의 주어에 맞게 'trabajar'를 변형하세요)</strong></p>
 <ol>
@@ -324,43 +260,22 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p><strong>En la cafetería (카페테리아에서)</strong></p>
 <p><strong>Situación:</strong> Elena conoce a un nuevo amigo, Pablo, y hablan sobre sus trabajos.<br>
 <strong>상황:</strong> 엘레나가 새로운 친구 파블로를 만나 서로의 직업에 대해 이야기합니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Elena:</strong> Hola, soy Elena. ¿Y tú?</td>
-<td style="text-align:left"><strong>엘레나:</strong> 안녕, 난 엘레나야. 너는?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Pablo:</strong> Hola Elena, me llamo Pablo. Encantado.</td>
-<td style="text-align:left"><strong>파블로:</strong> 안녕 엘레나, 내 이름은 파블로야. 반가워.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Elena:</strong> Igualmente. ¿A qué te dedicas, Pablo?</td>
-<td style="text-align:left"><strong>엘레나:</strong> 나도 반가워. 파블로, 무슨 일을 하니?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Pablo:</strong> Soy ingeniero. Trabajo en una empresa de tecnología. ¿Y tú?</td>
-<td style="text-align:left"><strong>파블로:</strong> 난 엔지니어이야. 기술 회사에서 일해. 너는?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Elena:</strong> Yo soy estudiante de medicina, pero trabajo los fines de semana como camarera.</td>
-<td style="text-align:left"><strong>엘레나:</strong> 난 의대생이지만, 주말에는 웨이터로 일해.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Pablo:</strong> ¡Qué bien! ¿Dónde trabajas?</td>
-<td style="text-align:left"><strong>파블로:</strong> 멋지다! 어디에서 일하는데?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Elena:</strong> Trabajo en un restaurante italiano cerca de aquí.</td>
-<td style="text-align:left"><strong>엘레나:</strong> 여기 근처에 있는 이탈리아 식당에서 일해.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Hola, soy Elena. ¿Y tú?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 안녕, 난 엘레나야. 너는?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pablo:</strong> Hola Elena, me llamo Pablo. Encantado.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>파블로:</strong> 안녕 엘레나, 내 이름은 파블로야. 반가워.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Igualmente. ¿A qué te dedicas, Pablo?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 나도 반가워. 파블로, 무슨 일을 하니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pablo:</strong> Soy ingeniero. Trabajo en una empresa de tecnología. ¿Y tú?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>파블로:</strong> 난 엔지니어이야. 기술 회사에서 일해. 너는?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Yo soy estudiante de medicina, pero trabajo los fines de semana como camarera.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 난 의대생이지만, 주말에는 웨이터로 일해.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pablo:</strong> ¡Qué bien! ¿Dónde trabajas?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>파블로:</strong> 멋지다! 어디에서 일하는데?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Trabajo en un restaurante italiano cerca de aquí.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 여기 근처에 있는 이탈리아 식당에서 일해.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

@@ -1,11 +1,14 @@
 # Chapter 14: Cultura y celebraciones (A2)
+
 <p class="cervantes-ref">Cervantes: §13 여가활동 심화: 전통 예술 및 §14 축제와 전통 심화: 종교 및 역사적 배경</p>
 
 ## 1. Opener
+
 **Raíces y pasiones (뿌리와 열정)**  
 스페인 문화의 깊이는 수천 년의 역사와 다양한 민족의 흔적이 섞여 만들어진 층위에 있습니다. 단순히 축제를 즐기는 것을 넘어, 그 이면에 담긴 역사적 복잡성과 종교적 경건함, 그리고 예술적 승화 과정을 이해할 수 있을까요? 이번 장에서는 유네스코 인류 무형문화유산인 '플라멩코'의 깊이 있는 어휘, 스페인의 중요한 종교 행사인 '세마나 산타(Semana Santa)', 그리고 지식이나 기술을 나타내는 'saber' 동사를 배움으로써 스페인의 영혼에 한 걸음 더 다가갑니다.
 
 **학습 목표**
+
 - 예술 양식, 역사적 시대 및 종교 관련 심화 어휘 15개 이상 습득
 - 'Saber(알다)' 동사의 활용 (지식, 기술, 정보)
 - 'Saber'와 'Conocer'의 명확한 차이점 구분 및 실전 사용
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: Arte y Patrimonio
+
 스페인의 역사와 예술적 성취를 보여주는 요소들입니다. 고풍스러운 박물관과 유적의 이미지를 보며 어휘를 익혀보세요.
 
-![Artes](../images/ch14_a2_vocab_arts.png)
+![Artes](../images/ch14_a2_vocab_arts_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 문화적 지식과 능력을 표현하고 역사에 대해 이야기할 때 사용하는 패턴입니다.
 
 **A. 지식과 능력 (Saber vs Conocer)**
+
 - **Sé bailar flamenco un poco.** (I know how to dance flamenco a little. / 플라멩코를 조금 출 줄 알아요.)
 - **¿Sabes a qué hora empieza la procesión?** (Do you know what time the procession starts? / 행렬이 몇 시에 시작하는지 아니?)
 - **No sé mucho de historia de España.** (I don't know much about Spanish history. / 스페인 역사에 대해서는 잘 몰라요.)
 - **Quiero conocer más tradiciones.** (I want to know/experience more traditions. / 더 많은 전통을 경험하고 싶어요.)
 
 **B. 종교 및 역사적 배경 (Semana Santa)**
+
 - **Es una tradición muy antigua.** (It is a very ancient tradition. / 이것은 매우 오래된 전통입니다.)
 - **La Semana Santa es muy emocionante.** (Holy Week is very moving/emotional. / 성주간은 매우 감동적입니다.)
 - **El paso (float) es una obra de arte.** (The float is a work of art. / '파소'는 하나의 예술 작품입니다.)
@@ -66,9 +73,11 @@
 ---
 
 ## 4. Gramática Esencial
+
 'Saber'와 'Conocer'의 차이점을 명확히 하고, 'Saber'의 변화를 익혀봅시다.
 
 ### A. Saber (알다) - 1인칭 불규칙
+
 정보, 지식, 혹은 '할 줄 알다'라는 기술을 나타낼 때 사용합니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -89,6 +98,7 @@
 </table>
 
 ### B. Saber vs Conocer 가이드
+
 - **Saber + 정보/사실**: *Sé que hoy es fiesta.* (오늘이 축제인 걸 알아.)
 - **Saber + 동사원형**: *Sé tocar el piano.* (피아노를 칠 줄 알아.)
 - **Conocer + 사람/장소/경험**: *Conozco a Paco.* / *Conozco el Museo del Prado.*
@@ -96,13 +106,14 @@
 ---
 
 ## 5. Cultura Viva: Semana Santa - Pasión y Devoción
+
 스페인에서 가장 장엄한 종교 행사, 성주간을 알아봅시다.
 
-![Semana Santa](../images/ch14_a2_culture_faith.png)
+![Semana Santa](../images/ch14_a2_culture_faith_v2_1.png)
 
 La **Semana Santa** (Holy Week) es una de las tradiciones más profundas de España. Se celebra en todas las ciudades, 하지만 las de Sevilla, Málaga y Valladolid son las más famosas. Las hermandades (brotherhoods) llevan los **pasos** (muebles grandes con esculturas religiosas) por las calles en procesiones solemnes.
 
-El silencio, la música de las bandas와 'Saetas' (전통 노래)가 어우러져 신비롭고 감동적인 분위기를 자아냅니다. Muchos españoles, aunque no sean muy religiosos, respetan y valoran esta tradición por su belleza artística y su importancia histórica. Es un momento en que el pasado와 현재가 공존하는 모습을 볼 수 있습니다. ¡Es una experiencia que te hace sentir el corazón de España!
+El silencio, la música de las bandas y las 'Saetas' (canciones tradicionales) crean una atmósfera misteriosa y conmovedora. Muchos españoles, aunque no sean muy religiosos, respetan y valoran esta tradición por su belleza artística y su importancia histórica. Es un momento en el que el pasado y el presente conviven. ¡Es una experiencia que te hace sentir el corazón de España!
 
 **[한국어 번역]**
 **세마나 산타**(성주간)는 스페인의 가장 깊은 전통 중 하나입니다. 모든 도시에서 기념되지만, 세비야, 말라가, 바야돌리드의 행사가 가장 유명합니다. 형제회(hermandades)들은 종교적 조각상이 안치된 거대한 가마인 **파소(paso)**를 메고 엄숙한 행렬을 지어 거리를 지납니다.
@@ -145,11 +156,13 @@ El silencio, la música de las bandas와 'Saetas' (전통 노래)가 어우러�
 ---
 
 ## 7. Lectura 📖
+
 **Una noche de flamenco en Granada (그라나다의 플라멩코 밤)**
 
-Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una experiencia increíble. Antes, yo no conocía mucho este arte, 하지만 ahora sé que es pura pasión. Los bailarines zapateaban con mucha fuerza y el sonido de la guitarra era muy emocionante. He hablado con el guitarrista y él me ha dicho: "Para tocar el flamenco, hay que conocer el alma de España". Yo sé que todavía tengo mucho que aprender, 하지만 me gustaría conocer más sobre la literatura y la pintura española también. El patrimonio cultural de este país es infinito. ¡Mañana voy a visitar el museo para saber más sobre la historia!
+Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una experiencia increíble. Antes, yo no conocía mucho este arte, pero ahora sé que es pura pasión. Los bailarines zapateaban con mucha fuerza y el sonido de la guitarra era muy emocionante. He hablado con el guitarrista y él me ha dicho: "Para tocar el flamenco, hay que conocer el alma de España". Yo sé que todavía tengo mucho que aprender, pero me gustaría conocer más sobre la literatura y la pintura española también. El patrimonio cultural de este país es infinito. ¡Mañana voy a visitar el museo para saber más sobre la history!
 
 **Questions:**
+
 1. 주인공은 어제 어디에 갔나요? (Where did the protagonist go yesterday?)
    - ............................................................
 2. 기타리스트는 플라멩코를 연주하기 위해 무엇을 알아야 한다고 했나요? (What did the guitarist say one must know to play flamenco?)
@@ -161,6 +174,7 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 ---
 
 ## 8. Diálogo
+
 **Hablando de la Semana Santa (세마나 산타에 대해 이야기하기)**
 
 **Situación:** Clara le explica a su amigo de intercambio, Jin, qué es la Semana Santa.
@@ -187,7 +201,9 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 예술, 유산 및 역사와 관련된 고급 어휘 10개 이상을 이해하나요?
 - [ ] 'Saber'의 1인칭 단수 변화 'sé'를 정확히 알고 있나요?
 - [ ] 'Saber'와 'Conocer'의 사용 상황을 명확히 구분할 수 있나요?
@@ -196,6 +212,7 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 ---
 
 ## 10. Cierre
+
 ¡Excelente profundidad! 오늘 여러분은 스페인의 화려함 뒤에 숨겨진 깊은 '영혼'에 대해 배웠습니다. 'Saber'와 'Conocer'를 통해 여러분의 지적, 경험적 세계를 표현할 수 있게 되었고, 역사와 종교의 흐름을 통해 스페인을 더 입체적으로 이해하게 되었습니다. 문화는 언어의 가장 큰 교과서입니다. 마지막 대장정을 앞두고 있는 다음 장에서는 우리의 학습 여정을 마무리할 '도시 생활, 사회 문제 및 미래의 우리(A2)' 섹션으로 이어가겠습니다. ¡Sigue con esta pasión!
 
 ---
@@ -203,18 +220,18 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 ## 11. Soluciones
 
 **6. Práctica - A. Saber or Conocer?**
-1. sé / 2. conoces / 3. conocemos / 4. sabe / 5. saben
+
+1. 1. sé, 2. conoces, 3. conocemos, 4. sabe, 5. saben
 
 **6. Práctica - B. Saber 동사 변형 연습**
-1. sé / 2. sabe / 3. sabemos / 4. sabes / 5. saben
+
+1. 1. sé, 2. sabe, 3. sabemos, 4. sabes, 5. saben
 
 **6. Práctica - C. 번역 연습**
-1. Sé bailar esa canción.
-2. ¿Conoces el Museo del Prado?
-3. Quiero ver el espectáculo de flamenco una vez más.
-4. Sabemos que la historia de España es muy interesante. (또는 Sabemos que es muy divertida la historia de España.)
-5. La Semana Santa es muy importante en España.
 
-**7. Lectura Questions**
-1. 사크로몬테 지구의 플라멩코 공연 (Espectáculo de flamenco en el barrio del Sacromonte).
-2. 스페인의 영혼 (El alma de España).
+1. 1. Sé bailar esa canción., 2. ¿Conoces el Museo del Prado?, 3. Quiero ver el espectáculo de flamenco una vez más., 4. Sabemos que la historia de España es muy interesante., 5. La Semana Santa es muy importante en España.
+
+**7. Lectura - Preguntas**
+
+1. 1. 사크로몬테 지구의 플라멩코 공연 (Espectáculo de flamenco en el barrio del Sacromonte).
+2. 1. 스페인의 영혼 (El alma de España).

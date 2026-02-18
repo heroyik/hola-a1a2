@@ -1,11 +1,14 @@
 # Chapter 4: Familia y amigos (A1)
+
 <p class="cervantes-ref">Cervantes: §4 Relaciones personales: 가족 구성원 명칭 및 기본적인 사회적 관계 표현</p>
 
 ## 1. Opener
+
 **La familia es lo primero (가족이 최우선입니다)**
 스페인어권 문화에서 가족은 삶의 중심이자 가장 중요한 사회적 단위입니다. 이번 장에서는 가족 구성원의 이름을 배우고, 지시사와 소유사를 활용해 나의 소중한 사람들을 소개하는 방법을 익힙니다. 또한 스페인의 특별한 일요일 가족 식사 문화인 'Comida familiar'에 대해서도 알아봅니다.
 
 **학습 목표**
+
 - 가족 및 친척 명칭 10개 이상 습득
 - 지시형용사(este, esta 등)와 소유형용사(mi, tu 등)의 정교한 활용
 - 가족의 나이와 생일을 묻고 답하기
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial
+
 따뜻한 스페인 가정의 거실 풍경입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![La Familia — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a1_vocab_family.png)
+![La Familia — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a1_vocab_family_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -39,16 +43,19 @@
 ---
 
 ## 3. Expresiones Útiles
+
 가족과 친구를 소개하고 관계를 설명할 때 사용하는 핵심 표현입니다.
 
 **A. 가족 소개하기**
+
 - **Este es mi padre.** (This is my father. / 이분은 나의 아버지입니다.)
-    - 💡 **English Bridge**: "Este" = This (**Este** sounds like "**Este**em" — someone you hold in high regard!)
+  - 💡 **English Bridge**: "Este" = This (**Este** sounds like "**Este**em" — someone you hold in high regard!)
 - **Esta es mi madre.** (This is my mother. / 이분은 나의 어머니입니다.)
 - **Estos son mis hermanos.** (These are my siblings. / 이들은 나의 형제들입니다.)
 - **¿Quién es esa chica?** (Who is that girl? / 저 소녀는 누구니?)
 
 **B. 나이와 관계 묻기**
+
 - **¿Cuántos hermanos tienes?** (How many siblings do you have? / 형제가 몇 명이니?)
 - **Tengo dos hermanos y una hermana.** (I have two brothers and one sister. / 나는 남동생 둘과 여동생 하나가 있어.)
 - **¿Cómo se llama tu primo?** (What is your cousin's name? / 네 사촌 이름이 뭐니?)
@@ -56,6 +63,7 @@
 ---
 
 ## 4. Gramática Esencial
+
 이번 장에서는 소유와 지칭을 위한 핵심 문법인 소유형용사와 지시형용사를 배웁니다.
 
 ### A. 소유형용사 (Adjetivos Posesivos) — 전치형
@@ -157,6 +165,7 @@
 ---
 
 ## 5. Cultura Viva: La Comida Familiar de Domingo 🍲
+
 스페인에서 일요일 오후는 가족이 하나로 뭉치는 성스러운 시간입니다.
 
 En España, la familia es el pilar de la sociedad. Una de las tradiciones más vivas es la comida familiar de los domingos. A partir de las dos o tres de la tarde, varias generaciones (abuelos, padres, hijos y primos) se reúnen alrededor de una mesa grande. Normalmente se sirve paella, asado o una gran variedad de tapas.
@@ -168,7 +177,7 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 
 가장 중요한 것은 음식뿐만 아니라 **소브레메사(sobremesa)**입니다. 소브레메사는 식사를 마친 후 커피나 디저트를 곁들이며 여유롭게 이야기를 나누는 시간입니다. 이 시간은 몇 시간 동안 지속될 수 있습니다. 소식을 공유하고 웃으며 가족 간의 유대를 강화하는 시간입니다.
 
-![스페인 일요일 가족 식사(Comida Familiar)와 소브레메사 문화](../images/ch04_a1_culture_celebration.png)
+![스페인 일요일 가족 식사(Comida Familiar)와 소브레메사 문화](../images/ch04_a1_culture_celebration_v2_1.png)
 
 ---
 
@@ -208,11 +217,13 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 ---
 
 ## 7. Lectura 📖
+
 **La familia de Sofía (소피아의 가족)**
 
 Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi hermano menor, Pablo. Mi padre es ingeniero y su nombre es Manuel. Mi madre es profesora y su nombre es Carmen. También tenemos un perro que se llama 'Sol'. Los domingos, mis abuelos vienen a nuestra casa para la comida. Mi abuelo Pedro tiene setenta años y mi abuela Rosa tiene sesenta y ocho. ¡Amo a mi familia!
 
 **Preguntas (질문):**
+
 1. ¿Quién es Pablo? (파블로는 누구인가요?)
 2. ¿Cuál es la profesión de Manuel? (마누엘의 직업은 무엇인가요?)
 
@@ -223,6 +234,7 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 ---
 
 ## 8. Diálogo
+
 **En una fiesta de cumpleaños (생일 파티에서)**
 
 **Situación:** Lucía invita a su amigo Mark a su fiesta de cumpleaños en Barcelona. Mark conoce a los miembros de la familia de Lucía por primera vez.
@@ -283,7 +295,9 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 조부모, 부모, 형제 등 주요 가족 명칭 **10개 이상**을 외웠다.
 - [ ] 소유형용사(**mi, tu, su, nuestro**)를 수에 맞춰 사용할 수 있다.
 - [ ] **nosotros/vosotros**의 소유형용사가 성별에 따라 변한다는 것을 안다.
@@ -293,6 +307,7 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 ---
 
 ## 10. Cierre
+
 ¡Buen trabajo! 🎉 이번 장을 통해 여러분은 스페인어로 자신의 뿌리인 가족을 소개하고 지칭하는 법을 배웠습니다.
 
 스페인어권 사람들과 대화할 때 가족 이야기는 가장 좋은 아이스브레이킹 주제 중 하나입니다. 영어에는 "this/that" 두 단계만 있지만, 스페인어에는 **este/ese/aquel** 세 단계가 있다는 점을 기억하세요!
@@ -304,22 +319,26 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-c, 2-a, 3-e, 4-b, 5-d
 
-**6. Práctica - B. Fill in the blanks**
-1. Mi
-2. Tu
-3. Nuestro
-4. Sus
-5. Vuestra
+1. 1-c, 2-a, 3-e, 4-b, 5-d
+
+**6. Práctica - B. Fill in the blanks with the correct possessive**
+
+1. 1. Mi
+2. 1. Tu
+3. 1. Nuestro
+4. 1. Sus
+5. 1. Vuestra
 
 **6. Práctica - C. 번역 연습**
-1. Esta es mi abuela.
-2. Aquella niña es mi prima.
-3. ¿Dónde están tus padres?
-4. Nuestro padre es médico.
-5. Estos niños son mis hijos.
+
+1. 1. Esta es mi abuela.
+2. 1. Aquella niña es mi prima.
+3. 1. ¿Dónde están tus padres?
+4. 1. Nuestro padre es médico.
+5. 1. Estos niños son mis hijos.
 
 **7. Lectura - Preguntas**
-1. Pablo es el hermano menor de Sofía.
-2. Manuel es ingeniero.
+
+1. 1. Pablo es el hermano menor de Sofía.
+2. 1. Manuel es ingeniero.

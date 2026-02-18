@@ -1,11 +1,14 @@
 # Chapter 7: En la escuela (A1)
+
 <p class="cervantes-ref">Cervantes: §6 Educación: 학교 시설, 학용품 및 수업 관련 기초 표현 및 규칙</p>
 
 ## 1. Opener
+
 **Aprender es una aventura (배움은 모험입니다)**  
 학교는 단순히 지식을 습득하는 곳을 넘어 친구들과 교류하고 새로운 세상을 만나는 설레는 공간입니다. 이번 장에서는 학교의 다양한 시설과 수업 시간에 사용하는 학용품들의 이름을 배웁니다. 또한 스페인어의 가장 기본이 되는 규칙 동사(-ar, -er, -ir)의 현재 변화를 익혀 "말하고, 먹고, 사는" 일상적인 활동을 표현해 봅니다. 마지막으로 스페인의 초등 교육 시스템과 따뜻한 학교 분위기에 대해서도 알아봅시다.
 
 **학습 목표**
+
 - 학교 시설 및 학용품 명칭 15개 이상 습득
 - 규칙 동사(-ar, -er, -ir)의 현재 시제 변화 완벽 이해 및 활용
 - 'saber'와 'poder'의 기초 용법 구분
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: La Escuela y la Clase
+
 활기찬 스페인 대학교의 강의실 풍경입니다. 번호와 매칭되는 단어를 확인하며 수업 시간에 필요한 어휘들을 익혀보세요.
 
-![La Escuela](../images/ch07_a1_vocab_school.png)
+![La Escuela](../images/ch07_a1_vocab_school_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 학교에서 선생님이나 친구들과 대화할 때 자주 사용하는 표현입니다.
 
 **A. 수업 시간의 질문과 대답**
+
 - **¿Puedo entrar?** (May I come in? / 들어가도 될까요?)
 - **¿Qué significa 이 대목?** (What does this part mean? / 이 부분은 무슨 뜻인가요?)
 - **No entiendo la pregunta.** (I don't understand the question. / 질문을 이해하지 못하겠어요.)
 - **¿Puedes repetir, por favor?** (Can you repeat, please? / 다시 한번 말씀해 주시겠어요?)
 
 **B. 공부와 능력 표현하기**
+
 - **Estudio español los lunes.** (I study Spanish on Mondays. / 나는 월요일마다 스페인어를 공부해.)
 - **No sé la respuesta.** (I don't know the answer. / 정답을 모르겠어요.)
 - **¿Sabes hablar inglés?** (Do you know how to speak English? / 너 영어 할 줄 아니?)
@@ -66,12 +73,15 @@
 ---
 
 ## 4. Gramática Esencial
+
 스페인어 문장의 뼈대가 되는 규칙 동사의 변화와 능력/지식을 나타내는 동사를 기초부터 다져봅시다.
 
 ### A. 규칙 동사 현재형 (Presente)
+
 스페인어 동사 원형은 끝부분에 따라 **-ar, -er, -ir** 그룹으로 나뉩니다. 영어와 달리 스페인어는 '누가(주어)' 행동하는지에 따라 스페인어 동사는 주어에 따라 6가지 형태로 변합니다. 여기서는 가장 기본인 **현재 시제(Presente)** 규칙 변화를 배웁니다.
 
 **💡 English Bridge: Stem & Ending**
+
 - **Stem (어근)**: 동사의 의미를 담고 있는 앞부분 (예: *habl-*, *com-*, *viv-*)
 - **Ending (어미)**: 주어에 따라 변하는 뒷부분 (예: *-o*, *-as*, *-a*)
 - *Thinking Tip*: English only has one change (I speak vs. He speak**s**), but Spanish has a unique ending for every person!
@@ -99,6 +109,7 @@
 스페인어는 동사 변화만으로 주어를 알 수 있는 경우가 많아 주어 대명사(Yo, Tú 등)를 자주 생략합니다. 동사 꼬리(어미)를 정확히 익히는 것이 핵심입니다!
 
 ### B. 필수 불규칙 동사 (Essential Irregulars - Presente)
+
 현재 시제(Presente)에서 가장 많이 쓰이는 6대 필수 불규칙 동사입니다. 변화형이 불규칙하므로 통째로 암기하는 것이 가장 효율적입니다.
 
 **Mandatory Irregulars (Presente):** ser, estar, ir, tener, saber, poder
@@ -144,6 +155,7 @@
 </table>
 
 ### C. Saber vs Poder (기초 구분)
+
 - **Saber**: '지식'이나 '학습을 통해 익힌 능력' (Knowing fact or how to do something)
   - *English Bridge*: "I **know** how to speak Spanish." → *Yo **sé** hablar español.*
 - **Poder**: '허락'이나 '물리적/상황적 가능성' (Being able to do due to permission or means)
@@ -152,9 +164,10 @@
 ---
 
 ## 5. Cultura Viva: El Colegio Público en España
+
 스페인의 아이들은 어떤 환경에서 공부할까요?
 
-![Spanish School](../images/ch07_a1_culture_education.png)
+![Spanish School](../images/ch07_a1_culture_education_v2_1.png)
 
 En España, la educación es obligatoria y gratuita desde los 6 hasta los 16 años. El sistema se divide en **Educación Primaria** (6-12 años) y **Educación Secundaria** (ESO, 12-16 años). Los colegios públicos suelen ser lugares muy coloridos y alegres, con patios grandes para jugar al fútbol o al baloncesto durante el recreo.
 
@@ -201,11 +214,13 @@ A diferencia de otros países, en muchos colegios españoles los niños no lleva
 ---
 
 ## 7. Lectura 📖
+
 **Mi primer día de clase (나의 첫 수업 날)**
 
 Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pero muy contento. En mi mochila tengo tres cuadernos, un bolígrafo azul y mi ordenador portátil. Entro en el aula y veo a muchos estudiantes. El profesor se llama Javier y es muy simpático. En clase, escuchamos al profesor y escribimos notas. No entiendo todo, pero pregunto cuando tengo dudas. Después de la clase, vamos a la cafetería para comer algo y hablar con los nuevos amigos. ¡Va a ser un año fantástico!
 
 **Questions:**
+
 1. 주인공의 가방 안에는 무엇이 있나요? (What is in the protagonist's backpack?)
    - ............................................................
 2. 수업이 끝난 후 학생들은 어디로 가나요? (Where do students go after class?)
@@ -217,6 +232,7 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 ---
 
 ## 8. Diálogo
+
 **En la biblioteca (도서관에서)**
 
 **Situación:** Lucía le pregunta a Diego sobre el examen de mañana mientras estudian en la biblioteca.
@@ -243,7 +259,9 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 학교 시설과 학용품 단어 10개 이상을 외웠나요?
 - [ ] -ar, -er, -ir 규칙 동사의 현재형을 주어에 맞게 변형할 수 있나요?
 - [ ] Saber와 Poder의 의미 차이를 구별할 수 있나요?
@@ -252,6 +270,7 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 ---
 
 ## 10. Cierre
+
 ¡Excelente trabajo! 이번 장에서 여러분은 스페인어의 가장 중요한 기초 중 하나인 규칙 동사의 변화를 배웠습니다. "나는 공부한다(Yo estudio)", "우리는 산다(Vivimos)"와 같은 표현들은 모든 대화의 시작입니다. 이제 여러분은 학교 생활을 묘사하고 자신의 능력을 표현할 수 있게 되었습니다. 잊지 마세요, 언어는 반복입니다! 다음 장에서는 우리의 지적 지평을 더욱 넓혀줄 '대학 생활과 미래 계획(A2)'에 대해 더 깊이 있게 다뤄보겠습니다. ¡Ánimo!
 
 ---
@@ -259,18 +278,22 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 ## 11. Soluciones
 
 **6. Práctica - A. Choose the correct verb ending**
-1. o / 2. imos / 3. es / 4. an / 5. ís
+
+1. 1. o, 2. imos, 3. es, 4. an, 5. ís
 
 **6. Práctica - B. Saber vs Poder**
-1. sé / 2. puedes / 3. sabe / 4. podemos / 5. sabéis
+
+1. 1. sé, 2. puedes, 3. sabe, 4. podemos, 5. sabéis
 
 **6. Práctica - C. 번역 연습**
-1. Leo un libro de español todos los días.
-2. Hablamos mucho con el profesor.
-3. Hay un bolígrafo en la mochila.
-4. ¿Dónde vives?
-5. Ellos estudian en la biblioteca.
 
-**7. Lectura Questions**
-1. 공책 3권, 파란 볼펜, 노트북 컴퓨터 (Tres cuadernos, un bolígrafo azul y un ordenador portátil).
-2. 카페테리아 (A la cafetería).
+1. 1. Leo un libro de español todos los días.
+2. 1. Hablamos mucho con el profesor.
+3. 1. Hay un bolígrafo en la mochila.
+4. 1. ¿Dónde vives?
+5. 1. Ellos estudian en la biblioteca.
+
+**7. Lectura - Preguntas**
+
+1. 1. 공책 3권, 파란 볼펜, 노트북 컴퓨터 (Tres cuadernos, un bolígrafo azul y un ordenador portátil).
+2. 1. 카페테리아 (A la cafetería).

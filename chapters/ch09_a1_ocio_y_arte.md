@@ -1,11 +1,14 @@
 # Chapter 9: Ocio y arte (A1)
+
 <p class="cervantes-ref">Cervantes: §8 Ocio: 여가 취미, 스포츠 및 §18 예술적 활동 기초</p>
 
 ## 1. Opener
+
 **Disfrutar el tiempo libre (여가를 즐기다)**  
 열심히 공부하고 일한 뒤에 찾아오는 휴식은 달콤합니다. 스페인 사람들은 여가 시간을 어떻게 보낼까요? 어떤 사람은 탁 트인 공원에서 축구를 즐기고, 어떤 사람은 세련된 갤러리에서 예술 작품을 감상합니다. 이번 장에서는 다양한 취미 생활과 스포츠 어휘를 배우고, 이동을 나타내는 핵심 동사인 'ir(가다)'와 'venir(오다)'를 익힙니다. 또한 스페인의 화려하고 열정적인 축제 문화를 통해 삶의 즐거움을 표현하는 법을 배워봅시다.
 
 **학습 목표**
+
 - 여가 활동, 스포츠, 예술 관련 어휘 15개 이상 습득
 - 'ir(가다)'와 'venir(오다)' 동사의 불규칙 변화 및 활용
 - 'ir a + 동사원형'을 이용한 가까운 미래 표현 기초
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: Tiempo Libre y Ocio
+
 다양한 방식으로 여가를 즐기는 청춘들의 모습입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Ocio](../images/ch09_a1_vocab_leisure.png)
+![Ocio](../images/ch09_a1_vocab_leisure_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 취미와 여가에 대해 대화할 때 자주 사용하는 패턴입니다.
 
 **A. 취미 묻고 답하기**
-- **¿Qué haces 인 네 타임 리브레?** (What do you do in your free time? / 여가 시간에 무엇을 하나요?)
+
+- **¿Qué haces en tu tiempo libre?** (What do you do in your free time? / 여가 시간에 무엇을 하나요?)
 - **Me gusta mucho leer.** (I like reading very much. / 나는 독서를 아주 좋아해.)
 - **Mi hobby es la música.** (My hobby is music. / 제 취미는 음악입니다.)
 - **No tengo tiempo hoy.** (I don't have time today. / 오늘은 시간이 없어요.)
 
 **B. 제안하고 이동하기**
+
 - **¿Quieres ir al cine?** (Do you want to go to the cinema? / 영화 보러 갈래?)
 - **Vamos al parque.** (Let's go to the park. / 공원에 가자.)
 - **Viene mi amigo a casa.** (My friend is coming to my house. / 내 친구가 집에 와.)
@@ -66,9 +73,11 @@
 ---
 
 ## 4. Gramática Esencial
+
 이동을 갈 때 가장 중요한 두 동사와 미래 계획을 세우는 법을 배워봅시다.
 
 ### A. Ir (가다) & Venir (오다)
+
 두 동사는 매우 중요한 불규칙 동사입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -92,16 +101,19 @@
 'Ir'는 말하는 사람에게서 멀어지는 방향으로 가다, 'Venir'는 말하는 사람 쪽으로 오는 방향일 때 씁니다. 만약 친구가 "우리 집에 올래?"라고 물을 때 "응, 갈게!"라고 답하려면 (내가 친구 쪽으로 가는 것이므로) "Sí, **voy**"라고 답하는 것이 자연스럽습니다.
 
 ### B. Ir a + 동사원형 (가까운 미래)
+
 '~할 것이다'라는 가까운 미래의 계획을 표현할 때 씁니다. 영어의 `be going to`와 매우 흡사합니다.
+
 - **Voy a comer** (I am going to eat / 나는 먹을 것이다)
 - **¿Qué vas a hacer mañana?** (What are you going to do tomorrow? / 너 내일 뭐 할 거니?)
 
 ---
 
-## 5. Cultura Viva: ¡Fiesta y Arte en España!
+## 5. Cultura Viva: ¡Fiesta y Arte en España
+
 스페인의 거리를 수놓는 축제와 예술의 열기를 느껴보세요.
 
-![Spanish Festival](../images/ch09_a1_culture_festivals.png)
+![Spanish Festival](../images/ch09_a1_culture_festivals_v2_1.png)
 
 España es famosa en todo el mundo por sus festivales vibrantes. Uno de los más conocidos es la **Feria de Abril** en Sevilla, donde la gente baila flamenco y lleva trajes tradicionales muy coloridos. También están las **Fallas** de Valencia, con esculturas gigantes que se queman al final de la fiesta.
 
@@ -159,11 +171,13 @@ El arte también está en el ADN de España. El Triángulo del Arte en Madrid, c
 ---
 
 ## 7. Lectura 📖
+
 **Mis planes de fin de semana (나의 주말 계획)**
 
 Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia. Voy a ir en tren el sábado por la mañana. Por la tarde, vamos a pasear por el centro de la ciudad. El domingo, vamos a ver las Fallas. ¡Son unas fiestas increíbles! Mi hermano no viene con nosotros porque tiene un examen de música el lunes. Él va a estudiar todo el fin de semana en casa. Después de la fiesta, voy a comprar un regalo para él. ¡Va a ser muy divertido!
 
 **Questions:**
+
 1. 주인공은 토요일에 어떻게 발렌시아에 가나요? (How does the protagonist go to Valencia?)
    - ............................................................
 2. 남동생/형은 왜 같이 가지 않나요? (Why is the brother not coming?)
@@ -175,6 +189,7 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 ---
 
 ## 8. Diálogo
+
 **¿Qué planes tienes? (무슨 계획이 있니?)**
 
 **Situación:** Mateo y Sara hablan sobre qué hacer el viernes por la tarde.
@@ -201,7 +216,9 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 여가 활동과 스포츠 관련 단어 10개 이상을 외웠나요?
 - [ ] 'Ir'와 'Venir' 동사의 변화를 주어에 맞게 할 수 있나요?
 - [ ] 'Ir a + 동사원형'으로 미래 계획을 말할 수 있나요?
@@ -210,6 +227,7 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 ---
 
 ## 10. Cierre
+
 ¡Fantástico! 이번 장에서 여러분은 단순한 생존을 넘어 삶을 즐기는 법을 스페인어로 배웠습니다. "Voy a ir al cine", "Me gusta la música"와 같은 표현들은 친구를 사귀고 풍성한 대화를 나누는 데 필수적입니다. 여가는 언어를 실생활에 적용해 볼 수 있는 가장 멋진 기회입니다. 다음 장에서는 우리의 문화적 안목을 더욱 높여줄 '영화, 음악 및 예술 심화(A2)'에 대해 더 깊이 있게 다뤄보겠습니다. ¡Disfruta del español!
 
 ---
@@ -217,18 +235,18 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 ## 11. Soluciones
 
 **6. Práctica - A. Choose the correct word**
-1-a / 2-c / 3-b / 4-e / 5-d
+
+1. 1-a, 2-c, 3-b, 4-e, 5-d
 
 **6. Práctica - B. 동사 변형 연습**
-1. voy / 2. vienes / 3. vamos / 4. vienen / 5. va
+
+1. 1. voy, 2. vienes, 3. vamos, 4. vienen, 5. va
 
 **6. Práctica - C. 번역 연습**
-1. Voy a ver una película mañana.
-2. Vamos a pasear por el parque.
-3. ¿Qué vas a estudiar?
-4. Los amigos van a venir a mi casa.
-5. Ella va a bailar.
 
-**7. Lectura Questions**
-1. 기차 (En tren).
-2. 월요일에 음악 시험이 있어서 (Porque tiene un examen de música el lunes).
+1. 1. Voy a ver una película mañana., 2. Vamos a pasear por el parque., 3. ¿Qué vas a estudiar?, 4. Los amigos van a venir a mi casa., 5. Ella va a bailar.
+
+**7. Lectura - Preguntas**
+
+1. 1. 기차 (En tren).
+2. 1. 월요일에 음악 시험이 있어서 (Porque tiene un examen de música el lunes).

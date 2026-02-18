@@ -1,11 +1,14 @@
 # Chapter 6: Mi casa (A2)
+
 <p class="cervantes-ref">Cervantes: §10 Vivienda: 주거 생활 심화, 가전 제품 및 가사 활동과 부동산 관련 고도화 표현</p>
 
 ## 1. Opener
+
 **Vida moderna y hogar (현대적 삶과 가정)**
 A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생활에 필수적인 가전제품(Electrodomésticos)과 매일 일어나는 가사 활동(Tareas domésticas)을 구체적인 동사로 익힙니다. 또한 스페인어로 집을 구하거나 이사할 때 필요한 실무적인 표현들을 다룹니다.
 
 **학습 목표**
+
 - 심화 가전제품 및 가사 도구 어휘 10개 습득
 - 가사 활동 관련 동사(빨래하다, 청소하다, 다리미질하다 등) 익히기
 - 관계대명사 'donde'를 활용한 장소 묘사 고도화
@@ -17,9 +20,10 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 ---
 
 ## 2. Vocabulario Esencial
+
 최신 시설을 갖춘 스마트 홈의 주방과 다용도실 풍경입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Electrodomésticos — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a2_vocab_appliances.png)
+![Electrodomésticos — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a2_vocab_appliances_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -39,16 +43,19 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 ---
 
 ## 3. Expresiones Útiles
+
 가사 분담이나 부동산 관련 상담 시 사용하는 유용한 문장들입니다.
 
 **A. 가사 활동 및 분담 (Household Chores)**
+
 - **¿Quién va a fregar los platos hoy?** (Who is going to wash the dishes today? / 오늘은 누가 설거지할 거야?)
 - **Me toca poner la lavadora.** (It's my turn to put on the laundry. / 내가 세탁기 돌릴 차례야.)
-    - 💡 **English Bridge**: "Me toca" = "It's **my** turn to..." — "tocar" literally means "to touch."
+  - 💡 **English Bridge**: "Me toca" = "It's **my** turn to..." — "tocar" literally means "to touch."
 - **Tenemos que hacer la cama cada mañana.** (We have to make the bed every morning. / 우리는 매일 아침 침대를 정리해야 해.)
 - **Odio planchar la ropa.** (I hate ironing clothes. / 나는 옷 다리는 게 정말 싫어.)
 
 **B. 부동산 및 임대 문의 (Real Estate and Renting)**
+
 - **Busco un piso compartido con otros estudiantes.** (I'm looking for a shared flat with other students. / 쉐어 아파트를 찾고 있어요.)
 - **¿Cuánto cuesta el alquiler al mes?** (How much is the rent per month? / 한 달 월세가 얼마인가요?)
 - **Los gastos de luz y agua están incluidos.** (Electricity and water expenses are included. / 전기와 수도료가 포함되어 있습니다.)
@@ -56,6 +63,7 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 ---
 
 ## 4. Gramática Esencial
+
 이번 장에서는 장소를 수식하는 관계대명사 'donde'와 가사 관련 중요 관용구들을 정리합니다.
 
 ### A. 관계대명사 'Donde' (Where)
@@ -130,6 +138,7 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 ---
 
 ## 5. Cultura Viva: El Desafío de Alquilar en España 🏗️
+
 스페인 대도시에서 집을 구하는 것은 젊은이들에게 큰 도전이자 문화입니다.
 
 Encontrar un piso en ciudades como Madrid, Barcelona o Valencia no es fácil. Debido a los precios altos, muchos jóvenes y estudiantes prefieren **compartir piso**. Buscan una habitación en un piso grande y comparten los gastos y las zonas comunes (cocina, salón). Es una oportunidad excelente para conocer gente de todo el mundo y practicar el idioma.
@@ -141,7 +150,7 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 
 매우 스페인적인 전통 중 하나는 '이웃 반상회(comunidad de vecinos)'인데, 같은 건물에 사는 모든 사람들이 모여 건물 관리에 대해 결정합니다.
 
-![스페인 대도시의 부동산 문화 — 피소 공유와 광고 탐색](../images/ch06_a2_culture_realestate.png)
+![스페인 대도시의 부동산 문화 — 피소 공유와 광고 탐색](../images/ch06_a2_culture_realestate_v2_1.png)
 
 ---
 
@@ -181,11 +190,13 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 ---
 
 ## 7. Lectura 📖
+
 **Mi primer piso compartido (나의 첫 쉐어 하우스)**
 
 Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chicos de Italia y una chica de Alemania. El piso está en un edificio antiguo, pero tiene **ascensor** y una **terraza** maravillosa con vistas a la ciudad. Mi habitación es pequeña, pero es una habitación **exterior** con mucha luz. En casa, tenemos un calendario de **tareas domésticas**: yo paso la **aspiradora** los sábados y mis compañeros **limpian la cocina**. Lo que más me gusta es la **sobremesa** en el salón después de cenar, **donde** hablamos de nuestras culturas y compartimos risas.
 
 **Preguntas (질문):**
+
 1. ¿Cuáles son dos ventajas del piso? (아파트의 장점 두 가지는?)
 2. ¿Qué tarea doméstica hace el narrador? (글쓴이는 어떤 가사를 담당하나요?)
 
@@ -196,6 +207,7 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 ---
 
 ## 8. Diálogo
+
 **Problemas en casa (집안의 문제들)**
 
 **Situación:** Sofía y su compañero de piso, Pablo, están discutiendo sobre el mantenimiento de la casa.
@@ -244,7 +256,9 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 ---
 
 ## 9. Repaso
+
 이 장에서 배운 핵심 내용을 체크해 보세요:
+
 - [ ] 세탁기, 식기세척기, 리모컨 등 **10개 이상**의 가전제품 어휘를 익혔다.
 - [ ] '**Hacer la cama**', '**Poner la lavadora**' 등 가사 관련 관용구를 구사할 수 있다.
 - [ ] 관계대명사 '**donde**'를 활용해 장소를 수식할 수 있다.
@@ -253,6 +267,7 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 ---
 
 ## 10. Cierre
+
 ¡Excelente! 🎉 이번 장을 통해 여러분은 현대적인 주거 생활을 스페인어로 누릴 수 있는 준비를 마쳤습니다.
 
 집안일을 분담하고, 고장 난 가전제품에 대해 이야기하며, 멋진 아파트를 찾는 과정은 스페인어권 현지 삶에 깊숙이 들어가는 첫걸음입니다. "**Mi casa es tu casa**" (나의 집이 당신의 집입니다) — 이 스페인식 환대를 기억하며, 여러분의 공간을 스페인어 단어들로 채워보세요!
@@ -264,22 +279,26 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 ## 11. Soluciones
 
 **6. Práctica - A. Match the appliances**
-1-b, 2-c, 3-e, 4-a, 5-d
+
+1. 1-b, 2-c, 3-e, 4-a, 5-d
 
 **6. Práctica - B. Complete with 'donde'**
-1. donde duermo
-2. donde venden
-3. donde vamos
-4. donde trabaja
-5. donde viven
+
+1. 1. donde duermo
+2. 1. donde venden
+3. 1. donde vamos
+4. 1. donde trabaja
+5. 1. donde viven
 
 **6. Práctica - C. 번역 연습**
-1. Tengo que hacer la cama cada mañana.
-2. Me toca (a mí), yo pongo el lavavajillas.
-3. Esta es la oficina donde trabaja mi amigo.
-4. ¿Están incluidos los gastos de agua en el alquiler?
-5. Ayer pasé la aspiradora y planché la ropa todo el día.
+
+1. 1. Tengo que hacer la cama cada mañana.
+2. 1. Me toca (a mí), yo pongo el lavavajillas.
+3. 1. Esta es la oficina donde trabaja mi amigo.
+4. 1. ¿Están incluidos los gastos de agua en el alquiler?
+5. 1. Ayer pasé la aspiradora y planché la ropa todo el día.
 
 **7. Lectura - Preguntas**
-1. 엘리베이터(ascensor)가 있고 전망이 좋은 테라스(terraza)가 있습니다.
-2. 토요일마다 청소기로 청소하는 것(pasar la aspiradora)을 담당합니다.
+
+1. 1. 엘리베이터(ascensor)가 있고 전망이 좋은 테라스(terraza)가 있습니다.
+2. 1. 토요일마다 청소기로 청소하는 것(pasar la aspiradora)을 담당합니다.

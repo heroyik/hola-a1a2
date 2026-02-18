@@ -1,11 +1,14 @@
 # Chapter 10: De compras (A2)
+
 <p class="cervantes-ref">Cervantes: §12 쇼핑, 상점 및 시설 심화: 의류, 색상, 가격 및 실전 구매 시나리오</p>
 
 ## 1. Opener
+
 **Consumo inteligente (현명한 소비)**  
 A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신의 스타일을 정의하고 가치를 비교하며 문제를 해결하는 과정입니다. 마음에 드는 옷의 정확한 색상을 표현하고, 가격을 협상하거나, 온라인 쇼핑 중 발생한 문제를 해결할 수 있을까요? 이번 장에서는 더 풍부한 색채 형용사와 가격 관련 표현, 그리고 현대적인 온라인 쇼핑 어휘를 배웁니다. 또한 형용사의 비교급과 최상급을 통해 물건들을 비교하고 최선의 선택을 하는 법을 익혀봅시다.
 
 **학습 목표**
+
 - 색상, 원단, 디자인 및 온라인 쇼핑 관련 고급 어휘 15개 이상 습득
 - 형용사의 비교급(Comparative)과 최상급(Superlative) 활용법
 - '잘 맞다(quedar bien)', '교환하다(cambiar)' 등 실전 쇼핑 동사 심화
@@ -17,9 +20,10 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 ---
 
 ## 2. Vocabulario Esencial: Colores, Tallas y Precios
+
 여러분의 스타일을 더욱 화려하게 만들어줄 색상과 쇼핑 필수 요소들입니다. 이미지 속 부티크의 풍경과 함께 어휘를 익혀보세요.
 
-![Boutique y Colores](../images/ch10_a2_vocab_price_color.png)
+![Boutique y Colores](../images/ch10_a2_vocab_price_color_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 ---
 
 ## 3. Expresiones Útiles
+
 고급 쇼핑 시나리오에서 자주 사용하는 핵심 패턴입니다.
 
 **A. 교환 및 환불 (Cambios y Devoluciones)**
+
 - **Quiero cambiar este vestido por otra talla.** (I want to change this dress for another size. / 이 원피스를 다른 사이즈로 교환하고 싶어요.)
 - **¿Es posible devolver el dinero?** (Is it possible to return the money? / 환불이 가능한가요?)
 - **Tengo el recibo aquí.** (I have the receipt here. / 여기 영수증이 있어요.)
 - **Tiene un defecto.** (It has a defect. / 결함이 있어요.)
 
 **B. 온라인 쇼핑 (Compras en línea)**
+
 - **He comprado esto por internet.** (I bought this online. / 이걸 인터넷으로 샀어요.)
 - **¿Cuándo llegará mi pedido?** (When will my order arrive? / 제 주문이 언제 도착할까요?)
 - **Los gastos de envío son gratuitos.** (Shipping costs are free. / 배송비가 무료입니다.)
@@ -66,19 +73,24 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 ---
 
 ## 4. Gramática Esencial
+
 물건의 가치를 비교하고 최고의 선택을 표현하는 법을 배워봅시다.
 
 ### A. 비교급 (Comparativos)
+
 두 대상을 비교할 때 사용합니다.
+
 - **우등 비교**: **más** + 형용사 + **que** (more ... than)
   - *Esta camisa es más barata que esa.* (이 셔츠가 저것보다 더 싸다.)
 - **열등 비교**: **menos** + 형용사 + **que** (less ... than)
-  - *Estos zapatos son menos cómodos.* (이 구두는 덜 편하다.)
+  - *Estos zapatos son menos cómodos que esos.* (이 구두는 저것들보다 덜 편하다.)
 - **동등 비교**: **tan** + 형용사 + **como** (as ... as)
   - *El bolso azul es tan bonito como el negro.* (파란 가방은 검은 것만큼 예쁘다.)
 
 ### B. 최상급 (Superlativos)
+
 여러 대상 중 최고를 나타낼 때 사용합니다. 정관사(el, la, los, las)를 함께 씁니다.
+
 - **정관사 + más/menos + 형용사**
   - **Es el vestido más caro de la tienda.** (가게에서 가장 비싼 원피스입니다.)
 - **절대 최상급 (-ísimo/a)**: '매우 ~하다'는 의미를 강조합니다.
@@ -87,9 +99,10 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 ---
 
 ## 5. Cultura Viva: E-commerce y Consumo en España
+
 스페인의 현대적인 온라인 소비 문화를 알아봅시다.
 
-![Online Shopping](../images/ch10_a2_culture_online.png)
+![Online Shopping](../images/ch10_a2_culture_online_v2_1.png)
 
 España se ha adaptado rápidamente a la era digital. Aunque ir de compras por los centros comerciales como **El Corte Inglés** sigue siendo una tradición familiar, el **comercio electrónico** o e-commerce ha crecido exponencialmente en los últimos años. Gigantes internacionales y plataformas locales son muy populares entre los jóvenes (la generación Z y los millennials).
 
@@ -127,7 +140,7 @@ La logística en España es muy eficiente, con entregas en 24 horas en la mayor�
 1. Este pastel está (..........). (bueno - 절대최상급)
 2. La talla L es (..........) que la M. (grande - 비교급)
 3. Es la película (..........) del año. (interesante - 최상급)
-4. Mis zapatos jsou (..........). (caro - 복수형)
+4. Mis zapatos son (..........). (caro - 복수형)
 5. La chaqueta es (..........) cómoda. (muy - 부사 활용)
 
 **C. 번역 연습 (비교급과 온라인 쇼핑 표현을 활용하세요)**
@@ -146,11 +159,13 @@ La logística en España es muy eficiente, con entregas en 24 horas en la mayor�
 ---
 
 ## 7. Lectura 📖
+
 **Mi experiencia con las compras online (나의 온라인 쇼핑 경험)**
 
 Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda online muy conocida. El diseño era espectacular y el precio era muy competitivo, incluso con los gastos de envío. Sin embargo, cuando llegó el pedido el viernes pasado, la talla era demasiado pequeña para mí. Inmediatamente, entré en la página web para solicitar un cambio. El proceso fue facilísimo. Al día siguiente, un mensajero vino a mi casa para recoger la chaqueta vieja y me entregó una nueva de la talla correcta. ¡El servicio fue excelente! Ahora, la chaqueta me queda perfectamente y el color es incluso más bonito que en las fotos. Recomiendo esta tienda a todos mis amigos.
 
 **Questions:**
+
 1. 주인공이 주문한 자켓에 어떤 문제가 있었나요? (What was the problem with the jacket?)
    - ............................................................
 2. 반품/교환 프로세스가 어떠했나요? (How was the return/exchange process?)
@@ -162,6 +177,7 @@ Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda onli
 ---
 
 ## 8. Diálogo
+
 **¿Me queda bien? (나한테 잘 어울려?)**
 
 **Situación:** Lucía está en una tienda de ropa con su amigo Carlos y se prueba algunas cosas.
@@ -188,7 +204,9 @@ Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda onli
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 색상 어휘와 옷 관련 고급 단어 10개 이상을 이해하나요?
 - [ ] 비교급(más/menos/tan)과 최상급을 상황에 맞게 쓸 수 있나요?
 - [ ] 교환, 환불 및 온라인 쇼핑과 관련된 실전 표현을 익혔나요?
@@ -197,6 +215,7 @@ Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda onli
 ---
 
 ## 10. Cierre
+
 ¡Excelente! 이번 장을 통해 여러분은 스페인어로 자신의 스타일을 선택하고, 가치를 비교하며, 합리적인 소비를 하는 법을 배웠습니다. 형용사의 다양한 변화와 비교 표현들은 여러분의 스페인어를 더욱 풍부하고 논리적으로 만들어줄 것입니다. 쇼핑이라는 일상의 주제가 예술적인 표현으로 승화되는 것을 느끼셨나요? 다음 장에서는 소중한 사람들과 소통하는 '미디어, IT 및 현대 사회의 소통(A2)' 섹션으로 넘어가겠습니다. ¡Disfruta de tu nuevo estilo!
 
 ---
@@ -204,18 +223,18 @@ Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda onli
 ## 11. Soluciones
 
 **6. Práctica - A. Choose the correct comparative**
-1-c / 2-d / 3-a / 4-b / 5-e
+
+1. 1-c, 2-d, 3-a, 4-b, 5-e
 
 **6. Práctica - B. 형용사 변형 및 최상급**
-1. buenísimo / 2. más grande / 3. más interesante / 4. caros / 5. muy
+
+1. 1. buenísimo, 2. más grande, 3. más interesante, 4. caros, 5. muy
 
 **6. Práctica - C. 번역 연습**
-1. Esta camisa es más bonita que esa.
-2. ¿Cuál es el bolso (또는 el bolso de mano) más barato?
-3. Mi pedido todavía no ha llegado.
-4. ¿Cuánto cuestan los gastos de envío?
-5. Quiero cambiar esto por otro color.
 
-**7. Lectura Questions**
-1. 사이즈가 너무 작았음 (La talla era demasiado pequeña).
-2. 매우 쉽고 효율적이었음 (Facilísimo y eficiente).
+1. 1. Esta camisa es más bonita que esa., 2. ¿Cuál es el bolso (또는 el bolso de mano) más barato?, 3. Mi pedido todavía no ha llegado., 4. ¿Cuánto cuestan los gastos de envío?, 5. Quiero cambiar esto por otro color.
+
+**7. Lectura - Preguntas**
+
+1. 1. 사이즈가 너무 작았음 (La talla era demasiado pequeña).
+2. 1. 매우 쉽고 효율적이었음 (Facilísimo y eficiente).

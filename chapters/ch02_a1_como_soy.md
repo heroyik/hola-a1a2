@@ -1,11 +1,14 @@
 # Chapter 2: ¿Cómo soy? (A1)
+
 <p class="cervantes-ref">Cervantes: §2 Persona: 신체적 외모 기술 및 기본적인 성격, 기분 상태 표현</p>
 
 ## 1. Opener
+
 **¿Cómo eres tú?**
 이 장에서는 나와 주변 사람들의 성격, 외모, 그리고 현재의 기분과 감정을 묘사하는 방법을 배웁니다. 스페인어에서 가장 중요한 두 동사, **ser**와 **estar**의 결전이 시작됩니다!
 
 **학습 목표**
+
 - 성격과 외모를 나타내는 핵심 형용사 10개 이상 습득
 - '본질'을 나타내는 ser 동사와 '상태'를 나타내는 estar 동사의 완벽 구분
 - 긍정형과 부정형을 사용한 자기소개 및 타인 묘사
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial
+
 아래 삽화 속 인물들의 특징을 살펴보며 필수 형용사를 익혀보세요. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![¿Cómo somos? — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_personality_v56.png)
+![¿Cómo somos? — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_personality_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -39,15 +43,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 일상에서 나를 표현하거나 남을 물어볼 때 사용하는 핵심 문장들입니다.
 
 **A. 성격/외모 묻고 답하기 (Ser)**
+
 - **¿Cómo eres?** (What are you like? / 너는 어떤 사람이니?) — 성격/외모
 - **Soy una persona alegre.** (I am a cheerful person. / 나는 밝은 사람이야.)
 - **Mi amigo es muy simpático.** (My friend is very friendly. / 내 친구는 정말 성격이 좋아.)
-    - 💡 **English Bridge**: "Simpático" looks like "sympathetic" but means "friendly/nice" — a **False Friend** to watch!
+  - 💡 **English Bridge**: "Simpático" looks like "sympathetic" but means "friendly/nice" — a **False Friend** to watch!
 
 **B. 기분/상태 묻고 답하기 (Estar)**
+
 - **¿Cómo estás?** (How are you? / 지금 기분 어때?) — 상태/기분
 - **Estoy un poco cansado.** (I am a bit tired. / 나는 좀 피곤해.)
 - **Ella está muy feliz hoy.** (She is very happy today. / 그녀는 오늘 아주 행복해 보여.)
@@ -55,6 +62,7 @@
 ---
 
 ## 4. Gramática Esencial
+
 ### Ser vs. Estar: '본질(Essence)'과 '상태(State)'의 구분
 
 스페인어의 'be 동사'는 두 가지로 나뉩니다. 이를 구분하는 것이 초급 단계의 가장 큰 산입니다.
@@ -62,6 +70,7 @@
 ### 어근/어미 변화 분석 (Stem & Ending Analysis)
 
 **English Bridge**: English has **one** "to be" verb. Spanish splits it into **two**: **ser** (permanent) and **estar** (temporary). Think of it as:
+
 - **SER** = "I am *who* I am" (identity, origin, personality, appearance)
 - **ESTAR** = "I am *how/where* I am" (mood, health, location)
 
@@ -171,6 +180,7 @@
 ---
 
 ## 5. Cultura Viva: Dos Besos 💋
+
 스페인 사람들의 따뜻한 인사법을 알아볼까요?
 
 **¡Dos besos para todos!**
@@ -184,7 +194,7 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 이 제스처는 스페인 문화 특유의 따뜻함과 사회성을 잘 보여줍니다. 신체적 거리를 유지하는 다른 문화권과 달리, 스페인에서는 가까운 접촉이 신뢰와 우정의 표시입니다. 심지어 격식이 덜한 전문적인 환경에서도 동료나 지인을 만날 때 두 번의 키스로 인사하는 것이 일반적입니다. 가족 관계가 아닌 남성들 사이에서는 보통 악수를 하거나, 아주 친한 경우에는 가벼운 포옹을 합니다.
 
-![스페인 거리에서 양쪽 볼에 인사 키스(Dos Besos)를 나누는 친구들](../images/ch02_a1_culture_greeting_v56.png)
+![스페인 거리에서 양쪽 볼에 인사 키스(Dos Besos)를 나누는 친구들](../images/ch02_a1_culture_greeting_v2_1.png)
 
 ---
 
@@ -192,13 +202,13 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 **A. Match the word (알맞은 보기를 연결하세요)**
 
-1. alegre → ( )
-2. alto → ( )
-3. serio → ( )
-4. simpático → ( )
-5. delgado → ( )
+1. alegre (Cheerful)
+2. alto (Tall)
+3. serio (Serious)
+4. simpático (Friendly)
+5. delgado (Thin)
 
-a. serious / b. friendly / c. cheerful / d. thin / e. tall
+(Options: a. serious / b. friendly / c. cheerful / d. thin / e. tall)
 
 **B. Completa con 'ser' o 'estar' (알맞은 동사를 빈칸에 쓰세요)**
 
@@ -224,11 +234,13 @@ a. serious / b. friendly / c. cheerful / d. thin / e. tall
 ---
 
 ## 7. Lectura 📖
+
 **Mi familia es especial**
 
 Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto y serio, pero muy inteligente. Mi madre es alegre y siempre está feliz. Mi hermano menor, Pablo, es un poco bajo y muy simpático. Yo soy una persona tranquila y hoy estoy muy contenta porque es mi cumpleaños. ¡Somos una familia muy unida!
 
 **Preguntas (질문):**
+
 1. ¿Cómo es el padre de Sofía? (소피아의 아버지는 어떤 분인가요? — 성격과 외모)
 2. ¿Cómo es Pablo? (파블로는 어떤 사람인가요?)
 3. ¿Por qué Sofía está contenta hoy? (소피아가 오늘 기분이 좋은 이유는 무엇인가요?)
@@ -240,6 +252,7 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 ---
 
 ## 8. Diálogo
+
 **¿Cómo estás hoy? (오늘 기분 어때?)**
 
 **Situación:** Pedro se encuentra con su amiga Lucía en la universidad. Pedro nota que Lucía se ve un poco diferente hoy y le pregunta por su estado de ánimo y su salud.
@@ -292,7 +305,9 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 ---
 
 ## 9. Repaso
+
 이 장에서 배운 내용을 확인해 보세요:
+
 - [ ] 사람의 외모와 성격을 묘사하는 형용사 **10개 이상**을 알고 있다.
 - [ ] **Ser** 동사와 **Estar** 동사의 변화형을 모두 외웠다.
 - [ ] 언제 **Ser**(본질/정체성)를 쓰고 언제 **Estar**(상태/위치)를 쓰는지 명확히 구분할 수 있다.
@@ -302,6 +317,7 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 ---
 
 ## 10. Cierre
+
 ¡Buen trabajo! 🎉 성격과 외모를 표현하는 법을 배우면서 여러분은 이제 자신을 스페인어로 소개할 수 있게 되었습니다.
 
 성격은 '**본질(Ser)**', 기분은 '**상태(Estar)**'라는 핵심 원칙만 기억한다면 여러분의 스페인어 실력은 한 단계 더 도약할 것입니다. 이 두 동사의 구분은 영어에는 없는 스페인어 고유의 특성이므로, 다양한 예문을 통해 꾸준히 연습하는 것이 중요합니다.
@@ -313,9 +329,15 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-c, 2-e, 3-a, 4-b, 5-d
+
+1. 1-c (alegre - cheerful)
+2. 2-e (alto - tall)
+3. 3-a (serio - serious)
+4. 4-b (simpático - friendly)
+5. 5-d (delgado - thin)
 
 **6. Práctica - B. Completa con 'ser' o 'estar'**
+
 1. soy
 2. es
 3. estamos
@@ -323,6 +345,7 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 5. está
 
 **6. Práctica - C. 번역 연습**
+
 1. Soy una persona inteligente.
 2. ¿Estás triste hoy?
 3. Pedro es muy simpático.

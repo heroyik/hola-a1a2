@@ -1,8 +1,11 @@
 # Chapter 1: Mi cuerpo y salud (A1)
+
 <p class="cervantes-ref">Cervantes: §1 Identidad (신체 특징), §13 Salud (신체 부위별 명칭 및 기초 건강 상태 표현)</p>
 
 ## 1. Opener
+
 **학습 목표**:
+
 - 머리부터 발끝까지 17개의 신체 부위를 식별하고 스페인어로 이름을 말할 수 있습니다.
 - 소유, 나이, 신체적 상태를 표현하기 위한 불규칙 동사 `tener`(가지다)의 현재 시제 활용을 마스터합니다.
 - 스페인의 공공 의료 시스템과 건강한 생활 습관에 대한 문화적 배경을 이해합니다.
@@ -14,9 +17,10 @@
 ---
 
 ## 2. Vocabulario Esencial: El Cuerpo Humano
+
 신체 부위를 나타내는 필수 어휘입니다. 아래 일러스트의 번호와 매칭하여 학습해보세요. 삽화에 표시된 각 번호(①~⑰)가 아래 어휘 표의 번호와 정확히 대응됩니다.
 
-![신체 부위 일러스트 — 번호 ①~⑰ 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v55.png)
+![신체 부위 일러스트 — 번호 ①~⑰ 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v2_1_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -43,14 +47,16 @@
 ---
 
 ## 3. Expresiones Útiles
+
 실생활에서 자주 사용하는 유용한 표현들입니다.
 
 **A. 건강 상태 묻고 답하기**
+
 - **¿Cómo estás?** (How are you? / 어떻게 지내니?)
 - **Estoy bien, gracias.** (I'm well, thanks. / 잘 지내요, 감사합니다.)
 - **Me siento mal.** (I feel bad. / 기분이 안 좋아요/몸이 안 좋아요.)
 - **Estoy resfriado/a.** (I have a cold. / 감기에 걸렸어요.)
-    - 💡 **English Bridge**: "Resfriado" shares the root with "refrigerate" — both relate to cold!
+  - 💡 **English Bridge**: "Resfriado" shares the root with "refrigerate" — both relate to cold!
 
 **B. 신체적 감각 표현 (Tener + 명사)**
 스페인어에서는 영어의 "I am + adjective" 표현 중 많은 부분이 "Tener + noun" 구조로 바뀝니다. 이것은 영어 학습자가 가장 자주 실수하는 패턴입니다.
@@ -74,6 +80,7 @@
 `tener`는 영어의 "to have"에 해당하지만, 활용 패턴이 매우 다릅니다.
 
 **Stem change rule (어간 모음 변화)**: `e → ie`
+
 - Stem(어근) `ten-`이 특정 인칭에서 `tien-`으로 변합니다.
 - 이 변화는 **Boot Verb** 패턴으로, yo와 nosotros/vosotros를 제외한 인칭에서 발생합니다.
 
@@ -130,19 +137,23 @@
 ### 주요 용법
 
 **1. 소유 (Possession)**
+
 - *Yo tengo un libro.* ("I have a book." / 나는 책을 한 권 가지고 있다.)
 
 **2. 나이 (Age)**
+
 - 스페인어에서는 나이를 "갖는다"라고 표현합니다. 영어의 "I am 20 years old"와 다릅니다.
 - *Tengo 20 años.* (Literally: "I have 20 years." → "I am 20 years old.")
 
 **3. 신체적/생리적 상태 (Physical States)**
+
 - *Tengo hambre.* (I have hunger → I am hungry)
 - *Tengo sed.* (I have thirst → I am thirsty)
 - *Tengo sueño.* (I have sleepiness → I am sleepy)
 
 **Korean Tip!**
 한국어에서는 "배고프다", "목마르다"를 형용사처럼 사용하지만, 스페인어에서는 "배고픔을 가지고 있다"는 식으로 명사를 목적어로 취한다는 점을 기억하세요. 그래서 '매우 배고프다'라고 할 때는 형용사를 수식하는 *muy*가 아니라 명사를 수식하는 ***mucho/a***를 사용합니다.
+
 - ✅ *Tengo **mucha** hambre.* (hambre는 여성 명사)
 - ❌ ~~*Tengo muy hambre.*~~
 
@@ -150,7 +161,7 @@
 
 ## 5. Cultura Viva: El Sistema de Salud en España
 
-![스페인 마드리드의 현대적인 공공 보건소(Centro de Salud)와 초록 십자 약국 풍경](../images/ch01_a1_culture_health_v55.png)
+![스페인 마드리드의 현대적인 공공 보건소(Centro de Salud)와 초록 십자 약국 풍경](../images/ch01_a1_culture_health_v2_1_v2_1.png)
 
 España cuenta con uno de los sistemas de salud pública más eficientes del mundo, conocido como **Seguridad Social**. Este sistema garantiza el acceso universal a la atención médica para todos los ciudadanos y residentes.
 
@@ -179,7 +190,7 @@ a. Eye / b. Foot / c. Hand / d. Head / e. Nose
 
 1. Yo ______________________ mucho calor hoy.
 2. ¿Tú ______________________ hambre ahora?
-3. Nosotros ______________________ tres gatos.
+3. Nosotros ______________________ 세 gatos.
 4. Ella ______________________ veinticinco años.
 5. Vosotros ______________________ sed.
 
@@ -193,17 +204,19 @@ a. Eye / b. Foot / c. Hand / d. Head / e. Nose
    (............................................................)
 4. 그들은 배고프지 않아요.
    (............................................................)
-5. 제 이름은 루시아이고 19살입니다.
+5. 루시아는 19살입니다.
    (............................................................)
 
 ---
 
 ## 7. Lectura 📖
+
 **Mi rutina de salud (나의 건강 루틴)**
 
 Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el parque durante treinta minutos. A veces tengo dolor de espalda, pero hago ejercicio para sentirme mejor. Bebo mucha agua porque siempre tengo sed después de correr. Mi hermana Sofía tiene una dieta muy sana; ella come muchas frutas y verduras frescas cada día. Nosotros tenemos suerte de vivir cerca de un Centro de Salud donde nuestro médico de cabecera nos atiende con mucha amabilidad.
 
 **Preguntas (질문):**
+
 1. ¿Qué hace Carlos todos los días? (카를로스는 매일 무엇을 하나요?)
 2. ¿Por qué Carlos bebe mucha agua? (카를로스는 왜 물을 많이 마시나요?)
 3. ¿Cómo es la dieta de Sofía? (소피아의 식단은 어떤가요?)
@@ -279,6 +292,7 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 ---
 
 ## 9. Repaso
+
 이번 장에서 배운 핵심 내용을 확인해보세요.
 
 - [ ] 머리, 눈, 코, 입, 손, 발 등 **17개 신체 부위** 명칭을 외웠나요?
@@ -292,6 +306,7 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 ---
 
 ## 10. Cierre
+
 축하합니다! 🎉 첫 번째 장을 성공적으로 마쳤습니다!
 
 우리 몸의 소중함을 알고 이를 스페인어로 표현하는 것은 매우 기초적이면서도 중요한 과정입니다. 특히 **tener** 동사는 스페인어에서 가장 빈번하게 등장하는 핵심 동사로, 소유부터 나이, 신체 상태까지 정말 다양한 상황에서 사용됩니다. 지금 배운 **어간 모음 변화(e→ie)** 패턴은 querer, preferir 등 앞으로 만나게 될 수많은 동사에도 동일하게 적용되니, 입에 착 붙을 때까지 반복 연습해보세요.
@@ -303,18 +318,11 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-d, 2-c, 3-a, 4-b, 5-e
+
+1. 1-d, 2-c, 3-a, 4-b, 5-e
 
 **6. Práctica - B. Fill in the blanks**
-1. tengo
-2. tienes
-3. tenemos
-4. tiene
-5. tenéis
+2. 1. tengo, 2. tienes, 3. tenemos, 4. tiene, 5. tenéis
 
 **6. Práctica - C. 번역 연습**
-1. Tengo sueño.
-2. Tenemos sed. / Nosotros tenemos sed.
-3. ¿Tienes (un) coche?
-4. (Ellos) No tienen hambre.
-5. Me llamo Lucía y tengo 19 (diecinueve) años.
+3. 1. Tengo sueño., 2. Tenemos sed., 3. ¿Tienes (un) coche?, 4. No tienen hambre., 5. Lucía tiene 19 años.

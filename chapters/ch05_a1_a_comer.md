@@ -1,11 +1,14 @@
 # Chapter 5: ¡A comer! (A1)
+
 <p class="cervantes-ref">Cervantes: §5 Alimentación: 음식, 음료 명칭 및 레스토랑에서의 기본 표현</p>
 
 ## 1. Opener
+
 **¡Buen provecho! (맛있게 드세요!)**
 스페인어로 '먹는 것'은 단순히 영양을 섭취하는 행위를 넘어, 삶의 기쁨과 사교의 중심입니다. 이번 장에서는 다양한 스페인 음식과 음료의 명칭을 배우고, 레스토랑에서 음식을 주문하거나 선호를 표현하는 방법을 익힙니다. 스페인의 독특한 타파스(Tapas) 문화와 식사 시간의 비밀도 함께 알아봅시다.
 
 **학습 목표**
+
 - 주요 식재료 및 음식/음료 어휘 10개 이상 습득
 - 'querer'(원하다)와 'preferir'(선호하다) 동사를 활용한 의사 표현
 - 레스토랑에서의 주문 및 결제 관련 기본 패턴 익히기
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial
+
 따스한 햇살이 비치는 테라스의 풍성한 식탁입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Comida y Bebida — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a1_vocab_food.png)
+![Comida y Bebida — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a1_vocab_food_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -39,24 +43,28 @@
 ---
 
 ## 3. Expresiones Útiles
+
 레스토랑에서 음식을 주문하고 계산할 때 사용하는 핵심적인 패턴입니다.
 
 **A. 주문하기 (Ordering)**
+
 - **Para mí, una paella, por favor.** (For me, a paella, please. / 저는 파에야 한 접시 주세요.)
 - **¿Qué quieres beber?** (What do you want to drink? / 무엇을 마시고 싶니?)
-    - 💡 **English Bridge**: "Querer" doesn't look like "want," but think of it as "**quest**" — you're on a quest for what you desire!
+  - 💡 **English Bridge**: "Querer" doesn't look like "want," but think of it as "**quest**" — you're on a quest for what you desire!
 - **Quiero una cerveza fría.** (I want a cold beer. / 찬 맥주 한 잔 원해요.)
 - **Para compartir, unas croquetas.** (To share, some croquettes. / 나눠 먹게 크로케타 좀 주세요.)
 
 **B. 선호 표현 및 계산 (Preference and Check)**
+
 - **Prefiero el vino blanco.** (I prefer white wine. / 저는 화이트 와인을 선호해요.)
-    - 💡 **English Bridge**: "Prefiero" = "I **prefer**" ✅ — perfect cognate!
+  - 💡 **English Bridge**: "Prefiero" = "I **prefer**" ✅ — perfect cognate!
 - **La cuenta, por favor.** (The check, please. / 계산서 주세요.)
 - **¿Puedo pagar con tarjeta?** (Can I pay with a card? / 카드로 결제 가능한가요?)
 
 ---
 
 ## 4. Gramática Esencial
+
 음식 주문과 선호 표현에 필수적인 불규칙 동사 'querer'와 'preferir'를 배웁니다.
 
 ### A. 동사 Querer (원하다 / 사랑하다) — 어간 변화 e→ie
@@ -167,6 +175,7 @@
 ---
 
 ## 5. Cultura Viva: El Arte de Tapear 🍷
+
 스페인 미식 문화의 꽃, 타파스(Tapas)를 즐기는 법을 소개합니다.
 
 Ir de tapas no es solo comer, es una actividad social. Una **tapa** es una pequeña porción de comida que se sirve con una bebida. Dice la leyenda que el rey Alfonso X el Sabio ordenó servir comida con el vino para evitar que el alcohol subiera rápido a la cabeza. Hoy en día, es una forma de vida en ciudades como Madrid, Sevilla o Granada.
@@ -178,7 +187,7 @@ A los españoles les gusta "tapear" o "picar". Van de bar en bar, toman una cañ
 
 스페인 사람들은 '타파스를 먹는 것(tapear)'을 좋아합니다. 그들은 바(bar)를 옮겨 다니며 '카냐(caña, 작은 맥주)'나 '차토(chato, 와인 한 잔)'를 마시고, 가는 곳마다 다른 타파스를 맛봅니다. 그라나다 같은 일부 도시에서는 음료를 시키면 타파스가 공짜입니다!
 
-![스페인 바에서 즐기는 타파스 문화와 카냐(생맥주)](../images/ch05_a1_culture_tapas.png)
+![스페인 바에서 즐기는 타파스 문화와 카냐(생맥주)](../images/ch05_a1_culture_tapas_v2_1.png)
 
 ---
 
@@ -218,11 +227,13 @@ A los españoles les gusta "tapear" o "picar". Van de bar en bar, toman una cañ
 ---
 
 ## 7. Lectura 📖
+
 **Una cena en Madrid (마드리드에서의 저녁 식사)**
 
 Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madrid. Ellos no tienen mucha hambre, por eso prefieren comer tapas para compartir. Diego quiere patatas bravas y una tortilla de patatas. Su amiga Elena prefiere algo de pescado, así que pide calamares fritos. Para beber, todos quieren una caña de cerveza muy fría. El camarero es muy simpático y trae la comida rápido. "Todo está riquísimo," dice Elena. Al final, Diego pide la cuenta y paga con tarjeta.
 
 **Preguntas (질문):**
+
 1. ¿Por qué eligieron tapas? (왜 타파스를 선택했나요?)
 2. ¿Cómo pagó Diego? (디에고는 어떻게 계산했나요?)
 
@@ -233,6 +244,7 @@ Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madri
 ---
 
 ## 8. Diálogo
+
 **En el restaurante "La Solana" (레스토랑 "라 솔라나"에서)**
 
 **Situación:** Carlos y su amiga coreana Ji-won están en un restaurante típico español. Ji-won está aprendiendo a pedir comida en español.
@@ -293,7 +305,9 @@ Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madri
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 파에야, 하몽, 타파스 등 주요 음식 명칭 **10개 이상**을 익혔다.
 - [ ] '**Querer**'와 '**Preferir**'의 Boot Verb 변화(**e→ie**)를 외웠다.
 - [ ] **nosotros/vosotros**에서는 어간 변화가 일어나지 않음을 안다.
@@ -303,6 +317,7 @@ Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madri
 ---
 
 ## 10. Cierre
+
 ¡Fantástico! 🎉 이번 장을 통해 여러분은 스페인 여행의 가장 큰 즐거움 중 하나인 '미식'을 즐길 준비를 마쳤습니다.
 
 음식을 주문하고 자신의 취향을 당당하게 말하는 것만으로도 여러분의 노력이 빛을 발할 것입니다. "**La cuenta, por favor**" 한 마디로 멋지게 식사를 마무리하는 여러분의 모습을 상상해 보세요!
@@ -314,22 +329,26 @@ Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madri
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-b, 2-d, 3-a, 4-c, 5-e
 
-**6. Práctica - B. Fill in the blanks**
-1. quiero
-2. preferimos
-3. quieres
-4. prefieren
-5. queréis
+1. 1-b, 2-d, 3-a, 4-c, 5-e
+
+**6. Práctica - B. Fill in the blanks with the correct form of 'querer' or 'preferir'**
+
+1. 1. quiero
+2. 1. preferimos
+3. 1. quieres
+4. 1. prefieren
+5. 1. queréis
 
 **6. Práctica - C. 번역 연습**
-1. Para mí, una cerveza fría, por favor.
-2. ¿Quieres carne o prefieres pescado?
-3. La cuenta, por favor.
-4. Preferimos el vino tinto al vino blanco.
-5. ¿Puedo pagar con tarjeta?
+
+1. 1. Para mí, una cerveza fría, por favor.
+2. 1. ¿Quieres carne o prefieres pescado?
+3. 1. La cuenta, por favor.
+4. 1. Preferimos el vino tinto al vino blanco.
+5. 1. ¿Puedo pagar con tarjeta?
 
 **7. Lectura - Preguntas**
-1. 그들은 배가 많이 고프지 않았기 때문입니다. (Porque no tienen mucha hambre.)
-2. 카드로 결제했습니다. (Paga con tarjeta.)
+
+1. 1. 그들은 배가 많이 고프지 않았기 때문입니다. (Porque no tienen mucha hambre.)
+2. 1. 카드로 결제했습니다. (Paga con tarjeta.)

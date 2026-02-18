@@ -1,11 +1,14 @@
 # Chapter 8: El trabajo (A1)
+
 <p class="cervantes-ref">Cervantes: §7 Trabajo: 직업 명칭, 업무 장소 및 기초적인 노동 관련 표현</p>
 
 ## 1. Opener
+
 **El trabajo: Nuestra vida diaria (일: 우리의 일상)**  
 우리는 매일 다양한 직업을 가진 사람들을 만납니다. 학교에서는 선생님을, 병원에서는 의사를, 카페에서는 웨이터를 만나죠. 이번 장에서는 스페인어로 다양한 직업의 이름을 배우고, 내가 무엇을 하는 사람인지, 어디에서 일하는지 표현하는 방법을 익힙니다. 또한 규칙 동사 'trabajar(일하다)'의 변화를 통해 일상적인 업무 활동을 말해봅니다. 스페인의 독특한 업무 문화와 열정적인 직업 세계로 함께 들어가 볼까요?
 
 **학습 목표**
+
 - 주요 직업 명칭 및 업무 장소 어휘 15개 이상 습득
 - 'trabajar(일하다)' 동사의 현재 시제 변화 및 활용
 - 직업을 묻고 답하는 필수 패턴 익히기 (¿A qué te dedicas?)
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: Profesiones y Lugares
+
 모던한 애니메이션 스타일로 표현된 다양한 직업의 세계입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Profesiones](../images/ch08_a1_vocab_jobs.png)
+![Profesiones](../images/ch08_a1_vocab_jobs_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 직업과 관련된 대화에서 가장 많이 사용되는 핵심 패턴입니다.
 
 **A. 직업 묻고 답하기**
+
 - **¿A qué te dedicas?** (What do you do? / 무슨 일을 하시나요?)
 - **¿Cuál es tu profesión?** (What is your profession? / 직업이 무엇인가요?)
 - **Soy médico.** (I am a doctor. / 저는 의사입니다.)
 - **Trabajo como camarero.** (I work as a waiter. / 저는 웨이터로 일해요.)
 
 **B. 일하는 장소 표현하기**
+
 - **¿Dónde trabajas?** (Where do you work? / 어디에서 일하세요?)
 - **Trabajo en una oficina.** (I work in an office. / 저는 사무실에서 일합니다.)
 - **Mi empresa está en Madrid.** (My company is in Madrid. / 제 회사는 마드리드에 있어요.)
@@ -66,14 +73,18 @@
 ---
 
 ## 4. Gramática Esencial
+
 직업을 표현할 때 꼭 필요한 'Ser' 동사의 복습과 'Trabajar' 동사의 활용을 배워봅시다.
 
 ### A. Ser + 직업 (Presente)
+
 주어의 신분이나 직업을 나타낼 때는 `Ser` 동사를 사용합니다. 이때 직업 앞에 관사(un, una)를 생략하는 것이 표준입니다.
+
 - **Yo soy profesor.** (나는 선생님이다.)
 - **Ella es ingeniera.** (그녀는 엔지니어이다.)
 
 ### B. Trabajar (일하다) - 현재형 (Presente)
+
 'trabajar'는 전형적인 -ar 규칙 동사입니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -94,6 +105,7 @@
 </table>
 
 **💡 English Bridge: Stem & Ending**
+
 - **Stem (어근)**: 동사의 의미를 담고 있는 앞부분
 - **Ending (어미)**: 주어에 따라 변하는 뒷부분
 
@@ -105,9 +117,10 @@
 ---
 
 ## 5. Cultura Viva: El Ambiente Laboral en España
+
 스페인의 직장 생활은 어떤 분위기일까요?
 
-![Spanish Office](../images/ch08_a1_culture_office.png)
+![Spanish Office](../images/ch08_a1_culture_office_v2_1.png)
 
 El horario de trabajo en España a menudo es diferente al de otros países de Europa. Muchas oficinas abren a las 9:00 y cierran a las 18:00 o 19:00, con una pausa larga para almorzar (la comida) entre las 14:00 y las 16:00. Este tiempo es ideal para socializar con los compañeros de trabajo.
 
@@ -164,11 +177,13 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 ---
 
 ## 7. Lectura 📖
+
 **Mi trabajo ideal (나의 이상적인 직업)**
 
 ¡Hola! Me llamo Carlos y soy de Sevilla. Trabajo como arquitecto en una oficina pequeña pero muy bonita. Mi trabajo es muy creativo y me gusta mucho. Empiezo a trabajar a las nueve de la mañana. A las dos, voy a un restaurante con mis compañeros para comer. Después, trabajamos hasta las seis de la tarde. No trabajo los sábados ni los domingos. En mi tiempo libre, me gusta pasear por la ciudad. Mi hermana es médica y trabaja en el hospital central. Ella trabaja muchas horas, pero está muy contenta.
 
 **Questions:**
+
 1. Carlos의 직업은 무엇인가요? (What is Carlos's job?)
    - ............................................................
 2. Carlos의 누나(여동생)는 어디에서 일하나요? (Where does Carlos's sister work?)
@@ -180,6 +195,7 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 ---
 
 ## 8. Diálogo
+
 **En la cafetería (카페테리아에서)**
 
 **Situación:** Elena conoce a un nuevo amigo, Pablo, y hablan sobre sus trabajos.
@@ -206,7 +222,9 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 10개 이상의 직업 명칭을 스페인어로 말할 수 있나요?
 - [ ] 'Trabajar' 동사를 인칭에 맞게 완벽하게 변화시킬 수 있나요?
 - [ ] 직업을 말할 때 관사를 생략해야 한다는 규칙을 기억하나요?
@@ -215,6 +233,7 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 ---
 
 ## 10. Cierre
+
 ¡Buen trabajo! 오늘 여러분은 우리 삶의 중요한 부분인 '일'에 대해 말하는 법을 배웠습니다. "Soy médico", "Trabajo en una oficina"와 같은 짧은 문장들이 모여 여러분의 정체성을 스페인어로 표현할 수 있게 해줍니다. 직업 어휘는 앞으로 더 넓은 세상을 이해하는 데 큰 도움이 될 것입니다. 다음 장에서는 우리의 삶을 더욱 풍요롭게 해주는 '취미와 여가 생활'에 대해 깊이 있게 다뤄보겠습니다. ¡Hasta pronto!
 
 ---
@@ -222,18 +241,18 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 ## 11. Soluciones
 
 **6. Práctica - A. Match the job with the place**
-1-b / 2-d / 3-a / 4-c / 5-e
+
+1. 1-b, 2-d, 3-a, 4-c, 5-e
 
 **6. Práctica - B. 동사 변형 연습**
-1. trabajo / 2. trabajas / 3. trabajamos / 4. trabajan / 5. trabaja
+
+1. 1. trabajo, 2. trabajas, 3. trabajamos, 4. trabajan, 5. trabaja
 
 **6. Práctica - C. 번역 연습**
-1. Soy abogado. (또는 Soy abogada.)
-2. ¿A qué te dedicas? (또는 ¿Cuál es tu profesión?)
-3. Trabajamos en Madrid.
-4. Mi amigo es ingeniero. (또는 Mi amiga es ingeniera.)
-5. ¿Trabajas en un hospital?
 
-**7. Lectura Questions**
-1. 건축가 (Arquitecto).
-2. 중앙 병원 (Hospital central).
+1. 1. Soy abogado. (또는 Soy abogada.), 2. ¿A qué te dedicas? (또는 ¿Cuál es tu profesión?), 3. Trabajamos en Madrid., 4. Mi amigo es ingeniero. (또는 Mi amiga es ingeniera.), 5. ¿Trabajas en un hospital?
+
+**7. Lectura - Preguntas**
+
+1. 1. 건축가 (Arquitecto).
+2. 1. 중앙 병원 (Hospital central).

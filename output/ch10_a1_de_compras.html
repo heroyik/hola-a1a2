@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <h2>2. Vocabulario Esencial: Ropa y Compras</h2>
 <p>세련된 스페인 패션과 쇼핑 현장입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
 <p><img src="../images/ch10_a1_vocab_shopping.png" alt="Shopping"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>la camisa</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">셔츠</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>la camiseta</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">티셔츠</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>los pantalones</strong></td>
-<td style="text-align:left"><strong>Pants</strong> ✅ (near cognate)</td>
-<td style="text-align:left">바지</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>el vestido</strong></td>
-<td style="text-align:left"><strong>Vest</strong> (related to clothing)</td>
-<td style="text-align:left">원피스 / 드레스</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>la falda</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">치마</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>los zapatos</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">구두 / 신발</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>la chaqueta</strong></td>
-<td style="text-align:left"><strong>Jacket</strong> ✅</td>
-<td style="text-align:left">재킷</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>el bolso</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">가방 / 핸드백</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>pagar</strong></td>
-<td style="text-align:left"><strong>Pay</strong> ✅ (near cognate)</td>
-<td style="text-align:left">지불하다 / 계산하다</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>la tarjeta</strong></td>
-<td style="text-align:left"><strong>Target / Card</strong> (near)</td>
-<td style="text-align:left">카드 (신용카드)</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la camisa</strong></td><td>—</td><td>셔츠</td></tr>
+    <tr><td>2</td><td><strong>la camiseta</strong></td><td>—</td><td>티셔츠</td></tr>
+    <tr><td>3</td><td><strong>los pantalones</strong></td><td><strong>Pants</strong> ✅ (near cognate)</td><td>바지</td></tr>
+    <tr><td>4</td><td><strong>el vestido</strong></td><td><strong>Vest</strong> (related to clothing)</td><td>원피스 / 드레스</td></tr>
+    <tr><td>5</td><td><strong>la falda</strong></td><td>—</td><td>치마</td></tr>
+    <tr><td>6</td><td><strong>los zapatos</strong></td><td>—</td><td>구두 / 신발</td></tr>
+    <tr><td>7</td><td><strong>la chaqueta</strong></td><td><strong>Jacket</strong> ✅</td><td>재킷</td></tr>
+    <tr><td>8</td><td><strong>el bolso</strong></td><td>—</td><td>가방 / 핸드백</td></tr>
+    <tr><td>9</td><td><strong>pagar</strong></td><td><strong>Pay</strong> ✅ (near cognate)</td><td>지불하다 / 계산하다</td></tr>
+    <tr><td>10</td><td><strong>la tarjeta</strong></td><td><strong>Target / Card</strong> (near)</td><td>카드 (신용카드)</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -207,39 +158,21 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p>쇼핑할 때 유용한 지시사와 의복 관련 동사의 특징을 알아봅시다.</p>
 <h3>A. 지시사 (Este, Ese, Aquel)</h3>
 <p>쇼핑할 때 &quot;이것&quot;, &quot;저것&quot;을 가리키는 것은 필수입니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">거리</th>
-<th style="text-align:left">남성 단수</th>
-<th style="text-align:left">여성 단수</th>
-<th style="text-align:left">남성 복수</th>
-<th style="text-align:left">여성 복수</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>가까움</strong> (this)</td>
-<td style="text-align:left"><strong>este</strong></td>
-<td style="text-align:left"><strong>esta</strong></td>
-<td style="text-align:left"><strong>estos</strong></td>
-<td style="text-align:left"><strong>estas</strong></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>중간</strong> (that)</td>
-<td style="text-align:left"><strong>ese</strong></td>
-<td style="text-align:left"><strong>esa</strong></td>
-<td style="text-align:left"><strong>esos</strong></td>
-<td style="text-align:left"><strong>esas</strong></td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>멂</strong> (that over there)</td>
-<td style="text-align:left"><strong>aquel</strong></td>
-<td style="text-align:left"><strong>aquella</strong></td>
-<td style="text-align:left"><strong>aquellos</strong></td>
-<td style="text-align:left"><strong>aquellas</strong></td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">거리</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">남성 단수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">여성 단수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">남성 복수</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">여성 복수</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>가까움</strong> (this)</td><td><strong>este</strong></td><td><strong>esta</strong></td><td><strong>estos</strong></td><td><strong>estas</strong></td></tr>
+    <tr><td><strong>중간</strong> (that)</td><td><strong>ese</strong></td><td><strong>esa</strong></td><td><strong>esos</strong></td><td><strong>esas</strong></td></tr>
+    <tr><td><strong>멂</strong> (that over there)</td><td><strong>aquel</strong></td><td><strong>aquella</strong></td><td><strong>aquellos</strong></td><td><strong>aquellas</strong></td></tr>
+  </tbody>
 </table>
 <p><strong>Korean Tip!</strong><br>
 스페인어는 명사의 성(gender)에 따라 지시사도 변한다는 점을 꼭 기억하세요! &quot;이 셔츠(la camisa)&quot;는 &quot;<strong>esta</strong> camisa&quot;가 됩니다.</p>
@@ -261,35 +194,20 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Match the item with its category (물건과 카테고리를 연결하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">좌측 (물건)</th>
-<th style="text-align:left">우측 (카테고리)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. Camisa</td>
-<td style="text-align:left">a. Calzado (신발류)</td>
-</tr>
-<tr>
-<td style="text-align:left">2. Pantalones</td>
-<td style="text-align:left">b. Parte superior (상의)</td>
-</tr>
-<tr>
-<td style="text-align:left">3. Zapatos</td>
-<td style="text-align:left">c. Accesorios (액세서리)</td>
-</tr>
-<tr>
-<td style="text-align:left">4. Bolso</td>
-<td style="text-align:left">d. Parte inferior (하의)</td>
-</tr>
-<tr>
-<td style="text-align:left">5. Vestido</td>
-<td style="text-align:left">e. Cuerpo entero (전신)</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">좌측 (물건)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">우측 (카테고리)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Camisa</td><td style="padding: 10px; border: 1px solid #ddd;">a. Calzado (신발류)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Pantalones</td><td style="padding: 10px; border: 1px solid #ddd;">b. Parte superior (상의)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Zapatos</td><td style="padding: 10px; border: 1px solid #ddd;">c. Accesorios (액세서리)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. Bolso</td><td style="padding: 10px; border: 1px solid #ddd;">d. Parte inferior (하의)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Vestido</td><td style="padding: 10px; border: 1px solid #ddd;">e. Cuerpo entero (전신)</td></tr>
+  </tbody>
 </table>
 <p><strong>B. 지시사 연습 (괄호 안의 위치에 맞는 지시사를 넣으세요)</strong></p>
 <ol>
@@ -336,47 +254,23 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p><strong>En la tienda de ropa (옷가게에서)</strong></p>
 <p><strong>Situación:</strong> Un cliente busca algo para una fiesta y el dependiente le ayuda.<br>
 <strong>상황:</strong> 손님이 파티를 위한 옷을 찾고 있고 점원이 도와줍니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Dependiente:</strong> ¡Hola! ¿Puedo ayudarte?</td>
-<td style="text-align:left"><strong>점원:</strong> 안녕하세요! 도와드릴까요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Cliente:</strong> Hola. Sí, busco un pantalón para una fiesta.</td>
-<td style="text-align:left"><strong>손님:</strong> 안녕하세요. 네, 파티 때 입을 바지를 찾고 있어요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Dependiente:</strong> Tenemos estos negros y esos azules. ¿Cuál prefieres?</td>
-<td style="text-align:left"><strong>점원:</strong> 여기 이 검은색들과 저기 저 파란색들이 있어요. 어떤 걸 선호하시나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Cliente:</strong> Prefiero los negros. ¿Tienen la talla 40?</td>
-<td style="text-align:left"><strong>손님:</strong> 검은색이 좋겠네요. 40 사이즈 있나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Dependiente:</strong> Sí, aquí tienes. ¿Quieres probártelos?</td>
-<td style="text-align:left"><strong>점원:</strong> 네, 여기 있습니다. 입어보시겠어요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Cliente:</strong> Sí, gracias. (...) Me quedan bien. ¿Cuánto cuestan?</td>
-<td style="text-align:left"><strong>손님:</strong> 네, 감사합니다. (...) 잘 맞네요. 얼마인가요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Dependiente:</strong> Cincuenta euros. Están en rebaja.</td>
-<td style="text-align:left"><strong>점원:</strong> 50유로입니다. 세일 중이에요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Cliente:</strong> Perfecto. Los llevo.</td>
-<td style="text-align:left"><strong>손님:</strong> 좋네요. 이걸로 살게요.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> ¡Hola! ¿Puedo ayudarte?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 안녕하세요! 도와드릴까요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Hola. Sí, busco un pantalón para una fiesta.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 안녕하세요. 네, 파티 때 입을 바지를 찾고 있어요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> Tenemos estos negros y esos azules. ¿Cuál prefieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 여기 이 검은색들과 저기 저 파란색들이 있어요. 어떤 걸 선호하시나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Prefiero los negros. ¿Tienen la talla 40?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 검은색이 좋겠네요. 40 사이즈 있나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> Sí, aquí tienes. ¿Quieres probártelos?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 네, 여기 있습니다. 입어보시겠어요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Sí, gracias. (...) Me quedan bien. ¿Cuánto cuestan?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 네, 감사합니다. (...) 잘 맞네요. 얼마인가요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Dependiente:</strong> Cincuenta euros. Están en rebaja.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>점원:</strong> 50유로입니다. 세일 중이에요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Perfecto. Los llevo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 좋네요. 이걸로 살게요.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

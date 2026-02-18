@@ -1,11 +1,14 @@
 # Chapter 9: Ocio y arte (A2)
+
 <p class="cervantes-ref">Cervantes: §8 Ocio: 여가 활동 심화 및 §18 예술적 활동: 영화, 음악, 미술 실전</p>
 
 ## 1. Opener
+
 **El arte de vivir (삶의 예술)**  
 A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 미래의 여가 계획을 구체적으로 세우는 법을 배웁니다. 어떤 영화를 좋아하는지, 가장 인상 깊었던 예술가는 누구인지 깊이 있는 대화를 나눌 준비가 되셨나요? 이번 장에서는 영화, 음악, 시각 예술 관련 고급 어휘를 익히고, 미래를 나타내는 'Futuro Simple'과 'Si(만약)'를 활용한 가정문을 배웁니다. 스페인어라는 도구를 통해 여러분의 문화적 지평을 한 단계 더 넓혀봅시다.
 
 **학습 목표**
+
 - 영화, 음악, 연극 등 예술 장르 및 비평 관련 어휘 15개 이상 습득
 - 단순 미래 시제(Futuro Simple)의 규칙/불규칙 변화 및 활용
 - 'Si(만약)'를 활용한 1종 가정문(가능성 있는 미래) 구성
@@ -17,9 +20,10 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 ---
 
 ## 2. Vocabulario Esencial: Cine, Música y Arte
+
 감각적인 예술의 세계로 초대합니다. 번호와 매칭되는 단어를 확인하며 분야별 핵심 어휘들을 익혀보세요.
 
-![Cine y Arte](../images/ch09_a2_vocab_cinema_music.png)
+![Cine y Arte](../images/ch09_a2_vocab_cinema_music_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 ---
 
 ## 3. Expresiones Útiles
+
 예술적 취향을 표현하고 계획을 세울 때 유용한 실전 패턴입니다.
 
 **A. 영화 및 공연 비평하기**
+
 - **¿Qué te ha parecido la película?** (What did you think of the movie? / 영화 어땠어?)
 - **La actuación fue increíble.** (The acting was incredible. / 연기가 정말 대단했어.)
 - **Prefiero el cine independiente.** (I prefer independent cinema. / 나는 독립 영화를 선호해.)
 - **Me ha conmovido mucho.** (It moved me a lot. / 정말 감동적이었어.)
 
 **B. 미래 계획과 가정 (Futuro y Condición)**
+
 - **Iré al concierto si tengo dinero.** (I will go to the concert if I have money. / 돈이 있으면 콘서트에 갈 거야.)
 - **¿Qué harás este verano?** (What will you do this summer? / 이번 여름에 뭐 할 거니?)
 - **Será una experiencia única.** (It will be a unique experience. / 유일무이한 경험이 될 거야.)
@@ -66,9 +73,11 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 ---
 
 ## 4. Gramática Esencial
+
 확신이 있는 미래와 가능성 있는 가정을 표현하는 법을 심층적으로 다뤄봅시다.
 
 ### A. 단순 미래 (Futuro Simple)
+
 미래 시제는 동사 원형 뒤에 어미를 붙이는 방식으로, -ar, -er, -ir 동사의 어미가 모두 동일합니다.
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
@@ -90,6 +99,7 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 </table>
 
 #### 필수 불규칙 동사 (Mandatory Irregular Verbs - Futuro)
+
 미래 시제에서 불규칙한 어간(Stem)을 가지는 필수 동사들입니다. 어미 변화는 규칙 동사와 동일하게 적용됩니다.
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
@@ -114,16 +124,19 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 </table>
 
 ### B. Si + 현재, 미래 (현실적 가정)
+
 '만약 ~하면, ~할 것이다'라는 조건문을 만드는 가장 기초적인 방법입니다.
+
 - **Si llueve, no iré al parque.** (만약 비가 오면, 공원에 가지 않을 것이다.)
 - **Si estudias mucho, sabrás la respuesta.** (공부를 열심히 하면 정답을 알게 될 것이다.)
 
 ---
 
 ## 5. Cultura Viva: El Cine y la Música en la España de Hoy
+
 현대 스페인의 예술적 성취와 매력을 알아봅시다.
 
-![Professional Art Scene](../images/ch09_a2_culture_cinema.png)
+![Professional Art Scene](../images/ch09_a2_culture_cinema_v2_1.png)
 
 España no solo vive de su glorioso pasado (Goya, Velázquez, Picasso), sino que también tiene una industria cultural muy potente hoy en día. El cine español es reconocido internacionalmente por su originalidad. Los **Premios Goya** son el evento más importante del año, comparables a los Oscar de Hollywood. Directores como **Pedro Almodóvar** y actores como **Penélope Cruz** o **Javier Bardem** son embajadores del arte español en el mundo.
 
@@ -180,11 +193,13 @@ En cuanto a la música, España ofrece una mezcla fascinante de tradición y mod
 ---
 
 ## 7. Lectura 📖
+
 **La Noche en Blanco de Madrid (마드리드의 백야 축제)**
 
 La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales europeas, y en Madrid es un evento espectacular. Durante una noche de otoño, los museos, bibliotecas y teatros abren sus puertas de forma gratuita. Los madrileños y turistas salen a la calle para disfrutar de conciertos al aire libre y exposiciones de arte moderno sobre las paredes de los edificios históricos. "Si vives esta experiencia, nunca la olvidarás", dicen los participantes. El próximo año, el ayuntamiento organizará más actividades para los jóvenes. Iré con mis amigos y, si tenemos energía, caminaremos por la castellana hasta el amanecer.
 
 **Questions:**
+
 1. 'Noche en Blanco'의 장점 중 하나는 무엇인가요? (What is one advantage of this event?)
    - ............................................................
 2. 필자는 내년에 누구와 무엇을 할 계획인가요? (With whom and what does the actor plan to do next year?)
@@ -196,6 +211,7 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 ---
 
 ## 8. Diálogo
+
 **En el estreno de cine (영화 시사회에서)**
 
 **Situación:** Ana y David acaban de ver el estreno de una película de Almodóvar en la Gran Vía.
@@ -221,7 +237,9 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 영화, 음악, 예술 관련 고급 어휘 10개 이상을 익혔나요?
 - [ ] 단순 미래(Futuro Simple)의 규칙 및 주요 불규칙 변화를 할 수 있나요?
 - [ ] 'Si'를 활용한 가능성 있는 미래의 조건문을 구성할 수 있나요?
@@ -230,6 +248,7 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 ---
 
 ## 10. Cierre
+
 ¡Excelente trabajo! 예술은 언어의 장벽을 넘는 가장 강력한 소통 수단입니다. 이번 장에서 배운 미래 시제와 예술 어휘를 통해 여러분은 자신의 꿈과 취향을 더욱 구체적이고 세련되게 표현할 수 있게 되었습니다. 단순히 문법을 익히는 것을 넘어, 스페인 문화의 깊이 있는 열정을 느끼셨기를 바랍니다. 다음 장에서는 우리의 일상과 밀접한 '현명한 소비와 유행(A2)' 섹션으로 이어가겠습니다. ¡Viva el arte!
 
 ---
@@ -237,18 +256,18 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 ## 11. Soluciones
 
 **6. Práctica - A. Match the art form with the description**
-1-c / 2-d / 3-b / 4-a / 5-e
+
+1. 1-c, 2-d, 3-b, 4-a, 5-e
 
 **6. Práctica - B. 미래 시제 연습**
-1. iremos / 2. hará / 3. leeré / 4. vendrán / 5. harás
+
+1. 1. iremos, 2. hará, 3. leeré, 4. vendrán, 5. harás
 
 **6. Práctica - C. 번역 연습**
-1. Si quieres, iré contigo.
-2. Compraremos las entradas el fin de semana.
-3. Mañana hará buen tiempo.
-4. Si ella viene, estaré muy feliz.
-5. Ellos mirarán los cuadros en el museo (또는 disfrutarán de...).
 
-**7. Lectura Questions**
-1. 무료 개방 (Entrada gratuita).
-2. 친구들과 함께 밤새도록 걷기 (Caminar con amigos hasta el amanecer).
+1. 1. Si quieres, iré contigo., 2. Compraremos las entradas el fin de semana., 3. Mañana hará buen tiempo., 4. Si ella viene, estaré muy feliz., 5. Ellos mirarán los cuadros en el museo (또는 disfrutarán de...).
+
+**7. Lectura - Preguntas**
+
+1. 1. 무료 개방 (Entrada gratuita).
+2. 1. 친구들과 함께 밤새도록 걷기 (Caminar con amigos hasta el amanecer).

@@ -24,9 +24,9 @@
 - **시각적 언어**: Imagen 3를 활용한 일본 애니메이션 스타일(Modern Anime Style)을 유지하되, 전체적인 레이아웃은 스페인 현대 디자인의 특징인 'Sleek Modernism'을 반영함.
 - **컬러 팔레트**: 강렬한 스페인 레드(#A93226)와 골드(#D4AC0D)를 기본으로 하되, 가독성을 위한 소프트 차콜(#2C3E50)과 오프 화이트(#FCF9F2) 배경을 조화롭게 배치하여 프리미엄한 느낌을 강화함.
 - **테이블 디자인 (High-End Table Design)**:
-    - **헤더**: 평면적인 색상이 아닌, 은은한 그라데이션과 세련된 타이포그래피(Montserrat) 적용.
-    - **본문**: 가독성 향상을 위한 Zebra Striping(홀수/짝수 행 구분)과 강조가 필요한 셀에 대한 미세한 쉐도잉 적용.
-    - **구조**: `border-radius`와 `box-shadow`를 활용하여 테이블이 페이지 상에 떠 있는 듯한(Elevated) 효과 부여.
+  - **헤더**: 평면적인 색상이 아닌, 은은한 그라데이션과 세련된 타이포그래피(Montserrat) 적용.
+  - **본문**: 가독성 향상을 위한 Zebra Striping(홀수/짝수 행 구분)과 강조가 필요한 셀에 대한 미세한 쉐도잉 적용.
+  - **구조**: `border-radius`와 `box-shadow`를 활용하여 테이블이 페이지 상에 떠 있는 듯한(Elevated) 효과 부여.
 - **디자인 정규화**: 900px 중앙 정렬 컨테이너와 충분한 여백(white space)을 통해 읽기 경험을 극대화함.
 
 ### ✍️ 콘텐츠 전략: "Deep Dive & Bridge"
@@ -139,10 +139,10 @@ Chapter당 최대 2개 섹션, 최대 12개 서브토픽으로 밸런스를 유�
 #### 2.3.3 디자인 및 시각 요소
 
 - **2.3.3.1 스페인 최신 디자인 컨셉**: 교재 전체적으로 최신 스페인 디자인 감성(색깔, 이미지, 아이콘 등)이 넘치도록 작성. 따뜻하고 열정적이면서도 모던하고 감각적인 분위기 유지.
-- **2.3.3.2 '2. Vocabulario Esencial' 이미지 스타일**: **일본 애니메이션 스타일(Modern Anime Style)**을 채택하여 학습자의 흥미를 유발하되, 전체적인 컬러톤은 스페인 테마에 맞춤. 2. Vocabulario Esencial 섹션 어휘가 100% 이미지에 반영되도록 구성해야 함 (어휘와 삽화의 완전한 일치 필수. 어휘 넘버가 삽화에 빠짐없이 모두 표시).
-- **2.3.3.3 이미지 생성 가이드라인**: 반드시 Vertex AI Imagen 3 API만 사용하여 생성할 것. 인물은 대학생 기준. 이미지 내에 일본어나 한자 등 교재와 관련 없는 언어가 포함되지 않도록 통제할 것.
-- **2.3.3.4 로컬 이미지 저장 및 상대 경로 사용**: 생성된 모든 이미지는 프로젝트 내 `images/` 폴더에 저장하고, 마크다운 파일에서는 `../images/[파일명]`과 같은 상대 경로를 사용함.
-- **2.3.3.5 '5. Cultura Viva' 섹션 이미지 생성 가이드라인**: 해당 섹션 내용을 최대한 반영한 이미지 생성.
+- **2.3.3.2 이미지 생성 가이드라인**: strategy/image.md 가이드라인대로 생성해줘.
+- **2.3.3.2.1 '2. Vocabulario Esencial' 이미지 스타일**: 2. Vocabulario Esencial 섹션 어휘가 100% 이미지에 반영되도록 구성해야 함 (어휘와 삽화의 완전한 일치 필수. 어휘 넘버가 삽화에 빠짐없이 모두 표시).
+- **2.3.3.2.2 '5. Cultura Viva' 섹션 이미지 생성 가이드라인**: 해당 섹션 내용을 최대한 반영한 이미지 생성.
+- **2.3.3.2.3 로컬 이미지 저장 및 상대 경로 사용**: 생성된 모든 이미지는 프로젝트 내 `images/` 폴더에 저장하고, 마크다운 파일에서는 `../images/[파일명]`과 같은 상대 경로를 사용함.
 
 #### 2.3.4 문법 및 동사 변형 테이블 (Grammar v5.8)
 
@@ -150,18 +150,18 @@ Chapter당 최대 2개 섹션, 최대 12개 서브토픽으로 밸런스를 유�
 - **2.3.4.2 전 인칭 커버 (MANDATORY)**: 모든 테이블은 주어(yo, tú, él/ella/usted, nosotros/as, vosotros/as, ellos/ellas/ustedes)를 모두 포함해야 함.
 - **2.3.4.3 레이블 간소화**: 서수 레이블(1인칭 등)은 삭제하고 오직 주어만 표시할 것.
 - **2.3.4.4 테이블 레이아웃 (STRICT HTML ONLY)**:
-    - **마크다운 테이블 금지**: 텍스트 레이아웃 깨짐을 방지하기 위해 컨텐츠 생성 시 **동사 변형용 마크다운 테이블(`|`) 사용을 전면 금지**함.
-    - **HTML 테이블 필수**: 모든 동사 변형 테이블은 반드시 **Raw HTML `<table>` 태그**를 사용하여 작성할 것.
-    - **어미 강조**: HTML `<strong>` 또는 `<span>` 태그를 사용하여 어미(Ending)에만 Bold 또는 색상 효과를 적용할 것.
+  - **마크다운 테이블 금지**: 텍스트 레이아웃 깨짐을 방지하기 위해 컨텐츠 생성 시 **동사 변형용 마크다운 테이블(`|`) 사용을 전면 금지**함.
+  - **HTML 테이블 필수**: 모든 동사 변형 테이블은 반드시 **Raw HTML `<table>` 태그**를 사용하여 작성할 것.
+  - **어미 강조**: HTML `<strong>` 또는 `<span>` 태그를 사용하여 어미(Ending)에만 Bold 또는 색상 효과를 적용할 것.
 - **2.3.4.5 동사 표준**: 규칙 변화 모델은 반드시 hablar (-ar), comer (-er), vivir (-ir) 삼총사를 사용할 것. 가독성을 위해 한 테이블당 최대 4개의 동사만 배치할 것.
 - **2.3.4.6 시제별 필수 테이블**: 아래 시제 등장 시 해당 챕터에 반드시 **전 인칭 변형 테이블**이 포함되어야 함:
-    - 현재 시제: ser, estar, ir, tener, saber, poder
-    - 현재진행 시제: estar + gerundio (Gerundio 불규칙: ir, leer, repetir, decir, vuner, dormir, morir 필수 포함)
-    - 단순과거(Indefinido): estar, tener, poder, poner, querer, saber, venir, decir, dar, hacer, haber, ser/ir
-    - 불완전과거(Imperfecto): ser, ir, ver
-    - 단순미래: decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
-    - 현재완료: haber + 과거분사 (Participio 불규칙: hacer, poner, escribir, decir, volver, abrir, leer, romper 필수 포함)
-    - 긍정/부정 명령형: dar, ser, ver, ir, decir, hacer, poner, salir, tener, venir
+  - 현재 시제: ser, estar, ir, tener, saber, poder
+  - 현재진행 시제: estar + gerundio (Gerundio 불규칙: ir, leer, repetir, decir, venir, dormir, morir 필수 포함)
+  - 단순과거(Indefinido): estar, tener, poder, poner, querer, saber, venir, decir, dar, hacer, haber, ser/ir
+  - 불완전과거(Imperfecto): ser, ir, ver
+  - 단순미래: decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
+  - 현재완료: haber + 과거분사 (Participio 불규칙: hacer, poner, escribir, decir, volver, abrir, leer, romper 필수 포함)
+  - 긍정/부정 명령형: dar, ser, ver, ir, decir, hacer, poner, salir, tener, venir
 
 #### 2.3.5 기타 부가 규칙
 

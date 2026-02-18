@@ -1,11 +1,14 @@
 # Chapter 12: Viajes y lugares (A1)
+
 <p class="cervantes-ref">Cervantes: §10 여행, 숙박 및 §12 지리 및 장소</p>
 
 ## 1. Opener
+
 **¡Buen viaje! (즐거운 여행 되세요!)**  
 새로운 곳으로 떠나는 설렘은 누구에게나 특별합니다. 스페인어로 길을 묻고, 기차표를 사고, 가고 싶은 장소를 말할 수 있다면 여러분의 여행은 훨씬 더 풍요로워질 것입니다. 이번 장에서는 공항, 기차역, 호텔에서 쓰이는 필수 여행 어휘와 함께, '가다'라는 뜻의 동사 'ir'를 활용해 미래의 계획을 말하는 법을 배웁니다. 또한 세계적인 수준을 자랑하는 스페인의 대중교통 문화와 아름다운 도시들의 특징도 함께 살펴볼까요?
 
 **학습 목표**
+
 - 교통수단, 여행지 및 장소 어휘 15개 이상 습득
 - 'ir(가다)' 동사의 현재형 시제 변화와 'ir a + 동사원형' (미래 계획) 표현
 - 방향을 나타내는 전치사와 장소 묻기 (¿Dónde está...?)
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: El Viaje y el Transporte
+
 여행을 떠날 때 꼭 필요한 물건들과 교통수단입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Transporte](../images/ch12_a1_vocab_travel.png)
+![Transporte](../images/ch12_a1_vocab_travel_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 여행지에서 바로 사용할 수 있는 실전 문장들입니다.
 
 **A. 길 찾기 및 위치 묻기**
+
 - **¿Dónde está la estación de tren?** (Where is the train station? / 기차역이 어디에 있나요?)
 - **Perdone, ¿hay un banco cerca?** (Excuse me, is there a bank nearby? / 실례합니다, 근처에 은행이 있나요?)
 - **Está a la derecha / a la izquierda.** (It is on the right / on the left. / 오른쪽에 / 왼쪽에 있어요.)
 - **Todo recto.** (Straight ahead. / 쭉 직진하세요.)
 
 **B. 티켓 구매 및 이동**
+
 - **Un billete para Madrid, por favor.** (A ticket for Madrid, please. / 마드리드행 표 한 장 주세요.)
 - **¿A qué hora sale el próximo tren?** (What time does the next train leave? / 다음 기차가 몇 시에 출발하나요?)
 - **Voy en avión a Barcelona.** (I go by plane to Barcelona. / 비행기를 타고 바르셀로나에 가요.)
@@ -66,9 +73,11 @@
 ---
 
 ## 4. Gramática Esencial
+
 이동의 핵심인 'Ir' 동사와 미래 계획을 세우는 법을 익혀봅시다.
 
 ### A. Ir (가다) - 불규칙 동사
+
 'Ir'는 매우 자주 쓰이지만 변화가 독특하니 꼭 암기해야 합니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -89,7 +98,9 @@
 </table>
 
 ### B. Ir a + 동사원형 (가까운 미래)
+
 영어의 `be going to`와 똑같은 구조로, 미래의 계획을 나타냅니다.
+
 - **Voy a viajar a España.** (나는 스페인으로 여행 갈 것이다.)
 - **¿Qué vas a hacer mañana?** (너는 내일 무엇을 할 거니?)
 - **Vamos a comer paella.** (우리는 빠에야를 먹을 거야.)
@@ -101,9 +112,10 @@
 ---
 
 ## 5. Cultura Viva: Moverse por España - El Tren y el Metro
+
 스페인에서 이동하는 가장 스마트한 방법은 무엇일까요?
 
-![Spanish AVE Train](../images/ch12_a1_culture_transport.png)
+![Spanish AVE Train](../images/ch12_a1_culture_transport_v2_1.png)
 
 El sistema de transporte en España es excelente. El **AVE** (Alta Velocidad Española) conecta las principales ciudades como Madrid, Sevilla, Valencia y Barcelona de forma rápida y cómoda. Las estaciones suelen ser edificios históricos o modernos muy bonitos, como la estación de **Atocha** en Madrid, que tiene un jardín tropical en su interior.
 
@@ -159,11 +171,13 @@ Dentro de las ciudades, el **metro** es la mejor opción. El Metro de Madrid y e
 ---
 
 ## 7. Lectura 📖
+
 **Mis vacaciones en Andalucía (안달루시아에서의 나의 휴가)**
 
 Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a tomar un avión de Seúl a Madrid. Después, voy a ir en el tren AVE a Sevilla. ¡Me han dicho que el tren es muy rápido! En Sevilla, voy a visitar la Catedral y voy a pasear por el barrio de Santa Cruz. El mapa de mi móvil es muy útil para no perderme. También quiero ir a Granada para ver la Alhambra. Voy a ir en autobús porque es más barato. Mi maleta no es muy grande, pero tengo muchas ganas de ir. ¡Va a ser un viaje fantástico!
 
 **Questions:**
+
 1. 주인공은 마드리드에서 세비야까지 어떻게 가나요? (How does the protagonist go from Madrid to Seville?)
    - ............................................................
 2. 주인공은 왜 그라나다에 버스를 타고 가려고 하나요? (Why does the protagonist want to go to Granada by bus?)
@@ -175,6 +189,7 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 ---
 
 ## 8. Diálogo
+
 **En la taquilla (매표소에서)**
 
 **Situación:** Un turista compra un billete de tren para ir a Valencia.
@@ -202,7 +217,9 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 여행 및 교통과 관련된 단어 10개 이상을 알고 있나요?
 - [ ] 'Ir' 동사의 6가지 변화를 완벽하게 외웠나요?
 - [ ] 'Ir a + 동사원형'으로 미래 계획을 말할 수 있나요?
@@ -211,6 +228,7 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 ---
 
 ## 10. Cierre
+
 ¡Buen viaje con tu español! 오늘 여러분은 새로운 세상을 만나는 통로인 '여행'에 대해 배웠습니다. 'Ir' 동사 하나만으로도 여러분은 현재 어디로 가는지, 그리고 앞으로 무엇을 할 것인지 멋지게 표현할 수 있게 되었습니다. 언어는 그 자체로 하나의 여행입니다. 다음 장에서는 목적지에 도착해 그곳의 정취를 더 깊이 느낄 수 있는 '여행 심화, 호텔 예약 및 관광(A2)' 섹션으로 이어가겠습니다. ¡Hasta la próxima parada!
 
 ---
@@ -218,18 +236,18 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 ## 11. Soluciones
 
 **6. Práctica - A. Match the transport with the place**
-1-b / 2-c / 3-d / 4-a
+
+1. 1-b, 2-c, 3-d, 4-a
 
 **6. Práctica - B. Ir 동사 변형 및 미래 표현 연습**
-1. voy / 2. vas / 3. va / 4. vamos / 5. van
+
+1. 1. voy, 2. vas, 3. va, 4. vamos, 5. van
 
 **6. Práctica - C. 번역 연습**
-1. ¿Dónde está la estación de metro?
-2. Voy al aeropuerto.
-3. ¿Qué vas a hacer mañana?
-4. Vamos a ir al museo.
-5. Un billete de avión, por favor.
 
-**7. Lectura Questions**
-1. AVE 기차 (En el tren AVE).
-2. 더 저렴하기 때문에 (Porque es más barato).
+1. 1. ¿Dónde está la estación de metro?, 2. Voy al aeropuerto., 3. ¿Qué vas a hacer mañana?, 4. Vamos a ir al museo., 5. Un billete de avión, por favor.
+
+**7. Lectura - Preguntas**
+
+1. 1. AVE 기차 (En el tren AVE).
+2. 1. 더 저렴하기 때문에 (Porque es más barato).

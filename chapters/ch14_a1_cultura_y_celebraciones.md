@@ -1,11 +1,14 @@
 # Chapter 14: Cultura y celebraciones (A1)
+
 <p class="cervantes-ref">Cervantes: §13 여가활동 및 §14 축제와 전통 기초</p>
 
 ## 1. Opener
+
 **¡Vivan las fiestas! (축제여 영원하라!)**  
 스페인은 축제의 나라입니다. 마을마다, 도시마다 자신들만의 고유한 전통과 색깔을 담은 축제들이 일 년 내내 이어집니다. 화려한 플라멩코 드레스, 밤하늘을 수놓는 불꽃놀이, 그리고 거리에서 함께 춤추는 사람들까지. 이번 장에서는 스페인의 대표적인 축제와 전통 예술 어휘를 배우고, 누군가 혹은 무엇을 '알다'라고 표현하는 'conocer' 동사를 익혀봅니다. 스페인 사람들의 넘치는 열정과 그들의 문화적 자부심을 함께 느껴볼까요?
 
 **학습 목표**
+
 - 축제, 전통 음악, 악기 및 예술 관련 어휘 15개 이상 습득
 - 'conocer(알다)' 동사의 현재형 시제 변화와 활용 (신분, 장소 등)
 - 기수(Cardinal Numbers) 100~1000까지 익히기 (연도 및 가격 표현용)
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: Tradiciones y Fiestas
+
 스페인의 열정을 상징하는 전통적인 요소들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Festivales](../images/ch14_a1_vocab_festivals.png)
+![Festivales](../images/ch14_a1_vocab_festivals_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 축제나 문화 활동에 대해 이야기할 때 자주 사용하는 패턴입니다.
 
 **A. 문화와 예술 표현 (Cultura)**
+
 - **Conozco muy bien España.** (I know Spain very well. / 나는 스페인을 아주 잘 알아요.)
 - **Me gusta mucho el flamenco.** (I like flamenco a lot. / 나는 플라멩코를 아주 좋아해요.)
 - **¿Sabes tocar la guitarra?** (Do you know how to play the guitar? / 기타 칠 줄 아니?)
 - **Hay una fiesta en mi barrio.** (There is a party in my neighborhood. / 우리 동네에 축제가 있어요.)
 
 **B. 큰 숫자 읽기 (100 - 1000)**
+
 - **Cien** (100) / **Doscientos** (200) / **Quinientos** (500)
 - **Mil** (1000)
 - **Este traje cuesta mil euros.** (This costume costs a thousand euros. / 이 의상은 1000유로입니다.)
@@ -66,9 +73,11 @@
 ---
 
 ## 4. Gramática Esencial
+
 '알다'라는 뜻의 두 동사 중, 친숙함과 경험을 나타내는 'Conocer'를 배워봅시다.
 
 ### Conocer (알다, 알게 되다) - 1인칭 불규칙
+
 사람, 장소, 사물에 대해 경험적으로 알고 있을 때 사용합니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -90,19 +99,21 @@
 
 **Important Rule!**
 사람을 목적어로 받을 때는 동사와 목적어 사이에 전치사 `a`를 씁니다.
+
 - **Conozco a Juan.** (나는 후안을 안다.)
 - **¿Conoces Madrid?** (너는 마드리드를 아니? - 장소이므로 a 생략)
 
 ---
 
 ## 5. Cultura Viva: Las Tres Grandes Fiestas de España
+
 스페인을 대표하는 3대 축제는 무엇일까요?
 
-![Spanish Fiesta](../images/ch14_a1_culture_fiesta.png)
+![Spanish Fiesta](../images/ch14_a1_culture_fiesta_v2_1.png)
 
 España es famosa por sus festivales coloridos. En marzo, Valencia celebra **Las Fallas**, donde se queman grandes esculturas de cartón en medio de la calle. Es un espectáculo de luz y fuego. En abril, Sevilla se llena de alegría con la **Feria de Abril**, donde la gente viste trajes típicos, baila sevillanas y monta a caballo.
 
-En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente corre delante de los toros. Cada fiesta tiene su propio significado y emoción. Lo más importante de estas celebraciones no는 단순히 구경하는 것이 아니라, 현지인들과 함께 춤추고 음식을 나누며 축제의 주인공이 되는 것입니다. ¡Es la mejor forma de conocer el alma de España!
+En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente corre delante de los toros. Cada fiesta tiene su propio significado y emoción. Lo más importante de estas celebraciones no es solo mirar, sino bailar con los locales, compartir comida y ser el protagonista de la fiesta. ¡Es la mejor forma de conocer el alma de España!
 
 **[한국어 번역]**
 스페인은 다채로운 축제들로 유명합니다. 3월에 발렌시아는 **라 팔라스(Las Fallas)**를 기념하는데, 거리 한복판에서 거대한 종이 조각상들을 태웁니다. 빛과 불의 장관이죠. 4월에는 세비야가 **페리아 데 아브릴(Feria de Abril)**로 기쁨에 넘칩니다. 사람들은 전통 의상을 입고 세비야나스 춤을 추며 말을 탑니다.
@@ -153,11 +164,13 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 ---
 
 ## 7. Lectura 📖
+
 **Mi primera Feria de Abril (나의 첫 페리아 데 아브릴)**
 
 ¡Hola! Soy Minjun y este abril estoy en Sevilla. ¡Es increíble! Todo el mundo lleva trajes típicos muy coloridos. Yo no tengo un traje, pero conozco a una chica sevillana, Carmen, y ella me ayuda mucho. Ella baila sevillanas muy bien. Hay mucha música en las "casetas" (tents) y la gente come pescaito frito. He aprendido a tocar un poco las castañuelas. El ambiente es muy alegre y hay muchos caballos. Cerca de mil personas están aquí hoy. Me encanta el arte y la tradición de esta ciudad. ¡Ahora conozco mucho mejor la cultura de España!
 
 **Questions:**
+
 1. Minjun은 누구를 알고 있나요? (Who does Minjun know?)
    - ............................................................
 2. 오늘 그곳에는 약 몇 명이 있나요? (Approximately how many people are there today?)
@@ -169,6 +182,7 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 ---
 
 ## 8. Diálogo
+
 **¿Qué música te gusta? (어떤 음악을 좋아해?)**
 
 **Situación:** Ana y Luis hablan de sus gustos musicales y un concierto próximo.
@@ -187,7 +201,7 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Me encanta su arte. Van a dar un concierto mañana.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 난 그들의 예술이 너무 좋아. 내일 콘서트를 한대.</td></tr>
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> ¡Qué bien! ¿Cuánto cuesta el billete?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 멋지다! 표가 얼마야?</td></tr>
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Cuesta cincuenta euros. Es un poco caro, ¿no?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 50유로야. 조금 비싸지 그치?</td></tr>
-    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> Sí, 하지만 el espectáculo es muy bueno. Vamos, ¿quieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 응, 하지만 공연이 아주 좋잖아. 가자, 어때?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> Sí, pero el espectáculo es muy bueno. Vamos, ¿quieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 응, 하지만 공연이 아주 좋잖아. 가자, 어때?</td></tr>
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> ¡Vale! Quiero conocer su música en directo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 좋아! 그들의 음악을 라이브로 알고(접하고) 싶어.</td></tr>
   </tbody>
 </table>
@@ -195,7 +209,9 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 축제 및 예술과 관련된 단어 10개 이상을 알고 있나요?
 - [ ] 'Conocer' 동사의 1인칭 불규칙(conozco)을 기억하나요?
 - [ ] 사람 목적어 앞에 전치사 'a'를 쓰는 규칙을 이해했나요?
@@ -204,6 +220,7 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 ---
 
 ## 10. Cierre
+
 ¡Olé! 오늘 여러분은 스페인의 가슴인 '축제'와 '전시'를 이해하는 법을 배웠습니다. 'Conocer' 동사를 통해 여러분의 세계는 더 넓어졌고, 큰 숫자를 익힘으로써 실제적인 거래와 정보 파악도 가능해졌습니다. 문화는 언어의 뿌리입니다. 다음 장에서는 우리의 배움을 더욱 풍부하게 만들어 줄 '전통 예술 심화, 가톨릭 문화와 역사(A2)' 섹션으로 이어가겠습니다. ¡Sigue disfrutando de la fiesta del español!
 
 ---
@@ -211,18 +228,18 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 ## 11. Soluciones
 
 **6. Práctica - A. Match the festival with the city**
-1-b / 2-c / 3-a
+
+1. 1-b, 2-c, 3-a
 
 **6. Práctica - B. Conocer 동사 변형 연습**
-1. conozco / 2. conoces / 3. conocemos / 4. conoce / 5. conocen
+
+1. 1. conozco, 2. conoces, 3. conocemos, 4. conoce, 5. conocen
 
 **6. Práctica - C. 번역 연습**
-1. Conozco muy bien Madrid.
-2. ¿Conoces a Marc?
-3. Este vestido cuesta quinientos euros.
-4. Nos gusta bailar en la fiesta.
-5. Mi abuelo toca la guitarra.
 
-**7. Lectura Questions**
-1. 세비야 여자애 카르멘 (자신에게 도움을 주는 친구).
-2. 약 천 명 (Cerca de mil personas).
+1. 1. Conozco muy bien Madrid., 2. ¿Conoces a Marc?, 3. Este vestido cuesta quinientos euros., 4. Nos gusta bailar en la fiesta., 5. Mi abuelo toca la guitarra.
+
+**7. Lectura - Preguntas**
+
+1. 1. 세비야 여자애 카르멘 (자신에게 도움을 주는 친구).
+2. 1. 약 천 명 (Cerca de mil personas).

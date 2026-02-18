@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <h2>2. Vocabulario Esencial: Tradiciones y Fiestas</h2>
 <p>스페인의 열정을 상징하는 전통적인 요소들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
 <p><img src="../images/ch14_a1_vocab_festivals.png" alt="Festivales"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>la fiesta</strong></td>
-<td style="text-align:left"><strong>Feast</strong> ✅</td>
-<td style="text-align:left">축제 / 파티</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>la música</strong></td>
-<td style="text-align:left"><strong>Music</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align:left">음악</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>el baile / la danza</strong></td>
-<td style="text-align:left"><strong>Dance</strong> ✅</td>
-<td style="text-align:left">춤</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>la guitarra</strong></td>
-<td style="text-align:left"><strong>Guitar</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align:left">기타</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>el traje típico</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">전통 의상</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>la procesión</strong></td>
-<td style="text-align:left"><strong>Procession</strong> ✅</td>
-<td style="text-align:left">행렬 / 퍼레이드</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>el concierto</strong></td>
-<td style="text-align:left"><strong>Concert</strong> ✅</td>
-<td style="text-align:left">콘서트</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>el arte</strong></td>
-<td style="text-align:left"><strong>Art</strong> ✅</td>
-<td style="text-align:left">예술</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>la tradición</strong></td>
-<td style="text-align:left"><strong>Tradition</strong> ✅</td>
-<td style="text-align:left">전통</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>el espectáculo</strong></td>
-<td style="text-align:left"><strong>Spectacle</strong> ✅</td>
-<td style="text-align:left">공연 / 쇼</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la fiesta</strong></td><td><strong>Feast</strong> ✅</td><td>축제 / 파티</td></tr>
+    <tr><td>2</td><td><strong>la música</strong></td><td><strong>Music</strong> ✅ (Perfect Cognate)</td><td>음악</td></tr>
+    <tr><td>3</td><td><strong>el baile / la danza</strong></td><td><strong>Dance</strong> ✅</td><td>춤</td></tr>
+    <tr><td>4</td><td><strong>la guitarra</strong></td><td><strong>Guitar</strong> ✅ (Perfect Cognate)</td><td>기타</td></tr>
+    <tr><td>5</td><td><strong>el traje típico</strong></td><td>—</td><td>전통 의상</td></tr>
+    <tr><td>6</td><td><strong>la procesión</strong></td><td><strong>Procession</strong> ✅</td><td>행렬 / 퍼레이드</td></tr>
+    <tr><td>7</td><td><strong>el concierto</strong></td><td><strong>Concert</strong> ✅</td><td>콘서트</td></tr>
+    <tr><td>8</td><td><strong>el arte</strong></td><td><strong>Art</strong> ✅</td><td>예술</td></tr>
+    <tr><td>9</td><td><strong>la tradición</strong></td><td><strong>Tradition</strong> ✅</td><td>전통</td></tr>
+    <tr><td>10</td><td><strong>el espectáculo</strong></td><td><strong>Spectacle</strong> ✅</td><td>공연 / 쇼</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -206,46 +157,22 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p>'알다'라는 뜻의 두 동사 중, 친숙함과 경험을 나타내는 'Conocer'를 배워봅시다.</p>
 <h3>Conocer (알다, 알게 되다) - 1인칭 불규칙</h3>
 <p>사람, 장소, 사물에 대해 경험적으로 알고 있을 때 사용합니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">인칭</th>
-<th style="text-align:left"><strong>Conocer</strong></th>
-<th style="text-align:left">영어 매핑 (to know/be familiar with)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Yo</strong></td>
-<td style="text-align:left"><strong>conozco</strong></td>
-<td style="text-align:left">I know</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Tú</strong></td>
-<td style="text-align:left"><strong>conoces</strong></td>
-<td style="text-align:left">You know</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Él/Ella/Ud.</strong></td>
-<td style="text-align:left"><strong>conoce</strong></td>
-<td style="text-align:left">He/She/You know</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Nosotros/as</strong></td>
-<td style="text-align:left"><strong>conocemos</strong></td>
-<td style="text-align:left">We know</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Vosotros/as</strong></td>
-<td style="text-align:left"><strong>conocéis</strong></td>
-<td style="text-align:left">You all know</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ellos/Ellas/Uds.</strong></td>
-<td style="text-align:left"><strong>conocen</strong></td>
-<td style="text-align:left">They/You all know</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Conocer</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to know/be familiar with)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>conozco</strong></td><td>I know</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>conoces</strong></td><td>You know</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>conoce</strong></td><td>He/She/You know</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>conocemos</strong></td><td>We know</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>conocéis</strong></td><td>You all know</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>conocen</strong></td><td>They/You all know</td></tr>
+  </tbody>
 </table>
 <p><strong>Important Rule!</strong><br>
 사람을 목적어로 받을 때는 동사와 목적어 사이에 전치사 <code>a</code>를 씁니다.</p>
@@ -265,27 +192,18 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Match the festival with the city (축제와 도시를 연결하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Festival</th>
-<th style="text-align:left">City</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. Las Fallas</td>
-<td style="text-align:left">a. Pamplona</td>
-</tr>
-<tr>
-<td style="text-align:left">2. La Feria de Abril</td>
-<td style="text-align:left">b. Valencia</td>
-</tr>
-<tr>
-<td style="text-align:left">3. San Fermín</td>
-<td style="text-align:left">c. Sevilla</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Festival</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">City</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Las Fallas</td><td style="padding: 10px; border: 1px solid #ddd;">a. Pamplona</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. La Feria de Abril</td><td style="padding: 10px; border: 1px solid #ddd;">b. Valencia</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. San Fermín</td><td style="padding: 10px; border: 1px solid #ddd;">c. Sevilla</td></tr>
+  </tbody>
 </table>
 <p><strong>B. Conocer 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)</strong></p>
 <ol>
@@ -332,43 +250,22 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p><strong>¿Qué música te gusta? (어떤 음악을 좋아해?)</strong></p>
 <p><strong>Situación:</strong> Ana y Luis hablan de sus gustos musicales y un concierto próximo.<br>
 <strong>상황:</strong> 아나와 루이스가 음악적 취향과 다가올 콘서트에 대해 이야기합니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> Luis, ¿conoces a este grupo de música?</td>
-<td style="text-align:left"><strong>아나:</strong> 루이스, 이 음악 그룹 아니?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Luis:</strong> Sí, los conozco. Tocan música tradicional española con un toque moderno.</td>
-<td style="text-align:left"><strong>루이스:</strong> 응, 알아. 현대적인 감각을 더한 스페인 전통 음악을 연주하더라고.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> Me encanta su arte. Van a dar un concierto mañana.</td>
-<td style="text-align:left"><strong>아나:</strong> 난 그들의 예술이 너무 좋아. 내일 콘서트를 한대.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Luis:</strong> ¡Qué bien! ¿Cuánto cuesta el billete?</td>
-<td style="text-align:left"><strong>루이스:</strong> 멋지다! 표가 얼마야?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> Cuesta cincuenta euros. Es un poco caro, ¿no?</td>
-<td style="text-align:left"><strong>아나:</strong> 50유로야. 조금 비싸지 그치?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Luis:</strong> Sí, 하지만 el espectáculo es muy bueno. Vamos, ¿quieres?</td>
-<td style="text-align:left"><strong>루이스:</strong> 응, 하지만 공연이 아주 좋잖아. 가자, 어때?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ana:</strong> ¡Vale! Quiero conocer su música en directo.</td>
-<td style="text-align:left"><strong>아나:</strong> 좋아! 그들의 음악을 라이브로 알고(접하고) 싶어.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Luis, ¿conoces a este grupo de música?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 루이스, 이 음악 그룹 아니?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> Sí, los conozco. Tocan música tradicional española con un toque moderno.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 응, 알아. 현대적인 감각을 더한 스페인 전통 음악을 연주하더라고.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Me encanta su arte. Van a dar un concierto mañana.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 난 그들의 예술이 너무 좋아. 내일 콘서트를 한대.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> ¡Qué bien! ¿Cuánto cuesta el billete?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 멋지다! 표가 얼마야?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> Cuesta cincuenta euros. Es un poco caro, ¿no?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 50유로야. 조금 비싸지 그치?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Luis:</strong> Sí, 하지만 el espectáculo es muy bueno. Vamos, ¿quieres?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루이스:</strong> 응, 하지만 공연이 아주 좋잖아. 가자, 어때?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Ana:</strong> ¡Vale! Quiero conocer su música en directo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>아나:</strong> 좋아! 그들의 음악을 라이브로 알고(접하고) 싶어.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

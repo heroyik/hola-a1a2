@@ -1,17 +1,21 @@
 # Chapter 8: El trabajo (A2)
+
 <p class="cervantes-ref">Cervantes: §7 Trabajo: 실전 비즈니스 어휘, 이력서 및 면접 표현</p>
 
 ## 1. Opener
+
 **Mi futuro profesional (나의 전문적인 미래)**  
 A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력을 관리하고 새로운 기회를 찾는 과정에 집중합니다. 어떻게 하면 나를 효과적으로 소개하고, 면접에서 당당하게 질문에 답할 수 있을까요? 이번 장에서는 이력서(CV) 작성에 필요한 어휘와 면접에서 쓰이는 실전 표현들을 배웁니다. 또한 과거의 업무 경험을 설명하기 위해 단순과거와 불완료과거를 적절히 섞어 사용하는 법을 익힙니다. 여러분의 꿈이 현실이 되는 과정을 스페인어로 그려봅시다.
 
 **학습 목표**
+
 - 이력서, 면접, 고용 계약 등 고급 비즈니스 어휘 15개 이상 습득
 - 과거 업무 경험 설명을 위한 시제(단순과거/불완료과거) 활용법 복습
 - 구인 광고 이해 및 면접 질문에 대한 답변 전략 수립
 - 스페인의 채용 프로세스와 링크드인 등 전문 네트워크 활용 이해
 
 **💡 English Bridge: Professional Terms**
+
 - **CV**: Curriculum Vitae
 - **Interview**: Entrevista de trabajo
 
@@ -21,9 +25,10 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 ---
 
 ## 2. Vocabulario Esencial: El Proceso de Selección
+
 성공적인 취업을 위한 채용 과정의 핵심 요소들입니다. 이미지 속의 면접 장면과 함께 어휘를 익혀보세요.
 
-![Entrevista de Trabajo](../images/ch08_a2_vocab_interview.png)
+![Entrevista de Trabajo](../images/ch08_a2_vocab_interview_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -53,14 +58,17 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 ---
 
 ## 3. Expresiones Útiles
+
 면접관의 질문에 답하거나 자신의 경력을 설명할 때 유용한 표현들입니다.
 
 **A. 면접관의 질문 (Preguntas del entrevistador)**
+
 - **¿Por qué quiere trabajar con nosotros?** (Why do you want to work with us? / 왜 우리 회사와 일하고 싶으신가요?)
 - **Hábleme de su experiencia laboral.** (Tell me about your work experience. / 본인의 업무 경력에 대해 말씀해 주세요.)
 - **¿Cuáles son sus mayores fortalezas?** (What are your greatest strengths? / 본인의 가장 큰 강점은 무엇인가요?)
 
 **B. 자신의 경력 설명하기 (Describir la trayectoria)**
+
 - **Trabajé tres años en una multinacional.** (I worked for three years in a multinational. / 저는 다국적 기업에서 3년 동안 일했습니다.)
 - **Tengo mucha experiencia en ventas.** (I have a lot of experience in sales. / 저는 영업 분야에 많은 경험이 있습니다.)
 - **Soy una persona responsable y creativa.** (I am a responsible and creative person. / 저는 책임감 있고 창의적인 사람입니다.)
@@ -69,9 +77,11 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 ---
 
 ## 4. Gramática Esencial
+
 과거의 업무 경험을 입체적으로 표현하기 위해 시제를 조화롭게 사용하는 법을 익혀봅시다.
 
 ### A. 단순과거 (Indefinido) vs 불완료과거 (Imperfecto) (경력 기술 시)
+
 과거의 업무 경력을 설명하는 데 필수적인 시제들입니다.
 
 **Mandatory Irregulars (Indefinido):**
@@ -101,6 +111,7 @@ estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber
   - 예: *En mi antiguo trabajo, hablaba mucho con clientes extranjeros.* (전 직장에서 저는 외국 고객들과 대화를 많이 하곤 했습니다.)
 
 ### B. 시제 활용 팁
+
 이력서의 '경력 사항'에는 보통 **단순과거**를, 면접에서 당시의 분위기나 일상적인 업무 루틴을 설명할 때는 **불완료과거**를 주로 사용합니다.
 
 **Korean Tip!**
@@ -109,9 +120,10 @@ estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber
 ---
 
 ## 5. Cultura Viva: El Mercado Laboral en España
+
 스페인의 채용 시장과 기업 문화의 특징을 알아봅시다.
 
-![Professional Success](../images/ch08_a2_culture_siesta.png)
+![Professional Success](../images/ch08_a2_culture_siesta_v2_1.png)
 
 En los últimos años, el mercado laboral español ha experimentado grandes cambios hacia la digitalización. Plataformas como LinkedIn son esenciales para encontrar empleo en las grandes ciudades. Sin embargo, el contacto personal (networking) sigue siendo muy influyente en España; a menudo, las recomendaciones personales abren puertas que los anuncios públicos no pueden.
 
@@ -168,11 +180,13 @@ Un aspecto importante es el **horario intensivo** durante el verano, donde mucha
 ---
 
 ## 7. Lectura 📖
+
 **Cómo prepararse para una entrevista (면접 준비 방법)**
 
 Para tener éxito en una entrevista en España, la preparación es clave. Primero, debes investigar la empresa y entender sus valores. Es importante vestir de forma adecuada según el puesto de trabajo. Durante la entrevista, sé puntual y mantén el contacto visual. Cuando hables de tu experiencia, sé específico: explica qué hiciste y qué resultados lograste. No olvides hacer preguntas al final, como "¿Cuál es el siguiente paso en el proceso?". Recuerda que la actitud positiva y la confianza son tan importantes como tu formación académica. ¡Mucha suerte!
 
 **Questions:**
+
 1. 면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요? (What is the first thing to do to succeed?)
    - ............................................................
 2. 대화 중 태도에 대해 어떤 조언을 하고 있나요? (What advice is given about attitude/behavior?)
@@ -184,6 +198,7 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 ---
 
 ## 8. Diálogo
+
 **La Entrevista de Selección (채용 면접)**
 
 **Situación:** El Sr. Martínez entrevista a Sofía para un puesto de Coordinadora de Proyectos.
@@ -210,7 +225,9 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 이력서와 면접에 필요한 고급 어휘 10개 이상을 익혔나요?
 - [ ] 단순과거와 불완료과거를 업무 경력 설명에 맞게 사용할 수 있나요?
 - [ ] 면접관의 질문에 답하는 기본적인 패턴을 연습했나요?
@@ -219,6 +236,7 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 ---
 
 ## 10. Cierre
+
 ¡Enhorabuena! 비즈니스 스페인어의 세계에 발을 내디딘 것을 축하합니다. 단순히 일하는 것을 넘어 자신의 가치를 증명하고 소통하는 법을 배우는 것은 매우 큰 자산입니다. 이번 장에서 배운 표현들이 여러분의 커리어에 날개가 되기를 바랍니다. 다음 장에서는 우리가 살고 있는 지구와 사회적 책임에 대해 다루는 '지구촌과 경제(A2)' 섹션으로 이어가겠습니다. 성장은 계속됩니다! ¡Adelante!
 
 ---
@@ -226,18 +244,18 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 ## 11. Soluciones
 
 **6. Práctica - A. CV Vocabulary Checklist**
-1-b / 2-a / 3-e / 4-c / 5-d
+
+1. 1-b, 2-a, 3-e, 4-c, 5-d
 
 **6. Práctica - B. Fill in the blanks with the correct past tense**
-1. hice / 2. era / 3. Viví / 4. llegaba / 5. tuve
+
+1. 1. hice, 2. era, 3. Viví, 4. llegaba, 5. tuve
 
 **6. Práctica - C. 번역 연습**
-1. Aprendí a comunicarme en una multinacional.
-2. Cada día asistía a una reunión matutina.
-3. He solicitado el puesto porque busco nuevos retos. (또는 me presento...)
-4. Sé hablar inglés y español.
-5. Ayer firmé el contrato después de la entrevista.
 
-**7. Lectura Questions**
-1. 기업 조사 및 가치 이해 (Investigar la empresa y entender sus valores).
-2. 긍정적인 태도와 자신감을 유지하고 시선을 맞추기 (Mantener actitud positiva, confianza y contacto visual).
+1. 1. Aprendí a comunicarme en una multinacional., 2. Cada día asistía a una reunión matutina., 3. He solicitado el puesto porque busco nuevos retos. (또는 me presento...), 4. Sé hablar inglés y español., 5. Ayer firmé el contrato después de la entrevista.
+
+**7. Lectura - Preguntas**
+
+1. 1. 기업 조사 및 가치 이해 (Investigar la empresa y entender sus valores).
+2. 1. 긍정적인 태도와 자신감을 유지하고 시선을 맞추기 (Mantener actitud positiva, confianza y contacto visual).

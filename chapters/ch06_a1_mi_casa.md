@@ -1,11 +1,14 @@
 # Chapter 6: Mi casa (A1)
+
 <p class="cervantes-ref">Cervantes: §10 Vivienda: 주거의 유형, 집의 구조 및 가구와 위치 표현</p>
 
 ## 1. Opener
+
 **Hogar, dulce hogar (즐거운 나의 집)**
 집은 단순한 물리적 공간을 넘어 우리의 정체성이 반영되는 가장 편안한 안식처입니다. 이번 장에서는 집의 다양한 종류와 방의 명칭, 그리고 가구들의 이름을 배웁니다. 또한 'hay'와 'estar'를 구분하여 집 안에 무엇이 어디에 있는지를 정확하게 설명하고, 위치 부사를 활용해 공간을 묘사하는 방법을 익힙니다.
 
 **학습 목표**
+
 - 집의 종류 및 방, 가구 명칭 10개 이상 습득
 - 'hay'와 'estar'의 용법 완벽 구분 및 활용
 - 위치 부사(encima de, debajo de 등)를 사용한 공간 묘사
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial
+
 꿈꾸던 예쁜 이층 집의 내부 구조입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Mi Casa — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a1_vocab_house.png)
+![Mi Casa — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a1_vocab_house_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -39,26 +43,30 @@
 ---
 
 ## 3. Expresiones Útiles
+
 나의 집을 소개하거나 물건의 위치를 물을 때 사용하는 핵심 표현들입니다.
 
 **A. 집 소개하기 (Describing the House)**
+
 - **Vivo en un piso pequeño en el centro.** (I live in a small flat in the center. / 저는 시내의 작은 아파트에 살아요.)
 - **Mi casa tiene tres habitaciones.** (My house has three rooms. / 우리 집은 방이 세 개 있어요.)
 - **La cocina es moderna y luminosa.** (The kitchen is modern and bright. / 주방은 현대적이고 밝아요.)
 - **Hay un jardín grande detrás de la casa.** (There is a big garden behind the house. / 집 뒤에 큰 정원이 있어요.)
 
 **B. 위치 묻고 답하기 (Asking and Giving Location)**
+
 - **¿Dónde está el baño?** (Where is the bathroom? / 화장실이 어디인가요?)
 - **Está al final del pasillo, a la derecha.** (It's at the end of the hall, on the right. / 복도 끝 오른쪽에 있어요.)
 - **¿Qué hay en el salón?** (What is there in the living room? / 거실에 무엇이 있나요?)
-    - 💡 **English Bridge**: "Hay" = "There is/are." Use it for unknown or unspecified things.
+  - 💡 **English Bridge**: "Hay" = "There is/are." Use it for unknown or unspecified things.
 
 ---
 
 ## 4. Gramática Esencial
+
 이번 장에서는 존재를 나타내는 'hay'와 위치를 나타내는 'estar', 그리고 위치를 정교하게 묘사하는 부사들을 배웁니다.
 
-### A. Hay vs Estar (존재와 위치) — 핵심 구분!
+### A. Hay vs Estar (존재와 위치) — 핵심 구분
 
 **English Bridge**: This is like the difference between "**There is** a book on the table" (existence = hay) vs "**The** book **is** on the table" (specific location = estar).
 
@@ -166,6 +174,7 @@
 ---
 
 ## 5. Cultura Viva: ¿Piso o Chalet? 🏠
+
 스페인 사람들은 어떤 집에서 살까요? 그들의 주거 문화를 엿보세요.
 
 En España, la mayoría de la gente que vive en las ciudades reside en **pisos**. Un "piso" es un apartamento en un bloque de edificios. A los españoles les gusta vivir cerca del centro, de las tiendas y de los bares. Por eso, las ciudades son muy compactas y tienen mucha vida en la calle. Muchos de estos edificios tienen un **patio interior**, un espacio abierto en el centro del edificio que da luz y aire a las habitaciones.
@@ -177,7 +186,7 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 
 반면, 평온함을 선호하는 가족들은 **샬레(chalet)**에 사는 것을 좋아합니다. 샬레는 대개 정원이나 수영장이 딸린 단독주택으로, 보통 도시 외곽에 위치합니다. 안달루시아와 같은 스페인 남부에서는 창문의 철제 창살과 꽃 화분으로 장식된 흰색 집들이 유명합니다.
 
-![스페인 주거 형태 — 도시의 피소와 교외의 샬레](../images/ch06_a1_culture_housing.png)
+![스페인 주거 형태 — 도시의 피소와 교외의 샬레](../images/ch06_a1_culture_housing_v2_1.png)
 
 ---
 
@@ -217,11 +226,13 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 ---
 
 ## 7. Lectura 📖
+
 **La casa de mis sueños (내가 꿈꾸는 집)**
 
 Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidoso en el centro. Prefiero un chalet pequeño en el campo, cerca de la montaña. Mi casa ideal tiene dos dormitorios grandes y un salón con mucha luz. En el jardín hay muchos árboles y flores de colores. También quiero una cocina moderna porque me encanta cocinar para mis amigos. Detrás de la casa hay un pequeño río. Es un lugar muy tranquilo para leer y descansar.
 
 **Preguntas (질문):**
+
 1. ¿Por qué no quiere Laura vivir en la ciudad? (라우라는 왜 시내 아파트에 살고 싶어하지 않나요?)
 2. ¿Qué hay cerca de su casa ideal? (꿈꾸는 집 근처에는 무엇이 있나요?)
 
@@ -232,6 +243,7 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 ---
 
 ## 8. Diálogo
+
 **Buscando un nuevo piso (새 아파트 찾기)**
 
 **Situación:** Mateo y Elena están mirando anuncios de alquiler porque necesitan un piso nuevo para el próximo semestre.
@@ -284,7 +296,9 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 집의 방 이름과 가구 명칭 **10개 이상**을 스페인어로 말할 수 있다.
 - [ ] **Hay**와 **Estar**의 차이점을 설명하고 문장에 적용할 수 있다.
 - [ ] **encima de**, **detrás de** 등 위치 부사 **8개**를 활용할 수 있다.
@@ -293,6 +307,7 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 ---
 
 ## 10. Cierre
+
 ¡Muy bien! 🎉 이번 장을 통해 여러분은 자신의 가장 소중한 공간인 '집'을 스페인어로 묘사하는 법을 배웠습니다.
 
 **Hay**는 "**There is/are**" (존재), **Estar**는 "**is located**" (위치) — 이 구분을 기억하세요! 여러분의 방을 둘러보며 "**En mi cuarto hay...**"라고 연습해 보세요.
@@ -304,22 +319,26 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-c, 2-e, 3-a, 4-b, 5-d
+
+1. 1-c, 2-e, 3-a, 4-b, 5-d
 
 **6. Práctica - B. Choose between 'Hay' or 'Está'**
-1. hay
-2. está
-3. están
-4. hay
-5. está
+
+1. 1. hay
+2. 1. está
+3. 1. están
+4. 1. hay
+5. 1. está
 
 **6. Práctica - C. 번역 연습**
-1. Hay un libro encima de la silla.
-2. Mi casa es muy tranquila y limpia.
-3. El baño está al lado de la cocina.
-4. ¿Cuántas ventanas hay en el salón?
-5. La televisión está delante del sofá.
+
+1. 1. Hay un libro encima de la silla.
+2. 1. Mi casa es muy tranquila y limpia.
+3. 1. El baño está al lado de la cocina.
+4. 1. ¿Cuántas ventanas hay en el salón?
+5. 1. La televisión está delante del sofá.
 
 **7. Lectura - Preguntas**
-1. 시끄러운 아파트가 싫기 때문입니다. (Porque no quiere vivir en un piso ruidoso.)
-2. 산과 작은 강이 있습니다. (La montaña y un pequeño río.)
+
+1. 1. 시끄러운 아파트가 싫기 때문입니다. (Porque no quiere vivir en un piso ruidoso.)
+2. 1. 산과 작은 강이 있습니다. (La montaña y un pequeño río.)

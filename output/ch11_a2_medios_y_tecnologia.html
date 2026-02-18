@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 <h2>2. Vocabulario Esencial: El Mundo de la IT</h2>
 <p>우리의 삶을 바꾸고 있는 최신 기술과 디지털 환경입니다. 이미지 속의 스마트한 연구 공간과 함께 어휘를 익혀보세요.</p>
 <p><img src="../images/ch11_a2_vocab_it.png" alt="Tecnología"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>la aplicación / la app</strong></td>
-<td style="text-align:left"><strong>Application / App</strong> ✅</td>
-<td style="text-align:left">앱</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>el software</strong></td>
-<td style="text-align:left"><strong>Software</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align:left">소프트웨어</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>la red social</strong></td>
-<td style="text-align:left"><strong>Social Network</strong> ✅</td>
-<td style="text-align:left">소셜 미디어 / SNS</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>la contraseña</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">비밀번호</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>el enlace</strong></td>
-<td style="text-align:left"><strong>Link</strong> (to bind/lace)</td>
-<td style="text-align:left">링크 / 연결</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>la nube</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">클라우드 (원래 의미: 구름)</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>el archivo</strong></td>
-<td style="text-align:left"><strong>Archive</strong> ✅</td>
-<td style="text-align:left">파일 / 기록물</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>descargar</strong></td>
-<td style="text-align:left"><strong>Discharge / Download</strong> (near)</td>
-<td style="text-align:left">다운로드하다</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>actualizar</strong></td>
-<td style="text-align:left"><strong>Actualize / Update</strong> (near)</td>
-<td style="text-align:left">업데이트하다</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>la inteligencia artificial</strong></td>
-<td style="text-align:left"><strong>Artificial Intelligence</strong> ✅</td>
-<td style="text-align:left">인공지능 (AI)</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>la aplicación / la app</strong></td><td><strong>Application / App</strong> ✅</td><td>앱</td></tr>
+    <tr><td>2</td><td><strong>el software</strong></td><td><strong>Software</strong> ✅ (Perfect Cognate)</td><td>소프트웨어</td></tr>
+    <tr><td>3</td><td><strong>la red social</strong></td><td><strong>Social Network</strong> ✅</td><td>소셜 미디어 / SNS</td></tr>
+    <tr><td>4</td><td><strong>la contraseña</strong></td><td>—</td><td>비밀번호</td></tr>
+    <tr><td>5</td><td><strong>el enlace</strong></td><td><strong>Link</strong> (to bind/lace)</td><td>링크 / 연결</td></tr>
+    <tr><td>6</td><td><strong>la nube</strong></td><td>—</td><td>클라우드 (원래 의미: 구름)</td></tr>
+    <tr><td>7</td><td><strong>el archivo</strong></td><td><strong>Archive</strong> ✅</td><td>파일 / 기록물</td></tr>
+    <tr><td>8</td><td><strong>descargar</strong></td><td><strong>Discharge / Download</strong> (near)</td><td>다운로드하다</td></tr>
+    <tr><td>9</td><td><strong>actualizar</strong></td><td><strong>Actualize / Update</strong> (near)</td><td>업데이트하다</td></tr>
+    <tr><td>10</td><td><strong>la inteligencia artificial</strong></td><td><strong>Artificial Intelligence</strong> ✅</td><td>인공지능 (AI)</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -229,35 +180,20 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Choose the correct frequency adverb (알맞은 빈도 부사를 선택하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Situation</th>
-<th style="text-align:left">Frequency Adverb</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. Every single day (매일 매 순간)</td>
-<td style="text-align:left">a. Muchas veces</td>
-</tr>
-<tr>
-<td style="text-align:left">2. Not even once (한 번도 없음)</td>
-<td style="text-align:left">b. A veces</td>
-</tr>
-<tr>
-<td style="text-align:left">3. Regularly (정기적으로, 자주)</td>
-<td style="text-align:left">c. Siempre</td>
-</tr>
-<tr>
-<td style="text-align:left">4. Occasionally (가끔씩)</td>
-<td style="text-align:left">d. Nunca</td>
-</tr>
-<tr>
-<td style="text-align:left">5. Many times (여러 번)</td>
-<td style="text-align:left">e. A menudo</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Situation</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Frequency Adverb</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. Every single day (매일 매 순간)</td><td style="padding: 10px; border: 1px solid #ddd;">a. Muchas veces</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Not even once (한 번도 없음)</td><td style="padding: 10px; border: 1px solid #ddd;">b. A veces</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. Regularly (정기적으로, 자주)</td><td style="padding: 10px; border: 1px solid #ddd;">c. Siempre</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. Occasionally (가끔씩)</td><td style="padding: 10px; border: 1px solid #ddd;">d. Nunca</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Many times (여러 번)</td><td style="padding: 10px; border: 1px solid #ddd;">e. A menudo</td></tr>
+  </tbody>
 </table>
 <p><strong>B. 전화 통화 표현 연습 (다음 상황에 맞는 표현을 연결하세요)</strong></p>
 <ol>
@@ -304,43 +240,22 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 <p><strong>Un problema técnico (기술적인 문제)</strong></p>
 <p><strong>Situación:</strong> Pedro llama al servicio técnico porque no puede entrar en su cuenta de internet.<br>
 <strong>상황:</strong> 파블로가 인터넷 계정에 접속할 수 없어 기술 서비스 센터에 전화합니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Operador:</strong> ¿Dígame? Soporte técnico, ¿en qué puedo ayudarle?</td>
-<td style="text-align:left"><strong>상담원:</strong> 여보세요? 기술 지원팀입니다, 무엇을 도와드릴까요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Pedro:</strong> Hola, llamo porque no puedo entrar en mi cuenta.</td>
-<td style="text-align:left"><strong>페드로:</strong> 안녕하세요, 제 계정에 로그인할 수 없어서 전화드렸어요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Operador:</strong> ¿Ha olvidado su contraseña?</td>
-<td style="text-align:left"><strong>상담원:</strong> 비밀번호를 잊어버리셨나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Pedro:</strong> No, la sé perfectamente, pero el enlace no funciona.</td>
-<td style="text-align:left"><strong>페드로:</strong> 아니요, 정확히 알고 있는데 링크가 작동하지 않아요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Operador:</strong> Entiendo. Vamos a intentar actualizar la página.</td>
-<td style="text-align:left"><strong>상담원:</strong> 이해했습니다. 페이지를 새로고침(업데이트)해봅시다.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Pedro:</strong> Ya lo he hecho, 하지만 sigue igual.</td>
-<td style="text-align:left"><strong>페드로:</strong> 이미 해봤는데, 여전해요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Operador:</strong> Un momento, por favor. Voy a revisar el servidor.</td>
-<td style="text-align:left"><strong>상담원:</strong> 잠시만 기다려주세요. 서버를 확인해 보겠습니다.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Operador:</strong> ¿Dígame? Soporte técnico, ¿en qué puedo ayudarle?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>상담원:</strong> 여보세요? 기술 지원팀입니다, 무엇을 도와드릴까요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pedro:</strong> Hola, llamo porque no puedo entrar en mi cuenta.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>페드로:</strong> 안녕하세요, 제 계정에 로그인할 수 없어서 전화드렸어요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Operador:</strong> ¿Ha olvidado su contraseña?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>상담원:</strong> 비밀번호를 잊어버리셨나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pedro:</strong> No, la sé perfectamente, pero el enlace no funciona.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>페드로:</strong> 아니요, 정확히 알고 있는데 링크가 작동하지 않아요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Operador:</strong> Entiendo. Vamos a intentar actualizar la página.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>상담원:</strong> 이해했습니다. 페이지를 새로고침(업데이트)해봅시다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Pedro:</strong> Ya lo he hecho, 하지만 sigue igual.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>페드로:</strong> 이미 해봤는데, 여전해요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Operador:</strong> Un momento, por favor. Voy a revisar el servidor.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>상담원:</strong> 잠시만 기다려주세요. 서버를 확인해 보겠습니다.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

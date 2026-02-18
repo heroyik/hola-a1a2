@@ -1,11 +1,14 @@
 # Chapter 13: Rutina y salud (A2)
+
 <p class="cervantes-ref">Cervantes: §11 일상생활 심화: 가사 노동 및 §15 신체 및 건강 심화: 질병 증상 및 약국</p>
 
 ## 1. Opener
+
 **Equilibrio y bienestar (균형과 웰빙)**  
 A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관리하고(집안일) 신체적, 정신적 건강을 돌보는 방법에 대해 더 깊이 있게 다룹니다. 집안일을 분담하거나, 몸의 어디가 어떻게 아픈지 구체적으로 설명하고, 건강한 생활 습관에 대해 조언할 수 있을까요? 이번 장에서는 가사 노동 관련 어휘, 신체 부위 및 증상 표현, 그리고 세계적으로 인정받는 '지중해 식단'의 건강 비결을 배웁니다. 더 건강하고 활기찬 스페인어 생활을 시작해 봅시다.
 
 **학습 목표**
+
 - 가사 노동(Tareas domésticas), 신체 부위 심화 및 질병 증상 어휘 15개 이상 습득
 - 'Doler(~가 아프다)' 동사의 특수 구조와 활용법
 - 건강한 생활 습관에 대한 제안과 조언 표현 (Debería, Hay que 등)
@@ -17,9 +20,10 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 ---
 
 ## 2. Vocabulario Esencial: La Salud y el Hogar
+
 건강한 삶을 유지하기 위한 활동과 관리입니다. 평화로운 웰빙의 이미지를 확인하며 어휘를 익혀보세요.
 
-![Salud](../images/ch13_a2_vocab_health.png)
+![Salud](../images/ch13_a2_vocab_health_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 ---
 
 ## 3. Expresiones Útiles
+
 몸의 상태를 설명하고 도움을 요청할 때 유용한 패턴입니다.
 
 **A. 증상 설명하기 (Síntomas)**
+
 - **Me duele mucho la espalda.** (My back hurts a lot. / 허리가 너무 아파요.)
 - **Tengo fiebre y tos.** (I have a fever and a cough. / 열이 나고 기침을 해요.)
 - **Estoy resfriado / resfriada.** (I have a cold. / 감기에 걸렸어요.)
 - **Me siento mareado / mareada.** (I feel dizzy. / 어지러워요.)
 
 **B. 제안과 조언 (Consejos)**
+
 - **Tienes que descansar más.** (You have to rest more. / 더 쉬어야 해요.)
 - **Deberías ir al médico.** (You should go to the doctor. / 병원에 가보는 게 좋겠어요.)
 - **Es importante comer sano.** (It is important to eat healthy. / 건강하게 먹는 것이 중요합니다.)
@@ -66,9 +73,11 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 ---
 
 ## 4. Gramática Esencial
+
 통증을 표현하는 'Doler' 동사의 구조는 'Gustar' 동사와 매우 비슷합니다.
 
 ### Doler (아프다) - 역구조 동사
+
 주어는 '아픈 부위'가 되며, '나에게'에 해당하는 대명사를 동사 앞에 씁니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -93,13 +102,14 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 ---
 
 ## 5. Cultura Viva: La Dieta Mediterránea - El Secreto de la Longevidad
+
 스페인 사람들이 건강하게 오래 사는 비결은 무엇일까요?
 
-![Mediterranean Lifestyle](../images/ch13_a2_culture_lifestyle.png)
+![Mediterranean Lifestyle](../images/ch13_a2_culture_lifestyle_v2_1.png)
 
 La **dieta mediterránea** es considerada una de las más saludables del mundo y es Patrimonio Cultural Inmaterial de la Humanidad. Se basa en el consumo de productos frescos y locales. El ingrediente estrella es el **aceite de oliva** (oro líquido), que se usa para cocinar y aliñar ensaladas.
 
-Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frutos secos. La carne roja se consume con moderación. Pero la salud no es solo comida; también es socialización. Comer con amigos y familia, disfrutar de la comida sin prisas (la sobremesa) y caminar mucho son pilares del estilo de vida español. Este equilibrio entre dieta, ejercicio moderado와 사회적 관계가 스페인을 세계 최고의 기대 수명을 가진 나라 중 하나로 만듭니다.
+Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frutos secos. La carne roja se consume con moderación. Pero la salud no es solo comida; también es socialización. Comer con amigos y familia, disfrutar de la comida sin prisas (la sobremesa) y caminar mucho son pilares del estilo de vida español. Este equilibrio entre dieta, ejercicio moderado y relaciones sociales hace que España sea uno de los países con mayor esperanza de vida del mundo.
 
 **[한국어 번역]**
 **지중해 식단**은 세계에서 가장 건강한 식단 중 하나로 여겨지며 유네스코 인류 무형문화유산으로 등재되어 있습니다. 신선하고 지역적인 식재료 소비를 바탕으로 하죠. 주인공은 바로 '액체 금'이라 불리는 **올리브 오일**인데, 요리할 때나 샐러드 드레싱으로 항상 사용됩니다.
@@ -152,11 +162,13 @@ Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frut
 ---
 
 ## 7. Lectura 📖
+
 **Consejos para una vida sana (건강한 삶을 위한 조언)**
 
 Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la misma: "Escucha a tu cuerpo". Yo, por ejemplo, siempre trato de dormir ocho horas para no estar cansado. Por la mañana, hago un poco de ejercicio. Pero lo más importante es la alimentación. Sigo la dieta mediterránea: uso mucho aceite de oliva y como pescado tres veces a la semana. Cuando me duele la garganta, bebo té con miel y limón. Si tengo fiebre, voy al médico enseguida. También es fundamental el bienestar mental: paso tiempo con mis amigos y trato de no estresarme con las tareas domésticas. ¡La salud empieza en la cocina y termina en el corazón!
 
 **Questions:**
+
 1. 주인공은 왜 아침에 운동을 하나요? (Why does the protagonist exercise in the morning?)
    - ............................................................
 2. 주인공은 목이 아플 때 무엇을 마시나요? (What does the protagonist drink when their throat hurts?)
@@ -168,6 +180,7 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 ---
 
 ## 8. Diálogo
+
 **En la farmacia (약국에서)**
 
 **Situación:** Juan va a la farmacia porque se siente mal y tiene gripe.
@@ -194,7 +207,9 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 집안일 및 건강 관련 고급 어휘 10개 이상을 이해하나요?
 - [ ] 'Doler' 동사의 독특한 구조와 대명사 사용법을 익혔나요?
 - [ ] 다른 사람에게 건강 조언(제안)을 스페인어로 할 수 있나요?
@@ -203,6 +218,7 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 ---
 
 ## 10. Cierre
+
 ¡Muy bien! 오늘 여러분은 자신의 몸과 마음, 그리고 주거 환경을 돌보는 법을 스페인어로 배웠습니다. 'Doler' 동사를 통해 자신의 상태를 정확히 말할 수 있게 되었고, 건강한 식단과 라이프스타일에 대해 이야기할 수 있게 되었습니다. 건강은 모든 배움의 기초입니다. 다음 장에서는 우리의 삶을 더욱 즐겁게 만들어 줄 '축제, 전통 및 여가 활동 심화(A2)' 섹션으로 이어가겠습니다. ¡Mucha salud para todos!
 
 ---
@@ -210,18 +226,20 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 ## 11. Soluciones
 
 **6. Práctica - A. Match the symptom with the body part**
-1-b / 2-a / 3-c / 4-e / 5-d
+
+1. 1-b, 2-a, 3-c, 4-e, 5-d
 
 **6. Práctica - B. Doler 동사 변형 연습**
-1. me duele / 2. te duelen / 3. le duele / 4. nos duelen / 5. les duele
+
+1. 1. me duele, 2. te duelen, 3. le duele, 4. nos duelen, 5. les duele
 
 **6. Práctica - C. 번역 연습**
-1. Debes (또는 Deberías) ir a la farmacia.
-2. Es importante beber mucha agua.
-3. Estoy resfriado/a y tengo fiebre.
-4. Usted tiene que comer más verduras.
-5. Me duele la cabeza desde ayer.
 
-**7. Lectura Questions**
-1. 피곤하지 않기 위해 (Para no estar cansado).
-2. 꿀과 레몬을 넣은 차 (Té con miel y limón).
+1. 1. Debes (또는 Deberías) ir a la farmacia., 2. Es importante beber mucha agua., 3. Estoy resfriado/a y tengo fiebre., 4. Usted tiene que comer más verduras., 5. Me duele la cabeza desde ayer.
+
+**7. Lectura - Preguntas**
+
+1. 1. 피곤하지 않기 위해 (Para no estar cansado).
+2. 1. 꿀과 레몬을 넣은 차 (Té con miel y limón).
+
+```

@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 <h2>2. Vocabulario Esencial: Colores, Tallas y Precios</h2>
 <p>여러분의 스타일을 더욱 화려하게 만들어줄 색상과 쇼핑 필수 요소들입니다. 이미지 속 부티크의 풍경과 함께 어휘를 익혀보세요.</p>
 <p><img src="../images/ch10_a2_vocab_price_color.png" alt="Boutique y Colores"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>rojo / roja</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">빨간색</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>azul</strong></td>
-<td style="text-align:left"><strong>Azure</strong> ✅ (near)</td>
-<td style="text-align:left">파란색</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>verde</strong></td>
-<td style="text-align:left"><strong>Verdant</strong> (greenery)</td>
-<td style="text-align:left">초록색</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>amarillo / amarilla</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">노란색</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>negro / negra</strong></td>
-<td style="text-align:left"><strong>Negro</strong> (Spanish/Latin root)</td>
-<td style="text-align:left">검은색</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>blanco / blanca</strong></td>
-<td style="text-align:left"><strong>Blank</strong> (white space)</td>
-<td style="text-align:left">흰색</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>la talla</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">치수 / 사이즈</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>el precio</strong></td>
-<td style="text-align:left"><strong>Price</strong> ✅</td>
-<td style="text-align:left">가격</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>el descuento</strong></td>
-<td style="text-align:left"><strong>Discount</strong> ✅</td>
-<td style="text-align:left">할인</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>el recibo / el tique</strong></td>
-<td style="text-align:left"><strong>Receipt / Ticket</strong> ✅</td>
-<td style="text-align:left">영수증</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>1</td><td><strong>rojo / roja</strong></td><td>—</td><td>빨간색</td></tr>
+    <tr><td>2</td><td><strong>azul</strong></td><td><strong>Azure</strong> ✅ (near)</td><td>파란색</td></tr>
+    <tr><td>3</td><td><strong>verde</strong></td><td><strong>Verdant</strong> (greenery)</td><td>초록색</td></tr>
+    <tr><td>4</td><td><strong>amarillo / amarilla</strong></td><td>—</td><td>노란색</td></tr>
+    <tr><td>5</td><td><strong>negro / negra</strong></td><td><strong>Negro</strong> (Spanish/Latin root)</td><td>검은색</td></tr>
+    <tr><td>6</td><td><strong>blanco / blanca</strong></td><td><strong>Blank</strong> (white space)</td><td>흰색</td></tr>
+    <tr><td>7</td><td><strong>la talla</strong></td><td>—</td><td>치수 / 사이즈</td></tr>
+    <tr><td>8</td><td><strong>el precio</strong></td><td><strong>Price</strong> ✅</td><td>가격</td></tr>
+    <tr><td>9</td><td><strong>el descuento</strong></td><td><strong>Discount</strong> ✅</td><td>할인</td></tr>
+    <tr><td>10</td><td><strong>el recibo / el tique</strong></td><td><strong>Receipt / Ticket</strong> ✅</td><td>영수증</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -249,35 +200,20 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Choose the correct comparative (알맞은 비교급을 선택하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Comparison</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. El algodón es (..........) que la seda.</td>
-<td style="text-align:left">a. más caro</td>
-</tr>
-<tr>
-<td style="text-align:left">2. Esta falda es (..........) que esa.</td>
-<td style="text-align:left">b. tan bonita</td>
-</tr>
-<tr>
-<td style="text-align:left">3. El azul es (..........) que el verde para ti.</td>
-<td style="text-align:left">c. menos caro</td>
-</tr>
-<tr>
-<td style="text-align:left">4. El precio es (..........) como ayer.</td>
-<td style="text-align:left">d. mejor</td>
-</tr>
-<tr>
-<td style="text-align:left">5. Este pedido es (..........) rápido de todos.</td>
-<td style="text-align:left">e. el más</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Comparison</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. El algodón es (..........) que la seda.</td><td style="padding: 10px; border: 1px solid #ddd;">a. más caro</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. Esta falda es (..........) que esa.</td><td style="padding: 10px; border: 1px solid #ddd;">b. tan bonita</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. El azul es (..........) que el verde para ti.</td><td style="padding: 10px; border: 1px solid #ddd;">c. menos caro</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. El precio es (..........) como ayer.</td><td style="padding: 10px; border: 1px solid #ddd;">d. mejor</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Este pedido es (..........) rápido de todos.</td><td style="padding: 10px; border: 1px solid #ddd;">e. el más</td></tr>
+  </tbody>
 </table>
 <p><strong>B. 형용사 변형 및 최상급 (괄호 안의 형용사를 이용해 문장을 완성하세요)</strong></p>
 <ol>
@@ -324,43 +260,22 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 <p><strong>¿Me queda bien? (나한테 잘 어울려?)</strong></p>
 <p><strong>Situación:</strong> Lucía está en una tienda de ropa con su amigo Carlos y se prueba algunas cosas.<br>
 <strong>상황:</strong> 루시아가 친구 카를로스와 옷가게에서 몇 가지 옷을 입어보고 있습니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Lucía:</strong> Carlos, ¿qué te parece este vestido rojo?</td>
-<td style="text-align:left"><strong>루시아:</strong> 카를로스, 이 빨간 원피스 어때?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Carlos:</strong> Te queda muy bien, pero creo que el azul es más elegante.</td>
-<td style="text-align:left"><strong>카를로스:</strong> 너한테 정말 잘 어울려, 하지만 파란색이 더 우아한 것 같아.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Lucía:</strong> ¿Tú crees? Voy a probarme el azul entonces. (...) ¿Y ahora?</td>
-<td style="text-align:left"><strong>루시아:</strong> 그렇게 생각해? 그럼 파란색을 한번 입어볼게. (...) 지금은 어때?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Carlos:</strong> ¡Increíble! Es el vestido más bonito que te he visto.</td>
-<td style="text-align:left"><strong>카를로스:</strong> 와! 내가 본 네 모습 중에 제일 예쁜 원피스야.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Lucía:</strong> ¡Gracias! Además, tiene un 30% de descuento. ¡Es baratísimo!</td>
-<td style="text-align:left"><strong>루시아:</strong> 고마워! 게다가 30% 할인 중이야. 정말 싸!</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Carlos:</strong> Pues no te lo pienses más. ¡Lévatelo!</td>
-<td style="text-align:left"><strong>카를로스:</strong> 그럼 더 고민하지 마. 얼른 사!</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Lucía:</strong> Vale. Voy a pagar en la caja. ¿Aceptan tarjeta?</td>
-<td style="text-align:left"><strong>루시아:</strong> 좋아. 계산대에서 계산할게. 카드 받나?</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Carlos, ¿qué te parece este vestido rojo?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 카르로스, 이 빨간 원피스 어때?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Carlos:</strong> Te queda muy bien, pero creo que el azul es más elegante.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>카르로스:</strong> 너한테 정말 잘 어울려, 하지만 파란색이 더 우아한 것 같아.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> ¿Tú crees? Voy a probarme el azul entonces. (...) ¿Y ahora?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 그렇게 생각해? 그럼 파란색을 한번 입어볼게. (...) 지금은 어때?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Carlos:</strong> ¡Increíble! Es el vestido más bonito que te he visto.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>카르로스:</strong> 와! 내가 본 네 모습 중에 제일 예쁜 원피스야.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> ¡Gracias! Además, tiene un 30% de descuento. ¡Es baratísimo!</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 고마워! 게다가 30% 할인 중이야. 정말 싸!</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Carlos:</strong> Pues no te lo pienses más. ¡Lévatelo!</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>카르로스:</strong> 그럼 더 고민하지 마. 얼른 사!</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Vale. Voy a pagar en la caja. ¿Aceptan tarjeta?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 좋아. 계산대에서 계산할게. 카드 받나?</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

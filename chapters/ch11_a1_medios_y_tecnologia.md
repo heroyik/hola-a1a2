@@ -1,11 +1,14 @@
 # Chapter 11: Medios y tecnología (A1)
+
 <p class="cervantes-ref">Cervantes: §9 미디어 및 §16 과학 및 기술 기초</p>
 
 ## 1. Opener
+
 **Conectados con el mundo (세상과 연결되다)**  
 우리는 스마트폰, 텔레비전, 인터넷을 통해 전 세계의 소식을 실시간으로 접합니다. 이제 이 연결의 도구들을 스페인어로 불러볼까요? 이번 장에서는 신문, 라디오와 같은 전통 미디어부터 인터넷과 소셜 미디어 같은 현대적 기술 어휘까지 폭넓게 다룹니다. 또한 문장을 더욱 간결하게 만들어주는 '직접 목적대명사(Direct Object Pronouns)'를 배워, "나는 그것을 알아"와 같이 세련된 문장을 구사해 봅시다.
 
 **학습 목표**
+
 - 미디어 장치, 통신 및 기초 IT 어휘 15개 이상 습득
 - 직접 목적대명사(lo, la, los, las)의 위치와 활용법
 - '보다(ver)', '듣다(escuchar)', '읽다(leer)' 등 미디어 활용 동사 복습
@@ -17,9 +20,10 @@
 ---
 
 ## 2. Vocabulario Esencial: Dispositivos y Medios
+
 우리를 연결해 주는 다양한 미디어 기기들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Medios](../images/ch11_a1_vocab_media.png)
+![Medios](../images/ch11_a1_vocab_media_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@
 ---
 
 ## 3. Expresiones Útiles
+
 미디어를 이용하고 기술에 대해 이야기할 때 자주 사용하는 패턴입니다.
 
 **A. 미디어 이용하기**
+
 - **Veo las noticias en la tele.** (I watch the news on TV. / TV로 뉴스를 봐요.)
 - **Escucho la radio por la mañana.** (I listen to the radio in the morning. / 아침에 라디오를 들어요.)
 - **Leo el periódico todos los días.** (I read the newspaper every day. / 매일 신문을 읽습니다.)
 - **¿Tienes internet en casa?** (Do you have internet at home? / 집에 인터넷 있나요?)
 
 **B. 소통과 기술**
+
 - **Te mando un mensaje ahora.** (I'll send you a message now. / 지금 메시지 보낼게.)
 - **Llamo por teléfono a mi madre.** (I call my mother by phone. / 어머니께 전화를 드려요.)
 - **Busco información en la red.** (I look for information on the web. / 웹에서 정보를 찾습니다.)
@@ -66,9 +73,11 @@
 ---
 
 ## 4. Gramática Esencial
+
 문장을 짧고 명확하게 만들어주는 핵심 문법인 직접 목적대명사를 알아봅시다.
 
 ### 직접 목적대명사 (Complemento Directo)
+
 문장에서 '을/를'에 해당하는 목적어를 대신합니다. 영어의 `it, them`과 같습니다.
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -85,6 +94,7 @@
 </table>
 
 **위치 (MANDATORY RULE):**
+
 1. **변형된 동사 앞**: *Yo leo el libro. → Yo **lo** leo.* (나는 그것을 읽는다.)
 2. **동사원형/현재분사 뒤 (붙여 씀)**: *Quiero leerlo.* (그것을 읽고 싶다.) / *Estoy leyéndolo.* (그것을 읽고 있다.)
 
@@ -94,9 +104,10 @@
 ---
 
 ## 5. Cultura Viva: Los Medios de Comunicación en España
+
 스페인의 언론과 방송 문화는 어떨까요?
 
-![Spanish Newsroom](../images/ch11_a1_culture_media.png)
+![Spanish Newsroom](../images/ch11_a1_culture_media_v2_1.png)
 
 España tiene una rica tradición de prensa y televisión. Los periódicos más importantes son **El País** y **El Mundo**, que se leen en todo el país. En la televisión, el **Telediario** de TVE (Televisión Española) es una institución para los españoles. A menudo, las familias se reúnen a las 15:00 o a las 21:00 para ver las noticias mientras comen o cenan.
 
@@ -153,11 +164,13 @@ Hoy en día, el consumo de medios ha cambiado mucho. Los jóvenes prefieren las 
 ---
 
 ## 7. Lectura 📖
+
 **Una mañana con información (정보와 함께하는 아침)**
 
 Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio para escuchar las noticias mientras tomo mi café. La radio me gusta mucho porque es una compañía agradable. Después, en el metro, leo el periódico digital en mi móvil. Es muy cómodo y rápido. Mi padre prefiere el periódico de papel, él lo lee en el bar de la esquina todas las mañanas. A mediodía, mando un mensaje de WhatsApp a mis amigos para quedar. Por la noche, mi familia y yo vemos la película en la tele. Si es una película de acción, a mis hermanos les encanta y la ven con mucha atención. ¡Estamos siempre conectados!
 
 **Questions:**
+
 1. 주인공은 아침에 왜 라디오를 듣나요? (Why does the protagonist listen to the radio in the morning?)
    - ............................................................
 2. 주인공의 아버지는 어디에서 신문을 읽나요? (Where does the father read the newspaper?)
@@ -169,6 +182,7 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 ---
 
 ## 8. Diálogo
+
 **¿Has visto la noticia? (뉴스 봤니?)**
 
 **Situación:** Javier y Carla hablan sobre una noticia importante que ha salido en los medios.
@@ -195,7 +209,9 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 미디어 기기와 관련된 단어 10개 이상을 알고 있나요?
 - [ ] 직접 목적대명사(lo, la, los, las)를 적절한 위치에 쓸 수 있나요?
 - [ ] 미디어 소통과 관련된 실생활 표현들을 익혔나요?
@@ -204,6 +220,7 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 ---
 
 ## 10. Cierre
+
 ¡Excelente! 오늘 여러분은 현대 사회의 핵심인 '연결'에 대해 스페인어로 소통하는 법을 배웠습니다. 직접 목적대명사를 통해 여러분의 문장은 더욱 경제적이고 세련되어졌습니다. 기술은 우리를 가깝게 만들어주지만, 그 기술을 어떤 언어로 채우느냐가 더욱 중요합니다. 다음 장에서는 우리의 소통을 더욱 깊이 있게 만들어 줄 'IT 기술, 팟캐스트 및 모던 미디어 심화(A2)' 섹션으로 이어가겠습니다. ¡Sigue conectado con el español!
 
 ---
@@ -211,18 +228,18 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 ## 11. Soluciones
 
 **6. Práctica - A. Match the action with the medium**
-1-c / 2-d / 3-a / 4-b / 5-e
+
+1. 1-c, 2-d, 3-a, 4-b, 5-e
 
 **6. Práctica - B. 직접 목적대명사 연습**
-1. Yo la veo. / 2. Tú los compras. / 3. Nosotros la escuchamos. / 4. Ella lo lee. / 5. Ellos las mandan.
+
+1. 1. Yo la veo., 2. Tú los compras., 3. Nosotros la escuchamos., 4. Ella lo lee., 5. Ellos las mandan.
 
 **6. Práctica - C. 번역 연습**
-1. Lo leo todos los días.
-2. Mi madre la ve en la tele.
-3. ¿Los has comprado? (또는 ¿Los compraste?)
-4. Estoy escuchándolas. (또는 Las estoy escuchando.)
-5. Queremos lo mucho. (주의: 동사 앞 - Lo queremos mucho.)
 
-**7. Lectura Questions**
-1. 즐거운 친구가 되어주기 때문에 (Porque es una compañía agradable).
-2. 길모퉁이 바 (En el bar de la esquina).
+1. 1. Lo leo todos los días., 2. Mi madre la ve en la tele., 3. ¿Los has comprado? (또는 ¿Los compraste?), 4. Estoy escuchándolas. (또는 Las estoy escuchando.), 5. Lo queremos mucho.
+
+**7. Lectura - Preguntas**
+
+1. 1. 즐거운 친구가 되어주기 때문에 (Porque es una compañía agradable).
+2. 1. 길모퉁이 바 (En el bar de la esquina).

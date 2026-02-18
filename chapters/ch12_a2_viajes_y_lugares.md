@@ -1,11 +1,14 @@
 # Chapter 12: Viajes y lugares (A2)
+
 <p class="cervantes-ref">Cervantes: §10 여행 및 숙박 심화: 호텔 예약, 불만 사항 및 §12 지리 및 장소: 자연 경관 및 도시 구조</p>
 
 ## 1. Opener
+
 **Explorando nuevos horizontes (새로운 지평을 탐험하다)**  
 A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 소통하고 문제를 해결하며 잊지 못할 추억을 만드는 과정입니다. 호텔 체크인 시 요구사항을 정확히 말하거나, 여행 중 발생한 사소한 문제(reclamaciones)를 해결하고, 지난 여행의 감동을 생생하게 묘사할 수 있을까요? 이번 장에서는 숙박 관련 핵심 어휘, 완료 과거(Pretérito Perfecto)를 활용한 경험 공유, 그리고 스페인의 상징적인 여행지인 '산티아고 순례길'에 대해 배웁니다. 여러분의 스페인 여행이 한층 더 깊어질 준비가 되셨나요?
 
 **학습 목표**
+
 - 호텔 시설, 관광지 및 자연 경관 관련 고급 어휘 15개 이상 습득
 - 완료 과거(Haber + 과거분사)를 이용한 여행 경험 묻고 답하기
 - 호텔 예약, 체크인 및 서비스 요청 실전 표현
@@ -17,9 +20,10 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 ---
 
 ## 2. Vocabulario Esencial: El Turismo y la Naturaleza
+
 여행을 더욱 풍요롭게 해주는 장소와 시설들입니다. 다양한 풍경이 어우러진 이미지를 보며 어휘를 익혀보세요.
 
-![Lugares](../images/ch12_a2_vocab_places.png)
+![Lugares](../images/ch12_a2_vocab_places_v2_1.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -49,15 +53,18 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 ---
 
 ## 3. Expresiones Útiles
+
 호텔과 관광지에서 자신의 의사를 정확히 표현하는 패턴입니다.
 
 **A. 호텔에서 (En el Hotel)**
+
 - **Tengo una reserva a nombre de Kim.** (I have a reservation under the name Kim. / 김이라는 이름으로 예약했습니다.)
 - **¿Está incluido el desayuno?** (Is breakfast included? / 조식이 포함되어 있나요?)
 - **Quiero una habitación con vistas al mar.** (I want a room with sea views. / 바다 전망의 방을 원합니다.)
 - **No funciona el grifo de la ducha.** (The shower tap is not working. / 샤워기 수도꼭지가 고장 났어요.)
 
 **B. 여행 경험 말하기 (Experiencias)**
+
 - **¿Has visitado alguna vez Madrid?** (Have you ever visited Madrid? / 마드리드에 가본 적이 있나요?)
 - **Sí, he estado allí dos veces.** (Yes, I have been there twice. / 네, 거기 두 번 가봤어요.)
 - **Nunca he viajado en crucero.** (I have never traveled on a cruise. / 크루즈 여행은 한 번도 안 해봤어요.)
@@ -66,9 +73,11 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 ---
 
 ## 4. Gramática Esencial
+
 과거의 경험을 현재와 연결해 말하는 완료 과거를 공략해 봅시다.
 
 ### 완료 과거 (Pretérito Perfecto)
+
 현재와 가까운 과거 혹은 시점이 정해지지 않은 경험을 말할 때 씁니다. (영어의 `Present Perfect`와 유사)
 **구조: Haber 동사의 현재형 + 과거분사(-ado / -ido)**
 
@@ -91,6 +100,7 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 </table>
 
 **부사와의 결합:**
+
 - **Ya**: 이미 (*Ya he hecho la maleta.*)
 - **Todavía no**: 아직 ~않다 (*Todavía no he visitado la Alhambra.*)
 - **Alguna vez**: 언젠가/한 번이라도 (*¿Has comido paella alguna vez?*)
@@ -98,9 +108,10 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 ---
 
 ## 5. Cultura Viva: El Camino de Santiago - Más que un Viaje
+
 스페인을 가장 깊게 만나는 방법, 순례길을 알아봅시다.
 
-![Camino de Santiago](../images/ch12_a2_culture_hiking.png)
+![Camino de Santiago](../images/ch12_a2_culture_hiking_v2_1.png)
 
 El **Camino de Santiago** es una de las rutas de peregrinación más antiguas y famosas de Europa. Miles de personas de todo el mundo recorren a pie o en bicicleta cientos de kilómetros para llegar a la Catedral de Santiago de Compostela, donde se dice que está la tumba del apóstol Santiago.
 
@@ -157,11 +168,13 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 ---
 
 ## 7. Lectura 📖
+
 **Una experiencia inolvidable (잊을 수 없는 경험)**
 
-¡Hola! Soy Diego. Este año he hecho algo increíble: he recorrido parte del Camino de Santiago. He empezado en León y he caminado durante diez días. ¡Ha sido duro pero maravilloso! He conocido a personas de Alemania, Brasil와 일본에서 온 사람들도 만났습니다. Hemos hablado mucho en español y en inglés. Lo que más me ha gustado ha sido el paisaje verde de Galicia y la comida de los pueblos. Nunca he comido un pulpo (문어) tan rico. Ya he llegado a la Catedral de Santiago y me siento muy feliz. He tomado muchas fotos y voy a compartirlas en mis redes sociales. Todavía no he planeado mi próximo viaje, 하지만 seguro que voy a volver a España pronto.
+¡Hola! Soy Diego. Este año he hecho algo increíble: he recorrido parte del Camino de Santiago. He empezado en León y he caminado durante diez días. ¡Ha sido duro pero maravilloso! He conocido a personas de Alemania, Brasil y Japón. Hemos hablado mucho en español y en inglés. Lo que más me ha gustado ha sido el paisaje verde de Galicia y la comida de los pueblos. Nunca he comido un pulpo (문어) tan rico. Ya he llegado a la Catedral de Santiago y me siento muy feliz. He tomado muchas fotos y voy a compartirlas en mis redes sociales. Todavía no he planeado mi próximo viaje, pero seguro que voy a volver a España pronto.
 
 **Questions:**
+
 1. Diego는 며칠 동안 걸었나요? (How many days did Diego walk?)
    - ............................................................
 2. Diego가 가장 좋아했던 것은 무엇인가요? (What did Diego like most?)
@@ -173,6 +186,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 ---
 
 ## 8. Diálogo
+
 **Un problema en la habitación (방 안의 문제)**
 
 **Situación:** Lucía llama a recepción porque tiene problemas con su habitación en el hotel.
@@ -191,7 +205,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Dígame, ¿qué ocurre?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 말씀하세요, 무슨 일인가요?</td></tr>
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> El aire acondicionado no funciona y hace mucho calor.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 에어컨이 작동하지 않아서 너무 더워요.</td></tr>
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Lo siento mucho. ¿Ha probado a encenderlo con el mando?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 죄송합니다. 리모컨으로 켜보셨나요?</td></tr>
-    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Sí, lo he hecho, 하지만 no pasa nada.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 네, 해봤는데 아무 반응이 없어요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Sí, lo he hecho, pero no pasa nada.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 네, 해봤는데 아무 반응이 없어요.</td></tr>
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Entiendo. Envío a un técnico ahora mismo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 알겠습니다. 지금 바로 기술자를 보내드릴게요.</td></tr>
   </tbody>
 </table>
@@ -199,7 +213,9 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 ---
 
 ## 9. Repaso
+
 이번 장의 핵심 내용을 복습해 보세요.
+
 - [ ] 여행 심화 및 숙박 관련 어휘 10개 이상을 알고 있나요?
 - [ ] 완료 과거(Pretérito Perfecto)의 변화와 용법을 이해했나요?
 - [ ] 호텔 예약 및 서비스 요청 시 필요한 표현들을 익혔나요?
@@ -208,6 +224,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 ---
 
 ## 10. Cierre
+
 ¡Enhorabuena! 이번 장을 통해 여러분은 스페인어로 자신의 경험을 공유하고 실제 여행 상황에서 문제를 해결하는 능력을 갖추게 되었습니다. 완료 과거를 사용하면서 여러분의 이야기는 더욱 풍성해졌고, 호텔 에티켓을 통해 더욱 매너 있는 여행자가 되었습니다. 언어는 목적지가 아니라 그 과정 자체가 즐거운 여행입니다. 다음 장에서는 우리의 하루를 더욱 생동감 있게 만들어 줄 '일과, 가사와 건강(A2)' 섹션으로 이어가겠습니다. ¡Buen camino en tu aprendizaje!
 
 ---
@@ -215,18 +232,18 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 ## 11. Soluciones
 
 **6. Práctica - A. Select the appropriate hotel facility**
-1-c / 2-d / 3-a / 4-b / 5-e
+
+1. 1-c, 2-d, 3-a, 4-b, 5-e
 
 **6. Práctica - B. 완료 과거 변형 연습**
-1. he viajado / 2. has perdido / 3. hemos dormido / 4. ha hecho / 5. habéis ido
+
+1. 1. he viajado, 2. has perdido, 3. hemos dormido, 4. ha hecho, 5. habéis ido
 
 **6. Práctica - C. 번역 연습**
-1. Ya he hecho la reserva del hotel.
-2. ¿Has visto la Catedral de Santiago alguna vez?
-3. Todavía no hemos ido a ese museo.
-4. ¿Está incluido el desayuno?
-5. Lo que más me ha gustado es el paisaje de la playa.
 
-**7. Lectura Questions**
-1. 10일 (Diez días).
-2. 갈리시아의 초록색 풍경과 마을의 음식 (El paisaje verde de Galicia y la comida de los pueblos).
+1. 1. Ya he hecho la reserva del hotel., 2. ¿Has visto la Catedral de Santiago alguna vez?, 3. Todavía no hemos ido a ese museo., 4. ¿Está incluido el desayuno?, 5. Lo que más me ha gustado es el paisaje de la playa.
+
+**7. Lectura - Preguntas**
+
+1. 1. 10일 (Diez días).
+2. 1. 갈리시아의 초록색 풍경과 마을의 음식 (El paisaje verde de Galicia y la comida de los pueblos).

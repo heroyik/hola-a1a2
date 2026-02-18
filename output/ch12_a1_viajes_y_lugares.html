@@ -84,10 +84,11 @@ blockquote {
 .admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 .admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; }
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
 thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
 th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
 td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
 tr:last-child td { border-bottom: none; }
 strong { font-weight: bold; color: var(--spanish-red); }
 </style>
@@ -111,77 +112,27 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <h2>2. Vocabulario Esencial: El Viaje y el Transporte</h2>
 <p>여행을 떠날 때 꼭 필요한 물건들과 교통수단입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
 <p><img src="../images/ch12_a1_vocab_travel.png" alt="Transporte"></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">#</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1</td>
-<td style="text-align:left"><strong>el avión</strong></td>
-<td style="text-align:left"><strong>Aviation</strong> (related)</td>
-<td style="text-align:left">비행기</td>
-</tr>
-<tr>
-<td style="text-align:left">2</td>
-<td style="text-align:left"><strong>el tren</strong></td>
-<td style="text-align:left"><strong>Train</strong> ✅</td>
-<td style="text-align:left">기차</td>
-</tr>
-<tr>
-<td style="text-align:left">3</td>
-<td style="text-align:left"><strong>el autobús / el bus</strong></td>
-<td style="text-align:left"><strong>Bus</strong> ✅</td>
-<td style="text-align:left">버스</td>
-</tr>
-<tr>
-<td style="text-align:left">4</td>
-<td style="text-align:left"><strong>el coche</strong></td>
-<td style="text-align:left"><strong>Coach</strong> (related)</td>
-<td style="text-align:left">자동차</td>
-</tr>
-<tr>
-<td style="text-align:left">5</td>
-<td style="text-align:left"><strong>la maleta</strong></td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">가방 / 트렁크</td>
-</tr>
-<tr>
-<td style="text-align:left">6</td>
-<td style="text-align:left"><strong>el pasaporte</strong></td>
-<td style="text-align:left"><strong>Passport</strong> ✅ (Perfect Cognate)</td>
-<td style="text-align:left">여권</td>
-</tr>
-<tr>
-<td style="text-align:left">7</td>
-<td style="text-align:left"><strong>el mapa</strong></td>
-<td style="text-align:left"><strong>Map</strong> ✅</td>
-<td style="text-align:left">지도</td>
-</tr>
-<tr>
-<td style="text-align:left">8</td>
-<td style="text-align:left"><strong>el billete</strong></td>
-<td style="text-align:left"><strong>Bill</strong> (related/ticket)</td>
-<td style="text-align:left">표 / 티켓</td>
-</tr>
-<tr>
-<td style="text-align:left">9</td>
-<td style="text-align:left"><strong>la estación</strong></td>
-<td style="text-align:left"><strong>Station</strong> ✅</td>
-<td style="text-align:left">역</td>
-</tr>
-<tr>
-<td style="text-align:left">10</td>
-<td style="text-align:left"><strong>el aeropuerto</strong></td>
-<td style="text-align:left"><strong>Airport</strong> ✅</td>
-<td style="text-align:left">공항</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Spanish</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Bridge</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Korean Tip</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el avión</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Aviation</strong> (related)</td><td style="padding: 10px; border: 1px solid #ddd;">비행기</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el tren</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Train</strong> ✅</td><td style="padding: 10px; border: 1px solid #ddd;">기차</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el autobús / el bus</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Bus</strong> ✅</td><td style="padding: 10px; border: 1px solid #ddd;">버스</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el coche</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Coach</strong> (related)</td><td style="padding: 10px; border: 1px solid #ddd;">자동차</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">5</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>la maleta</strong></td><td style="padding: 10px; border: 1px solid #ddd;">—</td><td style="padding: 10px; border: 1px solid #ddd;">가방 / 트렁크</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">6</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el pasaporte</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Passport</strong> ✅ (Perfect Cognate)</td><td style="padding: 10px; border: 1px solid #ddd;">여권</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">7</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el mapa</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Map</strong> ✅</td><td style="padding: 10px; border: 1px solid #ddd;">지도</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">8</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el billete</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Bill</strong> (related/ticket)</td><td style="padding: 10px; border: 1px solid #ddd;">표 / 티켓</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">9</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>la estación</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Station</strong> ✅</td><td style="padding: 10px; border: 1px solid #ddd;">역</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">10</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>el aeropuerto</strong></td><td style="padding: 10px; border: 1px solid #ddd;"><strong>Airport</strong> ✅</td><td style="padding: 10px; border: 1px solid #ddd;">공항</td></tr>
+  </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
 <hr>
@@ -206,46 +157,22 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p>이동의 핵심인 'Ir' 동사와 미래 계획을 세우는 법을 익혀봅시다.</p>
 <h3>A. Ir (가다) - 불규칙 동사</h3>
 <p>'Ir'는 매우 자주 쓰이지만 변화가 독특하니 꼭 암기해야 합니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">인칭</th>
-<th style="text-align:left"><strong>Ir</strong></th>
-<th style="text-align:left">영어 매핑 (to go)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Yo</strong></td>
-<td style="text-align:left"><strong>voy</strong></td>
-<td style="text-align:left">I go</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Tú</strong></td>
-<td style="text-align:left"><strong>vas</strong></td>
-<td style="text-align:left">You go</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Él/Ella/Ud.</strong></td>
-<td style="text-align:left"><strong>va</strong></td>
-<td style="text-align:left">He/She/You go</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Nosotros/as</strong></td>
-<td style="text-align:left"><strong>vamos</strong></td>
-<td style="text-align:left">We go</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Vosotros/as</strong></td>
-<td style="text-align:left"><strong>vais</strong></td>
-<td style="text-align:left">You all go</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Ellos/Ellas/Uds.</strong></td>
-<td style="text-align:left"><strong>van</strong></td>
-<td style="text-align:left">They/You all go</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Ir</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to go)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>voy</strong></td><td>I go</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>vas</strong></td><td>You go</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>va</strong></td><td>He/She/You go</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>vamos</strong></td><td>We go</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>vais</strong></td><td>You all go</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>van</strong></td><td>They/You all go</td></tr>
+  </tbody>
 </table>
 <h3>B. Ir a + 동사원형 (가까운 미래)</h3>
 <p>영어의 <code>be going to</code>와 똑같은 구조로, 미래의 계획을 나타냅니다.</p>
@@ -269,31 +196,19 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <hr>
 <h2>6. Práctica</h2>
 <p><strong>A. Match the transport with the place (교통수단과 어울리는 장소를 연결하세요)</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">좌측 (교통수단)</th>
-<th style="text-align:left">우측 (장소)</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">1. El avión</td>
-<td style="text-align:left">a. La carretera (도로)</td>
-</tr>
-<tr>
-<td style="text-align:left">2. El tren</td>
-<td style="text-align:left">b. El aeropuerto (공항)</td>
-</tr>
-<tr>
-<td style="text-align:left">3. El barco (배)</td>
-<td style="text-align:left">c. La vía (철로)</td>
-</tr>
-<tr>
-<td style="text-align:left">4. El coche</td>
-<td style="text-align:left">d. El puerto (항구)</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">좌측 (교통수단)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">우측 (장소)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">1. El avión</td><td style="padding: 10px; border: 1px solid #ddd;">a. La carretera (도로)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">2. El tren</td><td style="padding: 10px; border: 1px solid #ddd;">b. El aeropuerto (공항)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">3. El barco (배)</td><td style="padding: 10px; border: 1px solid #ddd;">c. La vía (철로)</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;">4. El coche</td><td style="padding: 10px; border: 1px solid #ddd;">d. El puerto (항구)</td></tr>
+  </tbody>
 </table>
 <p><strong>B. Ir 동사 변형 및 미래 표현 연습 (괄호 안의 주어에 맞게 완성하세요)</strong></p>
 <ol>
@@ -340,47 +255,23 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <p><strong>En la taquilla (매표소에서)</strong></p>
 <p><strong>Situación:</strong> Un turista compra un billete de tren para ir a Valencia.<br>
 <strong>상황:</strong> 한 관광객이 발렌시아로 가기 위해 기차표를 삽니다.</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left"><strong>Turista:</strong> Hola, buenos días. Un billete para Valencia, por favor.</td>
-<td style="text-align:left"><strong>관광객:</strong> 안녕하세요. 발렌시아행 표 한 장 주세요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Empleado:</strong> ¿Para hoy?</td>
-<td style="text-align:left"><strong>직원:</strong> 오늘 가시나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Turista:</strong> Sí, para el próximo tren.</td>
-<td style="text-align:left"><strong>관광객:</strong> 네, 다음 기차로요.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Empleado:</strong> El próximo tren sale a las once y media.</td>
-<td style="text-align:left"><strong>직원:</strong> 다음 기차는 11시 반에 출발합니다.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Turista:</strong> Perfecto. ¿Cuánto cuesta?</td>
-<td style="text-align:left"><strong>관광객:</strong> 좋아요. 얼마인가요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Empleado:</strong> Son 45 euros.</td>
-<td style="text-align:left"><strong>직원:</strong> 45유로입니다.</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Turista:</strong> Aquí tiene. ¿De qué vía sale?</td>
-<td style="text-align:left"><strong>관광객:</strong> 여기 있습니다. 몇 번 플랫폼(철로)에서 출발하나요?</td>
-</tr>
-<tr>
-<td style="text-align:left"><strong>Empleado:</strong> Sale de la vía número 4.</td>
-<td style="text-align:left"><strong>직원:</strong> 4번 플랫폼에서 출발합니다.</td>
-</tr>
-</tbody>
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇪🇸 Español</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">🇰🇷 한국어</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Turista:</strong> Hola, buenos días. Un billete para Valencia, por favor.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>관광객:</strong> 안녕하세요. 발렌시아행 표 한 장 주세요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Empleado:</strong> ¿Para hoy?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>직원:</strong> 오늘 가시나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Turista:</strong> Sí, para el próximo tren.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>관광객:</strong> 네, 다음 기차로요.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Empleado:</strong> El próximo tren sale a las once y media.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>직원:</strong> 다음 기차는 11시 반에 출발합니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Turista:</strong> Perfecto. ¿Cuánto cuesta?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>관광객:</strong> 좋아요. 얼마인가요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Empleado:</strong> Son 45 euros.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>직원:</strong> 45유로입니다.</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Turista:</strong> Aquí tiene. ¿De qué vía sale?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>관광객:</strong> 여기 있습니다. 몇 번 플랫폼(철로)에서 출발하나요?</td></tr>
+    <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Empleado:</strong> Sale de la vía número 4.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>직원:</strong> 4번 플랫폼에서 출발합니다.</td></tr>
+  </tbody>
 </table>
 <hr>
 <h2>9. Repaso</h2>

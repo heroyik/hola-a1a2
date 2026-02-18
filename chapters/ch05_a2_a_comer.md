@@ -1,11 +1,14 @@
 # Chapter 5: ¡A comer! (A2)
+
 <p class="cervantes-ref">Cervantes: §5 Alimentación: 심화된 식재료 표현, 요리법 및 건강한 식습관과 중남미 미식 문화</p>
 
 ## 1. Opener
+
 **Más que comida (음식 그 이상의 가치)**
 A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 확장된 식재료의 세계와 요리하는 과정(동사), 그리고 건강한 식단에 대해 깊이 있게 다룹니다. 특히 스페인 본토를 넘어 중남미(América Latina)의 미식 문화와 대표적인 레시피를 통해 언어의 지평을 넓혀봅니다.
 
 **학습 목표**
+
 - 요리 관련 동사(썰다, 굽다, 끓이다 등) 및 주방 도구 어휘 10개 습득
 - 'gustar'류 동사 및 부정 표현(nadie, nada, nunca 등)의 마스터
 - 식단 관리 및 건강한 생활 습관에 대한 토론 역량 강화
@@ -17,9 +20,10 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 ---
 
 ## 2. Vocabulario Esencial
+
 현대적인 주방에서 열리는 스페인 요리 클래스 현장입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![En la Cocina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a2_vocab_cooking.png)
+![En la Cocina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a2_vocab_cooking_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -39,24 +43,28 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 ---
 
 ## 3. Expresiones Útiles
+
 요리법을 설명하거나 식습관에 대해 의견을 나눌 때 사용하는 표현입니다.
 
 **A. 요리법 설명하기 (Describing Recipes)**
+
 - **Primero, tienes que cortar la cebolla.** (First, you have to cut the onion. / 먼저, 양파를 썰어야 해요.)
 - **Añade un poco de sal y pimienta.** (Add a bit of salt and pepper. / 소금과 후추를 약간 넣으세요.)
-    - 💡 **English Bridge**: "Añadir" doesn't have an exact English match, but the structure "Add a bit" = "Añade un poco" is easy to remember.
+  - 💡 **English Bridge**: "Añadir" doesn't have an exact English match, but the structure "Add a bit" = "Añade un poco" is easy to remember.
 - **Fríe las patatas hasta que estén doradas.** (Fry the potatoes until they are golden. / 감자가 노릇해질 때까지 볶으세요.)
 - **¡Sírvelo muy caliente!** (Serve it very hot! / 아주 뜨거울 때 차려 내세요!)
 
 **B. 식습관 및 금기 사항 (Dietary Habits and Restrictions)**
+
 - **Soy vegetariano/a.** (I am vegetarian. / 저는 채식주의자예요.)
 - **No como nada de carne.** (I don't eat any meat at all. / 저는 고기를 전혀 먹지 않아요.)
-    - 💡 **English Bridge**: Double negative! "No... nada" = "Not... nothing" — in Spanish, double negatives **reinforce** each other.
+  - 💡 **English Bridge**: Double negative! "No... nada" = "Not... nothing" — in Spanish, double negatives **reinforce** each other.
 - **Tengo alergia al marisco.** (I have an allergy to seafood. / 저는 해산물 알레르기가 있어요.)
 
 ---
 
 ## 4. Gramática Esencial
+
 A2의 핵심 문법인 'gustar' 동사의 심화 활용과 부정어의 위치 및 중복 사용을 배웁니다.
 
 ### A. Gustar형 동사 (Verbs like "Gustar")
@@ -126,6 +134,7 @@ A2의 핵심 문법인 'gustar' 동사의 심화 활용과 부정어의 위치 �
 ---
 
 ## 5. Cultura Viva: Secretos de la Abuela en México 🌮
+
 멕시코와 중남미의 미식 문화는 가족의 역사와 전통을 간직하고 있습니다.
 
 La gastronomía de América Latina es Patrimonio de la Humanidad. En México, la cocina es un espacio sagrado donde se transmiten tradiciones milenarias. El **mole**, por ejemplo, es una salsa compleja que puede tener más de 20 ingredientes, incluyendo chocolate y chiles. Las recetas no suelen estar escritas, sino que se aprenden "de oído" y con la práctica, pasando de las abuelas a los nietos.
@@ -137,7 +146,7 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 
 페루와 같은 나라에서는 **세비체(cebiche, 레몬에 절인 생선회)**가 국가적 상징입니다. 남아메리카의 다양한 기후 덕분에 수천 종류의 감자, 형형색색의 옥수수, 루쿠마나 아사이 같은 이색적인 과일 등 다양한 식재료가 존재합니다.
 
-![멕시코 전통 주방에서 할머니의 레시피를 전수받는 손녀](../images/ch05_a2_culture_recipe.png)
+![멕시코 전통 주방에서 할머니의 레시피를 전수받는 손녀](../images/ch05_a2_culture_recipe_v2_1.png)
 
 ---
 
@@ -177,11 +186,13 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 ---
 
 ## 7. Lectura 📖
+
 **La Dieta Mediterránea (지중해 식단)**
 
 La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es solo un tipo de comida, sino un estilo de vida. Los ingredientes principales son el aceite de oliva, los cereales, las frutas, las verduras y las legumbres. También se come pescado y frutos secos. La carne roja se come con moderación, solo una o dos veces al mes. Lo más importante de esta dieta es que los productos son frescos y de temporada. Además, el ambiente relajado durante la comida ayuda a tener una buena digestión.
 
 **Preguntas (질문):**
+
 1. ¿Cuáles son tres ingredientes principales de la dieta mediterránea? (지중해 식단의 주요 식재료 3가지는?)
 2. ¿Con qué frecuencia se come carne roja? (붉은 고기는 얼마나 자주 먹나요?)
 
@@ -192,6 +203,7 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 ---
 
 ## 8. Diálogo
+
 **Cocinando un plato especial (특별한 요리 만들기)**
 
 **Situación:** Mateo está enseñando a su amiga Lucía a preparar una receta tradicional de su abuela.
@@ -252,7 +264,9 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 ---
 
 ## 9. Repaso
+
 이 장에서 배운 핵심 내용을 체크해 보세요:
+
 - [ ] 썰다, 굽다, 끓이다 등 **10개 이상**의 요리 관련 동사를 익혔다.
 - [ ] '**Gustar**' 동사와 유사 동사들(**interesar, encantar, doler**)을 정확히 활용한다.
 - [ ] **역행 구조**(대상이 주어)의 원리를 이해했다.
@@ -262,6 +276,7 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 ---
 
 ## 10. Cierre
+
 ¡Excelente trabajo! 🎉 이번 장을 통해 여러분은 단순히 음식을 주문하는 수준을 넘어, 요리 과정을 설명하고 자신의 건강한 식습관을 논할 수 있는 수준으로 도약했습니다.
 
 '**Gustar**' 동사의 역행 구조는 영어에는 없는 스페인어 고유의 특성이므로, "**Me gusta** = It **pleases** me"라고 기억하면 쉽습니다. 또한 스페인어의 이중 부정은 영어와 달리 부정을 **강화**한다는 점을 꼭 기억하세요!
@@ -273,22 +288,26 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 ## 11. Soluciones
 
 **6. Práctica - A. Match the word**
-1-d, 2-e, 3-a, 4-b, 5-c
 
-**6. Práctica - B. Choose the correct form**
-1. me gustan
-2. nos encanta
-3. te interesa
-4. les molesta
-5. le falta
+1. 1-d, 2-e, 3-a, 4-b, 5-c
+
+**6. Práctica - B. Choose the correct form of 'gustar'**
+
+1. 1. me gustan
+2. 1. nos encanta
+3. 1. te interesa
+4. 1. les molesta
+5. 1. le falta
 
 **6. Práctica - C. 번역 연습**
-1. No como nada de carne.
-2. No hay nadie en el restaurante.
-3. No pongo azúcar nunca. / Nunca pongo azúcar.
-4. No sabemos nada de este plato.
-5. David no habla con nadie.
+
+1. 1. No como nada de carne.
+2. 1. No hay nadie en el restaurante.
+3. 1. No pongo azúcar nunca. / Nunca pongo azúcar.
+4. 1. No sabemos nada de este plato.
+5. 1. David no habla con nadie.
 
 **7. Lectura - Preguntas**
-1. 올리브 오일, 곡물, 과일, 채소, 콩류 중 3가지 (Aceite de oliva, cereales, frutas, etc.)
-2. 한 달에 한두 번 정도만 절제하여 섭취합니다.
+
+1. 1. 올리브 오일, 곡물, 과일, 채소, 콩류 중 3가지 (Aceite de oliva, cereales, frutas, etc.)
+2. 1. 한 달에 한두 번 정도만 절제하여 섭취합니다.
