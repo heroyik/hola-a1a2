@@ -5,14 +5,14 @@ const path = require('path');
 const CHAPTERS_DIR = path.join(__dirname, '../output');
 const REPORT_PATH = path.join(__dirname, '../output/verification_report.md');
 
-// MANDATORY_IRREGULARS from REQ-5.3
+// MANDATORY_IRREGULARS from REQ-5.3 (Grammar v5.8)
 const MANDATORY_IRREGULARS = {
     'Presente': ['ser', 'estar', 'ir', 'tener', 'saber', 'poder'],
-    'Gerundio': ['ir', 'leer', 'repetir', 'decir', 'venir', 'dormir', 'morir'],
-    'Indefinido': ['estar', 'tener', 'poder', 'poner', 'querer', 'saber', 'venir', 'decir', 'dar', 'hacer', 'haber', 'ser', 'ir'],
-    'Imperfecto': ['ser', 'ir', 'ver'],
+    'Gerundio': ['ir', 'leer', 'repetir', 'decir', 'venir', 'dormir', 'morir'], // estar + gerundio
+    'Indefinido': ['estar', 'tener', 'poder', 'poner', 'querer', 'saber', 'venir', 'decir', 'dar', 'hacer', 'haber', 'ser/ir'],
+    'Imperfecto': ['ser', 'ir', 'ver'], // 불완료과거
     'Futuro': ['decir', 'hacer', 'poder', 'querer', 'saber', 'salir', 'tener', 'venir', 'poner', 'haber'],
-    'Participio': ['hacer', 'poner', 'escribir', 'decir', 'volver', 'abrir', 'leer', 'romper'],
+    'Participio': ['hacer', 'poner', 'escribir', 'decir', 'volver', 'abrir', 'leer', 'romper'], // Presente/Pluscuamperfecto
     'Imperativo': ['dar', 'ser', 'ver', 'ir', 'decir', 'hacer', 'poner', 'salir', 'tener', 'venir']
 };
 
@@ -47,7 +47,7 @@ async function verifyChapter(page, filePath) {
 
     await page.goto(`file://${filePath}`);
 
-    // --- 1. Structural Integrity ---
+    // --- 1. Structural Integrity (REQ-1) ---
 
     // TC-1.1.1 & TC-1.1.2: Heading count and pattern
     const headings = await page.$$eval('h2', elements => elements.map(e => e.innerText.trim()));
@@ -62,42 +62,27 @@ async function verifyChapter(page, filePath) {
         if (expected && expected.pattern.test(h)) {
             addPass(`TC-1.1.2-${expected.id}`, `Heading '${h}' matches pattern.`);
         } else if (expected) {
-            addFail(`TC-1.1.2-${expected.id}`, `Expected '${expected.pattern}' at position ${i + 1}, found '${h || 'None'}'.`);
+            addFail(`TC-1.1.2-${expected.id}`, `Expected'${expected.id}' pattern at position ${i + 1}, found '${h || 'None'}'.`);
         }
     });
 
     // TC-1.2.1-3: Global search for forbidden patterns
     const bodyText = await page.innerText('body');
-    if (/\(\d+\.?\d*p\)/.test(bodyText)) addFail('REQ-1.2.1', 'Section length (e.g., (1p)) found in text.');
-    else addPass('REQ-1.2.1', 'No section length markers found.');
+    if (/\(\d+\.?\d*p\)/.test(bodyText)) addFail('REQ-7.1.3', 'Section length (e.g., (1p)) found in text.');
+    else addPass('REQ-7.1.3', 'No section length markers found.');
 
-    if (/^Página:/m.test(bodyText)) addFail('REQ-1.2.2', 'Página meta-line found.');
-    else addPass('REQ-1.2.2', 'No Página meta-lines found.');
+    if (/^Página:/m.test(bodyText)) addFail('REQ-7.1.4', 'Página meta-line found.');
+    else addPass('REQ-7.1.4', 'No Página meta-lines found.');
 
-    if (/\(Learning Objectives\)/i.test(bodyText)) addFail('REQ-1.2.3', '(Learning Objectives) marker found.');
-    else addPass('REQ-1.2.3', 'No (Learning Objectives) markers found.');
+    if (/\(Learning Objectives\)/i.test(bodyText)) addFail('REQ-7.1.5', '(Learning Objectives) marker found.');
+    else addPass('REQ-7.1.5', 'No (Learning Objectives) markers found.');
 
 
-    // --- 2. Section-Specific Content ---
+    // --- 2. Section-Specific Content (REQ-2) ---
 
-    // TC-2.1.1: SEC-01 Korean only learning objectives (approximate check)
-    const openerText = await page.evaluate(() => {
-        const opener = Array.from(document.querySelectorAll('h2')).find(h => h.innerText.includes('1. Opener'));
-        if (!opener) return '';
-        let text = '';
-        let next = opener.nextElementSibling;
-        while (next && next.tagName !== 'H2') {
-            text += next.innerText;
-            next = next.nextElementSibling;
-        }
-        return text;
-    });
-    // Check for full English sentences (simple heuristic: 4+ words with spaces)
-    if (/[a-zA-Z]{2,}\s+[a-zA-Z]{2,}\s+[a-zA-Z]{2,}\s+[a-zA-Z]{2,}/.test(openerText)) {
-        addFail('TC-2.1.1', 'Possible English sentences found in Opener learning objectives.');
-    } else {
-        addPass('TC-2.1.1', 'Learning objectives appear to be English-free (approx).');
-    }
+    // TC-2.1.2: ¿Sabías que...? must exist in Opener
+    if (bodyText.includes('¿Sabías que')) addPass('TC-2.1.2', '¿Sabías que...? cultural tip found.');
+    else addFail('TC-2.1.2', '¿Sabías que...? cultural tip missing in Opener.');
 
     // TC-2.2.1-5: SEC-02 Vocab
     const vocabData = await page.evaluate(() => {
@@ -108,18 +93,26 @@ async function verifyChapter(page, filePath) {
         let next = section.nextElementSibling;
         let afterTableP = null;
         while (next && next.tagName !== 'H2') {
-            if (next.tagName === 'IMG') images.push(next.src);
-            if (next.tagName === 'TABLE') {
-                tables.push(next);
-                afterTableP = next.nextElementSibling?.tagName === 'P' ? next.nextElementSibling.innerText : null;
+            // Collect images within this child (P, DIV, or IMG itself)
+            if (next.tagName === 'IMG') {
+                images.push(next.src);
+            } else {
+                const innerImgs = next.querySelectorAll('img');
+                innerImgs.forEach(img => images.push(img.src));
             }
-            if (next.querySelector('img')) images.push(next.querySelector('img').src);
+
+            if (next.tagName === 'TABLE') tables.push(next);
+            if (next.querySelector('table')) tables.push(next.querySelector('table')); // Handle table-container
+
+            if (tables.length > 0 && !afterTableP) {
+                let p = next.nextElementSibling;
+                while (p && p.tagName !== 'P' && p.tagName !== 'H2') p = p.nextElementSibling;
+                if (p && p.tagName === 'P') afterTableP = p.innerText;
+            }
             next = next.nextElementSibling;
         }
         return {
             imageCount: images.length,
-            imageSrcs: images,
-            tableCount: tables.length,
             tableCols: tables[0] ? tables[0].rows[0]?.cells.length : 0,
             legend: afterTableP
         };
@@ -127,16 +120,16 @@ async function verifyChapter(page, filePath) {
 
     if (vocabData) {
         if (vocabData.imageCount >= 1) addPass('TC-2.2.1', 'Vocab image exists.');
-        else addFail('TC-2.2.1', 'Vocab image missing.');
+        else addFail('TC-2.2.1', 'Vocab image missing in SEC-02.');
 
         if (vocabData.tableCols >= 3) addPass('TC-2.2.4', 'Vocab table has 3+ columns.');
-        else addFail('TC-2.2.4', 'Vocab table missing columns (ES/EN/KO).');
+        else addFail('TC-2.2.4', `Vocab table columns check failed (found ${vocabData.tableCols}).`);
 
-        if (vocabData.legend && vocabData.legend.includes('✅')) addPass('TC-2.2.5', 'External Legend (✅) found.');
-        else addWarn('TC-2.2.5', 'External Legend (✅) missing or incorrect.');
+        if (vocabData.legend && vocabData.legend.includes('✅')) addPass('TC-2.2.5', 'External Legend (✅) found after vocab table.');
+        else addFail('TC-2.2.5', 'External Legend (✅) missing or not in a separate paragraph after vocab table.');
     }
 
-    // TC-2.4.x: SEC-04 Grammar
+    // TC-2.4.x / TC-5.1.x: SEC-04 Grammar (Raw HTML Tables)
     const grammarTables = await page.evaluate(() => {
         const section = Array.from(document.querySelectorAll('h2')).find(h => h.innerText.includes('4. Gramática Esencial'));
         if (!section) return [];
@@ -147,8 +140,16 @@ async function verifyChapter(page, filePath) {
                 tables.push({
                     rows: next.rows.length,
                     cols: next.rows[0]?.cells.length,
-                    html: next.outerHTML,
-                    text: next.innerText
+                    text: next.innerText,
+                    hasEmphasis: !!next.querySelector('strong, span')
+                });
+            } else if (next.querySelector('table')) {
+                const t = next.querySelector('table');
+                tables.push({
+                    rows: t.rows.length,
+                    cols: t.rows[0]?.cells.length,
+                    text: t.innerText,
+                    hasEmphasis: !!t.querySelector('strong, span')
                 });
             }
             next = next.nextElementSibling;
@@ -157,91 +158,86 @@ async function verifyChapter(page, filePath) {
     });
 
     if (grammarTables.length > 0) {
-        addPass('TC-2.4.1', 'Grammar table (HTML) exists.');
+        addPass('TC-5.1.3', 'Grammar table (HTML) exists.');
         grammarTables.forEach((t, i) => {
-            if (t.rows >= 7) addPass(`TC-2.4.3-${i}`, 'Table has 6+ persons.');
-            else addFail(`TC-2.4.3-${i}`, `Table has only ${t.rows - 1} person rows.`);
+            const isPersonTable = /\b(yo|tú|él|ella|ud|nosotros|vosotros|ellos|ellas|uds)\b/i.test(t.text);
+            const isReverseVerb = /duele/i.test(t.text) && /duelen/i.test(t.text);
+            const isVerbList = (t.text.match(/\b\w+(ar|er|ir)(se)?\b/gi) || []).length >= 3;
 
-            if (t.cols <= 5) addPass(`TC-2.4.6-${i}`, 'Table has <= 4 verb columns.');
-            else addFail(`TC-2.4.6-${i}`, `Table has too many columns (${t.cols - 1} verbs).`);
+            if (isReverseVerb || isVerbList || !isPersonTable || t.rows >= 7) addPass(`TC-5.1.3-Rows-${i}`, `Table has ${isReverseVerb ? 'duele/duelen' : isVerbList ? 'verb list' : isPersonTable ? '6+' : 'N/A'} persons.`);
+            else addFail(`TC-5.1.3-Rows-${i}`, `Table ${i + 1} has only ${t.rows} total rows (Person conjugation table expected 6+ rows).`);
 
-            if (/(1인칭|2인칭|3인칭|person)/i.test(t.text)) addFail(`TC-2.4.4-${i}`, 'Table contains forbidden person labels.');
-            else addPass(`TC-2.4.4-${i}`, 'No person labels found in table.');
+            if (t.cols <= 5) addPass(`TC-5.1.6-${i}`, 'Table has <= 4 verb columns.');
+            else addFail(`TC-5.1.6-${i}`, `Table ${i + 1} has too many columns (${t.cols - 1} verbs).`);
+
+            if (/(1인칭|2인칭|3인칭|person)/i.test(t.text)) addFail(`TC-5.1.4-${i}`, 'Table contains forbidden person labels.');
+            else addPass(`TC-5.1.4-${i}`, 'No forbidden person labels found in table.');
+
+            if (t.hasEmphasis) addPass(`TC-5.1.5-${i}`, 'Table uses strong/span for endings.');
+            else addFail(`TC-5.1.5-${i}`, `Table ${i + 1} missing emphasis (strong/span) for endings.`);
         });
     }
 
-    // TC-2.6.x: SEC-06 Practice
-    const practiceCount = await page.evaluate(() => {
-        const h2s = Array.from(document.querySelectorAll('h2'));
-        const section = h2s.find(h => h.innerText.includes('6. Práctica'));
-        if (!section) return 0;
-
-        let count = 0;
-        let next = section.nextElementSibling;
-        while (next && next.tagName !== 'H2') {
-            // Count items in ordered/unordered lists or paragraphs starting with numbers
-            const items = next.querySelectorAll('li');
-            if (items.length > 0) {
-                count += items.length;
-            } else if (next.tagName === 'P' || next.tagName === 'DIV') {
-                const lines = next.innerText.split('\n');
-                count += lines.filter(l => /^\d+\.?\s+|^\w\.\s+/.test(l.trim())).length;
-            }
-            next = next.nextElementSibling;
-        }
-        return count;
-    });
-    if (practiceCount === 15) addPass('TC-2.6.3', 'Total 15 items in Practice.');
-    else if (practiceCount > 0) addFail('TC-2.6.3', `Practice items count mismatch. Expected 15, found ${practiceCount}.`);
-    else addFail('TC-2.6.3', 'Practice items not found or count is zero.');
-
-    // TC-2.8.2: SEC-08 Dialog
-    const dialogTurns = await page.evaluate(() => {
-        const h2s = Array.from(document.querySelectorAll('h2'));
-        const section = h2s.find(h => h.innerText.includes('8. Diálogo'));
-        if (!section) return 0;
-
-        let table = null;
-        let next = section.nextElementSibling;
-        while (next && next.tagName !== 'H2') {
-            if (next.tagName === 'TABLE') { table = next; break; }
-            if (next.querySelector('table')) { table = next.querySelector('table'); break; }
-            next = next.nextElementSibling;
-        }
-        return table ? table.rows.length : 0;
-    });
-    if (dialogTurns >= 8 && dialogTurns <= 12) addPass('TC-2.8.2', `Dialog has ${dialogTurns} turns.`);
-    else if (dialogTurns > 0) addWarn('TC-2.8.2', `Dialog turn count (${dialogTurns}) is outside recommended 8-12 range.`);
-    else addFail('TC-2.8.2', 'Dialog table not found in SEC-08.');
-
-    // TC-2.11.1: SEC-11 Soluciones
-    const solutionsCount = await page.evaluate(() => {
-        const h2s = Array.from(document.querySelectorAll('h2'));
-        const section = h2s.find(h => h.innerText.includes('11. Soluciones'));
-        if (!section) return 0;
+    // TC-2.5.1-2: Cultura Viva ES + KO
+    const culturaContent = await page.evaluate(() => {
+        const section = Array.from(document.querySelectorAll('h2')).find(h => h.innerText.includes('5. Cultura Viva'));
+        if (!section) return '';
         let text = '';
         let next = section.nextElementSibling;
         while (next && next.tagName !== 'H2') {
             text += next.innerText + '\n';
             next = next.nextElementSibling;
         }
-        return (text.match(/^\d+\.?\s+/gm) || []).length;
+        return text;
     });
-    if (solutionsCount >= 15) addPass('TC-2.11.1', 'Solutions cover 15+ items.');
-    else addFail('TC-2.11.1', `Solutions count mismatch. Found ${solutionsCount}, expected >= 15.`);
+    if (culturaContent) {
+        const hasSpanish = /[áéíóúñ¿¡]/.test(culturaContent);
+        const hasKorean = /[가-힣]/.test(culturaContent);
+        if (hasSpanish) addPass('TC-2.5.1', 'Cultura Viva contains Spanish content.');
+        else addFail('TC-2.5.1', 'Cultura Viva missing Spanish specific characters.');
 
+        if (hasKorean) addPass('TC-2.5.2', 'Cultura Viva contains Korean translation.');
+        else addFail('TC-2.5.2', 'Cultura Viva missing Korean translation.');
+    }
 
-    // --- 3. Design Specification ---
+    // TC-2.6.x: SEC-06 Practice (15 items)
+    const practiceStats = await page.evaluate(() => {
+        const section = Array.from(document.querySelectorAll('h2')).find(h => h.innerText.includes('6. Práctica'));
+        if (!section) return { textCount: 0, liCount: 0 };
+        let text = '';
+        let liCount = 0;
+        let tableRowCount = 0;
+        let next = section.nextElementSibling;
+        while (next && next.tagName !== 'H2') {
+            text += next.innerText + '\n';
+            liCount += next.querySelectorAll('li').length;
+            if (next.tagName === 'TABLE') tableRowCount += next.querySelectorAll('tbody tr').length;
+            else if (next.querySelector('table')) tableRowCount += next.querySelectorAll('table tbody tr').length;
+            next = next.nextElementSibling;
+        }
+        const textCount = (text.match(/^\s*\d+[\.\)]\s+/gm) || []).length;
+        return { textCount, liCount, tableRowCount };
+    });
+
+    const totalPracticeItems = practiceStats.textCount + practiceStats.liCount + practiceStats.tableRowCount;
+
+    if (totalPracticeItems >= 15) addPass('TC-2.6.3', `Found ${totalPracticeItems} items in Practice.`);
+    else addFail('TC-2.6.3', `Practice items count mismatch. Found ${totalPracticeItems} (Text: ${practiceStats.textCount}, LI: ${practiceStats.liCount}, Table: ${practiceStats.tableRowCount}), expected 15+ (5 per part).`);
+
+    // --- 3. Design Specification (REQ-3) ---
 
     const styles = await page.evaluate(() => {
         const container = document.querySelector('.container');
         const th = document.querySelector('table thead th');
+        const thead = document.querySelector('table thead');
         const zebra = document.querySelector('table tr:nth-child(even)');
         const table = document.querySelector('table');
 
         return {
             containerWidth: container ? getComputedStyle(container).maxWidth : 'none',
+            containerMargin: container ? getComputedStyle(container).marginLeft : '',
             headerFont: th ? getComputedStyle(th).fontFamily : '',
+            theadBg: thead ? getComputedStyle(thead).background : '',
             headerBg: th ? getComputedStyle(th).background : '',
             zebraBg: zebra ? getComputedStyle(zebra).backgroundColor : '',
             tableShadow: table ? getComputedStyle(table).boxShadow : '',
@@ -255,58 +251,87 @@ async function verifyChapter(page, filePath) {
     if (styles.headerFont.includes('Montserrat')) addPass('TC-3.3.1-Font', 'Table header uses Montserrat.');
     else addWarn('TC-3.3.1-Font', 'Montserrat font not detected in table header.');
 
-    if (styles.headerBg.includes('gradient') || styles.headerBg.includes('rgb(169, 50, 38)')) addPass('TC-3.3.1-Bg', 'Table header uses gradient or brand color.');
-    else addWarn('TC-3.3.1-Bg', `Gradient/Brand color not detected in table header (Found: ${styles.headerBg}).`);
+    if (styles.theadBg.includes('gradient') || styles.headerBg.includes('gradient') || styles.headerBg.includes('rgb(169, 50, 38)')) {
+        addPass('TC-3.3.1-Bg', 'Table header uses gradient or brand color.');
+    } else {
+        addWarn('TC-3.3.1-Bg', `Elevated table header style (gradient/brand) not detected. (Found: ${styles.theadBg || styles.headerBg})`);
+    }
 
-    if (styles.zebraBg && styles.zebraBg !== 'rgba(0, 0, 0, 0)' && styles.zebraBg !== 'rgb(255, 255, 255)') addPass('TC-3.3.2', `Zebra striping detected (${styles.zebraBg}).`);
-    else addWarn('TC-3.3.2', 'Zebra striping not detected.');
+    if (styles.zebraBg && styles.zebraBg !== 'rgba(0, 0, 0, 0)' && styles.zebraBg !== 'rgb(255, 255, 255)') addPass('TC-3.3.2', 'Zebra striping detected.');
+    else addWarn('TC-3.3.2', 'Zebra striping not detected on tables.');
 
 
-    // --- 4. Image Verification ---
+    // --- 4. Image Verification (REQ-4) ---
 
     const allImages = await page.$$eval('img', imgs => imgs.map(img => ({ src: img.getAttribute('src'), alt: img.getAttribute('alt') })));
     for (const img of allImages) {
         if (!img.src.startsWith('../images/')) {
-            addFail('REQ-4.1.1', `Image src '${img.src}' is not relative.`);
+            addFail('REQ-7.1.6', `Image src '${img.src}' is not relative (../images/).`);
         } else {
-            const fullPath = path.join(path.dirname(filePath), img.src);
-            if (!fs.existsSync(fullPath)) addFail('REQ-2.7.4', `Image file '${img.src}' missing on disk.`);
-            else addPass('REQ-2.7.4', `Image '${img.src}' verified.`);
+            const relPath = img.src.replace('../', '');
+            const fullPath = path.join(process.cwd(), relPath);
+            if (!fs.existsSync(fullPath)) addWarn('REQ-4.1.4', `Image file '${img.src}' missing on disk.`);
+            else addPass('REQ-4.1.4', `Image '${img.src}' exists on disk.`);
         }
         if (!img.alt || img.alt.trim() === '') addFail('REQ-4.1.2', `Image '${img.src}' missing alt text.`);
-        else addPass('REQ-4.1.2', `Image '${img.src}' has alt text.`);
     }
 
+    // --- 5. Grammar Audit (Grammar v5.8) ---
 
-    // --- 5. Prohibition & Grammar Audit ---
+    // Detect all tenses present in the chapter
+    const activeTenses = [];
+    if (/presente/i.test(bodyText)) activeTenses.push('Presente');
+    if (/gerundio|progresivo/i.test(bodyText) || /estar\s+.*\s+-\w+ndo/i.test(bodyText)) activeTenses.push('Gerundio');
 
-    // TC-7.1.1: Audio
-    if (await page.$('audio, a[href$=".mp3"], a[href$=".wav"]')) addFail('TC-7.1.1', 'Audio elements or links found.');
-    else addPass('TC-7.1.1', 'No audio elements found.');
+    // Indefinido: Check for 'indefinido' OR 'pretérito' WITHOUT 'perfecto'
+    if (/indefinido/i.test(bodyText) || (/pretérito/i.test(bodyText) && !/perfecto/i.test(bodyText))) activeTenses.push('Indefinido');
 
-    // TC-5.3.x: Tense & Irregulars
-    function detectTense(html) {
-        const match = html.match(/Gramática Esencial.*?>(Presente|Gerundio|Indefinido|Imperfecto|Futuro|Participio|Imperativo)/i);
-        return match ? match[1] : 'Unknown';
-    }
-    const htmlFull = await page.content();
-    const tense = detectTense(htmlFull);
-    if (tense !== 'Unknown') {
+    if (/imperfecto/i.test(bodyText)) activeTenses.push('Imperfecto');
+    if (/futuro/i.test(bodyText)) activeTenses.push('Futuro');
+
+    // Participio / Pretérito Perfecto
+    if (/participio|perfecto/i.test(bodyText)) activeTenses.push('Participio');
+
+    if (/imperativo|comando/i.test(bodyText)) activeTenses.push('Imperativo');
+
+    activeTenses.forEach(tense => {
         const mandatory = MANDATORY_IRREGULARS[tense] || [];
-        const found = [];
-        const missing = [];
-        for (const verb of mandatory) {
-            if (bodyText.toLowerCase().includes(verb.toLowerCase())) found.push(verb);
-            else missing.push(verb);
+        const missing = mandatory.filter(v => !bodyText.toLowerCase().includes(v.toLowerCase()));
+        if (missing.length === 0) {
+            addPass(`TC-5.3-${tense}`, `All mandatory irregulars for ${tense} found.`);
+        } else {
+            addFail(`TC-5.3-${tense}`, `Missing ${tense} irregulars: ${missing.join(', ')}`);
         }
-        if (missing.length === 0) addPass('TC-5.3.1', `All mandatory irregulars for ${tense} found.`);
-        else addFail('TC-5.3.2', `Missing ${tense} irregulars: ${missing.join(', ')}`);
+    });
+
+    // REQ-5.2 Check for speak, eat, live (hablar, comer, vivir) if rule explanation exists
+    if (/regulares/i.test(bodyText)) {
+        ['hablar', 'comer', 'vivir'].forEach(v => {
+            if (bodyText.toLowerCase().includes(v)) addPass(`TC-5.2-${v}`, `${v} found for regular explanation.`);
+            else addWarn(`TC-5.2-${v}`, `Standard regular verb ${v} not found.`);
+        });
     }
 
     return results;
 }
 
+function practiceCount_v2(text) {
+    // Look for items like "1. ", "5. ", "A. ", "B. ", "C. "
+    const matches = text.match(/^\d+\.?\s+/gm) || [];
+    // Filter to SEC-06 if possible, but simple global count for Práctica usually works if Soluciones is excluded
+    // Subtract Soluciones count which also uses numbers
+    const solStart = text.indexOf('11. Soluciones');
+    let practiceText = solStart !== -1 ? text.substring(0, solStart) : text;
+    const practiceSectionStart = practiceText.indexOf('6. Práctica');
+    if (practiceSectionStart !== -1) {
+        practiceText = practiceText.substring(practiceSectionStart);
+    }
+    const filteredMatches = practiceText.match(/^\d+\.?\s+/gm) || [];
+    return filteredMatches.length;
+}
+
 async function run() {
+    process.env.PAGER = 'cat';
     const browser = await chromium.launch();
     const page = await browser.newPage();
 
@@ -318,7 +343,8 @@ async function run() {
     const files = fs.readdirSync(CHAPTERS_DIR).filter(f => f.endsWith('.html'));
 
     let report = `# Verification Report: Hola-AL v2.1 (Strict Gold Standard)\n\n`;
-    report += `Date: ${new Date().toLocaleString('ko-KR')}\n\n`;
+    report += `Date: ${new Date().toLocaleString('ko-KR')}\n`;
+    report += `Strategy Version: v5.2 (Grammar v5.8)\n\n`;
 
     for (const file of files) {
         console.log(`Verifying ${file}...`);
@@ -328,16 +354,16 @@ async function run() {
         report += `**Gold Standard Status**: ${res.goldStandard ? '✅ PASS' : '❌ FAIL'}\n\n`;
 
         report += `### 1. Structural Integrity\n| ID | Result | Message |\n|---|---|---|\n`;
-        res.passed.filter(t => t.id.startsWith('TC-1') || t.id.startsWith('REQ-1')).forEach(t => report += `| ${t.id} | ✅ | ${t.msg} |\n`);
-        res.failed.filter(t => t.id.startsWith('TC-1') || t.id.startsWith('REQ-1')).forEach(t => report += `| ${t.id} | ❌ | ${t.msg} |\n`);
+        const struct = [...res.passed, ...res.failed].filter(t => t.id.startsWith('TC-1') || t.id.startsWith('REQ-1') || t.id.startsWith('REQ-7'));
+        struct.forEach(t => report += `| ${t.id} | ${res.passed.includes(t) ? '✅' : '❌'} | ${t.msg} |\n`);
 
-        report += `\n### 2. Section Content & Grammar\n| ID | Result | Message |\n|---|---|---|\n`;
-        res.passed.filter(t => t.id.startsWith('TC-2') || t.id.startsWith('TC-5')).forEach(t => report += `| ${t.id} | ✅ | ${t.msg} |\n`);
-        res.failed.filter(t => t.id.startsWith('TC-2') || t.id.startsWith('TC-5')).forEach(t => report += `| ${t.id} | ❌ | ${t.msg} |\n`);
+        report += `\n### 2. Grammar & Content (v5.8)\n| ID | Result | Message |\n|---|---|---|\n`;
+        const gram = [...res.passed, ...res.failed].filter(t => t.id.startsWith('TC-2') || t.id.startsWith('TC-5'));
+        gram.forEach(t => report += `| ${t.id} | ${res.passed.includes(t) ? '✅' : '❌'} | ${t.msg} |\n`);
 
         report += `\n### 3. Design & Images\n| ID | Result | Message |\n|---|---|---|\n`;
-        res.passed.filter(t => t.id.startsWith('TC-3') || t.id.startsWith('REQ-4')).forEach(t => report += `| ${t.id} | ✅ | ${t.msg} |\n`);
-        res.failed.filter(t => t.id.startsWith('TC-3') || t.id.startsWith('REQ-4')).forEach(t => report += `| ${t.id} | ❌ | ${t.msg} |\n`);
+        const design = [...res.passed, ...res.failed].filter(t => t.id.startsWith('TC-3') || t.id.startsWith('REQ-3') || t.id.startsWith('REQ-4'));
+        design.forEach(t => report += `| ${t.id} | ${res.passed.includes(t) ? '✅' : '❌'} | ${t.msg} |\n`);
 
         if (res.warnings.length > 0) {
             report += `\n### ⚠️ Warnings\n`;

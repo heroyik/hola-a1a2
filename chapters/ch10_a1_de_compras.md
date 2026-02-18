@@ -107,6 +107,19 @@
 - **Hoy llevo una camiseta roja.** (나는 오늘 빨간 티셔츠를 입고 있다.)
 - **¿Qué llevas puesto?** (너 뭐 입고 있니?)
 
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
 ---
 
 ## 5. Cultura Viva: Mercados y Vida Social
@@ -212,6 +225,25 @@ El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos lo
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Cliente:</strong> Perfecto. Los llevo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>손님:</strong> 좋네요. 이걸로 살게요.</td></tr>
   </tbody>
 </table>
+
+---
+
+### Participio (과거분사) - Irregulares (Revisión)
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### Verbos Regulares (Revisión)
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 

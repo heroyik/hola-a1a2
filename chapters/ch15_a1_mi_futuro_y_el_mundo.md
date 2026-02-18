@@ -99,7 +99,43 @@
 </table>
 
 **Korean Tip!**
-이미 결정된 계획이나 아주 조만간 일어날 일에 대해 확신을 가지고 말할 때 씁니다. 만약 "나 이제 밥 먹으러 가"라고 할 때는 "Voy a comer"라고 하면 완벽합니다!
+만약 "나 이제 밥 먹으러 가"라고 할 때는 "Voy a comer"라고 하면 완벽합니다!
+
+### Más sobre el futuro: Verbos Irregulares
+
+비록 'Ir a'를 가장 많이 쓰지만, 나중에 배울 단순 미래 시제에서 자주 쓰이는 불규칙 동사 어근들도 눈에 익혀두면 좋습니다.
+
+- **hacer** (하다) → **har-**
+- **decir** (말하다) → **dir-**
+- **tener** (가지다) → **tendr-**
+- **poder** (할 수 있다) → **podr-**
+- **querer** (원하다) → **querr-**
+- **salir** (나가다) → **saldr-**
+- **saber** (알다) → **sabr-**
+- **venir** (오다) → **vendr-**
+- **poner** (놓다) → **pondr-**
+- **haber** (있다) → **habr-**
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+우리의 미래를 위해 우리는 무엇을 할까요?
+
+- **Hablar**: **Voy a hablar** de mis sueños. (I'm going to talk about my dreams. / 내 꿈에 대해 이야기할 거야.)
+- **Comer**: **Voy a comer** sano. (I'm going to eat healthy. / 건강하게 먹을 거야.)
+- **Vivir**: **Voy a vivir** en un mundo mejor. (I'm going to live in a better world. / 더 나은 세상에서 살 거야.)
 
 ---
 

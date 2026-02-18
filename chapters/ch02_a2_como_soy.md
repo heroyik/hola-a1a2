@@ -170,6 +170,110 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 > [!IMPORTANT]
 > **Korean Tip**: '나는 슬퍼(Estoy triste)'는 현재의 상태지만, **'나는 슬퍼져(Me pongo triste)'**는 감정의 변화 과정을 강조합니다. 재귀동사는 이 '변화'의 느낌을 잘 살려줍니다.
 
+### 과거 시제 (Imperfecto/Participio) 필수 불규칙 동사
+
+초급 단계에서 꼭 알아야 할 과거 시제 핵심 불규칙 동사들입니다.
+
+**1. 불완전 과거 (Imperfecto) - 딱 3개뿐인 불규칙!**
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어</th>
+      <th>ser</th>
+      <th>ir</th>
+      <th>ver</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>yo</td>
+      <td><strong>er</strong>a</td>
+      <td><strong>ib</strong>a</td>
+      <td><strong>veí</strong>a</td>
+    </tr>
+    <tr>
+      <td>tú</td>
+      <td><strong>er</strong>as</td>
+      <td><strong>ib</strong>as</td>
+      <td><strong>veí</strong>as</td>
+    </tr>
+    <tr>
+      <td>él/ella/ud.</td>
+      <td><strong>er</strong>a</td>
+      <td><strong>ib</strong>a</td>
+      <td><strong>veí</strong>a</td>
+    </tr>
+    <tr>
+      <td>nosotros/as</td>
+      <td><strong>ér</strong>amos</td>
+      <td><strong>íb</strong>amos</td>
+      <td><strong>veí</strong>amos</td>
+    </tr>
+    <tr>
+      <td>vosotros/as</td>
+      <td><strong>er</strong>ais</td>
+      <td><strong>ib</strong>ais</td>
+      <td><strong>veí</strong>ais</td>
+    </tr>
+    <tr>
+      <td>ellos/ellas/uds.</td>
+      <td><strong>er</strong>an</td>
+      <td><strong>ib</strong>an</td>
+      <td><strong>veí</strong>an</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+**2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선**
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>동사 원형</th>
+      <th>과거 분사</th>
+      <th>동사 원형</th>
+      <th>과거 분사</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>decir (말하다)</td>
+      <td><strong>dicho</strong></td>
+      <td>hacer (하다)</td>
+      <td><strong>hecho</strong></td>
+    </tr>
+    <tr>
+      <td>ver (보다)</td>
+      <td><strong>visto</strong></td>
+      <td>escribir (쓰다)</td>
+      <td><strong>escrito</strong></td>
+    </tr>
+    <tr>
+      <td>poner (두다)</td>
+      <td><strong>puesto</strong></td>
+      <td>romper (깨다)</td>
+      <td><strong>roto</strong></td>
+    </tr>
+    <tr>
+      <td>volver (돌아오다)</td>
+      <td><strong>vuelto</strong></td>
+      <td>abrir (열다)</td>
+      <td><strong>abierto</strong></td>
+    </tr>
+    <tr>
+      <td>morir (죽다)</td>
+      <td><strong>muerto</strong></td>
+      <td>leer (읽다)</td>
+      <td><strong>leído</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 ---
 
 ## 5. Cultura Viva: El "Yo" digital en España 📱
@@ -212,15 +316,15 @@ Sin embargo, esto también genera una presión por mostrar una "vida perfecta". 
 **C. 번역 연습 (스페인어로 옮겨보세요)**
 
 1. 나는 우리 가족이 자랑스러워(orgulloso).
-   (............................................................)
+    (............................................................)
 2. 시험 때문에 걱정하지 마!
-   (............................................................)
+    (............................................................)
 3. 그는 학교에서 가장 똑똑한 학생이야.
-   (............................................................)
+    (............................................................)
 4. 너는 오늘 왜 그렇게 화가 났니?
-   (............................................................)
+    (............................................................)
 5. 우리는 새로운 소식에 깜짝 놀랐어(sorprendidos).
-   (............................................................)
+    (............................................................)
 
 ---
 
@@ -321,30 +425,18 @@ A2 수준에서 중요한 것은 '뉘앙스'의 차이를 아는 것입니다. �
 
 **6. Práctica - A. ¿Ser o Estar?**
 
-1. 1. listo
-2. 1. verde
-3. 1. aburrida
-4. 1. rico
-5. 1. listo
+1. listo, 2. verde, 3. aburrida, 4. rico, 5. listo
 
-**6. Práctica - B. Completa con el verbo reflexivo**
+**6. Práctica - B. Completa**
 
-1. 1. me siento
-2. 1. se pone
-3. 1. te sientes
-4. 1. nos ponemos
-5. 1. se asustan
+1. me siento, 7. se pone, 8. te sientes, 9. nos ponemos, 10. se asustan
 
 **6. Práctica - C. 번역 연습**
 
-1. 1. Estoy orgulloso de mi familia.
-2. 1. ¡No te preocupes por el examen!
-3. 1. Él es el estudiante más listo de la escuela.
-4. 1. ¿Por qué estás tan enfadado hoy?
-5. 1. Estamos sorprendidos por las nuevas noticias.
+1. Estoy orgulloso de mi familia., 12. ¡No te preocupes por el examen!, 13. Él es el estudiante más listo de la escuela., 14. ¿Por qué estás tan enfadado hoy?, 15. Estamos sorprendidos por las nuevas noticias.
 
 **7. Lectura - Preguntas**
 
-1. 1. Se sintió orgulloso porque terminó un proyecto importante.
-2. 1. Se puso preocupado porque no encontraba las llaves de su coche.
-3. 1. Su novia las encontró.
+1. Se sintió orgulloso porque terminó un proyecto importante.
+2. Se puso preocupado porque no encontraba las llaves de su coche.
+3. Su novia las encontró.

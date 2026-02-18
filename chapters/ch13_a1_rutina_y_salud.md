@@ -103,6 +103,27 @@
 
 - **Primero** (First) → **Después / Luego** (Then / After) → **Por último** (Finally)
 
+### B. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### C. Verbos Regulares (Revisión)
+
+일상 속 우리의 평범한 행동들입니다:
+
+- **Hablar**: **Hablo** con mi familia. (I talk with my family. / 가족과 이야기해요.)
+- **Comer**: **Como** a las dos. (I eat at two. / 2시에 밥을 먹어요.)
+- **Vivir**: **Vivo** una vida sana. (I live a healthy life. / 건강한 삶을 살아요.)
+
 ---
 
 ## 5. Cultura Viva: El Horario Español - Vida Nocturna

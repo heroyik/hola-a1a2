@@ -52,6 +52,7 @@
 - **Mi casa tiene tres habitaciones.** (My house has three rooms. / 우리 집은 방이 세 개 있어요.)
 - **La cocina es moderna y luminosa.** (The kitchen is modern and bright. / 주방은 현대적이고 밝아요.)
 - **Hay un jardín grande detrás de la casa.** (There is a big garden behind the house. / 집 뒤에 큰 정원이 있어요.)
+- **Soy** de Madrid, pero **estoy** en mi casa. (출신 vs 집안 위치)
 
 **B. 위치 묻고 답하기 (Asking and Giving Location)**
 
@@ -111,7 +112,20 @@
 
 > 💡 **Quick Test**: 문장에 "**un/una**"이 있으면 → **hay** / "**el/la/mi/tu**"가 있으면 → **estar**
 
-### B. 위치 부사 (Adverbios de Lugar)
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다.
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. 위치 부사 (Adverbios de Lugar)
 
 사물의 구체적인 위치를 설명하기 위해 전치사 'de'와 함께 자주 쓰입니다.
 
@@ -187,6 +201,23 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 반면, 평온함을 선호하는 가족들은 **샬레(chalet)**에 사는 것을 좋아합니다. 샬레는 대개 정원이나 수영장이 딸린 단독주택으로, 보통 도시 외곽에 위치합니다. 안달루시아와 같은 스페인 남부에서는 창문의 철제 창살과 꽃 화분으로 장식된 흰색 집들이 유명합니다.
 
 ![스페인 주거 형태 — 도시의 피소와 교외의 샬레](../images/ch06_a1_culture_housing_v2_1.png)
+
+### Participio (과거분사) - Irregulares (Revisión)
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### Verbos Regulares (Revisión)
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 

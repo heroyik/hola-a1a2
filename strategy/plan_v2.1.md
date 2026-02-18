@@ -153,12 +153,15 @@ Chapter당 최대 2개 섹션, 최대 12개 서브토픽으로 밸런스를 유�
   - **마크다운 테이블 금지**: 텍스트 레이아웃 깨짐을 방지하기 위해 컨텐츠 생성 시 **동사 변형용 마크다운 테이블(`|`) 사용을 전면 금지**함.
   - **HTML 테이블 필수**: 모든 동사 변형 테이블은 반드시 **Raw HTML `<table>` 태그**를 사용하여 작성할 것.
   - **어미 강조**: HTML `<strong>` 또는 `<span>` 태그를 사용하여 어미(Ending)에만 Bold 또는 색상 효과를 적용할 것.
-- **2.3.4.5 동사 표준**: 규칙 변화 모델은 반드시 hablar (-ar), comer (-er), vivir (-ir) 삼총사를 사용할 것. 가독성을 위해 한 테이블당 최대 4개의 동사만 배치할 것.
-- **2.3.4.6 시제별 필수 테이블**: 아래 시제 등장 시 해당 챕터에 반드시 **전 인칭 변형 테이블**이 포함되어야 함:
+- **2.3.4.5 시제,명령형/규칙동사,불규칙동사**: 다음 시제와 명령형은 이 교재에서 모두 빠짐없이 커버되어야함
+  - 현재, 현재진행, 현재완료, 단순과거, 불완료과거, 과거완료, 단순미래
+  - 긍정 명령형, 부정 명령형
+- **2.3.4.5.1 규칙 동사 표준**: 규칙 변화 모델은 반드시 hablar (-ar), comer (-er), vivir (-ir) 삼총사를 사용할 것. 가독성을 위해 한 테이블당 최대 4개의 동사만 배치할 것.
+- **2.3.4.5.2 불규칙 동사 표준**:
   - 현재 시제: ser, estar, ir, tener, saber, poder
   - 현재진행 시제: estar + gerundio (Gerundio 불규칙: ir, leer, repetir, decir, venir, dormir, morir 필수 포함)
   - 단순과거(Indefinido): estar, tener, poder, poner, querer, saber, venir, decir, dar, hacer, haber, ser/ir
-  - 불완전과거(Imperfecto): ser, ir, ver
+  - 불완료과거(Imperfecto): ser, ir, ver
   - 단순미래: decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
   - 현재완료: haber + 과거분사 (Participio 불규칙: hacer, poner, escribir, decir, volver, abrir, leer, romper 필수 포함)
   - 긍정/부정 명령형: dar, ser, ver, ir, decir, hacer, poner, salir, tener, venir

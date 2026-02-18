@@ -128,6 +128,104 @@ A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아�
 
 > 💡 **Pattern**: `ser` Imperfecto is irregular — the stem `er-` is completely different from Presente `so-/s-`. Note that **yo** and **él/ella** share the same form: **era**.
 
+### 3. 현재 시제 (Presente) 필수 불규칙 동사
+
+정체성을 표현할 때 자주 쓰이는 현재 시제 불규칙 동사들입니다.
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어</th>
+      <th>saber (알다)</th>
+      <th>poder (수있다)</th>
+      <th>tender (경향있다)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>yo</td>
+      <td><strong>sé</strong></td>
+      <td><strong>puedo</strong></td>
+      <td><strong>tiendo</strong></td>
+    </tr>
+    <tr>
+      <td>tú</td>
+      <td>sabes</td>
+      <td>puedes</td>
+      <td>tiendes</td>
+    </tr>
+    <tr>
+      <td>él/ella/ud.</td>
+      <td>sabe</td>
+      <td>puede</td>
+      <td>tiende</td>
+    </tr>
+    <tr>
+      <td>nosotros/as</td>
+      <td>sabemos</td>
+      <td>podemos</td>
+      <td>tendemos</td>
+    </tr>
+    <tr>
+      <td>vosotros/as</td>
+      <td>sabéis</td>
+      <td>podéis</td>
+      <td>tendéis</td>
+    </tr>
+    <tr>
+      <td>ellos/ellas/uds.</td>
+      <td>saben</td>
+      <td>pueden</td>
+      <td>tienden</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### 4. 과거 분사 (Participio) 필수 불규칙
+
+현재 완료나 수동적 의미로 쓰이는 필수 과거 분사 불규칙 8선입니다.
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>동사 원형</th>
+      <th>과거 분사</th>
+      <th>동사 원형</th>
+      <th>과거 분사</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>hacer (하다)</td>
+      <td><strong>hecho</strong></td>
+      <td>poner (두다)</td>
+      <td><strong>puesto</strong></td>
+    </tr>
+    <tr>
+      <td>escribir (쓰다)</td>
+      <td><strong>escrito</strong></td>
+      <td>decir (말하다)</td>
+      <td><strong>dicho</strong></td>
+    </tr>
+    <tr>
+      <td>volver (돌아오다)</td>
+      <td><strong>vuelto</strong></td>
+      <td>abrir (열다)</td>
+      <td><strong>abierto</strong></td>
+    </tr>
+    <tr>
+      <td>leer (읽다)</td>
+      <td><strong>leído</strong></td>
+      <td>romper (깨다)</td>
+      <td><strong>roto</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
 > [!IMPORTANT]
 > **Korean Tip**: "나는 어릴 때 부끄러움이 많았어(Cuando **era** pequeño, **era** tímido)"처럼 과거의 나를 묘사할 때 'era'를 사용합니다. 현재의 'soy'와 대조하며 연습해 보세요.
 

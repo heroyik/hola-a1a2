@@ -170,6 +170,32 @@
 > 💡 **Pattern**: 두 동사 모두 Boot Verb (e→ie). 부츠 안쪽 형태(yo, tú, él, ellos)에서만 변화하고 nosotros/vosotros는 변하지 않습니다.
 
 > [!IMPORTANT]
+> **Ser vs Estar**: `Soy un cocinero` (Occupations take `ser`) vs `Estoy en la cocina` (Locations take `estar`).
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
+
+---
+
+> [!IMPORTANT]
 > **Korean Tip**: 두 동사 모두 뒤에 명사(물건)나 동사 원형(행위)이 올 수 있습니다. 예: *Quiero **comer*** (먹고 싶다), *Quiero **una manzana*** (사과 하나를 원한다).
 
 ---

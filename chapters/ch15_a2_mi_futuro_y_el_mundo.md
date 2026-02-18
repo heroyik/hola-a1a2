@@ -100,6 +100,60 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 **Important!** 1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acceso)가 있다는 점을 꼭 기억하세요!
 
+### B. Futuro Simple - Irregulares (불규칙형)
+
+일부 동사들은 어근이 바뀐 뒤 미래 어미(-é, -ás, -á...)를 붙입니다.
+
+- **hacer** → **har-** : *Haré voluntariado.* (나는 자원봉사를 할 거야.)
+- **decir** → **dir-** : *Dirás la verdad.* (너는 진실을 말할 거야.)
+- **tener** → **tendr-** : *Tendremos paz.* (우리는 평화를 얻을 거야.)
+- **poder** → **podr-** : *Podrás ayudar.* (너는 도울 수 있을 거야.)
+- **querer** → **querr-** : *Querrán un cambio.* (그들은 변화를 원할 거야.)
+- **salir** → **saldr-** : *Saldremos a la calle.* (우리는 거리로 나갈 거야.)
+- **saber** → **sabr-** : *Sabrás la respuesta.* (너는 답을 알게 될 거야.)
+- **venir** → **vendr-** : *Vendrán tiempos mejores.* (더 좋은 시절이 올 거야.)
+- **haber** → **habr-** : *Habrá más justicia.* (더 많은 정의가 있을 거야.)
+
+### C. Verbos Regulares (Revisión)
+
+미래의 변화를 위해 우리는 무엇을 할까요?
+
+- **Hablar**: **Hablaremos** del futuro. (We will talk about the future. / 우리는 미래에 대해 이야기할 것입니다.)
+- **Comer**: **Comeremos** comida orgánica. (We will eat organic food. / 우리는 유기농 음식을 먹을 것입니다.)
+- **Vivir**: **Viviremos** en paz. (We will live in peace. / 우리는 평화롭게 살 것입니다.)
+
+---
+
+### D. Pluscuamperfecto (과거완료)
+
+'과거완료'는 과거의 어떤 시점보다 **'더 이전에'** 일어난 일을 표현할 때 사용합니다. 영어의 *Past Perfect (had + p.p)* 와 같은 개념입니다.
+
+**형태:** **Haber (불완료과거)** + **Participio (과거분사)**
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Haber (Imperfecto)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Participio (불변)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">의미 (Meaning)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Yo</strong></td><td><strong>había</strong></td><td>comido / vivido</td><td>I had eaten/lived</td></tr>
+    <tr><td><strong>Tú</strong></td><td><strong>habías</strong></td><td>comido / vivido</td><td>You had eaten/lived</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td><strong>había</strong></td><td>comido / vivido</td><td>He/She had eaten/lived</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td><strong>habíamos</strong></td><td>comido / vivido</td><td>We had eaten/lived</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td><strong>habíais</strong></td><td>comido / vivido</td><td>You all had eaten/lived</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>habían</strong></td><td>comido / vivido</td><td>They had eaten/lived</td></tr>
+  </tbody>
+</table>
+
+**예문:**
+
+- Cuando llegué a la fiesta, Juan ya se **había ido**. (내가 파티에 도착했을 때, 후안은 이미 떠나고 없었다.)
+- Nunca **había visto** algo así antes. (전에는 그런 것을 본 적이 없었다.)
+
 ---
 
 ## 5. Cultura Viva: Los Jóvenes Españoles y el Compromiso Social
@@ -150,6 +204,16 @@ Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos s
 5. 10년 뒤에 당신은 어디에 있을까요? (있다: estar / 미래 시제 사용)
    (............................................................)
 
+**D. Pluscuamperfecto (과거완료) 연습**
+
+다음 문장을 과거완료(Había + p.p) 형태로 완성하세요.
+
+1. Cuando llegué, ellos ya (..........) (comer).
+2. Ella nunca (..........) (ver) esa película.
+3. Nosotros ya (..........) (terminar) el trabajo.
+4. ¿Tú (..........) (vivir) en Madrid antes?
+5. Vosotros (..........) (hacer) la tarea.
+
 ---
 
 ## 7. Lectura 📖
@@ -195,6 +259,25 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> ¡Qué bien! El futuro estará en nuestras manos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 멋지다! 미래는 우리 손에 달려 있을 거야.</td></tr>
   </tbody>
 </table>
+
+---
+
+### Participio (과거분사) - Irregulares (Revisión)
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### Verbos Regulares (Revisión)
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 

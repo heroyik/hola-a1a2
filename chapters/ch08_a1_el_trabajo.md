@@ -114,6 +114,30 @@
 
 **Mandatory Irregulars (Presente):** ser, estar, ir, tener, saber, poder
 
+> [!IMPORTANT]
+> **Ser vs Estar**: `Soy el jefe` (Title/Identity) vs `Estoy en el despacho` (Location).
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
+
 ---
 
 ## 5. Cultura Viva: El Ambiente Laboral en España

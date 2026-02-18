@@ -103,7 +103,22 @@
 
 - **Voy a viajar a España.** (나는 스페인으로 여행 갈 것이다.)
 - **¿Qué vas a hacer mañana?** (너는 내일 무엇을 할 거니?)
-- **Vamos a comer paella.** (우리는 빠에야를 먹을 거야.)
+- **Voy a comer** paella. (우리는 빠에야를 먹을 거야.)
+- **Voy a hablar** con el guía. (I am going to talk with the guide. / 가이드와 이야기할 거야.)
+- **Voy a vivir** en un hotel. (I am going to live in a hotel. / 호텔에서 살 거야.)
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
 
 **Korean Tip!**
 장소 앞에 오는 전치사 `a`와 정관사 `el`이 만나면 `al`이 됩니다. (a + el = al)

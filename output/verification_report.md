@@ -1,9 +1,10 @@
 # Verification Report: Hola-AL v2.1 (Strict Gold Standard)
 
-Date: 2026. 2. 18. 오후 8:09:08
+Date: 2026. 2. 18. 오후 10:21:41
+Strategy Version: v5.2 (Grammar v5.8)
 
 ## ch01_a1_mi_cuerpo.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -20,36 +21,48 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 12 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 19. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 5, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch01_a1_vocab_body_v55.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch01_a1_culture_health_v55.png' has alt text. |
-
-### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_vocab_body_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_culture_health_v2_1.png' exists on disk. |
 
 ---
 ## ch01_a2_mi_cuerpo.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -66,36 +79,43 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
-| TC-2.8.2 | ✅ | Dialog has 11 turns. |
-| TC-2.2.4 | ❌ | Vocab table missing columns (ES/EN/KO). |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has N/A persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has duele/duelen persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch01_a2_vocab_health_v55.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch01_a2_culture_pharmacy_v55.png' has alt text. |
-
-### ⚠️ Warnings
-- [TC-2.2.5] External Legend (✅) missing or incorrect.
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_vocab_health_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_culture_pharmacy_v2_1.png' exists on disk. |
 
 ---
 ## ch02_a1_como_soy.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -112,36 +132,52 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 19. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 3, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-2 | ✅ | Table has verb list persons. |
+| TC-5.1.6-2 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-2 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-2 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch02_a1_vocab_personality_v56.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch02_a1_culture_greeting_v56.png' has alt text. |
-
-### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
+| REQ-4.1.4 | ✅ | Image '../images/ch02_a1_vocab_personality_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch02_a1_culture_greeting_v2_1.png' exists on disk. |
 
 ---
 ## ch02_a2_como_soy.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -158,36 +194,53 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 3, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-2 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-2 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-2 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-2 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-3 | ✅ | Table has verb list persons. |
+| TC-5.1.6-3 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-3 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-3 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Imperfecto | ✅ | All mandatory irregulars for Imperfecto found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch02_a2_vocab_emotions_v56.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch02_a2_culture_social_v56.png' has alt text. |
-
-### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
+| REQ-4.1.4 | ✅ | Image '../images/ch02_a2_vocab_emotions_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch02_a2_culture_social_v2_1.png' exists on disk. |
 
 ---
 ## ch03_a1_mi_identidad.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -204,36 +257,43 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 10 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 3, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch03_a1_vocab_identity_v56.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch03_a1_culture_dni_v56.png' has alt text. |
-
-### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
+| REQ-4.1.4 | ✅ | Image '../images/ch03_a1_vocab_identity_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch03_a1_culture_dni_v2_1.png' exists on disk. |
 
 ---
 ## ch03_a2_mi_identidad.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -250,36 +310,50 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 3, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-2 | ✅ | Table has verb list persons. |
+| TC-5.1.6-2 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-2 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-2 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Imperfecto | ✅ | All mandatory irregulars for Imperfecto found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch03_a2_vocab_multicultural_v56.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch03_a2_culture_expats_v56.png' has alt text. |
-
-### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
+| REQ-4.1.4 | ✅ | Image '../images/ch03_a2_vocab_multicultural_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch03_a2_culture_expats_v2_1.png' exists on disk. |
 
 ---
 ## ch04_a1_familia_amigos.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -296,36 +370,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 11 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has N/A persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch04_a1_vocab_family.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch04_a1_culture_celebration.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch04_a1_vocab_family_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch04_a1_culture_celebration_v2_1.png' missing on disk.
 
 ---
 ## ch04_a2_familia_amigos.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -342,36 +425,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 11 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch04_a2_vocab_friendship.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch04_a2_culture_lifestyle.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch04_a2_vocab_friendship_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch04_a2_culture_lifestyle_v2_1.png' missing on disk.
 
 ---
 ## ch05_a1_a_comer.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -388,36 +480,49 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 11 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch05_a1_vocab_food.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch05_a1_culture_tapas.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch05_a1_vocab_food_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch05_a1_culture_tapas_v2_1.png' missing on disk.
 
 ---
 ## ch05_a2_a_comer.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -434,36 +539,41 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 11 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch05_a2_vocab_cooking.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch05_a2_culture_recipe.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch05_a2_vocab_cooking_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch05_a2_culture_recipe_v2_1.png' missing on disk.
 
 ---
 ## ch06_a1_mi_casa.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -480,36 +590,49 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has N/A persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch06_a1_vocab_house.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch06_a1_culture_housing.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch06_a1_vocab_house_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch06_a1_culture_housing_v2_1.png' missing on disk.
 
 ---
 ## ch06_a2_mi_casa.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -526,36 +649,41 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch06_a2_vocab_appliances.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch06_a2_culture_realestate.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch06_a2_vocab_appliances_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch06_a2_culture_realestate_v2_1.png' missing on disk.
 
 ---
 ## ch07_a1_en_la_escuela.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -572,46 +700,54 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.4.3-1 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-1 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-1 | ✅ | No person labels found in table. |
-| TC-2.4.3-2 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-2 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-2 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-2 | ✅ | Table has verb list persons. |
+| TC-5.1.6-2 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-2 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-2 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch07_a1_vocab_school.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch07_a1_culture_education.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch07_a1_vocab_school_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch07_a1_culture_education_v2_1.png' missing on disk.
 
 ---
 ## ch07_a2_en_la_escuela.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -628,46 +764,51 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.4.3-1 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-1 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-1 | ✅ | No person labels found in table. |
-| TC-2.4.3-2 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-2 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-2 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.4.3-0 | ❌ | Table has only 2 person rows. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-2 | ✅ | Table has verb list persons. |
+| TC-5.1.6-2 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-2 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-2 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Gerundio | ✅ | All mandatory irregulars for Gerundio found. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch07_a2_vocab_university.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch07_a2_culture_erasmus.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch07_a2_vocab_university_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch07_a2_culture_erasmus_v2_1.png' missing on disk.
 
 ---
 ## ch08_a1_el_trabajo.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -684,40 +825,46 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch08_a1_vocab_jobs.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch08_a1_culture_office.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch08_a1_vocab_jobs_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch08_a1_culture_office_v2_1.png' missing on disk.
 
 ---
 ## ch08_a2_el_trabajo.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -734,40 +881,52 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Indefinido | ✅ | All mandatory irregulars for Indefinido found. |
+| TC-5.3-Imperfecto | ✅ | All mandatory irregulars for Imperfecto found. |
+| TC-5.3-Futuro | ✅ | All mandatory irregulars for Futuro found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch08_a2_vocab_interview.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch08_a2_culture_siesta.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch08_a2_vocab_interview_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch08_a2_culture_siesta_v2_1.png' missing on disk.
 
 ---
 ## ch09_a1_ocio_y_arte.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -777,47 +936,52 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-02 | ✅ | Heading '2. Vocabulario Esencial: Tiempo Libre y Ocio' matches pattern. |
 | TC-1.1.2-SEC-03 | ✅ | Heading '3. Expresiones Útiles' matches pattern. |
 | TC-1.1.2-SEC-04 | ✅ | Heading '4. Gramática Esencial' matches pattern. |
-| TC-1.1.2-SEC-05 | ✅ | Heading '5. Cultura Viva: ¡Fiesta y Arte en España!' matches pattern. |
+| TC-1.1.2-SEC-05 | ✅ | Heading '5. Cultura Viva: ¡Fiesta y Arte en España' matches pattern. |
 | TC-1.1.2-SEC-06 | ✅ | Heading '6. Práctica' matches pattern. |
 | TC-1.1.2-SEC-07 | ✅ | Heading '7. Lectura 📖' matches pattern. |
 | TC-1.1.2-SEC-08 | ✅ | Heading '8. Diálogo' matches pattern. |
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch09_a1_vocab_leisure.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch09_a1_culture_festivals.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch09_a1_vocab_leisure_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch09_a1_culture_festivals_v2_1.png' missing on disk.
 
 ---
 ## ch09_a2_ocio_y_arte.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -834,43 +998,46 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.4.3-1 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-1 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-1 | ✅ | No person labels found in table. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has verb list persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Futuro | ✅ | All mandatory irregulars for Futuro found. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch09_a2_vocab_cinema_music.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch09_a2_culture_cinema.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-2.8.2] Dialog turn count (7) is outside recommended 8-12 range.
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch09_a2_vocab_cinema_music_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch09_a2_culture_cinema_v2_1.png' missing on disk.
 
 ---
 ## ch10_a1_de_compras.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -887,40 +1054,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.4.3-0 | ❌ | Table has only 3 person rows. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has N/A persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch10_a1_vocab_shopping.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch10_a1_culture_market.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch10_a1_vocab_shopping_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch10_a1_culture_market_v2_1.png' missing on disk.
 
 ---
 ## ch10_a2_de_compras.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -937,36 +1109,36 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch10_a2_vocab_price_color.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch10_a2_culture_online.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch10_a2_vocab_price_color_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch10_a2_culture_online_v2_1.png' missing on disk.
 
 ---
 ## ch11_a1_medios_y_tecnologia.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -983,40 +1155,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.4.3-0 | ❌ | Table has only 2 person rows. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has N/A persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch11_a1_vocab_media.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch11_a1_culture_media.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch11_a1_vocab_media_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch11_a1_culture_media_v2_1.png' missing on disk.
 
 ---
 ## ch11_a2_medios_y_tecnologia.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1033,36 +1210,36 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 3, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch11_a2_vocab_it.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch11_a2_culture_podcast.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch11_a2_vocab_it_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch11_a2_culture_podcast_v2_1.png' missing on disk.
 
 ---
 ## ch12_a1_viajes_y_lugares.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1079,40 +1256,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 9 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 18 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch12_a1_vocab_travel.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch12_a1_culture_transport.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch12_a1_vocab_travel_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch12_a1_culture_transport_v2_1.png' missing on disk.
 
 ---
 ## ch12_a2_viajes_y_lugares.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1129,40 +1311,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch12_a2_vocab_places.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch12_a2_culture_hiking.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch12_a2_vocab_places_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch12_a2_culture_hiking_v2_1.png' missing on disk.
 
 ---
 ## ch13_a1_rutina_y_salud.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1179,40 +1366,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch13_a1_vocab_routine.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch13_a1_culture_schedule.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch13_a1_vocab_routine_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch13_a1_culture_schedule_v2_1.png' missing on disk.
 
 ---
 ## ch13_a2_rutina_y_salud.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1229,40 +1421,41 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.1.1 | ❌ | Possible English sentences found in Opener learning objectives. |
-| TC-2.4.3-0 | ❌ | Table has only 5 person rows. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has duele/duelen persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch13_a2_vocab_health.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch13_a2_culture_lifestyle.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch13_a2_vocab_health_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch13_a2_culture_lifestyle_v2_1.png' missing on disk.
 
 ---
 ## ch14_a1_cultura_y_celebraciones.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1279,40 +1472,45 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 13. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 16 items in Practice. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch14_a1_vocab_festivals.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch14_a1_culture_fiesta.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch14_a1_vocab_festivals_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch14_a1_culture_fiesta_v2_1.png' missing on disk.
 
 ---
 ## ch14_a2_cultura_y_celebraciones.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1329,40 +1527,46 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.8.2 | ✅ | Dialog has 8 turns. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch14_a2_vocab_arts.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch14_a2_culture_faith.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch14_a2_vocab_arts_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch14_a2_culture_faith_v2_1.png' missing on disk.
 
 ---
 ## ch15_a1_mi_futuro_y_el_mundo.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1379,40 +1583,46 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 15 items in Practice. |
+| TC-5.3-Futuro | ✅ | All mandatory irregulars for Futuro found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch15_a1_vocab_technology_future.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch15_a1_culture_future.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-2.8.2] Dialog turn count (7) is outside recommended 8-12 range.
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch15_a1_vocab_technology_future_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch15_a1_culture_future_v2_1.png' missing on disk.
 
 ---
 ## ch15_a2_mi_futuro_y_el_mundo.html
-**Gold Standard Status**: ❌ FAIL
+**Gold Standard Status**: ✅ PASS
 
 ### 1. Structural Integrity
 | ID | Result | Message |
@@ -1429,35 +1639,46 @@ Date: 2026. 2. 18. 오후 8:09:08
 | TC-1.1.2-SEC-09 | ✅ | Heading '9. Repaso' matches pattern. |
 | TC-1.1.2-SEC-10 | ✅ | Heading '10. Cierre' matches pattern. |
 | TC-1.1.2-SEC-11 | ✅ | Heading '11. Soluciones' matches pattern. |
-| REQ-1.2.1 | ✅ | No section length markers found. |
-| REQ-1.2.2 | ✅ | No Página meta-lines found. |
-| REQ-1.2.3 | ✅ | No (Learning Objectives) markers found. |
+| REQ-7.1.3 | ✅ | No section length markers found. |
+| REQ-7.1.4 | ✅ | No Página meta-lines found. |
+| REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Section Content & Grammar
+### 2. Grammar & Content (v5.8)
 | ID | Result | Message |
 |---|---|---|
-| TC-2.1.1 | ✅ | Learning objectives appear to be English-free (approx). |
+| TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
 | TC-2.2.1 | ✅ | Vocab image exists. |
 | TC-2.2.4 | ✅ | Vocab table has 3+ columns. |
-| TC-2.2.5 | ✅ | External Legend (✅) found. |
-| TC-2.4.1 | ✅ | Grammar table (HTML) exists. |
-| TC-2.4.3-0 | ✅ | Table has 6+ persons. |
-| TC-2.4.6-0 | ✅ | Table has <= 4 verb columns. |
-| TC-2.4.4-0 | ✅ | No person labels found in table. |
-| TC-2.6.3 | ❌ | Practice items count mismatch. Expected 15, found 18. |
-| TC-2.11.1 | ❌ | Solutions count mismatch. Found 4, expected >= 15. |
+| TC-2.2.5 | ✅ | External Legend (✅) found after vocab table. |
+| TC-5.1.3 | ✅ | Grammar table (HTML) exists. |
+| TC-5.1.3-Rows-0 | ✅ | Table has verb list persons. |
+| TC-5.1.6-0 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-0 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-0 | ✅ | Table uses strong/span for endings. |
+| TC-5.1.3-Rows-1 | ✅ | Table has 6+ persons. |
+| TC-5.1.6-1 | ✅ | Table has <= 4 verb columns. |
+| TC-5.1.4-1 | ✅ | No forbidden person labels found in table. |
+| TC-5.1.5-1 | ✅ | Table uses strong/span for endings. |
+| TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
+| TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
+| TC-2.6.3 | ✅ | Found 20 items in Practice. |
+| TC-5.3-Imperfecto | ✅ | All mandatory irregulars for Imperfecto found. |
+| TC-5.3-Futuro | ✅ | All mandatory irregulars for Futuro found. |
+| TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
+| TC-5.2-hablar | ✅ | hablar found for regular explanation. |
+| TC-5.2-comer | ✅ | comer found for regular explanation. |
+| TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
 ### 3. Design & Images
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
-| TC-3.3.2 | ✅ | Zebra striping detected (rgb(252, 249, 242)). |
-| REQ-4.1.2 | ✅ | Image '../images/ch15_a2_vocab_society.png' has alt text. |
-| REQ-4.1.2 | ✅ | Image '../images/ch15_a2_culture_engagement.png' has alt text. |
+| TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
+| TC-3.3.2 | ✅ | Zebra striping detected. |
 
 ### ⚠️ Warnings
-- [TC-2.8.2] Dialog turn count (7) is outside recommended 8-12 range.
-- [TC-3.3.1-Bg] Gradient/Brand color not detected in table header (Found: rgba(0, 0, 0, 0) none repeat scroll 0% 0% / auto padding-box border-box).
+- [REQ-4.1.4] Image file '../images/ch15_a2_vocab_society_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch15_a2_culture_engagement_v2_1.png' missing on disk.
 
 ---

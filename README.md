@@ -63,7 +63,7 @@ book/
 ## 현재 진행 상태
 
 - [x] **교재 작성 전략 수립 (v5.3)**: 디자인/콘텐츠/실행 전략 정규화 완료 및 전 챕터(1-15) 표준화 완료
-- [x] **Chapter 1-15 (전체)**: v5.2 Deep Dive & Bridge 버전 생성 및 v2.1 Gold Standard 표준화(코드 스위칭 수정, 정답지 포맷 통일, 이미지 경로 v2.1 최적화) 완료
+- [x] **Chapter 1-15 (전체)**: v5.2 Deep Dive & Bridge 버전 생성 및 v2.1.2 Gold Standard 표준화(코드 스위칭 수정, 정답지 포맷 통일, 이미지 경로 최적화, **문법 마커(Regular Verbs/Participio) 표준화 및 과거완료(Pluscuamperfecto) 시제 추가**) 완료
 
 ---
 Copyright © 2026. All rights reserved.

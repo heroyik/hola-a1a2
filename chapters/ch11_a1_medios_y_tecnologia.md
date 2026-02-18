@@ -99,7 +99,29 @@
 2. **동사원형/현재분사 뒤 (붙여 씀)**: *Quiero leerlo.* (그것을 읽고 싶다.) / *Estoy leyéndolo.* (그것을 읽고 있다.)
 
 **Korean Tip!**
-목적어가 사물일 때뿐만 아니라 사람일 때도 씁니다. "나(me)", "너(te)" 등도 직접 목적대명사에 포함되지만, 이 장에서는 3인칭(lo, la, los, las)에 집중해 봅시다.
+
+- **Lo quiero mucho.** (I want it a lot. / 그것을 아주 좋아해요.)
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+미디어를 통해 우리는 소통하고 먹고 일상을 나눕니다:
+
+- **Hablar**: **Hablo** por teléfono. (I talk on the phone. / 전화로 이야기해요.)
+- **Comer**: **Como** mientras veo la tele. (I eat while watching TV. / TV 보면서 밥을 먹어요.)
+- **Vivir**: **Vivo** conectado a internet. (I live connected to the internet. / 인터넷에 연결되어 살아요.)
 
 ---
 

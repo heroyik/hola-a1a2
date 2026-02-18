@@ -116,6 +116,34 @@
 </table>
 </div>
 
+### B. Ser/Estar 동사 복습 (이다 / 있다)
+
+> [!TIP]
+> **English Bridge Tip**: Both `ser` and `estar` mean "to be." Think of `ser` as "What is it?" (permanent) and `estar` as "How/Where is it?" (temporary).
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
+
+---
+
 ### 2. 국적 형용사의 성수 변화 (Nacionalidades)
 
 국적을 나타내는 형용사는 꾸며주는 주어의 성(남자/여자)과 수(단수/복수)에 따라 바뀝니다.

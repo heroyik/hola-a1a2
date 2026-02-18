@@ -103,6 +103,27 @@
 - **Conozco a Juan.** (나는 후안을 안다.)
 - **¿Conoces Madrid?** (너는 마드리드를 아니? - 장소이므로 a 생략)
 
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+축제에서 우리는 많은 것을 합니다:
+
+- **Hablar**: **Hablo** con la gente. (I talk with people. / 사람들과 이야기해요.)
+- **Comer**: **Como** paella. (I eat paella. / 빠에야를 먹어요.)
+- **Vivir**: **Vivo** la fiesta. (I live the party. / 축제를 즐겨요(살아요).)
+
 ---
 
 ## 5. Cultura Viva: Las Tres Grandes Fiestas de España

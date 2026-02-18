@@ -103,6 +103,17 @@
 - **Saber + 동사원형**: *Sé tocar el piano.* (피아노를 칠 줄 알아.)
 - **Conocer + 사람/장소/경험**: *Conozco a Paco.* / *Conozco el Museo del Prado.*
 
+### C. Repaso: Verbos Irregulares (Mandatory)
+
+예술과 문화를 이야기할 때 자주 쓰이는 현재시제 필수 불규칙 동사들입니다.
+
+- **ser**: *El flamenco **es** pasión.*
+- **estar**: *Las procesiones **están** en la calle.*
+- **tener**: *La gente **tiene** mucha fe.*
+- **poder**: *¿**Puedes** ver el espectáculo?*
+- **ir**: *Mañana **voy** al museo.*
+- **saber**: *Yo **sé** la historia.*
+
 ---
 
 ## 5. Cultura Viva: Semana Santa - Pasión y Devoción
@@ -197,6 +208,25 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Jin:</strong> Me gustaría saber más. ¿Podemos ver la procesión juntos?</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>진:</strong> 나도 더 알고 싶어. 우리 같이 행렬 볼 수 있을까?</td></tr>
   </tbody>
 </table>
+
+---
+
+### Participio (과거분사) - Irregulares (Revisión)
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### Verbos Regulares (Revisión)
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 

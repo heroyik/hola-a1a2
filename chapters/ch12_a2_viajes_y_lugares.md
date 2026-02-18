@@ -99,6 +99,18 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
   </tbody>
 </table>
 
+**Irregulares (과거분사 불규칙):**
+여행 중 자주 쓰는 불규칙 과거분사들입니다.
+
+- **hacer** → **hecho** (하다/만들다) - *He hecho la reserva.*
+- **decir** → **dicho** (말하다) - *Me han dicho que es bonito.*
+- **poner** → **puesto** (놓다/입다) - *Me he puesto el abrigo.*
+- **escribir** → **escrito** (쓰다) - *He escrito una postal.*
+- **abrir** → **abierto** (열다) - *¿Has abierto la maleta?*
+- **volver** → **vuelto** (돌아오다) - *Ya he vuelto del viaje.*
+- **leer** → **leído** (읽다) - *He leído la guía.*
+- **romper** → **roto** (부서지다) - *Se ha roto la cámara.*
+
 **부사와의 결합:**
 
 - **Ya**: 이미 (*Ya he hecho la maleta.*)
@@ -209,6 +221,25 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Recepcionista:</strong> Entiendo. Envío a un técnico ahora mismo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>리셉션 직원:</strong> 알겠습니다. 지금 바로 기술자를 보내드릴게요.</td></tr>
   </tbody>
 </table>
+
+---
+
+### Participio (과거분사) - Irregulares (Revisión)
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### Verbos Regulares (Revisión)
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 

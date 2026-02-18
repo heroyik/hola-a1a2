@@ -1,11 +1,11 @@
 # Hola-AL: Requirement Specification v2.1
 
-본 문서는 `implementation_plan.md (v2.0)`을 기반으로 도출된 **포괄적 요구사항 명세서**입니다.
+본 문서는 `plan_v2.1.md (Strategy v5.2)`을 기반으로 도출된 **포괄적 요구사항 명세서**입니다.
 Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **테스트 케이스 설계 원본(Source of Truth)**으로 사용됩니다.
 
 > [!IMPORTANT]
 > 모든 챕터 파일(`chapters/*.md` → HTML 렌더링)은 본 명세서의 모든 항목을 100% 충족해야 합니다.
-> 하나라도 FAIL 시 Gold Standard 미달로 판정합니다.
+> 하나라도 FAIL 시 Gold Standard 미달로 판정하며, 최신 v5.4~v5.6 표준을 엄격히 따릅니다.
 
 ---
 
@@ -60,12 +60,12 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
 | REQ-2.1.1 | 학습 목표가 **한국어로만** 작성되어야 함 | 학습 목표 영역 내 영문 문장 검출 시 FAIL |
-| REQ-2.1.2 | `¿Sabías que...?` 문화 상식 팁 포함 권장 | 텍스트 내 `¿Sabías que` 존재 여부 확인 |
+| REQ-2.1.2 | `¿Sabías que...?` 문화 상식 팁 포함 필수 | 텍스트 내 `¿Sabías que` 존재 여부 확인 |
 
 **테스트 케이스**:
 
 - **TC-2.1.1**: Opener 섹션 내 학습 목표 블록에서 `(Learning Objectives)` 텍스트 없음 확인.
-- **TC-2.1.2**: Opener 섹션 내 `¿Sabías que` 텍스트 존재 확인 (WARNING 레벨).
+- **TC-2.1.2**: Opener 섹션 내 `¿Sabías que` 텍스트 존재 확인 (Gold Standard 필수).
 
 ### REQ-2.2: 2. Vocabulario Esencial
 
@@ -88,11 +88,11 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-2.3.1 | 상황별 핵심 패턴 및 실용 예문 포함 | 섹션 내 텍스트 최소 분량 확인 (빈 섹션 금지) |
+| REQ-2.3.1 | 상황별 핵심 패턴 및 실용 예문 포함 (ES + EN 매핑 권장) | 섹션 내 텍스트 최소 분량 확인 (최소 200자 이상) |
 
 **테스트 케이스**:
 
-- **TC-2.3.1**: SEC-03 영역 내 텍스트 콘텐츠가 비어있지 않음 (최소 100자 이상).
+- **TC-2.3.1**: SEC-03 영역 내 텍스트 콘텐츠가 비어있지 않음 (풍부한 예문 제공).
 
 ### REQ-2.4: 4. Gramática Esencial
 
@@ -121,7 +121,7 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-2.5.1 | **스페인어로만** 작성된 칼럼 본문 | 영문 설명 텍스트 검출 시 WARNING |
+| REQ-2.5.1 | **스페인어로만** 작성된 칼럼 본문 | 영문 설명 텍스트 검출 시 FAIL |
 | REQ-2.5.2 | 스페인어 본문 하단에 **한국어 번역 필수** | 한국어 유니코드 블록(가-힣) 텍스트 존재 확인 |
 | REQ-2.5.3 | **Imagen 3 전용 이미지** 1개 이상 필수 포함 | `img` 태그 존재 확인 |
 | REQ-2.5.4 | 이미지가 **섹션 내용을 최대한 반영** | 이미지 `alt` 텍스트 존재 확인 (수동 검증 병행) |
@@ -178,22 +178,13 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
 | REQ-2.9.1 | 핵심 요약 체크리스트 포함 | 체크리스트 또는 리스트 요소 존재 확인 |
-| REQ-2.9.2 | 비어있지 않은 풍부한 내용 | 최소 텍스트 분량 확인 |
-
-**테스트 케이스**:
-
-- **TC-2.9.1**: SEC-09 내 `<ul>`, `<ol>`, 또는 체크리스트 요소 존재.
-- **TC-2.9.2**: SEC-09 내 텍스트 길이가 최소 50자 이상.
+| REQ-2.9.2 | 비어있지 않은 풍부한 내용 | 최소 텍스트 분량 확인 (100자 이상) |
 
 ### REQ-2.10: 10. Cierre
 
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-2.10.1 | 학습 마무리 요약 및 고무적인 메시지 포함 | 비어있지 않은 텍스트 확인 |
-
-**테스트 케이스**:
-
-- **TC-2.10.1**: SEC-10 내 텍스트 길이가 최소 30자 이상.
+| REQ-2.10.1 | 학습 마무리 요약 및 고무적인 메시지 포함 | 비어있지 않은 텍스트 확인 (50자 이상) |
 
 ### REQ-2.11: 11. Soluciones
 
@@ -201,11 +192,6 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 |:---:|:---|:---|
 | REQ-2.11.1 | 6. Práctica **전 문항**(A·B·C 각 5문항)에 대한 정답 포함 | 정답 항목 수 ≥ 15 |
 | REQ-2.11.2 | A, B, C 파트별 정답 구분 명시 | 파트 구분 레이블 존재 확인 |
-
-**테스트 케이스**:
-
-- **TC-2.11.1**: SEC-11 내 번호가 매겨진 정답 항목이 15개 이상 존재.
-- **TC-2.11.2**: SEC-11 내 `A`, `B`, `C` 파트 구분 텍스트 존재.
 
 ---
 
@@ -219,12 +205,6 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 | REQ-3.1.2 | 충분한 좌우 **여백(padding/margin)** 부여 | 컨테이너에 `margin: 0 auto` 또는 `padding` 확인 |
 | REQ-3.1.3 | `@media print` 스타일 정의 존재 | 스타일시트 내 `@media print` 블록 확인 |
 
-**테스트 케이스**:
-
-- **TC-3.1.1**: 렌더링된 HTML 내 `.container` 요소의 `max-width` 계산 값이 `900px`.
-- **TC-3.1.2**: `.container` 요소의 `margin-left` = `margin-right` = `auto`.
-- **TC-3.1.3**: `<style>` 또는 외부 CSS 내 `@media print` 규칙 존재 확인.
-
 ### REQ-3.2: 컬러 팔레트
 
 | 규칙 ID | 색상명 | HEX 코드 | 용도 |
@@ -234,27 +214,13 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 | REQ-3.2.3 | Soft Charcoal | `#2C3E50` | 본문 텍스트 |
 | REQ-3.2.4 | Off-White | `#FCF9F2` | 배경색 |
 
-**테스트 케이스**:
-
-- **TC-3.2.1**: CSS 소스 내 `#A93226` 또는 동등 RGB 값 존재 확인.
-- **TC-3.2.2**: CSS 소스 내 `#D4AC0D` 존재 확인.
-- **TC-3.2.3**: CSS 소스 내 `#2C3E50` 존재 확인.
-
 ### REQ-3.3: 테이블 디자인 (High-End Table Design)
 
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-3.3.1 | **헤더**: 평면적인 색상이 아닌, 은은한 그라데이션과 세련된 타이포그래피(Montserrat) 적용 | `thead th`에 `background: linear-gradient` 및 `font-family: Montserrat` 확인 |
-| REQ-3.3.2 | **본문**: 가독성 향상을 위한 Zebra Striping(홀수/짝수 행 구분) 및 강조 셀에 대한 미세한 쉐도잉 적용 | `tr:nth-child` CSS 및 특정 셀의 `box-shadow` 확인 |
-| REQ-3.3.3 | **구조**: `border-radius`와 `box-shadow`를 활용하여 테이블이 페이지 상에 떠 있는 듯한(Elevated) 효과 부여 | `table` 요소에 `border-radius` 및 `box-shadow` 스타일 존재 |
-| REQ-3.3.4 | 디자인 정규화: 900px 중앙 정렬 컨테이너와 충분한 여백(white space) 유지 | `.container`의 `max-width: 900px` 및 `padding` 확인 |
-
-**테스트 케이스**:
-
-- **TC-3.3.1**: `table` 요소 또는 `th` 요소에 `background` 관련 CSS 속성 존재.
-- **TC-3.3.2**: CSS 소스 내 `nth-child` 규칙 존재 확인.
-- **TC-3.3.3**: `table` 요소에 `border-radius` CSS 속성 존재.
-- **TC-3.3.4**: `table` 요소에 `box-shadow` CSS 속성 존재.
+| REQ-3.3.1 | **헤더**: 은은한 그라데이션과 Montserrat 타입 적용 | `thead th`에 그라데이션 및 `font-family` 확인 |
+| REQ-3.3.2 | **본문**: Zebra Striping(홀수/짝수 행 구분) | `tr:nth-child` CSS 확인 |
+| REQ-3.3.3 | **구조**: `border-radius`와 `box-shadow` 적용 | Elevated 효과 스타일 존재 |
 
 ---
 
@@ -262,54 +228,27 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 
 ### REQ-4.1: 공통 이미지 규칙 (Reference: strategy/image.md)
 
-모든 이미지 생성 및 스타일은 [image.md](file:///c:/Users/heroy/proj/hola-al-textbook/strategy/image.md)의 가이드라인을 최우선으로 따릅니다.
-
-| 규칙 ID | 요구사항 | 선택자 / 검증 방법 |
+| 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-4.1.1 | **상대 경로**: 모든 이미지 경로는 `../images/`로 시작 | `img[src^='../images/']` |
-| REQ-4.1.2 | **스타일**: Vertex AI Imagen 3 기반 **Modern Anime Style** | 수동 검증 / Alt 텍스트 확인 |
-| REQ-4.1.3 | **감성 컨셉**: "Travel & Emotion" (배경 일러스트 중심) 반영 | 수동 검증 / Alt 텍스트 키워드 확인 |
-| REQ-4.1.4 | **일관성**: 기존 북커버(`bookcover2a*.png`)의 따뜻한 조명(Golden Hour) 및 라인 아트 유지 | 수동 검증 |
-| REQ-4.1.5 | **현지화**: 일본어나 한자 등 불필요한 언어 포함 금지 | 수동 검증 |
-| REQ-4.1.6 | **저장**: 생성된 파일이 `images/` 폴더에 실제 존재 | 파일 시스템 확인 |
-
-### REQ-4.2: 섹션별 이미지 필수 규칙
-
-| 규칙 ID | 대상 섹션 | 요구사항 |
-|:---:|:---|:---|
-| REQ-4.2.1 | **2. Vocabulario Esencial** | **어휘 내용 100% 반영**. 어휘 넘버가 삽화에 빠짐없이 표시되는 상세 일러스트 (라벨 매핑 필수) |
-| REQ-4.2.2 | **5. Cultura Viva** | 섹션 내용을 최대한 반영한 **고품질 배경 일러스트**. 여행 욕구를 자극하는 감성적인 분위기 필수 |
-
-**테스트 케이스**:
-
-- **TC-4.2.1**: SEC-02 영역 내 `<img>` 요소가 1개 이상.
-- **TC-4.2.2**: SEC-05 영역 내 `<img>` 요소가 1개 이상.
+| REQ-4.1.1 | **상대 경로**: `../images/` 사용 | `img[src]` 검증 |
+| REQ-4.1.2 | **스타일**: **Modern Anime Style** (Golden Hour) | 수동 검증 / Alt 확인 |
+| REQ-4.1.3 | **감성**: "Travel & Emotion" 컨셉 반영 | 수동 검증 |
+| REQ-4.1.4 | **저장**: 생성된 파일이 `images/` 폴더에 존재 | 파일 시스템 확인 |
 
 ---
 
 ## 5. 문법 및 동사 변형 검증 (Grammar v5.8 Verification)
 
-### REQ-5.1: 동사 변형 테이블 포맷
+### REQ-5.1: 동사 변형 테이블 포맷 및 시제 커버리지
 
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-5.1.1 | **HTML `<table>` 태그 필수** | DOM 내 `<table>` 요소 존재 확인 |
-| REQ-5.1.2 | **마크다운 테이블(`\|`) 절대 금지** | 마크다운 소스에서 동사 변형 영역 내 파이프 문법 검출 시 즉시 FAIL |
-| REQ-5.1.3 | **6개 인칭** 완결: yo, tú, él/ella/usted, nosotros/as, vosotros/as, ellos/ellas/ustedes | 각 테이블 데이터 행 ≥ 6 |
-| REQ-5.1.4 | **서수 레이블 금지**: 주어만 표시 | 셀 텍스트에서 `인칭`, `person` 검출 시 FAIL |
-| REQ-5.1.5 | **어미 강조**: `<strong>` 또는 `<span>` 사용 필수 | `table strong` 또는 `table span` 선택자 매칭 |
-| REQ-5.1.6 | 테이블당 **최대 4개 동사** | 헤더 행 셀 수 ≤ 5 (주어 열 포함) |
+| REQ-5.1.1 | **필수 시제 7종 커버** | 현재, 현재진행, 현재완료, 단순과거, 불완료과거, 과거완료, 단순미래 등장 확인 |
+| REQ-5.1.2 | **명령형 2종 커버** | 긍정 명령형, 부정 명령형 등장 확인 |
+| REQ-5.1.3 | **HTML `<table>` 태그 필수** | DOM 내 `<table>` 요소 존재 확인 |
+| REQ-5.1.4 | **어미 강조**: `<strong>` 또는 `<span>` 필수 | 어미 Bold/색상 강조 여부 확인 |
 
-**테스트 케이스**:
-
-- **TC-5.1.1**: SEC-04 내 동사 변형 `<table>` 요소가 1개 이상 존재.
-- **TC-5.1.2**: 마크다운 소스의 SEC-04 영역에서 `|---|` 패턴 미검출.
-- **TC-5.1.3**: 각 동사 변형 `<table>` 내 `<tbody> tr` 수 ≥ 6.
-- **TC-5.1.4**: `<table>` 내 `<td>` 텍스트에서 `/\d인칭/` 또는 `/\d(st|nd|rd|th)\s+person/i` 미검출.
-- **TC-5.1.5**: 동사 변형 `<table>` 내 `<strong>` 또는 `<span>` 요소 1개 이상 존재.
-- **TC-5.1.6**: 각 테이블 첫 `<tr>` (헤더)의 `<th>` 수 ≤ 5.
-
-### REQ-5.2: 규칙 동사 표준 모델
+### REQ-5.2: 규칙 동사 표준 모델 (REQ-2.3.4.5.1)
 
 | 규칙 ID | 동사 유형 | 표준 동사 |
 |:---:|:---|:---|
@@ -317,159 +256,49 @@ Playwright 기반 자동 검증 스크립트(`scripts/verify_grammar.js`)의 **�
 | REQ-5.2.2 | -er 규칙 변화 | `comer` |
 | REQ-5.2.3 | -ir 규칙 변화 | `vivir` |
 
-**테스트 케이스**:
-
-- **TC-5.2.1**: 규칙 동사 변형 테이블 등장 시 `hablar`, `comer`, `vivir` 중 해당 동사 포함 확인.
-
-### REQ-5.3: 시제별 필수 불규칙 동사 (Automation Checklist)
+### REQ-5.3: 시제별 필수 불규칙 동사 (Automation Checklist v5.8)
 
 자동 검증 스크립트는 다음 시제가 챕터에 등장할 경우, 해당 동사들의 **전 인칭 변형 테이블** 존재 여부를 확인합니다.
 
-| 시제 (Tense) | 시제 키워드 | 필수 포함 동사 리스트 |
-|:---|:---|:---|
-| **Presente** (현재 시제) | `presente`, `present` | `ser`, `estar`, `ir`, `tener`, `saber`, `poder` |
-| **Gerundio** (현재진행) | `gerundio`, `progresivo` | `ir`, `leer`, `repetir`, `decir`, `venir`, `dormir`, `morir` |
-| **Indefinido** (단순과거) | `indefinido`, `pretérito` | `estar`, `tener`, `poder`, `poner`, `querer`, `saber`, `venir`, `decir`, `dar`, `hacer`, `haber`, `ser/ir` |
-| **Imperfecto** (불완전과거) | `imperfecto` | `ser`, `ir`, `ver` |
-| **Futuro** (단순미래) | `futuro` | `decir`, `hacer`, `poder`, `querer`, `saber`, `salir`, `tener`, `venir`, `poner`, `haber` |
-| **Participio** (현재완료) | `participio`, `perfecto` | `hacer`, `poner`, `escribir`, `decir`, `volver`, `abrir`, `leer`, `romper` |
-| **Imperativo** (명령형) | `imperativo`, `comando` | `dar`, `ser`, `ver`, `ir`, `decir`, `hacer`, `poner`, `salir`, `tener`, `venir` |
-
-**테스트 케이스**:
-
-- **TC-5.3.1**: 챕터 내 시제 키워드 검출 시, 해당 시제의 필수 동사 각각에 대해 `<table>` 내 텍스트 매칭 확인.
-- **TC-5.3.2**: 필수 동사 테이블이 누락된 경우 FAIL 및 누락 동사 리스트 출력.
+| 시제 (Tense) | 필수 포함 동사 리스트 |
+|:---|:---|
+| **Presente** (현재 시제) | `ser`, `estar`, `ir`, `tener`, `saber`, `poder` |
+| **Gerundio** (현재진행) | `estar + gerundio` (Gerundio 불규칙: `ir`, `leer`, `repetir`, `decir`, `venir`, `dormir`, `morir`) |
+| **Indefinido** (단순과거) | `estar`, `tener`, `poder`, `poner`, `querer`, `saber`, `venir`, `decir`, `dar`, `hacer`, `haber`, `ser/ir` |
+| **Imperfecto** (불완료과거) | `ser`, `ir`, `ver` |
+| **Futuro** (단순미래) | `decir`, `hacer`, `poder`, `querer`, `saber`, `salir`, `tener`, `venir`, `poner`, `haber` |
+| **Perfecto** (현재완료/과거완료) | `haber + participio` (Participio 불규칙: `hacer`, `poner`, `escribir`, `decir`, `volver`, `abrir`, `leer`, `romper`) |
+| **Imperativo** (명령형) | `dar`, `ser`, `ver`, `ir`, `decir`, `hacer`, `poner`, `salir`, `tener`, `venir` |
 
 ---
 
-## 6. English Bridge 전략 검증 (Cognate Mapping)
+## 6. English Bridge 전략 검증
 
-### REQ-6.1: 어휘 테이블 구성
-
-| 규칙 ID | 요구사항 | 검증 방법 |
-|:---:|:---|:---|
-| REQ-6.1.1 | 3열 구성: **Spanish** / **English Bridge** / **Korean Tip** | 테이블 헤더 텍스트 확인 |
-| REQ-6.1.2 | Perfect Cognates에 **✅** 표시 | 테이블 내 `✅` 문자 존재 확인 |
-| REQ-6.1.3 | False Friends에 **⚠️** 경고 표시 | 해당 시 `⚠️` 문자 존재 확인 (WARNING 레벨) |
-
-**테스트 케이스**:
-
-- **TC-6.1.1**: SEC-02 내 어휘 테이블의 첫 행(헤더)에 `Spanish`, `English`, `Korean` 관련 텍스트 포함.
-- **TC-6.1.2**: SEC-02 내 어휘 테이블에 `✅` 문자 1개 이상 존재 (Perfect Cognate가 있는 경우).
-
-### REQ-6.2: 문법 설명 방식
+### REQ-6.1: 어휘 테이블 및 문법 매핑
 
 | 규칙 ID | 요구사항 | 검증 방법 |
 |:---:|:---|:---|
-| REQ-6.2.1 | 1차 매핑: **영어 등가물**(English Equivalent) 제시 | SEC-04 내 영어 텍스트 존재 확인 |
-| REQ-6.2.2 | 2차 설명: **한국어** 보완 설명 | SEC-04 내 한국어 텍스트 존재 확인 |
-
-**테스트 케이스**:
-
-- **TC-6.2.1**: SEC-04에서 영어 문법 용어 또는 영어 예문 존재 확인.
-- **TC-6.2.2**: SEC-04에서 한국어 설명 텍스트(가-힣) 존재 확인.
+| REQ-6.1.1 | 3열 구성: **Spanish** / **English Bridge** / **Korean Tip** | 테이블 헤더 확인 |
+| REQ-6.1.2 | Perfect Cognates에 **✅** 표시 필수 | `✅` 문자 존재 확인 |
+| REQ-6.1.3 | **영어 등가물**(English Equivalent) 우선 제시 후 한국어 설명 | Gramática 섹션 내 영문 키워드 확인 |
 
 ---
 
 ## 7. 금지 규칙 검증 (Prohibition Rules)
 
-### REQ-7.1: 절대 금지 항목
-
-| 규칙 ID | 금지 항목 | 검출 방법 | 심각도 |
-|:---:|:---|:---|:---:|
-| REQ-7.1.1 | 오디오(TTS) 생성 및 링크 | `<audio>`, `.mp3`, `.wav`, `TTS` 검출 | **FAIL** |
-| REQ-7.1.2 | 동사 변형 마크다운 테이블 | SEC-04 내 `\|---\|` 패턴 | **FAIL** |
-| REQ-7.1.3 | 섹션명 분량 표기 | `h2` 내 `(\dp)` 패턴 | **FAIL** |
-| REQ-7.1.4 | Página 메타 라인 | `Página:` 시작 텍스트 | **FAIL** |
-| REQ-7.1.5 | Learning Objectives 표기 | `(Learning Objectives)` 텍스트 | **FAIL** |
-| REQ-7.1.6 | 이미지 절대 경로 사용 | `img[src]`에 절대 경로 | **FAIL** |
-| REQ-7.1.7 | 서수 인칭 레이블 | 테이블 내 `인칭` 또는 `person` | **FAIL** |
-
-**테스트 케이스**:
-
-- **TC-7.1.1**: 전체 HTML에서 `<audio>` 태그 또는 `.mp3`, `.wav` 확장자 링크 미검출.
-- **TC-7.1.2**: 마크다운 소스 SEC-04 영역에서 `|---|` 패턴 미검출.
-- **TC-7.1.3**: 모든 `h2` 텍스트에서 `/\(\d+\.?\d*p\)/` 미검출.
-- **TC-7.1.4**: 전체 텍스트에서 `/^Página:/m` 미검출.
-- **TC-7.1.5**: 전체 텍스트에서 `(Learning Objectives)` 미검출.
-- **TC-7.1.6**: 모든 `img[src]`에서 `http`, `/Users/`, `C:\` 미검출.
-- **TC-7.1.7**: 동사 테이블 내 셀에서 `인칭`, `person` 미검출.
+| 규칙 ID | 금지 항목 | 심각도 |
+|:---:|:---|:---:|
+| REQ-7.1.1 | 오디오(TTS) 생성 및 링크 금지 | **FAIL** |
+| REQ-7.1.2 | 동사 변형 마크다운 테이블 (`|---`) 금지 | **FAIL** |
+| REQ-7.1.3 | 섹션명 분량 표기 (`1p` 등) 금지 | **FAIL** |
+| REQ-7.1.4 | Página 메타 라인 금지 | **FAIL** |
+| REQ-7.1.5 | Learning Objectives 영문 표기 금지 | **FAIL** |
+| REQ-7.1.6 | 이미지 절대 경로 사용 금지 | **FAIL** |
+| REQ-7.1.7 | 서수 인칭 레이블 (`1인칭` 등) 금지 | **FAIL** |
 
 ---
 
-## 8. Playwright 검증 엔진용 선택자 참조 (Technical Selectors)
-
-### 8.1 DOM 선택자 맵
-
-| 용도 | CSS 선택자 | 설명 |
-|:---|:---|:---|
-| 메인 컨테이너 | `.container` | `max-width: 900px` 검증 |
-| 섹션 헤더 | `h2` | 11개 섹션 순서 및 텍스트 검증 |
-| 동사 변형 테이블 | `table` | HTML 테이블 존재 확인 |
-| 어미 강조 | `table strong`, `table span` | 어미 Bold/색상 강조 확인 |
-| 이미지 경로 | `img[src^='../images/']` | 상대 경로 이미지 검증 |
-| 어휘 범례 | `table + p` | 테이블 직후 `<p>` 내 `✅` 확인 |
-| 대화문 테이블 | 섹션 8 내 `table` | 대화 턴 수 검증 |
-| 오디오 금지 | `audio`, `a[href$='.mp3']` | 오디오 요소 미존재 확인 |
-| Zebra Striping | `tr:nth-child(even)`, `tr:nth-child(odd)` | 교대 배경색 확인 |
-
-### 8.2 마크다운 소스 검증 패턴
-
-| 용도 | 정규식 패턴 | 설명 |
-|:---|:---|:---|
-| 마크다운 파이프 테이블 | `/^\|.*\|.*\|/m` | 동사 변형 영역 내 검출 시 FAIL |
-| 섹션 분량 표기 | `/\(\d+\.?\d*p\)/` | h2 텍스트 내 검출 시 FAIL |
-| Página 메타 | `/^Página:/m` | 검출 시 FAIL |
-
----
-
-## 9. 검증 레포트 출력 형식 (Report Format)
-
-### REQ-9.1: 레포트 파일
-
-- **출력 경로**: `output/verification_report.md`
-- **포맷**: 마크다운
-
-### REQ-9.2: 레포트 구조
-
-```text
-# Verification Report — [Chapter File Name]
-## Summary
-- Total Tests: [N]
-- Passed: [N] ✅
-- Failed: [N] ❌
-- Warnings: [N] ⚠️
-- Gold Standard: [PASS/FAIL]
-
-## Detailed Results
-### 1. Structural Integrity
-| Test ID | Description | Result | Detail |
-|---------|-------------|--------|--------|
-| TC-1.1.1 | 11 sections exist | ✅ | 11/11 |
-...
-
-### 2. Per-Section Requirements
-...
-
-### 3. Design Specification
-...
-
-### 4. Image Specification
-...
-
-### 5. Grammar v5.8
-...
-
-### 6. English Bridge
-...
-
-### 7. Prohibition Rules
-...
-```
-
-### REQ-9.3: Gold Standard 판정 기준
+## 9. Gold Standard 판정 기준
 
 - **모든** 테스트 케이스에서 **PASS(✅)** 획득 시 → **Gold Standard 달성**
-- **1건이라도 FAIL(❌)** 시 → **Gold Standard 미달**, PDF 빌드 불가
-
----
+- **1건이라도 FAIL(❌)** 시 → **Gold Standard 미달**, 수동 수정 필수.

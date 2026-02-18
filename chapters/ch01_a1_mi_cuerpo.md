@@ -20,7 +20,7 @@
 
 신체 부위를 나타내는 필수 어휘입니다. 아래 일러스트의 번호와 매칭하여 학습해보세요. 삽화에 표시된 각 번호(①~⑰)가 아래 어휘 표의 번호와 정확히 대응됩니다.
 
-![신체 부위 일러스트 — 번호 ①~⑰ 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v2_1_v2_1.png)
+![신체 부위 일러스트 — 번호 ①~⑰ 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -93,40 +93,98 @@
   <thead>
     <tr>
       <th>주어 (Subject)</th>
-      <th>tener</th>
-      <th>English</th>
+      <th>ser (이다)</th>
+      <th>estar (있다/상태)</th>
+      <th>ir (가다)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>yo</td>
+      <td><strong>soy</strong></td>
+      <td><strong>estoy</strong></td>
+      <td><strong>voy</strong></td>
+    </tr>
+    <tr>
+      <td>tú</td>
+      <td><strong>eres</strong></td>
+      <td><strong>estás</strong></td>
+      <td><strong>vas</strong></td>
+    </tr>
+    <tr>
+      <td>él/ella/usted</td>
+      <td><strong>es</strong></td>
+      <td><strong>está</strong></td>
+      <td><strong>va</strong></td>
+    </tr>
+    <tr>
+      <td>nosotros/as</td>
+      <td>somos</td>
+      <td>estamos</td>
+      <td>vamos</td>
+    </tr>
+    <tr>
+      <td>vosotros/as</td>
+      <td>sois</td>
+      <td>estáis</td>
+      <td>vais</td>
+    </tr>
+    <tr>
+      <td>ellos/ellas/ustedes</td>
+      <td><strong>son</strong></td>
+      <td><strong>están</strong></td>
+      <td><strong>van</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어 (Subject)</th>
+      <th>tener (가지다)</th>
+      <th>saber (알다)</th>
+      <th>poder (할 수 있다)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>yo</td>
       <td>te<strong>ngo</strong></td>
-      <td>I have</td>
+      <td><strong>sé</strong></td>
+      <td>p<strong>ue</strong>do</td>
     </tr>
     <tr>
       <td>tú</td>
       <td>t<strong>ie</strong>n<strong>es</strong></td>
-      <td>you have</td>
+      <td>sabes</td>
+      <td>p<strong>ue</strong>d<strong>es</strong></td>
     </tr>
     <tr>
       <td>él/ella/usted</td>
       <td>t<strong>ie</strong>n<strong>e</strong></td>
-      <td>he/she has, you (formal) have</td>
+      <td>sabe</td>
+      <td>p<strong>ue</strong>d<strong>e</strong></td>
     </tr>
     <tr>
       <td>nosotros/as</td>
       <td>ten<strong>emos</strong></td>
-      <td>we have</td>
+      <td>sabemos</td>
+      <td>podemos</td>
     </tr>
     <tr>
       <td>vosotros/as</td>
       <td>ten<strong>éis</strong></td>
-      <td>you all have</td>
+      <td>sabéis</td>
+      <td>podéis</td>
     </tr>
     <tr>
       <td>ellos/ellas/ustedes</td>
       <td>t<strong>ie</strong>n<strong>en</strong></td>
-      <td>they have, you all (formal) have</td>
+      <td>saben</td>
+      <td>p<strong>ue</strong>d<strong>en</strong></td>
     </tr>
   </tbody>
 </table>
@@ -151,17 +209,32 @@
 - *Tengo sed.* (I have thirst → I am thirsty)
 - *Tengo sueño.* (I have sleepiness → I am sleepy)
 
-**Korean Tip!**
-한국어에서는 "배고프다", "목마르다"를 형용사처럼 사용하지만, 스페인어에서는 "배고픔을 가지고 있다"는 식으로 명사를 목적어로 취한다는 점을 기억하세요. 그래서 '매우 배고프다'라고 할 때는 형용사를 수식하는 *muy*가 아니라 명사를 수식하는 ***mucho/a***를 사용합니다.
+### C. Participio (과거분사) - Irregulares (미리보기)
 
-- ✅ *Tengo **mucha** hambre.* (hambre는 여성 명사)
-- ❌ ~~*Tengo muy hambre.*~~
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 
 ## 5. Cultura Viva: El Sistema de Salud en España
 
-![스페인 마드리드의 현대적인 공공 보건소(Centro de Salud)와 초록 십자 약국 풍경](../images/ch01_a1_culture_health_v2_1_v2_1.png)
+![스페인 마드리드의 현대적인 공공 보건소(Centro de Salud)와 초록 십자 약국 풍경](../images/ch01_a1_culture_health_v2_1.png)
 
 España cuenta con uno de los sistemas de salud pública más eficientes del mundo, conocido como **Seguridad Social**. Este sistema garantiza el acceso universal a la atención médica para todos los ciudadanos y residentes.
 
@@ -190,22 +263,22 @@ a. Eye / b. Foot / c. Hand / d. Head / e. Nose
 
 1. Yo ______________________ mucho calor hoy.
 2. ¿Tú ______________________ hambre ahora?
-3. Nosotros ______________________ 세 gatos.
+3. Nosotros ______________________ tres gatos.
 4. Ella ______________________ veinticinco años.
 5. Vosotros ______________________ sed.
 
 **C. 번역 연습 (스페인어로 번역하세요)**
 
 1. 나는 졸려요.
-   (............................................................)
+    (............................................................)
 2. 우리들은 목말라요.
-   (............................................................)
+    (............................................................)
 3. 너는 차를 가지고 있니?
-   (............................................................)
+    (............................................................)
 4. 그들은 배고프지 않아요.
-   (............................................................)
+    (............................................................)
 5. 루시아는 19살입니다.
-   (............................................................)
+    (............................................................)
 
 ---
 
@@ -322,7 +395,11 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 1. 1-d, 2-c, 3-a, 4-b, 5-e
 
 **6. Práctica - B. Fill in the blanks**
-2. 1. tengo, 2. tienes, 3. tenemos, 4. tiene, 5. tenéis
+
+1. tengo, 7. tienes, 8. tenemos, 9. tiene, 10. tenéis
 
 **6. Práctica - C. 번역 연습**
-3. 1. Tengo sueño., 2. Tenemos sed., 3. ¿Tienes (un) coche?, 4. No tienen hambre., 5. Lucía tiene 19 años.
+
+1. Tengo sueño., 12. Tenemos sed., 13. ¿Tienes (un) coche?, 14. No tienen hambre., 15. Lucía tiene 19 años.
+
+```

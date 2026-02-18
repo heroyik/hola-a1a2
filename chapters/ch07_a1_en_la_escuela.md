@@ -104,7 +104,31 @@
     <tr><td><strong>They/Uds.</strong></td><td>habl<strong>an</strong></td><td>com<strong>en</strong></td><td>viv<strong>en</strong></td></tr>
   </tbody>
 </table>
+[!TIP]
+> **Korean Tip**: '이다, 있다'의 구분은 스페인어를 배울 때 가장 기초적이면서도 중요한 부분입니다. 'Ser'는 본질(학생이다, 한국인이다), 'Estar'는 상태와 위치(학교에 있다, 행복하다)를 나타냅니다.
 
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
+
+---
 **💡 Korean Tip!**
 스페인어는 동사 변화만으로 주어를 알 수 있는 경우가 많아 주어 대명사(Yo, Tú 등)를 자주 생략합니다. 동사 꼬리(어미)를 정확히 익히는 것이 핵심입니다!
 

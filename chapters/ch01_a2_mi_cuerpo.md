@@ -20,7 +20,7 @@
 
 A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위를 확인해보세요.
 
-![건강 및 의료 심화 일러스트 (Modern Anime Style)](../images/ch01_a2_vocab_health_v2_1_v2_1.png)
+![신체 부위와 건강 관련 일러스트 — 병원, 약국, 증상 표현 (Modern Anime Style)](../images/ch01_a2_vocab_health_v2_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -145,7 +145,7 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 
 ## 5. Cultura Viva: Las Farmacias y la Automedicación en España
 
-![스페인의 약국 내부와 약사 상담 모습](../images/ch01_a2_culture_pharmacy_v2_1_v2_1.png)
+![스페인 약국(Farmacia)의 초록색 십자가 간판과 약사와의 상담 장면](../images/ch01_a2_culture_pharmacy_v2_1.png)
 
 En España, las farmacias son instituciones muy respetadas. Los farmacéuticos tienen una formación académica rigurosa y a menudo actúan como el primer punto de contacto para consultas de salud menores. A diferencia de otros países, no se puede comprar medicamentos fuertes sin una receta médica oficial de un profesional de la Seguridad Social o de una clínica privada.
 
@@ -164,32 +164,32 @@ La cultura de la **automedicación** está controlada. Para problemas comunes co
 
 | Spanish | English / Korean |
 |:---|:---|
-| 1. Corazón | a. Fever |
-| 2. Fiebre | b. Prescription |
-| 3. Jarabe | c. Heart |
-| 4. Receta | d. Cold (Flu) |
-| 5. Gripe | e. Syrup |
+| 1. Tener fiebre → ( ) | a. Pharmacy |
+| 2. La farmacia → ( ) | b. Toothache |
+| 3. Dolor de muelas → ( ) | c. To have a fever |
+| 4. La receta → ( ) | d. Cough syrup |
+| 5. Jarabe para la tos → ( ) | e. Prescription |
 
-**B. Choose the correct form: duele or duelen (duele 또는 duelen 중 알맞은 것을 고르세요)**
+**B. Choose the correct form of DOLER (빈칸에 doler 동사의 알맞은 형태를 쓰세요)**
 
-1. Me ............................. los pies después de caminar mucho.
-2. ¿A ti te ............................. la garganta?
-3. A Juan le ............................. las piernas.
-4. Nos ............................. la espalda por el trabajo.
-5. ¿Os ............................. el estómago?
+1. Me ______________________ la garganta. (가목)
+2. A Manuel le ______________________ los pies. (복수)
+3. ¿Te ______________________ el estómago? (단수)
+4. Nos ______________________ las piernas de tanto caminar. (복수)
+5. A veces le ______________________ la espalda. (단수)
 
 **C. 번역 연습 (스페인어로 번역하세요)**
 
-1. 나는 눈이(복수) 아파요.
-   (............................................................)
-2. 당신은 독감에 걸렸나요?
-   (............................................................)
-3. 기침에 좋은 시럽을 원합니다.
-   (............................................................)
-4. 우리는 병원 예약이 있습니다.
-   (............................................................)
-5. 그녀는 약 알레르기가 있어요.
-   (............................................................)
+1. 내 눈들이 아파요.
+    (............................................................)
+2. 나는 열이 있어요.
+    (............................................................)
+3. 처방전이 필요합니다.
+    (............................................................)
+4. 너는 어디가 아프니?
+    (............................................................)
+5. 우리는 등이 아파요.
+    (............................................................)
 
 ---
 
@@ -254,27 +254,17 @@ El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se 
 
 **6. Práctica - A. Match the word**
 
-1. 1-c
-2. 2-a
-3. 3-e
-4. 4-b
-5. 5-d
+1. 1-c, 2-a, 3-b, 4-e, 5-d
 
-**6. Práctica - B. Fill in the blanks (Choose duele/duelen)**
+**6. Práctica - B. Choose the correct form**
 
-1. duelen
-2. duele
-3. duelen
-4. duele
-5. duele
+1. 1. duele, 7. duelen, 8. duele, 9. duelen, 10. duele
 
 **6. Práctica - C. 번역 연습**
 
-1. Me duelen los ojos.
-2. ¿Tienes la gripe? / ¿Tiene la gripe?
-3. Quiero un jarabe para la tos.
-4. Tenemos una cita médica.
-5. Ella tiene alergia a los medicamentos.
+1. Quiero un jarabe para la tos.
+2. Tenemos una cita médica.
+3. Ella tiene alergia a los medicamentos.
 
 **7. Lectura - Preguntas**
 

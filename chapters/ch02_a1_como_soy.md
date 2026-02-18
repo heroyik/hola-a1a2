@@ -124,58 +124,141 @@
 
 > 💡 **Tip**: `ser`는 영어의 "am/are/is"처럼 인칭마다 완전히 다른 형태를 갖습니다. 이것은 외울 수밖에 없으니, 반복 연습이 유일한 방법입니다!
 
-### 2. Estar 동사 (상태, 위치, 일시적 기분) — Presente
+### 현재 시제 (Presente) 필수 불규칙 동사
 
-`estar`는 1인칭을 제외하면 규칙적인 패턴을 보이며, 강세 기호(accent)에 주의가 필요합니다.
+스페인어에서 가장 빈도가 높고 중요한 불규칙 동사 6가지입니다.
+
+#### 필수 불규칙 (그룹 1: ser, estar, ir)
 
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
     <tr>
-      <th>주어 (Subject)</th>
-      <th>estar</th>
-      <th>English</th>
+      <th>주어</th>
+      <th>ser (이다)</th>
+      <th>estar (있다)</th>
+      <th>ir (가다)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>yo</td>
-      <td>est<strong>oy</strong></td>
-      <td>I am</td>
+      <td><strong>soy</strong></td>
+      <td><strong>estoy</strong></td>
+      <td><strong>voy</strong></td>
     </tr>
     <tr>
       <td>tú</td>
-      <td>est<strong>ás</strong></td>
-      <td>you are</td>
+      <td><strong>eres</strong></td>
+      <td><strong>estás</strong></td>
+      <td><strong>vas</strong></td>
     </tr>
     <tr>
-      <td>él/ella/usted</td>
-      <td>est<strong>á</strong></td>
-      <td>he/she is, you (formal) are</td>
+      <td>él/ella/ud.</td>
+      <td><strong>es</strong></td>
+      <td><strong>está</strong></td>
+      <td><strong>va</strong></td>
     </tr>
     <tr>
       <td>nosotros/as</td>
-      <td>est<strong>amos</strong></td>
-      <td>we are</td>
+      <td>somos</td>
+      <td>estamos</td>
+      <td>vamos</td>
     </tr>
     <tr>
       <td>vosotros/as</td>
-      <td>est<strong>áis</strong></td>
-      <td>you all are</td>
+      <td>sois</td>
+      <td>estáis</td>
+      <td>vais</td>
     </tr>
     <tr>
-      <td>ellos/ellas/ustedes</td>
-      <td>est<strong>án</strong></td>
-      <td>they are, you all (formal) are</td>
+      <td>ellos/ellas/uds.</td>
+      <td><strong>son</strong></td>
+      <td><strong>están</strong></td>
+      <td><strong>van</strong></td>
     </tr>
   </tbody>
 </table>
 </div>
 
-> 💡 **English Bridge Tip**: Notice that `estar` has a consistent stem `est-` (think of "state" → est-**a**do = state). The endings follow -AR verb patterns with accents: -**oy**, -**ás**, -**á**, -**amos**, -**áis**, -**án**.
+#### 필수 불규칙 (그룹 2: tener, saber, poder)
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어</th>
+      <th>tener (가지다)</th>
+      <th>saber (알다)</th>
+      <th>poder (수있다)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>yo</td>
+      <td><strong>tengo</strong></td>
+      <td><strong>sé</strong></td>
+      <td><strong>puedo</strong></td>
+    </tr>
+    <tr>
+      <td>tú</td>
+      <td><strong>tienes</strong></td>
+      <td>sabes</td>
+      <td>puedes</td>
+    </tr>
+    <tr>
+      <td>él/ella/ud.</td>
+      <td><strong>tiene</strong></td>
+      <td>sabe</td>
+      <td>puede</td>
+    </tr>
+    <tr>
+      <td>nosotros/as</td>
+      <td>tenemos</td>
+      <td>sabemos</td>
+      <td>podemos</td>
+    </tr>
+    <tr>
+      <td>vosotros/as</td>
+      <td>tenéis</td>
+      <td>sabéis</td>
+      <td>podéis</td>
+    </tr>
+    <tr>
+      <td>ellos/ellas/uds.</td>
+      <td><strong>tienen</strong></td>
+      <td>saben</td>
+      <td>pueden</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+> 💡 **English Bridge Tip**: Notice that `ser`, `estar`, and `ir` are completely irregular (like English "am/are/is" vs "was"). `saber` has a special *yo* form (**sé**), and `poder` has a stem change (**o→ue**).
 
 > [!IMPORTANT]
 > **Korean Tip**: 한국어로는 둘 다 "~이다/있다"로 번역되지만, **"내 친구는 친절하다(Ser)"**와 **"내 친구는 지금 화가 났다(Estar)"**의 차이를 생각하면 이해가 빠릅니다. 성격은 Ser, 기분은 Estar입니다!
+
+### C. Participio (과거분사) - Irregulares (미리보기)
+
+비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
 
@@ -221,15 +304,15 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 **C. 번역 연습 (스페인어로 옮겨보세요)**
 
 1. 나는 똑똑한 사람이야.
-   (............................................................)
+    (............................................................)
 2. 너는 오늘 슬프니?
-   (............................................................)
+    (............................................................)
 3. 페드로는 정말 성격이 좋아(simpático).
-   (............................................................)
+    (............................................................)
 4. 우리는 지금 피곤해(cansados).
-   (............................................................)
+    (............................................................)
 5. 그녀는 아주 예쁘다.
-   (............................................................)
+    (............................................................)
 
 ---
 
@@ -330,24 +413,12 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 
 **6. Práctica - A. Match the word**
 
-1. 1-c (alegre - cheerful)
-2. 2-e (alto - tall)
-3. 3-a (serio - serious)
-4. 4-b (simpático - friendly)
-5. 5-d (delgado - thin)
+1. 1-c, 2-e, 3-a, 4-b, 5-d
 
-**6. Práctica - B. Completa con 'ser' o 'estar'**
+**6. Práctica - B. Completa**
 
-1. soy
-2. es
-3. estamos
-4. estás
-5. está
+1. 1. soy, 7. es, 8. estamos, 9. estás, 10. está
 
 **6. Práctica - C. 번역 연습**
 
-1. Soy una persona inteligente.
-2. ¿Estás triste hoy?
-3. Pedro es muy simpático.
-4. (Nosotros) estamos cansados ahora.
-5. Ella es muy guapa.
+1. 1. Soy una persona inteligente., 12. ¿Estás triste hoy?, 13. Pedro es muy simpático., 14. (Nosotros) estamos cansados ahora., 15. Ella es muy guapa.

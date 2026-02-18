@@ -14,10 +14,10 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 - 구인 광고 이해 및 면접 질문에 대한 답변 전략 수립
 - 스페인의 채용 프로세스와 링크드인 등 전문 네트워크 활용 이해
 
-**💡 English Bridge: Professional Terms**
-
-- **CV**: Curriculum Vitae
 - **Interview**: Entrevista de trabajo
+
+> [!TIP]
+> **¿Sabías que...?** 스페인에서 구직 활동 시 'Enchufismo'(인맥을 통한 채용)라는 단어를 종종 듣게 됩니다. 이는 단순한 낙하산 인사가 아니라, 신뢰가 중요한 사회적 배경에서 추천을 통해 검증된 인재를 선호하는 문화를 반영합니다. 링크드인 프로필 관리와 더불어 개인적인 네트워킹이 매우 중요한 이유이기도 합니다.
 
 **💡 Korean Tip!**
 스페인어로 전공을 말할 때는 'estudiar' 동사를 주로 사용한다는 점을 명심하세요!
@@ -84,33 +84,82 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 
 과거의 업무 경력을 설명하는 데 필수적인 시제들입니다.
 
-**Mandatory Irregulars (Indefinido):**
-estar, poder, poner, querer, saber, venir, decir, dar, hacer, haber
+### B. 단순과거 (Indefinido)
+
+이미 끝난 과거의 행동이나 사건을 나타냅니다.
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Estar</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Poder</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Ir & Ser</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">주어</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Estar (To be)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Poder (Can)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">Ser/Ir</th>
     </tr>
   </thead>
   <tbody>
     <tr><td><strong>Yo</strong></td><td>estuve</td><td>pude</td><td>fui</td></tr>
     <tr><td><strong>Tú</strong></td><td>estuviste</td><td>pudiste</td><td>fuiste</td></tr>
-    <tr><td><strong>He/She/Ud.</strong></td><td>estuvo</td><td>pudo</td><td>fue</td></tr>
-    <tr><td><strong>Nosotros</strong></td><td>estuvimos</td><td>pudimos</td><td>fuimos</td></tr>
-    <tr><td><strong>Vosotros</strong></td><td>estuvisteis</td><td>pudisteis</td><td>fuisteis</td></tr>
-    <tr><td><strong>They/Uds.</strong></td><td>estuvieron</td><td>pudieron</td><td>fueron</td></tr>
+    <tr><td><strong>Él/Ella/Ud.</strong></td><td>estuvo</td><td>pudo</td><td>fue</td></tr>
+    <tr><td><strong>Nosotros/as</strong></td><td>estuvimos</td><td>pudimos</td><td>fuimos</td></tr>
+    <tr><td><strong>Vosotros/as</strong></td><td>estuvisteis</td><td>pudisteis</td><td>fuisteis</td></tr>
+    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td>estuvieron</td><td>pudieron</td><td>fueron</td></tr>
   </tbody>
 </table>
+
+- **기타 주요 불규칙**: **hacer** (hice), **tener** (tuve), **poner** (puse), **querer** (quise), **saber** (supe), **venir** (vine), **decir** (dije), **dar** (di), **haber** (hubo), **ser/ir** (fui).
+
+### C. Verbos Regulares (Revisión)
+
+스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:
+
+- **Hablar** (말하다): Yo **hablo** español.
+- **Comer** (먹다): Yo **como** paella.
+- **Vivir** (살다): Yo **vivo** en Seúl.
+
+### D. Participio (과거분사) - Irregulares (Repaso)
+
+현재완료 등을 만들 때 필수적인 불규칙 과거분사들입니다.
+
+- **hacer** (하다) → **hecho**
+- **poner** (놓다) → **puesto**
+- **escribir** (쓰다) → **escrito**
+- **decir** (말하다) → **dicho**
+- **volver** (돌아가다) → **vuelto**
+- **abrir** (열다) → **abierto**
+- **leer** (읽다) → **leído**
+- **romper** (깨다) → **roto**
+
+### D. Futuro (미래) - 불규칙 동사 (경력 계획)
+
+면접에서 향후 계획을 말할 때 필요한 미래 시제의 불규칙 동사들입니다.
+
+**Mandatory Irregulars (Futuro):**
+decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">동사 (Verb)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>어근 (Stem)</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">예문 (Example)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>salir</strong></td><td><strong>saldr-</strong></td><td>Mañana <strong>saldré</strong> más temprano.</td></tr>
+    <tr><td><strong>decir</strong></td><td><strong>dir-</strong></td><td>Te <strong>diré</strong> la respuesta pronto.</td></tr>
+    <tr><td><strong>hacer</strong></td><td><strong>har-</strong></td><td>Lo <strong>haré</strong> con gusto.</td></tr>
+  </tbody>
+</table>
+
+### C. 시제 활용 팁
+
+이력서의 '경력 사항'에는 보통 **단순과거**를, 면접에서 당시의 분위기나 일상적인 업무 루틴을 설명할 때는 **불완료과거**를 주로 사용합니다.
+
 - **단순과거 (Indefinido)**: 특정 기간 동안 완료된 사건을 말할 때 씁니다.
   - 예: *Trabajé en Sony de 2018 a 2021.* (2018년부터 2021년까지 소니에서 일했다.)
 - **불완료과거 (Imperfecto)**: 과거에 반복되던 습관이나 당시의 상태를 묘사할 때 씁니다.
   - 예: *En mi antiguo trabajo, hablaba mucho con clientes extranjeros.* (전 직장에서 저는 외국 고객들과 대화를 많이 하곤 했습니다.)
-
-### B. 시제 활용 팁
 
 이력서의 '경력 사항'에는 보통 **단순과거**를, 면접에서 당시의 분위기나 일상적인 업무 루틴을 설명할 때는 **불완료과거**를 주로 사용합니다.
 
