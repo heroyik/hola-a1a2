@@ -1,0 +1,13 @@
+Use case: infographic-diagram
+Asset type: Spanish textbook chapter image (A1 vocab)
+Primary request: Modern premium anime educational infographic of a full standing young adult in a Spanish clinic classroom.
+Style/medium: modern anime, clean textured line art, warm golden-hour sunlight, detailed Spanish interior materials.
+Composition/framing: full body centered; two balanced label columns left and right.
+Lighting/mood: warm natural sunlight, crisp readability.
+Color palette: terracotta, warm wood, Mediterranean light.
+Text (verbatim): "1 la cabeza, 2 el pelo, 3 la cara, 4 el ojo, 5 la nariz, 6 la boca, 7 la oreja, 8 el cuello, 9 el hombro, 10 el brazo, 11 la mano, 12 el dedo, 13 el pecho, 14 el estomago, 15 la pierna, 16 la rodilla, 17 el pie"
+Constraints: exactly 17 numbered callouts mapped correctly.
+Constraints: all numbers, labels, and callout lines must be fully inside the canvas with very large safe margins.
+Constraints: reserve at least 15 percent empty margin on left and right edges and 12 percent on top and bottom; no label may enter margin zones.
+Constraints: no truncation, no cutoff, no touching image borders.
+Avoid: any cropped text, edge clipping, Japanese text, Chinese text, Korean text, watermark, logo, distorted anatomy.

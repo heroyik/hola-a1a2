@@ -1,6 +1,6 @@
 # Verification Report: Hola-AL v2.1 (Strict Gold Standard)
 
-Date: 2026. 2. 18. 오후 10:21:41
+Date: 2026. 2. 19. 오후 9:54:43
 Strategy Version: v5.2 (Grammar v5.8)
 
 ## ch01_a1_mi_cuerpo.html
@@ -57,8 +57,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_vocab_body_v2_1.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_culture_health_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_vocab_body_v3_0.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_culture_health_v3_0.png' exists on disk. |
 
 ---
 ## ch01_a2_mi_cuerpo.html
@@ -110,8 +110,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_vocab_health_v2_1.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_culture_pharmacy_v2_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_vocab_health_v3_0.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_culture_pharmacy_v3_0.png' exists on disk. |
 
 ---
 ## ch02_a1_como_soy.html
@@ -172,8 +172,10 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch02_a1_vocab_personality_v2_1.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch02_a1_culture_greeting_v2_1.png' exists on disk. |
+
+### ⚠️ Warnings
+- [REQ-4.1.4] Image file '../images/ch02_a1_vocab_personality_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch02_a1_culture_greeting_v2_1.png' missing on disk.
 
 ---
 ## ch02_a2_como_soy.html
@@ -235,8 +237,10 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch02_a2_vocab_emotions_v2_1.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch02_a2_culture_social_v2_1.png' exists on disk. |
+
+### ⚠️ Warnings
+- [REQ-4.1.4] Image file '../images/ch02_a2_vocab_emotions_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch02_a2_culture_social_v2_1.png' missing on disk.
 
 ---
 ## ch03_a1_mi_identidad.html
@@ -288,8 +292,10 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch03_a1_vocab_identity_v2_1.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch03_a1_culture_dni_v2_1.png' exists on disk. |
+
+### ⚠️ Warnings
+- [REQ-4.1.4] Image file '../images/ch03_a1_vocab_identity_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch03_a1_culture_dni_v2_1.png' missing on disk.
 
 ---
 ## ch03_a2_mi_identidad.html
@@ -348,8 +354,10 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch03_a2_vocab_multicultural_v2_1.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch03_a2_culture_expats_v2_1.png' exists on disk. |
+
+### ⚠️ Warnings
+- [REQ-4.1.4] Image file '../images/ch03_a2_vocab_multicultural_v2_1.png' missing on disk.
+- [REQ-4.1.4] Image file '../images/ch03_a2_culture_expats_v2_1.png' missing on disk.
 
 ---
 ## ch04_a1_familia_amigos.html
