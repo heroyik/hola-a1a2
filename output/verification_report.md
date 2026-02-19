@@ -1,6 +1,6 @@
 # Verification Report: Hola-AL v2.1 (Strict Gold Standard)
 
-Date: 2026. 2. 19. 오후 9:54:43
+Date: 2026. 2. 19. 오후 10:50:41
 Strategy Version: v5.2 (Grammar v5.8)
 
 ## ch01_a1_mi_cuerpo.html

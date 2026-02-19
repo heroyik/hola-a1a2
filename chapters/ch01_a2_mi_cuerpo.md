@@ -4,14 +4,15 @@
 
 ## 1. Opener
 
-**학습 목표**:
+### 학습 목표
 
 - 복잡한 신체 부위와 장기, 그리고 세부적인 건강 상태를 설명할 수 있습니다.
 - `doler`(아프다) 동사와 간접 목적 대명사의 결합을 마스터하여 통증을 정확히 표현합니다.
 - 스페인의 약국 문화와 자가 진단 및 처방에 대한 문화적 에티켓을 익힙니다.
 - 병원 예약 및 약국에서의 심화 상담 시나리오를 수행할 수 있습니다.
 
-**¿Sabías que...? (알고 계셨나요?)**
+### ¿Sabías que...? (알고 계셨나요?)
+
 스페인의 약국(Farmacia)은 단순히 약을 파는 곳을 넘어, 가벼운 증상에 대해 전문적인 조언을 해주는 '준의료기관' 역할을 합니다. 밤늦게나 공휴일에도 당번 약국인 'Farmacia de guardia'가 항상 열려 있어 시민들의 건강을 책임집니다.
 
 ---
@@ -23,7 +24,7 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 ![신체 부위와 건강 관련 일러스트 — 병원, 약국, 증상 표현 (Modern Anime Style)](../images/ch01_a2_vocab_health_v3_0.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
-|:---:|:---|:---|:---|
+| :---: | :--- | :--- | :--- |
 | 1 | el corazón | Cordial (→ heart-related) ✅ | 심장입니다. |
 | 2 | los pulmones | Pulmonary ✅ | 폐입니다. |
 | 3 | la espalda | — | 등, 허리입니다. |
@@ -45,14 +46,14 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 
 병원과 약국에서 사용하는 세부적인 표현들입니다.
 
-**A. 통증 및 증상 상세 설명**
+### A. 통증 및 증상 상세 설명
 
 - **¿Qué le pasa?** (What's wrong? / 어디가 편치 않으신가요?)
 - **Me duele mucho la espalda.** (My back hurts a lot. / 허리가 너무 아파요.)
 - **Tengo una fiebre muy alta.** (I have a very high fever. / 열이 아주 높아요.)
 - **Tengo alergia al polen.** (I'm allergic to pollen. / 꽃가루 알레르기가 있어요.)
 
-**B. 약국에서 사용하기**
+### B. 약국에서 사용하기
 
 - **¿Tiene algo para la tos?** (Do you have something for the cough? / 기침에 좋은 약이 있나요?)
 - **Quiero este medicamento con receta.** (I want this medicine with a prescription. / 처방전이 있는 이 약을 사고 싶어요.)
@@ -160,7 +161,7 @@ La cultura de la **automedicación** está controlada. Para problemas comunes co
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 단어를 연결하세요)**
+### A. Match the word (알맞은 단어를 연결하세요)
 
 | Spanish | English / Korean |
 |:---|:---|
@@ -170,7 +171,7 @@ La cultura de la **automedicación** está controlada. Para problemas comunes co
 | 4. La receta → ( ) | d. Cough syrup |
 | 5. Jarabe para la tos → ( ) | e. Prescription |
 
-**B. Choose the correct form of DOLER (빈칸에 doler 동사의 알맞은 형태를 쓰세요)**
+### B. Choose the correct form of DOLER (빈칸에 doler 동사의 알맞은 형태를 쓰세요)
 
 1. Me ______________________ la garganta. (가목)
 2. A Manuel le ______________________ los pies. (복수)
@@ -178,7 +179,7 @@ La cultura de la **automedicación** está controlada. Para problemas comunes co
 4. Nos ______________________ las piernas de tanto caminar. (복수)
 5. A veces le ______________________ la espalda. (단수)
 
-**C. 번역 연습 (스페인어로 번역하세요)**
+### C. 번역 연습 (스페인어로 번역하세요)
 
 1. 내 눈들이 아파요.
     (............................................................)
@@ -195,7 +196,7 @@ La cultura de la **automedicación** está controlada. Para problemas comunes co
 
 ## 7. Lectura 📖
 
-**Una visita inesperada al médico (예상치 못한 병원 방문)**
+### Una visita inesperada al médico (예상치 못한 병원 방문)
 
 El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se levantó con mucha fiebre y dolor de garganta. Ella llamó al Centro de Salud para pedir una cita médica. El doctor la examinó y le dijo: "Tienes una infección leve". El doctor le dio una receta para un jarabe y unas pastillas. Elena fue a la farmacia de su barrio y compró los medicamentos. Ahora tiene que descansar en casa por tres días.
 
@@ -213,7 +214,7 @@ El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se 
 
 ## 8. Diálogo
 
-**En la farmacia (약국에서)**
+### En la farmacia (약국에서)
 
 **Situación:** Sofía tiene un fuerte resfriado y entra en una farmacia en Sevilla para comprar algo que la ayude. Habla con el farmacéutico sobre sus síntomas y pide recomendaciones.  
 **상황:** 소피아는 심한 감기에 걸려 이를 치료할 약을 사러 세비야의 한 약국에 들어갑니다. 그녀는 약사에게 자신의 증상을 설명하고 약을 추천받습니다.
@@ -252,21 +253,21 @@ El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se 
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-c, 2-a, 3-b, 4-e, 5-d
 
-**6. Práctica - B. Choose the correct form**
+### 6. Práctica - B. Choose the correct form
 
 1. 1. duele, 7. duelen, 8. duele, 9. duelen, 10. duele
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. Quiero un jarabe para la tos.
 2. Tenemos una cita médica.
 3. Ella tiene alergia a los medicamentos.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. Elena pidió una cita médica porque tenía fiebre y dolor de garganta.
 2. Elena compró un jarabe y unas pastillas.

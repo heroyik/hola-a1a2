@@ -23,7 +23,7 @@
 ![신체 부위 일러스트 — 번호 1~17 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v3_0.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
-|:---:|:---|:---|:---|
+| :---: | :--- | :--- | :--- |
 | 1 | la cabeza | Cephalic (→ head-related) | '까베사'라고 발음하세요. |
 | 2 | el pelo | — | 머리카락을 뜻합니다. |
 | 3 | la cara | — | 얼굴입니다. |
@@ -50,7 +50,7 @@
 
 실생활에서 자주 사용하는 유용한 표현들입니다.
 
-**A. 건강 상태 묻고 답하기**
+### A. 건강 상태 묻고 답하기
 
 - **¿Cómo estás?** (How are you? / 어떻게 지내니?)
 - **Estoy bien, gracias.** (I'm well, thanks. / 잘 지내요, 감사합니다.)
@@ -194,16 +194,16 @@
 
 ### 주요 용법
 
-**1. 소유 (Possession)**
+### 1. 소유 (Possession)
 
 - *Yo tengo un libro.* ("I have a book." / 나는 책을 한 권 가지고 있다.)
 
-**2. 나이 (Age)**
+### 2. 나이 (Age)
 
 - 스페인어에서는 나이를 "갖는다"라고 표현합니다. 영어의 "I am 20 years old"와 다릅니다.
 - *Tengo 20 años.* (Literally: "I have 20 years." → "I am 20 years old.")
 
-**3. 신체적/생리적 상태 (Physical States)**
+### 3. 신체적/생리적 상태 (Physical States)
 
 - *Tengo hambre.* (I have hunger → I am hungry)
 - *Tengo sed.* (I have thirst → I am thirsty)
@@ -249,7 +249,7 @@ Cada barrio tiene su propio **Centro de Salud**, donde los médicos de cabecera 
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 단어를 연결하세요)**
+### A. Match the word (알맞은 단어를 연결하세요)
 
 1. Cabeza → ( )
 2. Mano → ( )
@@ -259,7 +259,7 @@ Cada barrio tiene su propio **Centro de Salud**, donde los médicos de cabecera 
 
 a. Eye / b. Foot / c. Hand / d. Head / e. Nose
 
-**B. Fill in the blanks with the correct form of TENER (빈칸에 tener 동사의 알맞은 형태를 쓰세요)**
+### B. Fill in the blanks with the correct form of TENER (빈칸에 tener 동사의 알맞은 형태를 쓰세요)
 
 1. Yo ______________________ mucho calor hoy.
 2. ¿Tú ______________________ hambre ahora?
@@ -267,7 +267,7 @@ a. Eye / b. Foot / c. Hand / d. Head / e. Nose
 4. Ella ______________________ veinticinco años.
 5. Vosotros ______________________ sed.
 
-**C. 번역 연습 (스페인어로 번역하세요)**
+### C. 번역 연습 (스페인어로 번역하세요)
 
 1. 나는 졸려요.
     (............................................................)
@@ -284,11 +284,11 @@ a. Eye / b. Foot / c. Hand / d. Head / e. Nose
 
 ## 7. Lectura 📖
 
-**Mi rutina de salud (나의 건강 루틴)**
+### Mi rutina de salud (나의 건강 루틴)
 
 Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el parque durante treinta minutos. A veces tengo dolor de espalda, pero hago ejercicio para sentirme mejor. Bebo mucha agua porque siempre tengo sed después de correr. Mi hermana Sofía tiene una dieta muy sana; ella come muchas frutas y verduras frescas cada día. Nosotros tenemos suerte de vivir cerca de un Centro de Salud donde nuestro médico de cabecera nos atiende con mucha amabilidad.
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Qué hace Carlos todos los días? (카를로스는 매일 무엇을 하나요?)
 2. ¿Por qué Carlos bebe mucha agua? (카를로스는 왜 물을 많이 마시나요?)
@@ -301,7 +301,7 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 
 ## 8. Diálogo
 
-**En el médico (의사 진찰)**
+### En el médico (의사 진찰)
 
 **Situación:** Pedro visita al doctor en un Centro de Salud en Madrid porque no se siente bien. El doctor le hace preguntas básicas sobre sus síntomas físicos para diagnosticar su malestar.
 
@@ -390,16 +390,14 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-d, 2-c, 3-a, 4-b, 5-e
 
-**6. Práctica - B. Fill in the blanks**
+### 6. Práctica - B. Fill in the blanks
 
 1. tengo, 7. tienes, 8. tenemos, 9. tiene, 10. tenéis
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. Tengo sueño., 12. Tenemos sed., 13. ¿Tienes (un) coche?, 14. No tienen hambre., 15. Lucía tiene 19 años.
-
-```
