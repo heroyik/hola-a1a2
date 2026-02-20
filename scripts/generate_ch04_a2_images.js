@@ -1,13 +1,14 @@
-// scripts/generate_ch04_a2_images.js
 import fs from "fs";
 import path from "path";
-import OpenAI from "openai";
+import { VertexAI } from "@google-cloud/vertexai";
 import dotenv from "dotenv";
 
 dotenv.config();
 
-
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+// Initialize Vertex AI
+const project = process.env.GOOGLE_CLOUD_PROJECT;
+const location = process.env.GOOGLE_CLOUD_LOCATION || 'us-central1';
+const vertexAI = new VertexAI({ project: project, location: location });
 
 const outDir = path.resolve("images");
 if (!fs.existsSync(outDir)) fs.mkdirSync(outDir, { recursive: true });
@@ -42,14 +43,31 @@ Characters are Mediterranean/Caucasian Spanish features, olive skin, dark hair. 
 ];
 
 for (const item of prompts) {
-    const res = await client.images.generate({
-        model: "gpt-image-1",
-        prompt: item.prompt,
-        size: "1536x1024",
+    // Optional: You can adjust the model if needed, 'imagegeneration@006' or similar. 
+    // Here we use the latest Imagen 3 model id.
+    const imagenModel = vertexAI.preview.getGenerativeModel({
+        model: 'imagen-3.0-generate-001'
     });
 
-    const b64 = res.data[0].b64_json;
-    const outPath = path.join(outDir, item.filename);
-    fs.writeFileSync(outPath, Buffer.from(b64, "base64"));
-    console.log(`Saved: ${outPath}`);
+    const request = {
+        instances: [{ prompt: item.prompt }],
+        parameters: { sampleCount: 1, aspectRatio: "16:9" }
+    };
+
+    const [resp] = await imagenModel.predict(request);
+
+    // The response structure might vary slightly, but generally it contains bytesBase64Encoded
+    if (!resp.predictions || resp.predictions.length === 0) {
+        console.error("Failed to generate image.");
+        continue;
+    }
+
+    const b64 = resp.predictions[0].bytesBase64Encoded;
+    if (b64) {
+        const outPath = path.join(outDir, item.filename);
+        fs.writeFileSync(outPath, Buffer.from(b64, "base64"));
+        console.log(`Saved: ${outPath}`);
+    } else {
+        console.error("No base64 data returned.");
+    }
 }
