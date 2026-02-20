@@ -2,46 +2,47 @@
 
 ## 🎨 Overview
 
-This document outlines the visual language and image generation guidelines for the **Hola-AL** Spanish textbook project. Our goal is to create a premium, modern, and engaging learning experience.
+This document outlines the visual language and image generation guidelines for the **Hola-AL** Spanish textbook project. Our goal is to create a premium, modern, and engaging learning experience with token-efficient prompt engineering.
 
 ## ✨ Visual Language: "Modern & Premium Spanish"
 
-- **Style**: Modern Anime Style using Vertex AI Imagen 3.
-  - **Background Concept**: "Travel & Emotion" — focuses on the excitement of travel through high-quality scenery.
-  - **Aesthetic Consistency (Reference: bookcover2a*.png)**:
-    - **Lighting**: Strong, warm natural sunlight (Golden Hour) coming through windows, creating distinct shadows and an inviting atmosphere.
-    - **Line Art**: Clean, slightly textured line art consistent with modern "Seinen" anime aesthetics.
-    - **Background Details**: High-fidelity indoor settings (Spanish-style tiling, wooden furniture, potted plants) combined with "Travel & Emotion" landscapes.
-    - **Character Design**: Natural and modern outfits (khakis, sweaters, denim), friendly expressions, and consistent facial proportions.
-    - **Color Grading**: Warm, saturated tones with a focus on terracotta, wood grains, and Mediterranean light.
-  - **Reference Styles**:
-    - **Makoto Shinkai** (*Your Name*, *Weathering with You*): Beautiful light utilization and atmospheric reimagining of real locations.
-    - **Violet Evergarden**: Extremely detailed European background art with an emotional atmosphere.
-  - **Key Examples**: sunset views of Alhambra, Sagrada Familia details, Las Fallas fireworks, Sevilla Feria wide shots.
-  - **Features**: Detailed background rendering, interplay of light and shadow, painterly textures (watercolor/oil), and atmosphere designed to trigger "Wanderlust".
+### Style Token: `[HOLA_STYLE_V2]`
 
-- **Color Palette**:
-  - Spain Red (#A93226)
-  - Gold (#D4AC0D)
-  - Soft Charcoal (#2C3E50) for readability
-  - Off White (#FCF9F2) for backgrounds
-- **Layout**: Sleek Modernism with high-end table designs and generous white space.
+Instead of long descriptions, use this consolidated style definition in your prompts:
+> **"Modern Seinen anime, Makoto Shinkai lighting, Violet Evergarden background detail, warm saturated tones, terracotta and wood accents, Mediterranean Golden Hour light."**
 
-## ⚙️ Generation Guidelines (Imagen 3)
+### Core Aesthetics
 
-1. **Tool**: Only use Vertex AI Imagen 3 API.
-2. **Character Age**: College students/young adults (20s).
-3. **Accuracy**: 100% match between vocabulary words and visual labels in the illustration.
-4. **Localization**: Ensure no Japanese or Chinese characters appear in the generated art.
-5. **Storage**: Save images in `/images/` and use relative paths (e.g., `../images/image_name.png`).
+- **Lighting**: Strong, warm natural sunlight (Golden Hour) with distinct shadows.
+- **Line Art**: Clean, slightly textured "Seinen" anime aesthetic.
+- **Backgrounds**: High-fidelity indoor/outdoor Spanish settings (tiling, wooden furniture, potted plants).
+- **Color Palette**: Spain Red (#A93226), Gold (#D4AC0D), Soft Charcoal (#2C3E50), Off White (#FCF9F2).
+
+## ⚙️ Prompt Engineering Guidelines (Imagen 3)
+
+To minimize token usage and maximize quality, follow these rules:
+
+1. **Noun-First Structure**: Start with the main subject, then environment, then lighting/style.
+   - *Example*: `College student, Spanish cafe, golden hour lighting, [HOLA_STYLE_V2]`
+2. **Eliminate Fluff**: Avoid "a photo of", "highly detailed", "4k", etc. Imagen 3 handles quality via style tokens.
+3. **Character Consistency**:
+   - Define a character once and reuse their description: `[CARLOS] = 20yo male, khaki jacket, friendly, short dark hair`.
+4. **Localization**: Explicitly state `No Asian characters/text` to avoid default model biases if necessary.
+5. **Tool**: Only use Vertex AI Imagen 3 API.
 
 ## 🖼️ Section-Specific Rules
 
 ### 2. Vocabulario Esencial
 
-- Every word listed in the vocabulary table must be reflected in the illustration.
-- Word labels must be clearly mapped within the image.
+- **Rule**: Every word in the table must be a physical object in the scene.
+- **Mapping**: Use `[OBJECT] with label "[SPANISH_WORD]"` in the prompt if text overlays are supported, otherwise ensure clear visual representation.
 
 ### 5. Cultura Viva
 
-- Illustrations should deeply reflect the cultural context described in the section.
+- **Rule**: Focus on "Travel & Emotion" — wide shots of iconic Spanish locations during Golden Hour.
+- **Iconic Spots**: Alhambra, Sagrada Familia, Sevilla Feria, Las Fallas fireworks.
+
+## 📁 Storage & Paths
+
+- **Path**: `/images/` (Relative paths in markdown: `../images/filename.png`).
+- **Naming**: `ch[XX]_[section]_[desc].png` (e.g., `ch02_vocab_casa.png`).
