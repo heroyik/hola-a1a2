@@ -22,8 +22,8 @@ const imageStrategy = fs.existsSync(strategyPath) ? fs.readFileSync(strategyPath
 
 async function generateImagePrompt(content, sectionName, chapterName) {
     // VertexAI Gemini for prompt generation
-    const model = vertexAI.preview.getGenerativeModel({
-        model: 'gemini-1.5-pro-preview-0409',
+    const model = vertexAI.getGenerativeModel({
+        model: 'gemini-1.5-flash-001',
         generationConfig: {
             temperature: 0.7,
         },
