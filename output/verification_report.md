@@ -1,12 +1,14 @@
 # Verification Report: Hola-AL v2.1 (Strict Gold Standard)
 
-Date: 2026. 2. 19. 오후 10:50:41
+Date: 2026. 2. 20. 오전 10:13:05
 Strategy Version: v5.2 (Grammar v5.8)
 
 ## ch01_a1_mi_cuerpo.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch01_a1_mi_cuerpo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -25,7 +27,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch01_a1_mi_cuerpo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -50,21 +53,25 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch01_a1_mi_cuerpo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_vocab_body_v3_0.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_culture_health_v3_0.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_vocab_body_v3_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a1_culture_health_v3_1.png' exists on disk. |
 
 ---
+
 ## ch01_a2_mi_cuerpo.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch01_a2_mi_cuerpo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -83,7 +90,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch01_a2_mi_cuerpo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -103,21 +111,25 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch01_a2_mi_cuerpo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
 | TC-3.3.1-Font | ✅ | Table header uses Montserrat. |
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_vocab_health_v3_0.png' exists on disk. |
-| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_culture_pharmacy_v3_0.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_vocab_health_v3_1.png' exists on disk. |
+| REQ-4.1.4 | ✅ | Image '../images/ch01_a2_culture_pharmacy_v3_1.png' exists on disk. |
 
 ---
+
 ## ch02_a1_como_soy.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch02_a1_como_soy.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -136,7 +148,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch02_a1_como_soy.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -165,7 +178,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch02_a1_como_soy.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -173,15 +187,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch02_a1_como_soy.html
+
 - [REQ-4.1.4] Image file '../images/ch02_a1_vocab_personality_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch02_a1_culture_greeting_v2_1.png' missing on disk.
 
 ---
+
 ## ch02_a2_como_soy.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch02_a2_como_soy.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -200,7 +218,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch02_a2_como_soy.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -230,7 +249,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.3-Imperfecto | ✅ | All mandatory irregulars for Imperfecto found. |
 | TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
 
-### 3. Design & Images
+### 3. Design & Images - ch02_a2_como_soy.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -238,15 +258,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch02_a2_como_soy.html
+
 - [REQ-4.1.4] Image file '../images/ch02_a2_vocab_emotions_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch02_a2_culture_social_v2_1.png' missing on disk.
 
 ---
+
 ## ch03_a1_mi_identidad.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch03_a1_mi_identidad.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -265,7 +289,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch03_a1_mi_identidad.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -285,7 +310,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch03_a1_mi_identidad.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -293,15 +319,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch03_a1_mi_identidad.html
+
 - [REQ-4.1.4] Image file '../images/ch03_a1_vocab_identity_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch03_a1_culture_dni_v2_1.png' missing on disk.
 
 ---
+
 ## ch03_a2_mi_identidad.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch03_a2_mi_identidad.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -320,7 +350,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch03_a2_mi_identidad.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -347,7 +378,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.3-Imperfecto | ✅ | All mandatory irregulars for Imperfecto found. |
 | TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
 
-### 3. Design & Images
+### 3. Design & Images - ch03_a2_mi_identidad.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -355,15 +387,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch03_a2_mi_identidad.html
+
 - [REQ-4.1.4] Image file '../images/ch03_a2_vocab_multicultural_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch03_a2_culture_expats_v2_1.png' missing on disk.
 
 ---
+
 ## ch04_a1_familia_amigos.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch04_a1_familia_amigos.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -382,7 +418,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch04_a1_familia_amigos.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -402,7 +439,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch04_a1_familia_amigos.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -410,15 +448,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch04_a1_familia_amigos.html
+
 - [REQ-4.1.4] Image file '../images/ch04_a1_vocab_family_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch04_a1_culture_celebration_v2_1.png' missing on disk.
 
 ---
+
 ## ch04_a2_familia_amigos.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch04_a2_familia_amigos.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -437,7 +479,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch04_a2_familia_amigos.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -457,7 +500,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch04_a2_familia_amigos.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -465,15 +509,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch04_a2_familia_amigos.html
+
 - [REQ-4.1.4] Image file '../images/ch04_a2_vocab_friendship_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch04_a2_culture_lifestyle_v2_1.png' missing on disk.
 
 ---
+
 ## ch05_a1_a_comer.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch05_a1_a_comer.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -492,7 +540,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch05_a1_a_comer.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -516,7 +565,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch05_a1_a_comer.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -524,15 +574,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch05_a1_a_comer.html
+
 - [REQ-4.1.4] Image file '../images/ch05_a1_vocab_food_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch05_a1_culture_tapas_v2_1.png' missing on disk.
 
 ---
+
 ## ch05_a2_a_comer.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch05_a2_a_comer.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -551,7 +605,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch05_a2_a_comer.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -567,7 +622,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch05_a2_a_comer.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -575,15 +631,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch05_a2_a_comer.html
+
 - [REQ-4.1.4] Image file '../images/ch05_a2_vocab_cooking_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch05_a2_culture_recipe_v2_1.png' missing on disk.
 
 ---
+
 ## ch06_a1_mi_casa.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch06_a1_mi_casa.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -602,7 +662,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch06_a1_mi_casa.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -626,7 +687,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch06_a1_mi_casa.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -634,15 +696,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch06_a1_mi_casa.html
+
 - [REQ-4.1.4] Image file '../images/ch06_a1_vocab_house_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch06_a1_culture_housing_v2_1.png' missing on disk.
 
 ---
+
 ## ch06_a2_mi_casa.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch06_a2_mi_casa.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -661,7 +727,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch06_a2_mi_casa.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -677,7 +744,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch06_a2_mi_casa.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -685,15 +753,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch06_a2_mi_casa.html
+
 - [REQ-4.1.4] Image file '../images/ch06_a2_vocab_appliances_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch06_a2_culture_realestate_v2_1.png' missing on disk.
 
 ---
+
 ## ch07_a1_en_la_escuela.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch07_a1_en_la_escuela.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -712,7 +784,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch07_a1_en_la_escuela.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -741,7 +814,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch07_a1_en_la_escuela.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -749,15 +823,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch07_a1_en_la_escuela.html
+
 - [REQ-4.1.4] Image file '../images/ch07_a1_vocab_school_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch07_a1_culture_education_v2_1.png' missing on disk.
 
 ---
+
 ## ch07_a2_en_la_escuela.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch07_a2_en_la_escuela.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -776,7 +854,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch07_a2_en_la_escuela.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -802,7 +881,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
 | TC-5.3-Gerundio | ✅ | All mandatory irregulars for Gerundio found. |
 
-### 3. Design & Images
+### 3. Design & Images - ch07_a2_en_la_escuela.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -810,15 +890,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch07_a2_en_la_escuela.html
+
 - [REQ-4.1.4] Image file '../images/ch07_a2_vocab_university_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch07_a2_culture_erasmus_v2_1.png' missing on disk.
 
 ---
-## ch08_a1_el_trabajo.html
-**Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+## ch08_a1_el_trabajo.html
+
+**Gold Standard Status**: ❌ FAIL
+
+### 1. Structural Integrity - ch08_a1_el_trabajo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -837,7 +921,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch08_a1_el_trabajo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -852,13 +937,14 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.1 | ✅ | Cultura Viva contains Spanish content. |
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
-| TC-5.3-Presente | ✅ | All mandatory irregulars for Presente found. |
 | TC-5.3-Participio | ✅ | All mandatory irregulars for Participio found. |
 | TC-5.2-hablar | ✅ | hablar found for regular explanation. |
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
+| TC-5.3-Presente | ❌ | Missing Presente irregulars: tener, saber, poder |
 
-### 3. Design & Images
+### 3. Design & Images - ch08_a1_el_trabajo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -866,15 +952,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch08_a1_el_trabajo.html
+
 - [REQ-4.1.4] Image file '../images/ch08_a1_vocab_jobs_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch08_a1_culture_office_v2_1.png' missing on disk.
 
 ---
+
 ## ch08_a2_el_trabajo.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch08_a2_el_trabajo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -893,7 +983,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch08_a2_el_trabajo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -920,7 +1011,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch08_a2_el_trabajo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -928,15 +1020,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch08_a2_el_trabajo.html
+
 - [REQ-4.1.4] Image file '../images/ch08_a2_vocab_interview_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch08_a2_culture_siesta_v2_1.png' missing on disk.
 
 ---
+
 ## ch09_a1_ocio_y_arte.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch09_a1_ocio_y_arte.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -955,7 +1051,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch09_a1_ocio_y_arte.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -975,7 +1072,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch09_a1_ocio_y_arte.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -983,15 +1081,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch09_a1_ocio_y_arte.html
+
 - [REQ-4.1.4] Image file '../images/ch09_a1_vocab_leisure_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch09_a1_culture_festivals_v2_1.png' missing on disk.
 
 ---
+
 ## ch09_a2_ocio_y_arte.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch09_a2_ocio_y_arte.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1010,7 +1112,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch09_a2_ocio_y_arte.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1031,7 +1134,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 | TC-5.3-Futuro | ✅ | All mandatory irregulars for Futuro found. |
 
-### 3. Design & Images
+### 3. Design & Images - ch09_a2_ocio_y_arte.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1039,15 +1143,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch09_a2_ocio_y_arte.html
+
 - [REQ-4.1.4] Image file '../images/ch09_a2_vocab_cinema_music_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch09_a2_culture_cinema_v2_1.png' missing on disk.
 
 ---
+
 ## ch10_a1_de_compras.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch10_a1_de_compras.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1066,7 +1174,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch10_a1_de_compras.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1086,7 +1195,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch10_a1_de_compras.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1094,15 +1204,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch10_a1_de_compras.html
+
 - [REQ-4.1.4] Image file '../images/ch10_a1_vocab_shopping_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch10_a1_culture_market_v2_1.png' missing on disk.
 
 ---
+
 ## ch10_a2_de_compras.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch10_a2_de_compras.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1121,7 +1235,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch10_a2_de_compras.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1132,7 +1247,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch10_a2_de_compras.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1140,15 +1256,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch10_a2_de_compras.html
+
 - [REQ-4.1.4] Image file '../images/ch10_a2_vocab_price_color_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch10_a2_culture_online_v2_1.png' missing on disk.
 
 ---
+
 ## ch11_a1_medios_y_tecnologia.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch11_a1_medios_y_tecnologia.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1167,7 +1287,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch11_a1_medios_y_tecnologia.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1187,7 +1308,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch11_a1_medios_y_tecnologia.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1195,15 +1317,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch11_a1_medios_y_tecnologia.html
+
 - [REQ-4.1.4] Image file '../images/ch11_a1_vocab_media_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch11_a1_culture_media_v2_1.png' missing on disk.
 
 ---
+
 ## ch11_a2_medios_y_tecnologia.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch11_a2_medios_y_tecnologia.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1222,7 +1348,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch11_a2_medios_y_tecnologia.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1233,7 +1360,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch11_a2_medios_y_tecnologia.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1241,15 +1369,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch11_a2_medios_y_tecnologia.html
+
 - [REQ-4.1.4] Image file '../images/ch11_a2_vocab_it_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch11_a2_culture_podcast_v2_1.png' missing on disk.
 
 ---
+
 ## ch12_a1_viajes_y_lugares.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch12_a1_viajes_y_lugares.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1268,7 +1400,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch12_a1_viajes_y_lugares.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1288,7 +1421,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch12_a1_viajes_y_lugares.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1296,15 +1430,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch12_a1_viajes_y_lugares.html
+
 - [REQ-4.1.4] Image file '../images/ch12_a1_vocab_travel_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch12_a1_culture_transport_v2_1.png' missing on disk.
 
 ---
+
 ## ch12_a2_viajes_y_lugares.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch12_a2_viajes_y_lugares.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1323,7 +1461,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch12_a2_viajes_y_lugares.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1343,7 +1482,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch12_a2_viajes_y_lugares.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1351,15 +1491,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch12_a2_viajes_y_lugares.html
+
 - [REQ-4.1.4] Image file '../images/ch12_a2_vocab_places_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch12_a2_culture_hiking_v2_1.png' missing on disk.
 
 ---
+
 ## ch13_a1_rutina_y_salud.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch13_a1_rutina_y_salud.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1378,7 +1522,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch13_a1_rutina_y_salud.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1398,7 +1543,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch13_a1_rutina_y_salud.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1406,15 +1552,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch13_a1_rutina_y_salud.html
+
 - [REQ-4.1.4] Image file '../images/ch13_a1_vocab_routine_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch13_a1_culture_schedule_v2_1.png' missing on disk.
 
 ---
+
 ## ch13_a2_rutina_y_salud.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch13_a2_rutina_y_salud.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1433,7 +1583,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch13_a2_rutina_y_salud.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1449,7 +1600,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-2.5.2 | ✅ | Cultura Viva contains Korean translation. |
 | TC-2.6.3 | ✅ | Found 20 items in Practice. |
 
-### 3. Design & Images
+### 3. Design & Images - ch13_a2_rutina_y_salud.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1457,15 +1609,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch13_a2_rutina_y_salud.html
+
 - [REQ-4.1.4] Image file '../images/ch13_a2_vocab_health_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch13_a2_culture_lifestyle_v2_1.png' missing on disk.
 
 ---
+
 ## ch14_a1_cultura_y_celebraciones.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch14_a1_cultura_y_celebraciones.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1484,7 +1640,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch14_a1_cultura_y_celebraciones.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1504,7 +1661,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch14_a1_cultura_y_celebraciones.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1512,15 +1670,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch14_a1_cultura_y_celebraciones.html
+
 - [REQ-4.1.4] Image file '../images/ch14_a1_vocab_festivals_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch14_a1_culture_fiesta_v2_1.png' missing on disk.
 
 ---
+
 ## ch14_a2_cultura_y_celebraciones.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch14_a2_cultura_y_celebraciones.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1539,7 +1701,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch14_a2_cultura_y_celebraciones.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1560,7 +1723,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch14_a2_cultura_y_celebraciones.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1568,15 +1732,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch14_a2_cultura_y_celebraciones.html
+
 - [REQ-4.1.4] Image file '../images/ch14_a2_vocab_arts_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch14_a2_culture_faith_v2_1.png' missing on disk.
 
 ---
+
 ## ch15_a1_mi_futuro_y_el_mundo.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch15_a1_mi_futuro_y_el_mundo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1595,7 +1763,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch15_a1_mi_futuro_y_el_mundo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1616,7 +1785,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch15_a1_mi_futuro_y_el_mundo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1624,15 +1794,19 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch15_a1_mi_futuro_y_el_mundo.html
+
 - [REQ-4.1.4] Image file '../images/ch15_a1_vocab_technology_future_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch15_a1_culture_future_v2_1.png' missing on disk.
 
 ---
+
 ## ch15_a2_mi_futuro_y_el_mundo.html
+
 **Gold Standard Status**: ✅ PASS
 
-### 1. Structural Integrity
+### 1. Structural Integrity - ch15_a2_mi_futuro_y_el_mundo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-1.1.1 | ✅ | Exactly 11 headings found. |
@@ -1651,7 +1825,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | REQ-7.1.4 | ✅ | No Página meta-lines found. |
 | REQ-7.1.5 | ✅ | No (Learning Objectives) markers found. |
 
-### 2. Grammar & Content (v5.8)
+### 2. Grammar & Content (v5.8) - ch15_a2_mi_futuro_y_el_mundo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-2.1.2 | ✅ | ¿Sabías que...? cultural tip found. |
@@ -1677,7 +1852,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-5.2-comer | ✅ | comer found for regular explanation. |
 | TC-5.2-vivir | ✅ | vivir found for regular explanation. |
 
-### 3. Design & Images
+### 3. Design & Images - ch15_a2_mi_futuro_y_el_mundo.html
+
 | ID | Result | Message |
 |---|---|---|
 | TC-3.1.1 | ✅ | Container width is 900px. |
@@ -1685,7 +1861,8 @@ Strategy Version: v5.2 (Grammar v5.8)
 | TC-3.3.1-Bg | ✅ | Table header uses gradient or brand color. |
 | TC-3.3.2 | ✅ | Zebra striping detected. |
 
-### ⚠️ Warnings
+### ⚠️ Warnings - ch15_a2_mi_futuro_y_el_mundo.html
+
 - [REQ-4.1.4] Image file '../images/ch15_a2_vocab_society_v2_1.png' missing on disk.
 - [REQ-4.1.4] Image file '../images/ch15_a2_culture_engagement_v2_1.png' missing on disk.
 

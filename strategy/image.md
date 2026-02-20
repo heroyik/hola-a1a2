@@ -32,15 +32,14 @@ To minimize token usage and maximize quality, follow these rules:
 
 ## 🖼️ Section-Specific Rules
 
-### 2. Vocabulario Esencial
+1. **Vocabulario Esencial (Critical)**
+    - **100% Coverage**: Every single word in the vocabulary list MUST be represented in the image.
+    - **Numbered Infographic**: Use diagram-style illustrations with explicit numbered labels (①, ②, etc.) mapped to the vocabulary table.
+    - **Clarity over Complexity**: Prioritize clear, isolated subjects (e.g., a full-body character for body parts) to ensure labels are legible.
 
-- **Rule**: Every word in the table must be a physical object in the scene.
-- **Mapping**: Use `[OBJECT] with label "[SPANISH_WORD]"` in the prompt if text overlays are supported, otherwise ensure clear visual representation.
-
-### 5. Cultura Viva
-
-- **Rule**: Focus on "Travel & Emotion" — wide shots of iconic Spanish locations during Golden Hour.
-- **Iconic Spots**: Alhambra, Sagrada Familia, Sevilla Feria, Las Fallas fireworks.
+2. **Cultura Viva**
+    - **Content-Driven**: Image must explicitly illustrate the specific cultural topic described in the text (e.g., if the text discusses "Dos Besos", the image must show that action).
+    - **Rich Backgrounds**: Include localized Spanish elements (architecture, signs, clothing) that reinforce the cultural lesson.
 
 ## 📁 Storage & Paths
 

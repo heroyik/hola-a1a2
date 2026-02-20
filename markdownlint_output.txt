@@ -1,0 +1,409 @@
+[31;1moutput/verification_report.md:6 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch01_a1_mi_cuerpo.html"][0m
+[31;1moutput/verification_report.md:9 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:10 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:28 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:29 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:53 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:54 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:64 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch01_a2_mi_cuerpo.html"][0m
+[31;1moutput/verification_report.md:64 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch01_a2_mi_cuerpo.html"][0m
+[31;1moutput/verification_report.md:67 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:67 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:68 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:86 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:86 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:87 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:106 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:106 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:107 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:117 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch02_a1_como_soy.html"][0m
+[31;1moutput/verification_report.md:117 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch02_a1_como_soy.html"][0m
+[31;1moutput/verification_report.md:120 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:120 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:121 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:139 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:139 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:140 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:168 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:168 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:169 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:176 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:177 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:181 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch02_a2_como_soy.html"][0m
+[31;1moutput/verification_report.md:181 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch02_a2_como_soy.html"][0m
+[31;1moutput/verification_report.md:184 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:184 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:185 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:203 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:203 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:204 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:233 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:233 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:234 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:241 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:241 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:242 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:246 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch03_a1_mi_identidad.html"][0m
+[31;1moutput/verification_report.md:246 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch03_a1_mi_identidad.html"][0m
+[31;1moutput/verification_report.md:249 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:249 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:250 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:268 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:268 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:269 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:288 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:288 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:289 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:296 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:296 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:297 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:301 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch03_a2_mi_identidad.html"][0m
+[31;1moutput/verification_report.md:301 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch03_a2_mi_identidad.html"][0m
+[31;1moutput/verification_report.md:304 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:304 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:305 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:323 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:323 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:324 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:350 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:350 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:351 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:358 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:358 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:359 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:363 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch04_a1_familia_amigos.html"][0m
+[31;1moutput/verification_report.md:363 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch04_a1_familia_amigos.html"][0m
+[31;1moutput/verification_report.md:366 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:366 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:367 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:385 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:385 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:386 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:405 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:405 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:406 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:413 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:413 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:414 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:418 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch04_a2_familia_amigos.html"][0m
+[31;1moutput/verification_report.md:418 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch04_a2_familia_amigos.html"][0m
+[31;1moutput/verification_report.md:421 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:421 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:422 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:440 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:440 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:441 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:460 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:460 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:461 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:468 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:468 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:469 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:473 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch05_a1_a_comer.html"][0m
+[31;1moutput/verification_report.md:473 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch05_a1_a_comer.html"][0m
+[31;1moutput/verification_report.md:476 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:476 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:477 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:495 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:495 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:496 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:519 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:519 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:520 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:527 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:527 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:528 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:532 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch05_a2_a_comer.html"][0m
+[31;1moutput/verification_report.md:532 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch05_a2_a_comer.html"][0m
+[31;1moutput/verification_report.md:535 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:535 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:536 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:554 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:554 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:555 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:570 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:570 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:571 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:578 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:578 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:579 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:583 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch06_a1_mi_casa.html"][0m
+[31;1moutput/verification_report.md:583 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch06_a1_mi_casa.html"][0m
+[31;1moutput/verification_report.md:586 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:586 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:587 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:605 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:605 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:606 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:629 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:629 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:630 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:637 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:637 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:638 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:642 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch06_a2_mi_casa.html"][0m
+[31;1moutput/verification_report.md:642 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch06_a2_mi_casa.html"][0m
+[31;1moutput/verification_report.md:645 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:645 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:646 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:664 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:664 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:665 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:680 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:680 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:681 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:688 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:688 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:689 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:693 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch07_a1_en_la_escuela.html"][0m
+[31;1moutput/verification_report.md:693 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch07_a1_en_la_escuela.html"][0m
+[31;1moutput/verification_report.md:696 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:696 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:697 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:715 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:715 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:716 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:744 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:744 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:745 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:752 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:752 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:753 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:757 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch07_a2_en_la_escuela.html"][0m
+[31;1moutput/verification_report.md:757 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch07_a2_en_la_escuela.html"][0m
+[31;1moutput/verification_report.md:760 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:760 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:761 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:779 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:779 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:780 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:805 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:805 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:806 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:813 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:813 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:814 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:818 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch08_a1_el_trabajo.html"][0m
+[31;1moutput/verification_report.md:818 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch08_a1_el_trabajo.html"][0m
+[31;1moutput/verification_report.md:821 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:821 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:822 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:840 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:840 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:841 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:861 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:861 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:862 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:869 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:869 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:870 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:874 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch08_a2_el_trabajo.html"][0m
+[31;1moutput/verification_report.md:874 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch08_a2_el_trabajo.html"][0m
+[31;1moutput/verification_report.md:877 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:877 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:878 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:896 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:896 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:897 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:923 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:923 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:924 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:931 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:931 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:932 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:936 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch09_a1_ocio_y_arte.html"][0m
+[31;1moutput/verification_report.md:936 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch09_a1_ocio_y_arte.html"][0m
+[31;1moutput/verification_report.md:939 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:939 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:940 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:958 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:958 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:959 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:978 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:978 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:979 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:986 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:986 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:987 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:991 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch09_a2_ocio_y_arte.html"][0m
+[31;1moutput/verification_report.md:991 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch09_a2_ocio_y_arte.html"][0m
+[31;1moutput/verification_report.md:994 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:994 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:995 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1013 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1013 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1014 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1034 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1034 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1035 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1042 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1042 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1043 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1047 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch10_a1_de_compras.html"][0m
+[31;1moutput/verification_report.md:1047 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch10_a1_de_compras.html"][0m
+[31;1moutput/verification_report.md:1050 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1050 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1051 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1069 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1069 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1070 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1089 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1089 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1090 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1097 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1097 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1098 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1102 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch10_a2_de_compras.html"][0m
+[31;1moutput/verification_report.md:1102 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch10_a2_de_compras.html"][0m
+[31;1moutput/verification_report.md:1105 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1105 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1106 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1124 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1124 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1125 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1135 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1135 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1136 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1143 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1143 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1144 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1148 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch11_a1_medios_y_tecnologia.html"][0m
+[31;1moutput/verification_report.md:1148 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch11_a1_medios_y_tecnologia.html"][0m
+[31;1moutput/verification_report.md:1151 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1151 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1152 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1170 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1170 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1171 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1190 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1190 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1191 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1198 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1198 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1199 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1203 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch11_a2_medios_y_tecnologia.html"][0m
+[31;1moutput/verification_report.md:1203 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch11_a2_medios_y_tecnologia.html"][0m
+[31;1moutput/verification_report.md:1206 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1206 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1207 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1225 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1225 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1226 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1236 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1236 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1237 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1244 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1244 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1245 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1249 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch12_a1_viajes_y_lugares.html"][0m
+[31;1moutput/verification_report.md:1249 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch12_a1_viajes_y_lugares.html"][0m
+[31;1moutput/verification_report.md:1252 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1252 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1253 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1271 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1271 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1272 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1291 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1291 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1292 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1299 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1299 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1300 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1304 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch12_a2_viajes_y_lugares.html"][0m
+[31;1moutput/verification_report.md:1304 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch12_a2_viajes_y_lugares.html"][0m
+[31;1moutput/verification_report.md:1307 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1307 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1308 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1326 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1326 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1327 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1346 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1346 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1347 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1354 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1354 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1355 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1359 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch13_a1_rutina_y_salud.html"][0m
+[31;1moutput/verification_report.md:1359 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch13_a1_rutina_y_salud.html"][0m
+[31;1moutput/verification_report.md:1362 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1362 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1363 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1381 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1381 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1382 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1401 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1401 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1402 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1409 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1409 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1410 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1414 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch13_a2_rutina_y_salud.html"][0m
+[31;1moutput/verification_report.md:1414 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch13_a2_rutina_y_salud.html"][0m
+[31;1moutput/verification_report.md:1417 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1417 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1418 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1436 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1436 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1437 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1452 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1452 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1453 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1460 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1460 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1461 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1465 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch14_a1_cultura_y_celebraciones.html"][0m
+[31;1moutput/verification_report.md:1465 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch14_a1_cultura_y_celebraciones.html"][0m
+[31;1moutput/verification_report.md:1468 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1468 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1469 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1487 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1487 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1488 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1507 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1507 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1508 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1515 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1515 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1516 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1520 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch14_a2_cultura_y_celebraciones.html"][0m
+[31;1moutput/verification_report.md:1520 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch14_a2_cultura_y_celebraciones.html"][0m
+[31;1moutput/verification_report.md:1523 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1523 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1524 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1542 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1542 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1543 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1563 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1563 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1564 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1571 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1571 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1572 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1576 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch15_a1_mi_futuro_y_el_mundo.html"][0m
+[31;1moutput/verification_report.md:1576 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch15_a1_mi_futuro_y_el_mundo.html"][0m
+[31;1moutput/verification_report.md:1579 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1579 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1580 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1598 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1598 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1599 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1619 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1619 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1620 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1627 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1627 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1628 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m
+[31;1moutput/verification_report.md:1632 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Above] [Context: "## ch15_a2_mi_futuro_y_el_mundo.html"][0m
+[31;1moutput/verification_report.md:1632 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "## ch15_a2_mi_futuro_y_el_mundo.html"][0m
+[31;1moutput/verification_report.md:1635 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1635 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "1. Structural Integrity"][0m
+[31;1moutput/verification_report.md:1636 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1654 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1654 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "2. Grammar & Content (v5.8)"][0m
+[31;1moutput/verification_report.md:1655 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1680 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### 3. Design & Images"][0m
+[31;1moutput/verification_report.md:1680 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "3. Design & Images"][0m
+[31;1moutput/verification_report.md:1681 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| ID | Result | Message |"][0m
+[31;1moutput/verification_report.md:1688 error MD022/blanks-around-headings Headings should be surrounded by blank lines [Expected: 1; Actual: 0; Below] [Context: "### ⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1688 error MD024/no-duplicate-heading Multiple headings with the same content [Context: "⚠️ Warnings"][0m
+[31;1moutput/verification_report.md:1689 error MD032/blanks-around-lists Lists should be surrounded by blank lines [Context: "- [REQ-4.1.4] Image file '../i..."][0m

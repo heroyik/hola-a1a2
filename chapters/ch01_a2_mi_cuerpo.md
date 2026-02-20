@@ -21,7 +21,7 @@
 
 A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위를 확인해보세요.
 
-![신체 부위와 건강 관련 일러스트 — 병원, 약국, 증상 표현 (Modern Anime Style)](../images/ch01_a2_vocab_health_v3_0.png)
+![신체 부위와 건강 관련 일러스트 — 병원, 약국, 증상 표현 (Modern Anime Style)](../images/ch01_a2_vocab_health_v3_1.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 | :---: | :--- | :--- | :--- |
@@ -146,7 +146,7 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 
 ## 5. Cultura Viva: Las Farmacias y la Automedicación en España
 
-![스페인 약국의 초록 십자가와 상담 장면 (Modern Anime Style)](../images/ch01_a2_culture_pharmacy_v3_0.png)
+![스페인 약국의 초록 십자가와 상담 장면 (Modern Anime Style)](../images/ch01_a2_culture_pharmacy_v3_1.png)
 
 En España, las farmacias son instituciones muy respetadas. Los farmacéuticos tienen una formación académica rigurosa y a menudo actúan como el primer punto de contacto para consultas de salud menores. A diferencia de otros países, no se puede comprar medicamentos fuertes sin una receta médica oficial de un profesional de la Seguridad Social o de una clínica privada.
 

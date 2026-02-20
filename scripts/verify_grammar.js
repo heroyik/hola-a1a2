@@ -350,30 +350,40 @@ async function run() {
         console.log(`Verifying ${file}...`);
         const res = await verifyChapter(page, path.join(CHAPTERS_DIR, file));
 
-        report += `## ${res.file}\n`;
+        report += `## ${res.file}\n\n`;
         report += `**Gold Standard Status**: ${res.goldStandard ? '✅ PASS' : '❌ FAIL'}\n\n`;
 
-        report += `### 1. Structural Integrity\n| ID | Result | Message |\n|---|---|---|\n`;
+        report += `### 1. Structural Integrity - ${res.file}\n\n`;
+        report += `| ID | Result | Message |\n`;
+        report += `|---|---|---|\n`;
         const struct = [...res.passed, ...res.failed].filter(t => t.id.startsWith('TC-1') || t.id.startsWith('REQ-1') || t.id.startsWith('REQ-7'));
         struct.forEach(t => report += `| ${t.id} | ${res.passed.includes(t) ? '✅' : '❌'} | ${t.msg} |\n`);
+        report += `\n`;
 
-        report += `\n### 2. Grammar & Content (v5.8)\n| ID | Result | Message |\n|---|---|---|\n`;
+        report += `### 2. Grammar & Content (v5.8) - ${res.file}\n\n`;
+        report += `| ID | Result | Message |\n`;
+        report += `|---|---|---|\n`;
         const gram = [...res.passed, ...res.failed].filter(t => t.id.startsWith('TC-2') || t.id.startsWith('TC-5'));
         gram.forEach(t => report += `| ${t.id} | ${res.passed.includes(t) ? '✅' : '❌'} | ${t.msg} |\n`);
+        report += `\n`;
 
-        report += `\n### 3. Design & Images\n| ID | Result | Message |\n|---|---|---|\n`;
+        report += `### 3. Design & Images - ${res.file}\n\n`;
+        report += `| ID | Result | Message |\n`;
+        report += `|---|---|---|\n`;
         const design = [...res.passed, ...res.failed].filter(t => t.id.startsWith('TC-3') || t.id.startsWith('REQ-3') || t.id.startsWith('REQ-4'));
         design.forEach(t => report += `| ${t.id} | ${res.passed.includes(t) ? '✅' : '❌'} | ${t.msg} |\n`);
+        report += `\n`;
 
         if (res.warnings.length > 0) {
-            report += `\n### ⚠️ Warnings\n`;
+            report += `### ⚠️ Warnings - ${res.file}\n\n`;
             res.warnings.forEach(w => report += `- [${w.id}] ${w.msg}\n`);
+            report += `\n`;
         }
 
-        report += `\n---\n`;
+        report += `---\n\n`;
     }
 
-    fs.writeFileSync(REPORT_PATH, report);
+    fs.writeFileSync(REPORT_PATH, report.trim() + '\n');
     console.log(`Report generated: ${REPORT_PATH}`);
     await browser.close();
 }
