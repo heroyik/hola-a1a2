@@ -7,7 +7,7 @@
 **Explorando nuevos horizontes (새로운 지평을 탐험하다)**  
 A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 소통하고 문제를 해결하며 잊지 못할 추억을 만드는 과정입니다. 호텔 체크인 시 요구사항을 정확히 말하거나, 여행 중 발생한 사소한 문제(reclamaciones)를 해결하고, 지난 여행의 감동을 생생하게 묘사할 수 있을까요? 이번 장에서는 숙박 관련 핵심 어휘, 완료 과거(Pretérito Perfecto)를 활용한 경험 공유, 그리고 스페인의 상징적인 여행지인 '산티아고 순례길'에 대해 배웁니다. 여러분의 스페인 여행이 한층 더 깊어질 준비가 되셨나요?
 
-**학습 목표**
+### 학습 목표
 
 - 호텔 시설, 관광지 및 자연 경관 관련 고급 어휘 15개 이상 습득
 - 완료 과거(Haber + 과거분사)를 이용한 여행 경험 묻고 답하기
@@ -56,14 +56,14 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 
 호텔과 관광지에서 자신의 의사를 정확히 표현하는 패턴입니다.
 
-**A. 호텔에서 (En el Hotel)**
+### A. 호텔에서 (En el Hotel)
 
 - **Tengo una reserva a nombre de Kim.** (I have a reservation under the name Kim. / 김이라는 이름으로 예약했습니다.)
 - **¿Está incluido el desayuno?** (Is breakfast included? / 조식이 포함되어 있나요?)
 - **Quiero una habitación con vistas al mar.** (I want a room with sea views. / 바다 전망의 방을 원합니다.)
 - **No funciona el grifo de la ducha.** (The shower tap is not working. / 샤워기 수도꼭지가 고장 났어요.)
 
-**B. 여행 경험 말하기 (Experiencias)**
+### B. 여행 경험 말하기 (Experiencias)
 
 - **¿Has visitado alguna vez Madrid?** (Have you ever visited Madrid? / 마드리드에 가본 적이 있나요?)
 - **Sí, he estado allí dos veces.** (Yes, I have been there twice. / 네, 거기 두 번 가봤어요.)
@@ -138,7 +138,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 
 ## 6. Práctica
 
-**A. Select the appropriate hotel facility (알맞은 호텔 시설을 선택하세요)**
+### A. Select the appropriate hotel facility (알맞은 호텔 시설을 선택하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -156,7 +156,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
   </tbody>
 </table>
 
-**B. 완료 과거 변형 연습 (괄호 안의 동사를 완료 과거 형태로 바꾸세요)**
+### B. 완료 과거 변형 연습 (괄호 안의 동사를 완료 과거 형태로 바꾸세요)
 
 1. Yo (..........) a España este año. (viajar)
 2. ¿Tú (..........) el pasaporte? (perder)
@@ -164,7 +164,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 4. Ella (..........) muchas fotos bonitas. (hacer - 불규칙: hecho)
 5. ¿Vosotros (..........) alguna vez a Galicia? (ir)
 
-**C. 번역 연습 (완료 과거 및 여행 표현을 활용하세요)**
+### C. 번역 연습 (완료 과거 및 여행 표현을 활용하세요)
 
 1. 저는 이미 호텔 예약을 했습니다.
    (............................................................)
@@ -181,11 +181,11 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 
 ## 7. Lectura 📖
 
-**Una experiencia inolvidable (잊을 수 없는 경험)**
+### Una experiencia inolvidable (잊을 수 없는 경험)
 
 ¡Hola! Soy Diego. Este año he hecho algo increíble: he recorrido parte del Camino de Santiago. He empezado en León y he caminado durante diez días. ¡Ha sido duro pero maravilloso! He conocido a personas de Alemania, Brasil y Japón. Hemos hablado mucho en español y en inglés. Lo que más me ha gustado ha sido el paisaje verde de Galicia y la comida de los pueblos. Nunca he comido un pulpo (문어) tan rico. Ya he llegado a la Catedral de Santiago y me siento muy feliz. He tomado muchas fotos y voy a compartirlas en mis redes sociales. Todavía no he planeado mi próximo viaje, pero seguro que voy a volver a España pronto.
 
-**Questions:**
+### Questions
 
 1. Diego는 며칠 동안 걸었나요? (How many days did Diego walk?)
    - ............................................................
@@ -199,7 +199,7 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 
 ## 8. Diálogo
 
-**Un problema en la habitación (방 안의 문제)**
+### Un problema en la habitación (방 안의 문제)
 
 **Situación:** Lucía llama a recepción porque tiene problemas con su habitación en el hotel.
 **상황:** 루시아가 호텔 방의 문제 때문에 리셉션에 전화합니다.
@@ -262,19 +262,19 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 
 ## 11. Soluciones
 
-**6. Práctica - A. Select the appropriate hotel facility**
+### 6. Práctica - A. Select the appropriate hotel facility
 
 1. 1-c, 2-d, 3-a, 4-b, 5-e
 
-**6. Práctica - B. 완료 과거 변형 연습**
+### 6. Práctica - B. 완료 과거 변형 연습
 
 1. 1. he viajado, 2. has perdido, 3. hemos dormido, 4. ha hecho, 5. habéis ido
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Ya he hecho la reserva del hotel., 2. ¿Has visto la Catedral de Santiago alguna vez?, 3. Todavía no hemos ido a ese museo., 4. ¿Está incluido el desayuno?, 5. Lo que más me ha gustado es el paisaje de la playa.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 10일 (Diez días).
 2. 1. 갈리시아의 초록색 풍경과 마을의 음식 (El paisaje verde de Galicia y la comida de los pueblos).

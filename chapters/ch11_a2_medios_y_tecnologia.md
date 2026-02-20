@@ -7,7 +7,7 @@
 **La era digital (디지털 시대)**  
 A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환경에서의 소통 방식과 그 기술이 우리 삶에 미치는 영향에 대해 이야기합니다. 소셜 미디어의 장단점을 논하거나, 스마트폰 앱을 이용해 문제를 해결하고, 최신 기술 트렌드에 대해 자신의 의견을 표현할 수 있을까요? 이번 장에서는 전화 통화 에티켓, 빈도 부사(frecuencia)를 활용한 디지털 습관 표현, 그리고 전차상거래와 보안 관련 고급 IT 어휘를 배웁니다. 스페인어로 여러분의 디지털 라이프를 더욱 스마트하게 표현해 봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 소프트웨어, 앱, 소셜 미디어 및 하이테크 관련 고급 어휘 15개 이상 습득
 - 전화 통화 필수 관용구 및 비즈니스 에티켓
@@ -56,7 +56,7 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 
 전화 통화와 디지털 기기 사용 시 꼭 필요한 실전 패턴입니다.
 
-**A. 전화 통화 표현 (Por Teléfono)**
+### A. 전화 통화 표현 (Por Teléfono)
 
 - **¿Diga?** (Hello? / 여보세요? - 전화를 받을 때)
 - **¿De parte de quién?** (Who is calling? / 누구신가요?)
@@ -64,7 +64,7 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 - **Se ha cortado la comunicación.** (The communication was cut off. / 전화가 끊겼어요.)
 - **Te llamo luego.** (I'll call you later. / 나중에 다시 전화할게.)
 
-**B. 빈도와 습관 (Frecuencia)**
+### B. 빈도와 습관 (Frecuencia)
 
 - **Siempre reviso mis correos.** (I always check my emails. / 저는 항상 이메일을 확인합니다.)
 - **A menudo escucho 팟캐스트.** (I often listen to podcasts. / 종종 팟캐스트를 들어요.)
@@ -112,7 +112,7 @@ Además, los **YouTubers** y **Streamers** españoles (como Ibai Llanos o AuronP
 
 ## 6. Práctica
 
-**A. Choose the correct frequency adverb (알맞은 빈도 부사를 선택하세요)**
+### A. Choose the correct frequency adverb (알맞은 빈도 부사를 선택하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -130,7 +130,7 @@ Además, los **YouTubers** y **Streamers** españoles (como Ibai Llanos o AuronP
   </tbody>
 </table>
 
-**B. 전화 통화 표현 연습 (다음 상황에 맞는 표현을 연결하세요)**
+### B. 전화 통화 표현 연습 (다음 상황에 맞는 표현을 연결하세요)
 
 1. 전화를 받을 때 (Opening) | a. Un momento, por favor.
 2. 상대방이 누구인지 물을 때 | b. ¿Diga? (또는 ¿Dígame?)
@@ -138,7 +138,7 @@ Además, los **YouTubers** y **Streamers** españoles (como Ibai Llanos o AuronP
 4. 전화가 끊겼음을 알릴 때 | d. ¿De parte de quién?
 5. 나중에 다시 전화하겠다고 할 때 | e. Te llamo más tarde.
 
-**C. 번역 연습 (디지털 기술 및 빈도 표현을 활용하세요)**
+### C. 번역 연습 (디지털 기술 및 빈도 표현을 활용하세요)
 
 1. 나는 매일 앱을 업데이트해.
    (............................................................)
@@ -155,11 +155,11 @@ Además, los **YouTubers** y **Streamers** españoles (como Ibai Llanos o AuronP
 
 ## 7. Lectura 📖
 
-**Mi vida en las redes (나의 소셜 미디어 생활)**
+### Mi vida en las redes (나의 소셜 미디어 생활)
 
 Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la tecnología. Siempre uso el ordenador y la nube para guardar mis archivos. A menudo comparto mis diseños en Instagram para recibir comentarios de otros artistas. Mi red social favorita es Twitter (X) porque allí me informo de las noticias de tecnología. A veces, escucho un podcast sobre inteligencia artificial mientras trabajo. "Si no te actualizas, te quedas atrás", es mi lema. Sin embargo, intento desconectar los fines de semana. Nunca reviso el móvil después de las diez de la noche porque quiero descansar bien. La tecnología es una herramienta increíble, pero lo más importante es cómo la usamos para conectar con las personas.
 
-**Questions:**
+### Questions
 
 1. Marta는 본인의 파일을 어디에 저장하나요? (Where does Marta save her files?)
    - ............................................................
@@ -173,7 +173,7 @@ Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la
 
 ## 8. Diálogo
 
-**Un problema técnico (기술적인 문제)**
+### Un problema técnico (기술적인 문제)
 
 **Situación:** Pedro llama al servicio técnico porque no puede entrar en su cuenta de internet.
 **상황:** 파블로가 인터넷 계정에 접속할 수 없어 기술 서비스 센터에 전화합니다.
@@ -217,19 +217,19 @@ Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la
 
 ## 11. Soluciones
 
-**6. Práctica - A. Choose the correct frequency adverb**
+### 6. Práctica - A. Choose the correct frequency adverb
 
 1. 1-c, 2-d, 3-e, 4-b, 5-a
 
-**6. Práctica - B. 전화 통화 표현 연습**
+### 6. Práctica - B. 전화 통화 표현 연습
 
 1. 1-b, 2-d, 3-a, 4-c, 5-e
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Actualizo la app (또는 las apps) todos los días., 2. ¿Cambias tu contraseña a menudo?, 3. Él nunca usa las redes sociales., 4. Vamos a descargarlo (또는 Lo vamos a descargar) de internet., 5. Mi ordenador a veces no funciona.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 클라우드 (En la nube).
 2. 1. 업데이트하지 않으면 뒤처진다 (Si no te actualizas, te quedas atrás).

@@ -7,7 +7,7 @@
 **Más que comida (음식 그 이상의 가치)**
 A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 확장된 식재료의 세계와 요리하는 과정(동사), 그리고 건강한 식단에 대해 깊이 있게 다룹니다. 특히 스페인 본토를 넘어 중남미(América Latina)의 미식 문화와 대표적인 레시피를 통해 언어의 지평을 넓혀봅니다.
 
-**학습 목표**
+### 학습 목표
 
 - 요리 관련 동사(썰다, 굽다, 끓이다 등) 및 주방 도구 어휘 10개 습득
 - 'gustar'류 동사 및 부정 표현(nadie, nada, nunca 등)의 마스터
@@ -46,7 +46,7 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 
 요리법을 설명하거나 식습관에 대해 의견을 나눌 때 사용하는 표현입니다.
 
-**A. 요리법 설명하기 (Describing Recipes)**
+### A. 요리법 설명하기 (Describing Recipes)
 
 - **Primero, tienes que cortar la cebolla.** (First, you have to cut the onion. / 먼저, 양파를 썰어야 해요.)
 - **Añade un poco de sal y pimienta.** (Add a bit of salt and pepper. / 소금과 후추를 약간 넣으세요.)
@@ -54,7 +54,7 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 - **Fríe las patatas hasta que estén doradas.** (Fry the potatoes until they are golden. / 감자가 노릇해질 때까지 볶으세요.)
 - **¡Sírvelo muy caliente!** (Serve it very hot! / 아주 뜨거울 때 차려 내세요!)
 
-**B. 식습관 및 금기 사항 (Dietary Habits and Restrictions)**
+### B. 식습관 및 금기 사항 (Dietary Habits and Restrictions)
 
 - **Soy vegetariano/a.** (I am vegetarian. / 저는 채식주의자예요.)
 - **No como nada de carne.** (I don't eat any meat at all. / 저는 고기를 전혀 먹지 않아요.)
@@ -118,7 +118,6 @@ A2의 핵심 문법인 'gustar' 동사의 심화 활용과 부정어의 위치 �
 </div>
 
 > 💡 **Key Rule**: 대상이 단수이면 **gusta**, 복수이면 **gustan**. 동사 변화는 항상 좋아하는 '물건'에 맞춥니다.
-
 > ⚠️ "Molestar" = to bother/annoy (NOT the English meaning of "molest") — False Friend!
 
 ### B. 부정어의 사용 (La Negación)
@@ -152,7 +151,7 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 단어를 연결하세요)**
+### A. Match the word (알맞은 단어를 연결하세요)
 
 | Spanish | English / Korean |
 |:---|:---|
@@ -162,7 +161,7 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 | 4. Probar | d. To cut |
 | 5. Freír | e. To peel |
 
-**B. Choose the correct form of 'gustar' (알맞은 형태를 고르세요)**
+### B. Choose the correct form of 'gustar' (알맞은 형태를 고르세요)
 
 1. A mí (me gusta / me gustan) las frutas exóticas.
 2. A nosotros (nos encanta / nos encantan) el ceviche peruano.
@@ -170,7 +169,7 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 4. A mis padres (les molesta / les molestan) el ruido en el restaurante.
 5. A ella (le falta / le faltan) un poco de sal en la sopa.
 
-**C. 번역 연습 (부정어를 사용하여 스페인어로 번역하세요)**
+### C. 번역 연습 (부정어를 사용하여 스페인어로 번역하세요)
 
 1. 나는 고기를 전혀 먹지 않아요. (No... nada)
    (............................................................)
@@ -187,24 +186,26 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 
 ## 7. Lectura 📖
 
-**La Dieta Mediterránea (지중해 식단)**
+### La Dieta Mediterránea (지중해 식단)
 
 La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es solo un tipo de comida, sino un estilo de vida. Los ingredientes principales son el aceite de oliva, los cereales, las frutas, las verduras y las legumbres. También se come pescado y frutos secos. La carne roja se come con moderación, solo una o dos veces al mes. Lo más importante de esta dieta es que los productos son frescos y de temporada. Además, el ambiente relajado durante la comida ayuda a tener una buena digestión.
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Cuáles son tres ingredientes principales de la dieta mediterránea? (지중해 식단의 주요 식재료 3가지는?)
 2. ¿Con qué frecuencia se come carne roja? (붉은 고기는 얼마나 자주 먹나요?)
 
 **[한국어 번역]**
-**지중해 식단**
+
+#### 지중해 식단
+
 지중해 식단은 매우 건강한 것으로 전 세계적으로 유명합니다. 이것은 단순히 음식의 종류가 아니라 하나의 삶의 방식입니다. 주요 식재료는 올리브 오일, 곡물, 과일, 채소 그리고 콩류입니다. 또한 생선과 견과류도 먹습니다. 붉은 고기는 절제해서 먹으며, 한 달에 한두 번 정도만 섭취합니다. 이 식단에서 가장 중요한 점은 제품들이 신선하고 제철 식재료라는 것입니다.
 
 ---
 
 ## 8. Diálogo
 
-**Cocinando un plato especial (특별한 요리 만들기)**
+### Cocinando un plato especial (특별한 요리 만들기)
 
 **Situación:** Mateo está enseñando a su amiga Lucía a preparar una receta tradicional de su abuela.
 
@@ -287,11 +288,11 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-d, 2-e, 3-a, 4-b, 5-c
 
-**6. Práctica - B. Choose the correct form of 'gustar'**
+### 6. Práctica - B. Choose the correct form of 'gustar'
 
 1. 1. me gustan
 2. 1. nos encanta
@@ -299,7 +300,7 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 4. 1. les molesta
 5. 1. le falta
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. No como nada de carne.
 2. 1. No hay nadie en el restaurante.
@@ -307,7 +308,7 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 4. 1. No sabemos nada de este plato.
 5. 1. David no habla con nadie.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 올리브 오일, 곡물, 과일, 채소, 콩류 중 3가지 (Aceite de oliva, cereales, frutas, etc.)
 2. 1. 한 달에 한두 번 정도만 절제하여 섭취합니다.

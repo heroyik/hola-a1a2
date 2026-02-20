@@ -7,7 +7,7 @@
 **La familia es lo primero (가족이 최우선입니다)**
 스페인어권 문화에서 가족은 삶의 중심이자 가장 중요한 사회적 단위입니다. 이번 장에서는 가족 구성원의 이름을 배우고, 지시사와 소유사를 활용해 나의 소중한 사람들을 소개하는 방법을 익힙니다. 또한 스페인의 특별한 일요일 가족 식사 문화인 'Comida familiar'에 대해서도 알아봅니다.
 
-**학습 목표**
+### 학습 목표
 
 - 가족 및 친척 명칭 10개 이상 습득
 - 지시형용사(este, esta 등)와 소유형용사(mi, tu 등)의 정교한 활용
@@ -46,7 +46,7 @@
 
 가족과 친구를 소개하고 관계를 설명할 때 사용하는 핵심 표현입니다.
 
-**A. 가족 소개하기**
+### A. 가족 소개하기
 
 - **Este es mi padre.** (This is my father. / 이분은 나의 아버지입니다.)
   - 💡 **English Bridge**: "Este" = This (**Este** sounds like "**Este**em" — someone you hold in high regard!)
@@ -54,7 +54,7 @@
 - **Estos son mis hermanos.** (These are my siblings. / 이들은 나의 형제들입니다.)
 - **¿Quién es esa chica?** (Who is that girl? / 저 소녀는 누구니?)
 
-**B. 나이와 관계 묻기**
+### B. 나이와 관계 묻기
 
 - **¿Cuántos hermanos tienes?** (How many siblings do you have? / 형제가 몇 명이니?)
 - **Tengo dos hermanos y una hermana.** (I have two brothers and one sister. / 나는 남동생 둘과 여동생 하나가 있어.)
@@ -183,7 +183,7 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 단어를 연결하세요)**
+### A. Match the word (알맞은 단어를 연결하세요)
 
 | Spanish | English / Korean |
 |:---|:---|
@@ -193,7 +193,7 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 | 4. La hija | d. Brother |
 | 5. El hermano | e. Cousin |
 
-**B. Fill in the blanks with the correct possessive (알맞은 소유형용사를 쓰세요)**
+### B. Fill in the blanks with the correct possessive (알맞은 소유형용사를 쓰세요)
 
 1. Yo tengo un perro. (______) perro es grande.
 2. Tú tienes una casa. (______) casa es blanca.
@@ -201,7 +201,7 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 4. Ella tiene dos hermanos. (______) hermanos son simpáticos.
 5. Vosotros tenéis una tía. (______) tía vive en Madrid.
 
-**C. 번역 연습 (스페인어로 번역하세요)**
+### C. 번역 연습 (스페인어로 번역하세요)
 
 1. 이분은 나의 할머니입니다.
    (............................................................)
@@ -218,24 +218,26 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 
 ## 7. Lectura 📖
 
-**La familia de Sofía (소피아의 가족)**
+### La familia de Sofía (소피아의 가족)
 
 Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi hermano menor, Pablo. Mi padre es ingeniero y su nombre es Manuel. Mi madre es profesora y su nombre es Carmen. También tenemos un perro que se llama 'Sol'. Los domingos, mis abuelos vienen a nuestra casa para la comida. Mi abuelo Pedro tiene setenta años y mi abuela Rosa tiene sesenta y ocho. ¡Amo a mi familia!
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Quién es Pablo? (파블로는 누구인가요?)
 2. ¿Cuál es la profesión de Manuel? (마누엘의 직업은 무엇인가요?)
 
 **[한국어 번역]**
-**소피아의 가족**
+
+#### 소피아의 가족
+
 안녕하세요, 제 이름은 소피아입니다. 우리 가족은 그리 크지 않아요. 저는 부모님과 남동생 파블로와 함께 삽니다. 우리 아버지는 엔지니어이시고 성함은 마누엘입니다. 어머니는 선생님이시고 성함은 카르멘입니다. 우리는 또한 '솔'이라고 불리는 강아지도 한 마리 있어요. 일요일마다 조부모님이 식사를 하러 우리 집에 오십니다. 할아버지 페드로는 70세이시고 할머니 로사는 68세이십니다. 나는 우리 가족을 사랑해요!
 
 ---
 
 ## 8. Diálogo
 
-**En una fiesta de cumpleaños (생일 파티에서)**
+### En una fiesta de cumpleaños (생일 파티에서)
 
 **Situación:** Lucía invita a su amigo Mark a su fiesta de cumpleaños en Barcelona. Mark conoce a los miembros de la familia de Lucía por primera vez.
 
@@ -318,11 +320,11 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-c, 2-a, 3-e, 4-b, 5-d
 
-**6. Práctica - B. Fill in the blanks with the correct possessive**
+### 6. Práctica - B. Fill in the blanks
 
 1. 1. Mi
 2. 1. Tu
@@ -330,7 +332,7 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 4. 1. Sus
 5. 1. Vuestra
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Esta es mi abuela.
 2. 1. Aquella niña es mi prima.
@@ -338,7 +340,7 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 4. 1. Nuestro padre es médico.
 5. 1. Estos niños son mis hijos.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. Pablo es el hermano menor de Sofía.
 2. 1. Manuel es ingeniero.

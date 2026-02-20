@@ -7,7 +7,7 @@
 **El trabajo: Nuestra vida diaria (일: 우리의 일상)**  
 우리는 매일 다양한 직업을 가진 사람들을 만납니다. 학교에서는 선생님을, 병원에서는 의사를, 카페에서는 웨이터를 만나죠. 이번 장에서는 스페인어로 다양한 직업의 이름을 배우고, 내가 무엇을 하는 사람인지, 어디에서 일하는지 표현하는 방법을 익힙니다. 또한 규칙 동사 'trabajar(일하다)'의 변화를 통해 일상적인 업무 활동을 말해봅니다. 스페인의 독특한 업무 문화와 열정적인 직업 세계로 함께 들어가 볼까요?
 
-**학습 목표**
+### 학습 목표
 
 - 주요 직업 명칭 및 업무 장소 어휘 15개 이상 습득
 - 'trabajar(일하다)' 동사의 현재 시제 변화 및 활용
@@ -56,14 +56,14 @@
 
 직업과 관련된 대화에서 가장 많이 사용되는 핵심 패턴입니다.
 
-**A. 직업 묻고 답하기**
+### A. 직업 묻고 답하기
 
 - **¿A qué te dedicas?** (What do you do? / 무슨 일을 하시나요?)
 - **¿Cuál es tu profesión?** (What is your profession? / 직업이 무엇인가요?)
 - **Soy médico.** (I am a doctor. / 저는 의사입니다.)
 - **Trabajo como camarero.** (I work as a waiter. / 저는 웨이터로 일해요.)
 
-**B. 일하는 장소 표현하기**
+### B. 일하는 장소 표현하기
 
 - **¿Dónde trabajas?** (Where do you work? / 어디에서 일하세요?)
 - **Trabajo en una oficina.** (I work in an office. / 저는 사무실에서 일합니다.)
@@ -104,15 +104,16 @@
   </tbody>
 </table>
 
-**💡 English Bridge: Stem & Ending**
+### 💡 English Bridge: Stem & Ending
 
 - **Stem (어근)**: 동사의 의미를 담고 있는 앞부분
 - **Ending (어미)**: 주어에 따라 변하는 뒷부분
 
-**💡 Korean Tip!**
+### 💡 Korean Tip
+
 직업을 말할 때 관사를 생략하는 스페인어만의 독특한 규칙을 꼭 기억하세요!
 
-**Mandatory Irregulars (Presente):** ser, estar, ir, tener, saber, poder
+### Mandatory Irregulars (Presente)
 
 > [!IMPORTANT]
 > **Ser vs Estar**: `Soy el jefe` (Title/Identity) vs `Estoy en el despacho` (Location).
@@ -159,7 +160,7 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 
 ## 6. Práctica
 
-**A. Match the job with the place (직업과 어울리는 장소를 연결하세요)**
+### A. Match the job with the place (직업과 어울리는 장소를 연결하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -177,7 +178,7 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
   </tbody>
 </table>
 
-**B. 동사 변형 연습 (괄호 안의 주어에 맞게 'trabajar'를 변형하세요)**
+### B. 동사 변형 연습 (괄호 안의 주어에 맞게 'trabajar'를 변형하세요)
 
 1. Yo (..........) en una empresa grande. (trabajar)
 2. ¿Tú (..........) los fines de semana? (trabajar)
@@ -185,7 +186,7 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 4. Mis padres (..........) en un hospital. (trabajar)
 5. Ella (..........) como dependienta. (trabajar)
 
-**C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)**
+### C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)
 
 1. 저는 변호사입니다. (관사 생략 주의)
    (............................................................)
@@ -202,11 +203,11 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 
 ## 7. Lectura 📖
 
-**Mi trabajo ideal (나의 이상적인 직업)**
+### Mi trabajo ideal (나의 이상적인 직업)
 
 ¡Hola! Me llamo Carlos y soy de Sevilla. Trabajo como arquitecto en una oficina pequeña pero muy bonita. Mi trabajo es muy creativo y me gusta mucho. Empiezo a trabajar a las nueve de la mañana. A las dos, voy a un restaurante con mis compañeros para comer. Después, trabajamos hasta las seis de la tarde. No trabajo los sábados ni los domingos. En mi tiempo libre, me gusta pasear por la ciudad. Mi hermana es médica y trabaja en el hospital central. Ella trabaja muchas horas, pero está muy contenta.
 
-**Questions:**
+### Questions
 
 1. Carlos의 직업은 무엇인가요? (What is Carlos's job?)
    - ............................................................
@@ -220,7 +221,7 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 
 ## 8. Diálogo
 
-**En la cafetería (카페테리아에서)**
+### En la cafetería (카페테리아에서)
 
 **Situación:** Elena conoce a un nuevo amigo, Pablo, y hablan sobre sus trabajos.
 **상황:** 엘레나가 새로운 친구 파블로를 만나 서로의 직업에 대해 이야기합니다.
@@ -264,19 +265,19 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the job with the place**
+### 6. Práctica - A. Match the job with the place
 
 1. 1-b, 2-d, 3-a, 4-c, 5-e
 
-**6. Práctica - B. 동사 변형 연습**
+### 6. Práctica - B. 동사 변형 연습
 
 1. 1. trabajo, 2. trabajas, 3. trabajamos, 4. trabajan, 5. trabaja
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Soy abogado. (또는 Soy abogada.), 2. ¿A qué te dedicas? (또는 ¿Cuál es tu profesión?), 3. Trabajamos en Madrid., 4. Mi amigo es ingeniero. (또는 Mi amiga es ingeniera.), 5. ¿Trabajas en un hospital?
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 건축가 (Arquitecto).
 2. 1. 중앙 병원 (Hospital central).

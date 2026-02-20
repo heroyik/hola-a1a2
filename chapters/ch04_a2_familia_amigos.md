@@ -7,7 +7,7 @@
 **Lazos que nos unen (우리를 묶어주는 유대감)**
 A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 더 나아가 친구, 동료와의 사회적 유대감과 현대 사회의 다양한 가족 형태에 대해 깊이 있게 다룹니다. 또한 소유를 더 강조하는 소유형용사 후치형과 상호 재귀동사를 배웁니다.
 
-**학습 목표**
+### 학습 목표
 
 - 사회적 관계 및 우정 관련 심화 어휘 10개 습득
 - 소유형용사 후치형(mío, tuyo 등) 및 소유대명사 마스터
@@ -47,7 +47,7 @@ A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 �
 
 사회적 관계와 감정을 더 구체적으로 표현하는 방법입니다.
 
-**A. 우정과 유대감 표현**
+### A. 우정과 유대감 표현
 
 - **Nos llevamos muy bien.** (We get along very well. / 우리는 사이가 아주 좋아요.)
 - **Él es un amigo de toda la vida.** (He is a lifelong friend. / 그는 평생지기 친구야.)
@@ -55,7 +55,7 @@ A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 �
 - **Confío plenamente en ti.** (I trust you completely. / 나는 너를 전적으로 신뢰해.)
   - 💡 **English Bridge**: "Confiar" → **Confide** ✅ (to trust in someone)
 
-**B. 소유의 강조**
+### B. 소유의 강조
 
 - **Este libro es mío.** (This book is **mine**. / 이 책은 내 것이야.)
 - **¿Es tuya esta maleta?** (Is this suitcase **yours**? / 이 가방 네 것이니?)
@@ -180,7 +180,7 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 단어를 연결하세요)**
+### A. Match the word (알맞은 단어를 연결하세요)
 
 | Spanish | English / Korean |
 |:---|:---|
@@ -190,7 +190,7 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 | 4. Felicitar | d. Partner / Couple |
 | 5. Quedarse | e. To meet up |
 
-**B. Fill in the blanks with the correct long-form possessive (알맞은 소유형용사 후치형을 쓰세요)**
+### B. Fill in the blanks with the correct long-form possessive (알맞은 소유형용사 후치형을 쓰세요)
 
 1. Este coche es (mine - masc. sing.) ______________________
 2. La culpa no es (yours - fem. sing.) ______________________
@@ -198,7 +198,7 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 4. Un primo (of ours - masc. sing.) vive en Chile. ______________________
 5. ¿Es (yours - formal sing.) este paraguas? ______________________
 
-**C. 번역 연습 (상호 재귀동사를 사용하여 번역하세요)**
+### C. 번역 연습 (상호 재귀동사를 사용하여 번역하세요)
 
 1. 우리는 서로 아주 잘 알아요.
    (............................................................)
@@ -215,24 +215,26 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 
 ## 7. Lectura 📖
 
-**Mi familia elegida (나의 선택한 가족)**
+### Mi familia elegida (나의 선택한 가족)
 
 En España decimos que "los amigos son la familia que se elige". Yo tengo un grupo de amigos desde la universidad, nos llamamos 'la pandilla'. Somos cinco personas de diferentes nacionalidades. Aunque todos tenemos trabajos estresantes, nos vemos todos los viernes para cenar. Nos ayudamos en los momentos difíciles y celebramos juntos los éxitos. Mi madre siempre dice: "Hija, esos amigos tuyos son como tus hermanos". Y tiene razón. En esta sociedad moderna, el apoyo de los amigos es vital, pero nunca olvido mis raíces y el amor de mis padres.
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Qué es 'la pandilla'? ('라 판디야'는 무엇인가요?)
 2. ¿Qué dice la madre de la autora sobre sus amigos? (필자의 어머니는 친구들에 대해 뭐라고 하시나요?)
 
 **[한국어 번역]**
-**나의 선택한 가족**
+
+#### 나의 선택한 가족
+
 스페인에서는 "친구는 본인이 선택한 가족이다"라고 말합니다. 저는 대학 때부터 '라 판디야(la pandilla)'라고 부르는 친구 무리가 있습니다. 우리는 서로 국적이 다른 5명입니다. 우리 모두 스트레스 받는 직업을 가졌지만, 매주 금요일 저녁 식사를 위해 만납니다. 우리는 힘든 순간에 서로 돕고 성공을 함께 축하합니다. 어머니는 항상 말씀하세요. "딸아, 네 그 친구들은 마치 네 형제들 같구나." 어머니 말씀이 맞습니다.
 
 ---
 
 ## 8. Diálogo
 
-**Hablando de raíces y amigos (뿌리와 친구들에 대한 대화)**
+### Hablando de raíces y amigos (뿌리와 친구들에 대한 대화)
 
 **Situación:** Javier y Carmen están tomando un café en una terraza y conversan sobre sus planes para las vacaciones y la importancia de sus círculos sociales.
 
@@ -315,11 +317,11 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-c, 2-d, 3-a, 4-b, 5-e
 
-**6. Práctica - B. Fill in the blanks with the correct long-form possessive**
+### 6. Práctica - B. Fill in the blanks
 
 1. 1. mío
 2. 1. tuya
@@ -327,7 +329,7 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 4. 1. nuestro
 5. 1. suyo
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Nos conocemos muy bien.
 2. 1. Diego y Elena se quieren.
@@ -335,7 +337,7 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 4. 1. Los buenos amigos deben ayudarse.
 5. 1. Se llaman todos los días.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 대학 때부터 알고 지낸 친한 친구 무리(5명)를 의미합니다.
 2. 1. 마치 필자의 형제들 같다고 매우 긍정적으로 평가하십니다.

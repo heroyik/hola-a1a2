@@ -7,7 +7,7 @@
 **Equilibrio y bienestar (균형과 웰빙)**  
 A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관리하고(집안일) 신체적, 정신적 건강을 돌보는 방법에 대해 더 깊이 있게 다룹니다. 집안일을 분담하거나, 몸의 어디가 어떻게 아픈지 구체적으로 설명하고, 건강한 생활 습관에 대해 조언할 수 있을까요? 이번 장에서는 가사 노동 관련 어휘, 신체 부위 및 증상 표현, 그리고 세계적으로 인정받는 '지중해 식단'의 건강 비결을 배웁니다. 더 건강하고 활기찬 스페인어 생활을 시작해 봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 가사 노동(Tareas domésticas), 신체 부위 심화 및 질병 증상 어휘 15개 이상 습득
 - 'Doler(~가 아프다)' 동사의 특수 구조와 활용법
@@ -56,14 +56,14 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 
 몸의 상태를 설명하고 도움을 요청할 때 유용한 패턴입니다.
 
-**A. 증상 설명하기 (Síntomas)**
+### A. 증상 설명하기 (Síntomas)
 
 - **Me duele mucho la espalda.** (My back hurts a lot. / 허리가 너무 아파요.)
 - **Tengo fiebre y tos.** (I have a fever and a cough. / 열이 나고 기침을 해요.)
 - **Estoy resfriado / resfriada.** (I have a cold. / 감기에 걸렸어요.)
 - **Me siento mareado / mareada.** (I feel dizzy. / 어지러워요.)
 
-**B. 제안과 조언 (Consejos)**
+### B. 제안과 조언 (Consejos)
 
 - **Tienes que descansar más.** (You have to rest more. / 더 쉬어야 해요.)
 - **Deberías ir al médico.** (You should go to the doctor. / 병원에 가보는 게 좋겠어요.)
@@ -96,7 +96,8 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
   </tbody>
 </table>
 
-**Important!**
+### Important
+
 아픈 부위가 하나면 `duele`(단수), 여러 곳이거나 복수 명사면 `duelen`(복수)를 씁니다.
 
 ---
@@ -120,7 +121,7 @@ Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frut
 
 ## 6. Práctica
 
-**A. Match the symptom with the body part (증상과 신체 부위를 연결하세요)**
+### A. Match the symptom with the body part (증상과 신체 부위를 연결하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -138,7 +139,7 @@ Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frut
   </tbody>
 </table>
 
-**B. Doler 동사 변형 연습 (알맞은 대명사와 duele/duelen을 쓰세요)**
+### B. Doler 동사 변형 연습 (알맞은 대명사와 duele/duelen을 쓰세요)
 
 1. (나에게) (..........) la pierna.
 2. (너에게) ¿(..........) los oídos?
@@ -146,7 +147,7 @@ Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frut
 4. (우리에게) (..........) las muelas (치아).
 5. (그들에게) (..........) el brazo.
 
-**C. 번역 연습 (의무 및 조언 표현을 활용하세요)**
+### C. 번역 연습 (의무 및 조언 표현을 활용하세요)
 
 1. 너는 약국에 가야 해. (Deber 활용)
    (............................................................)
@@ -163,11 +164,11 @@ Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frut
 
 ## 7. Lectura 📖
 
-**Consejos para una vida sana (건강한 삶을 위한 조언)**
+### Consejos para una vida sana (건강한 삶을 위한 조언)
 
 Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la misma: "Escucha a tu cuerpo". Yo, por ejemplo, siempre trato de dormir ocho horas para no estar cansado. Por la mañana, hago un poco de ejercicio. Pero lo más importante es la alimentación. Sigo la dieta mediterránea: uso mucho aceite de oliva y como pescado tres veces a la semana. Cuando me duele la garganta, bebo té con miel y limón. Si tengo fiebre, voy al médico enseguida. También es fundamental el bienestar mental: paso tiempo con mis amigos y trato de no estresarme con las tareas domésticas. ¡La salud empieza en la cocina y termina en el corazón!
 
-**Questions:**
+### Questions
 
 1. 주인공은 왜 아침에 운동을 하나요? (Why does the protagonist exercise in the morning?)
    - ............................................................
@@ -181,7 +182,7 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 
 ## 8. Diálogo
 
-**En la farmacia (약국에서)**
+### En la farmacia (약국에서)
 
 **Situación:** Juan va a la farmacia porque se siente mal y tiene gripe.
 **상황:** 후안이 몸이 안 좋고 독기 기운이 있어 약국에 갑니다.
@@ -225,21 +226,19 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the symptom with the body part**
+### 6. Práctica - A. Match the symptom with the body part
 
 1. 1-b, 2-a, 3-c, 4-e, 5-d
 
-**6. Práctica - B. Doler 동사 변형 연습**
+### 6. Práctica - B. Doler 동사 변형 연습
 
 1. 1. me duele, 2. te duelen, 3. le duele, 4. nos duelen, 5. les duele
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Debes (또는 Deberías) ir a la farmacia., 2. Es importante beber mucha agua., 3. Estoy resfriado/a y tengo fiebre., 4. Usted tiene que comer más verduras., 5. Me duele la cabeza desde ayer.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 피곤하지 않기 위해 (Para no estar cansado).
 2. 1. 꿀과 레몬을 넣은 차 (Té con miel y limón).
-
-```

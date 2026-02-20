@@ -7,7 +7,7 @@
 **Mi futuro profesional (나의 전문적인 미래)**  
 A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력을 관리하고 새로운 기회를 찾는 과정에 집중합니다. 어떻게 하면 나를 효과적으로 소개하고, 면접에서 당당하게 질문에 답할 수 있을까요? 이번 장에서는 이력서(CV) 작성에 필요한 어휘와 면접에서 쓰이는 실전 표현들을 배웁니다. 또한 과거의 업무 경험을 설명하기 위해 단순과거와 불완료과거를 적절히 섞어 사용하는 법을 익힙니다. 여러분의 꿈이 현실이 되는 과정을 스페인어로 그려봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 이력서, 면접, 고용 계약 등 고급 비즈니스 어휘 15개 이상 습득
 - 과거 업무 경험 설명을 위한 시제(단순과거/불완료과거) 활용법 복습
@@ -19,7 +19,8 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 > [!TIP]
 > **¿Sabías que...?** 스페인에서 구직 활동 시 'Enchufismo'(인맥을 통한 채용)라는 단어를 종종 듣게 됩니다. 이는 단순한 낙하산 인사가 아니라, 신뢰가 중요한 사회적 배경에서 추천을 통해 검증된 인재를 선호하는 문화를 반영합니다. 링크드인 프로필 관리와 더불어 개인적인 네트워킹이 매우 중요한 이유이기도 합니다.
 
-**💡 Korean Tip!**
+### 💡 Korean Tip
+
 스페인어로 전공을 말할 때는 'estudiar' 동사를 주로 사용한다는 점을 명심하세요!
 
 ---
@@ -61,13 +62,13 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 
 면접관의 질문에 답하거나 자신의 경력을 설명할 때 유용한 표현들입니다.
 
-**A. 면접관의 질문 (Preguntas del entrevistador)**
+### A. 면접관의 질문 (Preguntas del entrevistador)
 
 - **¿Por qué quiere trabajar con nosotros?** (Why do you want to work with us? / 왜 우리 회사와 일하고 싶으신가요?)
 - **Hábleme de su experiencia laboral.** (Tell me about your work experience. / 본인의 업무 경력에 대해 말씀해 주세요.)
 - **¿Cuáles son sus mayores fortalezas?** (What are your greatest strengths? / 본인의 가장 큰 강점은 무엇인가요?)
 
-**B. 자신의 경력 설명하기 (Describir la trayectoria)**
+### B. 자신의 경력 설명하기 (Describir la trayectoria)
 
 - **Trabajé tres años en una multinacional.** (I worked for three years in a multinational. / 저는 다국적 기업에서 3년 동안 일했습니다.)
 - **Tengo mucha experiencia en ventas.** (I have a lot of experience in sales. / 저는 영업 분야에 많은 경험이 있습니다.)
@@ -134,7 +135,8 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 
 면접에서 향후 계획을 말할 때 필요한 미래 시제의 불규칙 동사들입니다.
 
-**Mandatory Irregulars (Futuro):**
+### Mandatory Irregulars (Futuro)
+
 decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
@@ -163,7 +165,8 @@ decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
 
 이력서의 '경력 사항'에는 보통 **단순과거**를, 면접에서 당시의 분위기나 일상적인 업무 루틴을 설명할 때는 **불완료과거**를 주로 사용합니다.
 
-**Korean Tip!**
+### Korean Tip
+
 "나는 ~를 전공했다"라고 할 때 영어로는 "I majored in..."이라고 하지만, 스페인어에서는 `estudiar` 동사를 써서 "Estudié [전공명]" 또는 "Soy licenciado en [전공명]" 스타일로 표현합니다.
 
 ---
@@ -187,7 +190,7 @@ Un aspecto importante es el **horario intensivo** durante el verano, donde mucha
 
 ## 6. Práctica
 
-**A. CV Vocabulary Checklist (이력서 어휘 체크리스트 - 알맞은 의미를 연결하세요)**
+### A. CV Vocabulary Checklist (이력서 어휘 체크리스트 - 알맞은 의미를 연결하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -205,7 +208,7 @@ Un aspecto importante es el **horario intensivo** durante el verano, donde mucha
   </tbody>
 </table>
 
-**B. Fill in the blanks with the correct past tense (알맞은 과거 시제를 사용하세요)**
+### B. Fill in the blanks with the correct past tense (알맞은 과거 시제를 사용하세요)
 
 1. El año pasado, (..........) un curso de marketing. (hacer - Indefinido)
 2. Cuando yo (..........) joven, quería ser piloto. (ser - Imperfecto)
@@ -213,7 +216,7 @@ Un aspecto importante es el **horario intensivo** durante el verano, donde mucha
 4. Mi jefe siempre (..........) muy temprano a la oficina. (llegar - Imperfecto)
 5. Ayer (..........) una entrevista muy difícil. (tener - Indefinido)
 
-**C. 번역 연습 (면접 상황에 맞는 문장을 만드세요)**
+### C. 번역 연습 (면접 상황에 맞는 문장을 만드세요)
 
 1. 저는 다국적 기업에서 소통하는 법을 배웠습니다. (aprender - Indefinido)
    (............................................................)
@@ -230,11 +233,11 @@ Un aspecto importante es el **horario intensivo** durante el verano, donde mucha
 
 ## 7. Lectura 📖
 
-**Cómo prepararse para una entrevista (면접 준비 방법)**
+### Cómo prepararse para una entrevista (면접 준비 방법)
 
 Para tener éxito en una entrevista en España, la preparación es clave. Primero, debes investigar la empresa y entender sus valores. Es importante vestir de forma adecuada según el puesto de trabajo. Durante la entrevista, sé puntual y mantén el contacto visual. Cuando hables de tu experiencia, sé específico: explica qué hiciste y qué resultados lograste. No olvides hacer preguntas al final, como "¿Cuál es el siguiente paso en el proceso?". Recuerda que la actitud positiva y la confianza son tan importantes como tu formación académica. ¡Mucha suerte!
 
-**Questions:**
+### Questions
 
 1. 면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요? (What is the first thing to do to succeed?)
    - ............................................................
@@ -248,7 +251,7 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 
 ## 8. Diálogo
 
-**La Entrevista de Selección (채용 면접)**
+### La Entrevista de Selección (채용 면접)
 
 **Situación:** El Sr. Martínez entrevista a Sofía para un puesto de Coordinadora de Proyectos.
 **상황:** 마르티네스 씨가 프로젝트 코디네이터 직책을 위해 소피아를 면접합니다.
@@ -292,19 +295,19 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 
 ## 11. Soluciones
 
-**6. Práctica - A. CV Vocabulary Checklist**
+### 6. Práctica - A. CV Vocabulary Checklist
 
 1. 1-b, 2-a, 3-e, 4-c, 5-d
 
-**6. Práctica - B. Fill in the blanks with the correct past tense**
+### 6. Práctica - B. Fill in the blanks with the correct past tense
 
 1. 1. hice, 2. era, 3. Viví, 4. llegaba, 5. tuve
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Aprendí a comunicarme en una multinacional., 2. Cada día asistía a una reunión matutina., 3. He solicitado el puesto porque busco nuevos retos. (또는 me presento...), 4. Sé hablar inglés y español., 5. Ayer firmé el contrato después de la entrevista.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 기업 조사 및 가치 이해 (Investigar la empresa y entender sus valores).
 2. 1. 긍정적인 태도와 자신감을 유지하고 시선을 맞추기 (Mantener actitud positiva, confianza y contacto visual).

@@ -10,7 +10,9 @@
             "td",
             "p",
             "br",
-            "strong"
+            "strong",
+            "em",
+            "i"
         ]
     },
     "MD013": false,

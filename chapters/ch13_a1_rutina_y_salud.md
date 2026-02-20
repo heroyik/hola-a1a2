@@ -7,7 +7,7 @@
 **Mi día a día (나의 하루하루)**  
 우리의 일상은 작은 습관들로 채워집니다. 아침에 일어나서 세수를 하고, 밥을 먹고, 잠자리에 들기까지의 과정을 스페인어로 표현할 수 있다면 여러분의 일상은 더욱 생생해질 것입니다. 이번 장에서는 '나를 씻기다(lavarse)'와 같이 나 자신에게 일어나는 행동을 나타내는 '재귀 동사(Reflexive Verbs)'를 배웁니다. 또한 한국과는 사뭇 다른 스페인 사람들의 독특한 하루 일과표와 기초적인 건강 관련 표현들도 함께 알아볼까요?
 
-**학습 목표**
+### 학습 목표
 
 - 일상 일과, 시간 표현 및 신체 부위 기초 어휘 15개 이상 습득
 - 재귀 동사(Levantarse, Ducharse, Acostarse 등)의 현재형 변화와 활용
@@ -56,14 +56,14 @@
 
 하루의 일과와 건강 상태를 말할 때 자주 사용하는 패턴입니다.
 
-**A. 일과 말하기 (La Rutina)**
+### A. 일과 말하기 (La Rutina)
 
 - **Me levanto a las siete.** (I get up at seven. / 나는 7시에 일어나요.)
 - **Me ducho por la mañana.** (I shower in the morning. / 나는 아침에 샤워해요.)
 - **Salgo de casa a las ocho y media.** (I leave home at eight-thirty. / 8시 반에 집을 나섭니다.)
 - **Vuelvo a casa tarde.** (I return home late. / 집에 늦게 돌아와요.)
 
-**B. 건강 및 상태 표현 (Salud)**
+### B. 건강 및 상태 표현 (Salud)
 
 - **¿Cómo estás?** (How are you? / 기분이 어때요? / 건강은 어떠세요?)
 - **Me siento bien / mal.** (I feel good / bad. / 기분이 좋아요 / 안 좋아요.)
@@ -99,7 +99,7 @@
   </tbody>
 </table>
 
-**순서 표현 부사 (Connectors):**
+### 순서 표현 부사 (Connectors)
 
 - **Primero** (First) → **Después / Luego** (Then / After) → **Por último** (Finally)
 
@@ -145,7 +145,7 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 
 ## 6. Práctica
 
-**A. Put the routine in order (일과를 시간 순서대로 나열하세요)**
+### A. Put the routine in order (일과를 시간 순서대로 나열하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -163,7 +163,7 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
   </tbody>
 </table>
 
-**B. 재귀 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)**
+### B. 재귀 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)
 
 1. Yo (..........) a las ocho. (levantarse)
 2. ¿Tú (..........) todos los días? (ducharse)
@@ -171,7 +171,7 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 4. Mi hermano (..........) los dientes. (lavarse)
 5. Ellos (..........) tarde los domingos. (levantarse)
 
-**C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)**
+### C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)
 
 1. 나는 아침 7시에 일어납니다.
    (............................................................)
@@ -188,11 +188,11 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 
 ## 7. Lectura 📖
 
-**Un día normal para Elena (엘레나의 평범한 하루)**
+### Un día normal para Elena (엘레나의 평범한 하루)
 
 ¡Hola! Soy Elena y vivo en Madrid. Mi rutina es muy española. Primero, me levanto a las ocho y me ducho rápidamente. No desayuno mucho, solo un café con leche. Después, voy a la universidad en metro. Tengo clases hasta las dos de la tarde. A esa hora, almuerzo con mis amigos en la cafetería. Estudiamos un poco por la tarde y luego voy al gimnasio. Vuelvo a casa a las ocho de la tarde. Ceno con mi familia a las diez de la noche. Por último, leo un libro y me acuesto a las doce. ¡Estoy cansada pero muy feliz!
 
-**Questions:**
+### Questions
 
 1. Elena는 아침에 무엇을 먹나요? (What does Elena have for breakfast?)
    - ............................................................
@@ -206,7 +206,7 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 
 ## 8. Diálogo
 
-**¿Qué tal tu día? (오늘 하루 어땠어?)**
+### ¿Qué tal tu día? (오늘 하루 어땠어?)
 
 **Situación:** Dos amigos, Marc y Sonia, hablan sobre sus rutinas diarias.
 **상황:** 두 친구 마르크와 소니아가 서로의 일과에 대해 이야기합니다.
@@ -250,19 +250,19 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 
 ## 11. Soluciones
 
-**6. Práctica - A. Put the routine in order**
+### 6. Práctica - A. Put the routine in order
 
 1. 1-b, 2-d, 3-e, 4-a, 5-c
 
-**6. Práctica - B. 재귀 동사 변형 연습**
+### 6. Práctica - B. 재귀 동사 변형 연습
 
 1. 1. me levanto, 2. te duchas, 3. nos acostamos, 4. se lava, 5. se levantan
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Me levanto a las siete de la mañana., 2. ¿A qué hora te duchas? (또는 ¿Cuándo te duchas?), 3. Cenamos en casa., 4. Mi amigo está siempre cansado., 5. Primero como, y después estudio.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 카페라테 한 잔 (Un café con leche).
 2. 1. 밤 10시 (A las diez de la noche).

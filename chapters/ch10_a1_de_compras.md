@@ -7,7 +7,7 @@
 **¿Vamos de compras? (쇼핑하러 갈까요?)**  
 새로운 옷을 사거나 일상에 필요한 물건을 고르는 쇼핑은 일상의 큰 즐거움 중 하나입니다. 이번 장에서는 스페인어로 다양한 의류 명칭과 쇼핑할 때 꼭 필요한 표현들을 배웁니다. 대형 쇼핑몰부터 정겨운 전통 시장까지, 스페인의 다양한 쇼핑 문화를 경험해 보세요. 특히 가격을 묻고 답하거나, 원하는 물건을 찾는 실전 대화를 통해 여행 중에도 당당하게 쇼핑할 수 있는 자신감을 길러봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 의류, 액세서리 및 쇼핑 관련 어휘 15개 이상 습득
 - '어떤 물건을 찾다(buscar)', '입어보다(probarse)' 등 쇼핑 동사 활용
@@ -56,14 +56,14 @@
 
 상점에서 물건을 사고팔 때 가장 많이 사용하는 핵심 패턴입니다.
 
-**A. 물건 찾기 및 도움 요청**
+### A. 물건 찾기 및 도움 요청
 
 - **¿Puedo ayudarte?** (Can I help you? / 도와드릴까요?)
 - **Busco una camisa blanca.** (I am looking for a white shirt. / 흰색 셔츠를 찾고 있어요.)
 - **¿Tienen la talla M?** (Do you have size M? / M 사이즈 있나요?)
 - **Quiero ver ese bolso.** (I want to see that bag. / 저 가방을 보고 싶어요.)
 
-**B. 가격 및 계산**
+### B. 가격 및 계산
 
 - **¿Cuánto cuesta?** (How much does it cost? / 얼마인가요?)
 - **¿Cuánto valen estos zapatos?** (How much are these shoes? / 이 구두 얼마예요?)
@@ -97,7 +97,8 @@
   </tbody>
 </table>
 
-**Korean Tip!**
+### Korean Tip
+
 스페인어는 명사의 성(gender)에 따라 지시사도 변한다는 점을 꼭 기억하세요! "이 셔츠(la camisa)"는 "**esta** camisa"가 됩니다.
 
 ### B. Llevar (입고 있다 / 가지고 가다)
@@ -141,7 +142,7 @@ Aunque los grandes centros comerciales son populares, a los españoles les encan
 
 ## 6. Práctica
 
-**A. Match the item with its category (물건과 카테고리를 연결하세요)**
+### A. Match the item with its category (물건과 카테고리를 연결하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -159,7 +160,7 @@ Aunque los grandes centros comerciales son populares, a los españoles les encan
   </tbody>
 </table>
 
-**B. 지시사 연습 (괄호 안의 위치에 맞는 지시사를 넣으세요)**
+### B. 지시사 연습 (괄호 안의 위치에 맞는 지시사를 넣으세요)
 
 1. (..........) camisa aquí es muy barata. (가까움 - 여성)
 2. (..........) zapatos allí son caros. (중간 - 남성 복수)
@@ -167,7 +168,7 @@ Aunque los grandes centros comerciales son populares, a los españoles les encan
 4. (..........) faldas son nuevas. (가까움 - 여성 복수)
 5. Quiero ver (..........) bolso negro. (중간 - 남성)
 
-**C. 번역 연습 (쇼핑 표현을 활용해 문장을 완성하세요)**
+### C. 번역 연습 (쇼핑 표현을 활용해 문장을 완성하세요)
 
 1. 이 티셔츠는 얼마인가요?
    (............................................................)
@@ -184,11 +185,11 @@ Aunque los grandes centros comerciales son populares, a los españoles les encan
 
 ## 7. Lectura 📖
 
-**Un día en el Rastro (엘 라스트로에서의 하루)**
+### Un día en el Rastro (엘 라스트로에서의 하루)
 
 El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos los domingos por la mañana. Hoy voy al Rastro con mi amiga Elena. Hay mucha gente y muchas cosas bonitas. Elena busca una chaqueta de cuero (가죽 재킷) y yo busco unos zapatos cómodos. En una tienda pequeña, vemos una chaqueta perfecta. Elena pregunta: "¿Cuánto cuesta esta chaqueta?". El vendedor responde: "Cuesta cuarenta euros". Elena regatea un poco y finalmente paga treinta y cinco euros. ¡Es una ganga! Después de las compras, vamos a tomar unas tapas en la Plaza Mayor.
 
-**Questions:**
+### Questions
 
 1. El Rastro는 언제 열리나요? (When does El Rastro take place?)
    - ............................................................
@@ -202,7 +203,7 @@ El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos lo
 
 ## 8. Diálogo
 
-**En la tienda de ropa (옷가게에서)**
+### En la tienda de ropa (옷가게에서)
 
 **Situación:** Un cliente busca algo para una fiesta y el dependiente le ayuda.
 **상황:** 손님이 파티를 위한 옷을 찾고 있고 점원이 도와줍니다.
@@ -266,19 +267,19 @@ El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos lo
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the item with its category**
+### 6. Práctica - A. Match the item with its category
 
 1. 1-b, 2-d, 3-a, 4-c, 5-e
 
-**6. Práctica - B. 지시사 연습**
+### 6. Práctica - B. 지시사 연습
 
 1. 1. Esta, 2. Esos, 3. aquel, 4. Estas, 5. ese
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. ¿Quanto cuesta esta camiseta?, 2. Busco unos vaqueros (또는 unos pantalones vaqueros)., 3. ¿Puedo pagar con tarjeta?, 4. Aquel vestido azul es demasiado caro., 5. Hoy llevo una chaqueta (또는 Llevo puesta...).
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 매주 일요일 아침 (Todos los domingos por la mañana).
 2. 1. 35유로 (Treinta y cinco euros).

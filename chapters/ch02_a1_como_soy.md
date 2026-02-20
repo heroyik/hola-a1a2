@@ -7,7 +7,7 @@
 **¿Cómo eres tú?**
 이 장에서는 나와 주변 사람들의 성격, 외모, 그리고 현재의 기분과 감정을 묘사하는 방법을 배웁니다. 스페인어에서 가장 중요한 두 동사, **ser**와 **estar**의 결전이 시작됩니다!
 
-**학습 목표**
+### 학습 목표
 
 - 성격과 외모를 나타내는 핵심 형용사 10개 이상 습득
 - '본질'을 나타내는 ser 동사와 '상태'를 나타내는 estar 동사의 완벽 구분
@@ -46,14 +46,14 @@
 
 일상에서 나를 표현하거나 남을 물어볼 때 사용하는 핵심 문장들입니다.
 
-**A. 성격/외모 묻고 답하기 (Ser)**
+### A. 성격/외모 묻고 답하기 (Ser)
 
 - **¿Cómo eres?** (What are you like? / 너는 어떤 사람이니?) — 성격/외모
 - **Soy una persona alegre.** (I am a cheerful person. / 나는 밝은 사람이야.)
 - **Mi amigo es muy simpático.** (My friend is very friendly. / 내 친구는 정말 성격이 좋아.)
   - 💡 **English Bridge**: "Simpático" looks like "sympathetic" but means "friendly/nice" — a **False Friend** to watch!
 
-**B. 기분/상태 묻고 답하기 (Estar)**
+### B. 기분/상태 묻고 답하기 (Estar)
 
 - **¿Cómo estás?** (How are you? / 지금 기분 어때?) — 상태/기분
 - **Estoy un poco cansado.** (I am a bit tired. / 나는 좀 피곤해.)
@@ -235,7 +235,6 @@
 </div>
 
 > 💡 **English Bridge Tip**: Notice that `ser`, `estar`, and `ir` are completely irregular (like English "am/are/is" vs "was"). `saber` has a special *yo* form (**sé**), and `poder` has a stem change (**o→ue**).
-
 > [!IMPORTANT]
 > **Korean Tip**: 한국어로는 둘 다 "~이다/있다"로 번역되지만, **"내 친구는 친절하다(Ser)"**와 **"내 친구는 지금 화가 났다(Estar)"**의 차이를 생각하면 이해가 빠릅니다. 성격은 Ser, 기분은 Estar입니다!
 
@@ -283,7 +282,7 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 보기를 연결하세요)**
+### A. Match the word (알맞은 보기를 연결하세요)
 
 1. alegre (Cheerful)
 2. alto (Tall)
@@ -293,7 +292,7 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 (Options: a. serious / b. friendly / c. cheerful / d. thin / e. tall)
 
-**B. Completa con 'ser' o 'estar' (알맞은 동사를 빈칸에 쓰세요)**
+### B. Completa con 'ser' o 'estar' (알맞은 동사를 빈칸에 쓰세요)
 
 1. Yo ______________________ de Corea del Sur. (본질: 국적)
 2. Mi hermano ______________________ muy alto. (본질: 외모)
@@ -301,7 +300,7 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 4. ¿Cómo ______________________ tú hoy? (상태: 안부)
 5. Elena ______________________ en la biblioteca. (상태: 위치)
 
-**C. 번역 연습 (스페인어로 옮겨보세요)**
+### C. 번역 연습 (스페인어로 옮겨보세요)
 
 1. 나는 똑똑한 사람이야.
     (............................................................)
@@ -318,25 +317,27 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 ## 7. Lectura 📖
 
-**Mi familia es especial**
+### Mi familia es especial
 
 Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto y serio, pero muy inteligente. Mi madre es alegre y siempre está feliz. Mi hermano menor, Pablo, es un poco bajo y muy simpático. Yo soy una persona tranquila y hoy estoy muy contenta porque es mi cumpleaños. ¡Somos una familia muy unida!
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Cómo es el padre de Sofía? (소피아의 아버지는 어떤 분인가요? — 성격과 외모)
 2. ¿Cómo es Pablo? (파블로는 어떤 사람인가요?)
 3. ¿Por qué Sofía está contenta hoy? (소피아가 오늘 기분이 좋은 이유는 무엇인가요?)
 
 **[한국어 번역]**
-**우리 가족은 특별해요**
+
+#### 우리 가족은 특별해요
+
 안녕, 내 이름은 소피아야. 우리 가족은 네 명이야. 우리 아버지는 키가 매우 크고 진지하시지만, 정말 똑똑하셔. 우리 어머니는 밝으시고 항상 행복해하셔. 내 남동생 파블로는 키가 좀 작고 정말 성격이 좋아. 나는 차분한 사람이고, 오늘은 내 생일이라서 정말 기뻐. 우리는 정말 화목한 가족이야!
 
 ---
 
 ## 8. Diálogo
 
-**¿Cómo estás hoy? (오늘 기분 어때?)**
+### ¿Cómo estás hoy? (오늘 기분 어때?)
 
 **Situación:** Pedro se encuentra con su amiga Lucía en la universidad. Pedro nota que Lucía se ve un poco diferente hoy y le pregunta por su estado de ánimo y su salud.
 
@@ -411,14 +412,14 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-c, 2-e, 3-a, 4-b, 5-d
 
-**6. Práctica - B. Completa**
+### 6. Práctica - B. Completa
 
 1. 1. soy, 7. es, 8. estamos, 9. estás, 10. está
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Soy una persona inteligente., 12. ¿Estás triste hoy?, 13. Pedro es muy simpático., 14. (Nosotros) estamos cansados ahora., 15. Ella es muy guapa.

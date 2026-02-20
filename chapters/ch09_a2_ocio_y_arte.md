@@ -7,7 +7,7 @@
 **El arte de vivir (삶의 예술)**  
 A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 미래의 여가 계획을 구체적으로 세우는 법을 배웁니다. 어떤 영화를 좋아하는지, 가장 인상 깊었던 예술가는 누구인지 깊이 있는 대화를 나눌 준비가 되셨나요? 이번 장에서는 영화, 음악, 시각 예술 관련 고급 어휘를 익히고, 미래를 나타내는 'Futuro Simple'과 'Si(만약)'를 활용한 가정문을 배웁니다. 스페인어라는 도구를 통해 여러분의 문화적 지평을 한 단계 더 넓혀봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 영화, 음악, 연극 등 예술 장르 및 비평 관련 어휘 15개 이상 습득
 - 단순 미래 시제(Futuro Simple)의 규칙/불규칙 변화 및 활용
@@ -56,14 +56,14 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 
 예술적 취향을 표현하고 계획을 세울 때 유용한 실전 패턴입니다.
 
-**A. 영화 및 공연 비평하기**
+### A. 영화 및 공연 비평하기
 
 - **¿Qué te ha parecido la película?** (What did you think of the movie? / 영화 어땠어?)
 - **La actuación fue increíble.** (The acting was incredible. / 연기가 정말 대단했어.)
 - **Prefiero el cine independiente.** (I prefer independent cinema. / 나는 독립 영화를 선호해.)
 - **Me ha conmovido mucho.** (It moved me a lot. / 정말 감동적이었어.)
 
-**B. 미래 계획과 가정 (Futuro y Condición)**
+### B. 미래 계획과 가정 (Futuro y Condición)
 
 - **Iré al concierto si tengo dinero.** (I will go to the concert if I have money. / 돈이 있으면 콘서트에 갈 거야.)
 - **¿Qué harás este verano?** (What will you do this summer? / 이번 여름에 뭐 할 거니?)
@@ -151,7 +151,7 @@ En cuanto a la música, España ofrece una mezcla fascinante de tradición y mod
 
 ## 6. Práctica
 
-**A. Match the art form with the description (예술 장르와 설명을 연결하세요)**
+### A. Match the art form with the description (예술 장르와 설명을 연결하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -169,7 +169,7 @@ En cuanto a la música, España ofrece una mezcla fascinante de tradición y mod
   </tbody>
 </table>
 
-**B. 미래 시제 연습 (괄호 안의 동사를 미래형으로 변형하세요)**
+### B. 미래 시제 연습 (괄호 안의 동사를 미래형으로 변형하세요)
 
 1. Mañana, nosotros (..........) al Prado. (ir)
 2. El director (..........) una película nueva el próximo año. (hacer)
@@ -177,7 +177,7 @@ En cuanto a la música, España ofrece una mezcla fascinante de tradición y mod
 4. Mis amigos (..........) a la fiesta a las diez. (venir)
 5. ¿Qué (..........) tú en tus vacaciones? (hacer)
 
-**C. 번역 연습 (미래 시제와 Si 가정문을 활용하세요)**
+### C. 번역 연습 (미래 시제와 Si 가정문을 활용하세요)
 
 1. 만약 네가 원한다면, 나는 너와 함께 갈 거야. (si quieres, iré contigo)
    (............................................................)
@@ -194,11 +194,11 @@ En cuanto a la música, España ofrece una mezcla fascinante de tradición y mod
 
 ## 7. Lectura 📖
 
-**La Noche en Blanco de Madrid (마드리드의 백야 축제)**
+### La Noche en Blanco de Madrid (마드리드의 백야 축제)
 
 La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales europeas, y en Madrid es un evento espectacular. Durante una noche de otoño, los museos, bibliotecas y teatros abren sus puertas de forma gratuita. Los madrileños y turistas salen a la calle para disfrutar de conciertos al aire libre y exposiciones de arte moderno sobre las paredes de los edificios históricos. "Si vives esta experiencia, nunca la olvidarás", dicen los participantes. El próximo año, el ayuntamiento organizará más actividades para los jóvenes. Iré con mis amigos y, si tenemos energía, caminaremos por la castellana hasta el amanecer.
 
-**Questions:**
+### Questions
 
 1. 'Noche en Blanco'의 장점 중 하나는 무엇인가요? (What is one advantage of this event?)
    - ............................................................
@@ -212,7 +212,7 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 
 ## 8. Diálogo
 
-**En el estreno de cine (영화 시사회에서)**
+### En el estreno de cine (영화 시사회에서)
 
 **Situación:** Ana y David acaban de ver el estreno de una película de Almodóvar en la Gran Vía.
 **상황:** 아나와 다비드가 그란 비아에서 알모도바르 영화의 시사회를 막 보고 나왔습니다.
@@ -255,19 +255,19 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the art form with the description**
+### 6. Práctica - A. Match the art form with the description
 
 1. 1-c, 2-d, 3-b, 4-a, 5-e
 
-**6. Práctica - B. 미래 시제 연습**
+### 6. Práctica - B. 미래 시제 연습
 
 1. 1. iremos, 2. hará, 3. leeré, 4. vendrán, 5. harás
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Si quieres, iré contigo., 2. Compraremos las entradas el fin de semana., 3. Mañana hará buen tiempo., 4. Si ella viene, estaré muy feliz., 5. Ellos mirarán los cuadros en el museo (또는 disfrutarán de...).
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 무료 개방 (Entrada gratuita).
 2. 1. 친구들과 함께 밤새도록 걷기 (Caminar con amigos hasta el amanecer).

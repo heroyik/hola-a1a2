@@ -7,7 +7,7 @@
 **Aprender es una aventura (배움은 모험입니다)**  
 학교는 단순히 지식을 습득하는 곳을 넘어 친구들과 교류하고 새로운 세상을 만나는 설레는 공간입니다. 이번 장에서는 학교의 다양한 시설과 수업 시간에 사용하는 학용품들의 이름을 배웁니다. 또한 스페인어의 가장 기본이 되는 규칙 동사(-ar, -er, -ir)의 현재 변화를 익혀 "말하고, 먹고, 사는" 일상적인 활동을 표현해 봅니다. 마지막으로 스페인의 초등 교육 시스템과 따뜻한 학교 분위기에 대해서도 알아봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 학교 시설 및 학용품 명칭 15개 이상 습득
 - 규칙 동사(-ar, -er, -ir)의 현재 시제 변화 완벽 이해 및 활용
@@ -56,14 +56,14 @@
 
 학교에서 선생님이나 친구들과 대화할 때 자주 사용하는 표현입니다.
 
-**A. 수업 시간의 질문과 대답**
+### A. 수업 시간의 질문과 대답
 
 - **¿Puedo entrar?** (May I come in? / 들어가도 될까요?)
 - **¿Qué significa 이 대목?** (What does this part mean? / 이 부분은 무슨 뜻인가요?)
 - **No entiendo la pregunta.** (I don't understand the question. / 질문을 이해하지 못하겠어요.)
 - **¿Puedes repetir, por favor?** (Can you repeat, please? / 다시 한번 말씀해 주시겠어요?)
 
-**B. 공부와 능력 표현하기**
+### B. 공부와 능력 표현하기
 
 - **Estudio español los lunes.** (I study Spanish on Mondays. / 나는 월요일마다 스페인어를 공부해.)
 - **No sé la respuesta.** (I don't know the answer. / 정답을 모르겠어요.)
@@ -80,7 +80,7 @@
 
 스페인어 동사 원형은 끝부분에 따라 **-ar, -er, -ir** 그룹으로 나뉩니다. 영어와 달리 스페인어는 '누가(주어)' 행동하는지에 따라 스페인어 동사는 주어에 따라 6가지 형태로 변합니다. 여기서는 가장 기본인 **현재 시제(Presente)** 규칙 변화를 배웁니다.
 
-**💡 English Bridge: Stem & Ending**
+### 💡 English Bridge: Stem & Ending
 
 - **Stem (어근)**: 동사의 의미를 담고 있는 앞부분 (예: *habl-*, *com-*, *viv-*)
 - **Ending (어미)**: 주어에 따라 변하는 뒷부분 (예: *-o*, *-as*, *-a*)
@@ -129,14 +129,16 @@
 - **Vivir** (살다): Yo **vivo** en Seúl.
 
 ---
-**💡 Korean Tip!**
+
+### 💡 Korean Tip
+
 스페인어는 동사 변화만으로 주어를 알 수 있는 경우가 많아 주어 대명사(Yo, Tú 등)를 자주 생략합니다. 동사 꼬리(어미)를 정확히 익히는 것이 핵심입니다!
 
 ### B. 필수 불규칙 동사 (Essential Irregulars - Presente)
 
 현재 시제(Presente)에서 가장 많이 쓰이는 6대 필수 불규칙 동사입니다. 변화형이 불규칙하므로 통째로 암기하는 것이 가장 효율적입니다.
 
-**Mandatory Irregulars (Presente):** ser, estar, ir, tener, saber, poder
+### Mandatory Irregulars (Presente)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -206,7 +208,7 @@ A diferencia de otros países, en muchos colegios españoles los niños no lleva
 
 ## 6. Práctica
 
-**A. Choose the correct verb ending (알맞은 동사 어미를 고르세요)**
+### A. Choose the correct verb ending (알맞은 동사 어미를 고르세요)
 
 1. Yo habl**o** (또는 **o**) español en casa.
 2. Nosotros viv**imos** (또는 **imos**) en Madrid.
@@ -214,7 +216,7 @@ A diferencia de otros países, en muchos colegios españoles los niños no lleva
 4. Ellos estudi**an** (또는 **an**) mucho para el examen.
 5. Vosotros escrib**ís** (또는 **ís**) en el cuaderno.
 
-**B. Saber vs Poder (알맞은 동사를 활용해 문장을 완성하세요)**
+### B. Saber vs Poder (알맞은 동사를 활용해 문장을 완성하세요)
 
 1. Yo 안다 (..........) hablar español un poco. (Knowledge)
 2. ¿너는 할 수 있니 (..........) abrir la ventana, por favor? (Possibility/Request)
@@ -222,7 +224,7 @@ A diferencia de otros países, en muchos colegios españoles los niños no lleva
 4. Nosotros 못 한다 (no ..........) entrar ahora. está cerrado. (Permission/Possibility)
 5. ¿너네들은 할 줄 아니 (..........) tocar la guitarra? (Skill)
 
-**C. 번역 연습 (주어진 상황에 맞게 번역하세요)**
+### C. 번역 연습 (주어진 상황에 맞게 번역하세요)
 
 1. 나는 매일 스페인어 책을 읽어요. (leer - er동사)
    (............................................................)
@@ -239,11 +241,11 @@ A diferencia de otros países, en muchos colegios españoles los niños no lleva
 
 ## 7. Lectura 📖
 
-**Mi primer día de clase (나의 첫 수업 날)**
+### Mi primer día de clase (나의 첫 수업 날)
 
 Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pero muy contento. En mi mochila tengo tres cuadernos, un bolígrafo azul y mi ordenador portátil. Entro en el aula y veo a muchos estudiantes. El profesor se llama Javier y es muy simpático. En clase, escuchamos al profesor y escribimos notas. No entiendo todo, pero pregunto cuando tengo dudas. Después de la clase, vamos a la cafetería para comer algo y hablar con los nuevos amigos. ¡Va a ser un año fantástico!
 
-**Questions:**
+### Questions
 
 1. 주인공의 가방 안에는 무엇이 있나요? (What is in the protagonist's backpack?)
    - ............................................................
@@ -257,7 +259,7 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 
 ## 8. Diálogo
 
-**En la biblioteca (도서관에서)**
+### En la biblioteca (도서관에서)
 
 **Situación:** Lucía le pregunta a Diego sobre el examen de mañana mientras estudian en la biblioteca.
 **상황:** 루시아가 도서관에서 공부하던 중 디에고에게 내일 시험에 대해 물어봅니다.
@@ -301,15 +303,15 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 
 ## 11. Soluciones
 
-**6. Práctica - A. Choose the correct verb ending**
+### 6. Práctica - A. Choose the correct verb ending
 
 1. 1. o, 2. imos, 3. es, 4. an, 5. ís
 
-**6. Práctica - B. Saber vs Poder**
+### 6. Práctica - B. Saber vs Poder
 
 1. 1. sé, 2. puedes, 3. sabe, 4. podemos, 5. sabéis
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Leo un libro de español todos los días.
 2. 1. Hablamos mucho con el profesor.
@@ -317,7 +319,7 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 4. 1. ¿Dónde vives?
 5. 1. Ellos estudian en la biblioteca.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 공책 3권, 파란 볼펜, 노트북 컴퓨터 (Tres cuadernos, un bolígrafo azul y un ordenador portátil).
 2. 1. 카페테리아 (A la cafetería).

@@ -7,7 +7,7 @@
 **Identidades múltiples (다양한 정체성)**
 A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아가 우리의 배경과 뿌리, 그리고 현대 사회의 다문화적 정체성에 대해 다룹니다. 또한, 출신뿐만 아니라 과거의 배경을 설명하기 위한 'Ser' 동사의 과거형과 'Estar' 동사의 심화된 쓰임을 배웁니다.
 
-**학습 목표**
+### 학습 목표
 
 - 다문화 및 인종, 배경 관련 고급 어휘 10개 습득
 - 과거의 정체성을 표현하는 용법 (Ser - Imperfecto 기초)
@@ -46,19 +46,19 @@ A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아�
 
 나와 타인의 배경에 대해 더 깊이 있게 질문하고 답하는 표현들입니다.
 
-**A. 배경/뿌리 표현**
+### A. 배경/뿌리 표현
 
 - **Mis padres son de origen peruano.** (My parents are of Peruvian origin. / 부모님의 뿌리는 페루예요.)
 - **Tengo doble nacionalidad.** (I have dual nationality. / 저는 이중 국적입니다.)
   - 💡 **English Bridge**: "Doble" = Double ✅, "Nacionalidad" = Nationality ✅ — perfect cognates!
 
-**B. 감정/자부심 표현**
+### B. 감정/자부심 표현
 
 - **Me siento orgulloso de mis raíces.** (I feel proud of my roots. / 저는 제 뿌리가 자랑스러워요.)
 - **España es un país multicultural.** (Spain is a multicultural country. / 스페인은 다문화 국가입니다.)
 - **Él se ha integrado muy bien.** (He has integrated very well. / 그는 매우 잘 적응했어요.)
 
-**C. 출신 질문하기**
+### C. 출신 질문하기
 
 - **¿Cuáles son tus orígenes?** (What are your origins? / 당신의 뿌리는 무엇인가요?)
 
@@ -235,7 +235,7 @@ A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아�
 
 스페인의 다문화적 변화와 그 안에서 살아가는 외국인들에 대해 알아봅시다.
 
-**España: Un crisol de culturas (스페인: 문화의 용광로)**
+### España: Un crisol de culturas (스페인: 문화의 용광로)
 
 En los últimos veinte años, España ha cambiado mucho. El país ha pasado de ser un lugar de donde la gente salía para trabajar a ser un destino muy popular para personas de todo el mundo. Hoy en día, ciudades como Madrid, Barcelona, Valencia y Málaga son centros internacionales. Los "expats" (extranjeros que trabajan fuera de su país) eligen España por su calidad de vida, su clima y su gente abierta.
 
@@ -252,7 +252,7 @@ Esto ha creado una sociedad donde la **diversidad** es la norma. Es muy común e
 
 ## 6. Práctica
 
-**A. ¿Soy o Era? (문맥에 맞게 현재 또는 과거형을 선택하세요)**
+### A. ¿Soy o Era? (문맥에 맞게 현재 또는 과거형을 선택하세요)
 
 1. Ahora (soy / era) estudiante de medicina en Madrid.
 2. Cuando (soy / era) pequeño, (soy / era) muy bajo.
@@ -260,7 +260,7 @@ Esto ha creado una sociedad donde la **diversidad** es la norma. Es muy común e
 4. Nosotros (somos / éramos) amigos desde la infancia.
 5. ¿Tú (eres / eras) el chico que vivía al lado de mi casa?
 
-**B. Origen y Nacionalidad (빈칸을 올바르게 완성하세요)**
+### B. Origen y Nacionalidad (빈칸을 올바르게 완성하세요)
 
 1. Mis abuelos son de origen ______________________.
 2. Tengo ______________________ nacionalidad.
@@ -268,7 +268,7 @@ Esto ha creado una sociedad donde la **diversidad** es la norma. Es muy común e
 4. Me siento ______________________ de ser coreano.
 5. En este barrio hay mucha ______________________.
 
-**C. 번역 연습 (스페인어로 옮겨보세요)**
+### C. 번역 연습 (스페인어로 옮겨보세요)
 
 1. 나는 어릴 때 매우 수줍음이 많았어(tímido).
    (............................................................)
@@ -285,25 +285,27 @@ Esto ha creado una sociedad donde la **diversidad** es la norma. Es muy común e
 
 ## 7. Lectura 📖
 
-**La historia de Ricardo**
+### La historia de Ricardo
 
 Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, pero mis abuelos **eran** de Italia y España. Por eso, me siento orgulloso de mis **raíces mixtas**. Ahora vivo en Valencia y trabajo como arquitecto. Me he **integrado** perfectamente en la ciudad porque la gente es muy acogedora. Para mí, la **diversidad** es una riqueza y creo que el **respeto** es la base de todo.
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿De dónde eran los abuelos de Ricardo? (리카르도의 조부모님은 어디 분이셨나요?)
 2. ¿Cómo se siente Ricardo sobre sus raíces? (그는 자신의 뿌리에 대해 어떻게 느끼나요?)
 3. ¿Por qué se ha integrado bien en Valencia? (왜 발렌시아에 잘 적응했나요?)
 
 **[한국어 번역]**
-**리카르도의 이야기**
+
+#### 리카르도의 이야기
+
 제 이름은 리카르도이고 제 이야기는 조금 복잡합니다. 저는 부에노스아이레스에서 태어났지만, 제 조부모님은 이탈리아와 스페인 분이셨습니다. 그래서 저는 제 **혼합된 뿌리가(raíces mixtas)** 자랑스럽습니다. 지금 저는 발렌시아에 살며 건축가로 일하고 있습니다. 사람들이 매우 친절하기 때문에 저는 이 도시에서 완벽하게 **적응했습니다(integrado)**. 저에게 **다양성은(diversidad)** 풍요로움이며, **존중이(respeto)** 모든 것의 기초라고 믿습니다.
 
 ---
 
 ## 8. Diálogo
 
-**¿De dónde son tus abuelos? (할아버지, 할머니는 어디 분이셔?)**
+### ¿De dónde son tus abuelos? (할아버지, 할머니는 어디 분이셔?)
 
 **Situación:** Mateo y Sara están hablando sobre sus familias en un café. Sara nota que Mateo tiene apellidos que no suenan muy españoles y le pregunta por sus antepasados.
 
@@ -378,7 +380,7 @@ Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, per
 
 ## 11. Soluciones
 
-**6. Práctica - A. ¿Soy o Era?**
+### 6. Práctica - A. ¿Soy o Era?
 
 1. 1. soy
 2. 1. era, era
@@ -386,7 +388,7 @@ Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, per
 4. 1. somos
 5. 1. eras
 
-**6. Práctica - B. Origen y Nacionalidad**
+### 6. Práctica - B. Origen y Nacionalidad
 
 1. 1. andaluz / italiano / español
 2. 1. doble
@@ -394,7 +396,7 @@ Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, per
 4. 1. orgulloso
 5. 1. diversidad
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Cuando era pequeño, era muy tímido.
 2. 1. Mis padres son de origen mexicano.
@@ -402,7 +404,7 @@ Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, per
 4. 1. Nos integramos bien con amigos de otras culturas en la escuela.
 5. 1. ¿Dónde están tus raíces familiares?
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. Eran de Italia y España.
 2. 1. Se siente orgulloso de sus raíces mixtas.

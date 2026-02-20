@@ -7,7 +7,7 @@
 **Disfrutar el tiempo libre (여가를 즐기다)**  
 열심히 공부하고 일한 뒤에 찾아오는 휴식은 달콤합니다. 스페인 사람들은 여가 시간을 어떻게 보낼까요? 어떤 사람은 탁 트인 공원에서 축구를 즐기고, 어떤 사람은 세련된 갤러리에서 예술 작품을 감상합니다. 이번 장에서는 다양한 취미 생활과 스포츠 어휘를 배우고, 이동을 나타내는 핵심 동사인 'ir(가다)'와 'venir(오다)'를 익힙니다. 또한 스페인의 화려하고 열정적인 축제 문화를 통해 삶의 즐거움을 표현하는 법을 배워봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 여가 활동, 스포츠, 예술 관련 어휘 15개 이상 습득
 - 'ir(가다)'와 'venir(오다)' 동사의 불규칙 변화 및 활용
@@ -56,14 +56,14 @@
 
 취미와 여가에 대해 대화할 때 자주 사용하는 패턴입니다.
 
-**A. 취미 묻고 답하기**
+### A. 취미 묻고 답하기
 
 - **¿Qué haces en tu tiempo libre?** (What do you do in your free time? / 여가 시간에 무엇을 하나요?)
 - **Me gusta mucho leer.** (I like reading very much. / 나는 독서를 아주 좋아해.)
 - **Mi hobby es la música.** (My hobby is music. / 제 취미는 음악입니다.)
 - **No tengo tiempo hoy.** (I don't have time today. / 오늘은 시간이 없어요.)
 
-**B. 제안하고 이동하기**
+### B. 제안하고 이동하기
 
 - **¿Quieres ir al cine?** (Do you want to go to the cinema? / 영화 보러 갈래?)
 - **Vamos al parque.** (Let's go to the park. / 공원에 가자.)
@@ -97,7 +97,8 @@
   </tbody>
 </table>
 
-**Korean Tip!**
+### Korean Tip
+
 'Ir'는 말하는 사람에게서 멀어지는 방향으로 가다, 'Venir'는 말하는 사람 쪽으로 오는 방향일 때 씁니다. 만약 친구가 "우리 집에 올래?"라고 물을 때 "응, 갈게!"라고 답하려면 (내가 친구 쪽으로 가는 것이므로) "Sí, **voy**"라고 답하는 것이 자연스럽습니다.
 
 ### B. Ir a + 동사원형 (가까운 미래)
@@ -143,7 +144,7 @@ El arte también está en el ADN de España. El Triángulo del Arte en Madrid, c
 
 ## 6. Práctica
 
-**A. Choose the correct word (알맞은 단어를 선택하세요)**
+### A. Choose the correct word (알맞은 단어를 선택하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -162,7 +163,7 @@ El arte también está en el ADN de España. El Triángulo del Arte en Madrid, c
   </tbody>
 </table>
 
-**B. 동사 변형 연습 (괄호 안의 주어에 맞게 'ir' 또는 'venir'를 변형하세요)**
+### B. 동사 변형 연습 (괄호 안의 주어에 맞게 'ir' 또는 'venir'를 변형하세요)
 
 1. Yo (..........) al museo hoy. (ir)
 2. ¿Tú (..........) a mi fiesta el sábado? (venir)
@@ -170,7 +171,7 @@ El arte también está en el ADN de España. El Triángulo del Arte en Madrid, c
 4. Ellos (..........) de la escuela ahora. (venir)
 5. Ella (..........) a leer en la biblioteca. (ir)
 
-**C. 번역 연습 (미래 표현 'ir a'를 활용해 문장을 완성하세요)**
+### C. 번역 연습 (미래 표현 'ir a'를 활용해 문장을 완성하세요)
 
 1. 나는 내일 영화를 볼 거야. (ver una película)
    (............................................................)
@@ -187,11 +188,11 @@ El arte también está en el ADN de España. El Triángulo del Arte en Madrid, c
 
 ## 7. Lectura 📖
 
-**Mis planes de fin de semana (나의 주말 계획)**
+### Mis planes de fin de semana (나의 주말 계획)
 
 Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia. Voy a ir en tren el sábado por la mañana. Por la tarde, vamos a pasear por el centro de la ciudad. El domingo, vamos a ver las Fallas. ¡Son unas fiestas increíbles! Mi hermano no viene con nosotros porque tiene un examen de música el lunes. Él va a estudiar todo el fin de semana en casa. Después de la fiesta, voy a comprar un regalo para él. ¡Va a ser muy divertido!
 
-**Questions:**
+### Questions
 
 1. 주인공은 토요일에 어떻게 발렌시아에 가나요? (How does the protagonist go to Valencia?)
    - ............................................................
@@ -205,7 +206,7 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 
 ## 8. Diálogo
 
-**¿Qué planes tienes? (무슨 계획이 있니?)**
+### ¿Qué planes tienes? (무슨 계획이 있니?)
 
 **Situación:** Mateo y Sara hablan sobre qué hacer el viernes por la tarde.
 **상황:** 마테오와 사라가 금요일 오후에 무엇을 할지 이야기합니다.
@@ -249,19 +250,19 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 
 ## 11. Soluciones
 
-**6. Práctica - A. Choose the correct word**
+### 6. Práctica - A. Choose the correct word
 
 1. 1-a, 2-c, 3-b, 4-e, 5-d
 
-**6. Práctica - B. 동사 변형 연습**
+### 6. Práctica - B. 동사 변형 연습
 
 1. 1. voy, 2. vienes, 3. vamos, 4. vienen, 5. va
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Voy a ver una película mañana., 2. Vamos a pasear por el parque., 3. ¿Qué vas a estudiar?, 4. Los amigos van a venir a mi casa., 5. Ella va a bailar.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 기차 (En tren).
 2. 1. 월요일에 음악 시험이 있어서 (Porque tiene un examen de música el lunes).

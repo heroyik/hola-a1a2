@@ -7,7 +7,7 @@
 **Hogar, dulce hogar (즐거운 나의 집)**
 집은 단순한 물리적 공간을 넘어 우리의 정체성이 반영되는 가장 편안한 안식처입니다. 이번 장에서는 집의 다양한 종류와 방의 명칭, 그리고 가구들의 이름을 배웁니다. 또한 'hay'와 'estar'를 구분하여 집 안에 무엇이 어디에 있는지를 정확하게 설명하고, 위치 부사를 활용해 공간을 묘사하는 방법을 익힙니다.
 
-**학습 목표**
+### 학습 목표
 
 - 집의 종류 및 방, 가구 명칭 10개 이상 습득
 - 'hay'와 'estar'의 용법 완벽 구분 및 활용
@@ -46,7 +46,7 @@
 
 나의 집을 소개하거나 물건의 위치를 물을 때 사용하는 핵심 표현들입니다.
 
-**A. 집 소개하기 (Describing the House)**
+### A. 집 소개하기 (Describing the House)
 
 - **Vivo en un piso pequeño en el centro.** (I live in a small flat in the center. / 저는 시내의 작은 아파트에 살아요.)
 - **Mi casa tiene tres habitaciones.** (My house has three rooms. / 우리 집은 방이 세 개 있어요.)
@@ -54,7 +54,7 @@
 - **Hay un jardín grande detrás de la casa.** (There is a big garden behind the house. / 집 뒤에 큰 정원이 있어요.)
 - **Soy** de Madrid, pero **estoy** en mi casa. (출신 vs 집안 위치)
 
-**B. 위치 묻고 답하기 (Asking and Giving Location)**
+### B. 위치 묻고 답하기 (Asking and Giving Location)
 
 - **¿Dónde está el baño?** (Where is the bathroom? / 화장실이 어디인가요?)
 - **Está al final del pasillo, a la derecha.** (It's at the end of the hall, on the right. / 복도 끝 오른쪽에 있어요.)
@@ -223,7 +223,7 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 
 ## 6. Práctica
 
-**A. Match the word (알맞은 단어를 연결하세요)**
+### A. Match the word (알맞은 단어를 연결하세요)
 
 | Spanish | English / Korean |
 |:---|:---|
@@ -233,7 +233,7 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 | 4. La ventana | d. Chair |
 | 5. La silla | e. Garden |
 
-**B. Choose between 'Hay' or 'Está/Están' (알맞은 것을 고르세요)**
+### B. Choose between 'Hay' or 'Está/Están' (알맞은 것을 고르세요)
 
 1. En el salón (hay / está) un sofá rojo.
 2. El gato (hay / está) debajo de la mesa.
@@ -241,7 +241,7 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 4. En esta calle (hay / está) muchos coches.
 5. Mi casa (hay / está) cerca del metro.
 
-**C. 번역 연습 (주어진 상황에 맞게 번역하세요)**
+### C. 번역 연습 (주어진 상황에 맞게 번역하세요)
 
 1. 의자 위에 책 한 권이 있어요. (존재)
    (............................................................)
@@ -258,24 +258,26 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 
 ## 7. Lectura 📖
 
-**La casa de mis sueños (내가 꿈꾸는 집)**
+### La casa de mis sueños (내가 꿈꾸는 집)
 
 Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidoso en el centro. Prefiero un chalet pequeño en el campo, cerca de la montaña. Mi casa ideal tiene dos dormitorios grandes y un salón con mucha luz. En el jardín hay muchos árboles y flores de colores. También quiero una cocina moderna porque me encanta cocinar para mis amigos. Detrás de la casa hay un pequeño río. Es un lugar muy tranquilo para leer y descansar.
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Por qué no quiere Laura vivir en la ciudad? (라우라는 왜 시내 아파트에 살고 싶어하지 않나요?)
 2. ¿Qué hay cerca de su casa ideal? (꿈꾸는 집 근처에는 무엇이 있나요?)
 
 **[한국어 번역]**
-**내가 꿈꾸는 집**
+
+#### 내가 꿈꾸는 집
+
 제 이름은 라우라이고 저는 꿈꾸는 집을 찾고 있습니다. 저는 시내의 시끄러운 아파트에 살고 싶지 않아요. 저는 산 근처의 시골에 있는 작은 단독주택(chalet)을 선호합니다. 저의 이상적인 집은 큰 침실 두 개와 빛이 많이 들어오는 거실이 있습니다. 정원에는 많은 나무들과 알록달록한 꽃들이 있습니다. 집 뒤에는 작은 강이 흐르고 있습니다.
 
 ---
 
 ## 8. Diálogo
 
-**Buscando un nuevo piso (새 아파트 찾기)**
+### Buscando un nuevo piso (새 아파트 찾기)
 
 **Situación:** Mateo y Elena están mirando anuncios de alquiler porque necesitan un piso nuevo para el próximo semestre.
 
@@ -349,11 +351,11 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the word**
+### 6. Práctica - A. Match the word
 
 1. 1-c, 2-e, 3-a, 4-b, 5-d
 
-**6. Práctica - B. Choose between 'Hay' or 'Está'**
+### 6. Práctica - B. Choose between 'Hay' or 'Está'
 
 1. 1. hay
 2. 1. está
@@ -361,7 +363,7 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 4. 1. hay
 5. 1. está
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Hay un libro encima de la silla.
 2. 1. Mi casa es muy tranquila y limpia.
@@ -369,7 +371,7 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 4. 1. ¿Cuántas ventanas hay en el salón?
 5. 1. La televisión está delante del sofá.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 시끄러운 아파트가 싫기 때문입니다. (Porque no quiere vivir en un piso ruidoso.)
 2. 1. 산과 작은 강이 있습니다. (La montaña y un pequeño río.)

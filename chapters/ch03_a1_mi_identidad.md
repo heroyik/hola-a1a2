@@ -7,7 +7,7 @@
 **¿Quién eres tú? (당신은 누구인가요?)**
 언어를 배우는 첫걸음은 나 자신을 정의하는 정보를 표현하는 것입니다. 이름, 국적, 나이, 그리고 우리가 누구인지 증명하는 서류들에 대해 배웁니다. 스페인어권 국가에서 가장 중요한 신분증인 'DNI'에 대해서도 알아봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 개인 정보(이름, 국적, 직업 등) 관련 필수 어휘 10개 습득
 - 숫자(1-100) 표현 익히기
@@ -47,7 +47,7 @@
 
 나의 데이터를 말하거나 타인에게 질문할 때 꼭 필요한 표현입니다.
 
-**A. 개인 정보 묻고 답하기**
+### A. 개인 정보 묻고 답하기
 
 - **¿Cómo te llamas?** (What is your name? / 이름이 뭐니?)
 - **Me llamo Jin.** (My name is Jin. / 내 이름은 진이야.)
@@ -56,7 +56,7 @@
 - **Tengo veinte años.** (I am twenty years old. / 나는 스무 살이야.)
   - 💡 **English Bridge**: Spanish uses "I **have** 20 years" instead of "I **am** 20 years old"
 
-**B. 출신과 직업**
+### B. 출신과 직업
 
 - **¿De dónde eres?** (Where are you from? / 어디 출신이니?)
 - **Soy coreano / coreana.** (I am Korean. / 나는 한국 사람이야.)
@@ -160,7 +160,7 @@
 
 스페인 사람들에게 없어서는 안 될 가장 중요한 카드, DNI를 알아봅시다.
 
-**Mucho más que un plástico**
+### Mucho más que un plástico
 
 El DNI (Documento Nacional de Identidad) es la tarjeta más importante para un español. Es un documento inteligente que contiene un chip con todos los datos personales y la firma digital. En España, es obligatorio para todos los ciudadanos mayores de 14 años. Lo necesitas para todo: abrir una cuenta en el banco, entrar a un examen en la universidad, recoger un paquete en correos o viajar por los países de la Unión Europea sin necesidad de pasaporte.
 
@@ -177,7 +177,7 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 
 ## 6. Práctica
 
-**A. Completa con la forma correcta de 'Tener' (Tener 동사를 알맞게 변화시키세요)**
+### A. Completa con la forma correcta de 'Tener' (Tener 동사를 알맞게 변화시키세요)
 
 1. Yo ______________________ veinticinco años.
 2. Juan y Ana ______________________ un pasaporte nuevo.
@@ -185,7 +185,7 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 4. Nosotros ______________________ clase de español hoy.
 5. Usted ______________________ una firma muy bonita.
 
-**B. 국적 형용사 바꾸기 (알맞은 성수 변화를 적용하세요)**
+### B. 국적 형용사 바꾸기 (알맞은 성수 변화를 적용하세요)
 
 1. Pablo es (España) ______________________
 2. Mis amigas son (Corea) ______________________
@@ -193,7 +193,7 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 4. Nosotros somos (Alemania) ______________________
 5. Ellos son (Estados Unidos) ______________________
 
-**C. 번역 연습 (스페인어로 옮겨보세요)**
+### C. 번역 연습 (스페인어로 옮겨보세요)
 
 1. 내 이름은 마리아이고, 나는 스페인 사람이야.
    (............................................................)
@@ -210,11 +210,11 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 
 ## 7. Lectura 📖
 
-**Una nueva vida en Madrid**
+### Una nueva vida en Madrid
 
 Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estudiar. Tengo veintidós años. En mi mochila siempre llevo mi pasaporte y mi carné de estudiante de la Universidad Complutense. Mi dirección en Madrid es la calle Mayor, número 10. Mi profesión es estudiante de arquitectura. ¡Me encanta mi nueva vida en España!
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Cuál es la nacionalidad y la edad de Min-su? (민수의 국적과 나이는?)
 2. ¿Qué lleva siempre en su mochila? (가방 속에 무엇을 가지고 다니나요?)
@@ -228,7 +228,7 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 
 ## 8. Diálogo
 
-**En la comisaría (경찰서에서)**
+### En la comisaría (경찰서에서)
 
 **Situación:** Elena ha perdido su cartera en el parque y va a la comisaría de policía para informar del problema. El oficial de policía le pide sus datos personales para completar el formulario.
 
@@ -307,7 +307,7 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 
 ## 11. Soluciones
 
-**6. Práctica - A. Completa con la forma correcta de 'Tener'**
+### 6. Práctica - A. Completa con la forma correcta de 'Tener'
 
 1. 1. tengo
 2. 1. tienen
@@ -315,7 +315,7 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 4. 1. tenemos
 5. 1. tiene
 
-**6. Práctica - B. 국적 형용사 바꾸기**
+### 6. Práctica - B. 국적 형용사 바꾸기
 
 1. 1. español
 2. 1. coreanas
@@ -323,7 +323,7 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 4. 1. alemanes
 5. 1. estadounidenses
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Me llamo María y soy española.
 2. 1. ¿Cuántos años tiene tu amigo?

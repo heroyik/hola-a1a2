@@ -7,7 +7,7 @@
 **Más allá de la superficie (표면 그 너머)**
 A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡한 감정 상태와 재귀동사를 활용한 일상적인 심리 변화에 대해 다룹니다. 또한, 같은 형용사라도 Ser와 Estar 중 어느 동사와 결합하느냐에 따라 의미가 어떻게 변하는지 심층적으로 탐구합니다.
 
-**학습 목표**
+### 학습 목표
 
 - 복합적인 감정 및 심리 상태를 나타내는 고급 형용사 12개 습득
 - 재귀동사(Verbos reflexivos)를 활용한 기분과 상태의 변화 표현
@@ -48,20 +48,20 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 
 감정의 변화와 심화된 묘사를 위한 표현들입니다.
 
-**A. 감정 상태 표현 (Estar + 형용사)**
+### A. 감정 상태 표현 (Estar + 형용사)
 
 - **Me siento un poco confundido.** (I feel a bit confused. / 조금 혼란스러워요.)
 - **Estoy orgulloso de ti.** (I am proud of you. / 네가 자랑스러워.)
 - **¿Estás enfadado conmigo?** (Are you mad at me? / 나한테 화났니?)
   - 💡 **English Bridge**: "Enfadado" doesn't look like any English word, but pairs with preposition "con" (with) just like English "angry **with** me"
 
-**B. 감정 변화 표현 (재귀동사)**
+### B. 감정 변화 표현 (재귀동사)
 
 - **¡No te preocupes!** (Don't worry! / 걱정하지 마세요!)
   - 💡 **English Bridge**: Compare "preocuparse" (to worry) with English "pre-occupy" — your mind is *occupied in advance*!
 - **Me pongo nervioso antes de un examen.** (I get nervous before an exam. / 나는 시험 전에 긴장하게 돼.)
 
-**C. Ser vs Estar 의미 변화 체험**
+### C. Ser vs Estar 의미 변화 체험
 
 - **Él es muy listo.** (He is very smart. / 그는 정말 똑똑해.) — Ser = 성격
 - **¿Estás listo para salir?** (Are you ready to go out? / 나갈 준비 됐니?) — Estar = 상태
@@ -166,7 +166,6 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 </div>
 
 > 💡 **Stem change**: `sentirse` follows the **e→ie** pattern (Boot Verb), `ponerse` has the special yo form with -g- insertion (like tener→te**ng**o).
-
 > [!IMPORTANT]
 > **Korean Tip**: '나는 슬퍼(Estoy triste)'는 현재의 상태지만, **'나는 슬퍼져(Me pongo triste)'**는 감정의 변화 과정을 강조합니다. 재귀동사는 이 '변화'의 느낌을 잘 살려줍니다.
 
@@ -174,7 +173,7 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 
 초급 단계에서 꼭 알아야 할 과거 시제 핵심 불규칙 동사들입니다.
 
-**1. 불완전 과거 (Imperfecto) - 딱 3개뿐인 불규칙!**
+### 1. 불완전 과거 (Imperfecto) - 딱 3개뿐인 불규칙
 
 <div class="table-container">
 <table class="conjugation-table">
@@ -227,7 +226,7 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 </table>
 </div>
 
-**2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선**
+### 2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선
 
 <div class="table-container">
 <table class="conjugation-table">
@@ -280,7 +279,7 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 
 스페인 청년들의 SNS와 자아 표현 문화를 살펴봅니다.
 
-**La imagen personal en la era de Instagram**
+### La imagen personal en la era de Instagram
 
 Hoy en día, para los jóvenes españoles (la "Generación Z"), la identidad no solo se construye en la vida real, sino también en el mundo digital. Redes sociales como Instagram y TikTok son espacios fundamentales para mostrar quiénes son y cómo se sienten. En España, existe una fuerte cultura visual; a la gente le gusta compartir fotos de sus viajes, de la comida ("comida instagrameable") y de sus momentos de ocio con amigos.
 
@@ -297,7 +296,7 @@ Sin embargo, esto también genera una presión por mostrar una "vida perfecta". 
 
 ## 6. Práctica
 
-**A. ¿Ser o Estar? (문맥에 맞는 동사를 선택하세요)**
+### A. ¿Ser o Estar? (문맥에 맞는 동사를 선택하세요)
 
 1. Carlos es (listo / preocupado). Siempre saca buenas notas.
 2. La manzana está (verde / rica). No podemos comerla todavía.
@@ -305,7 +304,7 @@ Sin embargo, esto también genera una presión por mostrar una "vida perfecta". 
 4. El café está (malo / rico) hoy. ¡Me encanta!
 5. Estoy (listo / verde) para el viaje. Tengo mi maleta.
 
-**B. Completa con el verbo reflexivo (재귀동사를 알맞게 변화시키세요)**
+### B. Completa con el verbo reflexivo (재귀동사를 알맞게 변화시키세요)
 
 1. Yo (sentirse) ______________________ muy bien hoy.
 2. Cuando llueve, Lucía (ponerse) ______________________ triste.
@@ -313,7 +312,7 @@ Sin embargo, esto también genera una presión por mostrar una "vida perfecta". 
 4. Nosotros (ponerse) ______________________ nerviosos en los exámenes.
 5. Los niños (asustarse) ______________________ con la tormenta.
 
-**C. 번역 연습 (스페인어로 옮겨보세요)**
+### C. 번역 연습 (스페인어로 옮겨보세요)
 
 1. 나는 우리 가족이 자랑스러워(orgulloso).
     (............................................................)
@@ -330,25 +329,27 @@ Sin embargo, esto también genera una presión por mostrar una "vida perfecta". 
 
 ## 7. Lectura 📖
 
-**Un día de muchas emociones**
+### Un día de muchas emociones
 
 Ayer fue un día muy intenso para Manuel. Por la mañana, se sintió muy **orgulloso** porque terminó un proyecto importante en su trabajo. Pero al mediodía, se puso **preocupado** porque no encontraba las llaves de su coche. Después de buscarlas por una hora, estaba **agotado**. Al final, su novia las encontró y Manuel se sintió **tranquilo** otra vez. ¡Qué día tan loco!
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Por qué Manuel se sintió orgulloso por la mañana? (마누엘은 왜 아침에 자랑스러움을 느꼈나요?)
 2. ¿Por qué se puso preocupado al mediodía? (점심 무렵에 왜 걱정하게 되었나요?)
 3. ¿Quién encontró las llaves al final? (결국 누가 열쇠를 찾았나요?)
 
 **[한국어 번역]**
-**많은 감정이 교차한 하루**
+
+#### 많은 감정이 교차한 하루
+
 어제는 마누엘에게 매우 강렬한 하루였습니다. 아침에 그는 직장에서 중요한 프로젝트를 끝냈기 때문에 매우 **자랑스러움을(orgulloso)** 느꼈습니다. 하지만 정오쯤, 차 열쇠를 찾을 수 없어서 **걱정이(preocupado)** 되었습니다. 한 시간 동안 열쇠를 찾은 후, 그는 **녹초가(agotado)** 되었습니다. 결국, 그의 여자친구가 열쇠를 찾았고 마누엘은 다시 **안도감을(tranquilo)** 느꼈습니다. 정말 미친 하루였어요!
 
 ---
 
 ## 8. Diálogo
 
-**¡No te pongas nervioso! (긴장하지 마!)**
+### ¡No te pongas nervioso! (긴장하지 마!)
 
 **Situación:** Javier tiene una entrevista de trabajo por primera vez. Su hermana Elena intenta tranquilizarlo porque Javier está muy estresado y preocupado por su imagen.
 
@@ -423,19 +424,19 @@ A2 수준에서 중요한 것은 '뉘앙스'의 차이를 아는 것입니다. �
 
 ## 11. Soluciones
 
-**6. Práctica - A. ¿Ser o Estar?**
+### 6. Práctica - A. ¿Ser o Estar?
 
 1. listo, 2. verde, 3. aburrida, 4. rico, 5. listo
 
-**6. Práctica - B. Completa**
+### 6. Práctica - B. Completa
 
 1. me siento, 7. se pone, 8. te sientes, 9. nos ponemos, 10. se asustan
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. Estoy orgulloso de mi familia., 12. ¡No te preocupes por el examen!, 13. Él es el estudiante más listo de la escuela., 14. ¿Por qué estás tan enfadado hoy?, 15. Estamos sorprendidos por las nuevas noticias.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. Se sintió orgulloso porque terminó un proyecto importante.
 2. Se puso preocupado porque no encontraba las llaves de su coche.

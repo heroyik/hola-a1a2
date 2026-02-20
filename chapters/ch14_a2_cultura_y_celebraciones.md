@@ -7,7 +7,7 @@
 **Raíces y pasiones (뿌리와 열정)**  
 스페인 문화의 깊이는 수천 년의 역사와 다양한 민족의 흔적이 섞여 만들어진 층위에 있습니다. 단순히 축제를 즐기는 것을 넘어, 그 이면에 담긴 역사적 복잡성과 종교적 경건함, 그리고 예술적 승화 과정을 이해할 수 있을까요? 이번 장에서는 유네스코 인류 무형문화유산인 '플라멩코'의 깊이 있는 어휘, 스페인의 중요한 종교 행사인 '세마나 산타(Semana Santa)', 그리고 지식이나 기술을 나타내는 'saber' 동사를 배움으로써 스페인의 영혼에 한 걸음 더 다가갑니다.
 
-**학습 목표**
+### 학습 목표
 
 - 예술 양식, 역사적 시대 및 종교 관련 심화 어휘 15개 이상 습득
 - 'Saber(알다)' 동사의 활용 (지식, 기술, 정보)
@@ -56,14 +56,14 @@
 
 문화적 지식과 능력을 표현하고 역사에 대해 이야기할 때 사용하는 패턴입니다.
 
-**A. 지식과 능력 (Saber vs Conocer)**
+### A. 지식과 능력 (Saber vs Conocer)
 
 - **Sé bailar flamenco un poco.** (I know how to dance flamenco a little. / 플라멩코를 조금 출 줄 알아요.)
 - **¿Sabes a qué hora empieza la procesión?** (Do you know what time the procession starts? / 행렬이 몇 시에 시작하는지 아니?)
 - **No sé mucho de historia de España.** (I don't know much about Spanish history. / 스페인 역사에 대해서는 잘 몰라요.)
 - **Quiero conocer más tradiciones.** (I want to know/experience more traditions. / 더 많은 전통을 경험하고 싶어요.)
 
-**B. 종교 및 역사적 배경 (Semana Santa)**
+### B. 종교 및 역사적 배경 (Semana Santa)
 
 - **Es una tradición muy antigua.** (It is a very ancient tradition. / 이것은 매우 오래된 전통입니다.)
 - **La Semana Santa es muy emocionante.** (Holy Week is very moving/emotional. / 성주간은 매우 감동적입니다.)
@@ -135,7 +135,7 @@ El silencio, la música de las bandas y las 'Saetas' (canciones tradicionales) c
 
 ## 6. Práctica
 
-**A. Saber or Conocer? (알맞은 동사를 선택하세요)**
+### A. Saber or Conocer? (알맞은 동사를 선택하세요)
 
 1. Yo (..........) tocar la guitarra muy bien.
 2. ¿Tú (..........) a la profesora de español?
@@ -143,7 +143,7 @@ El silencio, la música de las bandas y las 'Saetas' (canciones tradicionales) c
 4. Ella (..........) que la fiesta empieza a las ocho.
 5. Mis amigos (..........) mucho sobre historia del arte.
 
-**B. Saber 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)**
+### B. Saber 동사 변형 연습 (괄호 안의 주어에 맞게 변형하세요)
 
 1. Yo (..........) la respuesta (답). (saber)
 2. ¿Usted (..........) dónde está la catedral? (saber)
@@ -151,7 +151,7 @@ El silencio, la música de las bandas y las 'Saetas' (canciones tradicionales) c
 4. ¿Tú (..........) hablar español? (saber)
 5. Ellos (..........) muchas cosas interesantes. (saber)
 
-**C. 번역 연습 (Saber/Conocer 및 문화 표현을 활용하세요)**
+### C. 번역 연습 (Saber/Conocer 및 문화 표현을 활용하세요)
 
 1. 나는 그 노래를 출 줄 알아요. (Saber 활용)
    (............................................................)
@@ -168,11 +168,11 @@ El silencio, la música de las bandas y las 'Saetas' (canciones tradicionales) c
 
 ## 7. Lectura 📖
 
-**Una noche de flamenco en Granada (그라나다의 플라멩코 밤)**
+### Una noche de flamenco en Granada (그라나다의 플라멩코 밤)
 
 Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una experiencia increíble. Antes, yo no conocía mucho este arte, pero ahora sé que es pura pasión. Los bailarines zapateaban con mucha fuerza y el sonido de la guitarra era muy emocionante. He hablado con el guitarrista y él me ha dicho: "Para tocar el flamenco, hay que conocer el alma de España". Yo sé que todavía tengo mucho que aprender, pero me gustaría conocer más sobre la literatura y la pintura española también. El patrimonio cultural de este país es infinito. ¡Mañana voy a visitar el museo para saber más sobre la history!
 
-**Questions:**
+### Questions
 
 1. 주인공은 어제 어디에 갔나요? (Where did the protagonist go yesterday?)
    - ............................................................
@@ -186,7 +186,7 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 
 ## 8. Diálogo
 
-**Hablando de la Semana Santa (세마나 산타에 대해 이야기하기)**
+### Hablando de la Semana Santa (세마나 산타에 대해 이야기하기)
 
 **Situación:** Clara le explica a su amigo de intercambio, Jin, qué es la Semana Santa.
 **상황:** 클라라가 교환학생 친구인 진에게 세마나 산타가 무엇인지 설명해줍니다.
@@ -249,19 +249,19 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 
 ## 11. Soluciones
 
-**6. Práctica - A. Saber or Conocer?**
+### 6. Práctica - A. Saber or Conocer?
 
 1. 1. sé, 2. conoces, 3. conocemos, 4. sabe, 5. saben
 
-**6. Práctica - B. Saber 동사 변형 연습**
+### 6. Práctica - B. Saber 동사 변형 연습
 
 1. 1. sé, 2. sabe, 3. sabemos, 4. sabes, 5. saben
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Sé bailar esa canción., 2. ¿Conoces el Museo del Prado?, 3. Quiero ver el espectáculo de flamenco una vez más., 4. Sabemos que la historia de España es muy interesante., 5. La Semana Santa es muy importante en España.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 사크로몬테 지구의 플라멩코 공연 (Espectáculo de flamenco en el barrio del Sacromonte).
 2. 1. 스페인의 영혼 (El alma de España).

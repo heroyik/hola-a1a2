@@ -7,7 +7,7 @@
 **¡Buen viaje! (즐거운 여행 되세요!)**  
 새로운 곳으로 떠나는 설렘은 누구에게나 특별합니다. 스페인어로 길을 묻고, 기차표를 사고, 가고 싶은 장소를 말할 수 있다면 여러분의 여행은 훨씬 더 풍요로워질 것입니다. 이번 장에서는 공항, 기차역, 호텔에서 쓰이는 필수 여행 어휘와 함께, '가다'라는 뜻의 동사 'ir'를 활용해 미래의 계획을 말하는 법을 배웁니다. 또한 세계적인 수준을 자랑하는 스페인의 대중교통 문화와 아름다운 도시들의 특징도 함께 살펴볼까요?
 
-**학습 목표**
+### 학습 목표
 
 - 교통수단, 여행지 및 장소 어휘 15개 이상 습득
 - 'ir(가다)' 동사의 현재형 시제 변화와 'ir a + 동사원형' (미래 계획) 표현
@@ -56,14 +56,14 @@
 
 여행지에서 바로 사용할 수 있는 실전 문장들입니다.
 
-**A. 길 찾기 및 위치 묻기**
+### A. 길 찾기 및 위치 묻기
 
 - **¿Dónde está la estación de tren?** (Where is the train station? / 기차역이 어디에 있나요?)
 - **Perdone, ¿hay un banco cerca?** (Excuse me, is there a bank nearby? / 실례합니다, 근처에 은행이 있나요?)
 - **Está a la derecha / a la izquierda.** (It is on the right / on the left. / 오른쪽에 / 왼쪽에 있어요.)
 - **Todo recto.** (Straight ahead. / 쭉 직진하세요.)
 
-**B. 티켓 구매 및 이동**
+### B. 티켓 구매 및 이동
 
 - **Un billete para Madrid, por favor.** (A ticket for Madrid, please. / 마드리드행 표 한 장 주세요.)
 - **¿A qué hora sale el próximo tren?** (What time does the next train leave? / 다음 기차가 몇 시에 출발하나요?)
@@ -120,7 +120,8 @@
 - **leer** (읽다) → **leído**
 - **romper** (깨다) → **roto**
 
-**Korean Tip!**
+### Korean Tip
+
 장소 앞에 오는 전치사 `a`와 정관사 `el`이 만나면 `al`이 됩니다. (a + el = al)
 예: Voy **al** cine. (나는 영화관에 간다.)
 
@@ -145,7 +146,7 @@ Dentro de las ciudades, el **metro** es la mejor opción. El Metro de Madrid y e
 
 ## 6. Práctica
 
-**A. Match the transport with the place (교통수단과 어울리는 장소를 연결하세요)**
+### A. Match the transport with the place (교통수단과 어울리는 장소를 연결하세요)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -162,7 +163,7 @@ Dentro de las ciudades, el **metro** es la mejor opción. El Metro de Madrid y e
   </tbody>
 </table>
 
-**B. Ir 동사 변형 및 미래 표현 연습 (괄호 안의 주어에 맞게 완성하세요)**
+### B. Ir 동사 변형 및 미래 표현 연습 (괄호 안의 주어에 맞게 완성하세요)
 
 1. Yo (..........) a Madrid el próximo lunes. (ir)
 2. ¿Tú (..........) a comer ahora? (ir)
@@ -170,7 +171,7 @@ Dentro de las ciudades, el **metro** es la mejor opción. El Metro de Madrid y e
 4. Nosotros (..........) en tren a Sevilla. (ir)
 5. Mis amigos (..........) a viajar este verano. (ir)
 
-**C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)**
+### C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)
 
 1. 지하철역이 어디에 있나요?
    (............................................................)
@@ -187,11 +188,11 @@ Dentro de las ciudades, el **metro** es la mejor opción. El Metro de Madrid y e
 
 ## 7. Lectura 📖
 
-**Mis vacaciones en Andalucía (안달루시아에서의 나의 휴가)**
+### Mis vacaciones en Andalucía (안달루시아에서의 나의 휴가)
 
 Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a tomar un avión de Seúl a Madrid. Después, voy a ir en el tren AVE a Sevilla. ¡Me han dicho que el tren es muy rápido! En Sevilla, voy a visitar la Catedral y voy a pasear por el barrio de Santa Cruz. El mapa de mi móvil es muy útil para no perderme. También quiero ir a Granada para ver la Alhambra. Voy a ir en autobús porque es más barato. Mi maleta no es muy grande, pero tengo muchas ganas de ir. ¡Va a ser un viaje fantástico!
 
-**Questions:**
+### Questions
 
 1. 주인공은 마드리드에서 세비야까지 어떻게 가나요? (How does the protagonist go from Madrid to Seville?)
    - ............................................................
@@ -205,7 +206,7 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 
 ## 8. Diálogo
 
-**En la taquilla (매표소에서)**
+### En la taquilla (매표소에서)
 
 **Situación:** Un turista compra un billete de tren para ir a Valencia.
 **상황:** 한 관광객이 발렌시아로 가기 위해 기차표를 삽니다.
@@ -250,19 +251,19 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the transport with the place**
+### 6. Práctica - A. Match the transport with the place
 
 1. 1-b, 2-c, 3-d, 4-a
 
-**6. Práctica - B. Ir 동사 변형 및 미래 표현 연습**
+### 6. Práctica - B. Ir 동사 변형 및 미래 표현 연습
 
 1. 1. voy, 2. vas, 3. va, 4. vamos, 5. van
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. ¿Dónde está la estación de metro?, 2. Voy al aeropuerto., 3. ¿Qué vas a hacer mañana?, 4. Vamos a ir al museo., 5. Un billete de avión, por favor.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. AVE 기차 (En el tren AVE).
 2. 1. 더 저렴하기 때문에 (Porque es más barato).

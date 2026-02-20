@@ -7,7 +7,7 @@
 **La vida universitaria (대학 생활의 낭만과 현실)**  
 A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙한 주제인 '대학 생활'에 집중합니다. 수강 신청, 장학금, 성적 관리 등 대학생의 일상을 다루는 심화 어휘를 익히고, 지금 이 순간 일어나고 있는 일을 생생하게 전달하는 현재진행형(estar + -ndo)을 마스터합니다. 또한 서로 다른 것을 비교하고 최상을 표현하는 비교급과 최상급을 배워 더 풍부한 묘사를 가능하게 합니다. 유럽의 거대한 학생 교류 프로그램인 'Erasmus' 문화도 함께 살펴봅시다.
 
-**학습 목표**
+### 학습 목표
 
 - 대학 행정, 학문 분야 및 성적 관련 심화 어휘 습득
 - 현재진행형(estar + gerundio)의 규칙 및 불규칙 변화 완벽 숙지
@@ -56,14 +56,14 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 
 대학 생활에서 행정 업무를 보거나 학업에 대해 논할 때 유용한 표현입니다.
 
-**A. 수강 신청 및 학업 (Academic Life)**
+### A. 수강 신청 및 학업 (Academic Life)
 
 - **¿Qué asignatura es 가장 어려운?** (Which subject is the most difficult? / 어떤 과목이 가장 어렵니?)
 - **Estoy preparando un trabajo final.** (I'm preparing a final project. / 나는 기말 과제를 준비하고 있어.)
 - **He sacado 좋은 점수 en el examen.** (I've got a good grade on the exam. / 시험에서 좋은 점수를 받았어.)
 - **Tengo que consultar mi horario.** (I have to check my timetable. / 내 시간표를 확인해야 해.)
 
-**B. 대학 행정 및 장학금 (Administration)**
+### B. 대학 행정 및 장학금 (Administration)
 
 - **Quiero solicitar una beca.** (I want to apply for a scholarship. / 장학금을 신청하고 싶어요.)
 - **El plazo de matrícula termina mañana.** (The enrollment deadline ends tomorrow. / 등록 기간이 내일 끝납니다.)
@@ -80,7 +80,7 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 
 지금 이 순간 일어나고 있는 동작을 나타낼 때 사용합니다. 영어의 'be + -ing'와 구조가 매우 비슷하여 영어 상급자인 여러분이 가장 쉽게 익힐 수 있는 시제 중 하나입니다.
 
-**💡 English Bridge: "be + -ing"**
+### 💡 English Bridge: "be + -ing"
 
 - 스페인어 진행형은 **Estar 동사(be)** + **Gerundio(-ing)** 형태로 만듭니다.
 - *Tip*: 영어에서는 진행형으로 미래를 나타내기도 하지만(I'm leaving tomorrow), 스페인어에서는 반드시 **'지금 하고 있는 일'**에만 사용합니다!
@@ -154,7 +154,8 @@ A2 단계에서 반드시 마스터해야 하는 현재 시제 불규칙 동사�
   </tbody>
 </table>
 
-**💡 Korean Tip!**
+### 💡 Korean Tip
+
 현재진행형(Presente Continuo)은 'Estar' 동사를 주어에 맞춰 변화시킨 후, 그 뒤에 Gerundio를 붙입니다. (예: Estoy comiendo, Están viviendo). Estar 변화를 잊지 마세요!
 
 ### B. 비교급과 최상급 (Comparativos y Superlativos)
@@ -190,7 +191,7 @@ El programa **Erasmus** es una de las experiencias más importantes para los est
 
 ## 6. Práctica
 
-**A. Form the gerund (현재진행형을 위한 가느런디오 형태를 쓰세요)**
+### A. Form the gerund (현재진행형을 위한 가느런디오 형태를 쓰세요)
 
 1. Leer → ....................
 2. Trabajar → ....................
@@ -198,7 +199,7 @@ El programa **Erasmus** es una de las experiencias más importantes para los est
 4. Escribir → ....................
 5. Pedir → ....................
 
-**B. Fill in the blanks with comparisons (알맞은 비교급 표현을 완성하세요)**
+### B. Fill in the blanks with comparisons (알맞은 비교급 표현을 완성하세요)
 
 1. El examen de hoy es (more difficult than) .................... el de ayer.
 2. Mi hermano es (not as tall as) .................... yo.
@@ -206,7 +207,7 @@ El programa **Erasmus** es una de las experiencias más importantes para los est
 4. El carné de estudiante es (less important than) .................... el pasaporte.
 5. Juan es (the best) .................... estudiante de la facultad.
 
-**C. 번역 연습 (주어진 문법을 활용해 번역하세요)**
+### C. 번역 연습 (주어진 문법을 활용해 번역하세요)
 
 1. 지금 나는 장학금을 신청하고 있어. (진행형 solicitar)
    (............................................................)
@@ -223,11 +224,11 @@ El programa **Erasmus** es una de las experiencias más importantes para los est
 
 ## 7. Lectura 📖
 
-**Mi experiencia Erasmus en Madrid (나의 마드리드 에라스무스 경험)**
+### Mi experiencia Erasmus en Madrid (나의 마드리드 에라스무스 경험)
 
 Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid con una beca Erasmus. Actualmente, **estoy estudiando** Ciencias Políticas en la Universidad Complutense. Para mí, la vida en España es **mejor que** en Italia porque la gente es **más abierta**. Ahora mismo, **estoy preparando** un trabajo sobre la política europea con amigos de Francia와 독일. La biblioteca de mi facultad es **más grande que** la 도서관 de 내 고향, 하지만 가끔은 아주 시끄러워요. Lo que **mejor** valoro de esta experiencia es que **estoy aprendiendo** mucho sobre el mundo y 내 스페인어 실력도 날마다 좋아지고 있어요. ¡Es una aventura increíble!
 
-**Questions:**
+### Questions
 
 1. 마르코는 지금 무엇을 전공하고 있나요? (What is Marco studying?)
    - ............................................................
@@ -241,7 +242,7 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 
 ## 8. Diálogo
 
-**Cambiando el horario (시간표 변경하기)**
+### Cambiando el horario (시간표 변경하기)
 
 **Situación:** Elena y Javier están hablando sobre sus asignaturas y el nuevo horario del semestre.
 **상황:** 엘레나와 하비에르가 그들의 과목과 이번 학기 새 시간표에 대해 이야기하고 있습니다.
@@ -286,15 +287,15 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 
 ## 11. Soluciones
 
-**6. Práctica - A. Form the gerund**
+### 6. Práctica - A. Form the gerund
 
 1. 1. leyendo, 2. trabajando, 3. durmiendo, 4. escribiendo, 5. pidiendo
 
-**6. Práctica - B. Fill in the blanks with comparisons**
+### 6. Práctica - B. Fill in the blanks with comparisons
 
 1. 1. más difícil que, 2. tan alto como, 3. mejor que, 4. menos importante que, 5. el mejor
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Ahora estoy solicitando una beca.
 2. 1. La biblioteca es más tranquila que la cafetería.
@@ -302,7 +303,7 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 4. 1. El español es tan divertido como el inglés.
 5. 1. La graduación es la ceremonia más importante de nuestra universidad.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 정치학 (Ciencias Políticas).
 2. 1. 사람들이 더 개방적이라는 점 (La gente es más abierta).

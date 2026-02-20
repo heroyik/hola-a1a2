@@ -7,7 +7,7 @@
 **Compromiso y visión (약속과 비전)**  
 A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 넘어, 우리가 직면한 사회적 과제와 세계 시민으로서의 역할에 대해 스페인어로 심도 있게 이야기해 봅니다. 조만간 일어날 일(Ir a)뿐만 아니라, 조금 더 먼 미래에 일어날 일들을 '미래 시제(Futuro Simple)'를 통해 확실하게 표현하는 방법을 배웁니다. 빈곤, 불평등, 환경 위기 같은 사회적 문제들을 어떻게 정의하고, 스페인과 세계의 청년들이 이에 어떻게 대응하고 있는지 함께 알아볼까요? 여러분의 스페인어는 이제 세상을 바꾸는 도구가 될 것입니다.
 
-**학습 목표**
+### 학습 목표
 
 - 사회 문제(Problemas sociales), 국제 협력 및 미래 비전 어휘 15개 이상 습득
 - 미래 시제(Futuro Simple)의 변화와 활용 (의지, 추측, 먼 미래)
@@ -56,14 +56,14 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 사회 문제에 대한 의견을 나누고 미래의 비전을 제시할 때 유용한 패턴입니다.
 
-**A. 미래 시제 활용 (Futuro)**
+### A. 미래 시제 활용 (Futuro)
 
 - **El mundo cambiará mucho en diez años.** (The world will change a lot in ten years. / 세상은 10년 뒤에 많이 변할 거예요.)
 - **Seré un ciudadano responsable.** (I will be a responsible citizen. / 나는 책임감 있는 시민이 될 것입니다.)
 - **¿Qué pasará con el planeta?** (What will happen to the planet? / 지구는 어떻게 될까요?)
 - **Trabajaremos juntos por la paz.** (We will work together for peace. / 우리는 평화를 위해 함께 일할 것입니다.)
 
-**B. 의견 및 필요성 표현 (Opinión y Necesidad)**
+### B. 의견 및 필요성 표현 (Opinión y Necesidad)
 
 - **Creo que es necesario ayudar a los demás.** (I believe it is necessary to help others. / 타인을 돕는 것이 필요하다고 생각합니다.)
 - **Es importante luchar contra la pobreza.** (It is important to fight against poverty. / 빈곤에 맞서 싸우는 것은 중요합니다.)
@@ -97,8 +97,8 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td>estudi<strong>arán</strong> / com<strong>erán</strong> / viv<strong>irán</strong></td><td><strong>-án</strong></td><td>They/You all will</td></tr>
   </tbody>
 </table>
-
-**Important!** 1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acceso)가 있다는 점을 꼭 기억하세요!
+### Important!
+1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acceso)가 있다는 점을 꼭 기억하세요!
 
 ### B. Futuro Simple - Irregulares (불규칙형)
 
@@ -175,7 +175,7 @@ Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos s
 
 ## 6. Práctica
 
-**A. Conjugate markers for the future tense (미래 시제 어미를 알맞게 붙이세요)**
+### A. Conjugate markers for the future tense (미래 시제 어미를 알맞게 붙이세요)
 
 1. Mañana yo habl (..........) con el director.
 2. Nosotros com (..........) paella el domingo.
@@ -183,7 +183,7 @@ Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos s
 4. ¿Tú estudi (..........) español el próximo año?
 5. Ellos viaj (..........) por toda América Latina.
 
-**B. Choose between Saber, Conocer, and the Future Tense (문맥에 맞는 동사를 고르세요)**
+### B. Choose between Saber, Conocer, and the Future Tense (문맥에 맞는 동사를 고르세요)
 
 1. Yo (..........) que mañana vas a viajar. (sé / conozco)
 2. ¿(..........) tú a ese voluntario? (Sabes / Conoces)
@@ -191,7 +191,7 @@ Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos s
 4. Ella (..........) hablar tres idiomas. (sabe / conoce)
 5. Algún día (..........) la paz en el mundo. (habrá / hay) - *Note: habrá is irregular future of hay*
 
-**C. 번역 연습 (미래 시제 및 사회적 표현을 활용하세요)**
+### C. 번역 연습 (미래 시제 및 사회적 표현을 활용하세요)
 
 1. 우리는 더 나은 세상을 만들 것입니다. (만들다: crear / 미래 시제 사용)
    (............................................................)
@@ -204,7 +204,7 @@ Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos s
 5. 10년 뒤에 당신은 어디에 있을까요? (있다: estar / 미래 시제 사용)
    (............................................................)
 
-**D. Pluscuamperfecto (과거완료) 연습**
+### D. Pluscuamperfecto (과거완료) 연습
 
 다음 문장을 과거완료(Había + p.p) 형태로 완성하세요.
 
@@ -218,12 +218,12 @@ Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos s
 
 ## 7. Lectura 📖
 
-**Una carta a mi yo del futuro (미래의 나에게 보내는 편지)**
+### Una carta a mi yo del futuro (미래의 나에게 보내는 편지)
 
 Querido "yo" del futuro:
 Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy muy feliz. Sé que el español cambiará mi vida. En el futuro, ¿hablarás español perfectamente? Espero que sí. También espero que vivas en un mundo con más solidaridad y menos pobreza. Sé que lucharás por los derechos humanos y que ayudarás a proteger el medio ambiente. ¿Seguirás haciendo voluntariado? El camino no será fácil, pero estoy seguro de que serás una persona valiente. Recuerda: el desarrollo sostenible es la clave. ¡Nos vemos en el futuro!
 
-**Questions:**
+### Questions
 
 1. 주인공은 미래의 자신이 어떤 세상에서 살기를 바라나요? (In what kind of world does the protagonist hope his future self lives?)
    - ............................................................
@@ -238,7 +238,7 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 
 ## 8. Diálogo
 
-**El mundo que queremos (우리가 원하는 세상)**
+### El mundo que queremos (우리가 원하는 세상)
 
 **Situación:** Dos estudiantes, Elena y Mateo, discuten sobre los desafíos del futuro.
 **상황:** 두 학생 엘레나와 마테오가 미래의 과제에 대해 토론합니다.
@@ -300,15 +300,15 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 
 ## 11. Soluciones
 
-**6. Práctica - A. Conjugate markers for the future tense**
+### 6. Práctica - A. Conjugate markers for the future tense
 
 1. hablaré, 2. comeremos, 3. será, 4. estudiarás, 5. viajarán
 
-**6. Práctica - B. Choose between Saber, Conocer, and the Future Tense**
+### 6. Práctica - B. Choose between Saber, Conocer, and the Future Tense
 
 1. sé, 2. Conoces, 3. usaremos, 4. sabe, 5. habrá
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. Crearemos un mundo mejor.
 2. Es muy importante proteger los derechos humanos.
@@ -316,7 +316,7 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 4. La gente se preocupa por el cambio climático.
 5. ¿Dónde estarás en diez años? (또는 ¿Dóne estará usted en diez años?)
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 더 많은 연대가 있고 가난이 적은 세상 (Un mundo con más solidaridad y menos pobreza).
 2. 인권과 환경 보호 (Los derechos humanos y la protección del medio ambiente).

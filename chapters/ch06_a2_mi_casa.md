@@ -7,7 +7,7 @@
 **Vida moderna y hogar (현대적 삶과 가정)**
 A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생활에 필수적인 가전제품(Electrodomésticos)과 매일 일어나는 가사 활동(Tareas domésticas)을 구체적인 동사로 익힙니다. 또한 스페인어로 집을 구하거나 이사할 때 필요한 실무적인 표현들을 다룹니다.
 
-**학습 목표**
+### 학습 목표
 
 - 심화 가전제품 및 가사 도구 어휘 10개 습득
 - 가사 활동 관련 동사(빨래하다, 청소하다, 다리미질하다 등) 익히기
@@ -46,7 +46,7 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 
 가사 분담이나 부동산 관련 상담 시 사용하는 유용한 문장들입니다.
 
-**A. 가사 활동 및 분담 (Household Chores)**
+### A. 가사 활동 및 분담 (Household Chores)
 
 - **¿Quién va a fregar los platos hoy?** (Who is going to wash the dishes today? / 오늘은 누가 설거지할 거야?)
 - **Me toca poner la lavadora.** (It's my turn to put on the laundry. / 내가 세탁기 돌릴 차례야.)
@@ -54,7 +54,7 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 - **Tenemos que hacer la cama cada mañana.** (We have to make the bed every morning. / 우리는 매일 아침 침대를 정리해야 해.)
 - **Odio planchar la ropa.** (I hate ironing clothes. / 나는 옷 다리는 게 정말 싫어.)
 
-**B. 부동산 및 임대 문의 (Real Estate and Renting)**
+### B. 부동산 및 임대 문의 (Real Estate and Renting)
 
 - **Busco un piso compartido con otros estudiantes.** (I'm looking for a shared flat with other students. / 쉐어 아파트를 찾고 있어요.)
 - **¿Cuánto cuesta el alquiler al mes?** (How much is the rent per month? / 한 달 월세가 얼마인가요?)
@@ -156,7 +156,7 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 
 ## 6. Práctica
 
-**A. Match the appliances with their functions (가전제품과 기능을 연결하세요)**
+### A. Match the appliances with their functions (가전제품과 기능을 연결하세요)
 
 | Electrodoméstico | Función |
 |:---|:---|
@@ -166,7 +166,7 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 | 4. La nevera | d. Para hacer café |
 | 5. La cafetera | e. Para limpiar el suelo |
 
-**B. Complete with 'donde' and the correct verb form**
+### B. Complete with 'donde' and the correct verb form
 
 1. Esta es la habitación ______ (yo/dormir).
 2. Busco un supermercado ______ (vender/ellos) productos coreanos.
@@ -174,7 +174,7 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 4. ¿Conoces el restaurante ______ (trabajar/tu hermano)?
 5. El pueblo ______ (vivir/mis abuelos) es muy bonito.
 
-**C. 번역 연습 (스페인어로 번역하세요)**
+### C. 번역 연습 (스페인어로 번역하세요)
 
 1. 나는 매일 아침 침대를 정리해야 해요.
    (............................................................)
@@ -191,24 +191,26 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 
 ## 7. Lectura 📖
 
-**Mi primer piso compartido (나의 첫 쉐어 하우스)**
+### Mi primer piso compartido (나의 첫 쉐어 하우스)
 
 Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chicos de Italia y una chica de Alemania. El piso está en un edificio antiguo, pero tiene **ascensor** y una **terraza** maravillosa con vistas a la ciudad. Mi habitación es pequeña, pero es una habitación **exterior** con mucha luz. En casa, tenemos un calendario de **tareas domésticas**: yo paso la **aspiradora** los sábados y mis compañeros **limpian la cocina**. Lo que más me gusta es la **sobremesa** en el salón después de cenar, **donde** hablamos de nuestras culturas y compartimos risas.
 
-**Preguntas (질문):**
+### Preguntas (질문)
 
 1. ¿Cuáles son dos ventajas del piso? (아파트의 장점 두 가지는?)
 2. ¿Qué tarea doméstica hace el narrador? (글쓴이는 어떤 가사를 담당하나요?)
 
 **[한국어 번역]**
-**나의 첫 쉐어 하우스**
+
+#### 나의 첫 쉐어 하우스
+
 공부를 위해 바르셀로나에 도착했을 때, 저는 이탈리아 친구 두 명과 독일 친구 한 명과 아파트를 공유하기로 결정했습니다. 아파트는 오래된 건물에 있지만 엘리베이터가 있고 도시 전망이 보이는 멋진 테라스가 있습니다. 제 방은 작지만, 햇빛이 잘 드는 거리 쪽(exterior) 방이라 마음에 들어요. 제가 가장 좋아하는 것은 저녁 식사 후 거실에서 나누는 소브레메사(sobremesa)인데, 그곳(donde)에서 우리는 서로의 문화에 대해 이야기하고 웃음을 나눕니다.
 
 ---
 
 ## 8. Diálogo
 
-**Problemas en casa (집안의 문제들)**
+### Problemas en casa (집안의 문제들)
 
 **Situación:** Sofía y su compañero de piso, Pablo, están discutiendo sobre el mantenimiento de la casa.
 
@@ -278,11 +280,11 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 
 ## 11. Soluciones
 
-**6. Práctica - A. Match the appliances**
+### 6. Práctica - A. Match the appliances
 
 1. 1-b, 2-c, 3-e, 4-a, 5-d
 
-**6. Práctica - B. Complete with 'donde'**
+### 6. Práctica - B. Complete with 'donde'
 
 1. 1. donde duermo
 2. 1. donde venden
@@ -290,7 +292,7 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 4. 1. donde trabaja
 5. 1. donde viven
 
-**6. Práctica - C. 번역 연습**
+### 6. Práctica - C. 번역 연습
 
 1. 1. Tengo que hacer la cama cada mañana.
 2. 1. Me toca (a mí), yo pongo el lavavajillas.
@@ -298,7 +300,7 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 4. 1. ¿Están incluidos los gastos de agua en el alquiler?
 5. 1. Ayer pasé la aspiradora y planché la ropa todo el día.
 
-**7. Lectura - Preguntas**
+### 7. Lectura - Preguntas
 
 1. 1. 엘리베이터(ascensor)가 있고 전망이 좋은 테라스(terraza)가 있습니다.
 2. 1. 토요일마다 청소기로 청소하는 것(pasar la aspiradora)을 담당합니다.
