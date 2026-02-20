@@ -6,10 +6,14 @@ This document outlines the visual language and image generation guidelines for t
 
 ## ✨ Visual Language: "Modern & Premium Spanish"
 
-### Style Token: `[HOLA_STYLE_V2]`
+### Style Token:### [HOLA_STYLE_V2] core components
 
-Instead of long descriptions, use this consolidated style definition in your prompts:
-> **"Modern Seinen anime, Makoto Shinkai lighting, Violet Evergarden background detail, warm saturated tones, terracotta and wood accents, Mediterranean Golden Hour light."**
+- **Art Style**: Modern Seinen Anime (Sharp lines, clean silhouettes, professional digital paint)
+- **Character Traits**:
+  - **Personality**: Always bright, cheerful, and welcoming (Expressive smiles, energetic poses).
+  - **Selection**: Flexible choice of male/female characters based on the context's needs.
+  - **Diversity**: Accurate Spanish/Mediterranean ethnicities (olive skin tones, varying hair textures: wavy, curly, dark brown/black). No Asian characters or text.
+- **Visuals**: Warm golden hour lighting (cinematic), 8k resolution, volumetric depth.
 
 ### Core Aesthetics
 
