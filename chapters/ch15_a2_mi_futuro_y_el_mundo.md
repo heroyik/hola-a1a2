@@ -97,10 +97,62 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td>estudi<strong>arán</strong> / com<strong>erán</strong> / viv<strong>irán</strong></td><td><strong>-án</strong></td><td>They/You all will</td></tr>
   </tbody>
 </table>
-### Important!
-1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acceso)가 있다는 점을 꼭 기억하세요!
+### **Important!** 1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acento)가 있다는 점을 꼭 기억하세요!
 
-### B. Futuro Simple - Irregulares (불규칙형)
+### B. 명령법 (Imperativo) - 긍정 및 부정
+
+미래의 더 나은 세상을 위해 다른 사람에게 행동을 촉구하거나 조언할 때 필수적인 '명령법'입니다.
+
+#### 1. 긍정 명령 (Imperativo Afirmativo)
+
+상대방에게 무언가를 하라고 지시하거나 제안할 때 사용합니다. 일상에서 가장 많이 쓰이는 **tú(너)**에 대한 긍정 명령은 매우 간단합니다. **현재 시제 3인칭 단수(él/ella)** 형태와 똑같이 생겼습니다.
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">동사 (Verb)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Tú (너) 긍정 명령</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">English Mapping</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">예문</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Hablar</strong> (말하다)</td><td><strong>Habla</strong></td><td>Speak</td><td>¡<strong>Habla</strong> más alto! (더 크게 말해!)</td></tr>
+    <tr><td><strong>Comer</strong> (먹다)</td><td><strong>Come</strong></td><td>Eat</td><td>¡<strong>Come</strong> sano! (건강하게 먹어!)</td></tr>
+    <tr><td><strong>Vivir</strong> (살다)</td><td><strong>Vive</strong></td><td>Live</td><td>¡<strong>Vive</strong> el momento! (현재를 살아라!)</td></tr>
+  </tbody>
+</table>
+
+**💡 필수 불규칙 긍정 명령 (Tú):**
+
+- decir → **di** / hacer → **haz** / ir → **ve** / poner → **pon** / salir → **sal** / ser → **sé** / tener → **ten** / venir → **ven**
+- 짧게 "디 하스 베 폰 살 세 텐 벤"으로 운율을 맞춰 외우면 좋습니다.
+
+#### 2. 부정 명령 (Imperativo Negativo)
+
+"~하지 마"라고 금지하거나 만류할 때 사용합니다. 스페인어의 부정 명령은 단순히 'No'만 붙이는 것이 아니라, **동사의 어미가 교차** 변형(접속법 현재 형태)되어야 합니다.
+
+<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="padding: 10px; border: 1px solid #ddd;">동사 (Verb)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Tú (너) 부정 명령</strong></th>
+      <th style="padding: 10px; border: 1px solid #ddd;">규칙 (어미 교차)</th>
+      <th style="padding: 10px; border: 1px solid #ddd;">예문</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Hablar</strong></td><td><strong>No hables</strong></td><td>-ar → <strong>-es</strong></td><td>¡<strong>No hables</strong> así! (그렇게 말하지 마!)</td></tr>
+    <tr><td><strong>Comer</strong></td><td><strong>No comas</strong></td><td>-er → <strong>-as</strong></td><td>¡<strong>No comas</strong> en clase! (수업 중에 먹지 마!)</td></tr>
+    <tr><td><strong>Escribir</strong></td><td><strong>No escribas</strong></td><td>-ir → <strong>-as</strong></td><td>¡<strong>No escribas</strong> en la pared! (벽에 쓰지 마!)</td></tr>
+  </tbody>
+</table>
+
+**💡 필수 불규칙 부정 명령 (Tú):**
+
+- ir → **no vayas** / ser → **no seas** / dar → **no des** / estar → **no estés** / saber → **no sepas**
+
+### C. Futuro Simple - Irregulares (불규칙형)
 
 일부 동사들은 어근이 바뀐 뒤 미래 어미(-é, -ás, -á...)를 붙입니다.
 

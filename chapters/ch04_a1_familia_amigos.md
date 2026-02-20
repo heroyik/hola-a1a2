@@ -23,7 +23,7 @@
 
 따뜻한 스페인 가정의 거실 풍경입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![La Familia — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a1_vocab_family_v2_1.png)
+![La Familia — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a1_vocab_family_v4.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -177,7 +177,7 @@ Lo más importante no es solo la comida, sino la **sobremesa**. La sobremesa es 
 
 가장 중요한 것은 음식뿐만 아니라 **소브레메사(sobremesa)**입니다. 소브레메사는 식사를 마친 후 커피나 디저트를 곁들이며 여유롭게 이야기를 나누는 시간입니다. 이 시간은 몇 시간 동안 지속될 수 있습니다. 소식을 공유하고 웃으며 가족 간의 유대를 강화하는 시간입니다.
 
-![스페인 일요일 가족 식사(Comida Familiar)와 소브레메사 문화](../images/ch04_a1_culture_celebration_v2_1.png)
+![스페인 일요일 가족 식사(Comida Familiar)와 소브레메사 문화](../images/ch04_a1_culture_celebration_v4.png)
 
 ---
 

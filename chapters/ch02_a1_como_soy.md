@@ -23,7 +23,7 @@
 
 아래 삽화 속 인물들의 특징을 살펴보며 필수 형용사를 익혀보세요. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![¿Cómo somos? — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_personality_v2_1.png)
+![¿Cómo somos? — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_personality_v4.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -276,7 +276,7 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 이 제스처는 스페인 문화 특유의 따뜻함과 사회성을 잘 보여줍니다. 신체적 거리를 유지하는 다른 문화권과 달리, 스페인에서는 가까운 접촉이 신뢰와 우정의 표시입니다. 심지어 격식이 덜한 전문적인 환경에서도 동료나 지인을 만날 때 두 번의 키스로 인사하는 것이 일반적입니다. 가족 관계가 아닌 남성들 사이에서는 보통 악수를 하거나, 아주 친한 경우에는 가벼운 포옹을 합니다.
 
-![스페인 거리에서 양쪽 볼에 인사 키스(Dos Besos)를 나누는 친구들](../images/ch02_a1_culture_greeting_v2_1.png)
+![스페인 거리에서 양쪽 볼에 인사 키스(Dos Besos)를 나누는 친구들](../images/ch02_a1_culture_greeting_v4.png)
 
 ---
 
