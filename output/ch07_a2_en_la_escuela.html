@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch07_a2_en_la_escuela.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 7: En la escuela (A2)</h1>
+<div class="container">
+<h1 id="chapter-7-en-la-escuela-a2">Chapter 7: En la escuela (A2)</h1>
 <p class="cervantes-ref">Cervantes: §6 Educación: 대학 생활, 학문 분야 심화 어휘 및 현재진행형과 비교급 표현</p>
-<h2>1. Opener</h2>
-<p><strong>La vida universitaria (대학 생활의 낭만과 현실)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>La vida universitaria (대학 생활의 낭만과 현실)</strong><br />
 A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙한 주제인 '대학 생활'에 집중합니다. 수강 신청, 장학금, 성적 관리 등 대학생의 일상을 다루는 심화 어휘를 익히고, 지금 이 순간 일어나고 있는 일을 생생하게 전달하는 현재진행형(estar + -ndo)을 마스터합니다. 또한 서로 다른 것을 비교하고 최상을 표현하는 비교급과 최상급을 배워 더 풍부한 묘사를 가능하게 합니다. 유럽의 거대한 학생 교류 프로그램인 'Erasmus' 문화도 함께 살펴봅시다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>대학 행정, 학문 분야 및 성적 관련 심화 어휘 습득</li>
 <li>현재진행형(estar + gerundio)의 규칙 및 불규칙 변화 완벽 숙지</li>
 <li>비교급(más/menos... que)과 최상급 표현 정복</li>
 <li>유럽 대학의 'Erasmus' 프로그램과 학생 문화 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
 <strong>¿Sabías que...?</strong> 스페인의 살라망카 대학교(Universidad de Salamanca)는 1218년에 설립된 전 세계에서 가장 오래된 대학교 중 하나입니다. 대학 건물 전면의 화려한 조각 중에서 '해골 위의 개구리'를 찾으면 시험에 합격한다는 전설이 유명하니, 나중에 꼭 한번 방문해 보세요!</div>
-<hr>
-<h2>2. Vocabulario Esencial: Vida Universitaria</h2>
+<hr />
+<h2 id="2-vocabulario-esencial-vida-universitaria">2. Vocabulario Esencial: Vida Universitaria</h2>
 <p>활기 넘치는 스페인 대학 캠퍼스의 광장입니다. 학업과 행정, 휴식 공간과 관련된 심화 어휘들을 확인해 보세요.</p>
-<p><img src="../images/ch07_a2_vocab_university_v2_1.png" alt="Vida Universitaria"></p>
+<p><img alt="Vida Universitaria" src="../images/ch07_a2_vocab_university_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,33 +379,34 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
     <tr><td>10</td><td><strong>la cafetería</strong></td><td><strong>Cafeteria</strong> ✅</td><td>카페테리아 (학생 식당)</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>대학 생활에서 행정 업무를 보거나 학업에 대해 논할 때 유용한 표현입니다.</p>
-<h3>A. 수강 신청 및 학업 (Academic Life)</h3>
+<h3 id="a-academic-life">A. 수강 신청 및 학업 (Academic Life)</h3>
 <ul>
 <li><strong>¿Qué asignatura es 가장 어려운?</strong> (Which subject is the most difficult? / 어떤 과목이 가장 어렵니?)</li>
 <li><strong>Estoy preparando un trabajo final.</strong> (I'm preparing a final project. / 나는 기말 과제를 준비하고 있어.)</li>
 <li><strong>He sacado 좋은 점수 en el examen.</strong> (I've got a good grade on the exam. / 시험에서 좋은 점수를 받았어.)</li>
 <li><strong>Tengo que consultar mi horario.</strong> (I have to check my timetable. / 내 시간표를 확인해야 해.)</li>
 </ul>
-<h3>B. 대학 행정 및 장학금 (Administration)</h3>
+<h3 id="b-administration">B. 대학 행정 및 장학금 (Administration)</h3>
 <ul>
 <li><strong>Quiero solicitar una beca.</strong> (I want to apply for a scholarship. / 장학금을 신청하고 싶어요.)</li>
 <li><strong>El plazo de matrícula termina mañana.</strong> (The enrollment deadline ends tomorrow. / 등록 기간이 내일 끝납니다.)</li>
 <li><strong>He perdido mi carné de estudiante.</strong> (I've lost my student ID card. / 학생증을 잃어버렸어요.)</li>
 <li><strong>La facultad de derecho está cerca.</strong> (The Law faculty is nearby. / 법학부는 근처에 있어요.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>이번 장에서는 생생한 동작을 나타내는 진행형과 대상을 비교하는 정교한 문법을 배웁니다.</p>
-<h3>A. 현재진행형 (Presente Continuo: Estar + Gerundio)</h3>
+<h3 id="a-presente-continuo-estar-gerundio">A. 현재진행형 (Presente Continuo: Estar + Gerundio)</h3>
 <p>지금 이 순간 일어나고 있는 동작을 나타낼 때 사용합니다. 영어의 'be + -ing'와 구조가 매우 비슷하여 영어 상급자인 여러분이 가장 쉽게 익힐 수 있는 시제 중 하나입니다.</p>
-<h3>💡 English Bridge: &quot;be + -ing&quot;</h3>
+<h3 id="english-bridge-be-ing">💡 English Bridge: "be + -ing"</h3>
 <ul>
 <li>스페인어 진행형은 <strong>Estar 동사(be)</strong> + <strong>Gerundio(-ing)</strong> 형태로 만듭니다.</li>
-<li><em>Tip</em>: 영어에서는 진행형으로 미래를 나타내기도 하지만(I'm leaving tomorrow), 스페인어에서는 반드시 **'지금 하고 있는 일'**에만 사용합니다!</li>
+<li><em>Tip</em>: 영어에서는 진행형으로 미래를 나타내기도 하지만(I'm leaving tomorrow), 스페인어에서는 반드시 <strong>'지금 하고 있는 일'</strong>에만 사용합니다!</li>
 </ul>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -183,7 +429,8 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
     </tr>
   </tbody>
 </table>
-<h4>필수 불규칙 동사 (Mandatory Irregular Verbs - Presente)</h4>
+
+<h4 id="mandatory-irregular-verbs-presente">필수 불규칙 동사 (Mandatory Irregular Verbs - Presente)</h4>
 <p>A2 단계에서 반드시 마스터해야 하는 현재 시제 불규칙 동사입니다. (Presente: ser, estar, ir, tener, saber, poder)</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -203,7 +450,8 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
     <tr><td>ellos/ellas/uds.</td><td>t<strong>ienen</strong></td><td>s<strong>aben</strong></td><td>p<strong>ueden</strong></td></tr>
   </tbody>
 </table>
-<h4>필수 불규칙 현재분사 (Mandatory Irregular Gerunds - Presente Continuo)</h4>
+
+<h4 id="mandatory-irregular-gerunds-presente-continuo">필수 불규칙 현재분사 (Mandatory Irregular Gerunds - Presente Continuo)</h4>
 <p>다음 동사들은 Gerundio 형태가 불규칙하므로 주의해야 합니다. 특히 모음 변화가 일어나는 경우(e→i, o→u)와 y가 삽입되는 경우를 잘 봐두세요. (Estar, Ir, Leer, Repetir, Decir, Venir, Dormir, Morir)</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -224,40 +472,32 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>y 삽입 / 기타</strong></td><td>leer (to read)</td><td>le<strong>y</strong>endo</td></tr>
   </tbody>
 </table>
-<h3>💡 Korean Tip</h3>
+
+<h3 id="korean-tip">💡 Korean Tip</h3>
 <p>현재진행형(Presente Continuo)은 'Estar' 동사를 주어에 맞춰 변화시킨 후, 그 뒤에 Gerundio를 붙입니다. (예: Estoy comiendo, Están viviendo). Estar 변화를 잊지 마세요!</p>
-<h3>B. 비교급과 최상급 (Comparativos y Superlativos)</h3>
+<h3 id="b-comparativos-y-superlativos">B. 비교급과 최상급 (Comparativos y Superlativos)</h3>
 <p>사물이나 사람의 상태를 비교할 때 사용합니다.</p>
 <ol>
-<li><strong>우등/열등 비교</strong>: <strong>más / menos</strong> + 형용사 + <strong>que</strong>
-<ul>
-<li><em>Este libro은 <strong>más</strong> caro <strong>que</strong> 그 책.</em> (이 책은 그 책보다 더 비싸다.)</li>
-</ul>
-</li>
-<li><strong>동등 비교</strong>: <strong>tan</strong> + 형용사 + <strong>como</strong>
-<ul>
-<li><em>Ella은 <strong>tan</strong> inteligente <strong>como</strong> 너.</em> (그녀는 너만큼 똑똑하다.)</li>
-</ul>
-</li>
-<li><strong>불규칙 비교</strong>:
-<ul>
+<li><strong>우등/열등 비교</strong>: <strong>más / menos</strong> + 형용사 + <strong>que</strong></li>
+<li><em>Este libro은 </em><em>más</em><em> caro </em><em>que</em><em> 그 책.</em> (이 책은 그 책보다 더 비싸다.)</li>
+<li><strong>동등 비교</strong>: <strong>tan</strong> + 형용사 + <strong>como</strong></li>
+<li><em>Ella은 </em><em>tan</em><em> inteligente </em><em>como</em><em> 너.</em> (그녀는 너만큼 똑똑하다.)</li>
+<li><strong>불규칙 비교</strong>:</li>
 <li>bueno → <strong>mejor</strong> (더 좋은) / malo → <strong>peor</strong> (더 나쁜)</li>
 <li>grande → <strong>mayor</strong> (더 큰/나이가 많은) / pequeño → <strong>menor</strong> (더 작은/나이가 적은)</li>
-</ul>
-</li>
 </ol>
-<hr>
-<h2>5. Cultura Viva: El Espíritu Erasmus</h2>
+<hr />
+<h2 id="5-cultura-viva-el-espiritu-erasmus">5. Cultura Viva: El Espíritu Erasmus</h2>
 <p>유럽 대학생들의 가장 큰 꿈, 에라스무스(Erasmus) 프로그램을 아시나요?</p>
-<p><img src="../images/ch07_a2_culture_erasmus_v2_1.png" alt="Erasmus Spirit"></p>
+<p><img alt="Erasmus Spirit" src="../images/ch07_a2_culture_erasmus_v2_1.png" /></p>
 <p>El programa <strong>Erasmus</strong> es una de las experiencias más importantes para los estudiantes universitarios en Europa. Permite a miles de jóvenes estudiar durante un semestre o un año completo en una universidad de otro país europeo. España es, desde hace años, el destino <strong>más popular</strong> para los estudiantes Erasmus de todo el continente.</p>
-<p>¿Por qué eligen España? Los estudiantes vienen atraídos por el clima, la cultura, la vida nocturna y, por supuesto, para aprender español, que es la segunda lengua <strong>más hablada</strong> del mundo. Durante su estancia, los &quot;Erasmus&quot; no solo asisten a clase, sino que viajan, conocen gente de diversas nacionalidades y aprenden a ser más independientes. Es una mezcla de aprendizaje académico y vital que crea ciudadanos europeos más abiertos y tolerantes. ¡Para muchos, es el mejor año de su vida!</p>
-<p><strong>[한국어 번역]</strong><br>
+<p>¿Por qué eligen España? Los estudiantes vienen atraídos por el clima, la cultura, la vida nocturna y, por supuesto, para aprender español, que es la segunda lengua <strong>más hablada</strong> del mundo. Durante su estancia, los "Erasmus" no solo asisten a clase, sino que viajan, conocen gente de diversas nacionalidades y aprenden a ser más independientes. Es una mezcla de aprendizaje académico y vital que crea ciudadanos europeos más abiertos y tolerantes. ¡Para muchos, es el mejor año de su vida!</p>
+<p><strong>[한국어 번역]</strong><br />
 <strong>에라스무스(Erasmus)</strong> 프로그램은 유럽 대학생들에게 가장 중요한 경험 중 하나입니다. 이 프로그램은 수천 명의 젊은이들이 다른 유럽 국가의 대학에서 한 학기 또는 일 년 내내 공부할 수 있게 해줍니다. 스페인은 수년 동안 전 대륙의 에라스무스 학생들에게 <strong>가장 인기 있는</strong> 목적지였습니다.</p>
-<p>왜 스페인을 선택할까요? 학생들은 기후, 문화, 밤 문화 그리고 물론 세계에서 <strong>두 번째로 많이 사용되는</strong> 언어인 스페인어를 배우기 위해 이끌려 옵니다. 머무는 동안 &quot;에라스무스 학생들&quot;은 수업에 참여할 뿐만 아니라 여행을 다니고, 다양한 국적의 사람들을 만나며 더 독립적이 되는 법을 배웁니다. 이것은 더 개방적이고 관용적인 유럽 시민을 만드는 학술적 지식과 삶의 지혜가 섞인 경험입니다. 많은 이들에게 이 시기는 인생 최고의 해로 기억됩니다!</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Form the gerund (현재진행형을 위한 가느런디오 형태를 쓰세요)</h3>
+<p>왜 스페인을 선택할까요? 학생들은 기후, 문화, 밤 문화 그리고 물론 세계에서 <strong>두 번째로 많이 사용되는</strong> 언어인 스페인어를 배우기 위해 이끌려 옵니다. 머무는 동안 "에라스무스 학생들"은 수업에 참여할 뿐만 아니라 여행을 다니고, 다양한 국적의 사람들을 만나며 더 독립적이 되는 법을 배웁니다. 이것은 더 개방적이고 관용적인 유럽 시민을 만드는 학술적 지식과 삶의 지혜가 섞인 경험입니다. 많은 이들에게 이 시기는 인생 최고의 해로 기억됩니다!</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-form-the-gerund">A. Form the gerund (현재진행형을 위한 가느런디오 형태를 쓰세요)</h3>
 <ol>
 <li>Leer → ....................</li>
 <li>Trabajar → ....................</li>
@@ -265,7 +505,7 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 <li>Escribir → ....................</li>
 <li>Pedir → ....................</li>
 </ol>
-<h3>B. Fill in the blanks with comparisons (알맞은 비교급 표현을 완성하세요)</h3>
+<h3 id="b-fill-in-the-blanks-with-comparisons">B. Fill in the blanks with comparisons (알맞은 비교급 표현을 완성하세요)</h3>
 <ol>
 <li>El examen de hoy es (more difficult than) .................... el de ayer.</li>
 <li>Mi hermano es (not as tall as) .................... yo.</li>
@@ -273,42 +513,36 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 <li>El carné de estudiante es (less important than) .................... el pasaporte.</li>
 <li>Juan es (the best) .................... estudiante de la facultad.</li>
 </ol>
-<h3>C. 번역 연습 (주어진 문법을 활용해 번역하세요)</h3>
+<h3 id="c">C. 번역 연습 (주어진 문법을 활용해 번역하세요)</h3>
 <ol>
-<li>지금 나는 장학금을 신청하고 있어. (진행형 solicitar)<br>
-(............................................................)</li>
-<li>도서관은 학생 식당보다 더 조용해요. (비교급)<br>
-(............................................................)</li>
-<li>너는 지금 무엇을 읽고 있니?<br>
-(............................................................)</li>
-<li>스페인어는 영어만큼 재미있어요. (동등 비교)<br>
-(............................................................)</li>
-<li>졸업식은 우리 대학교에서 가장 중요한 행사예요. (최상급)<br>
-(............................................................)</li>
+<li>지금 나는 장학금을 신청하고 있어. (진행형 solicitar)<br />
+   (............................................................)</li>
+<li>도서관은 학생 식당보다 더 조용해요. (비교급)<br />
+   (............................................................)</li>
+<li>너는 지금 무엇을 읽고 있니?<br />
+   (............................................................)</li>
+<li>스페인어는 영어만큼 재미있어요. (동등 비교)<br />
+   (............................................................)</li>
+<li>졸업식은 우리 대학교에서 가장 중요한 행사예요. (최상급)<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Mi experiencia Erasmus en Madrid (나의 마드리드 에라스무스 경험)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="mi-experiencia-erasmus-en-madrid">Mi experiencia Erasmus en Madrid (나의 마드리드 에라스무스 경험)</h3>
 <p>Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid con una beca Erasmus. Actualmente, <strong>estoy estudiando</strong> Ciencias Políticas en la Universidad Complutense. Para mí, la vida en España es <strong>mejor que</strong> en Italia porque la gente es <strong>más abierta</strong>. Ahora mismo, <strong>estoy preparando</strong> un trabajo sobre la política europea con amigos de Francia와 독일. La biblioteca de mi facultad es <strong>más grande que</strong> la 도서관 de 내 고향, 하지만 가끔은 아주 시끄러워요. Lo que <strong>mejor</strong> valoro de esta experiencia es que <strong>estoy aprendiendo</strong> mucho sobre el mundo y 내 스페인어 실력도 날마다 좋아지고 있어요. ¡Es una aventura increíble!</p>
-<h3>Questions</h3>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>마르코는 지금 무엇을 전공하고 있나요? (What is Marco studying?)
-<ul>
+<li>마르코는 지금 무엇을 전공하고 있나요? (What is Marco studying?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>마르코가 생각하는 스페인 생활의 장점은 무엇인가요? (What is a merit of living in Spain according to Marco?)
-<ul>
+<li>마르코가 생각하는 스페인 생활의 장점은 무엇인가요? (What is a merit of living in Spain according to Marco?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 안녕하세요, 저는 마르코이고 이탈리아 학생입니다. 올해 저는 에라스무스 장학금을 받고 마드리드에서 살고 있습니다. 현재 저는 콤플루텐세 대학교에서 정치학을 <strong>공부하고 있습니다</strong>. 저에게 스페인에서의 삶은 사람들이 <strong>더 개방적</strong>이기 때문에 이탈리아보다 <strong>더 좋습니다</strong>. 지금 이 순간, 저는 프랑스와 독일 친구들과 함께 유럽 정치에 관한 보고서를 <strong>준비하고 있습니다</strong>. 우리 학부 도서관은 제 고향 도서관보다 <strong>더 크지만</strong>, 가끔은 아주 시끄럽습니다. 제가 이 경험에서 <strong>가장 높게</strong> 평가하는 것은 세상에 대해 많이 <strong>배우고 있다는</strong> 점과 제 스페인어 실력도 날마다 좋아지고 있다는 점입니다. 정말 놀라운 모험이에요!</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>Cambiando el horario (시간표 변경하기)</h3>
-<p><strong>Situación:</strong> Elena y Javier están hablando sobre sus asignaturas y el nuevo horario del semestre.<br>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="cambiando-el-horario">Cambiando el horario (시간표 변경하기)</h3>
+<p><strong>Situación:</strong> Elena y Javier están hablando sobre sus asignaturas y el nuevo horario del semestre.<br />
 <strong>상황:</strong> 엘레나와 하비에르가 그들의 과목과 이번 학기 새 시간표에 대해 이야기하고 있습니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -328,8 +562,9 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> ¡Buena idea! Yo también voy a ver si puedo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 좋은 생각이다! 나도 할 수 있는지 한번 봐야겠어.</td></tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이 장에서 배운 핵심 내용을 체크해 보세요:</p>
 <ul>
 <li>[ ] 장학금, 수강 신청, 시간표 등 대학 생활 어휘 10개 이상을 익혔나요?</li>
@@ -337,12 +572,12 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 <li>[ ] '더 ~한(más... que)', '최고의(el mejor)' 등 비교 및 최상급을 활용할 수 있나요?</li>
 <li>[ ] 유럽의 학생 교류 프로그램인 에라스무스에 대해 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Fantástico! 이번 장을 통해 여러분은 자신의 학업 생활과 현재 진행 중인 일들을 더욱 생생하게 묘사할 수 있게 되었습니다. 비교급과 진행형은 대화를 훨씬 더 역동적이고 구체적으로 만들어 줍니다. 여러분이 지금 하고 있는 이 '스페인어 공부'도 하나의 멋진 에라스무스 여정이라고 생각하며 정진해 보세요. 다음 장에서는 우리가 살아가면서 결코 빠질 수 없는 요소인 '일상의 루틴과 시간 관리(La rutina)'에 대해 배워보겠습니다. ¡Ánimo y adelante!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Form the gerund</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-form-the-gerund">6. Práctica - A. Form the gerund</h3>
 <ol>
 <li>
 <ol>
@@ -350,7 +585,7 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - B. Fill in the blanks with comparisons</h3>
+<h3 id="6-practica-b-fill-in-the-blanks-with-comparisons">6. Práctica - B. Fill in the blanks with comparisons</h3>
 <ol>
 <li>
 <ol>
@@ -358,7 +593,7 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -386,7 +621,7 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

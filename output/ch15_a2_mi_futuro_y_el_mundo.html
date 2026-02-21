@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch15_a2_mi_futuro_y_el_mundo.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 15: Mi futuro y el mundo (A2)</h1>
+<div class="container">
+<h1 id="chapter-15-mi-futuro-y-el-mundo-a2">Chapter 15: Mi futuro y el mundo (A2)</h1>
 <p class="cervantes-ref">Cervantes: §15 미래 계획 심화: 미래 시제 및 §16 사회 문제와 국제 사회</p>
-<h2>1. Opener</h2>
-<p><strong>Compromiso y visión (약속과 비전)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Compromiso y visión (약속과 비전)</strong><br />
 A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 넘어, 우리가 직면한 사회적 과제와 세계 시민으로서의 역할에 대해 스페인어로 심도 있게 이야기해 봅니다. 조만간 일어날 일(Ir a)뿐만 아니라, 조금 더 먼 미래에 일어날 일들을 '미래 시제(Futuro Simple)'를 통해 확실하게 표현하는 방법을 배웁니다. 빈곤, 불평등, 환경 위기 같은 사회적 문제들을 어떻게 정의하고, 스페인과 세계의 청년들이 이에 어떻게 대응하고 있는지 함께 알아볼까요? 여러분의 스페인어는 이제 세상을 바꾸는 도구가 될 것입니다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>사회 문제(Problemas sociales), 국제 협력 및 미래 비전 어휘 15개 이상 습득</li>
 <li>미래 시제(Futuro Simple)의 변화와 활용 (의지, 추측, 먼 미래)</li>
 <li>사회적 의견 표명하기 (Creo que, Es necesario 등)</li>
 <li>스페인의 사회 연대 문화와 글로벌 이슈에 대한 인식 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
-<strong>¿Sabías que...?</strong> 스페인어의 미래 시제는 아주 특별합니다. 동사원형 뒤에 어미를 바로 붙이기 때문이죠! 또한 이 시제는 단순한 미래뿐만 아니라, 현재에 대한 '추측'을 할 때도 쓰입니다. &quot;¿Qué hora será? (지금 몇 시쯤일까?)&quot;처럼 말이죠. 미래 시제의 다재다능함을 이번 장에서 발견해 보세요!</div>
-<hr>
-<h2>2. Vocabulario Esencial: Sociedad y Desafíos</h2>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...?</strong> 스페인어의 미래 시제는 아주 특별합니다. 동사원형 뒤에 어미를 바로 붙이기 때문이죠! 또한 이 시제는 단순한 미래뿐만 아니라, 현재에 대한 '추측'을 할 때도 쓰입니다. "¿Qué hora será? (지금 몇 시쯤일까?)"처럼 말이죠. 미래 시제의 다재다능함을 이번 장에서 발견해 보세요!</div>
+<hr />
+<h2 id="2-vocabulario-esencial-sociedad-y-desafios">2. Vocabulario Esencial: Sociedad y Desafíos</h2>
 <p>우리가 함께 고민하고 해결해야 할 사회적 과제들입니다. 협력과 전진의 이미지를 보며 어휘를 익혀보세요.</p>
-<p><img src="../images/ch15_a2_vocab_society_v2_1.png" alt="Sociedad"></p>
+<p><img alt="Sociedad" src="../images/ch15_a2_vocab_society_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,28 +379,29 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td>10</td><td><strong>el desarrollo sostenible</strong></td><td><strong>Sustainable Development</strong> ✅</td><td>지속 가능한 발전</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>사회 문제에 대한 의견을 나누고 미래의 비전을 제시할 때 유용한 패턴입니다.</p>
-<h3>A. 미래 시제 활용 (Futuro)</h3>
+<h3 id="a-futuro">A. 미래 시제 활용 (Futuro)</h3>
 <ul>
 <li><strong>El mundo cambiará mucho en diez años.</strong> (The world will change a lot in ten years. / 세상은 10년 뒤에 많이 변할 거예요.)</li>
 <li><strong>Seré un ciudadano responsable.</strong> (I will be a responsible citizen. / 나는 책임감 있는 시민이 될 것입니다.)</li>
 <li><strong>¿Qué pasará con el planeta?</strong> (What will happen to the planet? / 지구는 어떻게 될까요?)</li>
 <li><strong>Trabajaremos juntos por la paz.</strong> (We will work together for peace. / 우리는 평화를 위해 함께 일할 것입니다.)</li>
 </ul>
-<h3>B. 의견 및 필요성 표현 (Opinión y Necesidad)</h3>
+<h3 id="b-opinion-y-necesidad">B. 의견 및 필요성 표현 (Opinión y Necesidad)</h3>
 <ul>
 <li><strong>Creo que es necesario ayudar a los demás.</strong> (I believe it is necessary to help others. / 타인을 돕는 것이 필요하다고 생각합니다.)</li>
 <li><strong>Es importante luchar contra la pobreza.</strong> (It is important to fight against poverty. / 빈곤에 맞서 싸우는 것은 중요합니다.)</li>
 <li><strong>Debemos proteger los derechos humanos.</strong> (We must protect human rights. / 우리는 인권을 보호해야 합니다.)</li>
 <li><strong>Me importa mucho el futuro del mundo.</strong> (I care a lot about the future of the world. / 나는 세상의 미래가 매우 중요하다고 생각해요(관심이 있어요).)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>동사의 원형을 그대로 두고 꼬리만 붙이는 규칙적인 미래 시제를 배워봅시다.</p>
-<h3>Futuro Simple (단순 미래) - 규칙형</h3>
+<h3 id="futuro-simple-">Futuro Simple (단순 미래) - 규칙형</h3>
 <p>모든 -ar, -er, -ir 동사의 끝에 동일한 어미를 붙입니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -175,11 +421,11 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td>estudi<strong>arán</strong> / com<strong>erán</strong> / viv<strong>irán</strong></td><td><strong>-án</strong></td><td>They/You all will</td></tr>
   </tbody>
 </table>
-### **Important!** 1인칭 복수(`-emos`)를 제외한 모든 어미에 강세(Acento)가 있다는 점을 꼭 기억하세요!
-<h3>B. 명령법 (Imperativo) - 긍정 및 부정</h3>
+<h3 id="important-1-emos-acento"><strong>Important!</strong> 1인칭 복수(<code>-emos</code>)를 제외한 모든 어미에 강세(Acento)가 있다는 점을 꼭 기억하세요!</h3>
+<h3 id="b-imperativo-">B. 명령법 (Imperativo) - 긍정 및 부정</h3>
 <p>미래의 더 나은 세상을 위해 다른 사람에게 행동을 촉구하거나 조언할 때 필수적인 '명령법'입니다.</p>
-<h4>1. 긍정 명령 (Imperativo Afirmativo)</h4>
-<p>상대방에게 무언가를 하라고 지시하거나 제안할 때 사용합니다. 일상에서 가장 많이 쓰이는 **tú(너)**에 대한 긍정 명령은 매우 간단합니다. <strong>현재 시제 3인칭 단수(él/ella)</strong> 형태와 똑같이 생겼습니다.</p>
+<h4 id="1-imperativo-afirmativo">1. 긍정 명령 (Imperativo Afirmativo)</h4>
+<p>상대방에게 무언가를 하라고 지시하거나 제안할 때 사용합니다. 일상에서 가장 많이 쓰이는 <strong>tú(너)</strong>에 대한 긍정 명령은 매우 간단합니다. <strong>현재 시제 3인칭 단수(él/ella)</strong> 형태와 똑같이 생겼습니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -195,13 +441,14 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td><strong>Vivir</strong> (살다)</td><td><strong>Vive</strong></td><td>Live</td><td>¡<strong>Vive</strong> el momento! (현재를 살아라!)</td></tr>
   </tbody>
 </table>
+
 <p><strong>💡 필수 불규칙 긍정 명령 (Tú):</strong></p>
 <ul>
 <li>decir → <strong>di</strong> / hacer → <strong>haz</strong> / ir → <strong>ve</strong> / poner → <strong>pon</strong> / salir → <strong>sal</strong> / ser → <strong>sé</strong> / tener → <strong>ten</strong> / venir → <strong>ven</strong></li>
-<li>짧게 &quot;디 하스 베 폰 살 세 텐 벤&quot;으로 운율을 맞춰 외우면 좋습니다.</li>
+<li>짧게 "디 하스 베 폰 살 세 텐 벤"으로 운율을 맞춰 외우면 좋습니다.</li>
 </ul>
-<h4>2. 부정 명령 (Imperativo Negativo)</h4>
-<p>&quot;~하지 마&quot;라고 금지하거나 만류할 때 사용합니다. 스페인어의 부정 명령은 단순히 'No'만 붙이는 것이 아니라, <strong>동사의 어미가 교차</strong> 변형(접속법 현재 형태)되어야 합니다.</p>
+<h4 id="2-imperativo-negativo">2. 부정 명령 (Imperativo Negativo)</h4>
+<p>"~하지 마"라고 금지하거나 만류할 때 사용합니다. 스페인어의 부정 명령은 단순히 'No'만 붙이는 것이 아니라, <strong>동사의 어미가 교차</strong> 변형(접속법 현재 형태)되어야 합니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -217,11 +464,12 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td><strong>Escribir</strong></td><td><strong>No escribas</strong></td><td>-ir → <strong>-as</strong></td><td>¡<strong>No escribas</strong> en la pared! (벽에 쓰지 마!)</td></tr>
   </tbody>
 </table>
+
 <p><strong>💡 필수 불규칙 부정 명령 (Tú):</strong></p>
 <ul>
 <li>ir → <strong>no vayas</strong> / ser → <strong>no seas</strong> / dar → <strong>no des</strong> / estar → <strong>no estés</strong> / saber → <strong>no sepas</strong></li>
 </ul>
-<h3>C. Futuro Simple - Irregulares (불규칙형)</h3>
+<h3 id="c-futuro-simple-irregulares">C. Futuro Simple - Irregulares (불규칙형)</h3>
 <p>일부 동사들은 어근이 바뀐 뒤 미래 어미(-é, -ás, -á...)를 붙입니다.</p>
 <ul>
 <li><strong>hacer</strong> → <strong>har-</strong> : <em>Haré voluntariado.</em> (나는 자원봉사를 할 거야.)</li>
@@ -234,15 +482,15 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 <li><strong>venir</strong> → <strong>vendr-</strong> : <em>Vendrán tiempos mejores.</em> (더 좋은 시절이 올 거야.)</li>
 <li><strong>haber</strong> → <strong>habr-</strong> : <em>Habrá más justicia.</em> (더 많은 정의가 있을 거야.)</li>
 </ul>
-<h3>C. Verbos Regulares (Revisión)</h3>
+<h3 id="c-verbos-regulares-revision">C. Verbos Regulares (Revisión)</h3>
 <p>미래의 변화를 위해 우리는 무엇을 할까요?</p>
 <ul>
 <li><strong>Hablar</strong>: <strong>Hablaremos</strong> del futuro. (We will talk about the future. / 우리는 미래에 대해 이야기할 것입니다.)</li>
 <li><strong>Comer</strong>: <strong>Comeremos</strong> comida orgánica. (We will eat organic food. / 우리는 유기농 음식을 먹을 것입니다.)</li>
 <li><strong>Vivir</strong>: <strong>Viviremos</strong> en paz. (We will live in peace. / 우리는 평화롭게 살 것입니다.)</li>
 </ul>
-<hr>
-<h3>D. Pluscuamperfecto (과거완료)</h3>
+<hr />
+<h3 id="d-pluscuamperfecto">D. Pluscuamperfecto (과거완료)</h3>
 <p>'과거완료'는 과거의 어떤 시점보다 <strong>'더 이전에'</strong> 일어난 일을 표현할 때 사용합니다. 영어의 <em>Past Perfect (had + p.p)</em> 와 같은 개념입니다.</p>
 <p><strong>형태:</strong> <strong>Haber (불완료과거)</strong> + <strong>Participio (과거분사)</strong></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
@@ -263,23 +511,24 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
     <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>habían</strong></td><td>comido / vivido</td><td>They had eaten/lived</td></tr>
   </tbody>
 </table>
+
 <p><strong>예문:</strong></p>
 <ul>
 <li>Cuando llegué a la fiesta, Juan ya se <strong>había ido</strong>. (내가 파티에 도착했을 때, 후안은 이미 떠나고 없었다.)</li>
 <li>Nunca <strong>había visto</strong> algo así antes. (전에는 그런 것을 본 적이 없었다.)</li>
 </ul>
-<hr>
-<h2>5. Cultura Viva: Los Jóvenes Españoles y el Compromiso Social</h2>
+<hr />
+<h2 id="5-cultura-viva-los-jovenes-espanoles-y-el-compromiso-social">5. Cultura Viva: Los Jóvenes Españoles y el Compromiso Social</h2>
 <p>스페인 청년들은 오늘날의 사회 문제에 어떻게 대응하고 있을까요?</p>
-<p><img src="../images/ch15_a2_culture_engagement_v2_1.png" alt="Social Action"></p>
+<p><img alt="Social Action" src="../images/ch15_a2_culture_engagement_v2_1.png" /></p>
 <p>España es un país con una fuerte cultura de <strong>solidaridad</strong>. Según las estadísticas, muchos jóvenes participan en programas de <strong>voluntariado</strong>, tanto en España como en el extranjero. Les interesan temas como la protección de los océanos, la integración de inmigrantes y la reducción de la desigualdad social.</p>
-<p>Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos suelen salir a la calle para manifestarse y pedir un futuro mejor. No es solo política; es un sentimiento de comunidad. 스페인 청년들은 &quot;El futuro es nuestro(미래는 우리의 것이다)&quot;라고 믿으며, 디지털 기술을 통해 전 세계와 연결되어 함께 목소리를 냅니다. 이들의 열정적인 태도는 스페인을 더욱 역동적이고 희망찬 나라로 만드는 원동력입니다.</p>
-<p><strong>[한국어 번역]</strong><br>
+<p>Además, España ha sido pionera en leyes de derechos sociales. Los ciudadanos suelen salir a la calle para manifestarse y pedir un futuro mejor. No es solo política; es un sentimiento de comunidad. 스페인 청년들은 "El futuro es nuestro(미래는 우리의 것이다)"라고 믿으며, 디지털 기술을 통해 전 세계와 연결되어 함께 목소리를 냅니다. 이들의 열정적인 태도는 스페인을 더욱 역동적이고 희망찬 나라로 만드는 원동력입니다.</p>
+<p><strong>[한국어 번역]</strong><br />
 스페인은 강한 <strong>연대(solidarity)</strong> 문화를 가진 나라입니다. 통계에 따르면, 많은 청년이 스페인 국내외에서 자원봉사 프로그램에 참여하고 있습니다. 이들은 해양 보호, 이민자 통합, 사회적 불평등 해소와 같은 주제에 관심이 많습니다.</p>
-<p>또한, 스페인은 사회적 권리 법안에서 선구적인 역할을 해왔습니다. 시민들은 더 나은 미래를 요구하기 위해 거리로 나와 의사를 표현하곤 합니다. 이것은 단순한 정치가 아니라 공동체 의식입니다. 스페인 청년들은 &quot;미래는 우리의 것이다&quot;라고 믿으며, 디지털 기술을 통해 전 세계와 연결되어 함께 목소리를 냅니다. 이들의 열정적인 태도는 스페인을 더욱 역동적이고 희망찬 나라로 만드는 원동력입니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Conjugate markers for the future tense (미래 시제 어미를 알맞게 붙이세요)</h3>
+<p>또한, 스페인은 사회적 권리 법안에서 선구적인 역할을 해왔습니다. 시민들은 더 나은 미래를 요구하기 위해 거리로 나와 의사를 표현하곤 합니다. 이것은 단순한 정치가 아니라 공동체 의식입니다. 스페인 청년들은 "미래는 우리의 것이다"라고 믿으며, 디지털 기술을 통해 전 세계와 연결되어 함께 목소리를 냅니다. 이들의 열정적인 태도는 스페인을 더욱 역동적이고 희망찬 나라로 만드는 원동력입니다.</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-conjugate-markers-for-the-future-tense">A. Conjugate markers for the future tense (미래 시제 어미를 알맞게 붙이세요)</h3>
 <ol>
 <li>Mañana yo habl (..........) con el director.</li>
 <li>Nosotros com (..........) paella el domingo.</li>
@@ -287,7 +536,7 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 <li>¿Tú estudi (..........) español el próximo año?</li>
 <li>Ellos viaj (..........) por toda América Latina.</li>
 </ol>
-<h3>B. Choose between Saber, Conocer, and the Future Tense (문맥에 맞는 동사를 고르세요)</h3>
+<h3 id="b-choose-between-saber-conocer-and-the-future-tense">B. Choose between Saber, Conocer, and the Future Tense (문맥에 맞는 동사를 고르세요)</h3>
 <ol>
 <li>Yo (..........) que mañana vas a viajar. (sé / conozco)</li>
 <li>¿(..........) tú a ese voluntario? (Sabes / Conoces)</li>
@@ -295,20 +544,20 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 <li>Ella (..........) hablar tres idiomas. (sabe / conoce)</li>
 <li>Algún día (..........) la paz en el mundo. (habrá / hay) - <em>Note: habrá is irregular future of hay</em></li>
 </ol>
-<h3>C. 번역 연습 (미래 시제 및 사회적 표현을 활용하세요)</h3>
+<h3 id="c">C. 번역 연습 (미래 시제 및 사회적 표현을 활용하세요)</h3>
 <ol>
-<li>우리는 더 나은 세상을 만들 것입니다. (만들다: crear / 미래 시제 사용)<br>
-(............................................................)</li>
-<li>인권을 보호하는 것은 매우 중요합니다.<br>
-(............................................................)</li>
-<li>나는 미래에 자원봉사자가 될 거예요. (되다: ser / 미래 시제 사용)<br>
-(............................................................)</li>
-<li>사람들은 기후 변화에 대해 걱정합니다 (사용: preocuparse por).<br>
-(............................................................)</li>
-<li>10년 뒤에 당신은 어디에 있을까요? (있다: estar / 미래 시제 사용)<br>
-(............................................................)</li>
+<li>우리는 더 나은 세상을 만들 것입니다. (만들다: crear / 미래 시제 사용)<br />
+   (............................................................)</li>
+<li>인권을 보호하는 것은 매우 중요합니다.<br />
+   (............................................................)</li>
+<li>나는 미래에 자원봉사자가 될 거예요. (되다: ser / 미래 시제 사용)<br />
+   (............................................................)</li>
+<li>사람들은 기후 변화에 대해 걱정합니다 (사용: preocuparse por).<br />
+   (............................................................)</li>
+<li>10년 뒤에 당신은 어디에 있을까요? (있다: estar / 미래 시제 사용)<br />
+   (............................................................)</li>
 </ol>
-<h3>D. Pluscuamperfecto (과거완료) 연습</h3>
+<h3 id="d-pluscuamperfecto_1">D. Pluscuamperfecto (과거완료) 연습</h3>
 <p>다음 문장을 과거완료(Había + p.p) 형태로 완성하세요.</p>
 <ol>
 <li>Cuando llegué, ellos ya (..........) (comer).</li>
@@ -317,31 +566,25 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 <li>¿Tú (..........) (vivir) en Madrid antes?</li>
 <li>Vosotros (..........) (hacer) la tarea.</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Una carta a mi yo del futuro (미래의 나에게 보내는 편지)</h3>
-<p>Querido &quot;yo&quot; del futuro:<br>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="una-carta-a-mi-yo-del-futuro">Una carta a mi yo del futuro (미래의 나에게 보내는 편지)</h3>
+<p>Querido "yo" del futuro:<br />
 Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy muy feliz. Sé que el español cambiará mi vida. En el futuro, ¿hablarás español perfectamente? Espero que sí. También espero que vivas en un mundo con más solidaridad y menos pobreza. Sé que lucharás por los derechos humanos y que ayudarás a proteger el medio ambiente. ¿Seguirás haciendo voluntariado? El camino no será fácil, pero estoy seguro de que serás una persona valiente. Recuerda: el desarrollo sostenible es la clave. ¡Nos vemos en el futuro!</p>
-<h3>Questions</h3>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>주인공은 미래의 자신이 어떤 세상에서 살기를 바라나요? (In what kind of world does the protagonist hope his future self lives?)
-<ul>
+<li>주인공은 미래의 자신이 어떤 세상에서 살기를 바라나요? (In what kind of world does the protagonist hope his future self lives?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>주인공은 미래의 자신이 무엇을 위해 싸울 것이라고 믿나요? (What does the protagonist believe his future self will fight for?)
-<ul>
+<li>주인공은 미래의 자신이 무엇을 위해 싸울 것이라고 믿나요? (What does the protagonist believe his future self will fight for?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
-미래의 &quot;나&quot;에게:<br>
+<p><strong>[한국어 번역]</strong><br />
+미래의 "나"에게:<br />
 2025년에서 너에게 편지를 써. 오늘 내 스페인어 A2 과정을 마쳤어. 정말 행복해. 스페인어가 내 삶을 바꿀 거라는 걸 알아. 미래에 너는 스페인어를 완벽하게 하고 있을까? 그러길 바라. 또한 네가 더 많은 연대가 있고 가난이 적은 세상에서 살기를 바라. 네가 인권을 위해 싸우고 환경을 보호하는 일을 도울 거라는 걸 알아. 계속 자원봉사를 하고 있을까? 길이 쉽지는 않겠지만, 네가 용기 있는 사람이 될 거라고 확신해. 기억해. 지속 가능한 발전이 핵심이야. 미래에서 만나자!</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>El mundo que queremos (우리가 원하는 세상)</h3>
-<p><strong>Situación:</strong> Dos estudiantes, Elena y Mateo, discuten sobre los desafíos del futuro.<br>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="el-mundo-que-queremos">El mundo que queremos (우리가 원하는 세상)</h3>
+<p><strong>Situación:</strong> Dos estudiantes, Elena y Mateo, discuten sobre los desafíos del futuro.<br />
 <strong>상황:</strong> 두 학생 엘레나와 마테오가 미래의 과제에 대해 토론합니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -359,8 +602,9 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> ¡Qué bien! El futuro estará en nuestras manos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 멋지다! 미래는 우리 손에 달려 있을 거야.</td></tr>
   </tbody>
 </table>
-<hr>
-<h3>Participio (과거분사) - Irregulares (Revisión)</h3>
+
+<hr />
+<h3 id="participio-irregulares-revision">Participio (과거분사) - Irregulares (Revisión)</h3>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
 <li><strong>poner</strong> (놓다) → <strong>puesto</strong></li>
@@ -371,14 +615,14 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3>Verbos Regulares (Revisión)</h3>
+<h3 id="verbos-regulares-revision">Verbos Regulares (Revisión)</h3>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr>
-<h2>9. Repaso</h2>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 사회 문제, 미래, 연대와 관련된 심화 어휘 10개 이상을 이해하나요?</li>
@@ -386,20 +630,20 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 <li>[ ] 'Creo que'와 'Es necesario'를 사용하여 자신의 사회적 의견을 말할 수 있나요?</li>
 <li>[ ] 글로벌 이슈에 대한 스페인 사회의 관심과 태도를 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Enhorabuena! 드디어 대장정의 마지막 마침표를 찍었습니다. 여러분은 1장부터 15장까지 오면서 단순히 단어를 외운 것이 아니라, 스페인어라는 렌즈를 통해 세상을 보는 법을 배웠습니다. 이제 여러분은 미래를 꿈꾸고, 사회를 걱정하며, 더 나은 세상을 위해 대화할 수 있는 당당한 스페인어 구사자입니다. 이 책의 마지막 장이 여러분의 실제 모험을 위한 첫 장이 되기를 바랍니다. ¡El mundo es vuestro! ¡Muchas felicidades y hasta siempre!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Conjugate markers for the future tense</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-conjugate-markers-for-the-future-tense">6. Práctica - A. Conjugate markers for the future tense</h3>
 <ol>
 <li>hablaré, 2. comeremos, 3. será, 4. estudiarás, 5. viajarán</li>
 </ol>
-<h3>6. Práctica - B. Choose between Saber, Conocer, and the Future Tense</h3>
+<h3 id="6-practica-b-choose-between-saber-conocer-and-the-future-tense">6. Práctica - B. Choose between Saber, Conocer, and the Future Tense</h3>
 <ol>
 <li>sé, 2. Conoces, 3. usaremos, 4. sabe, 5. habrá</li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Crearemos un mundo mejor.</li>
 <li>Es muy importante proteger los derechos humanos.</li>
@@ -407,7 +651,7 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 <li>La gente se preocupa por el cambio climático.</li>
 <li>¿Dónde estarás en diez años? (또는 ¿Dóne estará usted en diez años?)</li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>더 많은 연대가 있고 가난이 적은 세상 (Un mundo con más solidaridad y menos pobreza).</li>
 <li>인권과 환경 보호 (Los derechos humanos y la protección del medio ambiente).</li>

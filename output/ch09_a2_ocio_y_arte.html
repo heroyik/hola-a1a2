@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch09_a2_ocio_y_arte.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 9: Ocio y arte (A2)</h1>
+<div class="container">
+<h1 id="chapter-9-ocio-y-arte-a2">Chapter 9: Ocio y arte (A2)</h1>
 <p class="cervantes-ref">Cervantes: §8 Ocio: 여가 활동 심화 및 §18 예술적 활동: 영화, 음악, 미술 실전</p>
-<h2>1. Opener</h2>
-<p><strong>El arte de vivir (삶의 예술)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>El arte de vivir (삶의 예술)</strong><br />
 A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 미래의 여가 계획을 구체적으로 세우는 법을 배웁니다. 어떤 영화를 좋아하는지, 가장 인상 깊었던 예술가는 누구인지 깊이 있는 대화를 나눌 준비가 되셨나요? 이번 장에서는 영화, 음악, 시각 예술 관련 고급 어휘를 익히고, 미래를 나타내는 'Futuro Simple'과 'Si(만약)'를 활용한 가정문을 배웁니다. 스페인어라는 도구를 통해 여러분의 문화적 지평을 한 단계 더 넓혀봅시다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>영화, 음악, 연극 등 예술 장르 및 비평 관련 어휘 15개 이상 습득</li>
 <li>단순 미래 시제(Futuro Simple)의 규칙/불규칙 변화 및 활용</li>
 <li>'Si(만약)'를 활용한 1종 가정문(가능성 있는 미래) 구성</li>
 <li>스페인의 현대 영화 산업과 세계적인 예술가들의 지문 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
-<strong>¿Sabías que...?</strong> 스페인은 세계적인 영화 거장인 페드로 알모도바르(Pedro Almodóvar)의 나라입니다. 그의 영화들은 스페인 특유의 강렬한 색감과 인간 관계에 대한 통찰로 유명하죠. 스페인 친구들과 영화 이야기를 할 때 &quot;Me encanta la estética de Almodóvar(알모도바르의 미학을 정말 좋아해)&quot;라고 말해보세요. 대화가 훨씬 풍성해질 것입니다.</div>
-<hr>
-<h2>2. Vocabulario Esencial: Cine, Música y Arte</h2>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...?</strong> 스페인은 세계적인 영화 거장인 페드로 알모도바르(Pedro Almodóvar)의 나라입니다. 그의 영화들은 스페인 특유의 강렬한 색감과 인간 관계에 대한 통찰로 유명하죠. 스페인 친구들과 영화 이야기를 할 때 "Me encanta la estética de Almodóvar(알모도바르의 미학을 정말 좋아해)"라고 말해보세요. 대화가 훨씬 풍성해질 것입니다.</div>
+<hr />
+<h2 id="2-vocabulario-esencial-cine-musica-y-arte">2. Vocabulario Esencial: Cine, Música y Arte</h2>
 <p>감각적인 예술의 세계로 초대합니다. 번호와 매칭되는 단어를 확인하며 분야별 핵심 어휘들을 익혀보세요.</p>
-<p><img src="../images/ch09_a2_vocab_cinema_music_v2_1.png" alt="Cine y Arte"></p>
+<p><img alt="Cine y Arte" src="../images/ch09_a2_vocab_cinema_music_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,28 +379,29 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
     <tr><td>10</td><td><strong>el espectáculo</strong></td><td><strong>Spectacle</strong> ✅</td><td>공연 / 볼거리</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>예술적 취향을 표현하고 계획을 세울 때 유용한 실전 패턴입니다.</p>
-<h3>A. 영화 및 공연 비평하기</h3>
+<h3 id="a">A. 영화 및 공연 비평하기</h3>
 <ul>
 <li><strong>¿Qué te ha parecido la película?</strong> (What did you think of the movie? / 영화 어땠어?)</li>
 <li><strong>La actuación fue increíble.</strong> (The acting was incredible. / 연기가 정말 대단했어.)</li>
 <li><strong>Prefiero el cine independiente.</strong> (I prefer independent cinema. / 나는 독립 영화를 선호해.)</li>
 <li><strong>Me ha conmovido mucho.</strong> (It moved me a lot. / 정말 감동적이었어.)</li>
 </ul>
-<h3>B. 미래 계획과 가정 (Futuro y Condición)</h3>
+<h3 id="b-futuro-y-condicion">B. 미래 계획과 가정 (Futuro y Condición)</h3>
 <ul>
 <li><strong>Iré al concierto si tengo dinero.</strong> (I will go to the concert if I have money. / 돈이 있으면 콘서트에 갈 거야.)</li>
 <li><strong>¿Qué harás este verano?</strong> (What will you do this summer? / 이번 여름에 뭐 할 거니?)</li>
 <li><strong>Será una experiencia única.</strong> (It will be a unique experience. / 유일무이한 경험이 될 거야.)</li>
 <li><strong>Si vienes, nos divertiremos.</strong> (If you come, we will have fun. / 네가 오면 우리는 즐거운 시간을 보낼 거야.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>확신이 있는 미래와 가능성 있는 가정을 표현하는 법을 심층적으로 다뤄봅시다.</p>
-<h3>A. 단순 미래 (Futuro Simple)</h3>
+<h3 id="a-futuro-simple">A. 단순 미래 (Futuro Simple)</h3>
 <p>미래 시제는 동사 원형 뒤에 어미를 붙이는 방식으로, -ar, -er, -ir 동사의 어미가 모두 동일합니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -174,7 +420,8 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
     <tr><td>ellos/ellas/uds.</td><td>hablar<strong>án</strong></td><td>-án</td></tr>
   </tbody>
 </table>
-<h4>필수 불규칙 동사 (Mandatory Irregular Verbs - Futuro)</h4>
+
+<h4 id="mandatory-irregular-verbs-futuro">필수 불규칙 동사 (Mandatory Irregular Verbs - Futuro)</h4>
 <p>미래 시제에서 불규칙한 어간(Stem)을 가지는 필수 동사들입니다. 어미 변화는 규칙 동사와 동일하게 적용됩니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -196,24 +443,25 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
     <tr><td><strong>saber</strong> (to know)</td><td>sabr-</td><td>sabr<strong>é</strong></td></tr>
   </tbody>
 </table>
-<h3>B. Si + 현재, 미래 (현실적 가정)</h3>
+
+<h3 id="b-si">B. Si + 현재, 미래 (현실적 가정)</h3>
 <p>'만약 ~하면, ~할 것이다'라는 조건문을 만드는 가장 기초적인 방법입니다.</p>
 <ul>
 <li><strong>Si llueve, no iré al parque.</strong> (만약 비가 오면, 공원에 가지 않을 것이다.)</li>
 <li><strong>Si estudias mucho, sabrás la respuesta.</strong> (공부를 열심히 하면 정답을 알게 될 것이다.)</li>
 </ul>
-<hr>
-<h2>5. Cultura Viva: El Cine y la Música en la España de Hoy</h2>
+<hr />
+<h2 id="5-cultura-viva-el-cine-y-la-musica-en-la-espana-de-hoy">5. Cultura Viva: El Cine y la Música en la España de Hoy</h2>
 <p>현대 스페인의 예술적 성취와 매력을 알아봅시다.</p>
-<p><img src="../images/ch09_a2_culture_cinema_v2_1.png" alt="Professional Art Scene"></p>
+<p><img alt="Professional Art Scene" src="../images/ch09_a2_culture_cinema_v2_1.png" /></p>
 <p>España no solo vive de su glorioso pasado (Goya, Velázquez, Picasso), sino que también tiene una industria cultural muy potente hoy en día. El cine español es reconocido internacionalmente por su originalidad. Los <strong>Premios Goya</strong> son el evento más importante del año, comparables a los Oscar de Hollywood. Directores como <strong>Pedro Almodóvar</strong> y actores como <strong>Penélope Cruz</strong> o <strong>Javier Bardem</strong> son embajadores del arte español en el mundo.</p>
 <p>En cuanto a la música, España ofrece una mezcla fascinante de tradición y modernidad. Mientras que el <strong>flamenco</strong> sigue siendo una seña de identidad única (especialmente en Andalucía), artistas contemporáneos como <strong>Rosalía</strong> han llevado estos sonidos tradicionales a la música pop global. Los festivales de música de verano, como el <strong>Primavera Sound</strong> en Barcelona, colocan a España en el centro del mapa musical internacional.</p>
-<p><strong>[한국어 번역]</strong><br>
-스페인은 단순히 과거의 영광(고야, 벨라스케스, 피카소)에만 머무르지 않고, 오늘날 매우 강력한 문화 산업을 보유하고 있습니다. 스페인 영화는 독창성으로 국제적인 인정을 받고 있습니다. **고야상(Premios Goya)**은 할리우드의 오스카에 비견되는 스페인 최대의 연례 영화 행사입니다. <strong>페드로 알모도바르</strong>와 같은 감독들과 <strong>페넬로페 크루즈</strong>, <strong>하비에르 바르뎀</strong> 같은 배우들은 전 세계 스페인 예술의 홍사대사들입니다.</p>
-<p>음악 측면에서 스페인은 전통과 현대의 매혹적인 조화를 보여줍니다. <strong>플라멩코</strong>가 여전히 독특한 정체성의 상징(특히 안달루시아에서)으로 남아있는 한편, <strong>로살리아</strong> 같은 현대 아티스트들은 이러한 전통 사운드를 글로벌 팝 음악으로 이끌어냈습니다. 바르셀로나의 **프리마베라 사운드(Primavera Sound)**와 같은 여름 음악 축제들은 스페인을 국제 음악 지도의 중심에 놓았습니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the art form with the description (예술 장르와 설명을 연결하세요)</h3>
+<p><strong>[한국어 번역]</strong><br />
+스페인은 단순히 과거의 영광(고야, 벨라스케스, 피카소)에만 머무르지 않고, 오늘날 매우 강력한 문화 산업을 보유하고 있습니다. 스페인 영화는 독창성으로 국제적인 인정을 받고 있습니다. <strong>고야상(Premios Goya)</strong>은 할리우드의 오스카에 비견되는 스페인 최대의 연례 영화 행사입니다. <strong>페드로 알모도바르</strong>와 같은 감독들과 <strong>페넬로페 크루즈</strong>, <strong>하비에르 바르뎀</strong> 같은 배우들은 전 세계 스페인 예술의 홍사대사들입니다.</p>
+<p>음악 측면에서 스페인은 전통과 현대의 매혹적인 조화를 보여줍니다. <strong>플라멩코</strong>가 여전히 독특한 정체성의 상징(특히 안달루시아에서)으로 남아있는 한편, <strong>로살리아</strong> 같은 현대 아티스트들은 이러한 전통 사운드를 글로벌 팝 음악으로 이끌어냈습니다. 바르셀로나의 <strong>프리마베라 사운드(Primavera Sound)</strong>와 같은 여름 음악 축제들은 스페인을 국제 음악 지도의 중심에 놓았습니다.</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-art-form-with-the-description">A. Match the art form with the description (예술 장르와 설명을 연결하세요)</h3>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -229,7 +477,8 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
     <tr><td style="padding: 10px; border: 1px solid #ddd;">5. La literatura</td><td style="padding: 10px; border: 1px solid #ddd;">e. Leer libros y novelas.</td></tr>
   </tbody>
 </table>
-<h3>B. 미래 시제 연습 (괄호 안의 동사를 미래형으로 변형하세요)</h3>
+
+<h3 id="b">B. 미래 시제 연습 (괄호 안의 동사를 미래형으로 변형하세요)</h3>
 <ol>
 <li>Mañana, nosotros (..........) al Prado. (ir)</li>
 <li>El director (..........) una película nueva el próximo año. (hacer)</li>
@@ -237,42 +486,36 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 <li>Mis amigos (..........) a la fiesta a las diez. (venir)</li>
 <li>¿Qué (..........) tú en tus vacaciones? (hacer)</li>
 </ol>
-<h3>C. 번역 연습 (미래 시제와 Si 가정문을 활용하세요)</h3>
+<h3 id="c-si">C. 번역 연습 (미래 시제와 Si 가정문을 활용하세요)</h3>
 <ol>
-<li>만약 네가 원한다면, 나는 너와 함께 갈 거야. (si quieres, iré contigo)<br>
-(............................................................)</li>
-<li>우리는 주말에 티켓을 살 것입니다. (comprar las entradas)<br>
-(............................................................)</li>
-<li>내일은 날씨가 좋을 것입니다. (hacer buen tiempo)<br>
-(............................................................)</li>
-<li>그녀가 오면, 나는 아주 행복할 것이다. (estar muy feliz)<br>
-(............................................................)</li>
-<li>그들은 미술관에서 그림을 감상할 것입니다. (mirar los cuadros)<br>
-(............................................................)</li>
+<li>만약 네가 원한다면, 나는 너와 함께 갈 거야. (si quieres, iré contigo)<br />
+   (............................................................)</li>
+<li>우리는 주말에 티켓을 살 것입니다. (comprar las entradas)<br />
+   (............................................................)</li>
+<li>내일은 날씨가 좋을 것입니다. (hacer buen tiempo)<br />
+   (............................................................)</li>
+<li>그녀가 오면, 나는 아주 행복할 것이다. (estar muy feliz)<br />
+   (............................................................)</li>
+<li>그들은 미술관에서 그림을 감상할 것입니다. (mirar los cuadros)<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>La Noche en Blanco de Madrid (마드리드의 백야 축제)</h3>
-<p>La &quot;Noche en Blanco&quot; es una iniciativa cultural que ocurre en muchas capitales europeas, y en Madrid es un evento espectacular. Durante una noche de otoño, los museos, bibliotecas y teatros abren sus puertas de forma gratuita. Los madrileños y turistas salen a la calle para disfrutar de conciertos al aire libre y exposiciones de arte moderno sobre las paredes de los edificios históricos. &quot;Si vives esta experiencia, nunca la olvidarás&quot;, dicen los participantes. El próximo año, el ayuntamiento organizará más actividades para los jóvenes. Iré con mis amigos y, si tenemos energía, caminaremos por la castellana hasta el amanecer.</p>
-<h3>Questions</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="la-noche-en-blanco-de-madrid">La Noche en Blanco de Madrid (마드리드의 백야 축제)</h3>
+<p>La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales europeas, y en Madrid es un evento espectacular. Durante una noche de otoño, los museos, bibliotecas y teatros abren sus puertas de forma gratuita. Los madrileños y turistas salen a la calle para disfrutar de conciertos al aire libre y exposiciones de arte moderno sobre las paredes de los edificios históricos. "Si vives esta experiencia, nunca la olvidarás", dicen los participantes. El próximo año, el ayuntamiento organizará más actividades para los jóvenes. Iré con mis amigos y, si tenemos energía, caminaremos por la castellana hasta el amanecer.</p>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>'Noche en Blanco'의 장점 중 하나는 무엇인가요? (What is one advantage of this event?)
-<ul>
+<li>'Noche en Blanco'의 장점 중 하나는 무엇인가요? (What is one advantage of this event?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>필자는 내년에 누구와 무엇을 할 계획인가요? (With whom and what does the actor plan to do next year?)
-<ul>
+<li>필자는 내년에 누구와 무엇을 할 계획인가요? (With whom and what does the actor plan to do next year?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
-'백야 축제(Noche en Blanco)'는 많은 유럽 수도들에서 일어나는 문화적 이니셔티브이며, 마드리드에서는 장관을 이루는 행사입니다. 가을의 어느 하룻밤 동안, 박물관, 도서관, 극장들이 문을 무료로 개방합니다. 마드리드 시민들과 관광객들은 야외 콘서트를 즐기고 역사적인 건물 벽면에 투사되는 현대 미술 전시를 보기 위해 거리로 나옵니다. 참가자들은 &quot;만약 이 경험을 하신다면, 절대 잊지 못할 것입니다&quot;라고 말합니다. 내년에 시청은 젊은이들을 위한 더 많은 활동을 조직할 것입니다. 저는 친구들과 함께 갈 것이고, 에너지가 있다면 새벽까지 카스테야나 거리를 걸을 것입니다.</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>En el estreno de cine (영화 시사회에서)</h3>
-<p><strong>Situación:</strong> Ana y David acaban de ver el estreno de una película de Almodóvar en la Gran Vía.<br>
+<p><strong>[한국어 번역]</strong><br />
+'백야 축제(Noche en Blanco)'는 많은 유럽 수도들에서 일어나는 문화적 이니셔티브이며, 마드리드에서는 장관을 이루는 행사입니다. 가을의 어느 하룻밤 동안, 박물관, 도서관, 극장들이 문을 무료로 개방합니다. 마드리드 시민들과 관광객들은 야외 콘서트를 즐기고 역사적인 건물 벽면에 투사되는 현대 미술 전시를 보기 위해 거리로 나옵니다. 참가자들은 "만약 이 경험을 하신다면, 절대 잊지 못할 것입니다"라고 말합니다. 내년에 시청은 젊은이들을 위한 더 많은 활동을 조직할 것입니다. 저는 친구들과 함께 갈 것이고, 에너지가 있다면 새벽까지 카스테야나 거리를 걸을 것입니다.</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="en-el-estreno-de-cine">En el estreno de cine (영화 시사회에서)</h3>
+<p><strong>Situación:</strong> Ana y David acaban de ver el estreno de una película de Almodóvar en la Gran Vía.<br />
 <strong>상황:</strong> 아나와 다비드가 그란 비아에서 알모도바르 영화의 시사회를 막 보고 나왔습니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -290,8 +533,9 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>David:</strong> De acuerdo. Te llamaré y cenaremos juntos.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>다비드:</strong> 알았어. 전화할게 그리고 같이 저녁 먹자.</td></tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 영화, 음악, 예술 관련 고급 어휘 10개 이상을 익혔나요?</li>
@@ -299,16 +543,16 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 <li>[ ] 'Si'를 활용한 가능성 있는 미래의 조건문을 구성할 수 있나요?</li>
 <li>[ ] 스페인의 고야상과 현대 예술적 위상을 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Excelente trabajo! 예술은 언어의 장벽을 넘는 가장 강력한 소통 수단입니다. 이번 장에서 배운 미래 시제와 예술 어휘를 통해 여러분은 자신의 꿈과 취향을 더욱 구체적이고 세련되게 표현할 수 있게 되었습니다. 단순히 문법을 익히는 것을 넘어, 스페인 문화의 깊이 있는 열정을 느끼셨기를 바랍니다. 다음 장에서는 우리의 일상과 밀접한 '현명한 소비와 유행(A2)' 섹션으로 이어가겠습니다. ¡Viva el arte!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the art form with the description</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-art-form-with-the-description">6. Práctica - A. Match the art form with the description</h3>
 <ol>
 <li>1-c, 2-d, 3-b, 4-a, 5-e</li>
 </ol>
-<h3>6. Práctica - B. 미래 시제 연습</h3>
+<h3 id="6-practica-b">6. Práctica - B. 미래 시제 연습</h3>
 <ol>
 <li>
 <ol>
@@ -316,7 +560,7 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -324,7 +568,7 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch05_a2_a_comer.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,150 +94,366 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 5: ¡A comer! (A2)</h1>
+<div class="container">
+<h1 id="chapter-5-a-comer-a2">Chapter 5: ¡A comer! (A2)</h1>
 <p class="cervantes-ref">Cervantes: §5 Alimentación: 심화된 식재료 표현, 요리법 및 건강한 식습관과 중남미 미식 문화</p>
-<h2>1. Opener</h2>
-<p><strong>Más que comida (음식 그 이상의 가치)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Más que comida (음식 그 이상의 가치)</strong><br />
 A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 확장된 식재료의 세계와 요리하는 과정(동사), 그리고 건강한 식단에 대해 깊이 있게 다룹니다. 특히 스페인 본토를 넘어 중남미(América Latina)의 미식 문화와 대표적인 레시피를 통해 언어의 지평을 넓혀봅니다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>요리 관련 동사(썰다, 굽다, 끓이다 등) 및 주방 도구 어휘 10개 습득</li>
 <li>'gustar'류 동사 및 부정 표현(nadie, nada, nunca 등)의 마스터</li>
 <li>식단 관리 및 건강한 생활 습관에 대한 토론 역량 강화</li>
 <li>멕시코, 페루 등 중남미 대표 요리와 식문화 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
 <strong>¿Sabías que...?</strong> 스페인어권 국가마다 같은 음식을 부르는 이름이 다른 경우가 많습니다. 예를 들어 '옥수수'는 스페인에서 <em>maíz</em>라고 하지만, 멕시코나 중남미 일부 지역에서는 <em>elote</em>나 <em>choclo</em>라고 부르기도 합니다.</div>
-<hr>
-<h2>2. Vocabulario Esencial</h2>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
 <p>현대적인 주방에서 열리는 스페인 요리 클래스 현장입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img src="../images/ch05_a2_vocab_cooking_v2_1.png" alt="En la Cocina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
+<p><img alt="En la Cocina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)" src="../images/ch05_a2_vocab_cooking_v2_1.png" /></p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">번호</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
+<th style="text-align: center;">번호</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">1</td>
-<td style="text-align:left">cortar</td>
-<td style="text-align:left">Cut (Shorten → Cortar)</td>
-<td style="text-align:left">(칼로) 썰다, 자르다</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">cortar</td>
+<td style="text-align: left;">Cut (Shorten → Cortar)</td>
+<td style="text-align: left;">(칼로) 썰다, 자르다</td>
 </tr>
 <tr>
-<td style="text-align:center">2</td>
-<td style="text-align:left">freír</td>
-<td style="text-align:left">Fry ✅</td>
-<td style="text-align:left">(기름에) 튀기다, 볶다</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">freír</td>
+<td style="text-align: left;">Fry ✅</td>
+<td style="text-align: left;">(기름에) 튀기다, 볶다</td>
 </tr>
 <tr>
-<td style="text-align:center">3</td>
-<td style="text-align:left">batir</td>
-<td style="text-align:left">Battery (Beating mechanism)</td>
-<td style="text-align:left">(달걀 등을) 휘젓다, 치다</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">batir</td>
+<td style="text-align: left;">Battery (Beating mechanism)</td>
+<td style="text-align: left;">(달걀 등을) 휘젓다, 치다</td>
 </tr>
 <tr>
-<td style="text-align:center">4</td>
-<td style="text-align:left">probar</td>
-<td style="text-align:left">Probe / Prove ✅ (Test)</td>
-<td style="text-align:left">맛보다, 시험해보다</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">probar</td>
+<td style="text-align: left;">Probe / Prove ✅ (Test)</td>
+<td style="text-align: left;">맛보다, 시험해보다</td>
 </tr>
 <tr>
-<td style="text-align:center">5</td>
-<td style="text-align:left">pelar</td>
-<td style="text-align:left">Peel ✅</td>
-<td style="text-align:left">(껍질을) 벗기다</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">pelar</td>
+<td style="text-align: left;">Peel ✅</td>
+<td style="text-align: left;">(껍질을) 벗기다</td>
 </tr>
 <tr>
-<td style="text-align:center">6</td>
-<td style="text-align:left">asar</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">(불에) 굽다, 로스트하다</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">asar</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">(불에) 굽다, 로스트하다</td>
 </tr>
 <tr>
-<td style="text-align:center">7</td>
-<td style="text-align:left">hervir</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">끓이다 (boil)</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">hervir</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">끓이다 (boil)</td>
 </tr>
 <tr>
-<td style="text-align:center">8</td>
-<td style="text-align:left">mezclar</td>
-<td style="text-align:left">Mix ✅</td>
-<td style="text-align:left">섞다, 혼합하다</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">mezclar</td>
+<td style="text-align: left;">Mix ✅</td>
+<td style="text-align: left;">섞다, 혼합하다</td>
 </tr>
 <tr>
-<td style="text-align:center">9</td>
-<td style="text-align:left">servir</td>
-<td style="text-align:left">Serve ✅</td>
-<td style="text-align:left">차려 내다, 서빙하다</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">servir</td>
+<td style="text-align: left;">Serve ✅</td>
+<td style="text-align: left;">차려 내다, 서빙하다</td>
 </tr>
 <tr>
-<td style="text-align:center">10</td>
-<td style="text-align:left">lavar los platos</td>
-<td style="text-align:left">Lavatory / Lave (Wash) ✅</td>
-<td style="text-align:left">설거지하다</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">lavar los platos</td>
+<td style="text-align: left;">Lavatory / Lave (Wash) ✅</td>
+<td style="text-align: left;">설거지하다</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원을 공유하는 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>요리법을 설명하거나 식습관에 대해 의견을 나눌 때 사용하는 표현입니다.</p>
-<h3>A. 요리법 설명하기 (Describing Recipes)</h3>
+<h3 id="a-describing-recipes">A. 요리법 설명하기 (Describing Recipes)</h3>
 <ul>
 <li><strong>Primero, tienes que cortar la cebolla.</strong> (First, you have to cut the onion. / 먼저, 양파를 썰어야 해요.)</li>
-<li><strong>Añade un poco de sal y pimienta.</strong> (Add a bit of salt and pepper. / 소금과 후추를 약간 넣으세요.)
-<ul>
-<li>💡 <strong>English Bridge</strong>: &quot;Añadir&quot; doesn't have an exact English match, but the structure &quot;Add a bit&quot; = &quot;Añade un poco&quot; is easy to remember.</li>
-</ul>
-</li>
+<li><strong>Añade un poco de sal y pimienta.</strong> (Add a bit of salt and pepper. / 소금과 후추를 약간 넣으세요.)</li>
+<li>💡 <strong>English Bridge</strong>: "Añadir" doesn't have an exact English match, but the structure "Add a bit" = "Añade un poco" is easy to remember.</li>
 <li><strong>Fríe las patatas hasta que estén doradas.</strong> (Fry the potatoes until they are golden. / 감자가 노릇해질 때까지 볶으세요.)</li>
 <li><strong>¡Sírvelo muy caliente!</strong> (Serve it very hot! / 아주 뜨거울 때 차려 내세요!)</li>
 </ul>
-<h3>B. 식습관 및 금기 사항 (Dietary Habits and Restrictions)</h3>
+<h3 id="b-dietary-habits-and-restrictions">B. 식습관 및 금기 사항 (Dietary Habits and Restrictions)</h3>
 <ul>
 <li><strong>Soy vegetariano/a.</strong> (I am vegetarian. / 저는 채식주의자예요.)</li>
-<li><strong>No como nada de carne.</strong> (I don't eat any meat at all. / 저는 고기를 전혀 먹지 않아요.)
-<ul>
-<li>💡 <strong>English Bridge</strong>: Double negative! &quot;No... nada&quot; = &quot;Not... nothing&quot; — in Spanish, double negatives <strong>reinforce</strong> each other.</li>
-</ul>
-</li>
+<li><strong>No como nada de carne.</strong> (I don't eat any meat at all. / 저는 고기를 전혀 먹지 않아요.)</li>
+<li>💡 <strong>English Bridge</strong>: Double negative! "No... nada" = "Not... nothing" — in Spanish, double negatives <strong>reinforce</strong> each other.</li>
 <li><strong>Tengo alergia al marisco.</strong> (I have an allergy to seafood. / 저는 해산물 알레르기가 있어요.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>A2의 핵심 문법인 'gustar' 동사의 심화 활용과 부정어의 위치 및 중복 사용을 배웁니다.</p>
-<h3>A. Gustar형 동사 (Verbs like &quot;Gustar&quot;)</h3>
+<h3 id="a-gustar-verbs-like-gustar">A. Gustar형 동사 (Verbs like "Gustar")</h3>
 <p>주어가 사람이 아니라 '좋아하는 대상'이 되는 특수 동사들입니다.</p>
-<p><strong>English Bridge</strong>: English says &quot;I like chocolate&quot; (I = subject). Spanish says &quot;<strong>Chocolate pleases me</strong>&quot; (Chocolate = subject). This is the <strong>reverse construction</strong> — the thing you like is the grammatical subject!</p>
+<p><strong>English Bridge</strong>: English says "I like chocolate" (I = subject). Spanish says "<strong>Chocolate pleases me</strong>" (Chocolate = subject). This is the <strong>reverse construction</strong> — the thing you like is the grammatical subject!</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -258,61 +497,62 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
   </tbody>
 </table>
 </div>
+
 <blockquote>
-<p>💡 <strong>Key Rule</strong>: 대상이 단수이면 <strong>gusta</strong>, 복수이면 <strong>gustan</strong>. 동사 변화는 항상 좋아하는 '물건'에 맞춥니다.<br>
-⚠️ &quot;Molestar&quot; = to bother/annoy (NOT the English meaning of &quot;molest&quot;) — False Friend!</p>
+<p>💡 <strong>Key Rule</strong>: 대상이 단수이면 <strong>gusta</strong>, 복수이면 <strong>gustan</strong>. 동사 변화는 항상 좋아하는 '물건'에 맞춥니다.<br />
+⚠️ "Molestar" = to bother/annoy (NOT the English meaning of "molest") — False Friend!</p>
 </blockquote>
-<h3>B. 부정어의 사용 (La Negación)</h3>
+<h3 id="b-la-negacion">B. 부정어의 사용 (La Negación)</h3>
 <p>스페인어는 부정어를 강조하기 위해 '이중 부정'을 자주 사용합니다.</p>
-<p><strong>English Bridge</strong>: English says &quot;I don't eat <strong>anything</strong>&quot; (single negative). Spanish says &quot;<strong>No</strong> como <strong>nada</strong>&quot; (double negative = NOT nothing). In Spanish, double negatives make the negation <strong>stronger</strong>, not positive!</p>
+<p><strong>English Bridge</strong>: English says "I don't eat <strong>anything</strong>" (single negative). Spanish says "<strong>No</strong> como <strong>nada</strong>" (double negative = NOT nothing). In Spanish, double negatives make the negation <strong>stronger</strong>, not positive!</p>
 <ul>
 <li><strong>Nada</strong> (nothing), <strong>Nadie</strong> (nobody), <strong>Nunca/Jamás</strong> (never)</li>
 <li>구조 1: <strong>Nunca</strong> como carne. (I never eat meat.)</li>
 <li>구조 2: <strong>No</strong> como carne <strong>nunca</strong>. (I don't eat meat ever — 더 일반적)</li>
 </ul>
-<hr>
-<h2>5. Cultura Viva: Secretos de la Abuela en México 🌮</h2>
+<hr />
+<h2 id="5-cultura-viva-secretos-de-la-abuela-en-mexico">5. Cultura Viva: Secretos de la Abuela en México 🌮</h2>
 <p>멕시코와 중남미의 미식 문화는 가족의 역사와 전통을 간직하고 있습니다.</p>
-<p>La gastronomía de América Latina es Patrimonio de la Humanidad. En México, la cocina es un espacio sagrado donde se transmiten tradiciones milenarias. El <strong>mole</strong>, por ejemplo, es una salsa compleja que puede tener más de 20 ingredientes, incluyendo chocolate y chiles. Las recetas no suelen estar escritas, sino que se aprenden &quot;de oído&quot; y con la práctica, pasando de las abuelas a los nietos.</p>
+<p>La gastronomía de América Latina es Patrimonio de la Humanidad. En México, la cocina es un espacio sagrado donde se transmiten tradiciones milenarias. El <strong>mole</strong>, por ejemplo, es una salsa compleja que puede tener más de 20 ingredientes, incluyendo chocolate y chiles. Las recetas no suelen estar escritas, sino que se aprenden "de oído" y con la práctica, pasando de las abuelas a los nietos.</p>
 <p>En países como Perú, el <strong>cebiche</strong> (pescado crudo marinado en limón) es un símbolo nacional. La diversidad de climas en Sudamérica permite una variedad increíble de ingredientes: miles de tipos de patatas, maíz de colores, frutas exóticas como la lúcuma o el azaí. Para los latinos, invitar a alguien a comer a casa es mostrarle su corazón y su hospitalidad.</p>
-<p><strong>[한국어 번역]</strong><br>
-중남미의 미식은 인류 무형문화유산입니다. 멕시코에서 주방은 천년의 전통이 전수되는 신성한 공간입니다. 예를 들어 **몰레(mole)**는 초콜릿과 고추를 포함하여 20가지 이상의 재료가 들어가는 복잡한 소스입니다. 레시피는 대개 글로 적혀 있지 않고, 할머니에게서 손주에게로 직접 보고 들으며 실습을 통해 배웁니다.</p>
-<p>페루와 같은 나라에서는 **세비체(cebiche, 레몬에 절인 생선회)**가 국가적 상징입니다. 남아메리카의 다양한 기후 덕분에 수천 종류의 감자, 형형색색의 옥수수, 루쿠마나 아사이 같은 이색적인 과일 등 다양한 식재료가 존재합니다.</p>
-<p><img src="../images/ch05_a2_culture_recipe_v2_1.png" alt="멕시코 전통 주방에서 할머니의 레시피를 전수받는 손녀"></p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the word (알맞은 단어를 연결하세요)</h3>
+<p><strong>[한국어 번역]</strong><br />
+중남미의 미식은 인류 무형문화유산입니다. 멕시코에서 주방은 천년의 전통이 전수되는 신성한 공간입니다. 예를 들어 <strong>몰레(mole)</strong>는 초콜릿과 고추를 포함하여 20가지 이상의 재료가 들어가는 복잡한 소스입니다. 레시피는 대개 글로 적혀 있지 않고, 할머니에게서 손주에게로 직접 보고 들으며 실습을 통해 배웁니다.</p>
+<p>페루와 같은 나라에서는 <strong>세비체(cebiche, 레몬에 절인 생선회)</strong>가 국가적 상징입니다. 남아메리카의 다양한 기후 덕분에 수천 종류의 감자, 형형색색의 옥수수, 루쿠마나 아사이 같은 이색적인 과일 등 다양한 식재료가 존재합니다.</p>
+<p><img alt="멕시코 전통 주방에서 할머니의 레시피를 전수받는 손녀" src="../images/ch05_a2_culture_recipe_v2_1.png" /></p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word (알맞은 단어를 연결하세요)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English / Korean</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English / Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">1. Cortar</td>
-<td style="text-align:left">a. To boil</td>
+<td style="text-align: left;">1. Cortar</td>
+<td style="text-align: left;">a. To boil</td>
 </tr>
 <tr>
-<td style="text-align:left">2. Pelar</td>
-<td style="text-align:left">b. To taste / try</td>
+<td style="text-align: left;">2. Pelar</td>
+<td style="text-align: left;">b. To taste / try</td>
 </tr>
 <tr>
-<td style="text-align:left">3. Hervir</td>
-<td style="text-align:left">c. To fry</td>
+<td style="text-align: left;">3. Hervir</td>
+<td style="text-align: left;">c. To fry</td>
 </tr>
 <tr>
-<td style="text-align:left">4. Probar</td>
-<td style="text-align:left">d. To cut</td>
+<td style="text-align: left;">4. Probar</td>
+<td style="text-align: left;">d. To cut</td>
 </tr>
 <tr>
-<td style="text-align:left">5. Freír</td>
-<td style="text-align:left">e. To peel</td>
+<td style="text-align: left;">5. Freír</td>
+<td style="text-align: left;">e. To peel</td>
 </tr>
 </tbody>
 </table>
-<h3>B. Choose the correct form of 'gustar' (알맞은 형태를 고르세요)</h3>
+<h3 id="b-choose-the-correct-form-of-gustar">B. Choose the correct form of 'gustar' (알맞은 형태를 고르세요)</h3>
 <ol>
 <li>A mí (me gusta / me gustan) las frutas exóticas.</li>
 <li>A nosotros (nos encanta / nos encantan) el ceviche peruano.</li>
@@ -320,34 +560,34 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 <li>A mis padres (les molesta / les molestan) el ruido en el restaurante.</li>
 <li>A ella (le falta / le faltan) un poco de sal en la sopa.</li>
 </ol>
-<h3>C. 번역 연습 (부정어를 사용하여 스페인어로 번역하세요)</h3>
+<h3 id="c">C. 번역 연습 (부정어를 사용하여 스페인어로 번역하세요)</h3>
 <ol>
-<li>나는 고기를 전혀 먹지 않아요. (No... nada)<br>
-(............................................................)</li>
-<li>레스토랑에 아무도 없어요.<br>
-(............................................................)</li>
-<li>나는 절대로 설탕을 넣지 않아요.<br>
-(............................................................)</li>
-<li>우리는 이 요리에 대해 아무것도 몰라요.<br>
-(............................................................)</li>
-<li>다비드는 누구와도 이야기하지 않아요.<br>
-(............................................................)</li>
+<li>나는 고기를 전혀 먹지 않아요. (No... nada)<br />
+   (............................................................)</li>
+<li>레스토랑에 아무도 없어요.<br />
+   (............................................................)</li>
+<li>나는 절대로 설탕을 넣지 않아요.<br />
+   (............................................................)</li>
+<li>우리는 이 요리에 대해 아무것도 몰라요.<br />
+   (............................................................)</li>
+<li>다비드는 누구와도 이야기하지 않아요.<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>La Dieta Mediterránea (지중해 식단)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="la-dieta-mediterranea">La Dieta Mediterránea (지중해 식단)</h3>
 <p>La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es solo un tipo de comida, sino un estilo de vida. Los ingredientes principales son el aceite de oliva, los cereales, las frutas, las verduras y las legumbres. También se come pescado y frutos secos. La carne roja se come con moderación, solo una o dos veces al mes. Lo más importante de esta dieta es que los productos son frescos y de temporada. Además, el ambiente relajado durante la comida ayuda a tener una buena digestión.</p>
-<h3>Preguntas (질문)</h3>
+<h3 id="preguntas">Preguntas (질문)</h3>
 <ol>
 <li>¿Cuáles son tres ingredientes principales de la dieta mediterránea? (지중해 식단의 주요 식재료 3가지는?)</li>
 <li>¿Con qué frecuencia se come carne roja? (붉은 고기는 얼마나 자주 먹나요?)</li>
 </ol>
 <p><strong>[한국어 번역]</strong></p>
-<h4>지중해 식단</h4>
+<h4 id="_2">지중해 식단</h4>
 <p>지중해 식단은 매우 건강한 것으로 전 세계적으로 유명합니다. 이것은 단순히 음식의 종류가 아니라 하나의 삶의 방식입니다. 주요 식재료는 올리브 오일, 곡물, 과일, 채소 그리고 콩류입니다. 또한 생선과 견과류도 먹습니다. 붉은 고기는 절제해서 먹으며, 한 달에 한두 번 정도만 섭취합니다. 이 식단에서 가장 중요한 점은 제품들이 신선하고 제철 식재료라는 것입니다.</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>Cocinando un plato especial (특별한 요리 만들기)</h3>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="cocinando-un-plato-especial">Cocinando un plato especial (특별한 요리 만들기)</h3>
 <p><strong>Situación:</strong> Mateo está enseñando a su amiga Lucía a preparar una receta tradicional de su abuela.</p>
 <p><strong>상황:</strong> 마테오가 친구 루시아에게 자신의 할머니로부터 전해 내려오는 전통 레시피를 만드는 법을 가르쳐주고 있습니다.</p>
 <table class="dialogue-table">
@@ -400,8 +640,9 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
     </tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이 장에서 배운 핵심 내용을 체크해 보세요:</p>
 <ul>
 <li>[ ] 썰다, 굽다, 끓이다 등 <strong>10개 이상</strong>의 요리 관련 동사를 익혔다.</li>
@@ -410,18 +651,18 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 <li>[ ] '<strong>No... nada</strong>', '<strong>Nunca</strong>' 등 이중 부정 표현을 익혔다.</li>
 <li>[ ] 중남미의 미식 문화(<strong>mole, cebiche</strong>)와 <strong>지중해 식단</strong>의 장점을 이해했다.</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Excelente trabajo! 🎉 이번 장을 통해 여러분은 단순히 음식을 주문하는 수준을 넘어, 요리 과정을 설명하고 자신의 건강한 식습관을 논할 수 있는 수준으로 도약했습니다.</p>
-<p>'<strong>Gustar</strong>' 동사의 역행 구조는 영어에는 없는 스페인어 고유의 특성이므로, &quot;<strong>Me gusta</strong> = It <strong>pleases</strong> me&quot;라고 기억하면 쉽습니다. 또한 스페인어의 이중 부정은 영어와 달리 부정을 <strong>강화</strong>한다는 점을 꼭 기억하세요!</p>
+<p>'<strong>Gustar</strong>' 동사의 역행 구조는 영어에는 없는 스페인어 고유의 특성이므로, "<strong>Me gusta</strong> = It <strong>pleases</strong> me"라고 기억하면 쉽습니다. 또한 스페인어의 이중 부정은 영어와 달리 부정을 <strong>강화</strong>한다는 점을 꼭 기억하세요!</p>
 <p>다음 장에서는 우리가 살고 있는 소중한 공간, '<strong>집(Mi Casa)</strong>'의 구석구석을 스페인어로 채워보겠습니다. ¡Hasta muy pronto!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the word</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-word">6. Práctica - A. Match the word</h3>
 <ol>
 <li>1-d, 2-e, 3-a, 4-b, 5-c</li>
 </ol>
-<h3>6. Práctica - B. Choose the correct form of 'gustar'</h3>
+<h3 id="6-practica-b-choose-the-correct-form-of-gustar">6. Práctica - B. Choose the correct form of 'gustar'</h3>
 <ol>
 <li>
 <ol>
@@ -449,7 +690,7 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -477,7 +718,7 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

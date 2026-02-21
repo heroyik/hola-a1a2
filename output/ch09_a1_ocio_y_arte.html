@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch09_a1_ocio_y_arte.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 9: Ocio y arte (A1)</h1>
+<div class="container">
+<h1 id="chapter-9-ocio-y-arte-a1">Chapter 9: Ocio y arte (A1)</h1>
 <p class="cervantes-ref">Cervantes: §8 Ocio: 여가 취미, 스포츠 및 §18 예술적 활동 기초</p>
-<h2>1. Opener</h2>
-<p><strong>Disfrutar el tiempo libre (여가를 즐기다)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Disfrutar el tiempo libre (여가를 즐기다)</strong><br />
 열심히 공부하고 일한 뒤에 찾아오는 휴식은 달콤합니다. 스페인 사람들은 여가 시간을 어떻게 보낼까요? 어떤 사람은 탁 트인 공원에서 축구를 즐기고, 어떤 사람은 세련된 갤러리에서 예술 작품을 감상합니다. 이번 장에서는 다양한 취미 생활과 스포츠 어휘를 배우고, 이동을 나타내는 핵심 동사인 'ir(가다)'와 'venir(오다)'를 익힙니다. 또한 스페인의 화려하고 열정적인 축제 문화를 통해 삶의 즐거움을 표현하는 법을 배워봅시다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>여가 활동, 스포츠, 예술 관련 어휘 15개 이상 습득</li>
 <li>'ir(가다)'와 'venir(오다)' 동사의 불규칙 변화 및 활용</li>
 <li>'ir a + 동사원형'을 이용한 가까운 미래 표현 기초</li>
 <li>스페인의 주요 축제와 예술적 분위기 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
-<strong>¿Sabías que...?</strong> 스페인에서 축구(el fútbol)는 단순한 스포츠 이상의 의미를 갖습니다. 레알 마드리드나 FC 바르셀로나 같은 클럽의 경기가 있는 날이면 도시 전체가 들썩이죠. 친구들과 함께 &quot;Vamos a ver el fútbol(축구 보러 가자)&quot;이라고 말하는 것은 스페인에서 가장 흔한 여가 제안 중 하나입니다.</div>
-<hr>
-<h2>2. Vocabulario Esencial: Tiempo Libre y Ocio</h2>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...?</strong> 스페인에서 축구(el fútbol)는 단순한 스포츠 이상의 의미를 갖습니다. 레알 마드리드나 FC 바르셀로나 같은 클럽의 경기가 있는 날이면 도시 전체가 들썩이죠. 친구들과 함께 "Vamos a ver el fútbol(축구 보러 가자)"이라고 말하는 것은 스페인에서 가장 흔한 여가 제안 중 하나입니다.</div>
+<hr />
+<h2 id="2-vocabulario-esencial-tiempo-libre-y-ocio">2. Vocabulario Esencial: Tiempo Libre y Ocio</h2>
 <p>다양한 방식으로 여가를 즐기는 청춘들의 모습입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
-<p><img src="../images/ch09_a1_vocab_leisure_v2_1.png" alt="Ocio"></p>
+<p><img alt="Ocio" src="../images/ch09_a1_vocab_leisure_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,28 +379,29 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td>10</td><td><strong>el deporte</strong></td><td><strong>Sport</strong> (near cognate)</td><td>스포츠 / 운동</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>취미와 여가에 대해 대화할 때 자주 사용하는 패턴입니다.</p>
-<h3>A. 취미 묻고 답하기</h3>
+<h3 id="a">A. 취미 묻고 답하기</h3>
 <ul>
 <li><strong>¿Qué haces en tu tiempo libre?</strong> (What do you do in your free time? / 여가 시간에 무엇을 하나요?)</li>
 <li><strong>Me gusta mucho leer.</strong> (I like reading very much. / 나는 독서를 아주 좋아해.)</li>
 <li><strong>Mi hobby es la música.</strong> (My hobby is music. / 제 취미는 음악입니다.)</li>
 <li><strong>No tengo tiempo hoy.</strong> (I don't have time today. / 오늘은 시간이 없어요.)</li>
 </ul>
-<h3>B. 제안하고 이동하기</h3>
+<h3 id="b">B. 제안하고 이동하기</h3>
 <ul>
 <li><strong>¿Quieres ir al cine?</strong> (Do you want to go to the cinema? / 영화 보러 갈래?)</li>
 <li><strong>Vamos al parque.</strong> (Let's go to the park. / 공원에 가자.)</li>
 <li><strong>Viene mi amigo a casa.</strong> (My friend is coming to my house. / 내 친구가 집에 와.)</li>
 <li><strong>Voy a estudiar ahora.</strong> (I am going to study now. / 나는 이제 공부할 거야.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>이동을 갈 때 가장 중요한 두 동사와 미래 계획을 세우는 법을 배워봅시다.</p>
-<h3>A. Ir (가다) &amp; Venir (오다)</h3>
+<h3 id="a-ir-venir">A. Ir (가다) &amp; Venir (오다)</h3>
 <p>두 동사는 매우 중요한 불규칙 동사입니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -174,9 +420,10 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td><strong>van</strong></td><td>v<strong>ienen</strong></td></tr>
   </tbody>
 </table>
-<h3>Korean Tip</h3>
-<p>'Ir'는 말하는 사람에게서 멀어지는 방향으로 가다, 'Venir'는 말하는 사람 쪽으로 오는 방향일 때 씁니다. 만약 친구가 &quot;우리 집에 올래?&quot;라고 물을 때 &quot;응, 갈게!&quot;라고 답하려면 (내가 친구 쪽으로 가는 것이므로) &quot;Sí, <strong>voy</strong>&quot;라고 답하는 것이 자연스럽습니다.</p>
-<h3>B. Ir a + 동사원형 (가까운 미래)</h3>
+
+<h3 id="korean-tip">Korean Tip</h3>
+<p>'Ir'는 말하는 사람에게서 멀어지는 방향으로 가다, 'Venir'는 말하는 사람 쪽으로 오는 방향일 때 씁니다. 만약 친구가 "우리 집에 올래?"라고 물을 때 "응, 갈게!"라고 답하려면 (내가 친구 쪽으로 가는 것이므로) "Sí, <strong>voy</strong>"라고 답하는 것이 자연스럽습니다.</p>
+<h3 id="b-ir-a">B. Ir a + 동사원형 (가까운 미래)</h3>
 <p>'~할 것이다'라는 가까운 미래의 계획을 표현할 때 씁니다. 영어의 <code>be going to</code>와 매우 흡사합니다.</p>
 <ul>
 <li><strong>Voy a comer</strong> (I am going to eat / 나는 먹을 것이다)</li>
@@ -184,7 +431,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li><strong>Voy a vivir</strong> en España. (I'm going to live in Spain. / 나는 스페인에서 살 거야.)</li>
 <li><strong>¿Qué vas a hacer mañana?</strong> (What are you going to do tomorrow? / 너 내일 뭐 할 거니?)</li>
 </ul>
-<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -196,18 +443,18 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<hr>
-<h2>5. Cultura Viva: ¡Fiesta y Arte en España</h2>
+<hr />
+<h2 id="5-cultura-viva-fiesta-y-arte-en-espana">5. Cultura Viva: ¡Fiesta y Arte en España</h2>
 <p>스페인의 거리를 수놓는 축제와 예술의 열기를 느껴보세요.</p>
-<p><img src="../images/ch09_a1_culture_festivals_v2_1.png" alt="Spanish Festival"></p>
+<p><img alt="Spanish Festival" src="../images/ch09_a1_culture_festivals_v2_1.png" /></p>
 <p>España es famosa en todo el mundo por sus festivales vibrantes. Uno de los más conocidos es la <strong>Feria de Abril</strong> en Sevilla, donde la gente baila flamenco y lleva trajes tradicionales muy coloridos. También están las <strong>Fallas</strong> de Valencia, con esculturas gigantes que se queman al final de la fiesta.</p>
 <p>El arte también está en el ADN de España. El Triángulo del Arte en Madrid, con los museos del <strong>Prado</strong>, <strong>Reina Sofía</strong> y <strong>Thyssen-Bornemisza</strong>, es un destino esencial. A los españoles les encanta salir a la calle, disfrutar de un concierto al aire libre o simplemente pasear por las plazas llenas de gente. El ocio en España siempre se comparte con amigos y familia.</p>
-<p><strong>[한국어 번역]</strong><br>
-스페인은 활기찬 축제로 전 세계적으로 유명합니다. 가장 잘 알려진 것 중 하나는 세비야의 **페리아 데 아브릴(4월 축제)**인데, 사람들이 플라멩코를 추고 아주 알록달록한 전통 의상을 입습니다. 또한 발렌시아의 **파야스(불꽃 축제)**는 축제의 마지막에 거대한 조각상들을 태우는 것으로 유명합니다.</p>
+<p><strong>[한국어 번역]</strong><br />
+스페인은 활기찬 축제로 전 세계적으로 유명합니다. 가장 잘 알려진 것 중 하나는 세비야의 <strong>페리아 데 아브릴(4월 축제)</strong>인데, 사람들이 플라멩코를 추고 아주 알록달록한 전통 의상을 입습니다. 또한 발렌시아의 <strong>파야스(불꽃 축제)</strong>는 축제의 마지막에 거대한 조각상들을 태우는 것으로 유명합니다.</p>
 <p>예술 또한 스페인의 DNA 속에 있습니다. 마드리드의 '예술의 삼각형'이라 불리는 <strong>프라도</strong>, <strong>레이나 소피아</strong>, <strong>티센 보르네미사</strong> 미술관은 필수 코스입니다. 스페인 사람들은 거리에 나가 야외 콘서트를 즐기거나 단순히 사람들로 붐비는 광장을 산책하는 것을 매우 좋아합니다. 스페인에서 여가는 항상 친구나 가족과 함께 나눕니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Choose the correct word (알맞은 단어를 선택하세요)</h3>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-choose-the-correct-word">A. Choose the correct word (알맞은 단어를 선택하세요)</h3>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -224,7 +471,8 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Leer</td><td style="padding: 10px; border: 1px solid #ddd;">e. 공원</td><td style="padding: 10px; border: 1px solid #ddd;">e. (..........)</td></tr>
   </tbody>
 </table>
-<h3>B. 동사 변형 연습 (괄호 안의 주어에 맞게 'ir' 또는 'venir'를 변형하세요)</h3>
+
+<h3 id="b-ir-venir">B. 동사 변형 연습 (괄호 안의 주어에 맞게 'ir' 또는 'venir'를 변형하세요)</h3>
 <ol>
 <li>Yo (..........) al museo hoy. (ir)</li>
 <li>¿Tú (..........) a mi fiesta el sábado? (venir)</li>
@@ -232,42 +480,36 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>Ellos (..........) de la escuela ahora. (venir)</li>
 <li>Ella (..........) a leer en la biblioteca. (ir)</li>
 </ol>
-<h3>C. 번역 연습 (미래 표현 'ir a'를 활용해 문장을 완성하세요)</h3>
+<h3 id="c-ir-a">C. 번역 연습 (미래 표현 'ir a'를 활용해 문장을 완성하세요)</h3>
 <ol>
-<li>나는 내일 영화를 볼 거야. (ver una película)<br>
-(............................................................)</li>
-<li>우리는 공원에서 산책할 거야. (pasear)<br>
-(............................................................)</li>
-<li>너는 무엇을 공부할 거니?<br>
-(............................................................)</li>
-<li>친구들이 우리 집에 올 거야. (venir a mi casa)<br>
-(............................................................)</li>
-<li>그녀는 춤을 출 거야. (bailar)<br>
-(............................................................)</li>
+<li>나는 내일 영화를 볼 거야. (ver una película)<br />
+   (............................................................)</li>
+<li>우리는 공원에서 산책할 거야. (pasear)<br />
+   (............................................................)</li>
+<li>너는 무엇을 공부할 거니?<br />
+   (............................................................)</li>
+<li>친구들이 우리 집에 올 거야. (venir a mi casa)<br />
+   (............................................................)</li>
+<li>그녀는 춤을 출 거야. (bailar)<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Mis planes de fin de semana (나의 주말 계획)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="mis-planes-de-fin-de-semana">Mis planes de fin de semana (나의 주말 계획)</h3>
 <p>Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia. Voy a ir en tren el sábado por la mañana. Por la tarde, vamos a pasear por el centro de la ciudad. El domingo, vamos a ver las Fallas. ¡Son unas fiestas increíbles! Mi hermano no viene con nosotros porque tiene un examen de música el lunes. Él va a estudiar todo el fin de semana en casa. Después de la fiesta, voy a comprar un regalo para él. ¡Va a ser muy divertido!</p>
-<h3>Questions</h3>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>주인공은 토요일에 어떻게 발렌시아에 가나요? (How does the protagonist go to Valencia?)
-<ul>
+<li>주인공은 토요일에 어떻게 발렌시아에 가나요? (How does the protagonist go to Valencia?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>남동생/형은 왜 같이 가지 않나요? (Why is the brother not coming?)
-<ul>
+<li>남동생/형은 왜 같이 가지 않나요? (Why is the brother not coming?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 이번 주말은 매우 특별합니다. 발렌시아에 계신 할머니를 방문할 예정이기 때문이죠. 토요일 아침에 기차를 타고 갈 것입니다. 오후에는 도시 중심가를 산책할 거예요. 일요일에는 '파야스' 축제를 볼 예정입니다. 정말 믿기지 않을 정도로 멋진 축제예요! 제 남동생(형)은 월요일에 음악 시험이 있어서 우리와 함께 오지 못합니다. 그는 주말 내내 집에서 공부할 거예요. 축제 후에 저는 그를 위한 선물을 살 것입니다. 정말 재미있을 거예요!</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>¿Qué planes tienes? (무슨 계획이 있니?)</h3>
-<p><strong>Situación:</strong> Mateo y Sara hablan sobre qué hacer el viernes por la tarde.<br>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="que-planes-tienes">¿Qué planes tienes? (무슨 계획이 있니?)</h3>
+<p><strong>Situación:</strong> Mateo y Sara hablan sobre qué hacer el viernes por la tarde.<br />
 <strong>상황:</strong> 마테오와 사라가 금요일 오후에 무엇을 할지 이야기합니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -286,8 +528,9 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Mateo:</strong> Perfecto. Mi amigo Luis también viene.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>마테오:</strong> 완벽해. 내 친구 루이스도 올 거야.</td></tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 여가 활동과 스포츠 관련 단어 10개 이상을 외웠나요?</li>
@@ -295,16 +538,16 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>[ ] 'Ir a + 동사원형'으로 미래 계획을 말할 수 있나요?</li>
 <li>[ ] 스페인의 대표적인 축제와 예술적 특징을 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
-<p>¡Fantástico! 이번 장에서 여러분은 단순한 생존을 넘어 삶을 즐기는 법을 스페인어로 배웠습니다. &quot;Voy a ir al cine&quot;, &quot;Me gusta la música&quot;와 같은 표현들은 친구를 사귀고 풍성한 대화를 나누는 데 필수적입니다. 여가는 언어를 실생활에 적용해 볼 수 있는 가장 멋진 기회입니다. 다음 장에서는 우리의 문화적 안목을 더욱 높여줄 '영화, 음악 및 예술 심화(A2)'에 대해 더 깊이 있게 다뤄보겠습니다. ¡Disfruta del español!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Choose the correct word</h3>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Fantástico! 이번 장에서 여러분은 단순한 생존을 넘어 삶을 즐기는 법을 스페인어로 배웠습니다. "Voy a ir al cine", "Me gusta la música"와 같은 표현들은 친구를 사귀고 풍성한 대화를 나누는 데 필수적입니다. 여가는 언어를 실생활에 적용해 볼 수 있는 가장 멋진 기회입니다. 다음 장에서는 우리의 문화적 안목을 더욱 높여줄 '영화, 음악 및 예술 심화(A2)'에 대해 더 깊이 있게 다뤄보겠습니다. ¡Disfruta del español!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-choose-the-correct-word">6. Práctica - A. Choose the correct word</h3>
 <ol>
 <li>1-a, 2-c, 3-b, 4-e, 5-d</li>
 </ol>
-<h3>6. Práctica - B. 동사 변형 연습</h3>
+<h3 id="6-practica-b">6. Práctica - B. 동사 변형 연습</h3>
 <ol>
 <li>
 <ol>
@@ -312,7 +555,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -320,7 +563,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

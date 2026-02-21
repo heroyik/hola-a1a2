@@ -21,6 +21,8 @@ A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아�
 
 ## 2. Vocabulario Esencial
 
+![Identidad A2](file:///Users/ikyoon/proj/book/images/ch03_a2_vocab_diversity_v10.png)
+
 정체성의 다양성을 표현하기 위한 어휘들입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
 ![Barrio Multicultural — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch03_a2_vocab_multicultural_v10.png)
@@ -28,10 +30,10 @@ A1에서 기본적인 이름과 국적을 배웠다면, A2에서는 더 나아�
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
 | 1 | español / -a | Spanish ✅ | 기본 국적 |
-| 2 | latinoamericano / -a | Latin American ✅ | '라티노'의 공식 명칭 |
-| 3 | asiático / -a | Asian ✅ | '아시아티코' |
-| 4 | africano / -a | African ✅ | '아프리카노' |
-| 5 | europeo / -a | European ✅ | '에우로페오' |
+| 2 | latinoamericano / -a | Latin American ✅ | 라틴아메리카인의 공식 명칭 |
+| 3 | asiático / -a | Asian ✅ | 아시아계 |
+| 4 | africano / -a | African ✅ | 아프리카계 |
+| 5 | europeo / -a | European ✅ | 유럽계 |
 | 6 | el mapa del mundo | World Map | 세상을 보는 창 |
 | 7 | las raíces mixtas | Mixed Roots | Raíz(뿌리)에서 유래 |
 | 8 | la diversidad | Diversity ✅ | 다양성이란 가치 |
@@ -246,7 +248,7 @@ Esto ha creado una sociedad donde la **diversidad** es la norma. Es muy común e
 
 이로 인해 **다양성이(diversidad)** 일상이 된 사회가 만들어졌습니다. 학교에서 **다양한 뿌리를(raíces mixtas)** 가진 아이들을 만나거나, 여러 언어가 들리는 동네를 보는 것은 매우 흔한 일입니다. **통합은(integración)** 중요한 과정이며 때로는 어렵기도 하지만, 스페인 사람들은 **존중과(respeto)** 공존을 매우 가치 있게 여깁니다.
 
-![스페인 다문화 코워킹 공간에서 함께 일하는 다양한 국적의 사람들](../images/ch03_a2_culture_expats_v10.png)
+![스페인 다문화 코워킹 공간에서 함께 일하는 다양한 국적의 사람들](file:///Users/ikyoon/proj/book/images/ch03_a2_culture_multicultural_v10.png)
 
 ---
 

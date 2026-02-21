@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch13_a2_rutina_y_salud.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 13: Rutina y salud (A2)</h1>
+<div class="container">
+<h1 id="chapter-13-rutina-y-salud-a2">Chapter 13: Rutina y salud (A2)</h1>
 <p class="cervantes-ref">Cervantes: §11 일상생활 심화: 가사 노동 및 §15 신체 및 건강 심화: 질병 증상 및 약국</p>
-<h2>1. Opener</h2>
-<p><strong>Equilibrio y bienestar (균형과 웰빙)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Equilibrio y bienestar (균형과 웰빙)</strong><br />
 A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관리하고(집안일) 신체적, 정신적 건강을 돌보는 방법에 대해 더 깊이 있게 다룹니다. 집안일을 분담하거나, 몸의 어디가 어떻게 아픈지 구체적으로 설명하고, 건강한 생활 습관에 대해 조언할 수 있을까요? 이번 장에서는 가사 노동 관련 어휘, 신체 부위 및 증상 표현, 그리고 세계적으로 인정받는 '지중해 식단'의 건강 비결을 배웁니다. 더 건강하고 활기찬 스페인어 생활을 시작해 봅시다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>가사 노동(Tareas domésticas), 신체 부위 심화 및 질병 증상 어휘 15개 이상 습득</li>
 <li>'Doler(~가 아프다)' 동사의 특수 구조와 활용법</li>
 <li>건강한 생활 습관에 대한 제안과 조언 표현 (Debería, Hay que 등)</li>
 <li>지중해 식단(Dieta mediterránea)과 스페인의 건강한 삶의 방식 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
-<strong>¿Sabías que...?</strong> 스페인어로 &quot;내 머리가 아파&quot;를 직역하면 &quot;Mi cabeza me duele&quot;가 될 것 같지만, 실제로는 &quot;<strong>Me duele la cabeza</strong>&quot;라고 말합니다. 주어와 동사의 순서가 바뀌는 'Doler' 동사만의 독특한 매력을 이번 장에서 확실히 익혀보세요!</div>
-<hr>
-<h2>2. Vocabulario Esencial: La Salud y el Hogar</h2>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...?</strong> 스페인어로 "내 머리가 아파"를 직역하면 "Mi cabeza me duele"가 될 것 같지만, 실제로는 "<strong>Me duele la cabeza</strong>"라고 말합니다. 주어와 동사의 순서가 바뀌는 'Doler' 동사만의 독특한 매력을 이번 장에서 확실히 익혀보세요!</div>
+<hr />
+<h2 id="2-vocabulario-esencial-la-salud-y-el-hogar">2. Vocabulario Esencial: La Salud y el Hogar</h2>
 <p>건강한 삶을 유지하기 위한 활동과 관리입니다. 평화로운 웰빙의 이미지를 확인하며 어휘를 익혀보세요.</p>
-<p><img src="../images/ch13_a2_vocab_health_v2_1.png" alt="Salud"></p>
+<p><img alt="Salud" src="../images/ch13_a2_vocab_health_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,28 +379,29 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
     <tr><td>10</td><td><strong>la dieta mediterránea</strong></td><td><strong>Mediterranean Diet</strong> ✅</td><td>지중해 식단</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>몸의 상태를 설명하고 도움을 요청할 때 유용한 패턴입니다.</p>
-<h3>A. 증상 설명하기 (Síntomas)</h3>
+<h3 id="a-sintomas">A. 증상 설명하기 (Síntomas)</h3>
 <ul>
 <li><strong>Me duele mucho la espalda.</strong> (My back hurts a lot. / 허리가 너무 아파요.)</li>
 <li><strong>Tengo fiebre y tos.</strong> (I have a fever and a cough. / 열이 나고 기침을 해요.)</li>
 <li><strong>Estoy resfriado / resfriada.</strong> (I have a cold. / 감기에 걸렸어요.)</li>
 <li><strong>Me siento mareado / mareada.</strong> (I feel dizzy. / 어지러워요.)</li>
 </ul>
-<h3>B. 제안과 조언 (Consejos)</h3>
+<h3 id="b-consejos">B. 제안과 조언 (Consejos)</h3>
 <ul>
 <li><strong>Tienes que descansar más.</strong> (You have to rest more. / 더 쉬어야 해요.)</li>
 <li><strong>Deberías ir al médico.</strong> (You should go to the doctor. / 병원에 가보는 게 좋겠어요.)</li>
 <li><strong>Es importante comer sano.</strong> (It is important to eat healthy. / 건강하게 먹는 것이 중요합니다.)</li>
 <li><strong>Hay que beber mucha agua.</strong> (One must drink a lot of water. / 물을 많이 마셔야 해요.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>통증을 표현하는 'Doler' 동사의 구조는 'Gustar' 동사와 매우 비슷합니다.</p>
-<h3>Doler (아프다) - 역구조 동사</h3>
+<h3 id="doler-">Doler (아프다) - 역구조 동사</h3>
 <p>주어는 '아픈 부위'가 되며, '나에게'에 해당하는 대명사를 동사 앞에 씁니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -173,20 +419,21 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
     <tr><td><strong>A ellos/as/Uds.</strong></td><td><strong>les duele / duelen</strong></td><td>Les duelen las piernas.</td></tr>
   </tbody>
 </table>
-<h3>Important</h3>
+
+<h3 id="important">Important</h3>
 <p>아픈 부위가 하나면 <code>duele</code>(단수), 여러 곳이거나 복수 명사면 <code>duelen</code>(복수)를 씁니다.</p>
-<hr>
-<h2>5. Cultura Viva: La Dieta Mediterránea - El Secreto de la Longevidad</h2>
+<hr />
+<h2 id="5-cultura-viva-la-dieta-mediterranea-el-secreto-de-la-longevidad">5. Cultura Viva: La Dieta Mediterránea - El Secreto de la Longevidad</h2>
 <p>스페인 사람들이 건강하게 오래 사는 비결은 무엇일까요?</p>
-<p><img src="../images/ch13_a2_culture_lifestyle_v2_1.png" alt="Mediterranean Lifestyle"></p>
+<p><img alt="Mediterranean Lifestyle" src="../images/ch13_a2_culture_lifestyle_v2_1.png" /></p>
 <p>La <strong>dieta mediterránea</strong> es considerada una de las más saludables del mundo y es Patrimonio Cultural Inmaterial de la Humanidad. Se basa en el consumo de productos frescos y locales. El ingrediente estrella es el <strong>aceite de oliva</strong> (oro líquido), que se usa para cocinar y aliñar ensaladas.</p>
 <p>Además, los españoles consumen mucha fruta, verdura, legumbres, pescado y frutos secos. La carne roja se consume con moderación. Pero la salud no es solo comida; también es socialización. Comer con amigos y familia, disfrutar de la comida sin prisas (la sobremesa) y caminar mucho son pilares del estilo de vida español. Este equilibrio entre dieta, ejercicio moderado y relaciones sociales hace que España sea uno de los países con mayor esperanza de vida del mundo.</p>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 <strong>지중해 식단</strong>은 세계에서 가장 건강한 식단 중 하나로 여겨지며 유네스코 인류 무형문화유산으로 등재되어 있습니다. 신선하고 지역적인 식재료 소비를 바탕으로 하죠. 주인공은 바로 '액체 금'이라 불리는 <strong>올리브 오일</strong>인데, 요리할 때나 샐러드 드레싱으로 항상 사용됩니다.</p>
 <p>또한 스페인 사람들은 많은 과일, 채소, 콩류, 생선, 견과류를 섭취합니다. 붉은 고기는 적당히 먹고요. 하지만 건강은 단순히 음식만이 아닙니다. 사회적 관계도 중요하죠. 친구나 가족과 함께 식사하고, 서두르지 않고 식후 대화(<strong>소브레메사</strong>)를 즐기며, 많이 걷는 것이 스페인 라이프스타일의 기둥입니다. 식단, 적당한 운동, 그리고 사회적 관계 사이의 이러한 균형이 스페인을 세계 최고의 기대 수명을 가진 나라 중 하나로 만드는 비결입니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the symptom with the body part (증상과 신체 부위를 연결하세요)</h3>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-symptom-with-the-body-part">A. Match the symptom with the body part (증상과 신체 부위를 연결하세요)</h3>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -202,7 +449,8 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
     <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Tengo náuseas</td><td style="padding: 10px; border: 1px solid #ddd;">e. Los pies (발)</td></tr>
   </tbody>
 </table>
-<h3>B. Doler 동사 변형 연습 (알맞은 대명사와 duele/duelen을 쓰세요)</h3>
+
+<h3 id="b-doler-dueleduelen">B. Doler 동사 변형 연습 (알맞은 대명사와 duele/duelen을 쓰세요)</h3>
 <ol>
 <li>(나에게) (..........) la pierna.</li>
 <li>(너에게) ¿(..........) los oídos?</li>
@@ -210,42 +458,36 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 <li>(우리에게) (..........) las muelas (치아).</li>
 <li>(그들에게) (..........) el brazo.</li>
 </ol>
-<h3>C. 번역 연습 (의무 및 조언 표현을 활용하세요)</h3>
+<h3 id="c">C. 번역 연습 (의무 및 조언 표현을 활용하세요)</h3>
 <ol>
-<li>너는 약국에 가야 해. (Deber 활용)<br>
-(............................................................)</li>
-<li>물을 많이 마시는 것이 중요합니다.<br>
-(............................................................)</li>
-<li>저는 감기에 걸려서 열이 나요.<br>
-(............................................................)</li>
-<li>당신은 채소를 더 많이 먹어야 합니다. (Tener que 활용)<br>
-(............................................................)</li>
-<li>어제부터 머리가 계속 아파요.<br>
-(............................................................)</li>
+<li>너는 약국에 가야 해. (Deber 활용)<br />
+   (............................................................)</li>
+<li>물을 많이 마시는 것이 중요합니다.<br />
+   (............................................................)</li>
+<li>저는 감기에 걸려서 열이 나요.<br />
+   (............................................................)</li>
+<li>당신은 채소를 더 많이 먹어야 합니다. (Tener que 활용)<br />
+   (............................................................)</li>
+<li>어제부터 머리가 계속 아파요.<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Consejos para una vida sana (건강한 삶을 위한 조언)</h3>
-<p>Mucha gente me pregunta: &quot;¿Cómo puedo estar sano?&quot;. Mi respuesta siempre es la misma: &quot;Escucha a tu cuerpo&quot;. Yo, por ejemplo, siempre trato de dormir ocho horas para no estar cansado. Por la mañana, hago un poco de ejercicio. Pero lo más importante es la alimentación. Sigo la dieta mediterránea: uso mucho aceite de oliva y como pescado tres veces a la semana. Cuando me duele la garganta, bebo té con miel y limón. Si tengo fiebre, voy al médico enseguida. También es fundamental el bienestar mental: paso tiempo con mis amigos y trato de no estresarme con las tareas domésticas. ¡La salud empieza en la cocina y termina en el corazón!</p>
-<h3>Questions</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="consejos-para-una-vida-sana">Consejos para una vida sana (건강한 삶을 위한 조언)</h3>
+<p>Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la misma: "Escucha a tu cuerpo". Yo, por ejemplo, siempre trato de dormir ocho horas para no estar cansado. Por la mañana, hago un poco de ejercicio. Pero lo más importante es la alimentación. Sigo la dieta mediterránea: uso mucho aceite de oliva y como pescado tres veces a la semana. Cuando me duele la garganta, bebo té con miel y limón. Si tengo fiebre, voy al médico enseguida. También es fundamental el bienestar mental: paso tiempo con mis amigos y trato de no estresarme con las tareas domésticas. ¡La salud empieza en la cocina y termina en el corazón!</p>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>주인공은 왜 아침에 운동을 하나요? (Why does the protagonist exercise in the morning?)
-<ul>
+<li>주인공은 왜 아침에 운동을 하나요? (Why does the protagonist exercise in the morning?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>주인공은 목이 아플 때 무엇을 마시나요? (What does the protagonist drink when their throat hurts?)
-<ul>
+<li>주인공은 목이 아플 때 무엇을 마시나요? (What does the protagonist drink when their throat hurts?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
-많은 사람이 저에게 묻습니다. &quot;어떻게 하면 건강할 수 있나요?&quot;. 제 대답은 항상 같습니다. &quot;몸의 소리에 귀 기울이세요.&quot; 저를 예로 들면, 피곤하지 않기 위해 항상 8시간을 자려고 노력합니다. 아침에는 약간의 운동을 하죠. 하지만 가장 중요한 것은 식습관입니다. 저는 지중해 식단을 따릅니다. 올리브 오일을 많이 사용하고 일주일에 세 번 생선을 먹습니다. 목이 아플 때는 꿀과 레몬을 넣은 차를 마셔요. 열이 나면 바로 병원에 갑니다. 정신적인 웰빙도 필수적입니다. 친구들과 시간을 보내고 집안일로 스트레스받지 않으려 노력합니다. 건강은 주방에서 시작해서 심장에서 완성됩니다!</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>En la farmacia (약국에서)</h3>
-<p><strong>Situación:</strong> Juan va a la farmacia porque se siente mal y tiene gripe.<br>
+<p><strong>[한국어 번역]</strong><br />
+많은 사람이 저에게 묻습니다. "어떻게 하면 건강할 수 있나요?". 제 대답은 항상 같습니다. "몸의 소리에 귀 기울이세요." 저를 예로 들면, 피곤하지 않기 위해 항상 8시간을 자려고 노력합니다. 아침에는 약간의 운동을 하죠. 하지만 가장 중요한 것은 식습관입니다. 저는 지중해 식단을 따릅니다. 올리브 오일을 많이 사용하고 일주일에 세 번 생선을 먹습니다. 목이 아플 때는 꿀과 레몬을 넣은 차를 마셔요. 열이 나면 바로 병원에 갑니다. 정신적인 웰빙도 필수적입니다. 친구들과 시간을 보내고 집안일로 스트레스받지 않으려 노력합니다. 건강은 주방에서 시작해서 심장에서 완성됩니다!</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="en-la-farmacia">En la farmacia (약국에서)</h3>
+<p><strong>Situación:</strong> Juan va a la farmacia porque se siente mal y tiene gripe.<br />
 <strong>상황:</strong> 후안이 몸이 안 좋고 독기 기운이 있어 약국에 갑니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -264,8 +506,9 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Farmacéutico:</strong> Tres veces al día, después de las comidas.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>약사:</strong> 하루 세 번, 식후에 드세요.</td></tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 집안일 및 건강 관련 고급 어휘 10개 이상을 이해하나요?</li>
@@ -273,16 +516,16 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 <li>[ ] 다른 사람에게 건강 조언(제안)을 스페인어로 할 수 있나요?</li>
 <li>[ ] 지중해 식단의 특징과 스페인 습관의 장점을 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Muy bien! 오늘 여러분은 자신의 몸과 마음, 그리고 주거 환경을 돌보는 법을 스페인어로 배웠습니다. 'Doler' 동사를 통해 자신의 상태를 정확히 말할 수 있게 되었고, 건강한 식단과 라이프스타일에 대해 이야기할 수 있게 되었습니다. 건강은 모든 배움의 기초입니다. 다음 장에서는 우리의 삶을 더욱 즐겁게 만들어 줄 '축제, 전통 및 여가 활동 심화(A2)' 섹션으로 이어가겠습니다. ¡Mucha salud para todos!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the symptom with the body part</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-symptom-with-the-body-part">6. Práctica - A. Match the symptom with the body part</h3>
 <ol>
 <li>1-b, 2-a, 3-c, 4-e, 5-d</li>
 </ol>
-<h3>6. Práctica - B. Doler 동사 변형 연습</h3>
+<h3 id="6-practica-b-doler">6. Práctica - B. Doler 동사 변형 연습</h3>
 <ol>
 <li>
 <ol>
@@ -290,7 +533,7 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -298,7 +541,7 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

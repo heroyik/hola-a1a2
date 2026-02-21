@@ -32,7 +32,7 @@
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
 | 1 | alegre | Cheerful / Allegro (mus.) ✅ | 활기찬 느낌 |
-| 2 | triste | Triste (fr.) → Sad | '트리스테'라고 발음 |
+| 2 | triste | Triste (fr.) → Sad | 슬픈 기분 |
 | 3 | serio / seria | Serious ✅ | -o/-a 성수 변화 주의 |
 | 4 | antipático / -a | Antipathy → Unpleasant | '비호감인' 느낌 |
 | 5 | simpático / -a | Sympathetic → Nice / Friendly | '호감가는' 느낌 |
@@ -45,10 +45,10 @@
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
-| 1 | alto / alta | Altitude → Tall ✅ | 높은 곳을 상상하세요 |
-| 2 | bajo / baja | Base → Short / Low | 낮은 곳을 상상하세요 |
-| 3 | delgado / -a | — (Thin / Slender) | '델가도' |
-| 4 | gordo / gorda | — (Fat / Chubby) | '고르도' |
+| 1 | alto / alta | Altitude → Tall ✅ | 키가 큼 |
+| 2 | bajo / baja | Base → Short / Low | 키가 작음 |
+| 3 | delgado / -a | — (Thin / Slender) | 마른 체형 |
+| 4 | gordo / gorda | — (Fat / Chubby) | 통통한 체형 |
 | 5 | inteligente | Intelligent ✅ | 완벽한 인지어 |
 
 ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.

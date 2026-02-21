@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch05_a1_a_comer.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,150 +94,366 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 5: ¡A comer! (A1)</h1>
+<div class="container">
+<h1 id="chapter-5-a-comer-a1">Chapter 5: ¡A comer! (A1)</h1>
 <p class="cervantes-ref">Cervantes: §5 Alimentación: 음식, 음료 명칭 및 레스토랑에서의 기본 표현</p>
-<h2>1. Opener</h2>
-<p><strong>¡Buen provecho! (맛있게 드세요!)</strong><br>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>¡Buen provecho! (맛있게 드세요!)</strong><br />
 스페인어로 '먹는 것'은 단순히 영양을 섭취하는 행위를 넘어, 삶의 기쁨과 사교의 중심입니다. 이번 장에서는 다양한 스페인 음식과 음료의 명칭을 배우고, 레스토랑에서 음식을 주문하거나 선호를 표현하는 방법을 익힙니다. 스페인의 독특한 타파스(Tapas) 문화와 식사 시간의 비밀도 함께 알아봅시다.</p>
-<h3>학습 목표</h3>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>주요 식재료 및 음식/음료 어휘 10개 이상 습득</li>
 <li>'querer'(원하다)와 'preferir'(선호하다) 동사를 활용한 의사 표현</li>
 <li>레스토랑에서의 주문 및 결제 관련 기본 패턴 익히기</li>
 <li>스페인의 식사 예절과 타파스 문화 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
 <strong>¿Sabías que...?</strong> 스페인 사람들의 점심 식사 시간은 보통 오후 2시에서 3시 사이입니다. 저녁 식사는 밤 9시나 10시가 되어야 시작하는 경우가 많습니다. 처음 스페인을 방문하는 한국인들에게는 조금 늦게 느껴질 수 있는 '스페인 타임'입니다!</div>
-<hr>
-<h2>2. Vocabulario Esencial</h2>
+<hr />
+<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
 <p>따스한 햇살이 비치는 테라스의 풍성한 식탁입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img src="../images/ch05_a1_vocab_food_v2_1.png" alt="Comida y Bebida — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
+<p><img alt="Comida y Bebida — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)" src="../images/ch05_a1_vocab_food_v2_1.png" /></p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">번호</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
+<th style="text-align: center;">번호</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">1</td>
-<td style="text-align:left">el café con leche</td>
-<td style="text-align:left">Coffee with Milk</td>
-<td style="text-align:left">카페라떼와 유사한 밀크 커피</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">el café con leche</td>
+<td style="text-align: left;">Coffee with Milk</td>
+<td style="text-align: left;">카페라떼와 유사한 밀크 커피</td>
 </tr>
 <tr>
-<td style="text-align:center">2</td>
-<td style="text-align:left">el pan con tomate</td>
-<td style="text-align:left">Pan (→ Bread) with Tomato</td>
-<td style="text-align:left">카탈루냐식 토마토 빵</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">el pan con tomate</td>
+<td style="text-align: left;">Pan (→ Bread) with Tomato</td>
+<td style="text-align: left;">카탈루냐식 토마토 빵</td>
 </tr>
 <tr>
-<td style="text-align:center">3</td>
-<td style="text-align:left">la tortilla de patatas</td>
-<td style="text-align:left">Tortilla (Omelet) of Potatoes</td>
-<td style="text-align:left">스페인식 감자 오믈렛</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">la tortilla de patatas</td>
+<td style="text-align: left;">Tortilla (Omelet) of Potatoes</td>
+<td style="text-align: left;">스페인식 감자 오믈렛</td>
 </tr>
 <tr>
-<td style="text-align:center">4</td>
-<td style="text-align:left">el zumo de naranja</td>
-<td style="text-align:left">Juice (zumo) of Orange</td>
-<td style="text-align:left">오렌지 주스</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">el zumo de naranja</td>
+<td style="text-align: left;">Juice (zumo) of Orange</td>
+<td style="text-align: left;">오렌지 주스</td>
 </tr>
 <tr>
-<td style="text-align:center">5</td>
-<td style="text-align:left">la ensalada mixta</td>
-<td style="text-align:left">Ensalada (→ Salad) Mixed ✅</td>
-<td style="text-align:left">모둠 샐러드</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">la ensalada mixta</td>
+<td style="text-align: left;">Ensalada (→ Salad) Mixed ✅</td>
+<td style="text-align: left;">모둠 샐러드</td>
 </tr>
 <tr>
-<td style="text-align:center">6</td>
-<td style="text-align:left">la paella de marisco</td>
-<td style="text-align:left">Seafood Paella</td>
-<td style="text-align:left">해산물 파에야</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">la paella de marisco</td>
+<td style="text-align: left;">Seafood Paella</td>
+<td style="text-align: left;">해산물 파에야</td>
 </tr>
 <tr>
-<td style="text-align:center">7</td>
-<td style="text-align:left">el jamón ibérico</td>
-<td style="text-align:left">Ham (Jamón) — Iberico ✅</td>
-<td style="text-align:left">이베리코 하몽 (생햄)</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">el jamón ibérico</td>
+<td style="text-align: left;">Ham (Jamón) — Iberico ✅</td>
+<td style="text-align: left;">이베리코 하몽 (생햄)</td>
 </tr>
 <tr>
-<td style="text-align:center">8</td>
-<td style="text-align:left">las aceitunas</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">올리브 (절임)</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">las aceitunas</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">올리브 (절임)</td>
 </tr>
 <tr>
-<td style="text-align:center">9</td>
-<td style="text-align:left">el vino tinto</td>
-<td style="text-align:left">Wine (Vino) Tint (Red color) ✅</td>
-<td style="text-align:left">레드 와인</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">el vino tinto</td>
+<td style="text-align: left;">Wine (Vino) Tint (Red color) ✅</td>
+<td style="text-align: left;">레드 와인</td>
 </tr>
 <tr>
-<td style="text-align:center">10</td>
-<td style="text-align:left">el agua mineral</td>
-<td style="text-align:left">Water Mineral ✅</td>
-<td style="text-align:left">미네랄 워터 (생수)</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">el agua mineral</td>
+<td style="text-align: left;">Water Mineral ✅</td>
+<td style="text-align: left;">미네랄 워터 (생수)</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>레스토랑에서 음식을 주문하고 계산할 때 사용하는 핵심적인 패턴입니다.</p>
-<h3>A. 주문하기 (Ordering)</h3>
+<h3 id="a-ordering">A. 주문하기 (Ordering)</h3>
 <ul>
 <li><strong>Para mí, una paella, por favor.</strong> (For me, a paella, please. / 저는 파에야 한 접시 주세요.)</li>
-<li><strong>¿Qué quieres beber?</strong> (What do you want to drink? / 무엇을 마시고 싶니?)
-<ul>
-<li>💡 <strong>English Bridge</strong>: &quot;Querer&quot; doesn't look like &quot;want,&quot; but think of it as &quot;<strong>quest</strong>&quot; — you're on a quest for what you desire!</li>
-</ul>
-</li>
+<li><strong>¿Qué quieres beber?</strong> (What do you want to drink? / 무엇을 마시고 싶니?)</li>
+<li>💡 <strong>English Bridge</strong>: "Querer" doesn't look like "want," but think of it as "<strong>quest</strong>" — you're on a quest for what you desire!</li>
 <li><strong>Quiero una cerveza fría.</strong> (I want a cold beer. / 찬 맥주 한 잔 원해요.)</li>
 <li><strong>Para compartir, unas croquetas.</strong> (To share, some croquettes. / 나눠 먹게 크로케타 좀 주세요.)</li>
 </ul>
-<h3>B. 선호 표현 및 계산 (Preference and Check)</h3>
+<h3 id="b-preference-and-check">B. 선호 표현 및 계산 (Preference and Check)</h3>
 <ul>
-<li><strong>Prefiero el vino blanco.</strong> (I prefer white wine. / 저는 화이트 와인을 선호해요.)
-<ul>
-<li>💡 <strong>English Bridge</strong>: &quot;Prefiero&quot; = &quot;I <strong>prefer</strong>&quot; ✅ — perfect cognate!</li>
-</ul>
-</li>
+<li><strong>Prefiero el vino blanco.</strong> (I prefer white wine. / 저는 화이트 와인을 선호해요.)</li>
+<li>💡 <strong>English Bridge</strong>: "Prefiero" = "I <strong>prefer</strong>" ✅ — perfect cognate!</li>
 <li><strong>La cuenta, por favor.</strong> (The check, please. / 계산서 주세요.)</li>
 <li><strong>¿Puedo pagar con tarjeta?</strong> (Can I pay with a card? / 카드로 결제 가능한가요?)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>음식 주문과 선호 표현에 필수적인 불규칙 동사 'querer'와 'preferir'를 배웁니다.</p>
-<h3>A. 동사 Querer (원하다 / 사랑하다) — 어간 변화 e→ie</h3>
+<h3 id="a-querer-eie">A. 동사 Querer (원하다 / 사랑하다) — 어간 변화 e→ie</h3>
 <p>이 동사는 주어에 따라 어간의 'e'가 'ie'로 변하는 Boot Verb입니다. (nosotros, vosotros 제외)</p>
-<p><strong>English Bridge</strong>: Think of &quot;<strong>quest</strong>&quot; — to actively seek what you want. The stem change e→ie is like English verbs that change vowels: &quot;sing/sang/sung.&quot;</p>
+<p><strong>English Bridge</strong>: Think of "<strong>quest</strong>" — to actively seek what you want. The stem change e→ie is like English verbs that change vowels: "sing/sang/sung."</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -258,9 +497,10 @@ strong { font-weight: bold; color: var(--spanish-red); }
   </tbody>
 </table>
 </div>
-<h3>B. 동사 Preferir (선호하다) — 어간 변화 e→ie</h3>
+
+<h3 id="b-preferir-eie">B. 동사 Preferir (선호하다) — 어간 변화 e→ie</h3>
 <p>'Querer'와 마찬가지로 어간의 'e'가 'ie'로 변합니다.</p>
-<p><strong>English Bridge</strong>: &quot;Preferir&quot; = &quot;<strong>Prefer</strong>&quot; ✅ — identical cognate! The stem change follows the same Boot Verb pattern as querer.</p>
+<p><strong>English Bridge</strong>: "Preferir" = "<strong>Prefer</strong>" ✅ — identical cognate! The stem change follows the same Boot Verb pattern as querer.</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -304,12 +544,13 @@ strong { font-weight: bold; color: var(--spanish-red); }
   </tbody>
 </table>
 </div>
+
 <blockquote>
-<p>💡 <strong>Pattern</strong>: 두 동사 모두 Boot Verb (e→ie). 부츠 안쪽 형태(yo, tú, él, ellos)에서만 변화하고 nosotros/vosotros는 변하지 않습니다.<br>
-[!IMPORTANT]<br>
+<p>💡 <strong>Pattern</strong>: 두 동사 모두 Boot Verb (e→ie). 부츠 안쪽 형태(yo, tú, él, ellos)에서만 변화하고 nosotros/vosotros는 변하지 않습니다.<br />
+[!IMPORTANT]<br />
 <strong>Ser vs Estar</strong>: <code>Soy un cocinero</code> (Occupations take <code>ser</code>) vs <code>Estoy en la cocina</code> (Locations take <code>estar</code>).</p>
 </blockquote>
-<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -321,59 +562,59 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3>D. Verbos Regulares (Revisión)</h3>
+<h3 id="d-verbos-regulares-revision">D. Verbos Regulares (Revisión)</h3>
 <p>스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:</p>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr>
-<div class="admonition-important"><strong>💡 important</strong><br/><br>
-<strong>Korean Tip</strong>: 두 동사 모두 뒤에 명사(물건)나 동사 원형(행위)이 올 수 있습니다. 예: <em>Quiero <strong>comer</strong></em> (먹고 싶다), <em>Quiero <strong>una manzana</strong></em> (사과 하나를 원한다).</div>
-<hr>
-<h2>5. Cultura Viva: El Arte de Tapear 🍷</h2>
+<hr />
+<div class="admonition-important"><strong>💡 Important</strong><br/><br />
+<strong>Korean Tip</strong>: 두 동사 모두 뒤에 명사(물건)나 동사 원형(행위)이 올 수 있습니다. 예: <em>Quiero </em><em>comer</em><strong> (먹고 싶다), <em>Quiero **una manzana</em></strong> (사과 하나를 원한다).</div>
+<hr />
+<h2 id="5-cultura-viva-el-arte-de-tapear">5. Cultura Viva: El Arte de Tapear 🍷</h2>
 <p>스페인 미식 문화의 꽃, 타파스(Tapas)를 즐기는 법을 소개합니다.</p>
 <p>Ir de tapas no es solo comer, es una actividad social. Una <strong>tapa</strong> es una pequeña porción de comida que se sirve con una bebida. Dice la leyenda que el rey Alfonso X el Sabio ordenó servir comida con el vino para evitar que el alcohol subiera rápido a la cabeza. Hoy en día, es una forma de vida en ciudades como Madrid, Sevilla o Granada.</p>
-<p>A los españoles les gusta &quot;tapear&quot; o &quot;picar&quot;. Van de bar en bar, toman una caña (cerveza pequeña) o un chato (vaso de vino) y prueban una tapa diferente en cada lugar. En algunas ciudades, como Granada, ¡la tapa es gratis con la bebida! Las tapas más clásicas son las patatas bravas, los calamares fritos, el queso manchego y, por supuesto, el jamón ibérico.</p>
-<p><strong>[한국어 번역]</strong><br>
-'타파스를 먹으러 가는 것'은 단순한 식사가 아니라 하나의 사회적 활동입니다. **타파스(tapa)**는 음료와 함께 제공되는 소량의 음식입니다. 전설에 따르면 현왕 알폰소 10세가 술 기운이 머리로 빨리 올라오는 것을 막기 위해 와인과 함께 음식을 내라고 명령했다고 합니다.</p>
+<p>A los españoles les gusta "tapear" o "picar". Van de bar en bar, toman una caña (cerveza pequeña) o un chato (vaso de vino) y prueban una tapa diferente en cada lugar. En algunas ciudades, como Granada, ¡la tapa es gratis con la bebida! Las tapas más clásicas son las patatas bravas, los calamares fritos, el queso manchego y, por supuesto, el jamón ibérico.</p>
+<p><strong>[한국어 번역]</strong><br />
+'타파스를 먹으러 가는 것'은 단순한 식사가 아니라 하나의 사회적 활동입니다. <strong>타파스(tapa)</strong>는 음료와 함께 제공되는 소량의 음식입니다. 전설에 따르면 현왕 알폰소 10세가 술 기운이 머리로 빨리 올라오는 것을 막기 위해 와인과 함께 음식을 내라고 명령했다고 합니다.</p>
 <p>스페인 사람들은 '타파스를 먹는 것(tapear)'을 좋아합니다. 그들은 바(bar)를 옮겨 다니며 '카냐(caña, 작은 맥주)'나 '차토(chato, 와인 한 잔)'를 마시고, 가는 곳마다 다른 타파스를 맛봅니다. 그라나다 같은 일부 도시에서는 음료를 시키면 타파스가 공짜입니다!</p>
-<p><img src="../images/ch05_a1_culture_tapas_v2_1.png" alt="스페인 바에서 즐기는 타파스 문화와 카냐(생맥주)"></p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the word (알맞은 단어를 연결하세요)</h3>
+<p><img alt="스페인 바에서 즐기는 타파스 문화와 카냐(생맥주)" src="../images/ch05_a1_culture_tapas_v2_1.png" /></p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word (알맞은 단어를 연결하세요)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English / Korean</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English / Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">1. El zumo</td>
-<td style="text-align:left">a. Water</td>
+<td style="text-align: left;">1. El zumo</td>
+<td style="text-align: left;">a. Water</td>
 </tr>
 <tr>
-<td style="text-align:left">2. El pan</td>
-<td style="text-align:left">b. Juice</td>
+<td style="text-align: left;">2. El pan</td>
+<td style="text-align: left;">b. Juice</td>
 </tr>
 <tr>
-<td style="text-align:left">3. El agua</td>
-<td style="text-align:left">c. Cheese</td>
+<td style="text-align: left;">3. El agua</td>
+<td style="text-align: left;">c. Cheese</td>
 </tr>
 <tr>
-<td style="text-align:left">4. El queso</td>
-<td style="text-align:left">d. Bread</td>
+<td style="text-align: left;">4. El queso</td>
+<td style="text-align: left;">d. Bread</td>
 </tr>
 <tr>
-<td style="text-align:left">5. El jamón</td>
-<td style="text-align:left">e. Ham</td>
+<td style="text-align: left;">5. El jamón</td>
+<td style="text-align: left;">e. Ham</td>
 </tr>
 </tbody>
 </table>
-<h3>B. Fill in the blanks with the correct form of 'querer' or 'preferir' (알맞은 변화형을 쓰세요)</h3>
+<h3 id="b-fill-in-the-blanks-with-the-correct-form-of-querer-or-preferir">B. Fill in the blanks with the correct form of 'querer' or 'preferir' (알맞은 변화형을 쓰세요)</h3>
 <ol>
 <li>Yo (______) una ensalada mixta. (querer)</li>
 <li>Nosotros (______) el vino tinto. (preferir)</li>
@@ -381,34 +622,34 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>Ellos (______) comer en la terraza. (preferir)</li>
 <li>Vosotros (______) muchas tapas. (querer)</li>
 </ol>
-<h3>C. 번역 연습 (주어진 상황에 맞게 번역하세요)</h3>
+<h3 id="c">C. 번역 연습 (주어진 상황에 맞게 번역하세요)</h3>
 <ol>
-<li>저는 찬 맥주 한 잔 주세요. (레스토랑에서)<br>
-(............................................................)</li>
-<li>너는 고기를 원하니, 아니면 생선을 원하니?<br>
-(............................................................)</li>
-<li>여기 계산서 주세요, 부탁합니다.<br>
-(............................................................)</li>
-<li>우리는 화이트 와인보다 레드 와인을 선호해요.<br>
-(............................................................)</li>
-<li>카드로 계산할 수 있나요?<br>
-(............................................................)</li>
+<li>저는 찬 맥주 한 잔 주세요. (레스토랑에서)<br />
+   (............................................................)</li>
+<li>너는 고기를 원하니, 아니면 생선을 원하니?<br />
+   (............................................................)</li>
+<li>여기 계산서 주세요, 부탁합니다.<br />
+   (............................................................)</li>
+<li>우리는 화이트 와인보다 레드 와인을 선호해요.<br />
+   (............................................................)</li>
+<li>카드로 계산할 수 있나요?<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Una cena en Madrid (마드리드에서의 저녁 식사)</h3>
-<p>Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madrid. Ellos no tienen mucha hambre, por eso prefieren comer tapas para compartir. Diego quiere patatas bravas y una tortilla de patatas. Su amiga Elena prefiere algo de pescado, así que pide calamares fritos. Para beber, todos quieren una caña de cerveza muy fría. El camarero es muy simpático y trae la comida rápido. &quot;Todo está riquísimo,&quot; dice Elena. Al final, Diego pide la cuenta y paga con tarjeta.</p>
-<h3>Preguntas (질문)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="una-cena-en-madrid">Una cena en Madrid (마드리드에서의 저녁 식사)</h3>
+<p>Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madrid. Ellos no tienen mucha hambre, por eso prefieren comer tapas para compartir. Diego quiere patatas bravas y una tortilla de patatas. Su amiga Elena prefiere algo de pescado, así que pide calamares fritos. Para beber, todos quieren una caña de cerveza muy fría. El camarero es muy simpático y trae la comida rápido. "Todo está riquísimo," dice Elena. Al final, Diego pide la cuenta y paga con tarjeta.</p>
+<h3 id="preguntas">Preguntas (질문)</h3>
 <ol>
 <li>¿Por qué eligieron tapas? (왜 타파스를 선택했나요?)</li>
 <li>¿Cómo pagó Diego? (디에고는 어떻게 계산했나요?)</li>
 </ol>
 <p><strong>[한국어 번역]</strong></p>
-<h4>마드리드에서의 저녁 식사</h4>
-<p>오늘은 금요일이고 디에고는 마드리드 중심가의 레스토랑에서 친구들과 저녁을 먹습니다. 그들은 배가 많이 고프지 않아서 나눠 먹을 수 있는 타파스를 먹기로 합니다. 디에고는 파타타스 브라바스와 감자 오믈렛을 원합니다. 그의 친구 엘레나는 생선 요리를 선호해서 오징어 튀김을 주문합니다. 마실 것으로는 모두가 아주 시원한 카냐(생맥주) 한 잔을 원합니다. 웨이터는 매우 친근하고 음식을 빨리 가져다줍니다. &quot;모든 게 정말 맛있어,&quot; 엘레나가 말합니다. 마지막에 디에고는 계산서를 요청하고 카드로 결제합니다.</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>En el restaurante &quot;La Solana&quot; (레스토랑 &quot;라 솔라나&quot;에서)</h3>
+<h4 id="_2">마드리드에서의 저녁 식사</h4>
+<p>오늘은 금요일이고 디에고는 마드리드 중심가의 레스토랑에서 친구들과 저녁을 먹습니다. 그들은 배가 많이 고프지 않아서 나눠 먹을 수 있는 타파스를 먹기로 합니다. 디에고는 파타타스 브라바스와 감자 오믈렛을 원합니다. 그의 친구 엘레나는 생선 요리를 선호해서 오징어 튀김을 주문합니다. 마실 것으로는 모두가 아주 시원한 카냐(생맥주) 한 잔을 원합니다. 웨이터는 매우 친근하고 음식을 빨리 가져다줍니다. "모든 게 정말 맛있어," 엘레나가 말합니다. 마지막에 디에고는 계산서를 요청하고 카드로 결제합니다.</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="en-el-restaurante-la-solana">En el restaurante "La Solana" (레스토랑 "라 솔라나"에서)</h3>
 <p><strong>Situación:</strong> Carlos y su amiga coreana Ji-won están en un restaurante típico español. Ji-won está aprendiendo a pedir comida en español.</p>
 <p><strong>상황:</strong> 카를로스와 그의 한국인 친구 지원이가 전형적인 스페인 레스토랑에 있습니다. 지원이는 스페인어로 음식 주문하는 법을 배우고 있습니다.</p>
 <table class="dialogue-table">
@@ -461,28 +702,29 @@ strong { font-weight: bold; color: var(--spanish-red); }
     </tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 파에야, 하몽, 타파스 등 주요 음식 명칭 <strong>10개 이상</strong>을 익혔다.</li>
 <li>[ ] '<strong>Querer</strong>'와 '<strong>Preferir</strong>'의 Boot Verb 변화(<strong>e→ie</strong>)를 외웠다.</li>
 <li>[ ] <strong>nosotros/vosotros</strong>에서는 어간 변화가 일어나지 않음을 안다.</li>
-<li>[ ] 레스토랑에서 &quot;<strong>Para mí...</strong>&quot; 와 &quot;<strong>La cuenta, por favor</strong>&quot; 표현을 사용할 수 있다.</li>
+<li>[ ] 레스토랑에서 "<strong>Para mí...</strong>" 와 "<strong>La cuenta, por favor</strong>" 표현을 사용할 수 있다.</li>
 <li>[ ] 스페인의 <strong>타파스</strong> 문화와 바 투어 문화를 이해했다.</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Fantástico! 🎉 이번 장을 통해 여러분은 스페인 여행의 가장 큰 즐거움 중 하나인 '미식'을 즐길 준비를 마쳤습니다.</p>
-<p>음식을 주문하고 자신의 취향을 당당하게 말하는 것만으로도 여러분의 노력이 빛을 발할 것입니다. &quot;<strong>La cuenta, por favor</strong>&quot; 한 마디로 멋지게 식사를 마무리하는 여러분의 모습을 상상해 보세요!</p>
+<p>음식을 주문하고 자신의 취향을 당당하게 말하는 것만으로도 여러분의 노력이 빛을 발할 것입니다. "<strong>La cuenta, por favor</strong>" 한 마디로 멋지게 식사를 마무리하는 여러분의 모습을 상상해 보세요!</p>
 <p>다음 장에서는 우리가 편히 쉴 수 있는 공간인 '<strong>집(Mi Casa)</strong>'에 대해 배워보겠습니다. ¡Hasta la próxima y buen provecho!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the word</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-word">6. Práctica - A. Match the word</h3>
 <ol>
 <li>1-b, 2-d, 3-a, 4-c, 5-e</li>
 </ol>
-<h3>6. Práctica - B. Fill in the blanks</h3>
+<h3 id="6-practica-b-fill-in-the-blanks">6. Práctica - B. Fill in the blanks</h3>
 <ol>
 <li>
 <ol>
@@ -510,7 +752,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -538,7 +780,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

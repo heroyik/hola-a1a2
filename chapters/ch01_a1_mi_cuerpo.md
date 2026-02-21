@@ -28,13 +28,13 @@
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 | :---: | :--- | :--- | :--- |
-| 1 | la cabeza | Cephalic (→ head-related) | '까베사'라고 발음하세요. |
-| 2 | el pelo | — | 머리카락을 뜻합니다. |
-| 3 | la cara | — | 얼굴입니다. |
-| 4 | el ojo | Ocular ✅ (→ eye-related) | '오호'라고 발음하며 항상 성수 일치에 주의하세요. |
-| 5 | la nariz | Nasal ✅ | 코입니다. 'ㄹ' 발음 주의. |
-| 6 | la boca | Vocal (→ mouth-related) | 입입니다. |
-| 7 | la oreja | Aural (→ ear-related) | 귀(겉부분)를 뜻합니다. |
+| 1 | la cabeza | Cephalic (→ head-related) | 신체의 가장 윗부분 |
+| 2 | el pelo | — | 머리카락 |
+| 3 | la cara | — | 얼굴 |
+| 4 | el ojo | Ocular ✅ (→ eye-related) | 시각을 담당하는 부위 |
+| 5 | la nariz | Nasal ✅ | 코 |
+| 6 | la boca | Vocal (→ mouth-related) | 입 |
+| 7 | la oreja | Aural (→ ear-related) | 귀 (겉부분) |
 
 ### B. 몸통과 팔다리 (Tronco y Extremidades)
 
@@ -44,16 +44,16 @@
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 | :---: | :--- | :--- | :--- |
-| 1 | el cuello | — | 목입니다. |
-| 2 | el hombro | — | 어깨입니다. |
-| 3 | el brazo | Brace (→ support for arm) | 팔입니다. |
-| 4 | la mano | Manual ✅ | 손입니다. ⚠️ 여성 명사임에 주의: la mano |
-| 5 | el dedo | Digit ✅ (→ finger/toe) | 손가락 또는 발가락입니다. |
-| 6 | el pecho | Pectoral ✅ | 가슴입니다. |
-| 7 | el estómago | Stomach ✅ | 배, 위장입니다. |
-| 8 | la pierna | — | 다리입니다. |
-| 9 | la rodilla | — | 무릎입니다. |
-| 10 | el pie | Pedal ✅ (→ foot-related) | 발입니다. |
+| 1 | el cuello | — | 목 |
+| 2 | el hombro | — | 어깨 |
+| 3 | el brazo | Brace (→ support for arm) | 팔 |
+| 4 | la mano | Manual ✅ | 손 (⚠️ 여성 명사: la mano) |
+| 5 | el dedo | Digit ✅ (→ finger/toe) | 손가락 또는 발가락 |
+| 6 | el pecho | Pectoral ✅ | 가슴 |
+| 7 | el estómago | Stomach ✅ | 배, 위장 |
+| 8 | la pierna | — | 다리 |
+| 9 | la rodilla | — | 무릎 |
+| 10 | el pie | Pedal ✅ (→ foot-related) | 발 |
 
 ✅ **범례**: ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다. ⚠️ 표시는 주의가 필요한 단어입니다.
 

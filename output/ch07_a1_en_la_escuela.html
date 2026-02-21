@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch07_a1_en_la_escuela.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 7: En la escuela (A1)</h1>
+<div class="container">
+<h1 id="chapter-7-en-la-escuela-a1">Chapter 7: En la escuela (A1)</h1>
 <p class="cervantes-ref">Cervantes: §6 Educación: 학교 시설, 학용품 및 수업 관련 기초 표현 및 규칙</p>
-<h2>1. Opener</h2>
-<p><strong>Aprender es una aventura (배움은 모험입니다)</strong><br>
-학교는 단순히 지식을 습득하는 곳을 넘어 친구들과 교류하고 새로운 세상을 만나는 설레는 공간입니다. 이번 장에서는 학교의 다양한 시설과 수업 시간에 사용하는 학용품들의 이름을 배웁니다. 또한 스페인어의 가장 기본이 되는 규칙 동사(-ar, -er, -ir)의 현재 변화를 익혀 &quot;말하고, 먹고, 사는&quot; 일상적인 활동을 표현해 봅니다. 마지막으로 스페인의 초등 교육 시스템과 따뜻한 학교 분위기에 대해서도 알아봅시다.</p>
-<h3>학습 목표</h3>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Aprender es una aventura (배움은 모험입니다)</strong><br />
+학교는 단순히 지식을 습득하는 곳을 넘어 친구들과 교류하고 새로운 세상을 만나는 설레는 공간입니다. 이번 장에서는 학교의 다양한 시설과 수업 시간에 사용하는 학용품들의 이름을 배웁니다. 또한 스페인어의 가장 기본이 되는 규칙 동사(-ar, -er, -ir)의 현재 변화를 익혀 "말하고, 먹고, 사는" 일상적인 활동을 표현해 봅니다. 마지막으로 스페인의 초등 교육 시스템과 따뜻한 학교 분위기에 대해서도 알아봅시다.</p>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>학교 시설 및 학용품 명칭 15개 이상 습득</li>
 <li>규칙 동사(-ar, -er, -ir)의 현재 시제 변화 완벽 이해 및 활용</li>
 <li>'saber'와 'poder'의 기초 용법 구분</li>
 <li>스페인의 공교육 체계와 학교 생활의 특징 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
 <strong>¿Sabías que...?</strong> 스페인의 학교 이름 중에는 'Cervantes'가 아주 많습니다. &lt;돈키호테&gt;를 쓴 대문호 미겔 데 세르반테스를 기리기 위함이죠. 여러분이 지금 보고 있는 이 'Cervantes' 참조 라인도 스페인어 교육의 국제 표준인 세르반테스 연구소의 지침을 따르고 있답니다!</div>
-<hr>
-<h2>2. Vocabulario Esencial: La Escuela y la Clase</h2>
+<hr />
+<h2 id="2-vocabulario-esencial-la-escuela-y-la-clase">2. Vocabulario Esencial: La Escuela y la Clase</h2>
 <p>활기찬 스페인 대학교의 강의실 풍경입니다. 번호와 매칭되는 단어를 확인하며 수업 시간에 필요한 어휘들을 익혀보세요.</p>
-<p><img src="../images/ch07_a1_vocab_school_v2_1.png" alt="La Escuela"></p>
+<p><img alt="La Escuela" src="../images/ch07_a1_vocab_school_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,30 +379,31 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td>10</td><td><strong>el examen</strong></td><td><strong>Exam</strong> ✅</td><td>시험</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>학교에서 선생님이나 친구들과 대화할 때 자주 사용하는 표현입니다.</p>
-<h3>A. 수업 시간의 질문과 대답</h3>
+<h3 id="a">A. 수업 시간의 질문과 대답</h3>
 <ul>
 <li><strong>¿Puedo entrar?</strong> (May I come in? / 들어가도 될까요?)</li>
 <li><strong>¿Qué significa 이 대목?</strong> (What does this part mean? / 이 부분은 무슨 뜻인가요?)</li>
 <li><strong>No entiendo la pregunta.</strong> (I don't understand the question. / 질문을 이해하지 못하겠어요.)</li>
 <li><strong>¿Puedes repetir, por favor?</strong> (Can you repeat, please? / 다시 한번 말씀해 주시겠어요?)</li>
 </ul>
-<h3>B. 공부와 능력 표현하기</h3>
+<h3 id="b">B. 공부와 능력 표현하기</h3>
 <ul>
 <li><strong>Estudio español los lunes.</strong> (I study Spanish on Mondays. / 나는 월요일마다 스페인어를 공부해.)</li>
 <li><strong>No sé la respuesta.</strong> (I don't know the answer. / 정답을 모르겠어요.)</li>
 <li><strong>¿Sabes hablar inglés?</strong> (Do you know how to speak English? / 너 영어 할 줄 아니?)</li>
 <li><strong>Hablamos mucho en clase.</strong> (We talk a lot in class. / 우리는 수업 시간에 이야기를 많이 해.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>스페인어 문장의 뼈대가 되는 규칙 동사의 변화와 능력/지식을 나타내는 동사를 기초부터 다져봅시다.</p>
-<h3>A. 규칙 동사 현재형 (Presente)</h3>
+<h3 id="a-presente">A. 규칙 동사 현재형 (Presente)</h3>
 <p>스페인어 동사 원형은 끝부분에 따라 <strong>-ar, -er, -ir</strong> 그룹으로 나뉩니다. 영어와 달리 스페인어는 '누가(주어)' 행동하는지에 따라 스페인어 동사는 주어에 따라 6가지 형태로 변합니다. 여기서는 가장 기본인 <strong>현재 시제(Presente)</strong> 규칙 변화를 배웁니다.</p>
-<h3>💡 English Bridge: Stem &amp; Ending</h3>
+<h3 id="english-bridge-stem-ending">💡 English Bridge: Stem &amp; Ending</h3>
 <ul>
 <li><strong>Stem (어근)</strong>: 동사의 의미를 담고 있는 앞부분 (예: <em>habl-</em>, <em>com-</em>, <em>viv-</em>)</li>
 <li><strong>Ending (어미)</strong>: 주어에 따라 변하는 뒷부분 (예: <em>-o</em>, <em>-as</em>, <em>-a</em>)</li>
@@ -181,9 +427,11 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td><strong>They/Uds.</strong></td><td>habl<strong>an</strong></td><td>com<strong>en</strong></td><td>viv<strong>en</strong></td></tr>
   </tbody>
 </table>
-[!TIP]
-> **Korean Tip**: '이다, 있다'의 구분은 스페인어를 배울 때 가장 기초적이면서도 중요한 부분입니다. 'Ser'는 본질(학생이다, 한국인이다), 'Estar'는 상태와 위치(학교에 있다, 행복하다)를 나타냅니다.
-<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<p>[!TIP]</p>
+<blockquote>
+<p><strong>Korean Tip</strong>: '이다, 있다'의 구분은 스페인어를 배울 때 가장 기초적이면서도 중요한 부분입니다. 'Ser'는 본질(학생이다, 한국인이다), 'Estar'는 상태와 위치(학교에 있다, 행복하다)를 나타냅니다.</p>
+</blockquote>
+<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -195,19 +443,19 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3>D. Verbos Regulares (Revisión)</h3>
+<h3 id="d-verbos-regulares-revision">D. Verbos Regulares (Revisión)</h3>
 <p>스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:</p>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr>
-<h3>💡 Korean Tip</h3>
+<hr />
+<h3 id="korean-tip">💡 Korean Tip</h3>
 <p>스페인어는 동사 변화만으로 주어를 알 수 있는 경우가 많아 주어 대명사(Yo, Tú 등)를 자주 생략합니다. 동사 꼬리(어미)를 정확히 익히는 것이 핵심입니다!</p>
-<h3>B. 필수 불규칙 동사 (Essential Irregulars - Presente)</h3>
+<h3 id="b-essential-irregulars-presente">B. 필수 불규칙 동사 (Essential Irregulars - Presente)</h3>
 <p>현재 시제(Presente)에서 가장 많이 쓰이는 6대 필수 불규칙 동사입니다. 변화형이 불규칙하므로 통째로 암기하는 것이 가장 효율적입니다.</p>
-<h3>Mandatory Irregulars (Presente)</h3>
+<h3 id="mandatory-irregulars-presente">Mandatory Irregulars (Presente)</h3>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -226,7 +474,8 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td><strong>They/Uds.</strong></td><td>son</td><td>están</td><td>van</td></tr>
   </tbody>
 </table>
-<br>
+
+<p><br></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -245,31 +494,26 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td><strong>They/Uds.</strong></td><td>tienen</td><td>saben</td><td>pueden</td></tr>
   </tbody>
 </table>
-<h3>C. Saber vs Poder (기초 구분)</h3>
+
+<h3 id="c-saber-vs-poder">C. Saber vs Poder (기초 구분)</h3>
 <ul>
-<li><strong>Saber</strong>: '지식'이나 '학습을 통해 익힌 능력' (Knowing fact or how to do something)
-<ul>
-<li><em>English Bridge</em>: &quot;I <strong>know</strong> how to speak Spanish.&quot; → <em>Yo <strong>sé</strong> hablar español.</em></li>
+<li><strong>Saber</strong>: '지식'이나 '학습을 통해 익힌 능력' (Knowing fact or how to do something)</li>
+<li><em>English Bridge</em>: "I <strong>know</strong> how to speak Spanish." → <em>Yo </em><em>sé</em><em> hablar español.</em></li>
+<li><strong>Poder</strong>: '허락'이나 '물리적/상황적 가능성' (Being able to do due to permission or means)</li>
+<li><em>English Bridge</em>: "I <strong>can</strong> go now (I'm permitted/free)." → <em>Yo </em><em>puedo</em><em> ir ahora.</em></li>
 </ul>
-</li>
-<li><strong>Poder</strong>: '허락'이나 '물리적/상황적 가능성' (Being able to do due to permission or means)
-<ul>
-<li><em>English Bridge</em>: &quot;I <strong>can</strong> go now (I'm permitted/free).&quot; → <em>Yo <strong>puedo</strong> ir ahora.</em></li>
-</ul>
-</li>
-</ul>
-<hr>
-<h2>5. Cultura Viva: El Colegio Público en España</h2>
+<hr />
+<h2 id="5-cultura-viva-el-colegio-publico-en-espana">5. Cultura Viva: El Colegio Público en España</h2>
 <p>스페인의 아이들은 어떤 환경에서 공부할까요?</p>
-<p><img src="../images/ch07_a1_culture_education_v2_1.png" alt="Spanish School"></p>
+<p><img alt="Spanish School" src="../images/ch07_a1_culture_education_v2_1.png" /></p>
 <p>En España, la educación es obligatoria y gratuita desde los 6 hasta los 16 años. El sistema se divide en <strong>Educación Primaria</strong> (6-12 años) y <strong>Educación Secundaria</strong> (ESO, 12-16 años). Los colegios públicos suelen ser lugares muy coloridos y alegres, con patios grandes para jugar al fútbol o al baloncesto durante el recreo.</p>
 <p>A diferencia de otros países, en muchos colegios españoles los niños no llevan <strong>uniforme</strong>, aunque esto depende de cada centro. Los profesores suelen ser muy cercanos y los estudiantes los llaman por su nombre de pila (Manuel, Carmen...), lo que crea un ambiente de confianza. Además, las actividades al aire libre y los proyectos en grupo son fundamentales para fomentar la creatividad y el compañerismo desde pequeños.</p>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 스페인에서 교육은 6세부터 16세까지 의무이자 무상입니다. 시스템은 <strong>초등 교육(Primaria)</strong>(6-12세)과 <strong>중등 교육(ESO)</strong>(12-16세)으로 나뉩니다. 공립학교들은 보통 매우 알록달록하고 즐거운 곳이며, 쉬는 시간 동안 축구나 농구를 할 수 있는 큰 운동장(patio)을 갖추고 있습니다.</p>
 <p>다른 나라들과 달리, 많은 스페인 학교에서 아이들은 <strong>교복</strong>을 입지 않지만, 이는 학교마다 다릅니다. 선생님들은 보통 매우 친근하며 학생들은 선생님의 이름(Manuel, Carmen...)을 직접 부르는데, 이는 신뢰의 분위기를 조성합니다. 또한, 야외 활동과 그룹 프로젝트는 어릴 때부터 창의성과 동료애를 기르는 데 필수적입니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Choose the correct verb ending (알맞은 동사 어미를 고르세요)</h3>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-choose-the-correct-verb-ending">A. Choose the correct verb ending (알맞은 동사 어미를 고르세요)</h3>
 <ol>
 <li>Yo habl<strong>o</strong> (또는 <strong>o</strong>) español en casa.</li>
 <li>Nosotros viv<strong>imos</strong> (또는 <strong>imos</strong>) en Madrid.</li>
@@ -277,7 +521,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>Ellos estudi<strong>an</strong> (또는 <strong>an</strong>) mucho para el examen.</li>
 <li>Vosotros escrib<strong>ís</strong> (또는 <strong>ís</strong>) en el cuaderno.</li>
 </ol>
-<h3>B. Saber vs Poder (알맞은 동사를 활용해 문장을 완성하세요)</h3>
+<h3 id="b-saber-vs-poder">B. Saber vs Poder (알맞은 동사를 활용해 문장을 완성하세요)</h3>
 <ol>
 <li>Yo 안다 (..........) hablar español un poco. (Knowledge)</li>
 <li>¿너는 할 수 있니 (..........) abrir la ventana, por favor? (Possibility/Request)</li>
@@ -285,42 +529,36 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>Nosotros 못 한다 (no ..........) entrar ahora. está cerrado. (Permission/Possibility)</li>
 <li>¿너네들은 할 줄 아니 (..........) tocar la guitarra? (Skill)</li>
 </ol>
-<h3>C. 번역 연습 (주어진 상황에 맞게 번역하세요)</h3>
+<h3 id="c">C. 번역 연습 (주어진 상황에 맞게 번역하세요)</h3>
 <ol>
-<li>나는 매일 스페인어 책을 읽어요. (leer - er동사)<br>
-(............................................................)</li>
-<li>우리는 선생님과 이야기를 많이 해요.<br>
-(............................................................)</li>
-<li>가방 안에 볼펜이 하나 있어요.<br>
-(............................................................)</li>
-<li>너는 어디에 사니?<br>
-(............................................................)</li>
-<li>그들은 도서관에서 공부해요. (en la biblioteca)<br>
-(............................................................)</li>
+<li>나는 매일 스페인어 책을 읽어요. (leer - er동사)<br />
+   (............................................................)</li>
+<li>우리는 선생님과 이야기를 많이 해요.<br />
+   (............................................................)</li>
+<li>가방 안에 볼펜이 하나 있어요.<br />
+   (............................................................)</li>
+<li>너는 어디에 사니?<br />
+   (............................................................)</li>
+<li>그들은 도서관에서 공부해요. (en la biblioteca)<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Mi primer día de clase (나의 첫 수업 날)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="mi-primer-dia-de-clase">Mi primer día de clase (나의 첫 수업 날)</h3>
 <p>Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pero muy contento. En mi mochila tengo tres cuadernos, un bolígrafo azul y mi ordenador portátil. Entro en el aula y veo a muchos estudiantes. El profesor se llama Javier y es muy simpático. En clase, escuchamos al profesor y escribimos notas. No entiendo todo, pero pregunto cuando tengo dudas. Después de la clase, vamos a la cafetería para comer algo y hablar con los nuevos amigos. ¡Va a ser un año fantástico!</p>
-<h3>Questions</h3>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>주인공의 가방 안에는 무엇이 있나요? (What is in the protagonist's backpack?)
-<ul>
+<li>주인공의 가방 안에는 무엇이 있나요? (What is in the protagonist's backpack?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>수업이 끝난 후 학생들은 어디로 가나요? (Where do students go after class?)
-<ul>
+<li>수업이 끝난 후 학생들은 어디로 가나요? (Where do students go after class?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 오늘은 살라망카 대학교에서의 저의 첫날입니다. 조금 긴장되지만 매우 기쁩니다. 제 배낭 속에는 공책 세 권, 파란색 볼펜 하나, 그리고 노트북 컴퓨터가 있습니다. 저는 강의실에 들어가서 많은 학생들을 봅니다. 교수님 이름은 하비에르이고 매우 친절하십니다. 수업 시간에 우리는 교수님의 말씀을 듣고 필기를 합니다. 모든 것을 이해하지는 못하지만, 궁금한 점이 있을 때 질문을 합니다. 수업이 끝난 후, 우리는 무언가를 먹고 새로운 친구들과 이야기하기 위해 카페테리아로 갑니다. 환상적인 한 해가 될 거예요!</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>En la biblioteca (도서관에서)</h3>
-<p><strong>Situación:</strong> Lucía le pregunta a Diego sobre el examen de mañana mientras estudian en la biblioteca.<br>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="en-la-biblioteca">En la biblioteca (도서관에서)</h3>
+<p><strong>Situación:</strong> Lucía le pregunta a Diego sobre el examen de mañana mientras estudian en la biblioteca.<br />
 <strong>상황:</strong> 루시아가 도서관에서 공부하던 중 디에고에게 내일 시험에 대해 물어봅니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -339,8 +577,9 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Lucía:</strong> Vale. Pero primero vamos a terminar este capítulo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>루시아:</strong> 좋아. 하지만 먼저 이 단원을 끝내자.</td></tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 학교 시설과 학용품 단어 10개 이상을 외웠나요?</li>
@@ -348,12 +587,12 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>[ ] Saber와 Poder의 의미 차이를 구별할 수 있나요?</li>
 <li>[ ] 스페인 학교의 특징(교복, 선생님 호칭 등)을 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
-<p>¡Excelente trabajo! 이번 장에서 여러분은 스페인어의 가장 중요한 기초 중 하나인 규칙 동사의 변화를 배웠습니다. &quot;나는 공부한다(Yo estudio)&quot;, &quot;우리는 산다(Vivimos)&quot;와 같은 표현들은 모든 대화의 시작입니다. 이제 여러분은 학교 생활을 묘사하고 자신의 능력을 표현할 수 있게 되었습니다. 잊지 마세요, 언어는 반복입니다! 다음 장에서는 우리의 지적 지평을 더욱 넓혀줄 '대학 생활과 미래 계획(A2)'에 대해 더 깊이 있게 다뤄보겠습니다. ¡Ánimo!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Choose the correct verb ending</h3>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
+<p>¡Excelente trabajo! 이번 장에서 여러분은 스페인어의 가장 중요한 기초 중 하나인 규칙 동사의 변화를 배웠습니다. "나는 공부한다(Yo estudio)", "우리는 산다(Vivimos)"와 같은 표현들은 모든 대화의 시작입니다. 이제 여러분은 학교 생활을 묘사하고 자신의 능력을 표현할 수 있게 되었습니다. 잊지 마세요, 언어는 반복입니다! 다음 장에서는 우리의 지적 지평을 더욱 넓혀줄 '대학 생활과 미래 계획(A2)'에 대해 더 깊이 있게 다뤄보겠습니다. ¡Ánimo!</p>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-choose-the-correct-verb-ending">6. Práctica - A. Choose the correct verb ending</h3>
 <ol>
 <li>
 <ol>
@@ -361,7 +600,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - B. Saber vs Poder</h3>
+<h3 id="6-practica-b-saber-vs-poder">6. Práctica - B. Saber vs Poder</h3>
 <ol>
 <li>
 <ol>
@@ -369,7 +608,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -397,7 +636,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

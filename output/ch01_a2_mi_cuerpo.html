@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch01_a2_mi_cuerpo.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,150 +94,372 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 1: Mi cuerpo y salud (A2)</h1>
+<div class="container">
+<h1 id="chapter-1-mi-cuerpo-y-salud-a2">Chapter 1: Mi cuerpo y salud (A2)</h1>
 <p class="cervantes-ref">Cervantes: §1 Identidad: 심화된 신체 특징 묘사, §13 Salud: 건강 관련 문제, 질병 및 생활 습관 표현</p>
-<h2>1. Opener</h2>
-<h3>학습 목표</h3>
+
+<h2 id="1-opener">1. Opener</h2>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>복잡한 신체 부위와 장기, 그리고 세부적인 건강 상태를 설명할 수 있습니다.</li>
 <li><code>doler</code>(아프다) 동사와 간접 목적 대명사의 결합을 마스터하여 통증을 정확히 표현합니다.</li>
 <li>스페인의 약국 문화와 자가 진단 및 처방에 대한 문화적 에티켓을 익힙니다.</li>
 <li>병원 예약 및 약국에서의 심화 상담 시나리오를 수행할 수 있습니다.</li>
 </ul>
-<h3>¿Sabías que...? (알고 계셨나요?)</h3>
+<h3 id="sabias-que">¿Sabías que...? (알고 계셨나요?)</h3>
 <p>스페인의 약국(Farmacia)은 단순히 약을 파는 곳을 넘어, 가벼운 증상에 대해 전문적인 조언을 해주는 '준의료기관' 역할을 합니다. 밤늦게나 공휴일에도 당번 약국인 'Farmacia de guardia'가 항상 열려 있어 시민들의 건강을 책임집니다.</p>
-<hr>
-<h2>2. Vocabulario Esencial: Salud y Medicina</h2>
+<hr />
+<h2 id="2-vocabulario-esencial-salud-y-medicina">2. Vocabulario Esencial: Salud y Medicina</h2>
 <p>A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위를 확인해보세요.</p>
-<p><img src="../images/ch01_a2_vocab_health_v20.png" alt="건강 관련 일러스트 — 병원, 약국, 증상 표현 (Modern Anime Style)"></p>
+<p><img alt="건강 관련 일러스트 — 병원, 약국, 증상 표현 (Modern Anime Style)" src="../images/ch01_a2_vocab_health_v20.png" /></p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">번호</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
+<th style="text-align: center;">번호</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">1</td>
-<td style="text-align:left">el corazón</td>
-<td style="text-align:left">Cordial (→ heart-related) ✅</td>
-<td style="text-align:left">심장입니다.</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">el corazón</td>
+<td style="text-align: left;">Cordial (→ heart-related) ✅</td>
+<td style="text-align: left;">심장</td>
 </tr>
 <tr>
-<td style="text-align:center">2</td>
-<td style="text-align:left">los pulmones</td>
-<td style="text-align:left">Pulmonary ✅</td>
-<td style="text-align:left">폐입니다.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">los pulmones</td>
+<td style="text-align: left;">Pulmonary ✅</td>
+<td style="text-align: left;">폐</td>
 </tr>
 <tr>
-<td style="text-align:center">3</td>
-<td style="text-align:left">la espalda</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">등, 허리입니다.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">la espalda</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">등, 허리</td>
 </tr>
 <tr>
-<td style="text-align:center">4</td>
-<td style="text-align:left">la garganta</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">목구멍, 인후입니다.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">la garganta</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">목구멍, 인후</td>
 </tr>
 <tr>
-<td style="text-align:center">5</td>
-<td style="text-align:left">el síntoma</td>
-<td style="text-align:left">Symptom ✅</td>
-<td style="text-align:left">증상입니다.</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">el síntoma</td>
+<td style="text-align: left;">Symptom ✅</td>
+<td style="text-align: left;">증상</td>
 </tr>
 <tr>
-<td style="text-align:center">6</td>
-<td style="text-align:left">la gripe</td>
-<td style="text-align:left">Grippe (archaic English for flu)</td>
-<td style="text-align:left">독감입니다.</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">la gripe</td>
+<td style="text-align: left;">Grippe (archaic English for flu)</td>
+<td style="text-align: left;">독감</td>
 </tr>
 <tr>
-<td style="text-align:center">7</td>
-<td style="text-align:left">la fiebre</td>
-<td style="text-align:left">Fever ✅</td>
-<td style="text-align:left">열입니다.</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">la fiebre</td>
+<td style="text-align: left;">Fever ✅</td>
+<td style="text-align: left;">열</td>
 </tr>
 <tr>
-<td style="text-align:center">8</td>
-<td style="text-align:left">la receta</td>
-<td style="text-align:left">Recipe ✅ (→ prescription/formula)</td>
-<td style="text-align:left">처방전입니다.</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">la receta</td>
+<td style="text-align: left;">Recipe ✅ (→ prescription/formula)</td>
+<td style="text-align: left;">처방전</td>
 </tr>
 <tr>
-<td style="text-align:center">9</td>
-<td style="text-align:left">la pastilla</td>
-<td style="text-align:left">Pastille (→ lozenge/pill)</td>
-<td style="text-align:left">알약입니다.</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">la pastilla</td>
+<td style="text-align: left;">Pastille (→ lozenge/pill)</td>
+<td style="text-align: left;">알약</td>
 </tr>
 <tr>
-<td style="text-align:center">10</td>
-<td style="text-align:left">el jarabe</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">시럽(시럽 형태의 약)입니다.</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">el jarabe</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">시럽 (약물)</td>
 </tr>
 <tr>
-<td style="text-align:center">11</td>
-<td style="text-align:left">la farmacia</td>
-<td style="text-align:left">Pharmacy ✅</td>
-<td style="text-align:left">약국입니다.</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">la farmacia</td>
+<td style="text-align: left;">Pharmacy ✅</td>
+<td style="text-align: left;">약국</td>
 </tr>
 <tr>
-<td style="text-align:center">12</td>
-<td style="text-align:left">la cita médica</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">병원 예약입니다.</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">la cita médica</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">병원 예약</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>병원과 약국에서 사용하는 세부적인 표현들입니다.</p>
-<h3>A. 통증 및 증상 상세 설명</h3>
+<h3 id="a">A. 통증 및 증상 상세 설명</h3>
 <ul>
 <li><strong>¿Qué le pasa?</strong> (What's wrong? / 어디가 편치 않으신가요?)</li>
 <li><strong>Me duele mucho la espalda.</strong> (My back hurts a lot. / 허리가 너무 아파요.)</li>
 <li><strong>Tengo una fiebre muy alta.</strong> (I have a very high fever. / 열이 아주 높아요.)</li>
 <li><strong>Tengo alergia al polen.</strong> (I'm allergic to pollen. / 꽃가루 알레르기가 있어요.)</li>
 </ul>
-<h3>B. 약국에서 사용하기</h3>
+<h3 id="b">B. 약국에서 사용하기</h3>
 <ul>
 <li><strong>¿Tiene algo para la tos?</strong> (Do you have something for the cough? / 기침에 좋은 약이 있나요?)</li>
 <li><strong>Quiero este medicamento con receta.</strong> (I want this medicine with a prescription. / 처방전이 있는 이 약을 사고 싶어요.)</li>
 <li><strong>¿Cuántas veces al día debo tomarlo?</strong> (How many times a day should I take it? / 하루에 몇 번 먹어야 하나요?)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial: El verbo DOLER (아프다)</h2>
+<hr />
+<h2 id="4-gramatica-esencial-el-verbo-doler">4. Gramática Esencial: El verbo DOLER (아프다)</h2>
 <p><code>doler</code> 동사는 <code>gustar</code>(좋아하다) 동사와 동일한 구조를 가집니다. 즉, '내가 주어'가 아니라 '아픈 부위가 주어'가 됩니다.</p>
-<h3>A. 기본 구조</h3>
+<h3 id="a_1">A. 기본 구조</h3>
 <p><strong>[간접 목적 대명사] + duele/duelen + [아픈 신체 부위]</strong></p>
 <div class="table-container">
 <table class="standard-table">
@@ -252,7 +497,8 @@ strong { font-weight: bold; color: var(--spanish-red); }
   </tbody>
 </table>
 </div>
-<h3>B. 단수/복수 일치 (Conjugación)</h3>
+
+<h3 id="b-conjugacion">B. 단수/복수 일치 (Conjugación)</h3>
 <p><code>doler</code>는 '아픈 신체 부위'의 수에 따라 다음과 같이 두 가지만 사용합니다.</p>
 <div class="table-container">
 <table class="conjugation-table">
@@ -277,151 +523,146 @@ strong { font-weight: bold; color: var(--spanish-red); }
   </tbody>
 </table>
 </div>
-<h3>C. 주의사항</h3>
+
+<h3 id="c">C. 주의사항</h3>
 <ol>
 <li><strong>변화</strong>: 아픈 부위가 단수이면 <em>duele</em>, 복수이면 <em>duelen</em>을 사용합니다. 과감히 소유 대명사를 생략하고 정관사를 사용하는 스페인어의 특징에 주목하세요.</li>
 <li><strong>관사</strong>: 스페인어에서는 신체 부위에 소유 형용사(mi, tu...) 대신 정관사(el, la...)를 주로 사용합니다. (이미 대명사 me, te 등으로 주체를 알 수 있기 때문입니다.)</li>
 </ol>
-<p><strong>Korean Tip!</strong><br>
-한국어로는 &quot;나는 머리가 아파&quot;라고 내가 주어인 것처럼 말하지만, 스페인어에서는 &quot;나에게 머리가 통증을 준다&quot;는 식의 역구조 동사임을 명심하세요. 영어의 &quot;My head hurts&quot;와 구조적으로 더 유사합니다.</p>
-<hr>
-<h2>5. Cultura Viva: Las Farmacias y la Automedicación en España</h2>
-<p><img src="../images/ch01_a2_culture_pharmacy_v20.png" alt="스페인 약국의 초록 십자가와 상담 장면 (Modern Anime Style)"></p>
+<p><strong>Korean Tip!</strong><br />
+한국어로는 "나는 머리가 아파"라고 내가 주어인 것처럼 말하지만, 스페인어에서는 "나에게 머리가 통증을 준다"는 식의 역구조 동사임을 명심하세요. 영어의 "My head hurts"와 구조적으로 더 유사합니다.</p>
+<hr />
+<h2 id="5-cultura-viva-las-farmacias-y-la-automedicacion-en-espana">5. Cultura Viva: Las Farmacias y la Automedicación en España</h2>
+<p><img alt="스페인 약국의 초록 십자가와 상담 장면 (Modern Anime Style)" src="../images/ch01_a2_culture_pharmacy_v20.png" /></p>
 <p>En España, las farmacias son instituciones muy respetadas. Los farmacéuticos tienen una formación académica rigurosa y a menudo actúan como el primer punto de contacto para consultas de salud menores. A diferencia de otros países, no se puede comprar medicamentos fuertes sin una receta médica oficial de un profesional de la Seguridad Social o de una clínica privada.</p>
-<p>La cultura de la <strong>automedicación</strong> está controlada. Para problemas comunes como resfriados o dolores leves, el farmacéutico puede recomendar medicamentos de venta libre. Un detalle importante es la <strong>Farmacia de Guardia</strong>: cada municipio tiene un calendario para asegurar que al menos una farmacia esté abierta las 24 horas. Si estás en España y necesitas medicinas por la noche, solo tienes que buscar en internet o en la puerta de cualquier farmacia el cartel de &quot;Guardia&quot;.</p>
-<p><strong>[한국어 번역]</strong><br>
+<p>La cultura de la <strong>automedicación</strong> está controlada. Para problemas comunes como resfriados o dolores leves, el farmacéutico puede recomendar medicamentos de venta libre. Un detalle importante es la <strong>Farmacia de Guardia</strong>: cada municipio tiene un calendario para asegurar que al menos una farmacia esté abierta las 24 horas. Si estás en España y necesitas medicinas por la noche, solo tienes que buscar en internet o en la puerta de cualquier farmacia el cartel de "Guardia".</p>
+<p><strong>[한국어 번역]</strong><br />
 스페인에서 약국은 매우 존경받는 기관입니다. 약사들은 엄격한 학술 교육을 받았으며 종종 가벼운 건강 상담의 첫 번째 접점 역할을 합니다. 다른 국가들과 달리, 사회 보장 제도나 사립 클리닉의 공식 처방전 없이는 강력한 약물을 구매할 수 없습니다.</p>
-<p><strong>자가 처방</strong> 문화는 엄격히 관리됩니다. 감기나 가벼운 통증 같은 일반적인 문제에 대해서는 약사가 일반 의약품(OTC)을 추천할 수 있습니다. 중요한 디테일 중 하나는 **당번 약국(Farmacia de Guardia)**입니다. 모든 지자체는 최소 한 곳의 약국이 24시간 문을 열도록 일정을 관리합니다. 만약 스페인에서 밤에 약이 필요하다면, 인터넷을 검색하거나 약국 문에 붙은 &quot;Guardia(당번)&quot; 공고를 확인하면 됩니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the word (알맞은 단어를 연결하세요)</h3>
+<p><strong>자가 처방</strong> 문화는 엄격히 관리됩니다. 감기나 가벼운 통증 같은 일반적인 문제에 대해서는 약사가 일반 의약품(OTC)을 추천할 수 있습니다. 중요한 디테일 중 하나는 <strong>당번 약국(Farmacia de Guardia)</strong>입니다. 모든 지자체는 최소 한 곳의 약국이 24시간 문을 열도록 일정을 관리합니다. 만약 스페인에서 밤에 약이 필요하다면, 인터넷을 검색하거나 약국 문에 붙은 "Guardia(당번)" 공고를 확인하면 됩니다.</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word (알맞은 단어를 연결하세요)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English / Korean</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English / Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left">1. Tener fiebre → ( )</td>
-<td style="text-align:left">a. Pharmacy</td>
+<td style="text-align: left;">1. Tener fiebre → ( )</td>
+<td style="text-align: left;">a. Pharmacy</td>
 </tr>
 <tr>
-<td style="text-align:left">2. La farmacia → ( )</td>
-<td style="text-align:left">b. Toothache</td>
+<td style="text-align: left;">2. La farmacia → ( )</td>
+<td style="text-align: left;">b. Toothache</td>
 </tr>
 <tr>
-<td style="text-align:left">3. Dolor de muelas → ( )</td>
-<td style="text-align:left">c. To have a fever</td>
+<td style="text-align: left;">3. Dolor de muelas → ( )</td>
+<td style="text-align: left;">c. To have a fever</td>
 </tr>
 <tr>
-<td style="text-align:left">4. La receta → ( )</td>
-<td style="text-align:left">d. Cough syrup</td>
+<td style="text-align: left;">4. La receta → ( )</td>
+<td style="text-align: left;">d. Cough syrup</td>
 </tr>
 <tr>
-<td style="text-align:left">5. Jarabe para la tos → ( )</td>
-<td style="text-align:left">e. Prescription</td>
+<td style="text-align: left;">5. Jarabe para la tos → ( )</td>
+<td style="text-align: left;">e. Prescription</td>
 </tr>
 </tbody>
 </table>
-<h3>B. Choose the correct form of DOLER (빈칸에 doler 동사의 알맞은 형태를 쓰세요)</h3>
+<h3 id="b-choose-the-correct-form-of-doler-doler">B. Choose the correct form of DOLER (빈칸에 doler 동사의 알맞은 형태를 쓰세요)</h3>
 <ol>
-<li>Me ______________________ la garganta. (가목)</li>
-<li>A Manuel le ______________________ los pies. (복수)</li>
-<li>¿Te ______________________ el estómago? (단수)</li>
-<li>Nos ______________________ las piernas de tanto caminar. (복수)</li>
-<li>A veces le ______________________ la espalda. (단수)</li>
+<li>Me <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ la garganta. (가목)</li>
+<li>A Manuel le <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ los pies. (복수)</li>
+<li>¿Te <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ el estómago? (단수)</li>
+<li>Nos <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ las piernas de tanto caminar. (복수)</li>
+<li>A veces le <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ la espalda. (단수)</li>
 </ol>
-<h3>C. 번역 연습 (스페인어로 번역하세요)</h3>
+<h3 id="c_1">C. 번역 연습 (스페인어로 번역하세요)</h3>
 <ol>
-<li>내 눈들이 아파요.<br>
-(............................................................)</li>
-<li>나는 열이 있어요.<br>
-(............................................................)</li>
-<li>처방전이 필요합니다.<br>
-(............................................................)</li>
-<li>너는 어디가 아프니?<br>
-(............................................................)</li>
-<li>우리는 등이 아파요.<br>
-(............................................................)</li>
+<li>내 눈들이 아파요.<br />
+    (............................................................)</li>
+<li>나는 열이 있어요.<br />
+    (............................................................)</li>
+<li>처방전이 필요합니다.<br />
+    (............................................................)</li>
+<li>너는 어디가 아프니?<br />
+    (............................................................)</li>
+<li>우리는 등이 아파요.<br />
+    (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Una visita inesperada al médico (예상치 못한 병원 방문)</h3>
-<p>El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se levantó con mucha fiebre y dolor de garganta. Ella llamó al Centro de Salud para pedir una cita médica. El doctor la examinó y le dijo: &quot;Tienes una infección leve&quot;. El doctor le dio una receta para un jarabe y unas pastillas. Elena fue a la farmacia de su barrio y compró los medicamentos. Ahora tiene que descansar en casa por tres días.</p>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="una-visita-inesperada-al-medico">Una visita inesperada al médico (예상치 못한 병원 방문)</h3>
+<p>El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se levantó con mucha fiebre y dolor de garganta. Ella llamó al Centro de Salud para pedir una cita médica. El doctor la examinó y le dijo: "Tienes una infección leve". El doctor le dio una receta para un jarabe y unas pastillas. Elena fue a la farmacia de su barrio y compró los medicamentos. Ahora tiene que descansar en casa por tres días.</p>
 <p><strong>Questions:</strong></p>
 <ol>
-<li>¿Por qué Elena pidió una cita médica? (엘레나는 왜 병원 예약을 했나요?)
-<ul>
+<li>¿Por qué Elena pidió una cita médica? (엘레나는 왜 병원 예약을 했나요?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>¿Qué compró Elena en la farmacia? (엘레나는 약국에서 무엇을 샀나요?)
-<ul>
+<li>¿Qué compró Elena en la farmacia? (엘레나는 약국에서 무엇을 샀나요?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
-마드리드의 겨울은 매우 춥고 많은 사람이 독감에 걸립니다. 어제 엘레나는 높은 열과 목 통증을 느끼며 일어났습니다. 그녀는 보건소에 전화를 걸어 병원 예약을 했습니다. 의사는 그녀를 진찰하고 &quot;가벼운 감염이 있습니다&quot;라고 말했습니다. 의사는 그녀에게 시럽과 알약 처방전을 주었습니다. 엘레나는 동네 약국에 가서 약을 샀습니다. 이제 그녀는 집에서 3일 동안 쉬어야 합니다.</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>En la farmacia (약국에서)</h3>
-<p><strong>Situación:</strong> Sofía tiene un fuerte resfriado y entra en una farmacia en Sevilla para comprar algo que la ayude. Habla con el farmacéutico sobre sus síntomas y pide recomendaciones.<br>
+<p><strong>[한국어 번역]</strong><br />
+마드리드의 겨울은 매우 춥고 많은 사람이 독감에 걸립니다. 어제 엘레나는 높은 열과 목 통증을 느끼며 일어났습니다. 그녀는 보건소에 전화를 걸어 병원 예약을 했습니다. 의사는 그녀를 진찰하고 "가벼운 감염이 있습니다"라고 말했습니다. 의사는 그녀에게 시럽과 알약 처방전을 주었습니다. 엘레나는 동네 약국에 가서 약을 샀습니다. 이제 그녀는 집에서 3일 동안 쉬어야 합니다.</p>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="en-la-farmacia">En la farmacia (약국에서)</h3>
+<p><strong>Situación:</strong> Sofía tiene un fuerte resfriado y entra en una farmacia en Sevilla para comprar algo que la ayude. Habla con el farmacéutico sobre sus síntomas y pide recomendaciones.<br />
 <strong>상황:</strong> 소피아는 심한 감기에 걸려 이를 치료할 약을 사러 세비야의 한 약국에 들어갑니다. 그녀는 약사에게 자신의 증상을 설명하고 약을 추천받습니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">Korean</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:left"><strong>Farmacéutico:</strong> Hola, buenas tardes. ¿En qué puedo ayudarla?</td>
-<td style="text-align:left"><strong>약사:</strong> 안녕하세요, 좋은 오후입니다. 무엇을 도와드릴까요?</td>
+<td style="text-align: left;"><strong>Farmacéutico:</strong> Hola, buenas tardes. ¿En qué puedo ayudarla?</td>
+<td style="text-align: left;"><strong>약사:</strong> 안녕하세요, 좋은 오후입니다. 무엇을 도와드릴까요?</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Sofía:</strong> Hola. Tengo un resfriado muy fuerte.</td>
-<td style="text-align:left"><strong>소피아:</strong> 안녕하세요. 감기가 아주 심하게 걸렸어요.</td>
+<td style="text-align: left;"><strong>Sofía:</strong> Hola. Tengo un resfriado muy fuerte.</td>
+<td style="text-align: left;"><strong>소피아:</strong> 안녕하세요. 감기가 아주 심하게 걸렸어요.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Farmacéutico:</strong> ¿Cuáles son sus síntomas?</td>
-<td style="text-align:left"><strong>약사:</strong> 증상이 어떠신가요?</td>
+<td style="text-align: left;"><strong>Farmacéutico:</strong> ¿Cuáles son sus síntomas?</td>
+<td style="text-align: left;"><strong>약사:</strong> 증상이 어떠신가요?</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Sofía:</strong> Me duele la garganta y tengo un poco de fiebre.</td>
-<td style="text-align:left"><strong>소피아:</strong> 목이 아프고 열이 약간 있어요.</td>
+<td style="text-align: left;"><strong>Sofía:</strong> Me duele la garganta y tengo un poco de fiebre.</td>
+<td style="text-align: left;"><strong>소피아:</strong> 목이 아프고 열이 약간 있어요.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Farmacéutico:</strong> ¿Tiene tos también?</td>
-<td style="text-align:left"><strong>약사:</strong> 기침도 하시나요?</td>
+<td style="text-align: left;"><strong>Farmacéutico:</strong> ¿Tiene tos también?</td>
+<td style="text-align: left;"><strong>약사:</strong> 기침도 하시나요?</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Sofía:</strong> Sí, tengo mucha tos, sobre todo por la noche.</td>
-<td style="text-align:left"><strong>소피아:</strong> 네, 특히 밤에 기침을 많이 해요.</td>
+<td style="text-align: left;"><strong>Sofía:</strong> Sí, tengo mucha tos, sobre todo por la noche.</td>
+<td style="text-align: left;"><strong>소피아:</strong> 네, 특히 밤에 기침을 많이 해요.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Farmacéutico:</strong> Le recomiendo este jarabe para la tos y estas pastillas para el dolor.</td>
-<td style="text-align:left"><strong>약사:</strong> 이 기침 시럽과 통증 완화 알약을 추천해 드립니다.</td>
+<td style="text-align: left;"><strong>Farmacéutico:</strong> Le recomiendo este jarabe para la tos y estas pastillas para el dolor.</td>
+<td style="text-align: left;"><strong>약사:</strong> 이 기침 시럽과 통증 완화 알약을 추천해 드립니다.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Sofía:</strong> ¿Cómo debo tomarlos?</td>
-<td style="text-align:left"><strong>소피아:</strong> 어떻게 복용해야 하나요?</td>
+<td style="text-align: left;"><strong>Sofía:</strong> ¿Cómo debo tomarlos?</td>
+<td style="text-align: left;"><strong>소피아:</strong> 어떻게 복용해야 하나요?</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Farmacéutico:</strong> Tome el jarabe cada ocho horas y una pastilla antes de dormir.</td>
-<td style="text-align:left"><strong>약사:</strong> 시럽은 8시간마다 드시고, 알약은 자기 전에 한 알 드세요.</td>
+<td style="text-align: left;"><strong>Farmacéutico:</strong> Tome el jarabe cada ocho horas y una pastilla antes de dormir.</td>
+<td style="text-align: left;"><strong>약사:</strong> 시럽은 8시간마다 드시고, 알약은 자기 전에 한 알 드세요.</td>
 </tr>
 <tr>
-<td style="text-align:left"><strong>Sofía:</strong> Muchas gracias por su ayuda.</td>
-<td style="text-align:left"><strong>소피아:</strong> 도와주셔서 정말 감사합니다.</td>
+<td style="text-align: left;"><strong>Sofía:</strong> Muchas gracias por su ayuda.</td>
+<td style="text-align: left;"><strong>소피아:</strong> 도와주셔서 정말 감사합니다.</td>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장에서 배운 핵심 내용을 확인해보세요.</p>
 <ul>
 <li>[ ] 심장, 폐, 등, 목구멍 등 주요 장기와 신체 부위 어휘를 익혔나요?</li>
@@ -429,16 +670,16 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>[ ] 병원 예약(<code>cita médica</code>)과 처방전(<code>receta</code>) 관련 표현을 사용할 수 있나요?</li>
 <li>[ ] 스페인의 당번 약국(<code>Farmacia de Guardia</code>) 시스템과 상담 문화를 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>잘하셨습니다! A2 수준으로 넘어오면서 더 복잡한 신체 기관과 상세한 통증 표현법을 배웠습니다. 특히 <code>doler</code> 동사는 스페인어 특유의 역구조 동사 중 하나이므로, <code>gustar</code>와 함께 충분히 연습하는 것이 중요합니다. 건강은 언어 학습 못지않게 중요하니 항상 몸 관리 잘하세요. ¡Salud y mucha suerte! (건강과 행운을 빕니다!)</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the word</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-word">6. Práctica - A. Match the word</h3>
 <ol>
 <li>1-c, 2-a, 3-b, 4-e, 5-d</li>
 </ol>
-<h3>6. Práctica - B. Choose the correct form</h3>
+<h3 id="6-practica-b-choose-the-correct-form">6. Práctica - B. Choose the correct form</h3>
 <ol>
 <li>
 <ol>
@@ -446,13 +687,13 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Quiero un jarabe para la tos.</li>
 <li>Tenemos una cita médica.</li>
 <li>Ella tiene alergia a los medicamentos.</li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>Elena pidió una cita médica porque tenía fiebre y dolor de garganta.</li>
 <li>Elena compró un jarabe y unas pastillas.</li>

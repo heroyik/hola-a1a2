@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch11_a1_medios_y_tecnologia.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,47 +94,269 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 11: Medios y tecnología (A1)</h1>
+<div class="container">
+<h1 id="chapter-11-medios-y-tecnologia-a1">Chapter 11: Medios y tecnología (A1)</h1>
 <p class="cervantes-ref">Cervantes: §9 미디어 및 §16 과학 및 기술 기초</p>
-<h2>1. Opener</h2>
-<p><strong>Conectados con el mundo (세상과 연결되다)</strong><br>
-우리는 스마트폰, 텔레비전, 인터넷을 통해 전 세계의 소식을 실시간으로 접합니다. 이제 이 연결의 도구들을 스페인어로 불러볼까요? 이번 장에서는 신문, 라디오와 같은 전통 미디어부터 인터넷과 소셜 미디어 같은 현대적 기술 어휘까지 폭넓게 다룹니다. 또한 문장을 더욱 간결하게 만들어주는 '직접 목적대명사(Direct Object Pronouns)'를 배워, &quot;나는 그것을 알아&quot;와 같이 세련된 문장을 구사해 봅시다.</p>
-<h3>학습 목표</h3>
+
+<h2 id="1-opener">1. Opener</h2>
+<p><strong>Conectados con el mundo (세상과 연결되다)</strong><br />
+우리는 스마트폰, 텔레비전, 인터넷을 통해 전 세계의 소식을 실시간으로 접합니다. 이제 이 연결의 도구들을 스페인어로 불러볼까요? 이번 장에서는 신문, 라디오와 같은 전통 미디어부터 인터넷과 소셜 미디어 같은 현대적 기술 어휘까지 폭넓게 다룹니다. 또한 문장을 더욱 간결하게 만들어주는 '직접 목적대명사(Direct Object Pronouns)'를 배워, "나는 그것을 알아"와 같이 세련된 문장을 구사해 봅시다.</p>
+<h3 id="_1">학습 목표</h3>
 <ul>
 <li>미디어 장치, 통신 및 기초 IT 어휘 15개 이상 습득</li>
 <li>직접 목적대명사(lo, la, los, las)의 위치와 활용법</li>
 <li>'보다(ver)', '듣다(escuchar)', '읽다(leer)' 등 미디어 활용 동사 복습</li>
 <li>스페인의 대표적인 미디어 매체와 소통 방식 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
-<strong>¿Sabías que...?</strong> 스페인 사람들은 소셜 미디어 중 특히 'WhatsApp(왓츠앱)'을 매우 활발하게 사용합니다. 친구들과 연락하거나 가족 모임을 약속할 때 거의 필수적이죠. 스페인에서 &quot;Te mando un WhatsApp(너한테 왓츠앱 보낼게)&quot;이라는 말은 &quot;우리 연락하자&quot;는 뜻과 같습니다.</div>
-<hr>
-<h2>2. Vocabulario Esencial: Dispositivos y Medios</h2>
+<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<strong>¿Sabías que...?</strong> 스페인 사람들은 소셜 미디어 중 특히 'WhatsApp(왓츠앱)'을 매우 활발하게 사용합니다. 친구들과 연락하거나 가족 모임을 약속할 때 거의 필수적이죠. 스페인에서 "Te mando un WhatsApp(너한테 왓츠앱 보낼게)"이라는 말은 "우리 연락하자"는 뜻과 같습니다.</div>
+<hr />
+<h2 id="2-vocabulario-esencial-dispositivos-y-medios">2. Vocabulario Esencial: Dispositivos y Medios</h2>
 <p>우리를 연결해 주는 다양한 미디어 기기들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
-<p><img src="../images/ch11_a1_vocab_media_v2_1.png" alt="Medios"></p>
+<p><img alt="Medios" src="../images/ch11_a1_vocab_media_v2_1.png" /></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -134,28 +379,29 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td>10</td><td><strong>la pantalla</strong></td><td>—</td><td>화면 / 스크린</td></tr>
   </tbody>
 </table>
+
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>미디어를 이용하고 기술에 대해 이야기할 때 자주 사용하는 패턴입니다.</p>
-<h3>A. 미디어 이용하기</h3>
+<h3 id="a">A. 미디어 이용하기</h3>
 <ul>
 <li><strong>Veo las noticias en la tele.</strong> (I watch the news on TV. / TV로 뉴스를 봐요.)</li>
 <li><strong>Escucho la radio por la mañana.</strong> (I listen to the radio in the morning. / 아침에 라디오를 들어요.)</li>
 <li><strong>Leo el periódico todos los días.</strong> (I read the newspaper every day. / 매일 신문을 읽습니다.)</li>
 <li><strong>¿Tienes internet en casa?</strong> (Do you have internet at home? / 집에 인터넷 있나요?)</li>
 </ul>
-<h3>B. 소통과 기술</h3>
+<h3 id="b">B. 소통과 기술</h3>
 <ul>
 <li><strong>Te mando un mensaje ahora.</strong> (I'll send you a message now. / 지금 메시지 보낼게.)</li>
 <li><strong>Llamo por teléfono a mi madre.</strong> (I call my mother by phone. / 어머니께 전화를 드려요.)</li>
 <li><strong>Busco información en la red.</strong> (I look for information on the web. / 웹에서 정보를 찾습니다.)</li>
 <li><strong>No funciona mi ordenador.</strong> (My computer is not working. / 내 컴퓨터가 작동하지 않아.)</li>
 </ul>
-<hr>
-<h2>4. Gramática Esencial</h2>
+<hr />
+<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
 <p>문장을 짧고 명확하게 만들어주는 핵심 문법인 직접 목적대명사를 알아봅시다.</p>
-<h3>직접 목적대명사 (Complemento Directo)</h3>
+<h3 id="complemento-directo">직접 목적대명사 (Complemento Directo)</h3>
 <p>문장에서 '을/를'에 해당하는 목적어를 대신합니다. 영어의 <code>it, them</code>과 같습니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -170,16 +416,17 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td><strong>여성</strong> (her, it)</td><td><strong>la</strong></td><td><strong>las</strong></td></tr>
   </tbody>
 </table>
+
 <p><strong>위치 (MANDATORY RULE):</strong></p>
 <ol>
-<li><strong>변형된 동사 앞</strong>: <em>Yo leo el libro. → Yo <strong>lo</strong> leo.</em> (나는 그것을 읽는다.)</li>
+<li><strong>변형된 동사 앞</strong>: <em>Yo leo el libro. → Yo </em><em>lo</em><em> leo.</em> (나는 그것을 읽는다.)</li>
 <li><strong>동사원형/현재분사 뒤 (붙여 씀)</strong>: <em>Quiero leerlo.</em> (그것을 읽고 싶다.) / <em>Estoy leyéndolo.</em> (그것을 읽고 있다.)</li>
 </ol>
-<h3>Korean Tip</h3>
+<h3 id="korean-tip">Korean Tip</h3>
 <ul>
 <li><strong>Lo quiero mucho.</strong> (I want it a lot. / 그것을 아주 좋아해요.)</li>
 </ul>
-<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -191,25 +438,25 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3>D. Verbos Regulares (Revisión)</h3>
+<h3 id="d-verbos-regulares-revision">D. Verbos Regulares (Revisión)</h3>
 <p>미디어를 통해 우리는 소통하고 먹고 일상을 나눕니다:</p>
 <ul>
 <li><strong>Hablar</strong>: <strong>Hablo</strong> por teléfono. (I talk on the phone. / 전화로 이야기해요.)</li>
 <li><strong>Comer</strong>: <strong>Como</strong> mientras veo la tele. (I eat while watching TV. / TV 보면서 밥을 먹어요.)</li>
 <li><strong>Vivir</strong>: <strong>Vivo</strong> conectado a internet. (I live connected to the internet. / 인터넷에 연결되어 살아요.)</li>
 </ul>
-<hr>
-<h2>5. Cultura Viva: Los Medios de Comunicación en España</h2>
+<hr />
+<h2 id="5-cultura-viva-los-medios-de-comunicacion-en-espana">5. Cultura Viva: Los Medios de Comunicación en España</h2>
 <p>스페인의 언론과 방송 문화는 어떨까요?</p>
-<p><img src="../images/ch11_a1_culture_media_v2_1.png" alt="Spanish Newsroom"></p>
+<p><img alt="Spanish Newsroom" src="../images/ch11_a1_culture_media_v2_1.png" /></p>
 <p>España tiene una rica tradición de prensa y televisión. Los periódicos más importantes son <strong>El País</strong> y <strong>El Mundo</strong>, que se leen en todo el país. En la televisión, el <strong>Telediario</strong> de TVE (Televisión Española) es una institución para los españoles. A menudo, las familias se reúnen a las 15:00 o a las 21:00 para ver las noticias mientras comen o cenan.</p>
 <p>Hoy en día, el consumo de medios ha cambiado mucho. Los jóvenes prefieren las plataformas de streaming y las redes sociales. Sin embargo, el <strong>deporte</strong>, especialmente el fútbol, sigue siendo el contenido más visto. Los periódicos deportivos como <strong>Marca</strong> o <strong>AS</strong> son extremadamente populares y se encuentran en casi todos los bares de España. ¡La pasión por el fútbol y la información siempre van de la mano!</p>
-<p><strong>[한국어 번역]</strong><br>
-스페인은 신문과 TV의 오랜 전통을 가지고 있습니다. 가장 중요한 신문은 전국적으로 읽히는 **엘 파이스(El País)**와 **엘 문도(El Mundo)**입니다. TV에서는 스페인 국영 방송(TVE)의 **텔레디아리오(Telediario)**가 스페인 사람들에게 상징적인 뉴스 프로그램입니다. 가족들은 오후 3시나 밤 9시에 점심이나 저녁을 먹으며 뉴스를 보기 위해 종종 모입니다.</p>
-<p>오늘날 미디어 소비는 많이 변했습니다. 젊은 층은 스트리밍 플랫폼과 소셜 미디어를 선호하죠. 하지만 <strong>스포츠</strong>, 특히 축구는 여전히 가장 많이 시청되는 콘텐츠입니다. **마르카(Marca)**나 <strong>아스(AS)</strong> 같은 스포츠 신문들은 매우 인기가 높아서 스페인의 거의 모든 바(bar)에서 찾아볼 수 있습니다. 축구에 대한 열정과 정보는 항상 함께합니다!</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the action with the medium (행동과 미디어를 연결하세요)</h3>
+<p><strong>[한국어 번역]</strong><br />
+스페인은 신문과 TV의 오랜 전통을 가지고 있습니다. 가장 중요한 신문은 전국적으로 읽히는 <strong>엘 파이스(El País)</strong>와 <strong>엘 문도(El Mundo)</strong>입니다. TV에서는 스페인 국영 방송(TVE)의 <strong>텔레디아리오(Telediario)</strong>가 스페인 사람들에게 상징적인 뉴스 프로그램입니다. 가족들은 오후 3시나 밤 9시에 점심이나 저녁을 먹으며 뉴스를 보기 위해 종종 모입니다.</p>
+<p>오늘날 미디어 소비는 많이 변했습니다. 젊은 층은 스트리밍 플랫폼과 소셜 미디어를 선호하죠. 하지만 <strong>스포츠</strong>, 특히 축구는 여전히 가장 많이 시청되는 콘텐츠입니다. <strong>마르카(Marca)</strong>나 <strong>아스(AS)</strong> 같은 스포츠 신문들은 매우 인기가 높아서 스페인의 거의 모든 바(bar)에서 찾아볼 수 있습니다. 축구에 대한 열정과 정보는 항상 함께합니다!</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-action-with-the-medium">A. Match the action with the medium (행동과 미디어를 연결하세요)</h3>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -225,7 +472,8 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td style="padding: 10px; border: 1px solid #ddd;">5. Navegar (서핑하다)</td><td style="padding: 10px; border: 1px solid #ddd;">e. Internet (인터넷)</td></tr>
   </tbody>
 </table>
-<h3>B. 직접 목적대명사 연습 (밑줄 친 목적어를 lo, la, los, las로 바꾸어 문장을 다시 쓰세요)</h3>
+
+<h3 id="b-lo-la-los-las">B. 직접 목적대명사 연습 (밑줄 친 목적어를 lo, la, los, las로 바꾸어 문장을 다시 쓰세요)</h3>
 <ol>
 <li>Yo veo <strong>la televisión</strong>. → ............................................................</li>
 <li>Tú compras <strong>los periódicos</strong>. → ............................................................</li>
@@ -233,42 +481,36 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>Ella lee <strong>el mensaje</strong>. → ............................................................</li>
 <li>Ellos mandan <strong>las noticias</strong>. → ............................................................</li>
 </ol>
-<h3>C. 번역 연습 (주어진 문장을 직접 목적대명사를 사용해 번역하세요)</h3>
+<h3 id="c">C. 번역 연습 (주어진 문장을 직접 목적대명사를 사용해 번역하세요)</h3>
 <ol>
-<li>나는 그것(남성)을 매일 읽어.<br>
-(............................................................)</li>
-<li>우리 어머니는 그것(여성)을 TV로 봐요.<br>
-(............................................................)</li>
-<li>너는 그것(남성 복수)을 샀니?<br>
-(............................................................)</li>
-<li>나는 그것(여성 복수)을 듣고 있어. (현재진행형 활용)<br>
-(............................................................)</li>
-<li>우리는 그것(남성)을 아주 좋아해. (Querer 활용)<br>
-(............................................................)</li>
+<li>나는 그것(남성)을 매일 읽어.<br />
+   (............................................................)</li>
+<li>우리 어머니는 그것(여성)을 TV로 봐요.<br />
+   (............................................................)</li>
+<li>너는 그것(남성 복수)을 샀니?<br />
+   (............................................................)</li>
+<li>나는 그것(여성 복수)을 듣고 있어. (현재진행형 활용)<br />
+   (............................................................)</li>
+<li>우리는 그것(남성)을 아주 좋아해. (Querer 활용)<br />
+   (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Una mañana con información (정보와 함께하는 아침)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="una-manana-con-informacion">Una mañana con información (정보와 함께하는 아침)</h3>
 <p>Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio para escuchar las noticias mientras tomo mi café. La radio me gusta mucho porque es una compañía agradable. Después, en el metro, leo el periódico digital en mi móvil. Es muy cómodo y rápido. Mi padre prefiere el periódico de papel, él lo lee en el bar de la esquina todas las mañanas. A mediodía, mando un mensaje de WhatsApp a mis amigos para quedar. Por la noche, mi familia y yo vemos la película en la tele. Si es una película de acción, a mis hermanos les encanta y la ven con mucha atención. ¡Estamos siempre conectados!</p>
-<h3>Questions</h3>
+<h3 id="questions">Questions</h3>
 <ol>
-<li>주인공은 아침에 왜 라디오를 듣나요? (Why does the protagonist listen to the radio in the morning?)
-<ul>
+<li>주인공은 아침에 왜 라디오를 듣나요? (Why does the protagonist listen to the radio in the morning?)</li>
 <li>............................................................</li>
-</ul>
-</li>
-<li>주인공의 아버지는 어디에서 신문을 읽나요? (Where does the father read the newspaper?)
-<ul>
+<li>주인공의 아버지는 어디에서 신문을 읽나요? (Where does the father read the newspaper?)</li>
 <li>............................................................</li>
-</ul>
-</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 매일 저는 아침 7시에 일어납니다. 먼저, 커피를 마시는 동안 뉴스를 듣기 위해 라디오를 켭니다. 라디오가 즐거운 친구가 되어주기 때문에 아주 좋아합니다. 그 후, 지하철에서 제 휴대폰으로 디지털 신문을 읽습니다. 매우 편리하고 빠르죠. 제 아버지는 종이 신문을 선호하시는데, 매일 아침 길모퉁이 바(bar)에서 그것을 읽으십니다. 정오에는 친구들과 만나기 위해 왓츠앱 메시지를 보냅니다. 밤에는 가족과 제가 TV로 영화를 봅니다. 액션 영화라면 제 형제들이 정말 좋아해서 아주 집중해서 그것을 보죠. 우리는 항상 연결되어 있습니다!</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>¿Has visto la noticia? (뉴스 봤니?)</h3>
-<p><strong>Situación:</strong> Javier y Carla hablan sobre una noticia importante que ha salido en los medios.<br>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="has-visto-la-noticia">¿Has visto la noticia? (뉴스 봤니?)</h3>
+<p><strong>Situación:</strong> Javier y Carla hablan sobre una noticia importante que ha salido en los medios.<br />
 <strong>상황:</strong> 하비에르와 카를라가 미디어에 나온 중요한 뉴스에 대해 이야기합니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -287,8 +529,9 @@ strong { font-weight: bold; color: var(--spanish-red); }
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Javier:</strong> Claro, te lo mando por WhatsApp ahora mismo.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>하비에르:</strong> 당연하지, 지금 바로 왓츠앱으로 보낼게.</td></tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 미디어 기기와 관련된 단어 10개 이상을 알고 있나요?</li>
@@ -296,16 +539,16 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>[ ] 미디어 소통과 관련된 실생활 표현들을 익혔나요?</li>
 <li>[ ] 스페인의 뉴스 습관과 왓츠앱 문화에 대해 이해했나요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>¡Excelente! 오늘 여러분은 현대 사회의 핵심인 '연결'에 대해 스페인어로 소통하는 법을 배웠습니다. 직접 목적대명사를 통해 여러분의 문장은 더욱 경제적이고 세련되어졌습니다. 기술은 우리를 가깝게 만들어주지만, 그 기술을 어떤 언어로 채우느냐가 더욱 중요합니다. 다음 장에서는 우리의 소통을 더욱 깊이 있게 만들어 줄 'IT 기술, 팟캐스트 및 모던 미디어 심화(A2)' 섹션으로 이어가겠습니다. ¡Sigue conectado con el español!</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the action with the medium</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-action-with-the-medium">6. Práctica - A. Match the action with the medium</h3>
 <ol>
 <li>1-c, 2-d, 3-a, 4-b, 5-e</li>
 </ol>
-<h3>6. Práctica - B. 직접 목적대명사 연습</h3>
+<h3 id="6-practica-b">6. Práctica - B. 직접 목적대명사 연습</h3>
 <ol>
 <li>
 <ol>
@@ -313,7 +556,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>
 <ol>
@@ -321,7 +564,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
 </ol>
 </li>
 </ol>
-<h3>7. Lectura - Preguntas</h3>
+<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
 <ol>
 <li>
 <ol>

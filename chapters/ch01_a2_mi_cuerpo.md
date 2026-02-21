@@ -25,18 +25,18 @@ A2 수준의 심화 건강 관련 어휘입니다. 일러스트의 상세 부위
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 | :---: | :--- | :--- | :--- |
-| 1 | el corazón | Cordial (→ heart-related) ✅ | 심장입니다. |
-| 2 | los pulmones | Pulmonary ✅ | 폐입니다. |
-| 3 | la espalda | — | 등, 허리입니다. |
-| 4 | la garganta | — | 목구멍, 인후입니다. |
-| 5 | el síntoma | Symptom ✅ | 증상입니다. |
-| 6 | la gripe | Grippe (archaic English for flu) | 독감입니다. |
-| 7 | la fiebre | Fever ✅ | 열입니다. |
-| 8 | la receta | Recipe ✅ (→ prescription/formula) | 처방전입니다. |
-| 9 | la pastilla | Pastille (→ lozenge/pill) | 알약입니다. |
-| 10 | el jarabe | — | 시럽(시럽 형태의 약)입니다. |
-| 11 | la farmacia | Pharmacy ✅ | 약국입니다. |
-| 12 | la cita médica | — | 병원 예약입니다. |
+| 1 | el corazón | Cordial (→ heart-related) ✅ | 심장 |
+| 2 | los pulmones | Pulmonary ✅ | 폐 |
+| 3 | la espalda | — | 등, 허리 |
+| 4 | la garganta | — | 목구멍, 인후 |
+| 5 | el síntoma | Symptom ✅ | 증상 |
+| 6 | la gripe | Grippe (archaic English for flu) | 독감 |
+| 7 | la fiebre | Fever ✅ | 열 |
+| 8 | la receta | Recipe ✅ (→ prescription/formula) | 처방전 |
+| 9 | la pastilla | Pastille (→ lozenge/pill) | 알약 |
+| 10 | el jarabe | — | 시럽 (약물) |
+| 11 | la farmacia | Pharmacy ✅ | 약국 |
+| 12 | la cita médica | — | 병원 예약 |
 
 ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.
 

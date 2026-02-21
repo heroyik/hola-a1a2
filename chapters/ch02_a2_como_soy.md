@@ -31,8 +31,8 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
-| 1 | confundido / -a | Confused ✅ | '꼰뿐디도' |
-| 2 | orgulloso / -a | Proud (Proud of self) | '오르구요소' |
+| 1 | confundido / -a | Confused ✅ | 혼란스러운 상태 |
+| 2 | orgulloso / -a | Proud (Proud of self) | 자랑스러워하는 |
 | 3 | avergonzado / -a | — (Ashamed / Embarrassed) | ⚠️ Embarrassed와 소리 비슷하지만 False Friend |
 | 4 | aburrido / -a | Bored | Ser/Estar 의미 변화 주의 |
 | 5 | preocupado / -a | Preoccupied → Worried ✅ | 걱정에 사로잡힌 상태 |
@@ -46,7 +46,7 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
-| 1 | enfadado / -a | — (Angry / Mad) | '엔파다도' |
+| 1 | enfadado / -a | — (Angry / Mad) | 화난 상태 |
 | 2 | celoso / -a | Jealous ✅ | 질투하는 |
 | 3 | esperanzado / -a | Hope (Esperanza) → Hopeful | 희망에 가득 찬 |
 | 4 | agotado / -a | Exhausted | 에너지가 고갈(exhaust)된 |
