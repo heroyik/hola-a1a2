@@ -20,7 +20,7 @@
 
 신체 부위를 나타내는 필수 어휘입니다. 아래 일러스트의 번호와 매칭하여 학습해보세요. 삽화에 표시된 각 번호(①~⑰)가 아래 어휘 표의 번호와 정확히 대응됩니다.
 
-![신체 부위 일러스트 — 번호 1~17 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v9.png)
+![신체 부위 일러스트 — 번호 1~17 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 | :---: | :--- | :--- | :--- |
@@ -234,7 +234,7 @@
 
 ## 5. Cultura Viva: El Sistema de Salud en España
 
-![스페인 마드리드의 현대적인 보건소와 약국 풍경 (Modern Anime Style)](../images/ch01_a1_culture_health_v8_1771591047906.png)
+![Dos Besos 인사 문화 (Modern Anime Style)](../images/ch01_a1_culture_greeting_v10.png)
 
 España cuenta con uno de los sistemas de salud pública más eficientes del mundo, conocido como **Seguridad Social**. Este sistema garantiza el acceso universal a la atención médica para todos los ciudadanos y residentes.
 
