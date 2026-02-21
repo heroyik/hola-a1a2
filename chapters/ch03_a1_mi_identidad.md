@@ -24,7 +24,7 @@
 
 개인 정보를 나타내는 핵심 서류와 항목들입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](file:///Users/ikyoon/proj/book/images/ch03_a1_vocab_identity_v10.png)
+![Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch03_a1_vocab_identity_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -158,7 +158,7 @@
 
 ## 5. Cultura Viva: El DNI en España 🪪
 
-![DNI en España](file:///Users/ikyoon/proj/book/images/ch03_a1_culture_dni_v10.png)
+![DNI en España](../images/ch03_a1_culture_dni_v10.png)
 
 스페인 사람들에게 없어서는 안 될 가장 중요한 카드, DNI를 알아봅시다.
 
