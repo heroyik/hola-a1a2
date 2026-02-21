@@ -18,9 +18,13 @@
 
 ## 2. Vocabulario Esencial: El Cuerpo Humano
 
-신체 부위를 나타내는 필수 어휘입니다. 아래 일러스트의 번호와 매칭하여 학습해보세요. 삽화에 표시된 각 번호(①~⑰)가 아래 어휘 표의 번호와 정확히 대응됩니다.
+신체 부위를 나타내는 필수 어휘입니다. 효과적인 시각적 매핑을 위해 상반신(얼굴)과 전신(몸통/팔다리) 두 부분으로 나누어 학습합니다.
 
-![신체 부위 일러스트 — 번호 1~17 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_v20.png)
+### A. 머리와 얼굴 (Cabeza y Cara)
+
+아래 일러스트의 번호(1~7)와 매칭하여 학습해보세요.
+
+![상반신/얼굴 일러스트 — 번호 1~7 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_head_v20.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 | :---: | :--- | :--- | :--- |
@@ -31,16 +35,25 @@
 | 5 | la nariz | Nasal ✅ | 코입니다. 'ㄹ' 발음 주의. |
 | 6 | la boca | Vocal (→ mouth-related) | 입입니다. |
 | 7 | la oreja | Aural (→ ear-related) | 귀(겉부분)를 뜻합니다. |
-| 8 | el cuello | — | 목입니다. |
-| 9 | el hombro | — | 어깨입니다. |
-| 10 | el brazo | Brace (→ support for arm) | 팔입니다. |
-| 11 | la mano | Manual ✅ | 손입니다. ⚠️ 여성 명사임에 주의: la mano |
-| 12 | el dedo | Digit ✅ (→ finger/toe) | 손가락 또는 발가락입니다. |
-| 13 | el pecho | Pectoral ✅ | 가슴입니다. |
-| 14 | el estómago | Stomach ✅ | 배, 위장입니다. |
-| 15 | la pierna | — | 다리입니다. |
-| 16 | la rodilla | — | 무릎입니다. |
-| 17 | el pie | Pedal ✅ (→ foot-related) | 발입니다. |
+
+### B. 몸통과 팔다리 (Tronco y Extremidades)
+
+아래 전신 일러스트의 번호(1~10)와 표의 번호가 정확히 대응됩니다.
+
+![전신 일러스트 — 번호 1~10 라벨 매핑 (Modern Anime Style)](../images/ch01_a1_vocab_body_parts_v20.png)
+
+| 번호 | Spanish | English Bridge | Korean Tip |
+| :---: | :--- | :--- | :--- |
+| 1 | el cuello | — | 목입니다. |
+| 2 | el hombro | — | 어깨입니다. |
+| 3 | el brazo | Brace (→ support for arm) | 팔입니다. |
+| 4 | la mano | Manual ✅ | 손입니다. ⚠️ 여성 명사임에 주의: la mano |
+| 5 | el dedo | Digit ✅ (→ finger/toe) | 손가락 또는 발가락입니다. |
+| 6 | el pecho | Pectoral ✅ | 가슴입니다. |
+| 7 | el estómago | Stomach ✅ | 배, 위장입니다. |
+| 8 | la pierna | — | 다리입니다. |
+| 9 | la rodilla | — | 무릎입니다. |
+| 10 | el pie | Pedal ✅ (→ foot-related) | 발입니다. |
 
 ✅ **범례**: ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다. ⚠️ 표시는 주의가 필요한 단어입니다.
 
@@ -234,7 +247,7 @@
 
 ## 5. Cultura Viva: El Sistema de Salud en España
 
-![Dos Besos 인사 문화 (Modern Anime Style)](../images/ch01_a1_culture_greeting_v20.png)
+![스페인 공공 의료 및 지중해식 생활 습관 (Modern Anime Style)](../images/ch01_a1_culture_health_v20.png)
 
 España cuenta con uno de los sistemas de salud pública más eficientes del mundo, conocido como **Seguridad Social**. Este sistema garantiza el acceso universal a la atención médica para todos los ciudadanos y residentes.
 

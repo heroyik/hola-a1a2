@@ -33,10 +33,13 @@ For Section 2 (Vocabulario Esencial) images:
 3. **Execute Generation**: Use the `generate_image` tool.
    - *Filename Convention*: `chXX_level_section_v10` (e.g., `ch05_a1_vocab_food_v10`).
    - *Error Handling*: The image API (`gemini-3-pro-image`) represents a shared resource. If you receive `503 Service Unavailable`, retry after a short delay. If you receive `429 Too Many Requests`, you have hit a hard quota. Notify the user of the cooldown period (usually 1.5 hours) and pause generation.
-4. **Copy Images**: Use the terminal to copy the `.png` files from the artifact directory (`~/.gemini/antigravity/brain/...`) to the project's `images/` directory.
-5. **Convert Formatting**: Run `for f in images/ch0X*.png; do sips -s format png "$f" --out "${f%.*}.png"; done` to ensure proper PNG encoding on Mac.
-6. **Update Markdown**: Edit the chapter `.md` files to update the image links to the new `v10` filenames.
-7. **Verify & Render**: Run the build scripts to generate the updated HTML and PDF files:
+4. **Strict Verify Content Against Markdown**: Before proceeding, you MUST strictly compare the generated image against the actual text content of the chapter's markdown file.
+   - **For Vocabulary**: Ensure the illustration accurately reflects all the vocabulary table items exactly as described. Check for any missing items or incorrect label mapping. If there are mismatches, refine the prompt and regenerate the image.
+   - **For Cultura Viva**: You MUST read the text of Section 5 in the markdown file. Ensure the generated image accurately portrays the specific cultural topic, setting, and details described in the text (e.g., if the text describes a Health Center, the image must not show a greeting). Do not assume the topic based on filenames or previous contexts. If the image does not match the text, rewrite the prompt and regenerate it.
+5. **Copy Images**: Use the terminal to copy the `.png` files from the artifact directory (`~/.gemini/antigravity/brain/...`) to the project's `images/` directory.
+6. **Convert Formatting**: Run `for f in images/ch0X*.png; do sips -s format png "$f" --out "${f%.*}.png"; done` to ensure proper PNG encoding on Mac.
+7. **Update Markdown**: Edit the chapter `.md` files to update the image links to the new `v10` filenames.
+8. **Verify & Render**: Run the build scripts to generate the updated HTML and PDF files:
 
    ```bash
    source venv/bin/activate
@@ -44,7 +47,7 @@ For Section 2 (Vocabulario Esencial) images:
    python scripts/generate_pdf.py chapters/ch0X_a1_filename.md output/ch0X_a1_filename.pdf --title "Chapter X: Title (A1)"
    ```
 
-8. **Track Progress**: Check off the completed chapter in the master `task.md` tracking file.
+9. **Track Progress**: Check off the completed chapter in the master `task.md` tracking file.
 
 ## 4. Example Prompts
 

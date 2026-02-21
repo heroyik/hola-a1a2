@@ -21,9 +21,13 @@
 
 ## 2. Vocabulario Esencial
 
-아래 삽화 속 인물들의 특징을 살펴보며 필수 형용사를 익혀보세요. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
+아래 삽화 속 인물들의 특징을 살펴보며 필수 형용사를 익혀보세요. 효과적인 시각적 매핑을 위해 성격과 외모 두 부분으로 나누어 학습합니다.
 
-![¿Cómo somos? — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_personality_v10.png)
+### A. 성격 (Personalidad)
+
+삽화의 번호(1~5)가 아래 어휘 표와 정확히 대응됩니다.
+
+![성격 일러스트 — 번호 1~5 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_personality_part1_v20.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -32,11 +36,20 @@
 | 3 | serio / seria | Serious ✅ | -o/-a 성수 변화 주의 |
 | 4 | antipático / -a | Antipathy → Unpleasant | '비호감인' 느낌 |
 | 5 | simpático / -a | Sympathetic → Nice / Friendly | '호감가는' 느낌 |
-| 6 | alto / alta | Altitude → Tall ✅ | 높은 곳을 상상하세요 |
-| 7 | bajo / baja | Base → Short / Low | 낮은 곳을 상상하세요 |
-| 8 | delgado / -a | — (Thin / Slender) | '델가도' |
-| 9 | gordo / gorda | — (Fat / Chubby) | '고르도' |
-| 10 | inteligente | Intelligent ✅ | 완벽한 인지어 |
+
+### B. 외모와 지능 (Apariencia e Inteligencia)
+
+삽화의 번호(1~5)가 아래 어휘 표와 정확히 대응됩니다.
+
+![외모 일러스트 — 번호 1~5 라벨 매핑 (Modern Anime Style)](../images/ch02_a1_vocab_appearance_part2_v20.png)
+
+| 번호 | Spanish | English Bridge | Korean Tip |
+|:---:|:---|:---|:---|
+| 1 | alto / alta | Altitude → Tall ✅ | 높은 곳을 상상하세요 |
+| 2 | bajo / baja | Base → Short / Low | 낮은 곳을 상상하세요 |
+| 3 | delgado / -a | — (Thin / Slender) | '델가도' |
+| 4 | gordo / gorda | — (Fat / Chubby) | '고르도' |
+| 5 | inteligente | Intelligent ✅ | 완벽한 인지어 |
 
 ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.
 
@@ -276,7 +289,7 @@ Este gesto refleja la calidez y la naturaleza social de la cultura española. A 
 
 이 제스처는 스페인 문화 특유의 따뜻함과 사회성을 잘 보여줍니다. 신체적 거리를 유지하는 다른 문화권과 달리, 스페인에서는 가까운 접촉이 신뢰와 우정의 표시입니다. 심지어 격식이 덜한 전문적인 환경에서도 동료나 지인을 만날 때 두 번의 키스로 인사하는 것이 일반적입니다. 가족 관계가 아닌 남성들 사이에서는 보통 악수를 하거나, 아주 친한 경우에는 가벼운 포옹을 합니다.
 
-![Dos Besos 스페인식 인사법 (Modern Anime Style)](../images/ch02_a1_culture_greeting_v10.png)
+![Dos Besos 스페인식 인사법 (Modern Anime Style)](../images/ch02_a1_culture_greeting_v20.png)
 
 ---
 
