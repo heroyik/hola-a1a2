@@ -1,9 +1,0 @@
-Use case: illustration-story
-Asset type: Spanish textbook chapter image (A1 Cultura Viva)
-Primary request: Contemporary Centro de Salud scene in Madrid with nearby Farmacia and green cross sign, street-level public health atmosphere.
-Style/medium: modern premium anime with painterly detail and clean lines.
-Composition/framing: wide exterior shot with walkable sidewalk and visible clinic/pharmacy context.
-Lighting/mood: warm golden-hour light with clear shadows and inviting atmosphere.
-Color palette: terracotta, Spain red accents, warm neutrals, Mediterranean sunlight.
-Constraints: culturally authentic Spanish urban details, friendly daily-life interactions, if visible text appears it must be Spanish only.
-Avoid: Japanese text, Chinese text, Korean text, brand logos, watermark, cluttered signage.

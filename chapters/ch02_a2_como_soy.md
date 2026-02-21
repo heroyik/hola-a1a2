@@ -23,7 +23,7 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 
 더 섬세한 감정의 결을 표현하기 위한 어휘들입니다. 삽화의 번호(①~⑫)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Muro de las Emociones — 번호 ①~⑫ 라벨 매핑 (Modern Anime Style)](../images/ch02_a2_vocab_emotions_v4.png)
+![Muro de las Emociones — 번호 ①~⑫ 라벨 매핑 (Modern Anime Style)](../images/ch02_a2_vocab_emotions_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -290,7 +290,7 @@ Sin embargo, esto también genera una presión por mostrar una "vida perfecta". 
 
 하지만 이는 또한 "완벽한 삶"을 보여줘야 한다는 압박감을 생성하기도 합니다. 많은 청년이 자신의 공적인 이미지에 대해 **걱정하거나(preocupados)** **스트레스를(estresados)** 받기도 합니다. 그럼에도 불구하고, 스페인 사람들의 성격은 여전히 매우 표현력이 풍부하고 개방적입니다. 긍정적이고 직설적인 메시지가 담긴 프로필을 흔히 볼 수 있습니다. 스페인에서 "postureo(포스투레오)"라는 단어는 매우 유명한데, 이는 누군가가 실제 현실이 아님에도 오직 소셜 미디어에 뽐내기 위해 행동하는 것을 묘사할 때 사용됩니다.
 
-![스페인 Z세대 청년들의 SNS와 디지털 정체성 문화](../images/ch02_a2_culture_social_v4.png)
+![스페인 Z세대 청년들의 SNS와 디지털 정체성 문화](../images/ch02_a2_culture_social_v10.png)
 
 ---
 

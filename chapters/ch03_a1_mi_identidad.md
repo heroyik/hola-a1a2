@@ -24,7 +24,7 @@
 
 개인 정보를 나타내는 핵심 서류와 항목들입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch03_a1_vocab_identity_v4.png)
+![Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch03_a1_vocab_identity_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -171,7 +171,7 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 
 국가 경찰이 이 서류를 발급하는 책임을 집니다. 각 DNI에는 8자리 숫자와 마지막에 한 글자의 알파벳으로 구성된 고유 번호가 있습니다. 이 번호는 평생 변하지 않습니다. 그래서 누군가 "¿Cuál es tu número?(당신의 번호가 무엇입니까?)"라고 묻는다면, 보통은 당신의 DNI 번호를 의미합니다.
 
-![스페인의 DNI(국가 신분증) 카드와 칩 기반 인증 시스템](../images/ch03_a1_culture_dni_v4.png)
+![스페인의 DNI(국가 신분증) 카드와 칩 기반 인증 시스템](../images/ch03_a1_culture_dni_v10.png)
 
 ---
 

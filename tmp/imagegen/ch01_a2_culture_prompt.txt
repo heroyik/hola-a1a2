@@ -1,9 +1,0 @@
-Use case: illustration-story
-Asset type: Spanish textbook chapter image (A2 Cultura Viva)
-Primary request: Spanish farmacia interior and storefront transition showing respectful consultation between pharmacist and young adult customer.
-Style/medium: modern premium anime with realistic environment detailing.
-Composition/framing: clear consultation focus with visible pharmacy shelves and subtle Farmacia de Guardia context.
-Lighting/mood: warm golden-hour ambience, calm and professional.
-Color palette: warm Mediterranean tones, clean highlights for readability.
-Constraints: culturally authentic Spanish pharmacy setting, if any visible text appears use Spanish only.
-Avoid: Japanese text, Chinese text, Korean text, watermark, logo, over-clutter, exaggerated cartoon proportions.

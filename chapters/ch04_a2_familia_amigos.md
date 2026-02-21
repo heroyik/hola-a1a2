@@ -23,7 +23,7 @@ A1에서 기본적인 가족 구성원의 명칭을 배웠다면, A2에서는 �
 
 현대적인 마드리드의 루프탑 바에서 친구들과 동료들이 어울리는 모습입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Amigos y Sociedad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a2_vocab_friendship_v2_1.png)
+![Amigos y Sociedad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch04_a2_vocab_friendship_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -174,7 +174,7 @@ Sin embargo, el respeto a los mayores sigue siendo fundamental. Es común ver a 
 
 그럼에도 불구하고 어르신들에 대한 존경은 여전히 핵심적입니다. 오후에 손주들을 돌보는 조부모의 모습을 흔히 볼 수 있는데, 이는 매우 강력한 세대 간 유대감을 형성합니다. 동시에 스페인 청년들은 매우 사교적이며 친구들을 자신의 "선택한 가족"으로 여깁니다.
 
-![스페인 전통 가족 가치관과 현대적 라이프스타일의 공존](../images/ch04_a2_culture_lifestyle_v2_1.png)
+![스페인 전통 가족 가치관과 현대적 라이프스타일의 공존](../images/ch04_a2_culture_lifestyle_v10.png)
 
 ---
 
