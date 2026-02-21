@@ -1,10 +1,30 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <title>ch01_a1_mi_cuerpo.md</title>
+    <meta charset="UTF-8"/>
+    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+@page {
+    size: A4;
+    margin: 2.5cm 2cm 2.5cm 2cm;
+    @top-center {
+        content: "Hola-AL · Premium Spanish Learning";
+        font-family: 'Montserrat', sans-serif;
+        font-size: 7.5pt;
+        color: #b0b0b0;
+        text-transform: uppercase;
+        letter-spacing: 1.5pt;
+    }
+    @bottom-center {
+        content: counter(page);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 9pt;
+        color: #A93226;
+        font-weight: 600;
+    }
+}
 
 :root {
     --spanish-red: #A93226;
@@ -22,35 +42,36 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    margin: 0;
-    padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
+/* ─── CHAPTER TITLE ─── */
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    margin: 20pt 0 15pt 0;
+    text-align: left;
+    margin: 40pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
+    text-transform: uppercase;
+    letter-spacing: -1pt;
 }
 
+/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -59,6 +80,8 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
+    display: flex;
+    align-items: center;
 }
 
 h2::before {
@@ -71,32 +94,254 @@ h2::before {
     border-radius: 2pt;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14pt;
+    font-weight: 600;
+    color: var(--slate-grey);
+    margin: 25pt 0 10pt 0;
+    background-color: var(--spanish-ochre-light);
+    padding: 6pt 12pt;
+    border-radius: 5pt;
+    border-left: 4pt solid var(--spanish-ochre);
+}
+
+h4 {
+    font-size: 11pt;
+    font-weight: 600;
+    color: var(--spanish-olive);
+    margin: 20pt 0 8pt 0;
+    text-transform: uppercase;
+    letter-spacing: 0.5pt;
+}
+
+/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
+    padding: 20pt 25pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+    font-style: italic;
+    color: var(--slate-grey);
+    position: relative;
+}
+
+/* ─── TABLES (HIGH-END DESIGN) ─── */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    margin: 20pt 0 25pt 0;
+    font-size: 9.5pt;
+    border: 1px solid var(--border-color);
+    border-radius: 10pt;
+    overflow: hidden;
+    box-shadow: var(--shadow-premium);
+    background-color: var(--bg-white);
+    page-break-inside: avoid;
+}
+
+thead {
+    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
+    color: white;
+}
+
+th {
+    padding: 12pt 15pt;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1.2pt;
+    font-size: 8.5pt;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+td {
+    padding: 10pt 15pt;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+    transition: background-color 0.2s ease;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:nth-child(even) {
+    background-color: #FDFDFD;
+}
+
+tr:hover td {
+    background-color: var(--spanish-ochre-light);
+}
+
+/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
+table.borderless {
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+    margin: 10pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless td {
+    border: none !important;
+    padding: 5pt 15pt 5pt 0;
+    background-color: transparent !important;
+}
+
+table.borderless tr:nth-child(even) {
+    background-color: transparent !important;
+}
+
+/* ─── LEGENDS & CAPTIONS ─── */
+.table-legend {
+    font-size: 8.5pt;
+    color: var(--text-light);
+    display: block;
+    margin-top: 8pt;
+    margin-bottom: 20pt;
+    text-align: left;
+    font-style: italic;
+}
+
+em {
+    font-style: italic;
+    color: var(--spanish-red);
+    font-weight: 500;
+}
+
+/* ─── ADMONITIONS ─── */
+.admonition-tip {
+    background: #EBF5FB;
+    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
-.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important {
+    background: var(--spanish-ochre-light);
+    border-left: 6pt solid var(--spanish-ochre);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
 
-table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
-thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
-th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
-td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
-tr:nth-child(even) { background-color: var(--bg-warm); }
-tr:last-child td { border-bottom: none; }
-strong { font-weight: bold; color: var(--spanish-red); }
+.admonition-warning {
+    background: var(--spanish-red-light);
+    border-left: 6pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+/* ─── IMAGES ─── */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15pt;
+    margin: 25pt 0;
+    display: block;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
+    border: 3pt solid var(--bg-white);
+}
+
+/* ─── HR ─── */
+hr {
+    border: none;
+    border-top: 2pt solid var(--spanish-ochre);
+    margin: 40pt 150pt;
+    opacity: 0.2;
+}
+
+/* ─── LISTS ─── */
+ul, ol {
+    margin: 12pt 0 18pt 30pt;
+}
+
+li {
+    margin-bottom: 8pt;
+}
+
+li strong {
+    color: var(--slate-grey);
+}
+
+/* ─── LINKS ─── */
+a {
+    color: var(--spanish-red);
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1.5pt solid var(--spanish-ochre-light);
+    transition: all 0.2s ease;
+}
+
+a:hover {
+    border-bottom-color: var(--spanish-red);
+}
+
+p {
+    margin: 8pt 0 12pt 0;
+}
+
+/* ─── PRACTICE SECTION ─── */
+h3:has(+ table),
+h3:has(+ ol) {
+    color: var(--spanish-red);
+    border-left-color: var(--spanish-red);
+}
+
+/* ─── WEB READABILITY ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+.cervantes-ref {
+    font-size: 10pt;
+    color: var(--text-light);
+    margin: 10pt 0 25pt 0;
+    line-height: 1.6;
+    font-weight: 400;
+    font-style: italic;
+    border-left: 2pt solid var(--border-color);
+    padding-left: 10pt;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+    .container {
+        max-width: none;
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border-radius: 0;
+    }
+    hr {
+        margin: 40pt 100pt;
+    }
+}
 </style>
 </head>
 <body>
-    <div class="container"><h1>Chapter 1: Mi cuerpo y salud (A1)</h1>
+<div class="container">
+<h1 id="chapter-1-mi-cuerpo-y-salud-a1">Chapter 1: Mi cuerpo y salud (A1)</h1>
 <p class="cervantes-ref">Cervantes: §1 Identidad (신체 특징), §13 Salud (신체 부위별 명칭 및 기초 건강 상태 표현)</p>
-<h2>1. Opener</h2>
+
+<h2 id="1-opener">1. Opener</h2>
 <p><strong>학습 목표</strong>:</p>
 <ul>
 <li>머리부터 발끝까지 17개의 신체 부위를 식별하고 스페인어로 이름을 말할 수 있습니다.</li>
@@ -104,203 +349,200 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>스페인의 공공 의료 시스템과 건강한 생활 습관에 대한 문화적 배경을 이해합니다.</li>
 <li>기본적인 건강 상태를 표현하고 아픔을 전달하는 방법을 배웁니다.</li>
 </ul>
-<p><strong>¿Sabías que...? (알고 계셨나요?)</strong><br>
+<p><strong>¿Sabías que...? (알고 계셨나요?)</strong><br />
 스페인 사람들은 인사를 할 때 양쪽 볼에 키스를 하는 'Dos Besos' 관습이 있습니다. 하지만 처음 보는 사이나 공식적인 자리에서는 악수를 하는 것이 일반적입니다. 신체 접촉에 대한 문화적 차이를 이해하는 것은 스페인어 학습의 첫걸음입니다!</p>
-<hr>
-<h2>2. Vocabulario Esencial: El Cuerpo Humano</h2>
+<hr />
+<h2 id="2-vocabulario-esencial-el-cuerpo-humano">2. Vocabulario Esencial: El Cuerpo Humano</h2>
 <p>신체 부위를 나타내는 필수 어휘입니다. 아래 일러스트의 번호와 매칭하여 학습해보세요. 삽화에 표시된 각 번호(①~⑰)가 아래 어휘 표의 번호와 정확히 대응됩니다.</p>
-<p><img src="../images/ch01_a1_vocab_body_v10.png" alt="신체 부위 일러스트 — 번호 1~17 라벨 매핑 (Modern Anime Style)"></p>
+<p><img alt="신체 부위 일러스트 — 번호 1~17 라벨 매핑 (Modern Anime Style)" src="../images/ch01_a1_vocab_body_v20.png" /></p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">번호</th>
-<th style="text-align:left">Spanish</th>
-<th style="text-align:left">English Bridge</th>
-<th style="text-align:left">Korean Tip</th>
+<th style="text-align: center;">번호</th>
+<th style="text-align: left;">Spanish</th>
+<th style="text-align: left;">English Bridge</th>
+<th style="text-align: left;">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">1</td>
-<td style="text-align:left">la cabeza</td>
-<td style="text-align:left">Cephalic (→ head-related)</td>
-<td style="text-align:left">'까베사'라고 발음하세요.</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">la cabeza</td>
+<td style="text-align: left;">Cephalic (→ head-related)</td>
+<td style="text-align: left;">'까베사'라고 발음하세요.</td>
 </tr>
 <tr>
-<td style="text-align:center">2</td>
-<td style="text-align:left">el pelo</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">머리카락을 뜻합니다.</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">el pelo</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">머리카락을 뜻합니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">3</td>
-<td style="text-align:left">la cara</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">얼굴입니다.</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">la cara</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">얼굴입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">4</td>
-<td style="text-align:left">el ojo</td>
-<td style="text-align:left">Ocular ✅ (→ eye-related)</td>
-<td style="text-align:left">'오호'라고 발음하며 항상 성수 일치에 주의하세요.</td>
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">el ojo</td>
+<td style="text-align: left;">Ocular ✅ (→ eye-related)</td>
+<td style="text-align: left;">'오호'라고 발음하며 항상 성수 일치에 주의하세요.</td>
 </tr>
 <tr>
-<td style="text-align:center">5</td>
-<td style="text-align:left">la nariz</td>
-<td style="text-align:left">Nasal ✅</td>
-<td style="text-align:left">코입니다. 'ㄹ' 발음 주의.</td>
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">la nariz</td>
+<td style="text-align: left;">Nasal ✅</td>
+<td style="text-align: left;">코입니다. 'ㄹ' 발음 주의.</td>
 </tr>
 <tr>
-<td style="text-align:center">6</td>
-<td style="text-align:left">la boca</td>
-<td style="text-align:left">Vocal (→ mouth-related)</td>
-<td style="text-align:left">입입니다.</td>
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">la boca</td>
+<td style="text-align: left;">Vocal (→ mouth-related)</td>
+<td style="text-align: left;">입입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">7</td>
-<td style="text-align:left">la oreja</td>
-<td style="text-align:left">Aural (→ ear-related)</td>
-<td style="text-align:left">귀(겉부분)를 뜻합니다.</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">la oreja</td>
+<td style="text-align: left;">Aural (→ ear-related)</td>
+<td style="text-align: left;">귀(겉부분)를 뜻합니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">8</td>
-<td style="text-align:left">el cuello</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">목입니다.</td>
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">el cuello</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">목입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">9</td>
-<td style="text-align:left">el hombro</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">어깨입니다.</td>
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">el hombro</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">어깨입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">10</td>
-<td style="text-align:left">el brazo</td>
-<td style="text-align:left">Brace (→ support for arm)</td>
-<td style="text-align:left">팔입니다.</td>
+<td style="text-align: center;">10</td>
+<td style="text-align: left;">el brazo</td>
+<td style="text-align: left;">Brace (→ support for arm)</td>
+<td style="text-align: left;">팔입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">11</td>
-<td style="text-align:left">la mano</td>
-<td style="text-align:left">Manual ✅</td>
-<td style="text-align:left">손입니다. ⚠️ 여성 명사임에 주의: la mano</td>
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">la mano</td>
+<td style="text-align: left;">Manual ✅</td>
+<td style="text-align: left;">손입니다. ⚠️ 여성 명사임에 주의: la mano</td>
 </tr>
 <tr>
-<td style="text-align:center">12</td>
-<td style="text-align:left">el dedo</td>
-<td style="text-align:left">Digit ✅ (→ finger/toe)</td>
-<td style="text-align:left">손가락 또는 발가락입니다.</td>
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">el dedo</td>
+<td style="text-align: left;">Digit ✅ (→ finger/toe)</td>
+<td style="text-align: left;">손가락 또는 발가락입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">13</td>
-<td style="text-align:left">el pecho</td>
-<td style="text-align:left">Pectoral ✅</td>
-<td style="text-align:left">가슴입니다.</td>
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">el pecho</td>
+<td style="text-align: left;">Pectoral ✅</td>
+<td style="text-align: left;">가슴입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">14</td>
-<td style="text-align:left">el estómago</td>
-<td style="text-align:left">Stomach ✅</td>
-<td style="text-align:left">배, 위장입니다.</td>
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">el estómago</td>
+<td style="text-align: left;">Stomach ✅</td>
+<td style="text-align: left;">배, 위장입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">15</td>
-<td style="text-align:left">la pierna</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">다리입니다.</td>
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">la pierna</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">다리입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">16</td>
-<td style="text-align:left">la rodilla</td>
-<td style="text-align:left">—</td>
-<td style="text-align:left">무릎입니다.</td>
+<td style="text-align: center;">16</td>
+<td style="text-align: left;">la rodilla</td>
+<td style="text-align: left;">—</td>
+<td style="text-align: left;">무릎입니다.</td>
 </tr>
 <tr>
-<td style="text-align:center">17</td>
-<td style="text-align:left">el pie</td>
-<td style="text-align:left">Pedal ✅ (→ foot-related)</td>
-<td style="text-align:left">발입니다.</td>
+<td style="text-align: center;">17</td>
+<td style="text-align: left;">el pie</td>
+<td style="text-align: left;">Pedal ✅ (→ foot-related)</td>
+<td style="text-align: left;">발입니다.</td>
 </tr>
 </tbody>
 </table>
 <p>✅ <strong>범례</strong>: ✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다. ⚠️ 표시는 주의가 필요한 단어입니다.</p>
-<hr>
-<h2>3. Expresiones Útiles</h2>
+<hr />
+<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
 <p>실생활에서 자주 사용하는 유용한 표현들입니다.</p>
-<h3>A. 건강 상태 묻고 답하기</h3>
+<h3 id="a">A. 건강 상태 묻고 답하기</h3>
 <ul>
 <li><strong>¿Cómo estás?</strong> (How are you? / 어떻게 지내니?)</li>
 <li><strong>Estoy bien, gracias.</strong> (I'm well, thanks. / 잘 지내요, 감사합니다.)</li>
 <li><strong>Me siento mal.</strong> (I feel bad. / 기분이 안 좋아요/몸이 안 좋아요.)</li>
-<li><strong>Estoy resfriado/a.</strong> (I have a cold. / 감기에 걸렸어요.)
-<ul>
-<li>💡 <strong>English Bridge</strong>: &quot;Resfriado&quot; shares the root with &quot;refrigerate&quot; — both relate to cold!</li>
+<li><strong>Estoy resfriado/a.</strong> (I have a cold. / 감기에 걸렸어요.)</li>
+<li>💡 <strong>English Bridge</strong>: "Resfriado" shares the root with "refrigerate" — both relate to cold!</li>
 </ul>
-</li>
-</ul>
-<p><strong>B. 신체적 감각 표현 (Tener + 명사)</strong><br>
-스페인어에서는 영어의 &quot;I am + adjective&quot; 표현 중 많은 부분이 &quot;Tener + noun&quot; 구조로 바뀝니다. 이것은 영어 학습자가 가장 자주 실수하는 패턴입니다.</p>
+<p><strong>B. 신체적 감각 표현 (Tener + 명사)</strong><br />
+스페인어에서는 영어의 "I am + adjective" 표현 중 많은 부분이 "Tener + noun" 구조로 바뀝니다. 이것은 영어 학습자가 가장 자주 실수하는 패턴입니다.</p>
 <table>
 <thead>
 <tr>
-<th style="text-align:center">패턴</th>
-<th style="text-align:left">스페인어</th>
-<th style="text-align:left">영어 직역</th>
-<th style="text-align:left">영어 자연스러운 번역</th>
-<th style="text-align:left">한국어</th>
+<th style="text-align: center;">패턴</th>
+<th style="text-align: left;">스페인어</th>
+<th style="text-align: left;">영어 직역</th>
+<th style="text-align: left;">영어 자연스러운 번역</th>
+<th style="text-align: left;">한국어</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center">더위</td>
-<td style="text-align:left">Tengo <strong>calor</strong>.</td>
-<td style="text-align:left">I have heat.</td>
-<td style="text-align:left">I'm hot.</td>
-<td style="text-align:left">더워요.</td>
+<td style="text-align: center;">더위</td>
+<td style="text-align: left;">Tengo <strong>calor</strong>.</td>
+<td style="text-align: left;">I have heat.</td>
+<td style="text-align: left;">I'm hot.</td>
+<td style="text-align: left;">더워요.</td>
 </tr>
 <tr>
-<td style="text-align:center">추위</td>
-<td style="text-align:left">Tengo <strong>frío</strong>.</td>
-<td style="text-align:left">I have cold.</td>
-<td style="text-align:left">I'm cold.</td>
-<td style="text-align:left">추워요.</td>
+<td style="text-align: center;">추위</td>
+<td style="text-align: left;">Tengo <strong>frío</strong>.</td>
+<td style="text-align: left;">I have cold.</td>
+<td style="text-align: left;">I'm cold.</td>
+<td style="text-align: left;">추워요.</td>
 </tr>
 <tr>
-<td style="text-align:center">배고픔</td>
-<td style="text-align:left">Tengo <strong>hambre</strong>.</td>
-<td style="text-align:left">I have hunger.</td>
-<td style="text-align:left">I'm hungry.</td>
-<td style="text-align:left">배고파요.</td>
+<td style="text-align: center;">배고픔</td>
+<td style="text-align: left;">Tengo <strong>hambre</strong>.</td>
+<td style="text-align: left;">I have hunger.</td>
+<td style="text-align: left;">I'm hungry.</td>
+<td style="text-align: left;">배고파요.</td>
 </tr>
 <tr>
-<td style="text-align:center">갈증</td>
-<td style="text-align:left">Tengo <strong>sed</strong>.</td>
-<td style="text-align:left">I have thirst.</td>
-<td style="text-align:left">I'm thirsty.</td>
-<td style="text-align:left">목말라요.</td>
+<td style="text-align: center;">갈증</td>
+<td style="text-align: left;">Tengo <strong>sed</strong>.</td>
+<td style="text-align: left;">I have thirst.</td>
+<td style="text-align: left;">I'm thirsty.</td>
+<td style="text-align: left;">목말라요.</td>
 </tr>
 <tr>
-<td style="text-align:center">졸림</td>
-<td style="text-align:left">Tengo <strong>sueño</strong>.</td>
-<td style="text-align:left">I have sleep.</td>
-<td style="text-align:left">I'm sleepy.</td>
-<td style="text-align:left">졸려요.</td>
+<td style="text-align: center;">졸림</td>
+<td style="text-align: left;">Tengo <strong>sueño</strong>.</td>
+<td style="text-align: left;">I have sleep.</td>
+<td style="text-align: left;">I'm sleepy.</td>
+<td style="text-align: left;">졸려요.</td>
 </tr>
 </tbody>
 </table>
-<hr>
-<h2>4. Gramática Esencial: El verbo TENER (가지다)</h2>
+<hr />
+<h2 id="4-gramatica-esencial-el-verbo-tener">4. Gramática Esencial: El verbo TENER (가지다)</h2>
 <p><code>tener</code> 동사는 스페인어에서 가장 중요한 불규칙 동사 중 하나입니다. 소유(possession)뿐만 아니라 나이, 신체적 상태, 그리고 의무를 표현할 때 필수적으로 사용됩니다.</p>
-<h3>어근/어미 변화 분석 (Stem &amp; Ending Changes)</h3>
-<p><code>tener</code>는 영어의 &quot;to have&quot;에 해당하지만, 활용 패턴이 매우 다릅니다.</p>
+<h3 id="stem-ending-changes">어근/어미 변화 분석 (Stem &amp; Ending Changes)</h3>
+<p><code>tener</code>는 영어의 "to have"에 해당하지만, 활용 패턴이 매우 다릅니다.</p>
 <p><strong>Stem change rule (어간 모음 변화)</strong>: <code>e → ie</code></p>
 <ul>
 <li>Stem(어근) <code>ten-</code>이 특정 인칭에서 <code>tien-</code>으로 변합니다.</li>
 <li>이 변화는 <strong>Boot Verb</strong> 패턴으로, yo와 nosotros/vosotros를 제외한 인칭에서 발생합니다.</li>
 </ul>
 <p><strong>특수 1인칭</strong>: yo → te<strong>ng</strong>o (어근에 -g-가 삽입되는 불규칙)</p>
-<h3>현재 시제 (Presente) 변화표</h3>
+<h3 id="presente">현재 시제 (Presente) 변화표</h3>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -351,6 +593,7 @@ strong { font-weight: bold; color: var(--spanish-red); }
   </tbody>
 </table>
 </div>
+
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -401,26 +644,27 @@ strong { font-weight: bold; color: var(--spanish-red); }
   </tbody>
 </table>
 </div>
+
 <blockquote>
-<p>💡 <strong>English Bridge Tip</strong>: Notice that <code>tener</code> is like English &quot;to have&quot; but with stem changes. In English, &quot;have&quot; only changes to &quot;has&quot; for he/she/it. In Spanish, the stem itself transforms: ten- → <strong>tien</strong>- (e→ie) in certain persons. The ending also varies per subject.</p>
+<p>💡 <strong>English Bridge Tip</strong>: Notice that <code>tener</code> is like English "to have" but with stem changes. In English, "have" only changes to "has" for he/she/it. In Spanish, the stem itself transforms: ten- → <strong>tien</strong>- (e→ie) in certain persons. The ending also varies per subject.</p>
 </blockquote>
-<h3>주요 용법</h3>
-<h3>1. 소유 (Possession)</h3>
+<h3 id="_1">주요 용법</h3>
+<h3 id="1-possession">1. 소유 (Possession)</h3>
 <ul>
-<li><em>Yo tengo un libro.</em> (&quot;I have a book.&quot; / 나는 책을 한 권 가지고 있다.)</li>
+<li><em>Yo tengo un libro.</em> ("I have a book." / 나는 책을 한 권 가지고 있다.)</li>
 </ul>
-<h3>2. 나이 (Age)</h3>
+<h3 id="2-age">2. 나이 (Age)</h3>
 <ul>
-<li>스페인어에서는 나이를 &quot;갖는다&quot;라고 표현합니다. 영어의 &quot;I am 20 years old&quot;와 다릅니다.</li>
-<li><em>Tengo 20 años.</em> (Literally: &quot;I have 20 years.&quot; → &quot;I am 20 years old.&quot;)</li>
+<li>스페인어에서는 나이를 "갖는다"라고 표현합니다. 영어의 "I am 20 years old"와 다릅니다.</li>
+<li><em>Tengo 20 años.</em> (Literally: "I have 20 years." → "I am 20 years old.")</li>
 </ul>
-<h3>3. 신체적/생리적 상태 (Physical States)</h3>
+<h3 id="3-physical-states">3. 신체적/생리적 상태 (Physical States)</h3>
 <ul>
 <li><em>Tengo hambre.</em> (I have hunger → I am hungry)</li>
 <li><em>Tengo sed.</em> (I have thirst → I am thirsty)</li>
 <li><em>Tengo sueño.</em> (I have sleepiness → I am sleepy)</li>
 </ul>
-<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -432,24 +676,24 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3>D. Verbos Regulares (Revisión)</h3>
+<h3 id="d-verbos-regulares-revision">D. Verbos Regulares (Revisión)</h3>
 <p>스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:</p>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr>
-<h2>5. Cultura Viva: El Sistema de Salud en España</h2>
-<p><img src="../images/ch01_a1_culture_greeting_v10.png" alt="Dos Besos 인사 문화 (Modern Anime Style)"></p>
+<hr />
+<h2 id="5-cultura-viva-el-sistema-de-salud-en-espana">5. Cultura Viva: El Sistema de Salud en España</h2>
+<p><img alt="Dos Besos 인사 문화 (Modern Anime Style)" src="../images/ch01_a1_culture_greeting_v20.png" /></p>
 <p>España cuenta con uno de los sistemas de salud pública más eficientes del mundo, conocido como <strong>Seguridad Social</strong>. Este sistema garantiza el acceso universal a la atención médica para todos los ciudadanos y residentes.</p>
 <p>Cada barrio tiene su propio <strong>Centro de Salud</strong>, donde los médicos de cabecera atienden las consultas generales. La medicina preventiva y la cultura de la <strong>Dieta Mediterránea</strong> son pilares fundamentales de la longevidad en España. Además, las <strong>Farmacias</strong> son fácilmente identificables por su cruz verde luminosa y ofrecen asesoramiento profesional constante. Es común que los españoles caminen mucho a diario, lo que contribuye a mantener una buena salud física general.</p>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 스페인은 <strong>사회 보장(Seguridad Social)</strong> 제도로 알려진 세계에서 가장 효율적인 공공 의료 시스템 중 하나를 보유하고 있습니다. 이 시스템은 모든 시민과 거주자에게 보편적인 의료 서비스를 보장합니다.</p>
-<p>동네마다 **보건소(Centro de Salud)**가 있어 주치의가 일반적인 진료를 담당합니다. 예방 의학과 <strong>지중해식 식단</strong> 문화는 스페인 장수의 핵심 요소입니다. 또한, **약국(Farmacias)**은 밝게 빛나는 초록색 십자가 모양으로 쉽게 찾을 수 있으며 상시 전문적인 상담을 제공합니다. 스페인 사람들이 매일 많이 걷는 습관 또한 전반적인 신체 건강을 유지하는 데 기여합니다.</p>
-<hr>
-<h2>6. Práctica</h2>
-<h3>A. Match the word (알맞은 단어를 연결하세요)</h3>
+<p>동네마다 <strong>보건소(Centro de Salud)</strong>가 있어 주치의가 일반적인 진료를 담당합니다. 예방 의학과 <strong>지중해식 식단</strong> 문화는 스페인 장수의 핵심 요소입니다. 또한, <strong>약국(Farmacias)</strong>은 밝게 빛나는 초록색 십자가 모양으로 쉽게 찾을 수 있으며 상시 전문적인 상담을 제공합니다. 스페인 사람들이 매일 많이 걷는 습관 또한 전반적인 신체 건강을 유지하는 데 기여합니다.</p>
+<hr />
+<h2 id="6-practica">6. Práctica</h2>
+<h3 id="a-match-the-word">A. Match the word (알맞은 단어를 연결하세요)</h3>
 <ol>
 <li>Cabeza → ( )</li>
 <li>Mano → ( )</li>
@@ -458,42 +702,42 @@ strong { font-weight: bold; color: var(--spanish-red); }
 <li>Nariz → ( )</li>
 </ol>
 <p>a. Eye / b. Foot / c. Hand / d. Head / e. Nose</p>
-<h3>B. Fill in the blanks with the correct form of TENER (빈칸에 tener 동사의 알맞은 형태를 쓰세요)</h3>
+<h3 id="b-fill-in-the-blanks-with-the-correct-form-of-tener-tener">B. Fill in the blanks with the correct form of TENER (빈칸에 tener 동사의 알맞은 형태를 쓰세요)</h3>
 <ol>
-<li>Yo ______________________ mucho calor hoy.</li>
-<li>¿Tú ______________________ hambre ahora?</li>
-<li>Nosotros ______________________ tres gatos.</li>
-<li>Ella ______________________ veinticinco años.</li>
-<li>Vosotros ______________________ sed.</li>
+<li>Yo <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ mucho calor hoy.</li>
+<li>¿Tú <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ hambre ahora?</li>
+<li>Nosotros <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ tres gatos.</li>
+<li>Ella <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ veinticinco años.</li>
+<li>Vosotros <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ sed.</li>
 </ol>
-<h3>C. 번역 연습 (스페인어로 번역하세요)</h3>
+<h3 id="c">C. 번역 연습 (스페인어로 번역하세요)</h3>
 <ol>
-<li>나는 졸려요.<br>
-(............................................................)</li>
-<li>우리들은 목말라요.<br>
-(............................................................)</li>
-<li>너는 차를 가지고 있니?<br>
-(............................................................)</li>
-<li>그들은 배고프지 않아요.<br>
-(............................................................)</li>
-<li>루시아는 19살입니다.<br>
-(............................................................)</li>
+<li>나는 졸려요.<br />
+    (............................................................)</li>
+<li>우리들은 목말라요.<br />
+    (............................................................)</li>
+<li>너는 차를 가지고 있니?<br />
+    (............................................................)</li>
+<li>그들은 배고프지 않아요.<br />
+    (............................................................)</li>
+<li>루시아는 19살입니다.<br />
+    (............................................................)</li>
 </ol>
-<hr>
-<h2>7. Lectura 📖</h2>
-<h3>Mi rutina de salud (나의 건강 루틴)</h3>
+<hr />
+<h2 id="7-lectura">7. Lectura 📖</h2>
+<h3 id="mi-rutina-de-salud">Mi rutina de salud (나의 건강 루틴)</h3>
 <p>Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el parque durante treinta minutos. A veces tengo dolor de espalda, pero hago ejercicio para sentirme mejor. Bebo mucha agua porque siempre tengo sed después de correr. Mi hermana Sofía tiene una dieta muy sana; ella come muchas frutas y verduras frescas cada día. Nosotros tenemos suerte de vivir cerca de un Centro de Salud donde nuestro médico de cabecera nos atiende con mucha amabilidad.</p>
-<h3>Preguntas (질문)</h3>
+<h3 id="preguntas">Preguntas (질문)</h3>
 <ol>
 <li>¿Qué hace Carlos todos los días? (카를로스는 매일 무엇을 하나요?)</li>
 <li>¿Por qué Carlos bebe mucha agua? (카를로스는 왜 물을 많이 마시나요?)</li>
 <li>¿Cómo es la dieta de Sofía? (소피아의 식단은 어떤가요?)</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br>
+<p><strong>[한국어 번역]</strong><br />
 안녕하세요, 제 이름은 카를로스입니다. 저는 제 몸을 아주 소중히 여깁니다. 매일 공원에서 30분 동안 산책합니다. 가끔 등 통증이 있지만 기분이 나아지기 위해 운동을 합니다. 달리기 후에는 항상 목이 말라서 물을 많이 마십니다. 제 여동생 소피아는 매우 건강한 식단을 가지고 있습니다. 그녀는 매일 신선한 과일과 채소를 많이 먹습니다. 우리는 주치의 선생님이 친절하게 진료해 주시는 보건소 근처에 살아서 운이 좋습니다.</p>
-<hr>
-<h2>8. Diálogo</h2>
-<h3>En el médico (의사 진찰)</h3>
+<hr />
+<h2 id="8-dialogo">8. Diálogo</h2>
+<h3 id="en-el-medico">En el médico (의사 진찰)</h3>
 <p><strong>Situación:</strong> Pedro visita al doctor en un Centro de Salud en Madrid porque no se siente bien. El doctor le hace preguntas básicas sobre sus síntomas físicos para diagnosticar su malestar.</p>
 <p><strong>상황:</strong> 페드로는 몸이 좋지 않아 마드리드의 보건소(Centro de Salud)에서 의사 선생님을 만납니다. 의사 선생님은 그의 상태를 진단하기 위해 신체적 증상에 대한 기본적인 질문을 합니다.</p>
 <table class="dialogue-table">
@@ -550,34 +794,35 @@ strong { font-weight: bold; color: var(--spanish-red); }
     </tr>
   </tbody>
 </table>
-<hr>
-<h2>9. Repaso</h2>
+
+<hr />
+<h2 id="9-repaso">9. Repaso</h2>
 <p>이번 장에서 배운 핵심 내용을 확인해보세요.</p>
 <ul>
 <li>[ ] 머리, 눈, 코, 입, 손, 발 등 <strong>17개 신체 부위</strong> 명칭을 외웠나요?</li>
 <li>[ ] <code>tener</code> 동사의 불규칙 변화(<strong>tengo, tienes, tiene, tenemos, tenéis, tienen</strong>)를 정확히 쓸 수 있나요?</li>
 <li>[ ] 어간 모음 변화(<strong>e→ie</strong>) Boot Verb 패턴을 이해하셨나요?</li>
 <li>[ ] '배고프다', '목마르다', '덥다' 등 신체적 상태를 <strong>tener + 명사</strong> 구문으로 표현할 수 있나요?</li>
-<li>[ ] '매우 배고프다' = <em>Tengo <strong>mucha</strong> hambre</em> (muy가 아닌 mucho/a 사용)를 기억하시나요?</li>
+<li>[ ] '매우 배고프다' = <em>Tengo </em><em>mucha</em><em> hambre</em> (muy가 아닌 mucho/a 사용)를 기억하시나요?</li>
 <li>[ ] 스페인의 공공 의료 시스템인 '<strong>Seguridad Social</strong>'의 특징을 이해하셨나요?</li>
 <li>[ ] 보건소(<strong>Centro de Salud</strong>)와 약국(<strong>Farmacia</strong>)의 역할을 알고 계신가요?</li>
 </ul>
-<hr>
-<h2>10. Cierre</h2>
+<hr />
+<h2 id="10-cierre">10. Cierre</h2>
 <p>축하합니다! 🎉 첫 번째 장을 성공적으로 마쳤습니다!</p>
 <p>우리 몸의 소중함을 알고 이를 스페인어로 표현하는 것은 매우 기초적이면서도 중요한 과정입니다. 특히 <strong>tener</strong> 동사는 스페인어에서 가장 빈번하게 등장하는 핵심 동사로, 소유부터 나이, 신체 상태까지 정말 다양한 상황에서 사용됩니다. 지금 배운 <strong>어간 모음 변화(e→ie)</strong> 패턴은 querer, preferir 등 앞으로 만나게 될 수많은 동사에도 동일하게 적용되니, 입에 착 붙을 때까지 반복 연습해보세요.</p>
 <p>다음 장에서는 우리의 <strong>성격과 감정</strong>에 대해 이야기해보겠습니다. ¡Ánimo! (힘내세요!)</p>
-<hr>
-<h2>11. Soluciones</h2>
-<h3>6. Práctica - A. Match the word</h3>
+<hr />
+<h2 id="11-soluciones">11. Soluciones</h2>
+<h3 id="6-practica-a-match-the-word">6. Práctica - A. Match the word</h3>
 <ol>
 <li>1-d, 2-c, 3-a, 4-b, 5-e</li>
 </ol>
-<h3>6. Práctica - B. Fill in the blanks</h3>
+<h3 id="6-practica-b-fill-in-the-blanks">6. Práctica - B. Fill in the blanks</h3>
 <ol>
 <li>tengo, 7. tienes, 8. tenemos, 9. tiene, 10. tenéis</li>
 </ol>
-<h3>6. Práctica - C. 번역 연습</h3>
+<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Tengo sueño., 12. Tenemos sed., 13. ¿Tienes (un) coche?, 14. No tienen hambre., 15. Lucía tiene 19 años.</li>
 </ol>
