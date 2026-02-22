@@ -17,6 +17,8 @@ secrets/
 
 # Build output (regeneratable)
 output/
+!output/a1_textbook.pdf
+!output/a2_textbook.pdf
 
 # Temporary files
 .tmp/
