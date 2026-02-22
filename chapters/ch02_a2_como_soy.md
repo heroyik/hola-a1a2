@@ -182,11 +182,62 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 > [!IMPORTANT]
 > **Korean Tip**: '나는 슬퍼(Estoy triste)'는 현재의 상태지만, **'나는 슬퍼져(Me pongo triste)'**는 감정의 변화 과정을 강조합니다. 재귀동사는 이 '변화'의 느낌을 잘 살려줍니다.
 
-### 과거 시제 (Imperfecto/Participio) 필수 불규칙 동사
+### A. Verbos Regulares (규칙 동사) - 불완전 과거 (Imperfecto)
 
-초급 단계에서 꼭 알아야 할 과거 시제 핵심 불규칙 동사들입니다.
+불완전 과거는 과거의 지속적인 상태나 반복되는 습관을 묘사할 때 사용합니다. 규칙 동사인 **Hablar**, **Comer**, **Vivir**를 통해 어미 변화를 확인해 보세요. -er과 -ir 동사의 어미 변화가 동일하다는 점이 특징입니다.
 
-### 1. 불완전 과거 (Imperfecto) - 딱 3개뿐인 불규칙
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Yo</strong></td>
+      <td>habl<strong>aba</strong></td>
+      <td>com<strong>ía</strong></td>
+      <td>viv<strong>ía</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tú</strong></td>
+      <td>habl<strong>abas</strong></td>
+      <td>com<strong>ías</strong></td>
+      <td>viv<strong>ías</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Él, Ella, Ud.</strong></td>
+      <td>habl<strong>aba</strong></td>
+      <td>com<strong>ía</strong></td>
+      <td>viv<strong>ía</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nosotros/as</strong></td>
+      <td>habl<strong>ábamos</strong></td>
+      <td>com<strong>íamos</strong></td>
+      <td>viv<strong>íamos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Vosotros/as</strong></td>
+      <td>habl<strong>abais</strong></td>
+      <td>com<strong>íais</strong></td>
+      <td>viv<strong>íais</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Ellos, Ellas, Uds.</strong></td>
+      <td>habl<strong>aban</strong></td>
+      <td>com<strong>ían</strong></td>
+      <td>viv<strong>ían</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+### B. Verbos Irregulares (불규칙 동사) - 딱 3개뿐인 불규칙
 
 <div class="table-container">
 <table class="conjugation-table">

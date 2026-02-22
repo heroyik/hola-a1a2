@@ -85,30 +85,64 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 
 과거의 업무 경력을 설명하는 데 필수적인 시제들입니다.
 
-### B. 단순과거 (Indefinido)
+### 1. Verbos Regulares (규칙 동사)
 
-이미 끝난 과거의 행동이나 사건을 나타냅니다.
+단순과거의 규칙 변화입니다. -er과 -ir 그룹의 어미 변화가 동일하다는 점을 눈여겨보세요.
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
-  <thead style="background-color: #f2f2f2;">
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">주어</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Estar (To be)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Poder (Can)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Ser/Ir</th>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td><strong>Yo</strong></td><td>estuve</td><td>pude</td><td>fui</td></tr>
-    <tr><td><strong>Tú</strong></td><td>estuviste</td><td>pudiste</td><td>fuiste</td></tr>
-    <tr><td><strong>Él/Ella/Ud.</strong></td><td>estuvo</td><td>pudo</td><td>fue</td></tr>
-    <tr><td><strong>Nosotros/as</strong></td><td>estuvimos</td><td>pudimos</td><td>fuimos</td></tr>
-    <tr><td><strong>Vosotros/as</strong></td><td>estuvisteis</td><td>pudisteis</td><td>fuisteis</td></tr>
-    <tr><td><strong>Ellos/Ellas/Uds.</strong></td><td>estuvieron</td><td>pudieron</td><td>fueron</td></tr>
+    <tr>
+      <td><strong>Yo</strong></td>
+      <td>habl<strong>é</strong></td>
+      <td>com<strong>í</strong></td>
+      <td>viv<strong>í</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tú</strong></td>
+      <td>habl<strong>aste</strong></td>
+      <td>com<strong>iste</strong></td>
+      <td>viv<strong>iste</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Él, Ella, Ud.</strong></td>
+      <td>habl<strong>ó</strong></td>
+      <td>com<strong>ió</strong></td>
+      <td>viv<strong>ió</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nosotros/as</strong></td>
+      <td>habl<strong>amos</strong></td>
+      <td>com<strong>imos</strong></td>
+      <td>viv<strong>imos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Vosotros/as</strong></td>
+      <td>habl<strong>asteis</strong></td>
+      <td>com<strong>isteis</strong></td>
+      <td>viv<strong>isteis</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Ellos, Ellas, Uds.</strong></td>
+      <td>habl<strong>aron</strong></td>
+      <td>com<strong>ieron</strong></td>
+      <td>viv<strong>ieron</strong></td>
+    </tr>
   </tbody>
 </table>
+</div>
 
-- **기타 주요 불규칙**: **hacer** (hice), **tener** (tuve), **poner** (puse), **querer** (quise), **saber** (supe), **venir** (vine), **decir** (dije), **dar** (di), **haber** (hubo), **ser/ir** (fui).
+### 2. Verbos Irregulares (불규칙 동사)
+
+주요 불규칙 동사들의 변화입니다. 어근 자체가 변하므로 주의 깊게 살펴봐야 합니다.
 
 ### C. Verbos Regulares (Revisión)
 

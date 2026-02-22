@@ -63,7 +63,7 @@ book/
 ## 현재 진행 상태
 
 - [x] **교재 작성 전략 수립 (v5.3)**: 디자인/콘텐츠/실행 전략 정규화 완료 및 전 챕터(1-15) 표준화 완료
-- [x] **Chapter 1-15 (전체)**: v5.2 Deep Dive & Bridge 버전 생성 및 v2.1.2 Gold Standard 표준화(코드 스위칭 수정, 정답지 포맷 통일, 이미지 경로 최적화, **문법 마커(Regular Verbs/Participio) 표준화 및 과거완료(Pluscuamperfecto) 시제 추가**) 완료
+- [x] **Chapter 1-15 (전체)**: v5.2 Deep Dive & Bridge 버전 생성 및 v2.1.2 Gold Standard 표준화(코드 스위칭 수정, 정답지 포맷 통일, 이미지 경로 최적화, **문법 마커(Regular Verbs/Participio) 표준화, 전 시제 규칙 동사(-ar, -er, -ir) 변화표 삽입, 과거완료(Pluscuamperfecto) 시제 추가**) 완료
 - [x] **Chapter 1-15 이미지 추가**: Nanobanana 일러스트 적용 (v10 방식) 완료
 - [x] **전체 Nanobanana 프롬프트 자동화 생성**: 모든 챕터에 대해 현대 애니메이션 스타일(Modern Anime Style)과 객체 1:1 매핑 정보를 담은 프롬프트 생성 완료
 

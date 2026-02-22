@@ -105,23 +105,52 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 #### 1. 긍정 명령 (Imperativo Afirmativo)
 
-상대방에게 무언가를 하라고 지시하거나 제안할 때 사용합니다. 일상에서 가장 많이 쓰이는 **tú(너)**에 대한 긍정 명령은 매우 간단합니다. **현재 시제 3인칭 단수(él/ella)** 형태와 똑같이 생겼습니다.
+상대방에게 무언가를 하라고 지시하거나 제안할 때 사용합니다.
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
-  <thead style="background-color: #f2f2f2;">
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">동사 (Verb)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Tú (너) 긍정 명령</strong></th>
-      <th style="padding: 10px; border: 1px solid #ddd;">English Mapping</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">예문</th>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td><strong>Hablar</strong> (말하다)</td><td><strong>Habla</strong></td><td>Speak</td><td>¡<strong>Habla</strong> más alto! (더 크게 말해!)</td></tr>
-    <tr><td><strong>Comer</strong> (먹다)</td><td><strong>Come</strong></td><td>Eat</td><td>¡<strong>Come</strong> sano! (건강하게 먹어!)</td></tr>
-    <tr><td><strong>Vivir</strong> (살다)</td><td><strong>Vive</strong></td><td>Live</td><td>¡<strong>Vive</strong> el momento! (현재를 살아라!)</td></tr>
+    <tr>
+      <td><strong>(tú)</strong></td>
+      <td>habl<strong>a</strong></td>
+      <td>com<strong>e</strong></td>
+      <td>viv<strong>e</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(usted)</strong></td>
+      <td>habl<strong>e</strong></td>
+      <td>com<strong>a</strong></td>
+      <td>viv<strong>a</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(nosotros/as)</strong></td>
+      <td>habl<strong>emos</strong></td>
+      <td>com<strong>amos</strong></td>
+      <td>viv<strong>amos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(vosotros/as)</strong></td>
+      <td>habl<strong>ad</strong></td>
+      <td>com<strong>ed</strong></td>
+      <td>viv<strong>id</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(ustedes)</strong></td>
+      <td>habl<strong>en</strong></td>
+      <td>com<strong>an</strong></td>
+      <td>viv<strong>an</strong></td>
+    </tr>
   </tbody>
 </table>
+</div>
 
 **💡 필수 불규칙 긍정 명령 (Tú):**
 
@@ -130,23 +159,52 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 #### 2. 부정 명령 (Imperativo Negativo)
 
-"~하지 마"라고 금지하거나 만류할 때 사용합니다. 스페인어의 부정 명령은 단순히 'No'만 붙이는 것이 아니라, **동사의 어미가 교차** 변형(접속법 현재 형태)되어야 합니다.
+"~하지 마"라고 금지하거나 만류할 때 사용합니다. 동사의 어미가 교차 변형(접속법 현재 형태)됩니다.
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
-  <thead style="background-color: #f2f2f2;">
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">동사 (Verb)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;"><strong>Tú (너) 부정 명령</strong></th>
-      <th style="padding: 10px; border: 1px solid #ddd;">규칙 (어미 교차)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">예문</th>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td><strong>Hablar</strong></td><td><strong>No hables</strong></td><td>-ar → <strong>-es</strong></td><td>¡<strong>No hables</strong> así! (그렇게 말하지 마!)</td></tr>
-    <tr><td><strong>Comer</strong></td><td><strong>No comas</strong></td><td>-er → <strong>-as</strong></td><td>¡<strong>No comas</strong> en clase! (수업 중에 먹지 마!)</td></tr>
-    <tr><td><strong>Escribir</strong></td><td><strong>No escribas</strong></td><td>-ir → <strong>-as</strong></td><td>¡<strong>No escribas</strong> en la pared! (벽에 쓰지 마!)</td></tr>
+    <tr>
+      <td><strong>(tú)</strong></td>
+      <td>no habl<strong>es</strong></td>
+      <td>no com<strong>as</strong></td>
+      <td>no viv<strong>as</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(usted)</strong></td>
+      <td>no habl<strong>e</strong></td>
+      <td>no com<strong>a</strong></td>
+      <td>no viv<strong>a</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(nosotros/as)</strong></td>
+      <td>no habl<strong>emos</strong></td>
+      <td>no com<strong>amos</strong></td>
+      <td>no viv<strong>amos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(vosotros/as)</strong></td>
+      <td>no habl<strong>éis</strong></td>
+      <td>no com<strong>áis</strong></td>
+      <td>no viv<strong>áis</strong></td>
+    </tr>
+    <tr>
+      <td><strong>(ustedes)</strong></td>
+      <td>no habl<strong>en</strong></td>
+      <td>no com<strong>an</strong></td>
+      <td>no viv<strong>an</strong></td>
+    </tr>
   </tbody>
 </table>
+</div>
 
 **💡 필수 불규칙 부정 명령 (Tú):**
 

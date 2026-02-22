@@ -79,25 +79,34 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 ### 완료 과거 (Pretérito Perfecto)
 
 현재와 가까운 과거 혹은 시점이 정해지지 않은 경험을 말할 때 씁니다. (영어의 `Present Perfect`와 유사)
-**구조: Haber 동사의 현재형 + 과거분사(-ado / -ido)**
 
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
-  <thead style="background-color: #f2f2f2;">
+#### 구조: Haber 동사의 현재형 + 과거분사(Participio)
+
+#### 과거분사(Participio) 만드는 법
+
+- **-ar** 동사 → 어미를 **-ado**로 변경 (예: Hablar → habl**ado**)
+- **-er** 동사 → 어미를 **-ido**로 변경 (예: Comer → com**ido**)
+- **-ir** 동사 → 어미를 **-ido**로 변경 (예: Vivir → viv**ido**)
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">Subject</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Haber</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Participio (viajar / comer)</th>
+      <th>Subject</th>
+      <th>Haber</th>
+      <th>Participio (hablado / comido / vivido)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>yo</td><td><strong>he</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
-    <tr><td>tú</td><td><strong>has</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
-    <tr><td>él/ella/ud.</td><td><strong>ha</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
-    <tr><td>nosotros/as</td><td><strong>hemos</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
-    <tr><td>vosotros/as</td><td><strong>habéis</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
-    <tr><td>ellos/ellas/uds.</td><td><strong>han</strong></td><td>viaj<strong>ado</strong> / com<strong>ido</strong></td></tr>
+    <tr><td>yo</td><td><strong>he</strong></td><td>habl<strong>ado</strong> / com<strong>ido</strong> / viv<strong>ido</strong></td></tr>
+    <tr><td>tú</td><td><strong>has</strong></td><td>habl<strong>ado</strong> / com<strong>ido</strong> / viv<strong>ido</strong></td></tr>
+    <tr><td>él/ella/ud.</td><td><strong>ha</strong></td><td>habl<strong>ado</strong> / com<strong>ido</strong> / viv<strong>ido</strong></td></tr>
+    <tr><td>nosotros/as</td><td><strong>hemos</strong></td><td>habl<strong>ado</strong> / com<strong>ido</strong> / viv<strong>ido</strong></td></tr>
+    <tr><td>vosotros/as</td><td><strong>habéis</strong></td><td>habl<strong>ado</strong> / com<strong>ido</strong> / viv<strong>ido</strong></td></tr>
+    <tr><td>ellos/ellas/uds.</td><td><strong>han</strong></td><td>habl<strong>ado</strong> / com<strong>ido</strong> / viv<strong>ido</strong></td></tr>
   </tbody>
 </table>
+</div>
 
 **Irregulares (과거분사 불규칙):**
 여행 중 자주 쓰는 불규칙 과거분사들입니다.

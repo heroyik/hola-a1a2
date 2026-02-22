@@ -83,26 +83,63 @@
 - **Yo soy profesor.** (나는 선생님이다.)
 - **Ella es ingeniera.** (그녀는 엔지니어이다.)
 
-### B. Trabajar (일하다) - 현재형 (Presente)
+### B. Verbos Regulares (규칙 동사) - 현재형 (Presente)
 
-'trabajar'는 전형적인 -ar 규칙 동사입니다.
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
-  <thead style="background-color: #f2f2f2;">
+스페인어 동사는 어미에 따라 세 가지 그룹(-ar, -er, -ir)으로 나뉩니다. 각 그룹의 대표적인 규칙 동사인 **Hablar**(말하다), **Comer**(먹다), **Vivir**(살다)의 변화를 통해 규칙을 익혀봅시다.
+
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Trabajar</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to work)</th>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td><strong>Yo</strong></td><td>trabaj<strong>o</strong></td><td>I work</td></tr>
-    <tr><td><strong>Tú</strong></td><td>trabaj<strong>as</strong></td><td>You work</td></tr>
-    <tr><td><strong>Él, Ella, Ud.</strong></td><td>trabaj<strong>a</strong></td><td>He, She, You work</td></tr>
-    <tr><td><strong>Nosotros</strong></td><td>trabaj<strong>amos</strong></td><td>We work</td></tr>
-    <tr><td><strong>Vosotros</strong></td><td>trabaj<strong>áis</strong></td><td>You all work</td></tr>
-    <tr><td><strong>Ellos, Ellas, Uds.</strong></td><td>trabaj<strong>an</strong></td><td>They, You all work</td></tr>
+    <tr>
+      <td><strong>Yo</strong></td>
+      <td>habl<strong>o</strong></td>
+      <td>com<strong>o</strong></td>
+      <td>viv<strong>o</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tú</strong></td>
+      <td>habl<strong>as</strong></td>
+      <td>com<strong>es</strong></td>
+      <td>viv<strong>es</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Él, Ella, Ud.</strong></td>
+      <td>habl<strong>a</strong></td>
+      <td>com<strong>e</strong></td>
+      <td>viv<strong>e</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nosotros/as</strong></td>
+      <td>habl<strong>amos</strong></td>
+      <td>com<strong>emos</strong></td>
+      <td>viv<strong>imos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Vosotros/as</strong></td>
+      <td>habl<strong>áis</strong></td>
+      <td>com<strong>éis</strong></td>
+      <td>viv<strong>ís</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Ellos, Ellas, Uds.</strong></td>
+      <td>habl<strong>an</strong></td>
+      <td>com<strong>en</strong></td>
+      <td>viv<strong>en</strong></td>
+    </tr>
   </tbody>
 </table>
+</div>
+
+> [!NOTE]
+> 'Trabajar(일하다)' 역시 전형적인 -ar 규칙 동사로, 위의 **Hablar**와 동일한 어미 변화(o, as, a, amos, áis, an)를 따릅니다.
 
 ### 💡 English Bridge: Stem & Ending
 
