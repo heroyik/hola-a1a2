@@ -1,0 +1,14 @@
+@page {
+  size: A4;
+  margin: 2cm;
+}
+
+.chapter-break {
+  page-break-before: always !important;
+}
+
+@media print {
+  .chapter-break {
+    page-break-before: always !important;
+  }
+}

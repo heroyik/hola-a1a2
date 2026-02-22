@@ -1,30 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch03_a1_mi_identidad.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1.5pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
 
 :root {
     --spanish-red: #A93226;
@@ -42,36 +22,35 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 40pt 0 15pt 0;
+    margin: 20pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -1pt;
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -80,8 +59,6 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
 }
 
 h2::before {
@@ -94,257 +71,35 @@ h2::before {
     border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 25pt 0 10pt 0;
-    background-color: var(--spanish-ochre-light);
-    padding: 6pt 12pt;
-    border-radius: 5pt;
-    border-left: 4pt solid var(--spanish-ochre);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 20pt 0 8pt 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5pt;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 20pt 25pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-    font-style: italic;
-    color: var(--slate-grey);
-    position: relative;
-}
-
-/* ─── TABLES (HIGH-END DESIGN) ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 20pt 0 25pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 10pt;
-    overflow: hidden;
-    box-shadow: var(--shadow-premium);
-    background-color: var(--bg-white);
-    page-break-inside: avoid;
-}
-
-thead {
-    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
-    color: white;
-}
-
-th {
-    padding: 12pt 15pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2pt;
-    font-size: 8.5pt;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-td {
-    padding: 10pt 15pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    transition: background-color 0.2s ease;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FDFDFD;
-}
-
-tr:hover td {
-    background-color: var(--spanish-ochre-light);
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 5pt 15pt 5pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 8pt;
-    margin-bottom: 20pt;
-    text-align: left;
-    font-style: italic;
-}
-
-em {
-    font-style: italic;
-    color: var(--spanish-red);
-    font-weight: 500;
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-important {
-    background: var(--spanish-ochre-light);
-    border-left: 6pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-.admonition-warning {
-    background: var(--spanish-red-light);
-    border-left: 6pt solid var(--spanish-red);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15pt;
-    margin: 25pt 0;
-    display: block;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-    border: 3pt solid var(--bg-white);
-}
-
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--spanish-ochre);
-    margin: 40pt 150pt;
-    opacity: 0.2;
-}
-
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 12pt 0 18pt 30pt;
-}
-
-li {
-    margin-bottom: 8pt;
-}
-
-li strong {
-    color: var(--slate-grey);
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1.5pt solid var(--spanish-ochre-light);
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: var(--spanish-red);
-}
-
-p {
-    margin: 8pt 0 12pt 0;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-red);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
-.cervantes-ref {
-    font-size: 10pt;
-    color: var(--text-light);
-    margin: 10pt 0 25pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 2pt solid var(--border-color);
-    padding-left: 10pt;
-}
-
-@media print {
-    body {
-        background-color: white;
-    }
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    hr {
-        margin: 40pt 100pt;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-3-mi-identidad-a1">Chapter 3: Mi identidad (A1)</h1>
+    <div class="container"><h1>Chapter 3: Mi identidad (A1)</h1>
 <p class="cervantes-ref">Cervantes: §1 Identidad: 데이터 수집 및 신분 확인을 위한 기본 정보 (이름, 나이, 국적, 직업, 주소 및 주요 신분 증명 서류)</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>¿Quién eres tú? (당신은 누구인가요?)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>¿Quién eres tú? (당신은 누구인가요?)</strong><br>
 언어를 배우는 첫걸음은 나 자신을 정의하는 정보를 표현하는 것입니다. 이름, 국적, 나이, 그리고 우리가 누구인지 증명하는 서류들에 대해 배웁니다. 스페인어권 국가에서 가장 중요한 신분증인 'DNI'에 대해서도 알아봅시다.</p>
-<h3 id="_1">학습 목표</h3>
+<h3>학습 목표</h3>
 <ul>
 <li>개인 정보(이름, 국적, 직업 등) 관련 필수 어휘 10개 습득</li>
 <li>숫자(1-100) 표현 익히기</li>
@@ -352,108 +107,114 @@ h3:has(+ ol) {
 <li>국적 형용사의 성수 변화 이해</li>
 <li>스페인의 신분증(DNI) 문화 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인에서는 만 14세 이상의 모든 국민이 'DNI(Documento Nacional de Identidad)'를 반드시 휴대해야 합니다. 이는 단순한 신분증 이상의 의미를 지니며, 모든 행정 절차의 핵심이 됩니다.</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>개인 정보를 나타내는 핵심 서류와 항목들입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img alt="Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)" src="../images/ch03_a1_vocab_identity_v10.png" /></p>
+<p><img src="../images/ch03_a1_vocab_identity_v10.png" alt="Mi Identidad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">번호</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:center">번호</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">el DNI / el carné</td>
-<td style="text-align: left;">ID Card</td>
-<td style="text-align: left;">신분증 (스페인)</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">el DNI / el carné</td>
+<td style="text-align:left">ID Card</td>
+<td style="text-align:left">신분증 (스페인)</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">el pasaporte</td>
-<td style="text-align: left;">Passport ✅</td>
-<td style="text-align: left;">완벽한 인지어</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">el pasaporte</td>
+<td style="text-align:left">Passport ✅</td>
+<td style="text-align:left">완벽한 인지어</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">el carné de conducir</td>
-<td style="text-align: left;">License (Conducting)</td>
-<td style="text-align: left;">운전면허증</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">el carné de conducir</td>
+<td style="text-align:left">License (Conducting)</td>
+<td style="text-align:left">운전면허증</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">el carné de estudiante</td>
-<td style="text-align: left;">Student ID</td>
-<td style="text-align: left;">학생증</td>
+<td style="text-align:center">4</td>
+<td style="text-align:left">el carné de estudiante</td>
+<td style="text-align:left">Student ID</td>
+<td style="text-align:left">학생증</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">el certificado</td>
-<td style="text-align: left;">Certificate ✅</td>
-<td style="text-align: left;">증명서</td>
+<td style="text-align:center">5</td>
+<td style="text-align:left">el certificado</td>
+<td style="text-align:left">Certificate ✅</td>
+<td style="text-align:left">증명서</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">la firma</td>
-<td style="text-align: left;">Firm (Confirmation)</td>
-<td style="text-align: left;">서명 / 사인</td>
+<td style="text-align:center">6</td>
+<td style="text-align:left">la firma</td>
+<td style="text-align:left">Firm (Confirmation)</td>
+<td style="text-align:left">서명 / 사인</td>
 </tr>
 <tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">la dirección</td>
-<td style="text-align: left;">Direction → Address ✅</td>
-<td style="text-align: left;">주소</td>
+<td style="text-align:center">7</td>
+<td style="text-align:left">la dirección</td>
+<td style="text-align:left">Direction → Address ✅</td>
+<td style="text-align:left">주소</td>
 </tr>
 <tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">la fecha de nacimiento</td>
-<td style="text-align: left;">Date of Birth</td>
-<td style="text-align: left;">태어난 날짜</td>
+<td style="text-align:center">8</td>
+<td style="text-align:left">la fecha de nacimiento</td>
+<td style="text-align:left">Date of Birth</td>
+<td style="text-align:left">태어난 날짜</td>
 </tr>
 <tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">la nacionalidad</td>
-<td style="text-align: left;">Nationality ✅</td>
-<td style="text-align: left;">국적</td>
+<td style="text-align:center">9</td>
+<td style="text-align:left">la nacionalidad</td>
+<td style="text-align:left">Nationality ✅</td>
+<td style="text-align:left">국적</td>
 </tr>
 <tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">la profesión</td>
-<td style="text-align: left;">Profession ✅</td>
-<td style="text-align: left;">직업</td>
+<td style="text-align:center">10</td>
+<td style="text-align:left">la profesión</td>
+<td style="text-align:left">Profession ✅</td>
+<td style="text-align:left">직업</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>나의 데이터를 말하거나 타인에게 질문할 때 꼭 필요한 표현입니다.</p>
-<h3 id="a">A. 개인 정보 묻고 답하기</h3>
+<h3>A. 개인 정보 묻고 답하기</h3>
 <ul>
 <li><strong>¿Cómo te llamas?</strong> (What is your name? / 이름이 뭐니?)</li>
-<li><strong>Me llamo Jin.</strong> (My name is Jin. / 내 이름은 진이야.)</li>
-<li>💡 <strong>English Bridge</strong>: "Llamarse" literally means "to call oneself" — <em>Me llamo</em> = "I call myself"</li>
-<li><strong>¿Cuántos años tienes?</strong> (How old are you? / 몇 살이니?)</li>
-<li><strong>Tengo veinte años.</strong> (I am twenty years old. / 나는 스무 살이야.)</li>
-<li>💡 <strong>English Bridge</strong>: Spanish uses "I <strong>have</strong> 20 years" instead of "I <strong>am</strong> 20 years old"</li>
+<li><strong>Me llamo Jin.</strong> (My name is Jin. / 내 이름은 진이야.)
+<ul>
+<li>💡 <strong>English Bridge</strong>: &quot;Llamarse&quot; literally means &quot;to call oneself&quot; — <em>Me llamo</em> = &quot;I call myself&quot;</li>
 </ul>
-<h3 id="b">B. 출신과 직업</h3>
+</li>
+<li><strong>¿Cuántos años tienes?</strong> (How old are you? / 몇 살이니?)</li>
+<li><strong>Tengo veinte años.</strong> (I am twenty years old. / 나는 스무 살이야.)
+<ul>
+<li>💡 <strong>English Bridge</strong>: Spanish uses &quot;I <strong>have</strong> 20 years&quot; instead of &quot;I <strong>am</strong> 20 years old&quot;</li>
+</ul>
+</li>
+</ul>
+<h3>B. 출신과 직업</h3>
 <ul>
 <li><strong>¿De dónde eres?</strong> (Where are you from? / 어디 출신이니?)</li>
 <li><strong>Soy coreano / coreana.</strong> (I am Korean. / 나는 한국 사람이야.)</li>
 <li><strong>Mi dirección es...</strong> (My address is... / 제 주소는...입니다.)</li>
 </ul>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
-<h3 id="1-tener">1. Tener 동사 복습 (가지다 / 나이를 말하다)</h3>
-<p>스페인어에서는 나이를 영어처럼 "am"이 아닌 "have"로 표현합니다. Ch.1에서 배운 <code>tener</code>를 정체성 표현에 활용합니다.</p>
-<p><strong>English Bridge</strong>: "I <strong>have</strong> 20 years" (Tengo 20 años) vs. English "I <strong>am</strong> 20 years old" — Spanish treats age as something you <strong>possess</strong>.</p>
+<hr>
+<h2>4. Gramática Esencial</h2>
+<h3>1. Tener 동사 복습 (가지다 / 나이를 말하다)</h3>
+<p>스페인어에서는 나이를 영어처럼 &quot;am&quot;이 아닌 &quot;have&quot;로 표현합니다. Ch.1에서 배운 <code>tener</code>를 정체성 표현에 활용합니다.</p>
+<p><strong>English Bridge</strong>: &quot;I <strong>have</strong> 20 years&quot; (Tengo 20 años) vs. English &quot;I <strong>am</strong> 20 years old&quot; — Spanish treats age as something you <strong>possess</strong>.</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -497,11 +258,10 @@ h3:has(+ ol) {
   </tbody>
 </table>
 </div>
-
-<h3 id="b-serestar">B. Ser/Estar 동사 복습 (이다 / 있다)</h3>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
-<strong>English Bridge Tip</strong>: Both <code>ser</code> and <code>estar</code> mean "to be." Think of <code>ser</code> as "What is it?" (permanent) and <code>estar</code> as "How/Where is it?" (temporary).</div>
-<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3>B. Ser/Estar 동사 복습 (이다 / 있다)</h3>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<strong>English Bridge Tip</strong>: Both <code>ser</code> and <code>estar</code> mean &quot;to be.&quot; Think of <code>ser</code> as &quot;What is it?&quot; (permanent) and <code>estar</code> as &quot;How/Where is it?&quot; (temporary).</div>
+<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -513,80 +273,80 @@ h3:has(+ ol) {
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3 id="d-verbos-regulares-revision">D. Verbos Regulares (Revisión)</h3>
+<h3>D. Verbos Regulares (Revisión)</h3>
 <p>스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:</p>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr />
-<h3 id="2-nacionalidades">2. 국적 형용사의 성수 변화 (Nacionalidades)</h3>
+<hr>
+<h3>2. 국적 형용사의 성수 변화 (Nacionalidades)</h3>
 <p>국적을 나타내는 형용사는 꾸며주는 주어의 성(남자/여자)과 수(단수/복수)에 따라 바뀝니다.</p>
-<p><strong>English Bridge</strong>: Unlike English where "Korean" stays the same regardless of gender, Spanish nationality adjectives <strong>change endings</strong> to match the subject.</p>
+<p><strong>English Bridge</strong>: Unlike English where &quot;Korean&quot; stays the same regardless of gender, Spanish nationality adjectives <strong>change endings</strong> to match the subject.</p>
 <ul>
 <li><strong>남성(-o) / 여성(-a)</strong>: coreano / core<strong>ana</strong>, español / español<strong>a</strong></li>
 <li><strong>자음으로 끝나는 경우</strong>: alemán / aleman<strong>a</strong>, francés / frances<strong>a</strong></li>
 <li><strong>-e나 -ista로 끝나는 경우 (성 변화 없음)</strong>: estadounidense, belga, optimista</li>
 </ul>
-<hr />
-<h2 id="5-cultura-viva-el-dni-en-espana">5. Cultura Viva: El DNI en España 🪪</h2>
-<p><img alt="DNI en España" src="../images/ch03_a1_culture_dni_v10.png" /></p>
+<hr>
+<h2>5. Cultura Viva: El DNI en España 🪪</h2>
+<p><img src="../images/ch03_a1_culture_dni_v10.png" alt="DNI en España"></p>
 <p>스페인 사람들에게 없어서는 안 될 가장 중요한 카드, DNI를 알아봅시다.</p>
-<h3 id="mucho-mas-que-un-plastico">Mucho más que un plástico</h3>
+<h3>Mucho más que un plástico</h3>
 <p>El DNI (Documento Nacional de Identidad) es la tarjeta más importante para un español. Es un documento inteligente que contiene un chip con todos los datos personales y la firma digital. En España, es obligatorio para todos los ciudadanos mayores de 14 años. Lo necesitas para todo: abrir una cuenta en el banco, entrar a un examen en la universidad, recoger un paquete en correos o viajar por los países de la Unión Europea sin necesidad de pasaporte.</p>
-<p>La policía nacional es la encargada de emitir este documento. Cada DNI tiene un número único de ocho cifras y una letra al final. Este número es para toda la vida. Por eso, cuando te preguntan "¿Cuál es tu número?", normalmente se refieren al número de tu DNI.</p>
-<p><strong>[한국어 번역]</strong><br />
+<p>La policía nacional es la encargada de emitir este documento. Cada DNI tiene un número único de ocho cifras y una letra al final. Este número es para toda la vida. Por eso, cuando te preguntan &quot;¿Cuál es tu número?&quot;, normalmente se refieren al número de tu DNI.</p>
+<p><strong>[한국어 번역]</strong><br>
 DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다. 모든 개인 정보와 디지털 서명이 담긴 칩이 포함된 스마트 카드입니다. 스페인에서는 14세 이상의 모든 시민이 의무적으로 소지해야 합니다. 은행 계좌를 개설하거나, 대학교 시험을 치르거나, 우체국에서 택배를 찾거나, 여권 없이 유럽 연합(EU) 국가를 여행할 때 반드시 필요합니다.</p>
-<p>국가 경찰이 이 서류를 발급하는 책임을 집니다. 각 DNI에는 8자리 숫자와 마지막에 한 글자의 알파벳으로 구성된 고유 번호가 있습니다. 이 번호는 평생 변하지 않습니다. 그래서 누군가 "¿Cuál es tu número?(당신의 번호가 무엇입니까?)"라고 묻는다면, 보통은 당신의 DNI 번호를 의미합니다.</p>
-<p><img alt="스페인의 DNI(국가 신분증) 카드와 칩 기반 인증 시스템" src="../images/ch03_a1_culture_dni_v10.png" /></p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<h3 id="a-completa-con-la-forma-correcta-de-tener-tener">A. Completa con la forma correcta de 'Tener' (Tener 동사를 알맞게 변화시키세요)</h3>
+<p>국가 경찰이 이 서류를 발급하는 책임을 집니다. 각 DNI에는 8자리 숫자와 마지막에 한 글자의 알파벳으로 구성된 고유 번호가 있습니다. 이 번호는 평생 변하지 않습니다. 그래서 누군가 &quot;¿Cuál es tu número?(당신의 번호가 무엇입니까?)&quot;라고 묻는다면, 보통은 당신의 DNI 번호를 의미합니다.</p>
+<p><img src="../images/ch03_a1_culture_dni_v10.png" alt="스페인의 DNI(국가 신분증) 카드와 칩 기반 인증 시스템"></p>
+<hr>
+<h2>6. Práctica</h2>
+<h3>A. Completa con la forma correcta de 'Tener' (Tener 동사를 알맞게 변화시키세요)</h3>
 <ol>
-<li>Yo <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ veinticinco años.</li>
-<li>Juan y Ana <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ un pasaporte nuevo.</li>
-<li>¿Cuántos años <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ tú?</li>
-<li>Nosotros <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ clase de español hoy.</li>
-<li>Usted <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ una firma muy bonita.</li>
+<li>Yo ______________________ veinticinco años.</li>
+<li>Juan y Ana ______________________ un pasaporte nuevo.</li>
+<li>¿Cuántos años ______________________ tú?</li>
+<li>Nosotros ______________________ clase de español hoy.</li>
+<li>Usted ______________________ una firma muy bonita.</li>
 </ol>
-<h3 id="b_1">B. 국적 형용사 바꾸기 (알맞은 성수 변화를 적용하세요)</h3>
+<h3>B. 국적 형용사 바꾸기 (알맞은 성수 변화를 적용하세요)</h3>
 <ol>
-<li>Pablo es (España) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</li>
-<li>Mis amigas son (Corea) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</li>
-<li>Ella es (Francia) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</li>
-<li>Nosotros somos (Alemania) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</li>
-<li>Ellos son (Estados Unidos) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_</li>
+<li>Pablo es (España) ______________________</li>
+<li>Mis amigas son (Corea) ______________________</li>
+<li>Ella es (Francia) ______________________</li>
+<li>Nosotros somos (Alemania) ______________________</li>
+<li>Ellos son (Estados Unidos) ______________________</li>
 </ol>
-<h3 id="c">C. 번역 연습 (스페인어로 옮겨보세요)</h3>
+<h3>C. 번역 연습 (스페인어로 옮겨보세요)</h3>
 <ol>
-<li>내 이름은 마리아이고, 나는 스페인 사람이야.<br />
-   (............................................................)</li>
-<li>친구는 몇 살이니?<br />
-   (............................................................)</li>
-<li>제 주소는 마드리드, 7번가입니다.<br />
-   (............................................................)</li>
-<li>여기 내 신분증(DNI)이 있어.<br />
-   (............................................................)</li>
-<li>우리는 똑똑한 학생(estudiantes)들이야.<br />
-   (............................................................)</li>
+<li>내 이름은 마리아이고, 나는 스페인 사람이야.<br>
+(............................................................)</li>
+<li>친구는 몇 살이니?<br>
+(............................................................)</li>
+<li>제 주소는 마드리드, 7번가입니다.<br>
+(............................................................)</li>
+<li>여기 내 신분증(DNI)이 있어.<br>
+(............................................................)</li>
+<li>우리는 똑똑한 학생(estudiantes)들이야.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
-<h3 id="una-nueva-vida-en-madrid">Una nueva vida en Madrid</h3>
+<hr>
+<h2>7. Lectura 📖</h2>
+<h3>Una nueva vida en Madrid</h3>
 <p>Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estudiar. Tengo veintidós años. En mi mochila siempre llevo mi pasaporte y mi carné de estudiante de la Universidad Complutense. Mi dirección en Madrid es la calle Mayor, número 10. Mi profesión es estudiante de arquitectura. ¡Me encanta mi nueva vida en España!</p>
-<h3 id="preguntas">Preguntas (질문)</h3>
+<h3>Preguntas (질문)</h3>
 <ol>
 <li>¿Cuál es la nacionalidad y la edad de Min-su? (민수의 국적과 나이는?)</li>
 <li>¿Qué lleva siempre en su mochila? (가방 속에 무엇을 가지고 다니나요?)</li>
 <li>¿Cuál es su profesión y su dirección? (직업과 주소는?)</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br />
-<strong>마드리드에서의 새로운 삶</strong><br />
+<p><strong>[한국어 번역]</strong><br>
+<strong>마드리드에서의 새로운 삶</strong><br>
 안녕하세요, 저는 박민수입니다. 서울 출신의 한국인이지만, 지금은 공부를 위해 마드리드에 살고 있습니다. 저는 22살입니다. 제 배낭 속에는 항상 여권과 마드리드 콤플루텐세 대학교 학생증이 들어 있습니다. 마드리드에서의 제 주소는 마요르 거리 10번지입니다. 제 직업은 건축학도입니다. 스페인에서의 제 새로운 삶이 정말 즐겁습니다!</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
-<h3 id="en-la-comisaria">En la comisaría (경찰서에서)</h3>
+<hr>
+<h2>8. Diálogo</h2>
+<h3>En la comisaría (경찰서에서)</h3>
 <p><strong>Situación:</strong> Elena ha perdido su cartera en el parque y va a la comisaría de policía para informar del problema. El oficial de policía le pide sus datos personales para completar el formulario.</p>
 <p><strong>상황:</strong> 엘레나는 공원에서 지갑을 잃어버리고 경찰서에 신고하러 갑니다. 경찰관은 양식을 작성하기 위해 그녀의 개인 정보를 묻습니다.</p>
 <table class="dialogue-table">
@@ -635,9 +395,8 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
     </tr>
   </tbody>
 </table>
-
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
+<hr>
+<h2>9. Repaso</h2>
 <p>이 장에서 배운 내용을 확인해 보세요:</p>
 <ul>
 <li>[ ] 이름, 나이, 주소, 직업을 스페인어로 말할 수 있다.</li>
@@ -646,96 +405,42 @@ DNI(국가 신분증)는 스페인 사람에게 가장 중요한 카드입니다
 <li>[ ] 국적 형용사의 성수 변화(<strong>-o/-a</strong>, 자음 어미, <strong>-e/-ista</strong>)를 이해한다.</li>
 <li>[ ] 스페인 <strong>DNI</strong>의 중요성과 특징을 설명할 수 있다.</li>
 </ul>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Excelente! 🎉 이제 여러분은 스페인어로 자신을 공식적으로 소개하고 필요한 정보를 제공할 수 있는 능력을 갖추었습니다.</p>
-<p>나이는 영어의 "I am..."과 달리 <strong>Tener</strong> 동사를 쓴다는 점을 꼭 기억하세요! 또한 국적 형용사가 주어의 성별에 따라 변한다는 것은 영어에는 없는 스페인어 고유의 특성입니다.</p>
+<p>나이는 영어의 &quot;I am...&quot;과 달리 <strong>Tener</strong> 동사를 쓴다는 점을 꼭 기억하세요! 또한 국적 형용사가 주어의 성별에 따라 변한다는 것은 영어에는 없는 스페인어 고유의 특성입니다.</p>
 <p>다음 장에서는 우리의 사랑하는 '<strong>가족과 친구들</strong>'에 대해 이야기하며 더 풍성한 스페인어 대화를 나눠보겠습니다. ¡Buen trabajo!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<h3 id="6-practica-a-completa-con-la-forma-correcta-de-tener">6. Práctica - A. Completa con la forma correcta de 'Tener'</h3>
-<ol>
-<li>
+<hr>
+<h2>11. Soluciones</h2>
+<h3>6. Práctica - A. Completa con la forma correcta de 'Tener'</h3>
 <ol>
 <li>tengo</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>tienen</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>tienes</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>tenemos</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>tiene</li>
 </ol>
-</li>
-</ol>
-<h3 id="6-practica-b">6. Práctica - B. 국적 형용사 바꾸기</h3>
-<ol>
-<li>
+<h3>6. Práctica - B. 국적 형용사 바꾸기</h3>
 <ol>
 <li>español</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>coreanas</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>francesa</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>alemanes</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>estadounidenses</li>
 </ol>
-</li>
-</ol>
-<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
-<ol>
-<li>
+<h3>6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Me llamo María y soy española.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>¿Cuántos años tiene tu amigo?</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Mi dirección es calle Mayor, número 7, en Madrid.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Aquí está mi DNI.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Somos estudiantes inteligentes.</li>
 </ol>
-</li>
+<h3>7. Lectura - Preguntas</h3>
+<ol>
+<li>Es coreano (de Seúl) y tiene veintidós años. (그는 한국인(서울 출신)이며 22살입니다.)</li>
+<li>Siempre lleva su pasaporte y su carné de estudiante. (항상 여권과 학생증을 가지고 다닙니다.)</li>
+<li>Es estudiante de arquitectura y su dirección es la calle Mayor, número 10. (그는 건축학도이고 그의 주소는 마요르 거리 10번지입니다.)</li>
 </ol>
 </div>
 </body>

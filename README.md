@@ -29,6 +29,10 @@ book/
 - 🖼️ **Visual Mapping**: 모든 어휘가 일러스트 내 스페인어 라벨로 1:1 매핑
 - 🇰🇷 **Korean Tip**: 한국인 학습자를 위한 전용 언어 간섭 해결 팁
 - 🌍 **Cultura Viva**: 스페인 현지의 의료, 식단, 관습 등을 다루는 심층 칼럼
+- **Interactive Design**: Premium landing page for easy access to HTML and PDF versions.
+- **Comprehensive Verb Tables**: Complete regular conjugation tables (-ar, -er, -ir) for all key tenses.
+- **English Bridge Strategy**: Korean-friendly explanations with English-Spanish mapping.
+- **Visual Learning**: Numbered labels, culture-aware modern anime style images.
 
 ## 🛠 Project Infrastructure
 

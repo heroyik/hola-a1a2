@@ -110,8 +110,6 @@ CSS = """
     }
     .chapter-break {
         page-break-before: always;
-        margin-top: 80px;
-        padding-top: 40px;
         border-top: 5px solid var(--spanish-red);
     }
     @media print {
@@ -162,7 +160,7 @@ def process_md(md_text):
     result = subprocess.run(['npx', '-y', 'marked'], input=md_text.encode('utf-8'), stdout=subprocess.PIPE)
     return result.stdout.decode('utf-8')
 
-html_content += "<div class='toc-section chapter-break'>"
+html_content += "<div class='toc-section'>"
 html_content += process_md(toc_hyperlinked)
 html_content += "</div>"
 
@@ -218,7 +216,7 @@ with open(os.path.join(PROJECT_ROOT, "chapters", "01_grammar_analysis_a1.md"), '
     grammar_md = f.read()
 
 grammar_hyperlinked = hyperlink_grammar(grammar_md)
-html_content += "<div class='grammar-section chapter-break'>"
+html_content += "<div class='grammar-section'>"
 html_content += process_md(grammar_hyperlinked)
 html_content += "</div>"
 

@@ -1,30 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch02_a2_como_soy.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1.5pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
 
 :root {
     --spanish-red: #A93226;
@@ -42,36 +22,35 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 40pt 0 15pt 0;
+    margin: 20pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -1pt;
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -80,8 +59,6 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
 }
 
 h2::before {
@@ -94,395 +71,179 @@ h2::before {
     border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 25pt 0 10pt 0;
-    background-color: var(--spanish-ochre-light);
-    padding: 6pt 12pt;
-    border-radius: 5pt;
-    border-left: 4pt solid var(--spanish-ochre);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 20pt 0 8pt 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5pt;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 20pt 25pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-    font-style: italic;
-    color: var(--slate-grey);
-    position: relative;
-}
-
-/* ─── TABLES (HIGH-END DESIGN) ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 20pt 0 25pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 10pt;
-    overflow: hidden;
-    box-shadow: var(--shadow-premium);
-    background-color: var(--bg-white);
-    page-break-inside: avoid;
-}
-
-thead {
-    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
-    color: white;
-}
-
-th {
-    padding: 12pt 15pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2pt;
-    font-size: 8.5pt;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-td {
-    padding: 10pt 15pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    transition: background-color 0.2s ease;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FDFDFD;
-}
-
-tr:hover td {
-    background-color: var(--spanish-ochre-light);
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 5pt 15pt 5pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 8pt;
-    margin-bottom: 20pt;
-    text-align: left;
-    font-style: italic;
-}
-
-em {
-    font-style: italic;
-    color: var(--spanish-red);
-    font-weight: 500;
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-important {
-    background: var(--spanish-ochre-light);
-    border-left: 6pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-.admonition-warning {
-    background: var(--spanish-red-light);
-    border-left: 6pt solid var(--spanish-red);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15pt;
-    margin: 25pt 0;
-    display: block;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-    border: 3pt solid var(--bg-white);
-}
-
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--spanish-ochre);
-    margin: 40pt 150pt;
-    opacity: 0.2;
-}
-
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 12pt 0 18pt 30pt;
-}
-
-li {
-    margin-bottom: 8pt;
-}
-
-li strong {
-    color: var(--slate-grey);
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1.5pt solid var(--spanish-ochre-light);
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: var(--spanish-red);
-}
-
-p {
-    margin: 8pt 0 12pt 0;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-red);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
-.cervantes-ref {
-    font-size: 10pt;
-    color: var(--text-light);
-    margin: 10pt 0 25pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 2pt solid var(--border-color);
-    padding-left: 10pt;
-}
-
-@media print {
-    body {
-        background-color: white;
-    }
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    hr {
-        margin: 40pt 100pt;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-2-como-soy-a2">Chapter 2: ¿Cómo soy? (A2)</h1>
+    <div class="container"><h1>Chapter 2: ¿Cómo soy? (A2)</h1>
 <p class="cervantes-ref">Cervantes: §2 Persona: 심화된 성격 묘사, 일시적/영구적 상태의 구분 및 형용사의 의미 변화</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Más allá de la superficie (표면 그 너머)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Más allá de la superficie (표면 그 너머)</strong><br>
 A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡한 감정 상태와 재귀동사를 활용한 일상적인 심리 변화에 대해 다룹니다. 또한, 같은 형용사라도 Ser와 Estar 중 어느 동사와 결합하느냐에 따라 의미가 어떻게 변하는지 심층적으로 탐구합니다.</p>
-<h3 id="_1">학습 목표</h3>
+<h3>학습 목표</h3>
 <ul>
 <li>복합적인 감정 및 심리 상태를 나타내는 고급 형용사 12개 습득</li>
 <li>재귀동사(Verbos reflexivos)를 활용한 기분과 상태의 변화 표현</li>
 <li>Ser vs Estar 결합에 따른 형용사의 의미 변화(Semantic shifts) 이해</li>
 <li>스페인 디지털 세대의 자아 표현 방식과 SNS 문화 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
-<strong>¿Sabías que...?</strong> 스페인어에서 'Listo'라는 단어는 <strong>'Ser listo'</strong>일 때는 '똑똑하다(Smart)'는 뜻이지만, <strong>'Estar listo'</strong>일 때는 '준비가 되었다(Ready)'는 뜻이 됩니다. 동사 하나로 의미가 완전히 달라지는 스페인어의 묘미를 느껴보세요!</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<strong>¿Sabías que...?</strong> 스페인어에서 'Listo'라는 단어는 **'Ser listo'**일 때는 '똑똑하다(Smart)'는 뜻이지만, **'Estar listo'**일 때는 '준비가 되었다(Ready)'는 뜻이 됩니다. 동사 하나로 의미가 완전히 달라지는 스페인어의 묘미를 느껴보세요!</div>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>더 섬세한 감정의 결을 표현하기 위한 어휘들입니다. 학습의 편의를 위해 두 그룹으로 나누어 제공합니다.</p>
-<h3 id="a-1-emociones-1">A. 감정 표현 1 (Emociones 1)</h3>
+<h3>A. 감정 표현 1 (Emociones 1)</h3>
 <p>삽화의 번호(1~6)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img alt="감정 표현 1 일러스트 — 번호 1~6 라벨 매핑 (Modern Anime Style)" src="../images/ch02_a2_vocab_emociones_part1_v20.png" /></p>
+<p><img src="../images/ch02_a2_vocab_emociones_part1_v20.png" alt="감정 표현 1 일러스트 — 번호 1~6 라벨 매핑 (Modern Anime Style)"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">번호</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:center">번호</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">confundido / -a</td>
-<td style="text-align: left;">Confused ✅</td>
-<td style="text-align: left;">혼란스러운 상태</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">confundido / -a</td>
+<td style="text-align:left">Confused ✅</td>
+<td style="text-align:left">혼란스러운 상태</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">orgulloso / -a</td>
-<td style="text-align: left;">Proud (Proud of self)</td>
-<td style="text-align: left;">자랑스러워하는</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">orgulloso / -a</td>
+<td style="text-align:left">Proud (Proud of self)</td>
+<td style="text-align:left">자랑스러워하는</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">avergonzado / -a</td>
-<td style="text-align: left;">— (Ashamed / Embarrassed)</td>
-<td style="text-align: left;">⚠️ Embarrassed와 소리 비슷하지만 False Friend</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">avergonzado / -a</td>
+<td style="text-align:left">— (Ashamed / Embarrassed)</td>
+<td style="text-align:left">⚠️ Embarrassed와 소리 비슷하지만 False Friend</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">aburrido / -a</td>
-<td style="text-align: left;">Bored</td>
-<td style="text-align: left;">Ser/Estar 의미 변화 주의</td>
+<td style="text-align:center">4</td>
+<td style="text-align:left">aburrido / -a</td>
+<td style="text-align:left">Bored</td>
+<td style="text-align:left">Ser/Estar 의미 변화 주의</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">preocupado / -a</td>
-<td style="text-align: left;">Preoccupied → Worried ✅</td>
-<td style="text-align: left;">걱정에 사로잡힌 상태</td>
+<td style="text-align:center">5</td>
+<td style="text-align:left">preocupado / -a</td>
+<td style="text-align:left">Preoccupied → Worried ✅</td>
+<td style="text-align:left">걱정에 사로잡힌 상태</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">sorprendido / -a</td>
-<td style="text-align: left;">Surprised ✅</td>
-<td style="text-align: left;">놀란 상태</td>
+<td style="text-align:center">6</td>
+<td style="text-align:left">sorprendido / -a</td>
+<td style="text-align:left">Surprised ✅</td>
+<td style="text-align:left">놀란 상태</td>
 </tr>
 </tbody>
 </table>
-<h3 id="b-2-emociones-2">B. 감정 표현 2 (Emociones 2)</h3>
+<h3>B. 감정 표현 2 (Emociones 2)</h3>
 <p>삽화의 번호(1~6)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img alt="감정 표현 2 일러스트 — 번호 1~6 라벨 매핑 (Modern Anime Style)" src="../images/ch02_a2_vocab_emociones_part2_v20.png" /></p>
+<p><img src="../images/ch02_a2_vocab_emociones_part2_v20.png" alt="감정 표현 2 일러스트 — 번호 1~6 라벨 매핑 (Modern Anime Style)"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">번호</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:center">번호</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">enfadado / -a</td>
-<td style="text-align: left;">— (Angry / Mad)</td>
-<td style="text-align: left;">화난 상태</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">enfadado / -a</td>
+<td style="text-align:left">— (Angry / Mad)</td>
+<td style="text-align:left">화난 상태</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">celoso / -a</td>
-<td style="text-align: left;">Jealous ✅</td>
-<td style="text-align: left;">질투하는</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">celoso / -a</td>
+<td style="text-align:left">Jealous ✅</td>
+<td style="text-align:left">질투하는</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">esperanzado / -a</td>
-<td style="text-align: left;">Hope (Esperanza) → Hopeful</td>
-<td style="text-align: left;">희망에 가득 찬</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">esperanzado / -a</td>
+<td style="text-align:left">Hope (Esperanza) → Hopeful</td>
+<td style="text-align:left">희망에 가득 찬</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">agotado / -a</td>
-<td style="text-align: left;">Exhausted</td>
-<td style="text-align: left;">에너지가 고갈(exhaust)된</td>
+<td style="text-align:center">4</td>
+<td style="text-align:left">agotado / -a</td>
+<td style="text-align:left">Exhausted</td>
+<td style="text-align:left">에너지가 고갈(exhaust)된</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">asustado / -a</td>
-<td style="text-align: left;">— (Scared / Frightened)</td>
-<td style="text-align: left;">겁먹은 상태</td>
+<td style="text-align:center">5</td>
+<td style="text-align:left">asustado / -a</td>
+<td style="text-align:left">— (Scared / Frightened)</td>
+<td style="text-align:left">겁먹은 상태</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">tranquilo / -a</td>
-<td style="text-align: left;">Tranquil ✅</td>
-<td style="text-align: left;">차분하고 평온한</td>
+<td style="text-align:center">6</td>
+<td style="text-align:left">tranquilo / -a</td>
+<td style="text-align:left">Tranquil ✅</td>
+<td style="text-align:left">차분하고 평온한</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 거의 동일하거나 어원이 같아 기억하기 쉬운 어휘입니다. ⚠️ 표시는 주의가 필요한 False Friend입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>감정의 변화와 심화된 묘사를 위한 표현들입니다.</p>
-<h3 id="a-estar">A. 감정 상태 표현 (Estar + 형용사)</h3>
+<h3>A. 감정 상태 표현 (Estar + 형용사)</h3>
 <ul>
 <li><strong>Me siento un poco confundido.</strong> (I feel a bit confused. / 조금 혼란스러워요.)</li>
 <li><strong>Estoy orgulloso de ti.</strong> (I am proud of you. / 네가 자랑스러워.)</li>
-<li><strong>¿Estás enfadado conmigo?</strong> (Are you mad at me? / 나한테 화났니?)</li>
-<li>💡 <strong>English Bridge</strong>: "Enfadado" doesn't look like any English word, but pairs with preposition "con" (with) just like English "angry <strong>with</strong> me"</li>
-</ul>
-<h3 id="b">B. 감정 변화 표현 (재귀동사)</h3>
+<li><strong>¿Estás enfadado conmigo?</strong> (Are you mad at me? / 나한테 화났니?)
 <ul>
-<li><strong>¡No te preocupes!</strong> (Don't worry! / 걱정하지 마세요!)</li>
-<li>💡 <strong>English Bridge</strong>: Compare "preocuparse" (to worry) with English "pre-occupy" — your mind is <em>occupied in advance</em>!</li>
+<li>💡 <strong>English Bridge</strong>: &quot;Enfadado&quot; doesn't look like any English word, but pairs with preposition &quot;con&quot; (with) just like English &quot;angry <strong>with</strong> me&quot;</li>
+</ul>
+</li>
+</ul>
+<h3>B. 감정 변화 표현 (재귀동사)</h3>
+<ul>
+<li><strong>¡No te preocupes!</strong> (Don't worry! / 걱정하지 마세요!)
+<ul>
+<li>💡 <strong>English Bridge</strong>: Compare &quot;preocuparse&quot; (to worry) with English &quot;pre-occupy&quot; — your mind is <em>occupied in advance</em>!</li>
+</ul>
+</li>
 <li><strong>Me pongo nervioso antes de un examen.</strong> (I get nervous before an exam. / 나는 시험 전에 긴장하게 돼.)</li>
 </ul>
-<h3 id="c-ser-vs-estar">C. Ser vs Estar 의미 변화 체험</h3>
+<h3>C. Ser vs Estar 의미 변화 체험</h3>
 <ul>
 <li><strong>Él es muy listo.</strong> (He is very smart. / 그는 정말 똑똑해.) — Ser = 성격</li>
 <li><strong>¿Estás listo para salir?</strong> (Are you ready to go out? / 나갈 준비 됐니?) — Estar = 상태</li>
 </ul>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
-<h3 id="1-ser-vs-estar-adjective">1. 동사 결합에 따른 의미 변화 (Ser vs. Estar + Adjective)</h3>
+<hr>
+<h2>4. Gramática Esencial</h2>
+<h3>1. 동사 결합에 따른 의미 변화 (Ser vs. Estar + Adjective)</h3>
 <p><strong>English Bridge</strong>: In English, context determines meaning naturally. In Spanish, the <strong>choice of verb</strong> changes meaning explicitly. This is one of the most unique aspects of Spanish!</p>
 <div class="table-container">
 <table class="conjugation-table">
@@ -522,10 +283,9 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
   </tbody>
 </table>
 </div>
-
-<h3 id="2-verbos-reflexivos">2. 재귀동사 (Verbos Reflexivos): 기분의 변화</h3>
+<h3>2. 재귀동사 (Verbos Reflexivos): 기분의 변화</h3>
 <p>주어의 행동이 다시 주어 자신에게 돌아오는 재귀동사는 '기분이나 상태의 변화'를 나타낼 때 자주 쓰입니다.</p>
-<p><strong>English Bridge</strong>: Reflexive verbs are like saying "I <em>myself</em> feel..." — the action reflects back to the subject. English uses "myself/yourself" sparingly, but Spanish uses reflexive pronouns <strong>constantly</strong> for emotional changes.</p>
+<p><strong>English Bridge</strong>: Reflexive verbs are like saying &quot;I <em>myself</em> feel...&quot; — the action reflects back to the subject. English uses &quot;myself/yourself&quot; sparingly, but Spanish uses reflexive pronouns <strong>constantly</strong> for emotional changes.</p>
 <p><strong>재귀대명사</strong>: me, te, se, nos, os, se</p>
 <div class="table-container">
 <table class="conjugation-table">
@@ -570,15 +330,64 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
   </tbody>
 </table>
 </div>
-
 <blockquote>
-<p>💡 <strong>Stem change</strong>: <code>sentirse</code> follows the <strong>e→ie</strong> pattern (Boot Verb), <code>ponerse</code> has the special yo form with -g- insertion (like tener→te<strong>ng</strong>o).<br />
-[!IMPORTANT]<br />
-<strong>Korean Tip</strong>: '나는 슬퍼(Estoy triste)'는 현재의 상태지만, <strong>'나는 슬퍼져(Me pongo triste)'</strong>는 감정의 변화 과정을 강조합니다. 재귀동사는 이 '변화'의 느낌을 잘 살려줍니다.</p>
+<p>💡 <strong>Stem change</strong>: <code>sentirse</code> follows the <strong>e→ie</strong> pattern (Boot Verb), <code>ponerse</code> has the special yo form with -g- insertion (like tener→te<strong>ng</strong>o).<br>
+[!IMPORTANT]<br>
+<strong>Korean Tip</strong>: '나는 슬퍼(Estoy triste)'는 현재의 상태지만, **'나는 슬퍼져(Me pongo triste)'**는 감정의 변화 과정을 강조합니다. 재귀동사는 이 '변화'의 느낌을 잘 살려줍니다.</p>
 </blockquote>
-<h3 id="imperfectoparticipio">과거 시제 (Imperfecto/Participio) 필수 불규칙 동사</h3>
-<p>초급 단계에서 꼭 알아야 할 과거 시제 핵심 불규칙 동사들입니다.</p>
-<h3 id="1-imperfecto-3">1. 불완전 과거 (Imperfecto) - 딱 3개뿐인 불규칙</h3>
+<h3>A. Verbos Regulares (규칙 동사) - 불완전 과거 (Imperfecto)</h3>
+<p>불완전 과거는 과거의 지속적인 상태나 반복되는 습관을 묘사할 때 사용합니다. 규칙 동사인 <strong>Hablar</strong>, <strong>Comer</strong>, <strong>Vivir</strong>를 통해 어미 변화를 확인해 보세요. -er과 -ir 동사의 어미 변화가 동일하다는 점이 특징입니다.</p>
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
+    <tr>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Yo</strong></td>
+      <td>habl<strong>aba</strong></td>
+      <td>com<strong>ía</strong></td>
+      <td>viv<strong>ía</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tú</strong></td>
+      <td>habl<strong>abas</strong></td>
+      <td>com<strong>ías</strong></td>
+      <td>viv<strong>ías</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Él, Ella, Ud.</strong></td>
+      <td>habl<strong>aba</strong></td>
+      <td>com<strong>ía</strong></td>
+      <td>viv<strong>ía</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nosotros/as</strong></td>
+      <td>habl<strong>ábamos</strong></td>
+      <td>com<strong>íamos</strong></td>
+      <td>viv<strong>íamos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Vosotros/as</strong></td>
+      <td>habl<strong>abais</strong></td>
+      <td>com<strong>íais</strong></td>
+      <td>viv<strong>íais</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Ellos, Ellas, Uds.</strong></td>
+      <td>habl<strong>aban</strong></td>
+      <td>com<strong>ían</strong></td>
+      <td>viv<strong>ían</strong></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<h3>B. Verbos Irregulares (불규칙 동사) - 딱 3개뿐인 불규칙</h3>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -629,8 +438,7 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
   </tbody>
 </table>
 </div>
-
-<h3 id="2-participio-9">2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선</h3>
+<h3>2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선</h3>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -675,20 +483,19 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
   </tbody>
 </table>
 </div>
-
-<hr />
-<h2 id="5-cultura-viva-el-yo-digital-en-espana">5. Cultura Viva: El "Yo" digital en España 📱</h2>
+<hr>
+<h2>5. Cultura Viva: El &quot;Yo&quot; digital en España 📱</h2>
 <p>스페인 청년들의 SNS와 자아 표현 문화를 살펴봅니다.</p>
-<h3 id="la-imagen-personal-en-la-era-de-instagram">La imagen personal en la era de Instagram</h3>
-<p>Hoy en día, para los jóvenes españoles (la "Generación Z"), la identidad no solo se construye en la vida real, sino también en el mundo digital. Redes sociales como Instagram y TikTok son espacios fundamentales para mostrar quiénes son y cómo se sienten. En España, existe una fuerte cultura visual; a la gente le gusta compartir fotos de sus viajes, de la comida ("comida instagrameable") y de sus momentos de ocio con amigos.</p>
-<p>Sin embargo, esto también genera una presión por mostrar una "vida perfecta". Muchos jóvenes se sienten <strong>preocupados</strong> o <strong>estresados</strong> por su imagen pública. A pesar de esto, el carácter español sigue siendo muy expresivo y abierto. Es común ver perfiles con mensajes positivos y directos. La palabra "postureo" es muy famosa en España: se usa para describir cuando alguien hace algo solo para lucirse en las redes sociales, aunque no sea su realidad cotidiana.</p>
-<p><strong>[한국어 번역]</strong><br />
-오늘날 스페인 청년들(Z세대)에게 정체성은 현실 세계뿐만 아니라 디지털 세계에서도 구축됩니다. 인스타그램이나 틱톡 같은 소셜 미디어는 그들이 누구인지, 그리고 어떻게 느끼는지를 보여주는 핵심적인 공간입니다. 스페인에는 강력한 시각 문화가 존재합니다. 사람들은 여행, 음식("인스타 감성 음식"), 그리고 친구들과의 여가 시간을 공유하는 것을 좋아합니다.</p>
-<p>하지만 이는 또한 "완벽한 삶"을 보여줘야 한다는 압박감을 생성하기도 합니다. 많은 청년이 자신의 공적인 이미지에 대해 <strong>걱정하거나(preocupados)</strong> <strong>스트레스를(estresados)</strong> 받기도 합니다. 그럼에도 불구하고, 스페인 사람들의 성격은 여전히 매우 표현력이 풍부하고 개방적입니다. 긍정적이고 직설적인 메시지가 담긴 프로필을 흔히 볼 수 있습니다. 스페인에서 "postureo(포스투레오)"라는 단어는 매우 유명한데, 이는 누군가가 실제 현실이 아님에도 오직 소셜 미디어에 뽐내기 위해 행동하는 것을 묘사할 때 사용됩니다.</p>
-<p><img alt="스페인 Z세대 청년들의 SNS와 디지털 정체성 문화" src="../images/ch02_a2_culture_social_v20.png" /></p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<h3 id="a-ser-o-estar">A. ¿Ser o Estar? (문맥에 맞는 동사를 선택하세요)</h3>
+<h3>La imagen personal en la era de Instagram</h3>
+<p>Hoy en día, para los jóvenes españoles (la &quot;Generación Z&quot;), la identidad no solo se construye en la vida real, sino también en el mundo digital. Redes sociales como Instagram y TikTok son espacios fundamentales para mostrar quiénes son y cómo se sienten. En España, existe una fuerte cultura visual; a la gente le gusta compartir fotos de sus viajes, de la comida (&quot;comida instagrameable&quot;) y de sus momentos de ocio con amigos.</p>
+<p>Sin embargo, esto también genera una presión por mostrar una &quot;vida perfecta&quot;. Muchos jóvenes se sienten <strong>preocupados</strong> o <strong>estresados</strong> por su imagen pública. A pesar de esto, el carácter español sigue siendo muy expresivo y abierto. Es común ver perfiles con mensajes positivos y directos. La palabra &quot;postureo&quot; es muy famosa en España: se usa para describir cuando alguien hace algo solo para lucirse en las redes sociales, aunque no sea su realidad cotidiana.</p>
+<p><strong>[한국어 번역]</strong><br>
+오늘날 스페인 청년들(Z세대)에게 정체성은 현실 세계뿐만 아니라 디지털 세계에서도 구축됩니다. 인스타그램이나 틱톡 같은 소셜 미디어는 그들이 누구인지, 그리고 어떻게 느끼는지를 보여주는 핵심적인 공간입니다. 스페인에는 강력한 시각 문화가 존재합니다. 사람들은 여행, 음식(&quot;인스타 감성 음식&quot;), 그리고 친구들과의 여가 시간을 공유하는 것을 좋아합니다.</p>
+<p>하지만 이는 또한 &quot;완벽한 삶&quot;을 보여줘야 한다는 압박감을 생성하기도 합니다. 많은 청년이 자신의 공적인 이미지에 대해 <strong>걱정하거나(preocupados)</strong> <strong>스트레스를(estresados)</strong> 받기도 합니다. 그럼에도 불구하고, 스페인 사람들의 성격은 여전히 매우 표현력이 풍부하고 개방적입니다. 긍정적이고 직설적인 메시지가 담긴 프로필을 흔히 볼 수 있습니다. 스페인에서 &quot;postureo(포스투레오)&quot;라는 단어는 매우 유명한데, 이는 누군가가 실제 현실이 아님에도 오직 소셜 미디어에 뽐내기 위해 행동하는 것을 묘사할 때 사용됩니다.</p>
+<p><img src="../images/ch02_a2_culture_social_v20.png" alt="스페인 Z세대 청년들의 SNS와 디지털 정체성 문화"></p>
+<hr>
+<h2>6. Práctica</h2>
+<h3>A. ¿Ser o Estar? (문맥에 맞는 동사를 선택하세요)</h3>
 <ol>
 <li>Carlos es (listo / preocupado). Siempre saca buenas notas.</li>
 <li>La manzana está (verde / rica). No podemos comerla todavía.</li>
@@ -696,43 +503,43 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 <li>El café está (malo / rico) hoy. ¡Me encanta!</li>
 <li>Estoy (listo / verde) para el viaje. Tengo mi maleta.</li>
 </ol>
-<h3 id="b-completa-con-el-verbo-reflexivo">B. Completa con el verbo reflexivo (재귀동사를 알맞게 변화시키세요)</h3>
+<h3>B. Completa con el verbo reflexivo (재귀동사를 알맞게 변화시키세요)</h3>
 <ol>
-<li>Yo (sentirse) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ muy bien hoy.</li>
-<li>Cuando llueve, Lucía (ponerse) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ triste.</li>
-<li>¿Por qué (tú / sentirse) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ confundido?</li>
-<li>Nosotros (ponerse) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ nerviosos en los exámenes.</li>
-<li>Los niños (asustarse) <strong><em>_</em></strong><strong><em>_</em></strong><strong><em>_</em></strong>_ con la tormenta.</li>
+<li>Yo (sentirse) ______________________ muy bien hoy.</li>
+<li>Cuando llueve, Lucía (ponerse) ______________________ triste.</li>
+<li>¿Por qué (tú / sentirse) ______________________ confundido?</li>
+<li>Nosotros (ponerse) ______________________ nerviosos en los exámenes.</li>
+<li>Los niños (asustarse) ______________________ con la tormenta.</li>
 </ol>
-<h3 id="c">C. 번역 연습 (스페인어로 옮겨보세요)</h3>
+<h3>C. 번역 연습 (스페인어로 옮겨보세요)</h3>
 <ol>
-<li>나는 우리 가족이 자랑스러워(orgulloso).<br />
-    (............................................................)</li>
-<li>시험 때문에 걱정하지 마!<br />
-    (............................................................)</li>
-<li>그는 학교에서 가장 똑똑한 학생이야.<br />
-    (............................................................)</li>
-<li>너는 오늘 왜 그렇게 화가 났니?<br />
-    (............................................................)</li>
-<li>우리는 새로운 소식에 깜짝 놀랐어(sorprendidos).<br />
-    (............................................................)</li>
+<li>나는 우리 가족이 자랑스러워(orgulloso).<br>
+(............................................................)</li>
+<li>시험 때문에 걱정하지 마!<br>
+(............................................................)</li>
+<li>그는 학교에서 가장 똑똑한 학생이야.<br>
+(............................................................)</li>
+<li>너는 오늘 왜 그렇게 화가 났니?<br>
+(............................................................)</li>
+<li>우리는 새로운 소식에 깜짝 놀랐어(sorprendidos).<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
-<h3 id="un-dia-de-muchas-emociones">Un día de muchas emociones</h3>
+<hr>
+<h2>7. Lectura 📖</h2>
+<h3>Un día de muchas emociones</h3>
 <p>Ayer fue un día muy intenso para Manuel. Por la mañana, se sintió muy <strong>orgulloso</strong> porque terminó un proyecto importante en su trabajo. Pero al mediodía, se puso <strong>preocupado</strong> porque no encontraba las llaves de su coche. Después de buscarlas por una hora, estaba <strong>agotado</strong>. Al final, su novia las encontró y Manuel se sintió <strong>tranquilo</strong> otra vez. ¡Qué día tan loco!</p>
-<h3 id="preguntas">Preguntas (질문)</h3>
+<h3>Preguntas (질문)</h3>
 <ol>
 <li>¿Por qué Manuel se sintió orgulloso por la mañana? (마누엘은 왜 아침에 자랑스러움을 느꼈나요?)</li>
 <li>¿Por qué se puso preocupado al mediodía? (점심 무렵에 왜 걱정하게 되었나요?)</li>
 <li>¿Quién encontró las llaves al final? (결국 누가 열쇠를 찾았나요?)</li>
 </ol>
 <p><strong>[한국어 번역]</strong></p>
-<h4 id="_2">많은 감정이 교차한 하루</h4>
+<h4>많은 감정이 교차한 하루</h4>
 <p>어제는 마누엘에게 매우 강렬한 하루였습니다. 아침에 그는 직장에서 중요한 프로젝트를 끝냈기 때문에 매우 <strong>자랑스러움을(orgulloso)</strong> 느꼈습니다. 하지만 정오쯤, 차 열쇠를 찾을 수 없어서 <strong>걱정이(preocupado)</strong> 되었습니다. 한 시간 동안 열쇠를 찾은 후, 그는 <strong>녹초가(agotado)</strong> 되었습니다. 결국, 그의 여자친구가 열쇠를 찾았고 마누엘은 다시 <strong>안도감을(tranquilo)</strong> 느꼈습니다. 정말 미친 하루였어요!</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
-<h3 id="no-te-pongas-nervioso">¡No te pongas nervioso! (긴장하지 마!)</h3>
+<hr>
+<h2>8. Diálogo</h2>
+<h3>¡No te pongas nervioso! (긴장하지 마!)</h3>
 <p><strong>Situación:</strong> Javier tiene una entrevista de trabajo por primera vez. Su hermana Elena intenta tranquilizarlo porque Javier está muy estresado y preocupado por su imagen.</p>
 <p><strong>상황:</strong> 하비에르는 처음으로 구직 면접을 앞두고 있습니다. 그의 누나 엘레나는 하비에르가 자신의 이미지 때문에 매우 스트레스를 받고 걱정하고 있는 것을 보고 그를 안심시키려 노력합니다.</p>
 <table class="dialogue-table">
@@ -777,9 +584,8 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
     </tr>
   </tbody>
 </table>
-
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
+<hr>
+<h2>9. Repaso</h2>
 <p>이 장에서 배운 내용을 확인해 보세요:</p>
 <ul>
 <li>[ ] 감정과 심리 상태를 나타내는 심화 형용사 <strong>12개</strong>를 익혔다.</li>
@@ -788,30 +594,30 @@ A1에서 기본적인 성격과 외모를 배웠다면, A2에서는 더 복잡�
 <li>[ ] <code>sentirse</code>의 어간 변화(<strong>e→ie</strong> Boot Verb)와 <code>ponerse</code>의 1인칭 불규칙(<strong>-g-</strong> 삽입)을 이해했다.</li>
 <li>[ ] 스페인 청년들의 SNS 문화와 '<strong>postureo</strong>'의 의미를 이해했다.</li>
 </ul>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Excelente! 🎉 이제 여러분은 단순한 외모 묘사를 넘어, 사람의 깊은 내면과 감정의 변화까지 스페인어로 풍부하게 표현할 수 있게 되었습니다.</p>
 <p>A2 수준에서 중요한 것은 '뉘앙스'의 차이를 아는 것입니다. 같은 형용사도 <strong>Ser</strong>(본질)와 <strong>Estar</strong>(상태) 중 어느 것을 선택하느냐에 따라 완전히 다른 의미가 됩니다. 이 감각은 영어에는 없는 스페인어 고유의 특성이므로, 다양한 예문을 통해 꾸준히 연습하는 것이 중요합니다.</p>
 <p>다음 장에서는 우리의 '<strong>정체성</strong>'과 이를 증명하는 '<strong>서류(Identidad/DNI)</strong>'에 대해 배우며 실무적인 스페인어 능력을 키워보겠습니다. ¡Ánimo!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<h3 id="6-practica-a-ser-o-estar">6. Práctica - A. ¿Ser o Estar?</h3>
+<hr>
+<h2>11. Soluciones</h2>
+<h3>6. Práctica - A. ¿Ser o Estar?</h3>
 <ol>
 <li>listo, 2. verde, 3. aburrida, 4. rico, 5. listo</li>
 </ol>
-<h3 id="6-practica-b-completa">6. Práctica - B. Completa</h3>
+<h3>6. Práctica - B. Completa</h3>
 <ol>
 <li>me siento, 7. se pone, 8. te sientes, 9. nos ponemos, 10. se asustan</li>
 </ol>
-<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
+<h3>6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Estoy orgulloso de mi familia., 12. ¡No te preocupes por el examen!, 13. Él es el estudiante más listo de la escuela., 14. ¿Por qué estás tan enfadado hoy?, 15. Estamos sorprendidos por las nuevas noticias.</li>
 </ol>
-<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
+<h3>7. Lectura - Preguntas</h3>
 <ol>
-<li>Se sintió orgulloso porque terminó un proyecto importante.</li>
-<li>Se puso preocupado porque no encontraba las llaves de su coche.</li>
-<li>Su novia las encontró.</li>
+<li>Se sintió orgulloso porque terminó un proyecto importante. (그는 중요한 프로젝트를 끝내서 자랑스러움을 느꼈습니다.)</li>
+<li>Se puso preocupado porque no encontraba las llaves de su coche. (그는 자동차 열쇠를 찾지 못해서 걱정하게 되었습니다.)</li>
+<li>Su novia las encontró. (그의 여자친구가 열쇠를 찾았습니다.)</li>
 </ol>
 </div>
 </body>

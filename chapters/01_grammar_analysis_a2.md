@@ -15,7 +15,8 @@
 - 🔹 1. 동사 결합에 따른 의미 변화 (Ser vs. Estar + Adjective)
 - 🔹 2. 재귀동사 (Verbos Reflexivos): 기분의 변화
 - 🔴 **과거 시제 (Imperfecto/Participio) 필수 불규칙 동사**
-- 🔴 **1. 불완전 과거 (Imperfecto) - 딱 3개뿐인 불규칙**
+- 🔴 **A. Verbos Regulares (규칙 동사) - 불완전 과거 (Imperfecto)**
+- 🔴 **B. Verbos Irregulares (불규칙 동사) - 딱 3개뿐인 불규칙**
 - 🔴 **2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선**
 
 ### Chapter 3: Mi Identidad (A2)
@@ -50,7 +51,8 @@
 ### Chapter 8: El Trabajo (A2)
 
 - 🔴 **A. 단순과거 (Indefinido) vs 불완료과거 (Imperfecto) (경력 기술 시)**
-- 🔴 **B. 단순과거 (Indefinido)**
+- 🔴 **1. Verbos Regulares (규칙 동사)**
+- 🔴 **2. Verbos Irregulares (불규칙 동사)**
 - 🔹 C. Verbos Regulares (Revisión)
 - 🔴 **D. Participio (과거분사) - Irregulares**
 - 🔴 **D. Futuro (미래) - 불규칙 동사 (경력 계획)**

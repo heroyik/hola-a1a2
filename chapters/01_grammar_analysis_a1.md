@@ -64,7 +64,7 @@
 ### Chapter 8: El Trabajo (A1)
 
 - 🔴 **A. Ser + 직업 (Presente)**
-- 🔴 **B. Trabajar (일하다) - 현재형 (Presente)**
+- 🔴 **B. Verbos Regulares (규칙 동사) - 현재형 (Presente)**
 - 🔹 💡 English Bridge: Stem & Ending
 - 🔹 💡 Korean Tip
 - 🔴 **Mandatory Irregulars (Presente)**

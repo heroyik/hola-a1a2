@@ -1,0 +1,224 @@
+/* 
+   Hola-AL Premium Design System 
+   Aesthetic: Modern Spanish Premium (Red & gold accents on dark/off-white)
+*/
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-red-dark: #8E281F;
+    --spanish-gold: #D4AC0D;
+    --spanish-gold-light: #F7DC6F;
+    --deep-slate: #1C2833;
+    --slate-grey: #2C3E50;
+    --off-white: #FCF9F2;
+    --pure-white: #FFFFFF;
+    --text-main: #2C3E50;
+    --text-light: #7F8C8D;
+    --glass-bg: rgba(255, 255, 255, 0.95);
+    --shadow-premium: 0 20px 40px rgba(0,0,0,0.1);
+    --transition-smooth: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    color: var(--text-main);
+    background-color: var(--off-white);
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+/* --- Hero Section --- */
+.hero {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--pure-white);
+    text-align: center;
+    overflow: hidden;
+    background-color: var(--deep-slate);
+}
+
+.hero-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.6;
+    filter: brightness(0.7);
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(28, 40, 51, 0.3), var(--deep-slate));
+}
+
+.hero-content {
+    position: relative;
+    z-index: 10;
+    max-width: 800px;
+    padding: 0 20px;
+}
+
+.hero h1 {
+    font-size: clamp(2.5rem, 8vw, 4.5rem);
+    margin-bottom: 1rem;
+    letter-spacing: -1px;
+    text-transform: uppercase;
+}
+
+.hero h1 span {
+    color: var(--spanish-gold);
+}
+
+.hero p {
+    font-size: clamp(1rem, 3vw, 1.25rem);
+    opacity: 0.9;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+/* --- Textbook Cards --- */
+.textbooks {
+    padding: 80px 20px;
+    max-width: 1200px;
+    margin: -100px auto 0;
+    position: relative;
+    z-index: 20;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 40px;
+}
+
+.card {
+    background: var(--glass-bg);
+    border-radius: 20px;
+    padding: 40px;
+    box-shadow: var(--shadow-premium);
+    transition: var(--transition-smooth);
+    border: 1px solid rgba(255,255,255,0.2);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 30px 60px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+    color: var(--spanish-red);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid var(--spanish-gold);
+    display: inline-block;
+    padding-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card p {
+    color: var(--text-light);
+    margin-bottom: 2rem;
+    min-height: 3rem;
+}
+
+.btn-group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: auto;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 0.9rem;
+    transition: var(--transition-smooth);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-primary {
+    background: var(--spanish-red);
+    color: var(--pure-white);
+}
+
+.btn-primary:hover {
+    background: var(--spanish-red-dark);
+}
+
+.btn-secondary {
+    background: transparent;
+    border: 2px solid var(--spanish-gold);
+    color: var(--spanish-gold);
+}
+
+.btn-secondary:hover {
+    background: var(--spanish-gold);
+    color: var(--pure-white);
+}
+
+/* --- Footer --- */
+footer {
+    padding: 60px 20px;
+    text-align: center;
+    color: var(--text-light);
+    font-size: 0.9rem;
+}
+
+.footer-logo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+/* --- Responsive Adjustments (Galaxy S25 & Mobile) --- */
+@media (max-width: 600px) {
+    .hero {
+        height: 60vh;
+    }
+    .textbooks {
+        margin-top: -50px;
+        padding-top: 20px;
+    }
+    .card {
+        padding: 30px 20px;
+    }
+    .btn-group {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Anti-aliasing rule per user preference
+   (applied to specific elements if needed, but here global for clean text) */
+canvas {
+    image-rendering: pixelated;
+}

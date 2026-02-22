@@ -1,30 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch06_a1_mi_casa.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1.5pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
 
 :root {
     --spanish-red: #A93226;
@@ -42,36 +22,35 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 40pt 0 15pt 0;
+    margin: 20pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -1pt;
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -80,8 +59,6 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
 }
 
 h2::before {
@@ -94,346 +71,124 @@ h2::before {
     border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 25pt 0 10pt 0;
-    background-color: var(--spanish-ochre-light);
-    padding: 6pt 12pt;
-    border-radius: 5pt;
-    border-left: 4pt solid var(--spanish-ochre);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 20pt 0 8pt 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5pt;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 20pt 25pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-    font-style: italic;
-    color: var(--slate-grey);
-    position: relative;
-}
-
-/* ─── TABLES (HIGH-END DESIGN) ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 20pt 0 25pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 10pt;
-    overflow: hidden;
-    box-shadow: var(--shadow-premium);
-    background-color: var(--bg-white);
-    page-break-inside: avoid;
-}
-
-thead {
-    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
-    color: white;
-}
-
-th {
-    padding: 12pt 15pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2pt;
-    font-size: 8.5pt;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-td {
-    padding: 10pt 15pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    transition: background-color 0.2s ease;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FDFDFD;
-}
-
-tr:hover td {
-    background-color: var(--spanish-ochre-light);
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 5pt 15pt 5pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 8pt;
-    margin-bottom: 20pt;
-    text-align: left;
-    font-style: italic;
-}
-
-em {
-    font-style: italic;
-    color: var(--spanish-red);
-    font-weight: 500;
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-important {
-    background: var(--spanish-ochre-light);
-    border-left: 6pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-.admonition-warning {
-    background: var(--spanish-red-light);
-    border-left: 6pt solid var(--spanish-red);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15pt;
-    margin: 25pt 0;
-    display: block;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-    border: 3pt solid var(--bg-white);
-}
-
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--spanish-ochre);
-    margin: 40pt 150pt;
-    opacity: 0.2;
-}
-
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 12pt 0 18pt 30pt;
-}
-
-li {
-    margin-bottom: 8pt;
-}
-
-li strong {
-    color: var(--slate-grey);
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1.5pt solid var(--spanish-ochre-light);
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: var(--spanish-red);
-}
-
-p {
-    margin: 8pt 0 12pt 0;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-red);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
-.cervantes-ref {
-    font-size: 10pt;
-    color: var(--text-light);
-    margin: 10pt 0 25pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 2pt solid var(--border-color);
-    padding-left: 10pt;
-}
-
-@media print {
-    body {
-        background-color: white;
-    }
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    hr {
-        margin: 40pt 100pt;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-6-mi-casa-a1">Chapter 6: Mi casa (A1)</h1>
+    <div class="container"><h1>Chapter 6: Mi casa (A1)</h1>
 <p class="cervantes-ref">Cervantes: §10 Vivienda: 주거의 유형, 집의 구조 및 가구와 위치 표현</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Hogar, dulce hogar (즐거운 나의 집)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Hogar, dulce hogar (즐거운 나의 집)</strong><br>
 집은 단순한 물리적 공간을 넘어 우리의 정체성이 반영되는 가장 편안한 안식처입니다. 이번 장에서는 집의 다양한 종류와 방의 명칭, 그리고 가구들의 이름을 배웁니다. 또한 'hay'와 'estar'를 구분하여 집 안에 무엇이 어디에 있는지를 정확하게 설명하고, 위치 부사를 활용해 공간을 묘사하는 방법을 익힙니다.</p>
-<h3 id="_1">학습 목표</h3>
+<h3>학습 목표</h3>
 <ul>
 <li>집의 종류 및 방, 가구 명칭 10개 이상 습득</li>
 <li>'hay'와 'estar'의 용법 완벽 구분 및 활용</li>
 <li>위치 부사(encima de, debajo de 등)를 사용한 공간 묘사</li>
 <li>스페인의 전형적인 주거 형태(Piso vs Chalet) 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인의 건물 층수 계산법은 한국과 다릅니다. 한국의 1층은 스페인에서 'Planta Baja'(0층)라고 부르며, 한국의 2층이 스페인의 'Primero'(1층)가 됩니다. 엘리베이터 숫자를 볼 때 주의하세요!</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>꿈꾸던 예쁜 이층 집의 내부 구조입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img alt="Mi Casa — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)" src="../images/ch06_a1_vocab_house_v2_1.png" /></p>
+<p><img src="../images/ch06_a1_vocab_house_v10.png" alt="Mi Casa — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">번호</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:center">번호</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">el salón</td>
-<td style="text-align: left;">Salon (Living room) ✅</td>
-<td style="text-align: left;">거실</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">el salón</td>
+<td style="text-align:left">Salon (Living room) ✅</td>
+<td style="text-align:left">거실</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">la cocina</td>
-<td style="text-align: left;">Cuisine / Kitchen ✅</td>
-<td style="text-align: left;">주방 (부엌)</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">la cocina</td>
+<td style="text-align:left">Cuisine / Kitchen ✅</td>
+<td style="text-align:left">주방 (부엌)</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">el dormitorio</td>
-<td style="text-align: left;">Dormitory ✅ (Sleeping area)</td>
-<td style="text-align: left;">침실 (방)</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">el dormitorio</td>
+<td style="text-align:left">Dormitory ✅ (Sleeping area)</td>
+<td style="text-align:left">침실 (방)</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">el baño</td>
-<td style="text-align: left;">Bath ✅</td>
-<td style="text-align: left;">욕실 (화장실)</td>
+<td style="text-align:center">4</td>
+<td style="text-align:left">el baño</td>
+<td style="text-align:left">Bath ✅</td>
+<td style="text-align:left">욕실 (화장실)</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">el jardín</td>
-<td style="text-align: left;">Garden ✅</td>
-<td style="text-align: left;">정원 (마당)</td>
+<td style="text-align:center">5</td>
+<td style="text-align:left">el jardín</td>
+<td style="text-align:left">Garden ✅</td>
+<td style="text-align:left">정원 (마당)</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">el sofá</td>
-<td style="text-align: left;">Sofa ✅</td>
-<td style="text-align: left;">소파</td>
+<td style="text-align:center">6</td>
+<td style="text-align:left">el sofá</td>
+<td style="text-align:left">Sofa ✅</td>
+<td style="text-align:left">소파</td>
 </tr>
 <tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">la cama</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">침대</td>
+<td style="text-align:center">7</td>
+<td style="text-align:left">la cama</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">침대</td>
 </tr>
 <tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">la mesa</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">탁자 (테이블)</td>
+<td style="text-align:center">8</td>
+<td style="text-align:left">la mesa</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">탁자 (테이블)</td>
 </tr>
 <tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">la silla</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">의자</td>
+<td style="text-align:center">9</td>
+<td style="text-align:left">la silla</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">의자</td>
 </tr>
 <tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">la ventana</td>
-<td style="text-align: left;">Vent / Ventilation (Window) ✅</td>
-<td style="text-align: left;">창문</td>
+<td style="text-align:center">10</td>
+<td style="text-align:left">la ventana</td>
+<td style="text-align:left">Vent / Ventilation (Window) ✅</td>
+<td style="text-align:left">창문</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>나의 집을 소개하거나 물건의 위치를 물을 때 사용하는 핵심 표현들입니다.</p>
-<h3 id="a-describing-the-house">A. 집 소개하기 (Describing the House)</h3>
+<h3>A. 집 소개하기 (Describing the House)</h3>
 <ul>
 <li><strong>Vivo en un piso pequeño en el centro.</strong> (I live in a small flat in the center. / 저는 시내의 작은 아파트에 살아요.)</li>
 <li><strong>Mi casa tiene tres habitaciones.</strong> (My house has three rooms. / 우리 집은 방이 세 개 있어요.)</li>
@@ -441,18 +196,21 @@ h3:has(+ ol) {
 <li><strong>Hay un jardín grande detrás de la casa.</strong> (There is a big garden behind the house. / 집 뒤에 큰 정원이 있어요.)</li>
 <li><strong>Soy</strong> de Madrid, pero <strong>estoy</strong> en mi casa. (출신 vs 집안 위치)</li>
 </ul>
-<h3 id="b-asking-and-giving-location">B. 위치 묻고 답하기 (Asking and Giving Location)</h3>
+<h3>B. 위치 묻고 답하기 (Asking and Giving Location)</h3>
 <ul>
 <li><strong>¿Dónde está el baño?</strong> (Where is the bathroom? / 화장실이 어디인가요?)</li>
 <li><strong>Está al final del pasillo, a la derecha.</strong> (It's at the end of the hall, on the right. / 복도 끝 오른쪽에 있어요.)</li>
-<li><strong>¿Qué hay en el salón?</strong> (What is there in the living room? / 거실에 무엇이 있나요?)</li>
-<li>💡 <strong>English Bridge</strong>: "Hay" = "There is/are." Use it for unknown or unspecified things.</li>
+<li><strong>¿Qué hay en el salón?</strong> (What is there in the living room? / 거실에 무엇이 있나요?)
+<ul>
+<li>💡 <strong>English Bridge</strong>: &quot;Hay&quot; = &quot;There is/are.&quot; Use it for unknown or unspecified things.</li>
 </ul>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+</li>
+</ul>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>이번 장에서는 존재를 나타내는 'hay'와 위치를 나타내는 'estar', 그리고 위치를 정교하게 묘사하는 부사들을 배웁니다.</p>
-<h3 id="a-hay-vs-estar">A. Hay vs Estar (존재와 위치) — 핵심 구분</h3>
-<p><strong>English Bridge</strong>: This is like the difference between "<strong>There is</strong> a book on the table" (existence = hay) vs "<strong>The</strong> book <strong>is</strong> on the table" (specific location = estar).</p>
+<h3>A. Hay vs Estar (존재와 위치) — 핵심 구분</h3>
+<p><strong>English Bridge</strong>: This is like the difference between &quot;<strong>There is</strong> a book on the table&quot; (existence = hay) vs &quot;<strong>The</strong> book <strong>is</strong> on the table&quot; (specific location = estar).</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -491,11 +249,10 @@ h3:has(+ ol) {
   </tbody>
 </table>
 </div>
-
 <blockquote>
-<p>💡 <strong>Quick Test</strong>: 문장에 "<strong>un/una</strong>"이 있으면 → <strong>hay</strong> / "<strong>el/la/mi/tu</strong>"가 있으면 → <strong>estar</strong></p>
+<p>💡 <strong>Quick Test</strong>: 문장에 &quot;<strong>un/una</strong>&quot;이 있으면 → <strong>hay</strong> / &quot;<strong>el/la/mi/tu</strong>&quot;가 있으면 → <strong>estar</strong></p>
 </blockquote>
-<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다.</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -507,9 +264,9 @@ h3:has(+ ol) {
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3 id="d-adverbios-de-lugar">D. 위치 부사 (Adverbios de Lugar)</h3>
+<h3>D. 위치 부사 (Adverbios de Lugar)</h3>
 <p>사물의 구체적인 위치를 설명하기 위해 전치사 'de'와 함께 자주 쓰입니다.</p>
-<p><strong>English Bridge</strong>: Many of these don't have direct English cognates, but you can remember them through patterns. "De-" words (debajo, delante, detrás) all relate to spatial positions.</p>
+<p><strong>English Bridge</strong>: Many of these don't have direct English cognates, but you can remember them through patterns. &quot;De-&quot; words (debajo, delante, detrás) all relate to spatial positions.</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -563,17 +320,16 @@ h3:has(+ ol) {
   </tbody>
 </table>
 </div>
-
-<hr />
-<h2 id="5-cultura-viva-piso-o-chalet">5. Cultura Viva: ¿Piso o Chalet? 🏠</h2>
+<hr>
+<h2>5. Cultura Viva: ¿Piso o Chalet? 🏠</h2>
 <p>스페인 사람들은 어떤 집에서 살까요? 그들의 주거 문화를 엿보세요.</p>
-<p>En España, la mayoría de la gente que vive en las ciudades reside en <strong>pisos</strong>. Un "piso" es un apartamento en un bloque de edificios. A los españoles les gusta vivir cerca del centro, de las tiendas y de los bares. Por eso, las ciudades son muy compactas y tienen mucha vida en la calle. Muchos de estos edificios tienen un <strong>patio interior</strong>, un espacio abierto en el centro del edificio que da luz y aire a las habitaciones.</p>
+<p>En España, la mayoría de la gente que vive en las ciudades reside en <strong>pisos</strong>. Un &quot;piso&quot; es un apartamento en un bloque de edificios. A los españoles les gusta vivir cerca del centro, de las tiendas y de los bares. Por eso, las ciudades son muy compactas y tienen mucha vida en la calle. Muchos de estos edificios tienen un <strong>patio interior</strong>, un espacio abierto en el centro del edificio que da luz y aire a las habitaciones.</p>
 <p>Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en un <strong>chalet</strong>. Un chalet es una casa unifamiliar, a veces con jardín o piscina, situada normalmente en las afueras de la ciudad. En el sur de España, como en Andalucía, son famosas las casas blancas con rejas de hierro en las ventanas y macetas con flores.</p>
-<p><strong>[한국어 번역]</strong><br />
-스페인에서는 도시에 사는 대부분의 사람들이 <strong>피소(piso)</strong>에 거주합니다. '피소'는 빌딩 블록 안에 있는 아파트를 말합니다. 스페인 사람들은 시내, 상점, 그리고 바(bar) 근처에 사는 것을 좋아합니다. 그래서 도시는 매우 조밀하고 거리에 활기가 넘칩니다.</p>
-<p>반면, 평온함을 선호하는 가족들은 <strong>샬레(chalet)</strong>에 사는 것을 좋아합니다. 샬레는 대개 정원이나 수영장이 딸린 단독주택으로, 보통 도시 외곽에 위치합니다. 안달루시아와 같은 스페인 남부에서는 창문의 철제 창살과 꽃 화분으로 장식된 흰색 집들이 유명합니다.</p>
-<p><img alt="스페인 주거 형태 — 도시의 피소와 교외의 샬레" src="../images/ch06_a1_culture_housing_v2_1.png" /></p>
-<h3 id="participio-irregulares-revision">Participio (과거분사) - Irregulares (Revisión)</h3>
+<p><strong>[한국어 번역]</strong><br>
+스페인에서는 도시에 사는 대부분의 사람들이 **피소(piso)**에 거주합니다. '피소'는 빌딩 블록 안에 있는 아파트를 말합니다. 스페인 사람들은 시내, 상점, 그리고 바(bar) 근처에 사는 것을 좋아합니다. 그래서 도시는 매우 조밀하고 거리에 활기가 넘칩니다.</p>
+<p>반면, 평온함을 선호하는 가족들은 **샬레(chalet)**에 사는 것을 좋아합니다. 샬레는 대개 정원이나 수영장이 딸린 단독주택으로, 보통 도시 외곽에 위치합니다. 안달루시아와 같은 스페인 남부에서는 창문의 철제 창살과 꽃 화분으로 장식된 흰색 집들이 유명합니다.</p>
+<p><img src="../images/ch06_a1_culture_apartment_v10.png" alt="스페인 주거 형태 — 도시의 피소와 교외의 샬레"></p>
+<h3>Participio (과거분사) - Irregulares (Revisión)</h3>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
 <li><strong>poner</strong> (놓다) → <strong>puesto</strong></li>
@@ -584,46 +340,46 @@ h3:has(+ ol) {
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3 id="verbos-regulares-revision">Verbos Regulares (Revisión)</h3>
+<h3>Verbos Regulares (Revisión)</h3>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<h3 id="a-match-the-word">A. Match the word (알맞은 단어를 연결하세요)</h3>
+<hr>
+<h2>6. Práctica</h2>
+<h3>A. Match the word (알맞은 단어를 연결하세요)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English / Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English / Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. La cocina</td>
-<td style="text-align: left;">a. Bed</td>
+<td style="text-align:left">1. La cocina</td>
+<td style="text-align:left">a. Bed</td>
 </tr>
 <tr>
-<td style="text-align: left;">2. El jardín</td>
-<td style="text-align: left;">b. Window</td>
+<td style="text-align:left">2. El jardín</td>
+<td style="text-align:left">b. Window</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. La cama</td>
-<td style="text-align: left;">c. Kitchen</td>
+<td style="text-align:left">3. La cama</td>
+<td style="text-align:left">c. Kitchen</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. La ventana</td>
-<td style="text-align: left;">d. Chair</td>
+<td style="text-align:left">4. La ventana</td>
+<td style="text-align:left">d. Chair</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. La silla</td>
-<td style="text-align: left;">e. Garden</td>
+<td style="text-align:left">5. La silla</td>
+<td style="text-align:left">e. Garden</td>
 </tr>
 </tbody>
 </table>
-<h3 id="b-choose-between-hay-or-estaestan">B. Choose between 'Hay' or 'Está/Están' (알맞은 것을 고르세요)</h3>
+<h3>B. Choose between 'Hay' or 'Está/Están' (알맞은 것을 고르세요)</h3>
 <ol>
 <li>En el salón (hay / está) un sofá rojo.</li>
 <li>El gato (hay / está) debajo de la mesa.</li>
@@ -631,34 +387,34 @@ h3:has(+ ol) {
 <li>En esta calle (hay / está) muchos coches.</li>
 <li>Mi casa (hay / está) cerca del metro.</li>
 </ol>
-<h3 id="c">C. 번역 연습 (주어진 상황에 맞게 번역하세요)</h3>
+<h3>C. 번역 연습 (주어진 상황에 맞게 번역하세요)</h3>
 <ol>
-<li>의자 위에 책 한 권이 있어요. (존재)<br />
-   (............................................................)</li>
-<li>우리 집은 매우 조용하고 깨끗해요.<br />
-   (............................................................)</li>
-<li>주방 옆에 욕실이 있어요. (위치)<br />
-   (............................................................)</li>
-<li>거실에 창문이 몇 개 있나요?<br />
-   (............................................................)</li>
-<li>텔레비전은 소파 앞에 있어요.<br />
-   (............................................................)</li>
+<li>의자 위에 책 한 권이 있어요. (존재)<br>
+(............................................................)</li>
+<li>우리 집은 매우 조용하고 깨끗해요.<br>
+(............................................................)</li>
+<li>주방 옆에 욕실이 있어요. (위치)<br>
+(............................................................)</li>
+<li>거실에 창문이 몇 개 있나요?<br>
+(............................................................)</li>
+<li>텔레비전은 소파 앞에 있어요.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
-<h3 id="la-casa-de-mis-suenos">La casa de mis sueños (내가 꿈꾸는 집)</h3>
+<hr>
+<h2>7. Lectura 📖</h2>
+<h3>La casa de mis sueños (내가 꿈꾸는 집)</h3>
 <p>Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidoso en el centro. Prefiero un chalet pequeño en el campo, cerca de la montaña. Mi casa ideal tiene dos dormitorios grandes y un salón con mucha luz. En el jardín hay muchos árboles y flores de colores. También quiero una cocina moderna porque me encanta cocinar para mis amigos. Detrás de la casa hay un pequeño río. Es un lugar muy tranquilo para leer y descansar.</p>
-<h3 id="preguntas">Preguntas (질문)</h3>
+<h3>Preguntas (질문)</h3>
 <ol>
 <li>¿Por qué no quiere Laura vivir en la ciudad? (라우라는 왜 시내 아파트에 살고 싶어하지 않나요?)</li>
 <li>¿Qué hay cerca de su casa ideal? (꿈꾸는 집 근처에는 무엇이 있나요?)</li>
 </ol>
 <p><strong>[한국어 번역]</strong></p>
-<h4 id="_2">내가 꿈꾸는 집</h4>
+<h4>내가 꿈꾸는 집</h4>
 <p>제 이름은 라우라이고 저는 꿈꾸는 집을 찾고 있습니다. 저는 시내의 시끄러운 아파트에 살고 싶지 않아요. 저는 산 근처의 시골에 있는 작은 단독주택(chalet)을 선호합니다. 저의 이상적인 집은 큰 침실 두 개와 빛이 많이 들어오는 거실이 있습니다. 정원에는 많은 나무들과 알록달록한 꽃들이 있습니다. 집 뒤에는 작은 강이 흐르고 있습니다.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
-<h3 id="buscando-un-nuevo-piso">Buscando un nuevo piso (새 아파트 찾기)</h3>
+<hr>
+<h2>8. Diálogo</h2>
+<h3>Buscando un nuevo piso (새 아파트 찾기)</h3>
 <p><strong>Situación:</strong> Mateo y Elena están mirando anuncios de alquiler porque necesitan un piso nuevo para el próximo semestre.</p>
 <p><strong>상황:</strong> 마테오와 엘레나가 다음 학기를 위해 새 아파트가 필요해서 월세 광고를 보고 있습니다.</p>
 <table class="dialogue-table">
@@ -703,9 +459,8 @@ h3:has(+ ol) {
     </tr>
   </tbody>
 </table>
-
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
+<hr>
+<h2>9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 집의 방 이름과 가구 명칭 <strong>10개 이상</strong>을 스페인어로 말할 수 있다.</li>
@@ -713,85 +468,37 @@ h3:has(+ ol) {
 <li>[ ] <strong>encima de</strong>, <strong>detrás de</strong> 등 위치 부사 <strong>8개</strong>를 활용할 수 있다.</li>
 <li>[ ] 스페인의 <strong>Piso</strong>와 <strong>Chalet</strong>의 차이를 이해했다.</li>
 </ul>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Muy bien! 🎉 이번 장을 통해 여러분은 자신의 가장 소중한 공간인 '집'을 스페인어로 묘사하는 법을 배웠습니다.</p>
-<p><strong>Hay</strong>는 "<strong>There is/are</strong>" (존재), <strong>Estar</strong>는 "<strong>is located</strong>" (위치) — 이 구분을 기억하세요! 여러분의 방을 둘러보며 "<strong>En mi cuarto hay...</strong>"라고 연습해 보세요.</p>
+<p><strong>Hay</strong>는 &quot;<strong>There is/are</strong>&quot; (존재), <strong>Estar</strong>는 &quot;<strong>is located</strong>&quot; (위치) — 이 구분을 기억하세요! 여러분의 방을 둘러보며 &quot;<strong>En mi cuarto hay...</strong>&quot;라고 연습해 보세요.</p>
 <p>다음 장에서는 우리가 배우고 성장하는 공간인 '<strong>학교(En la escuela)</strong>'에 대해 알아보겠습니다. ¡Hasta pronto!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<h3 id="6-practica-a-match-the-word">6. Práctica - A. Match the word</h3>
+<hr>
+<h2>11. Soluciones</h2>
+<h3>6. Práctica - A. Match the word</h3>
 <ol>
 <li>1-c, 2-e, 3-a, 4-b, 5-d</li>
 </ol>
-<h3 id="6-practica-b-choose-between-hay-or-esta">6. Práctica - B. Choose between 'Hay' or 'Está'</h3>
-<ol>
-<li>
+<h3>6. Práctica - B. Choose between 'Hay' or 'Está'</h3>
 <ol>
 <li>hay</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>está</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>están</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>hay</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>está</li>
 </ol>
-</li>
-</ol>
-<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
-<ol>
-<li>
+<h3>6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Hay un libro encima de la silla.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Mi casa es muy tranquila y limpia.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>El baño está al lado de la cocina.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>¿Cuántas ventanas hay en el salón?</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>La televisión está delante del sofá.</li>
 </ol>
-</li>
-</ol>
-<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
+<h3>7. Lectura - Preguntas</h3>
 <ol>
-<li>
-<ol>
-<li>시끄러운 아파트가 싫기 때문입니다. (Porque no quiere vivir en un piso ruidoso.)</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>산과 작은 강이 있습니다. (La montaña y un pequeño río.)</li>
-</ol>
-</li>
+<li>Porque no quiere vivir en un piso ruidoso. (시끄러운 아파트가 싫기 때문입니다)</li>
+<li>La montaña y un pequeño río. (산과 작은 강이 있습니다)</li>
 </ol>
 </div>
 </body>

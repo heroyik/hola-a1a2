@@ -1,30 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch04_a1_familia_amigos.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1.5pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
 
 :root {
     --spanish-red: #A93226;
@@ -42,36 +22,35 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 40pt 0 15pt 0;
+    margin: 20pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -1pt;
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -80,8 +59,6 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
 }
 
 h2::before {
@@ -94,365 +71,146 @@ h2::before {
     border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 25pt 0 10pt 0;
-    background-color: var(--spanish-ochre-light);
-    padding: 6pt 12pt;
-    border-radius: 5pt;
-    border-left: 4pt solid var(--spanish-ochre);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 20pt 0 8pt 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5pt;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 20pt 25pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-    font-style: italic;
-    color: var(--slate-grey);
-    position: relative;
-}
-
-/* ─── TABLES (HIGH-END DESIGN) ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 20pt 0 25pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 10pt;
-    overflow: hidden;
-    box-shadow: var(--shadow-premium);
-    background-color: var(--bg-white);
-    page-break-inside: avoid;
-}
-
-thead {
-    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
-    color: white;
-}
-
-th {
-    padding: 12pt 15pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2pt;
-    font-size: 8.5pt;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-td {
-    padding: 10pt 15pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    transition: background-color 0.2s ease;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FDFDFD;
-}
-
-tr:hover td {
-    background-color: var(--spanish-ochre-light);
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 5pt 15pt 5pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 8pt;
-    margin-bottom: 20pt;
-    text-align: left;
-    font-style: italic;
-}
-
-em {
-    font-style: italic;
-    color: var(--spanish-red);
-    font-weight: 500;
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-important {
-    background: var(--spanish-ochre-light);
-    border-left: 6pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-.admonition-warning {
-    background: var(--spanish-red-light);
-    border-left: 6pt solid var(--spanish-red);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15pt;
-    margin: 25pt 0;
-    display: block;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-    border: 3pt solid var(--bg-white);
-}
-
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--spanish-ochre);
-    margin: 40pt 150pt;
-    opacity: 0.2;
-}
-
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 12pt 0 18pt 30pt;
-}
-
-li {
-    margin-bottom: 8pt;
-}
-
-li strong {
-    color: var(--slate-grey);
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1.5pt solid var(--spanish-ochre-light);
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: var(--spanish-red);
-}
-
-p {
-    margin: 8pt 0 12pt 0;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-red);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
-.cervantes-ref {
-    font-size: 10pt;
-    color: var(--text-light);
-    margin: 10pt 0 25pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 2pt solid var(--border-color);
-    padding-left: 10pt;
-}
-
-@media print {
-    body {
-        background-color: white;
-    }
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    hr {
-        margin: 40pt 100pt;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-4-familia-y-amigos-a1">Chapter 4: Familia y amigos (A1)</h1>
+    <div class="container"><h1>Chapter 4: Familia y amigos (A1)</h1>
 <p class="cervantes-ref">Cervantes: §4 Relaciones personales: 가족 구성원 명칭 및 기본적인 사회적 관계 표현</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>La familia es lo primero (가족이 최우선입니다)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>La familia es lo primero (가족이 최우선입니다)</strong><br>
 스페인어권 문화에서 가족은 삶의 중심이자 가장 중요한 사회적 단위입니다. 이번 장에서는 가족 구성원의 이름을 배우고, 지시사와 소유사를 활용해 나의 소중한 사람들을 소개하는 방법을 익힙니다. 또한 스페인의 특별한 일요일 가족 식사 문화인 'Comida familiar'에 대해서도 알아봅니다.</p>
-<h3 id="_1">학습 목표</h3>
+<h3>학습 목표</h3>
 <ul>
 <li>가족 및 친척 명칭 10개 이상 습득</li>
 <li>지시형용사(este, esta 등)와 소유형용사(mi, tu 등)의 정교한 활용</li>
 <li>가족의 나이와 생일을 묻고 답하기</li>
 <li>스페인의 가족 중심 문화와 축제 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인 사람들은 보통 두 개의 성(Apellido)을 가집니다. 첫 번째 성은 아버지로부터, 두 번째 성은 어머니로부터 물려받습니다. 공식 문서에서는 두 성을 모두 사용하지만, 일상에서는 주로 첫 번째 성만 부르기도 합니다.</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>따뜻한 스페인 가정의 거실 풍경입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img alt="La Familia — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)" src="../images/ch04_a1_vocab_family_v10.png" /></p>
+<p><img src="../images/ch04_a1_vocab_family_v10.png" alt="La Familia — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">번호</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:center">번호</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">el abuelo</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">할아버지</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">el abuelo</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">할아버지</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">la abuela</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">할머니</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">la abuela</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">할머니</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">la madre (mamá)</td>
-<td style="text-align: left;">Maternal ✅ (→ mother)</td>
-<td style="text-align: left;">어머니 (엄마)</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">la madre (mamá)</td>
+<td style="text-align:left">Maternal ✅ (→ mother)</td>
+<td style="text-align:left">어머니 (엄마)</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">el padre (papá)</td>
-<td style="text-align: left;">Paternal ✅ (→ father)</td>
-<td style="text-align: left;">아버지 (아빠)</td>
+<td style="text-align:center">4</td>
+<td style="text-align:left">el padre (papá)</td>
+<td style="text-align:left">Paternal ✅ (→ father)</td>
+<td style="text-align:left">아버지 (아빠)</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">la hermana</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">여자 형제 (누나/언니/여동생)</td>
+<td style="text-align:center">5</td>
+<td style="text-align:left">la hermana</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">여자 형제 (누나/언니/여동생)</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">el hermano</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">남자 형제 (형/오빠/남동생)</td>
+<td style="text-align:center">6</td>
+<td style="text-align:left">el hermano</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">남자 형제 (형/오빠/남동생)</td>
 </tr>
 <tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">el primo</td>
-<td style="text-align: left;">Primary (First social contact)</td>
-<td style="text-align: left;">사촌 (남자)</td>
+<td style="text-align:center">7</td>
+<td style="text-align:left">el primo</td>
+<td style="text-align:left">Primary (First social contact)</td>
+<td style="text-align:left">사촌 (남자)</td>
 </tr>
 <tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">la niña / la hija</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">소녀 / 딸</td>
+<td style="text-align:center">8</td>
+<td style="text-align:left">la niña / la hija</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">소녀 / 딸</td>
 </tr>
 <tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">el perro</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">개 (강아지) — 반려 동물도 가족!</td>
+<td style="text-align:center">9</td>
+<td style="text-align:left">el perro</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">개 (강아지) — 반려 동물도 가족!</td>
 </tr>
 <tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">el niño / el hijo</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">소년 / 아들</td>
+<td style="text-align:center">10</td>
+<td style="text-align:left">el niño / el hijo</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">소년 / 아들</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원이 같거나 매우 유사한 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>가족과 친구를 소개하고 관계를 설명할 때 사용하는 핵심 표현입니다.</p>
-<h3 id="a">A. 가족 소개하기</h3>
+<h3>A. 가족 소개하기</h3>
 <ul>
-<li><strong>Este es mi padre.</strong> (This is my father. / 이분은 나의 아버지입니다.)</li>
-<li>💡 <strong>English Bridge</strong>: "Este" = This (<strong>Este</strong> sounds like "<strong>Este</strong>em" — someone you hold in high regard!)</li>
+<li><strong>Este es mi padre.</strong> (This is my father. / 이분은 나의 아버지입니다.)
+<ul>
+<li>💡 <strong>English Bridge</strong>: &quot;Este&quot; = This (<strong>Este</strong> sounds like &quot;<strong>Este</strong>em&quot; — someone you hold in high regard!)</li>
+</ul>
+</li>
 <li><strong>Esta es mi madre.</strong> (This is my mother. / 이분은 나의 어머니입니다.)</li>
 <li><strong>Estos son mis hermanos.</strong> (These are my siblings. / 이들은 나의 형제들입니다.)</li>
 <li><strong>¿Quién es esa chica?</strong> (Who is that girl? / 저 소녀는 누구니?)</li>
 </ul>
-<h3 id="b">B. 나이와 관계 묻기</h3>
+<h3>B. 나이와 관계 묻기</h3>
 <ul>
 <li><strong>¿Cuántos hermanos tienes?</strong> (How many siblings do you have? / 형제가 몇 명이니?)</li>
 <li><strong>Tengo dos hermanos y una hermana.</strong> (I have two brothers and one sister. / 나는 남동생 둘과 여동생 하나가 있어.)</li>
 <li><strong>¿Cómo se llama tu primo?</strong> (What is your cousin's name? / 네 사촌 이름이 뭐니?)</li>
 </ul>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>이번 장에서는 소유와 지칭을 위한 핵심 문법인 소유형용사와 지시형용사를 배웁니다.</p>
-<h3 id="a-adjetivos-posesivos">A. 소유형용사 (Adjetivos Posesivos) — 전치형</h3>
+<h3>A. 소유형용사 (Adjetivos Posesivos) — 전치형</h3>
 <p>명사 앞에 위치하여 '나의', '너의' 등의 소유를 나타냅니다.</p>
-<p><strong>English Bridge</strong>: English has "my, your, his, her, our, their" — Spanish works similarly, but <strong>nosotros/vosotros</strong> forms <strong>change for gender</strong> (nuestr<strong>o</strong> vs. nuestr<strong>a</strong>), which English doesn't do.</p>
+<p><strong>English Bridge</strong>: English has &quot;my, your, his, her, our, their&quot; — Spanish works similarly, but <strong>nosotros/vosotros</strong> forms <strong>change for gender</strong> (nuestr<strong>o</strong> vs. nuestr<strong>a</strong>), which English doesn't do.</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -496,12 +254,11 @@ h3:has(+ ol) {
   </tbody>
 </table>
 </div>
-
-<div class="admonition-important"><strong>💡 Important</strong><br/><br />
-<strong>Korean Tip</strong>: 한국어에서는 "우리 엄마", "우리 집"처럼 복수형을 즐겨 쓰지만, 스페인어에서는 철저히 개별 소유를 따집니다. 나 혼자만의 어머니라면 <em>nuestra madre</em>가 아니라 <strong>mi madre</strong>라고 해야 합니다.</div>
-<h3 id="b-adjetivos-demostrativos">B. 지시형용사 (Adjetivos Demostrativos)</h3>
+<div class="admonition-important"><strong>💡 important</strong><br/><br>
+<strong>Korean Tip</strong>: 한국어에서는 &quot;우리 엄마&quot;, &quot;우리 집&quot;처럼 복수형을 즐겨 쓰지만, 스페인어에서는 철저히 개별 소유를 따집니다. 나 혼자만의 어머니라면 <em>nuestra madre</em>가 아니라 <strong>mi madre</strong>라고 해야 합니다.</div>
+<h3>B. 지시형용사 (Adjetivos Demostrativos)</h3>
 <p>가까이 있거나 멀리 있는 것을 가리킬 때 사용합니다.</p>
-<p><strong>English Bridge</strong>: English has two levels: <strong>this/these</strong> (near) and <strong>that/those</strong> (far). Spanish has <strong>three levels</strong>: near (este), middle (ese), and far (aquel). Think of it as "here / there / way over there."</p>
+<p><strong>English Bridge</strong>: English has two levels: <strong>this/these</strong> (near) and <strong>that/those</strong> (far). Spanish has <strong>three levels</strong>: near (este), middle (ese), and far (aquel). Think of it as &quot;here / there / way over there.&quot;</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -538,50 +295,49 @@ h3:has(+ ol) {
   </tbody>
 </table>
 </div>
-
-<hr />
-<h2 id="5-cultura-viva-la-comida-familiar-de-domingo">5. Cultura Viva: La Comida Familiar de Domingo 🍲</h2>
+<hr>
+<h2>5. Cultura Viva: La Comida Familiar de Domingo 🍲</h2>
 <p>스페인에서 일요일 오후는 가족이 하나로 뭉치는 성스러운 시간입니다.</p>
 <p>En España, la familia es el pilar de la sociedad. Una de las tradiciones más vivas es la comida familiar de los domingos. A partir de las dos o tres de la tarde, varias generaciones (abuelos, padres, hijos y primos) se reúnen alrededor de una mesa grande. Normalmente se sirve paella, asado o una gran variedad de tapas.</p>
 <p>Lo más importante no es solo la comida, sino la <strong>sobremesa</strong>. La sobremesa es el tiempo que se pasa hablando después de comer, relajadamente, con café o postre. Puede durar horas. Es el momento de compartir noticias, reír y fortalecer los lazos familiares. Esta cultura demuestra el carácter sociable y cariñoso de los españoles.</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 스페인에서 가족은 사회의 기둥입니다. 가장 살아있는 전통 중 하나는 일요일의 가족 식사입니다. 오후 2시나 3시부터 여러 세대(조부모, 부모, 자녀, 사촌)가 큰 탁자에 둘러앉습니다. 보통 파에야, 구이 요리 또는 다양한 타파스가 제공됩니다.</p>
-<p>가장 중요한 것은 음식뿐만 아니라 <strong>소브레메사(sobremesa)</strong>입니다. 소브레메사는 식사를 마친 후 커피나 디저트를 곁들이며 여유롭게 이야기를 나누는 시간입니다. 이 시간은 몇 시간 동안 지속될 수 있습니다. 소식을 공유하고 웃으며 가족 간의 유대를 강화하는 시간입니다.</p>
-<p><img alt="스페인 일요일 가족 식사 (La Comida Familiar de Domingo)" src="../images/ch04_a1_culture_celebration_v10.png" /></p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<h3 id="a-match-the-word">A. Match the word (알맞은 단어를 연결하세요)</h3>
+<p>가장 중요한 것은 음식뿐만 아니라 **소브레메사(sobremesa)**입니다. 소브레메사는 식사를 마친 후 커피나 디저트를 곁들이며 여유롭게 이야기를 나누는 시간입니다. 이 시간은 몇 시간 동안 지속될 수 있습니다. 소식을 공유하고 웃으며 가족 간의 유대를 강화하는 시간입니다.</p>
+<p><img src="../images/ch04_a1_culture_celebration_v10.png" alt="스페인 일요일 가족 식사 (La Comida Familiar de Domingo)"></p>
+<hr>
+<h2>6. Práctica</h2>
+<h3>A. Match the word (알맞은 단어를 연결하세요)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English / Korean</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English / Korean</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. El tío</td>
-<td style="text-align: left;">a. Grandmother</td>
+<td style="text-align:left">1. El tío</td>
+<td style="text-align:left">a. Grandmother</td>
 </tr>
 <tr>
-<td style="text-align: left;">2. La abuela</td>
-<td style="text-align: left;">b. Daughter</td>
+<td style="text-align:left">2. La abuela</td>
+<td style="text-align:left">b. Daughter</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. El primo</td>
-<td style="text-align: left;">c. Uncle</td>
+<td style="text-align:left">3. El primo</td>
+<td style="text-align:left">c. Uncle</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. La hija</td>
-<td style="text-align: left;">d. Brother</td>
+<td style="text-align:left">4. La hija</td>
+<td style="text-align:left">d. Brother</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. El hermano</td>
-<td style="text-align: left;">e. Cousin</td>
+<td style="text-align:left">5. El hermano</td>
+<td style="text-align:left">e. Cousin</td>
 </tr>
 </tbody>
 </table>
-<h3 id="b-fill-in-the-blanks-with-the-correct-possessive">B. Fill in the blanks with the correct possessive (알맞은 소유형용사를 쓰세요)</h3>
+<h3>B. Fill in the blanks with the correct possessive (알맞은 소유형용사를 쓰세요)</h3>
 <ol>
 <li>Yo tengo un perro. (______) perro es grande.</li>
 <li>Tú tienes una casa. (______) casa es blanca.</li>
@@ -589,34 +345,34 @@ h3:has(+ ol) {
 <li>Ella tiene dos hermanos. (______) hermanos son simpáticos.</li>
 <li>Vosotros tenéis una tía. (______) tía vive en Madrid.</li>
 </ol>
-<h3 id="c">C. 번역 연습 (스페인어로 번역하세요)</h3>
+<h3>C. 번역 연습 (스페인어로 번역하세요)</h3>
 <ol>
-<li>이분은 나의 할머니입니다.<br />
-   (............................................................)</li>
-<li>저 소녀는 나의 사촌(여)입니다.<br />
-   (............................................................)</li>
-<li>너의 부모님은 어디에 계시니?<br />
-   (............................................................)</li>
-<li>우리들의 아버지는 의사입니다.<br />
-   (............................................................)</li>
-<li>이 아이들은 나의 아들들입니다.<br />
-   (............................................................)</li>
+<li>이분은 나의 할머니입니다.<br>
+(............................................................)</li>
+<li>저 소녀는 나의 사촌(여)입니다.<br>
+(............................................................)</li>
+<li>너의 부모님은 어디에 계시니?<br>
+(............................................................)</li>
+<li>우리들의 아버지는 의사입니다.<br>
+(............................................................)</li>
+<li>이 아이들은 나의 아들들입니다.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
-<h3 id="la-familia-de-sofia">La familia de Sofía (소피아의 가족)</h3>
+<hr>
+<h2>7. Lectura 📖</h2>
+<h3>La familia de Sofía (소피아의 가족)</h3>
 <p>Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi hermano menor, Pablo. Mi padre es ingeniero y su nombre es Manuel. Mi madre es profesora y su nombre es Carmen. También tenemos un perro que se llama 'Sol'. Los domingos, mis abuelos vienen a nuestra casa para la comida. Mi abuelo Pedro tiene setenta años y mi abuela Rosa tiene sesenta y ocho. ¡Amo a mi familia!</p>
-<h3 id="preguntas">Preguntas (질문)</h3>
+<h3>Preguntas (질문)</h3>
 <ol>
 <li>¿Quién es Pablo? (파블로는 누구인가요?)</li>
 <li>¿Cuál es la profesión de Manuel? (마누엘의 직업은 무엇인가요?)</li>
 </ol>
 <p><strong>[한국어 번역]</strong></p>
-<h4 id="_2">소피아의 가족</h4>
+<h4>소피아의 가족</h4>
 <p>안녕하세요, 제 이름은 소피아입니다. 우리 가족은 그리 크지 않아요. 저는 부모님과 남동생 파블로와 함께 삽니다. 우리 아버지는 엔지니어이시고 성함은 마누엘입니다. 어머니는 선생님이시고 성함은 카르멘입니다. 우리는 또한 '솔'이라고 불리는 강아지도 한 마리 있어요. 일요일마다 조부모님이 식사를 하러 우리 집에 오십니다. 할아버지 페드로는 70세이시고 할머니 로사는 68세이십니다. 나는 우리 가족을 사랑해요!</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
-<h3 id="en-una-fiesta-de-cumpleanos">En una fiesta de cumpleaños (생일 파티에서)</h3>
+<hr>
+<h2>8. Diálogo</h2>
+<h3>En una fiesta de cumpleaños (생일 파티에서)</h3>
 <p><strong>Situación:</strong> Lucía invita a su amigo Mark a su fiesta de cumpleaños en Barcelona. Mark conoce a los miembros de la familia de Lucía por primera vez.</p>
 <p><strong>상황:</strong> 루시아는 바르셀로나에서 열린 자신의 생일 파티에 친구 마크를 초대합니다. 마크는 루시아의 가족들을 처음으로 소개받습니다.</p>
 <table class="dialogue-table">
@@ -669,9 +425,8 @@ h3:has(+ ol) {
     </tr>
   </tbody>
 </table>
-
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
+<hr>
+<h2>9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 조부모, 부모, 형제 등 주요 가족 명칭 <strong>10개 이상</strong>을 외웠다.</li>
@@ -680,85 +435,37 @@ h3:has(+ ol) {
 <li>[ ] 지시형용사(<strong>este, ese, aquel</strong>)의 거리 3단계를 이해했다.</li>
 <li>[ ] 스페인의 일요일 가족 식사 문화와 '<strong>sobremesa</strong>'의 의미를 알고 있다.</li>
 </ul>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Buen trabajo! 🎉 이번 장을 통해 여러분은 스페인어로 자신의 뿌리인 가족을 소개하고 지칭하는 법을 배웠습니다.</p>
-<p>스페인어권 사람들과 대화할 때 가족 이야기는 가장 좋은 아이스브레이킹 주제 중 하나입니다. 영어에는 "this/that" 두 단계만 있지만, 스페인어에는 <strong>este/ese/aquel</strong> 세 단계가 있다는 점을 기억하세요!</p>
+<p>스페인어권 사람들과 대화할 때 가족 이야기는 가장 좋은 아이스브레이킹 주제 중 하나입니다. 영어에는 &quot;this/that&quot; 두 단계만 있지만, 스페인어에는 <strong>este/ese/aquel</strong> 세 단계가 있다는 점을 기억하세요!</p>
 <p>다음 장에서는 우리가 매일 먹고 마시는 즐거움인 '<strong>음식</strong>'의 세계로 떠나보겠습니다. ¡Hasta pronto!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<h3 id="6-practica-a-match-the-word">6. Práctica - A. Match the word</h3>
+<hr>
+<h2>11. Soluciones</h2>
+<h3>6. Práctica - A. Match the word</h3>
 <ol>
 <li>1-c, 2-a, 3-e, 4-b, 5-d</li>
 </ol>
-<h3 id="6-practica-b-fill-in-the-blanks">6. Práctica - B. Fill in the blanks</h3>
-<ol>
-<li>
+<h3>6. Práctica - B. Fill in the blanks</h3>
 <ol>
 <li>Mi</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Tu</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Nuestro</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Sus</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Vuestra</li>
 </ol>
-</li>
-</ol>
-<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
-<ol>
-<li>
+<h3>6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Esta es mi abuela.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Aquella niña es mi prima.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>¿Dónde están tus padres?</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Nuestro padre es médico.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Estos niños son mis hijos.</li>
 </ol>
-</li>
-</ol>
-<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
+<h3>7. Lectura - Preguntas</h3>
 <ol>
-<li>
-<ol>
-<li>Pablo es el hermano menor de Sofía.</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>Manuel es ingeniero.</li>
-</ol>
-</li>
+<li>Pablo es el hermano menor de Sofía. (파블로는 소피아의 남동생입니다.)</li>
+<li>Manuel es ingeniero. (마누엘은 엔지니어입니다.)</li>
 </ol>
 </div>
 </body>

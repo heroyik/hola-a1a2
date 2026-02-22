@@ -1,30 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch08_a1_el_trabajo.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1.5pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
 
 :root {
     --spanish-red: #A93226;
@@ -42,36 +22,35 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 40pt 0 15pt 0;
+    margin: 20pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -1pt;
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -80,8 +59,6 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
 }
 
 h2::before {
@@ -94,269 +71,47 @@ h2::before {
     border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 25pt 0 10pt 0;
-    background-color: var(--spanish-ochre-light);
-    padding: 6pt 12pt;
-    border-radius: 5pt;
-    border-left: 4pt solid var(--spanish-ochre);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 20pt 0 8pt 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5pt;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 20pt 25pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-    font-style: italic;
-    color: var(--slate-grey);
-    position: relative;
-}
-
-/* ─── TABLES (HIGH-END DESIGN) ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 20pt 0 25pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 10pt;
-    overflow: hidden;
-    box-shadow: var(--shadow-premium);
-    background-color: var(--bg-white);
-    page-break-inside: avoid;
-}
-
-thead {
-    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
-    color: white;
-}
-
-th {
-    padding: 12pt 15pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2pt;
-    font-size: 8.5pt;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-td {
-    padding: 10pt 15pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    transition: background-color 0.2s ease;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FDFDFD;
-}
-
-tr:hover td {
-    background-color: var(--spanish-ochre-light);
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 5pt 15pt 5pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 8pt;
-    margin-bottom: 20pt;
-    text-align: left;
-    font-style: italic;
-}
-
-em {
-    font-style: italic;
-    color: var(--spanish-red);
-    font-weight: 500;
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-important {
-    background: var(--spanish-ochre-light);
-    border-left: 6pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-.admonition-warning {
-    background: var(--spanish-red-light);
-    border-left: 6pt solid var(--spanish-red);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15pt;
-    margin: 25pt 0;
-    display: block;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-    border: 3pt solid var(--bg-white);
-}
-
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--spanish-ochre);
-    margin: 40pt 150pt;
-    opacity: 0.2;
-}
-
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 12pt 0 18pt 30pt;
-}
-
-li {
-    margin-bottom: 8pt;
-}
-
-li strong {
-    color: var(--slate-grey);
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1.5pt solid var(--spanish-ochre-light);
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: var(--spanish-red);
-}
-
-p {
-    margin: 8pt 0 12pt 0;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-red);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
-.cervantes-ref {
-    font-size: 10pt;
-    color: var(--text-light);
-    margin: 10pt 0 25pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 2pt solid var(--border-color);
-    padding-left: 10pt;
-}
-
-@media print {
-    body {
-        background-color: white;
-    }
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    hr {
-        margin: 40pt 100pt;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-8-el-trabajo-a1">Chapter 8: El trabajo (A1)</h1>
+    <div class="container"><h1>Chapter 8: El trabajo (A1)</h1>
 <p class="cervantes-ref">Cervantes: §7 Trabajo: 직업 명칭, 업무 장소 및 기초적인 노동 관련 표현</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>El trabajo: Nuestra vida diaria (일: 우리의 일상)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>El trabajo: Nuestra vida diaria (일: 우리의 일상)</strong><br>
 우리는 매일 다양한 직업을 가진 사람들을 만납니다. 학교에서는 선생님을, 병원에서는 의사를, 카페에서는 웨이터를 만나죠. 이번 장에서는 스페인어로 다양한 직업의 이름을 배우고, 내가 무엇을 하는 사람인지, 어디에서 일하는지 표현하는 방법을 익힙니다. 또한 규칙 동사 'trabajar(일하다)'의 변화를 통해 일상적인 업무 활동을 말해봅니다. 스페인의 독특한 업무 문화와 열정적인 직업 세계로 함께 들어가 볼까요?</p>
-<h3 id="_1">학습 목표</h3>
+<h3>학습 목표</h3>
 <ul>
 <li>주요 직업 명칭 및 업무 장소 어휘 15개 이상 습득</li>
 <li>'trabajar(일하다)' 동사의 현재 시제 변화 및 활용</li>
 <li>직업을 묻고 답하는 필수 패턴 익히기 (¿A qué te dedicas?)</li>
 <li>스페인의 전형적인 업무 시간과 직장 문화 이해</li>
 </ul>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
-<strong>¿Sabías que...?</strong> 스페인어에서 직업을 말할 때는 관사(un, una)를 쓰지 않는 경우가 많습니다. 예를 들어 "나는 의사야"라고 할 때 "Soy un médico" 대신 "Soy médico"라고 짧게 말하죠. 영어와는 다른 이 작은 특징만 알아도 훨씬 자연스러운 스페인어를 구사할 수 있습니다!</div>
-<hr />
-<h2 id="2-vocabulario-esencial-profesiones-y-lugares">2. Vocabulario Esencial: Profesiones y Lugares</h2>
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
+<strong>¿Sabías que...?</strong> 스페인어에서 직업을 말할 때는 관사(un, una)를 쓰지 않는 경우가 많습니다. 예를 들어 &quot;나는 의사야&quot;라고 할 때 &quot;Soy un médico&quot; 대신 &quot;Soy médico&quot;라고 짧게 말하죠. 영어와는 다른 이 작은 특징만 알아도 훨씬 자연스러운 스페인어를 구사할 수 있습니다!</div>
+<hr>
+<h2>2. Vocabulario Esencial: Profesiones y Lugares</h2>
 <p>모던한 애니메이션 스타일로 표현된 다양한 직업의 세계입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.</p>
-<p><img alt="Profesiones" src="../images/ch08_a1_vocab_jobs_v2_1.png" /></p>
+<p><img src="../images/ch08_a1_vocab_office_v10.png" alt="Profesiones — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -379,65 +134,98 @@ h3:has(+ ol) {
     <tr><td>10</td><td><strong>el hospital</strong></td><td><strong>Hospital</strong> ✅ (Perfect Cognate)</td><td>병원</td></tr>
   </tbody>
 </table>
-
 <p>✅ 표시된 단어는 영어와 어원의 뿌리가 같은 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>직업과 관련된 대화에서 가장 많이 사용되는 핵심 패턴입니다.</p>
-<h3 id="a">A. 직업 묻고 답하기</h3>
+<h3>A. 직업 묻고 답하기</h3>
 <ul>
 <li><strong>¿A qué te dedicas?</strong> (What do you do? / 무슨 일을 하시나요?)</li>
 <li><strong>¿Cuál es tu profesión?</strong> (What is your profession? / 직업이 무엇인가요?)</li>
 <li><strong>Soy médico.</strong> (I am a doctor. / 저는 의사입니다.)</li>
 <li><strong>Trabajo como camarero.</strong> (I work as a waiter. / 저는 웨이터로 일해요.)</li>
 </ul>
-<h3 id="b">B. 일하는 장소 표현하기</h3>
+<h3>B. 일하는 장소 표현하기</h3>
 <ul>
 <li><strong>¿Dónde trabajas?</strong> (Where do you work? / 어디에서 일하세요?)</li>
 <li><strong>Trabajo en una oficina.</strong> (I work in an office. / 저는 사무실에서 일합니다.)</li>
 <li><strong>Mi empresa está en Madrid.</strong> (My company is in Madrid. / 제 회사는 마드리드에 있어요.)</li>
 <li><strong>Trabajo desde casa.</strong> (I work from home. / 저는 재택근무를 합니다.)</li>
 </ul>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>직업을 표현할 때 꼭 필요한 'Ser' 동사의 복습과 'Trabajar' 동사의 활용을 배워봅시다.</p>
-<h3 id="a-ser-presente">A. Ser + 직업 (Presente)</h3>
+<h3>A. Ser + 직업 (Presente)</h3>
 <p>주어의 신분이나 직업을 나타낼 때는 <code>Ser</code> 동사를 사용합니다. 이때 직업 앞에 관사(un, una)를 생략하는 것이 표준입니다.</p>
 <ul>
 <li><strong>Yo soy profesor.</strong> (나는 선생님이다.)</li>
 <li><strong>Ella es ingeniera.</strong> (그녀는 엔지니어이다.)</li>
 </ul>
-<h3 id="b-trabajar-presente">B. Trabajar (일하다) - 현재형 (Presente)</h3>
-<p>'trabajar'는 전형적인 -ar 규칙 동사입니다.</p>
-<table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
-  <thead style="background-color: #f2f2f2;">
+<h3>B. Verbos Regulares (규칙 동사) - 현재형 (Presente)</h3>
+<p>스페인어 동사는 어미에 따라 세 가지 그룹(-ar, -er, -ir)으로 나뉩니다. 각 그룹의 대표적인 규칙 동사인 <strong>Hablar</strong>(말하다), <strong>Comer</strong>(먹다), <strong>Vivir</strong>(살다)의 변화를 통해 규칙을 익혀봅시다.</p>
+<div class="table-container">
+<table class="conjugation-table">
+  <thead>
     <tr>
-      <th style="padding: 10px; border: 1px solid #ddd;">주어 (Subject)</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">Trabajar</th>
-      <th style="padding: 10px; border: 1px solid #ddd;">영어 매핑 (to work)</th>
+      <th>주어 (Subject)</th>
+      <th>-ar (Hablar)</th>
+      <th>-er (Comer)</th>
+      <th>-ir (Vivir)</th>
     </tr>
   </thead>
   <tbody>
-    <tr><td><strong>Yo</strong></td><td>trabaj<strong>o</strong></td><td>I work</td></tr>
-    <tr><td><strong>Tú</strong></td><td>trabaj<strong>as</strong></td><td>You work</td></tr>
-    <tr><td><strong>Él, Ella, Ud.</strong></td><td>trabaj<strong>a</strong></td><td>He, She, You work</td></tr>
-    <tr><td><strong>Nosotros</strong></td><td>trabaj<strong>amos</strong></td><td>We work</td></tr>
-    <tr><td><strong>Vosotros</strong></td><td>trabaj<strong>áis</strong></td><td>You all work</td></tr>
-    <tr><td><strong>Ellos, Ellas, Uds.</strong></td><td>trabaj<strong>an</strong></td><td>They, You all work</td></tr>
+    <tr>
+      <td><strong>Yo</strong></td>
+      <td>habl<strong>o</strong></td>
+      <td>com<strong>o</strong></td>
+      <td>viv<strong>o</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Tú</strong></td>
+      <td>habl<strong>as</strong></td>
+      <td>com<strong>es</strong></td>
+      <td>viv<strong>es</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Él, Ella, Ud.</strong></td>
+      <td>habl<strong>a</strong></td>
+      <td>com<strong>e</strong></td>
+      <td>viv<strong>e</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Nosotros/as</strong></td>
+      <td>habl<strong>amos</strong></td>
+      <td>com<strong>emos</strong></td>
+      <td>viv<strong>imos</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Vosotros/as</strong></td>
+      <td>habl<strong>áis</strong></td>
+      <td>com<strong>éis</strong></td>
+      <td>viv<strong>ís</strong></td>
+    </tr>
+    <tr>
+      <td><strong>Ellos, Ellas, Uds.</strong></td>
+      <td>habl<strong>an</strong></td>
+      <td>com<strong>en</strong></td>
+      <td>viv<strong>en</strong></td>
+    </tr>
   </tbody>
 </table>
-
-<h3 id="english-bridge-stem-ending">💡 English Bridge: Stem &amp; Ending</h3>
+</div>
+<div class="admonition-tip"><strong>💡 note</strong><br/><br>
+'Trabajar(일하다)' 역시 전형적인 -ar 규칙 동사로, 위의 <strong>Hablar</strong>와 동일한 어미 변화(o, as, a, amos, áis, an)를 따릅니다.</div>
+<h3>💡 English Bridge: Stem &amp; Ending</h3>
 <ul>
 <li><strong>Stem (어근)</strong>: 동사의 의미를 담고 있는 앞부분</li>
 <li><strong>Ending (어미)</strong>: 주어에 따라 변하는 뒷부분</li>
 </ul>
-<h3 id="korean-tip">💡 Korean Tip</h3>
+<h3>💡 Korean Tip</h3>
 <p>직업을 말할 때 관사를 생략하는 스페인어만의 독특한 규칙을 꼭 기억하세요!</p>
-<h3 id="mandatory-irregulars-presente">Mandatory Irregulars (Presente)</h3>
-<div class="admonition-important"><strong>💡 Important</strong><br/><br />
+<h3>Mandatory Irregulars (Presente)</h3>
+<div class="admonition-important"><strong>💡 important</strong><br/><br>
 <strong>Ser vs Estar</strong>: <code>Soy el jefe</code> (Title/Identity) vs <code>Estoy en el despacho</code> (Location).</div>
-<h3 id="c-participio-irregulares">C. Participio (과거분사) - Irregulares (미리보기)</h3>
+<h3>C. Participio (과거분사) - Irregulares (미리보기)</h3>
 <p>비록 이번 장의 핵심은 아니지만, 나중에 배울 '완료' 시제에서 자주 쓰이는 불규칙 과거분사 형태들을 눈에 익혀두면 좋습니다:</p>
 <ul>
 <li><strong>hacer</strong> (하다) → <strong>hecho</strong></li>
@@ -449,25 +237,25 @@ h3:has(+ ol) {
 <li><strong>leer</strong> (읽다) → <strong>leído</strong></li>
 <li><strong>romper</strong> (깨다) → <strong>roto</strong></li>
 </ul>
-<h3 id="d-verbos-regulares-revision">D. Verbos Regulares (Revisión)</h3>
+<h3>D. Verbos Regulares (Revisión)</h3>
 <p>스페인어 동사의 가장 기본이 되는 규칙 변화 동사들입니다:</p>
 <ul>
 <li><strong>Hablar</strong> (말하다): Yo <strong>hablo</strong> español.</li>
 <li><strong>Comer</strong> (먹다): Yo <strong>como</strong> paella.</li>
 <li><strong>Vivir</strong> (살다): Yo <strong>vivo</strong> en Seúl.</li>
 </ul>
-<hr />
-<h2 id="5-cultura-viva-el-ambiente-laboral-en-espana">5. Cultura Viva: El Ambiente Laboral en España</h2>
+<hr>
+<h2>5. Cultura Viva: El Ambiente Laboral en España</h2>
 <p>스페인의 직장 생활은 어떤 분위기일까요?</p>
-<p><img alt="Spanish Office" src="../images/ch08_a1_culture_office_v2_1.png" /></p>
+<p><img src="../images/ch08_a1_culture_office_v10.png" alt="스페인의 현대적인 사무실 풍경 — 점심시간 후의 여유"></p>
 <p>El horario de trabajo en España a menudo es diferente al de otros países de Europa. Muchas oficinas abren a las 9:00 y cierran a las 18:00 o 19:00, con una pausa larga para almorzar (la comida) entre las 14:00 y las 16:00. Este tiempo es ideal para socializar con los compañeros de trabajo.</p>
 <p>Aunque el concepto de la <strong>siesta</strong> está cambiando, la importancia de equilibrar el trabajo y la vida personal sigue siendo fundamental. Los españoles valoran mucho el café de la mañana y las reuniones informales. En las ciudades modernas como Madrid o Barcelona, el ambiente es dinámico, internacional y muy colaborativo.</p>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 스페인의 업무 시간은 유럽의 다른 나라들과 종종 다릅니다. 많은 사무실이 오전 9시에 열고 오후 6시나 7시에 닫는데, 오후 2시에서 4시 사이에 긴 점심시간(la comida)을 갖습니다. 이 시간은 직장 동료들과 사교 활동을 하기에 이상적입니다.</p>
-<p><strong>낮잠(siesta)</strong>의 개념이 변하고는 있지만, 일과 개인 생활의 균형(워라밸)을 중요하게 여기는 가치는 여전히 기본입니다. 스페인 사람들은 아침 커피 타임과 비격식적인 미팅을 매우 소중히 여깁니다. 마드리드나 바르셀로나 같은 현대적인 도시에서 업무 분위기는 역동적이고 국제적이며 매우 협력적입니다.</p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<h3 id="a-match-the-job-with-the-place">A. Match the job with the place (직업과 어울리는 장소를 연결하세요)</h3>
+<p>**낮잠(siesta)**의 개념이 변하고는 있지만, 일과 개인 생활의 균형(워라밸)을 중요하게 여기는 가치는 여전히 기본입니다. 스페인 사람들은 아침 커피 타임과 비격식적인 미팅을 매우 소중히 여깁니다. 마드리드나 바르셀로나 같은 현대적인 도시에서 업무 분위기는 역동적이고 국제적이며 매우 협력적입니다.</p>
+<hr>
+<h2>6. Práctica</h2>
+<h3>A. Match the job with the place (직업과 어울리는 장소를 연결하세요)</h3>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
     <tr>
@@ -483,8 +271,7 @@ h3:has(+ ol) {
     <tr><td style="padding: 10px; border: 1px solid #ddd;">5. El abogado</td><td style="padding: 10px; border: 1px solid #ddd;">e. La oficina</td></tr>
   </tbody>
 </table>
-
-<h3 id="b-trabajar">B. 동사 변형 연습 (괄호 안의 주어에 맞게 'trabajar'를 변형하세요)</h3>
+<h3>B. 동사 변형 연습 (괄호 안의 주어에 맞게 'trabajar'를 변형하세요)</h3>
 <ol>
 <li>Yo (..........) en una empresa grande. (trabajar)</li>
 <li>¿Tú (..........) los fines de semana? (trabajar)</li>
@@ -492,36 +279,42 @@ h3:has(+ ol) {
 <li>Mis padres (..........) en un hospital. (trabajar)</li>
 <li>Ella (..........) como dependienta. (trabajar)</li>
 </ol>
-<h3 id="c">C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)</h3>
+<h3>C. 번역 연습 (주어진 문장을 스페인어로 번역하세요)</h3>
 <ol>
-<li>저는 변호사입니다. (관사 생략 주의)<br />
-   (............................................................)</li>
-<li>당신은 무슨 일을 하시나요?<br />
-   (............................................................)</li>
-<li>우리는 마드리드에서 일해요.<br />
-   (............................................................)</li>
-<li>제 친구는 엔지니어입니다.<br />
-   (............................................................)</li>
-<li>너는 병원에서 일하니?<br />
-   (............................................................)</li>
+<li>저는 변호사입니다. (관사 생략 주의)<br>
+(............................................................)</li>
+<li>당신은 무슨 일을 하시나요?<br>
+(............................................................)</li>
+<li>우리는 마드리드에서 일해요.<br>
+(............................................................)</li>
+<li>제 친구는 엔지니어입니다.<br>
+(............................................................)</li>
+<li>너는 병원에서 일하니?<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
-<h3 id="mi-trabajo-ideal">Mi trabajo ideal (나의 이상적인 직업)</h3>
+<hr>
+<h2>7. Lectura 📖</h2>
+<h3>Mi trabajo ideal (나의 이상적인 직업)</h3>
 <p>¡Hola! Me llamo Carlos y soy de Sevilla. Trabajo como arquitecto en una oficina pequeña pero muy bonita. Mi trabajo es muy creativo y me gusta mucho. Empiezo a trabajar a las nueve de la mañana. A las dos, voy a un restaurante con mis compañeros para comer. Después, trabajamos hasta las seis de la tarde. No trabajo los sábados ni los domingos. En mi tiempo libre, me gusta pasear por la ciudad. Mi hermana es médica y trabaja en el hospital central. Ella trabaja muchas horas, pero está muy contenta.</p>
-<h3 id="questions">Questions</h3>
+<h3>Questions</h3>
 <ol>
-<li>Carlos의 직업은 무엇인가요? (What is Carlos's job?)</li>
+<li>Carlos의 직업은 무엇인가요? (What is Carlos's job?)
+<ul>
 <li>............................................................</li>
-<li>Carlos의 누나(여동생)는 어디에서 일하나요? (Where does Carlos's sister work?)</li>
+</ul>
+</li>
+<li>Carlos의 누나(여동생)는 어디에서 일하나요? (Where does Carlos's sister work?)
+<ul>
 <li>............................................................</li>
+</ul>
+</li>
 </ol>
-<p><strong>[한국어 번역]</strong><br />
+<p><strong>[한국어 번역]</strong><br>
 안녕하세요! 제 이름은 카를로스이고 세비야 출신입니다. 저는 작지만 매우 예쁜 사무실에서 건축가로 일합니다. 제 일은 매우 창의적이고 저는 제 일을 아주 좋아합니다. 저는 아침 9시에 일을 시작합니다. 2시에는 동료들과 함께 점심을 먹으러 식당에 갑니다. 그 후, 우리는 오후 6시까지 일합니다. 저는 토요일과 일요일에는 일하지 않습니다. 제 자유 시간에 저는 도시를 산책하는 것을 좋아합니다. 제 누나(여동생)는 의사이고 중앙 병원에서 일합니다. 그녀는 오랜 시간 일하지만 매우 기뻐합니다.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
-<h3 id="en-la-cafeteria">En la cafetería (카페테리아에서)</h3>
-<p><strong>Situación:</strong> Elena conoce a un nuevo amigo, Pablo, y hablan sobre sus trabajos.<br />
+<hr>
+<h2>8. Diálogo</h2>
+<h3>En la cafetería (카페테리아에서)</h3>
+<p><strong>Situación:</strong> Elena conoce a un nuevo amigo, Pablo, y hablan sobre sus trabajos.<br>
 <strong>상황:</strong> 엘레나가 새로운 친구 파블로를 만나 서로의 직업에 대해 이야기합니다.</p>
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: left;">
   <thead style="background-color: #f2f2f2;">
@@ -540,9 +333,8 @@ h3:has(+ ol) {
     <tr><td style="padding: 10px; border: 1px solid #ddd;"><strong>Elena:</strong> Trabajo en un restaurante italiano cerca de aquí.</td><td style="padding: 10px; border: 1px solid #ddd;"><strong>엘레나:</strong> 여기 근처에 있는 이탈리아 식당에서 일해.</td></tr>
   </tbody>
 </table>
-
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
+<hr>
+<h2>9. Repaso</h2>
 <p>이번 장의 핵심 내용을 복습해 보세요.</p>
 <ul>
 <li>[ ] 10개 이상의 직업 명칭을 스페인어로 말할 수 있나요?</li>
@@ -550,43 +342,27 @@ h3:has(+ ol) {
 <li>[ ] 직업을 말할 때 관사를 생략해야 한다는 규칙을 기억하나요?</li>
 <li>[ ] 스페인의 점심시간 특징과 직장 분위기를 이해했나요?</li>
 </ul>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
-<p>¡Buen trabajo! 오늘 여러분은 우리 삶의 중요한 부분인 '일'에 대해 말하는 법을 배웠습니다. "Soy médico", "Trabajo en una oficina"와 같은 짧은 문장들이 모여 여러분의 정체성을 스페인어로 표현할 수 있게 해줍니다. 직업 어휘는 앞으로 더 넓은 세상을 이해하는 데 큰 도움이 될 것입니다. 다음 장에서는 우리의 삶을 더욱 풍요롭게 해주는 '취미와 여가 생활'에 대해 깊이 있게 다뤄보겠습니다. ¡Hasta pronto!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<h3 id="6-practica-a-match-the-job-with-the-place">6. Práctica - A. Match the job with the place</h3>
+<hr>
+<h2>10. Cierre</h2>
+<p>¡Buen trabajo! 오늘 여러분은 우리 삶의 중요한 부분인 '일'에 대해 말하는 법을 배웠습니다. &quot;Soy médico&quot;, &quot;Trabajo en una oficina&quot;와 같은 짧은 문장들이 모여 여러분의 정체성을 스페인어로 표현할 수 있게 해줍니다. 직업 어휘는 앞으로 더 넓은 세상을 이해하는 데 큰 도움이 될 것입니다. 다음 장에서는 우리의 삶을 더욱 풍요롭게 해주는 '취미와 여가 생활'에 대해 깊이 있게 다뤄보겠습니다. ¡Hasta pronto!</p>
+<hr>
+<h2>11. Soluciones</h2>
+<h3>6. Práctica - A. Match the job with the place</h3>
 <ol>
 <li>1-b, 2-d, 3-a, 4-c, 5-e</li>
 </ol>
-<h3 id="6-practica-b">6. Práctica - B. 동사 변형 연습</h3>
-<ol>
-<li>
+<h3>6. Práctica - B. 동사 변형 연습</h3>
 <ol>
 <li>trabajo, 2. trabajas, 3. trabajamos, 4. trabajan, 5. trabaja</li>
 </ol>
-</li>
-</ol>
-<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
-<ol>
-<li>
+<h3>6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Soy abogado. (또는 Soy abogada.), 2. ¿A qué te dedicas? (또는 ¿Cuál es tu profesión?), 3. Trabajamos en Madrid., 4. Mi amigo es ingeniero. (또는 Mi amiga es ingeniera.), 5. ¿Trabajas en un hospital?</li>
 </ol>
-</li>
-</ol>
-<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
+<h3>7. Lectura - Preguntas</h3>
 <ol>
-<li>
-<ol>
-<li>건축가 (Arquitecto).</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>중앙 병원 (Hospital central).</li>
-</ol>
-</li>
+<li>Arquitecto. (건축가)</li>
+<li>Hospital central. (중앙 병원)</li>
 </ol>
 </div>
 </body>

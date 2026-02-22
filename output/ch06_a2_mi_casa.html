@@ -1,30 +1,10 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <title>Hola-AL · Chapter 1: Mi cuerpo 및 건강</title>
+    <meta charset="UTF-8">
+    <title>ch06_a2_mi_casa.md</title>
     <style>
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
-
-@page {
-    size: A4;
-    margin: 2.5cm 2cm 2.5cm 2cm;
-    @top-center {
-        content: "Hola-AL · Premium Spanish Learning";
-        font-family: 'Montserrat', sans-serif;
-        font-size: 7.5pt;
-        color: #b0b0b0;
-        text-transform: uppercase;
-        letter-spacing: 1.5pt;
-    }
-    @bottom-center {
-        content: counter(page);
-        font-family: 'Montserrat', sans-serif;
-        font-size: 9pt;
-        color: #A93226;
-        font-weight: 600;
-    }
-}
 
 :root {
     --spanish-red: #A93226;
@@ -42,36 +22,35 @@
     --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
 }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
 body {
     font-family: 'Inter', 'Noto Sans KR', sans-serif;
     font-size: 10.5pt;
     line-height: 1.8;
     color: var(--text-main);
     background-color: var(--bg-warm);
-    -webkit-font-smoothing: antialiased;
+    margin: 0;
+    padding: 0;
 }
 
-/* ─── CHAPTER TITLE ─── */
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
 h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 34pt;
     font-weight: 700;
     color: var(--spanish-red);
-    text-align: left;
-    margin: 40pt 0 15pt 0;
+    margin: 20pt 0 15pt 0;
     padding-bottom: 25pt;
     border-bottom: 5pt solid var(--spanish-ochre);
-    text-transform: uppercase;
-    letter-spacing: -1pt;
 }
 
-/* ─── SECTION HEADINGS ─── */
 h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 19pt;
@@ -80,8 +59,6 @@ h2 {
     margin: 40pt 0 15pt 0;
     padding-bottom: 8pt;
     border-bottom: 2px solid var(--border-color);
-    display: flex;
-    align-items: center;
 }
 
 h2::before {
@@ -94,375 +71,156 @@ h2::before {
     border-radius: 2pt;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14pt;
-    font-weight: 600;
-    color: var(--slate-grey);
-    margin: 25pt 0 10pt 0;
-    background-color: var(--spanish-ochre-light);
-    padding: 6pt 12pt;
-    border-radius: 5pt;
-    border-left: 4pt solid var(--spanish-ochre);
-}
-
-h4 {
-    font-size: 11pt;
-    font-weight: 600;
-    color: var(--spanish-olive);
-    margin: 20pt 0 8pt 0;
-    text-transform: uppercase;
-    letter-spacing: 0.5pt;
-}
-
-/* ─── BLOCKQUOTES ─── */
 blockquote {
     background: var(--bg-white);
     border-left: 5pt solid var(--spanish-red);
-    padding: 20pt 25pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-    font-style: italic;
-    color: var(--slate-grey);
-    position: relative;
-}
-
-/* ─── TABLES (HIGH-END DESIGN) ─── */
-table {
-    width: 100%;
-    border-collapse: separate;
-    border-spacing: 0;
-    margin: 20pt 0 25pt 0;
-    font-size: 9.5pt;
-    border: 1px solid var(--border-color);
-    border-radius: 10pt;
-    overflow: hidden;
-    box-shadow: var(--shadow-premium);
-    background-color: var(--bg-white);
-    page-break-inside: avoid;
-}
-
-thead {
-    background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%);
-    color: white;
-}
-
-th {
-    padding: 12pt 15pt;
-    text-align: left;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    letter-spacing: 1.2pt;
-    font-size: 8.5pt;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
-}
-
-td {
-    padding: 10pt 15pt;
-    border-bottom: 1px solid var(--border-color);
-    vertical-align: middle;
-    transition: background-color 0.2s ease;
-}
-
-tr:last-child td {
-    border-bottom: none;
-}
-
-tr:nth-child(even) {
-    background-color: #FDFDFD;
-}
-
-tr:hover td {
-    background-color: var(--spanish-ochre-light);
-}
-
-/* ─── BORDERLESS TABLES (for Matching Exercises) ─── */
-table.borderless {
-    border: none;
-    box-shadow: none;
-    border-radius: 0;
-    margin: 10pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless td {
-    border: none !important;
-    padding: 5pt 15pt 5pt 0;
-    background-color: transparent !important;
-}
-
-table.borderless tr:nth-child(even) {
-    background-color: transparent !important;
-}
-
-/* ─── LEGENDS & CAPTIONS ─── */
-.table-legend {
-    font-size: 8.5pt;
-    color: var(--text-light);
-    display: block;
-    margin-top: 8pt;
-    margin-bottom: 20pt;
-    text-align: left;
-    font-style: italic;
-}
-
-em {
-    font-style: italic;
-    color: var(--spanish-red);
-    font-weight: 500;
-}
-
-/* ─── ADMONITIONS ─── */
-.admonition-tip {
-    background: #EBF5FB;
-    border-left: 6pt solid #3498DB;
     padding: 15pt 20pt;
     margin: 20pt 0;
     border-radius: 10pt;
     box-shadow: var(--shadow-soft);
 }
 
-.admonition-important {
-    background: var(--spanish-ochre-light);
-    border-left: 6pt solid var(--spanish-ochre);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
 
-.admonition-warning {
-    background: var(--spanish-red-light);
-    border-left: 6pt solid var(--spanish-red);
-    padding: 15pt 20pt;
-    margin: 20pt 0;
-    border-radius: 10pt;
-    box-shadow: var(--shadow-soft);
-}
-
-/* ─── IMAGES ─── */
-img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 15pt;
-    margin: 25pt 0;
-    display: block;
-    box-shadow: 0 15px 35px rgba(0,0,0,0.12);
-    border: 3pt solid var(--bg-white);
-}
-
-/* ─── HR ─── */
-hr {
-    border: none;
-    border-top: 2pt solid var(--spanish-ochre);
-    margin: 40pt 150pt;
-    opacity: 0.2;
-}
-
-/* ─── LISTS ─── */
-ul, ol {
-    margin: 12pt 0 18pt 30pt;
-}
-
-li {
-    margin-bottom: 8pt;
-}
-
-li strong {
-    color: var(--slate-grey);
-}
-
-/* ─── LINKS ─── */
-a {
-    color: var(--spanish-red);
-    text-decoration: none;
-    font-weight: 500;
-    border-bottom: 1.5pt solid var(--spanish-ochre-light);
-    transition: all 0.2s ease;
-}
-
-a:hover {
-    border-bottom-color: var(--spanish-red);
-}
-
-p {
-    margin: 8pt 0 12pt 0;
-}
-
-/* ─── PRACTICE SECTION ─── */
-h3:has(+ table),
-h3:has(+ ol) {
-    color: var(--spanish-red);
-    border-left-color: var(--spanish-red);
-}
-
-/* ─── WEB READABILITY ─── */
-.container {
-    max-width: 900px;
-    margin: 40pt auto;
-    padding: 50pt 70pt;
-    background-color: var(--bg-white);
-    border-radius: 15pt;
-    box-shadow: var(--shadow-premium);
-}
-
-.cervantes-ref {
-    font-size: 10pt;
-    color: var(--text-light);
-    margin: 10pt 0 25pt 0;
-    line-height: 1.6;
-    font-weight: 400;
-    font-style: italic;
-    border-left: 2pt solid var(--border-color);
-    padding-left: 10pt;
-}
-
-@media print {
-    body {
-        background-color: white;
-    }
-    .container {
-        max-width: none;
-        margin: 0;
-        padding: 0;
-        box-shadow: none;
-        border-radius: 0;
-    }
-    hr {
-        margin: 40pt 100pt;
-    }
-}
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
 </style>
 </head>
 <body>
-<div class="container">
-<h1 id="chapter-6-mi-casa-a2">Chapter 6: Mi casa (A2)</h1>
+    <div class="container"><h1>Chapter 6: Mi casa (A2)</h1>
 <p class="cervantes-ref">Cervantes: §10 Vivienda: 주거 생활 심화, 가전 제품 및 가사 활동과 부동산 관련 고도화 표현</p>
-
-<h2 id="1-opener">1. Opener</h2>
-<p><strong>Vida moderna y hogar (현대적 삶과 가정)</strong><br />
+<h2>1. Opener</h2>
+<p><strong>Vida moderna y hogar (현대적 삶과 가정)</strong><br>
 A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생활에 필수적인 가전제품(Electrodomésticos)과 매일 일어나는 가사 활동(Tareas domésticas)을 구체적인 동사로 익힙니다. 또한 스페인어로 집을 구하거나 이사할 때 필요한 실무적인 표현들을 다룹니다.</p>
-<h3 id="_1">학습 목표</h3>
+<h3>학습 목표</h3>
 <ul>
 <li>심화 가전제품 및 가사 도구 어휘 10개 습득</li>
 <li>가사 활동 관련 동사(빨래하다, 청소하다, 다리미질하다 등) 익히기</li>
 <li>관계대명사 'donde'를 활용한 장소 묘사 고도화</li>
 <li>스페인 부동산(임대/매매) 광고 이해 및 관련 용어 습득</li>
 </ul>
-<div class="admonition-tip"><strong>💡 Tip</strong><br/><br />
+<div class="admonition-tip"><strong>💡 tip</strong><br/><br>
 <strong>¿Sabías que...?</strong> 스페인에서 집을 구할 때 'Exterior'라는 표현이 매우 중요합니다. 이는 방이 거리 쪽으로 창문이 나 있어 채광이 좋다는 뜻입니다. 반대로 'Interior'는 건물 안쪽 파티오(Patio) 쪽으로 창문이 있어 더 조용하지만 햇빛이 적을 수 있습니다.</div>
-<hr />
-<h2 id="2-vocabulario-esencial">2. Vocabulario Esencial</h2>
+<hr>
+<h2>2. Vocabulario Esencial</h2>
 <p>최신 시설을 갖춘 스마트 홈의 주방과 다용도실 풍경입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.</p>
-<p><img alt="Electrodomésticos — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)" src="../images/ch06_a2_vocab_appliances_v2_1.png" /></p>
+<p><img src="../images/ch06_a2_vocab_furniture_v10.png" alt="Electrodomésticos — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)"></p>
 <table>
 <thead>
 <tr>
-<th style="text-align: center;">번호</th>
-<th style="text-align: left;">Spanish</th>
-<th style="text-align: left;">English Bridge</th>
-<th style="text-align: left;">Korean Tip</th>
+<th style="text-align:center">번호</th>
+<th style="text-align:left">Spanish</th>
+<th style="text-align:left">English Bridge</th>
+<th style="text-align:left">Korean Tip</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: center;">1</td>
-<td style="text-align: left;">la lavadora</td>
-<td style="text-align: left;">Lave (to wash) ✅</td>
-<td style="text-align: left;">세탁기</td>
+<td style="text-align:center">1</td>
+<td style="text-align:left">la lavadora</td>
+<td style="text-align:left">Lave (to wash) ✅</td>
+<td style="text-align:left">세탁기</td>
 </tr>
 <tr>
-<td style="text-align: center;">2</td>
-<td style="text-align: left;">el lavavajillas</td>
-<td style="text-align: left;">Lave + Vessels (dishes)</td>
-<td style="text-align: left;">식기세척기</td>
+<td style="text-align:center">2</td>
+<td style="text-align:left">el lavavajillas</td>
+<td style="text-align:left">Lave + Vessels (dishes)</td>
+<td style="text-align:left">식기세척기</td>
 </tr>
 <tr>
-<td style="text-align: center;">3</td>
-<td style="text-align: left;">el microondas</td>
-<td style="text-align: left;">Micro-waves ✅</td>
-<td style="text-align: left;">전자레인지</td>
+<td style="text-align:center">3</td>
+<td style="text-align:left">el microondas</td>
+<td style="text-align:left">Micro-waves ✅</td>
+<td style="text-align:left">전자레인지</td>
 </tr>
 <tr>
-<td style="text-align: center;">4</td>
-<td style="text-align: left;">el horno</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">오븐</td>
+<td style="text-align:center">4</td>
+<td style="text-align:left">el horno</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">오븐</td>
 </tr>
 <tr>
-<td style="text-align: center;">5</td>
-<td style="text-align: left;">la nevera / el frigorífico</td>
-<td style="text-align: left;">Frigorific (cooling) ✅</td>
-<td style="text-align: left;">냉장고</td>
+<td style="text-align:center">5</td>
+<td style="text-align:left">la nevera / el frigorífico</td>
+<td style="text-align:left">Frigorific (cooling) ✅</td>
+<td style="text-align:left">냉장고</td>
 </tr>
 <tr>
-<td style="text-align: center;">6</td>
-<td style="text-align: left;">la aspiradora</td>
-<td style="text-align: left;">Aspirate (to suck air) ✅</td>
-<td style="text-align: left;">청소기</td>
+<td style="text-align:center">6</td>
+<td style="text-align:left">la aspiradora</td>
+<td style="text-align:left">Aspirate (to suck air) ✅</td>
+<td style="text-align:left">청소기</td>
 </tr>
 <tr>
-<td style="text-align: center;">7</td>
-<td style="text-align: left;">el aire acondicionado</td>
-<td style="text-align: left;">Air conditioned ✅</td>
-<td style="text-align: left;">에어컨</td>
+<td style="text-align:center">7</td>
+<td style="text-align:left">el aire acondicionado</td>
+<td style="text-align:left">Air conditioned ✅</td>
+<td style="text-align:left">에어컨</td>
 </tr>
 <tr>
-<td style="text-align: center;">8</td>
-<td style="text-align: left;">la plancha</td>
-<td style="text-align: left;">—</td>
-<td style="text-align: left;">다리미</td>
+<td style="text-align:center">8</td>
+<td style="text-align:left">la plancha</td>
+<td style="text-align:left">—</td>
+<td style="text-align:left">다리미</td>
 </tr>
 <tr>
-<td style="text-align: center;">9</td>
-<td style="text-align: left;">la cafetera</td>
-<td style="text-align: left;">Coffee maker ✅</td>
-<td style="text-align: left;">커피 머신</td>
+<td style="text-align:center">9</td>
+<td style="text-align:left">la cafetera</td>
+<td style="text-align:left">Coffee maker ✅</td>
+<td style="text-align:left">커피 머신</td>
 </tr>
 <tr>
-<td style="text-align: center;">10</td>
-<td style="text-align: left;">el mando a distancia</td>
-<td style="text-align: left;">Command at Distance</td>
-<td style="text-align: left;">리모컨</td>
+<td style="text-align:center">10</td>
+<td style="text-align:left">el mando a distancia</td>
+<td style="text-align:left">Command at Distance</td>
+<td style="text-align:left">리모컨</td>
 </tr>
 </tbody>
 </table>
 <p>✅ 표시된 단어는 영어와 어원을 공유하는 'Cognates'입니다.</p>
-<hr />
-<h2 id="3-expresiones-utiles">3. Expresiones Útiles</h2>
+<hr>
+<h2>3. Expresiones Útiles</h2>
 <p>가사 분담이나 부동산 관련 상담 시 사용하는 유용한 문장들입니다.</p>
-<h3 id="a-household-chores">A. 가사 활동 및 분담 (Household Chores)</h3>
+<h3>A. 가사 활동 및 분담 (Household Chores)</h3>
 <ul>
 <li><strong>¿Quién va a fregar los platos hoy?</strong> (Who is going to wash the dishes today? / 오늘은 누가 설거지할 거야?)</li>
-<li><strong>Me toca poner la lavadora.</strong> (It's my turn to put on the laundry. / 내가 세탁기 돌릴 차례야.)</li>
-<li>💡 <strong>English Bridge</strong>: "Me toca" = "It's <strong>my</strong> turn to..." — "tocar" literally means "to touch."</li>
+<li><strong>Me toca poner la lavadora.</strong> (It's my turn to put on the laundry. / 내가 세탁기 돌릴 차례야.)
+<ul>
+<li>💡 <strong>English Bridge</strong>: &quot;Me toca&quot; = &quot;It's <strong>my</strong> turn to...&quot; — &quot;tocar&quot; literally means &quot;to touch.&quot;</li>
+</ul>
+</li>
 <li><strong>Tenemos que hacer la cama cada mañana.</strong> (We have to make the bed every morning. / 우리는 매일 아침 침대를 정리해야 해.)</li>
 <li><strong>Odio planchar la ropa.</strong> (I hate ironing clothes. / 나는 옷 다리는 게 정말 싫어.)</li>
 </ul>
-<h3 id="b-real-estate-and-renting">B. 부동산 및 임대 문의 (Real Estate and Renting)</h3>
+<h3>B. 부동산 및 임대 문의 (Real Estate and Renting)</h3>
 <ul>
 <li><strong>Busco un piso compartido con otros estudiantes.</strong> (I'm looking for a shared flat with other students. / 쉐어 아파트를 찾고 있어요.)</li>
 <li><strong>¿Cuánto cuesta el alquiler al mes?</strong> (How much is the rent per month? / 한 달 월세가 얼마인가요?)</li>
 <li><strong>Los gastos de luz y agua están incluidos.</strong> (Electricity and water expenses are included. / 전기와 수도료가 포함되어 있습니다.)</li>
 </ul>
-<hr />
-<h2 id="4-gramatica-esencial">4. Gramática Esencial</h2>
+<hr>
+<h2>4. Gramática Esencial</h2>
 <p>이번 장에서는 장소를 수식하는 관계대명사 'donde'와 가사 관련 중요 관용구들을 정리합니다.</p>
-<h3 id="a-donde-where">A. 관계대명사 'Donde' (Where)</h3>
+<h3>A. 관계대명사 'Donde' (Where)</h3>
 <p>특정 장소를 선행사로 받아 그 장소에 대한 부가 정보를 줄 때 사용합니다.</p>
-<p><strong>English Bridge</strong>: "Donde" = "<strong>Where</strong>" — it works exactly like English relative clauses with "where." "The place <strong>where</strong> I live" = "El lugar <strong>donde</strong> vivo."</p>
+<p><strong>English Bridge</strong>: &quot;Donde&quot; = &quot;<strong>Where</strong>&quot; — it works exactly like English relative clauses with &quot;where.&quot; &quot;The place <strong>where</strong> I live&quot; = &quot;El lugar <strong>donde</strong> vivo.&quot;</p>
 <ul>
 <li><strong>기본 구조</strong>: 장소 명사 + <strong>donde</strong> + 문장</li>
-<li><strong>예문 1</strong>: <em>Este es el barrio </em><em>donde</em><em> vivo.</em> (This is the neighborhood <strong>where</strong> I live.)</li>
-<li><strong>예문 2</strong>: <em>La cocina es el lugar </em><em>donde</em><em> preparamos la cena.</em> (The kitchen is the place <strong>where</strong> we prepare dinner.)</li>
+<li><strong>예문 1</strong>: <em>Este es el barrio <strong>donde</strong> vivo.</em> (This is the neighborhood <strong>where</strong> I live.)</li>
+<li><strong>예문 2</strong>: <em>La cocina es el lugar <strong>donde</strong> preparamos la cena.</em> (The kitchen is the place <strong>where</strong> we prepare dinner.)</li>
 </ul>
 <blockquote>
-<p>💡 <strong>Tip</strong>: 전치사와 함께 쓰면 더 정교합니다. <em>el sofá </em><em>en el que</em><em> descanso</em> 대신 <em>el sofá </em><em>donde</em><em> descanso</em> 사용 가능!</p>
+<p>💡 <strong>Tip</strong>: 전치사와 함께 쓰면 더 정교합니다. <em>el sofá <strong>en el que</strong> descanso</em> 대신 <em>el sofá <strong>donde</strong> descanso</em> 사용 가능!</p>
 </blockquote>
-<h3 id="b">B. 가사 관련 핵심 동사 구문</h3>
-<p><strong>English Bridge</strong>: Spanish uses "<strong>hacer</strong>" (to make/do) and "<strong>poner</strong>" (to put) for many household idioms. Compare: English says "<strong>make</strong> the bed" — Spanish also says "<strong>hacer</strong> la cama" ✅ (same logic!).</p>
+<h3>B. 가사 관련 핵심 동사 구문</h3>
+<p><strong>English Bridge</strong>: Spanish uses &quot;<strong>hacer</strong>&quot; (to make/do) and &quot;<strong>poner</strong>&quot; (to put) for many household idioms. Compare: English says &quot;<strong>make</strong> the bed&quot; — Spanish also says &quot;<strong>hacer</strong> la cama&quot; ✅ (same logic!).</p>
 <div class="table-container">
 <table class="conjugation-table">
   <thead>
@@ -515,50 +273,49 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
   </tbody>
 </table>
 </div>
-
-<hr />
-<h2 id="5-cultura-viva-el-desafio-de-alquilar-en-espana">5. Cultura Viva: El Desafío de Alquilar en España 🏗️</h2>
+<hr>
+<h2>5. Cultura Viva: El Desafío de Alquilar en España 🏗️</h2>
 <p>스페인 대도시에서 집을 구하는 것은 젊은이들에게 큰 도전이자 문화입니다.</p>
 <p>Encontrar un piso en ciudades como Madrid, Barcelona o Valencia no es fácil. Debido a los precios altos, muchos jóvenes y estudiantes prefieren <strong>compartir piso</strong>. Buscan una habitación en un piso grande y comparten los gastos y las zonas comunes (cocina, salón). Es una oportunidad excelente para conocer gente de todo el mundo y practicar el idioma.</p>
-<p>Existen portales inmobiliarios muy famosos, como <em>Idealista</em> o <em>Fotocasa</em>, donde puedes filtrar por precio, número de habitaciones o si aceptan mascotas. Una tradición muy española es la "comunidad de vecinos", donde todos los que viven en el edificio se reúnen una vez al año para decidir sobre las reformas y el mantenimiento del bloque.</p>
-<p><strong>[한국어 번역]</strong><br />
-마드리드, 바르셀로나 같은 도시에서 아파트를 찾는 것은 쉽지 않습니다. 높은 가격 때문에 많은 젊은이들과 학생들은 <strong>피소 공유(compartir piso)</strong>를 선호합니다. 그들은 큰 아파트에서 방 하나를 구하고 비용과 공용 공간을 공유합니다. <em>Idealista</em>나 <em>Fotocasa</em> 같은 부동산 사이트에서 조건별로 필터링할 수 있습니다.</p>
+<p>Existen portales inmobiliarios muy famosos, como <em>Idealista</em> o <em>Fotocasa</em>, donde puedes filtrar por precio, número de habitaciones o si aceptan mascotas. Una tradición muy española es la &quot;comunidad de vecinos&quot;, donde todos los que viven en el edificio se reúnen una vez al año para decidir sobre las reformas y el mantenimiento del bloque.</p>
+<p><strong>[한국어 번역]</strong><br>
+마드리드, 바르셀로나 같은 도시에서 아파트를 찾는 것은 쉽지 않습니다. 높은 가격 때문에 많은 젊은이들과 학생들은 **피소 공유(compartir piso)**를 선호합니다. 그들은 큰 아파트에서 방 하나를 구하고 비용과 공용 공간을 공유합니다. <em>Idealista</em>나 <em>Fotocasa</em> 같은 부동산 사이트에서 조건별로 필터링할 수 있습니다.</p>
 <p>매우 스페인적인 전통 중 하나는 '이웃 반상회(comunidad de vecinos)'인데, 같은 건물에 사는 모든 사람들이 모여 건물 관리에 대해 결정합니다.</p>
-<p><img alt="스페인 대도시의 부동산 문화 — 피소 공유와 광고 탐색" src="../images/ch06_a2_culture_realestate_v2_1.png" /></p>
-<hr />
-<h2 id="6-practica">6. Práctica</h2>
-<h3 id="a-match-the-appliances-with-their-functions">A. Match the appliances with their functions (가전제품과 기능을 연결하세요)</h3>
+<p><img src="../images/ch06_a2_culture_renting_v10.png" alt="스페인 대도시의 부동산 문화 — 피소 공유와 광고 탐색"></p>
+<hr>
+<h2>6. Práctica</h2>
+<h3>A. Match the appliances with their functions (가전제품과 기능을 연결하세요)</h3>
 <table>
 <thead>
 <tr>
-<th style="text-align: left;">Electrodoméstico</th>
-<th style="text-align: left;">Función</th>
+<th style="text-align:left">Electrodoméstico</th>
+<th style="text-align:left">Función</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td style="text-align: left;">1. El microondas</td>
-<td style="text-align: left;">a. Para enfriar la comida</td>
+<td style="text-align:left">1. El microondas</td>
+<td style="text-align:left">a. Para enfriar la comida</td>
 </tr>
 <tr>
-<td style="text-align: left;">2. La lavadora</td>
-<td style="text-align: left;">b. Para calentar platos rápido</td>
+<td style="text-align:left">2. La lavadora</td>
+<td style="text-align:left">b. Para calentar platos rápido</td>
 </tr>
 <tr>
-<td style="text-align: left;">3. La aspiradora</td>
-<td style="text-align: left;">c. Para lavar la ropa</td>
+<td style="text-align:left">3. La aspiradora</td>
+<td style="text-align:left">c. Para lavar la ropa</td>
 </tr>
 <tr>
-<td style="text-align: left;">4. La nevera</td>
-<td style="text-align: left;">d. Para hacer café</td>
+<td style="text-align:left">4. La nevera</td>
+<td style="text-align:left">d. Para hacer café</td>
 </tr>
 <tr>
-<td style="text-align: left;">5. La cafetera</td>
-<td style="text-align: left;">e. Para limpiar el suelo</td>
+<td style="text-align:left">5. La cafetera</td>
+<td style="text-align:left">e. Para limpiar el suelo</td>
 </tr>
 </tbody>
 </table>
-<h3 id="b-complete-with-donde-and-the-correct-verb-form">B. Complete with 'donde' and the correct verb form</h3>
+<h3>B. Complete with 'donde' and the correct verb form</h3>
 <ol>
 <li>Esta es la habitación ______ (yo/dormir).</li>
 <li>Busco un supermercado ______ (vender/ellos) productos coreanos.</li>
@@ -566,34 +323,34 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 <li>¿Conoces el restaurante ______ (trabajar/tu hermano)?</li>
 <li>El pueblo ______ (vivir/mis abuelos) es muy bonito.</li>
 </ol>
-<h3 id="c">C. 번역 연습 (스페인어로 번역하세요)</h3>
+<h3>C. 번역 연습 (스페인어로 번역하세요)</h3>
 <ol>
-<li>나는 매일 아침 침대를 정리해야 해요.<br />
-   (............................................................)</li>
-<li>내 차례야, 내가 식기세척기 돌릴게. (Me toca...)<br />
-   (............................................................)</li>
-<li>여기가 내 친구가 일하는 사무실이야. (donde 활용)<br />
-   (............................................................)</li>
-<li>월세에 수도료가 포함되어 있나요?<br />
-   (............................................................)</li>
-<li>어제 나는 하루 종일 청소기로 청소하고 옷을 다렸어.<br />
-   (............................................................)</li>
+<li>나는 매일 아침 침대를 정리해야 해요.<br>
+(............................................................)</li>
+<li>내 차례야, 내가 식기세척기 돌릴게. (Me toca...)<br>
+(............................................................)</li>
+<li>여기가 내 친구가 일하는 사무실이야. (donde 활용)<br>
+(............................................................)</li>
+<li>월세에 수도료가 포함되어 있나요?<br>
+(............................................................)</li>
+<li>어제 나는 하루 종일 청소기로 청소하고 옷을 다렸어.<br>
+(............................................................)</li>
 </ol>
-<hr />
-<h2 id="7-lectura">7. Lectura 📖</h2>
-<h3 id="mi-primer-piso-compartido">Mi primer piso compartido (나의 첫 쉐어 하우스)</h3>
+<hr>
+<h2>7. Lectura 📖</h2>
+<h3>Mi primer piso compartido (나의 첫 쉐어 하우스)</h3>
 <p>Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chicos de Italia y una chica de Alemania. El piso está en un edificio antiguo, pero tiene <strong>ascensor</strong> y una <strong>terraza</strong> maravillosa con vistas a la ciudad. Mi habitación es pequeña, pero es una habitación <strong>exterior</strong> con mucha luz. En casa, tenemos un calendario de <strong>tareas domésticas</strong>: yo paso la <strong>aspiradora</strong> los sábados y mis compañeros <strong>limpian la cocina</strong>. Lo que más me gusta es la <strong>sobremesa</strong> en el salón después de cenar, <strong>donde</strong> hablamos de nuestras culturas y compartimos risas.</p>
-<h3 id="preguntas">Preguntas (질문)</h3>
+<h3>Preguntas (질문)</h3>
 <ol>
 <li>¿Cuáles son dos ventajas del piso? (아파트의 장점 두 가지는?)</li>
 <li>¿Qué tarea doméstica hace el narrador? (글쓴이는 어떤 가사를 담당하나요?)</li>
 </ol>
 <p><strong>[한국어 번역]</strong></p>
-<h4 id="_2">나의 첫 쉐어 하우스</h4>
+<h4>나의 첫 쉐어 하우스</h4>
 <p>공부를 위해 바르셀로나에 도착했을 때, 저는 이탈리아 친구 두 명과 독일 친구 한 명과 아파트를 공유하기로 결정했습니다. 아파트는 오래된 건물에 있지만 엘리베이터가 있고 도시 전망이 보이는 멋진 테라스가 있습니다. 제 방은 작지만, 햇빛이 잘 드는 거리 쪽(exterior) 방이라 마음에 들어요. 제가 가장 좋아하는 것은 저녁 식사 후 거실에서 나누는 소브레메사(sobremesa)인데, 그곳(donde)에서 우리는 서로의 문화에 대해 이야기하고 웃음을 나눕니다.</p>
-<hr />
-<h2 id="8-dialogo">8. Diálogo</h2>
-<h3 id="problemas-en-casa">Problemas en casa (집안의 문제들)</h3>
+<hr>
+<h2>8. Diálogo</h2>
+<h3>Problemas en casa (집안의 문제들)</h3>
 <p><strong>Situación:</strong> Sofía y su compañero de piso, Pablo, están discutiendo sobre el mantenimiento de la casa.</p>
 <p><strong>상황:</strong> 소피아와 그녀의 룸메이트 파블로가 집안 유지 관리에 대해 의논하고 있습니다.</p>
 <table class="dialogue-table">
@@ -634,9 +391,8 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
     </tr>
   </tbody>
 </table>
-
-<hr />
-<h2 id="9-repaso">9. Repaso</h2>
+<hr>
+<h2>9. Repaso</h2>
 <p>이 장에서 배운 핵심 내용을 체크해 보세요:</p>
 <ul>
 <li>[ ] 세탁기, 식기세척기, 리모컨 등 <strong>10개 이상</strong>의 가전제품 어휘를 익혔다.</li>
@@ -644,85 +400,37 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 <li>[ ] 관계대명사 '<strong>donde</strong>'를 활용해 장소를 수식할 수 있다.</li>
 <li>[ ] '<strong>Exterior</strong>', '<strong>Gastos incluidos</strong>' 등 부동산 관련 용어의 뜻을 이해했다.</li>
 </ul>
-<hr />
-<h2 id="10-cierre">10. Cierre</h2>
+<hr>
+<h2>10. Cierre</h2>
 <p>¡Excelente! 🎉 이번 장을 통해 여러분은 현대적인 주거 생활을 스페인어로 누릴 수 있는 준비를 마쳤습니다.</p>
-<p>집안일을 분담하고, 고장 난 가전제품에 대해 이야기하며, 멋진 아파트를 찾는 과정은 스페인어권 현지 삶에 깊숙이 들어가는 첫걸음입니다. "<strong>Mi casa es tu casa</strong>" (나의 집이 당신의 집입니다) — 이 스페인식 환대를 기억하며, 여러분의 공간을 스페인어 단어들로 채워보세요!</p>
+<p>집안일을 분담하고, 고장 난 가전제품에 대해 이야기하며, 멋진 아파트를 찾는 과정은 스페인어권 현지 삶에 깊숙이 들어가는 첫걸음입니다. &quot;<strong>Mi casa es tu casa</strong>&quot; (나의 집이 당신의 집입니다) — 이 스페인식 환대를 기억하며, 여러분의 공간을 스페인어 단어들로 채워보세요!</p>
 <p>다음 장에서는 우리의 지적 호기심을 채워줄 '<strong>학교와 교육(En la escuela)</strong>'에 대해 공부하겠습니다. ¡Nos vemos pronto!</p>
-<hr />
-<h2 id="11-soluciones">11. Soluciones</h2>
-<h3 id="6-practica-a-match-the-appliances">6. Práctica - A. Match the appliances</h3>
+<hr>
+<h2>11. Soluciones</h2>
+<h3>6. Práctica - A. Match the appliances</h3>
 <ol>
 <li>1-b, 2-c, 3-e, 4-a, 5-d</li>
 </ol>
-<h3 id="6-practica-b-complete-with-donde">6. Práctica - B. Complete with 'donde'</h3>
-<ol>
-<li>
+<h3>6. Práctica - B. Complete with 'donde'</h3>
 <ol>
 <li>donde duermo</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>donde venden</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>donde vamos</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>donde trabaja</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>donde viven</li>
 </ol>
-</li>
-</ol>
-<h3 id="6-practica-c">6. Práctica - C. 번역 연습</h3>
-<ol>
-<li>
+<h3>6. Práctica - C. 번역 연습</h3>
 <ol>
 <li>Tengo que hacer la cama cada mañana.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Me toca (a mí), yo pongo el lavavajillas.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Esta es la oficina donde trabaja mi amigo.</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>¿Están incluidos los gastos de agua en el alquiler?</li>
-</ol>
-</li>
-<li>
-<ol>
 <li>Ayer pasé la aspiradora y planché la ropa todo el día.</li>
 </ol>
-</li>
-</ol>
-<h3 id="7-lectura-preguntas">7. Lectura - Preguntas</h3>
+<h3>7. Lectura - Preguntas</h3>
 <ol>
-<li>
-<ol>
-<li>엘리베이터(ascensor)가 있고 전망이 좋은 테라스(terraza)가 있습니다.</li>
-</ol>
-</li>
-<li>
-<ol>
-<li>토요일마다 청소기로 청소하는 것(pasar la aspiradora)을 담당합니다.</li>
-</ol>
-</li>
+<li>Tiene ascensor y una terraza con buenas vistas. (엘리베이터가 있고 전망이 좋은 테라스가 있습니다.)</li>
+<li>Pasar la aspiradora los sábados. (토요일마다 청소기로 청소하는 것을 담당합니다.)</li>
 </ol>
 </div>
 </body>
