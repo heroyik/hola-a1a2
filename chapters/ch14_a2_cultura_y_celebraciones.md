@@ -23,7 +23,7 @@
 
 스페인의 역사와 예술적 성취를 보여주는 요소들입니다. 고풍스러운 박물관과 유적의 이미지를 보며 어휘를 익혀보세요.
 
-![Artes](../images/ch14_a2_vocab_arts_v2_1.png)
+![Artes — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch14_a2_vocab_arts_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -120,7 +120,7 @@
 
 스페인에서 가장 장엄한 종교 행사, 성주간을 알아봅시다.
 
-![Semana Santa](../images/ch14_a2_culture_faith_v2_1.png)
+![아름답고 장엄한 세마나 산타 행렬과 스페인의 종교적 유산](../images/ch14_a2_culture_faith_v10.png)
 
 La **Semana Santa** (Holy Week) es una de las tradiciones más profundas de España. Se celebra en todas las ciudades, 하지만 las de Sevilla, Málaga y Valladolid son las más famosas. Las hermandades (brotherhoods) llevan los **pasos** (muebles grandes con esculturas religiosas) por las calles en procesiones solemnes.
 
@@ -174,9 +174,9 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 
 ### Questions
 
-1. 주인공은 어제 어디에 갔나요? (Where did the protagonist go yesterday?)
+1. ¿A dónde fue el protagonista ayer? (주인공은 어제 어디에 갔나요?)
    - ............................................................
-2. 기타리스트는 플라멩코를 연주하기 위해 무엇을 알아야 한다고 했나요? (What did the guitarist say one must know to play flamenco?)
+2. ¿Qué dijo el guitarrista que hay que conocer para tocar flamenco? (기타리스트는 플라멩코를 연주하기 위해 무엇을 알아야 한다고 했나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -251,17 +251,17 @@ Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una expe
 
 ### 6. Práctica - A. Saber or Conocer?
 
-1. 1. sé, 2. conoces, 3. conocemos, 4. sabe, 5. saben
+1. sé, 2. conoces, 3. conocemos, 4. sabe, 5. saben
 
 ### 6. Práctica - B. Saber 동사 변형 연습
 
-1. 1. sé, 2. sabe, 3. sabemos, 4. sabes, 5. saben
+1. sé, 2. sabe, 3. sabemos, 4. sabes, 5. saben
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Sé bailar esa canción., 2. ¿Conoces el Museo del Prado?, 3. Quiero ver el espectáculo de flamenco una vez más., 4. Sabemos que la historia de España es muy interesante., 5. La Semana Santa es muy importante en España.
+1. Sé bailar esa canción., 2. ¿Conoces el Museo del Prado?, 3. Quiero ver el espectáculo de flamenco una vez más., 4. Sabemos que la historia de España es muy interesante., 5. La Semana Santa es muy importante en España.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 사크로몬테 지구의 플라멩코 공연 (Espectáculo de flamenco en el barrio del Sacromonte).
-2. 1. 스페인의 영혼 (El alma de España).
+1. Espectáculo de flamenco en el barrio del Sacromonte. (사크로몬테 지구의 플라멩코 공연)
+2. El alma de España. (스페인의 영혼)

@@ -311,24 +311,30 @@ Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estu
 
 ### 6. Práctica - A. Completa con la forma correcta de 'Tener'
 
-1. 1. tengo
-2. 1. tienen
-3. 1. tienes
-4. 1. tenemos
-5. 1. tiene
+1. tengo
+2. tienen
+3. tienes
+4. tenemos
+5. tiene
 
 ### 6. Práctica - B. 국적 형용사 바꾸기
 
-1. 1. español
-2. 1. coreanas
-3. 1. francesa
-4. 1. alemanes
-5. 1. estadounidenses
+1. español
+2. coreanas
+3. francesa
+4. alemanes
+5. estadounidenses
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Me llamo María y soy española.
-2. 1. ¿Cuántos años tiene tu amigo?
-3. 1. Mi dirección es calle Mayor, número 7, en Madrid.
-4. 1. Aquí está mi DNI.
-5. 1. Somos estudiantes inteligentes.
+1. Me llamo María y soy española.
+2. ¿Cuántos años tiene tu amigo?
+3. Mi dirección es calle Mayor, número 7, en Madrid.
+4. Aquí está mi DNI.
+5. Somos estudiantes inteligentes.
+
+### 7. Lectura - Preguntas
+
+1. Es coreano (de Seúl) y tiene veintidós años. (그는 한국인(서울 출신)이며 22살입니다.)
+2. Siempre lleva su pasaporte y su carné de estudiante. (항상 여권과 학생증을 가지고 다닙니다.)
+3. Es estudiante de arquitectura y su dirección es la calle Mayor, número 10. (그는 건축학도이고 그의 주소는 마요르 거리 10번지입니다.)

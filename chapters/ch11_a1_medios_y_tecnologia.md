@@ -23,7 +23,7 @@
 
 우리를 연결해 주는 다양한 미디어 기기들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Medios](../images/ch11_a1_vocab_media_v2_1.png)
+![Medios — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch11_a1_vocab_media_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -129,7 +129,7 @@
 
 스페인의 언론과 방송 문화는 어떨까요?
 
-![Spanish Newsroom](../images/ch11_a1_culture_media_v2_1.png)
+![스페인 전통 방송국 뉴스룸과 스마트폰을 보는 가족의 모습](../images/ch11_a1_culture_media_v10.png)
 
 España tiene una rica tradición de prensa y televisión. Los periódicos más importantes son **El País** y **El Mundo**, que se leen en todo el país. En la televisión, el **Telediario** de TVE (Televisión Española) es una institución para los españoles. A menudo, las familias se reúnen a las 15:00 o a las 21:00 para ver las noticias mientras comen o cenan.
 
@@ -193,9 +193,9 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 
 ### Questions
 
-1. 주인공은 아침에 왜 라디오를 듣나요? (Why does the protagonist listen to the radio in the morning?)
+1. ¿Por qué escucha la radio el protagonista por la mañana? (주인공은 아침에 왜 라디오를 듣나요?)
    - ............................................................
-2. 주인공의 아버지는 어디에서 신문을 읽나요? (Where does the father read the newspaper?)
+2. ¿Dónde lee el periódico el padre del protagonista? (주인공의 아버지는 어디에서 신문을 읽나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -255,13 +255,13 @@ Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio
 
 ### 6. Práctica - B. 직접 목적대명사 연습
 
-1. 1. Yo la veo., 2. Tú los compras., 3. Nosotros la escuchamos., 4. Ella lo lee., 5. Ellos las mandan.
+1. Yo la veo., 2. Tú los compras., 3. Nosotros la escuchamos., 4. Ella lo lee., 5. Ellos las mandan.
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Lo leo todos los días., 2. Mi madre la ve en la tele., 3. ¿Los has comprado? (또는 ¿Los compraste?), 4. Estoy escuchándolas. (또는 Las estoy escuchando.), 5. Lo queremos mucho.
+1. Lo leo todos los días., 2. Mi madre la ve en la tele., 3. ¿Los has comprado? (또는 ¿Los compraste?), 4. Estoy escuchándolas. (또는 Las estoy escuchando.), 5. Lo queremos mucho.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 즐거운 친구가 되어주기 때문에 (Porque es una compañía agradable).
-2. 1. 길모퉁이 바 (En el bar de la esquina).
+1. Porque es una compañía agradable. (즐거운 친구가 되어주기 때문에)
+2. En el bar de la esquina. (길모퉁이 바)

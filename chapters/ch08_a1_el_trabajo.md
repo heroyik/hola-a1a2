@@ -23,7 +23,7 @@
 
 모던한 애니메이션 스타일로 표현된 다양한 직업의 세계입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Profesiones](../images/ch08_a1_vocab_jobs_v2_1.png)
+![Profesiones — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch08_a1_vocab_office_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -145,7 +145,7 @@
 
 스페인의 직장 생활은 어떤 분위기일까요?
 
-![Spanish Office](../images/ch08_a1_culture_office_v2_1.png)
+![스페인의 현대적인 사무실 풍경 — 점심시간 후의 여유](../images/ch08_a1_culture_office_v10.png)
 
 El horario de trabajo en España a menudo es diferente al de otros países de Europa. Muchas oficinas abren a las 9:00 y cierran a las 18:00 o 19:00, con una pausa larga para almorzar (la comida) entre las 14:00 y las 16:00. Este tiempo es ideal para socializar con los compañeros de trabajo.
 
@@ -271,13 +271,13 @@ Aunque el concepto de la **siesta** está cambiando, la importancia de equilibra
 
 ### 6. Práctica - B. 동사 변형 연습
 
-1. 1. trabajo, 2. trabajas, 3. trabajamos, 4. trabajan, 5. trabaja
+1. trabajo, 2. trabajas, 3. trabajamos, 4. trabajan, 5. trabaja
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Soy abogado. (또는 Soy abogada.), 2. ¿A qué te dedicas? (또는 ¿Cuál es tu profesión?), 3. Trabajamos en Madrid., 4. Mi amigo es ingeniero. (또는 Mi amiga es ingeniera.), 5. ¿Trabajas en un hospital?
+1. Soy abogado. (또는 Soy abogada.), 2. ¿A qué te dedicas? (또는 ¿Cuál es tu profesión?), 3. Trabajamos en Madrid., 4. Mi amigo es ingeniero. (또는 Mi amiga es ingeniera.), 5. ¿Trabajas en un hospital?
 
 ### 7. Lectura - Preguntas
 
-1. 1. 건축가 (Arquitecto).
-2. 1. 중앙 병원 (Hospital central).
+1. Arquitecto. (건축가)
+2. Hospital central. (중앙 병원)

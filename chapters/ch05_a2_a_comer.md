@@ -23,7 +23,7 @@ A1에서 레스토랑 주문과 기초 어휘를 익혔다면, A2에서는 더 �
 
 현대적인 주방에서 열리는 스페인 요리 클래스 현장입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![En la Cocina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a2_vocab_cooking_v2_1.png)
+![En la Cocina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a2_vocab_cooking_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -145,7 +145,7 @@ En países como Perú, el **cebiche** (pescado crudo marinado en limón) es un s
 
 페루와 같은 나라에서는 **세비체(cebiche, 레몬에 절인 생선회)**가 국가적 상징입니다. 남아메리카의 다양한 기후 덕분에 수천 종류의 감자, 형형색색의 옥수수, 루쿠마나 아사이 같은 이색적인 과일 등 다양한 식재료가 존재합니다.
 
-![멕시코 전통 주방에서 할머니의 레시피를 전수받는 손녀](../images/ch05_a2_culture_recipe_v2_1.png)
+![멕시코 전통 주방에서 할머니의 레시피를 전수받는 손녀](../images/ch05_a2_culture_mexico_v10.png)
 
 ---
 
@@ -294,21 +294,21 @@ La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es s
 
 ### 6. Práctica - B. Choose the correct form of 'gustar'
 
-1. 1. me gustan
-2. 1. nos encanta
-3. 1. te interesa
-4. 1. les molesta
-5. 1. le falta
+1. me gustan
+2. nos encanta
+3. te interesa
+4. les molesta
+5. le falta
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. No como nada de carne.
-2. 1. No hay nadie en el restaurante.
-3. 1. No pongo azúcar nunca. / Nunca pongo azúcar.
-4. 1. No sabemos nada de este plato.
-5. 1. David no habla con nadie.
+1. No como nada de carne.
+2. No hay nadie en el restaurante.
+3. No pongo azúcar nunca. / Nunca pongo azúcar.
+4. No sabemos nada de este plato.
+5. David no habla con nadie.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 올리브 오일, 곡물, 과일, 채소, 콩류 중 3가지 (Aceite de oliva, cereales, frutas, etc.)
-2. 1. 한 달에 한두 번 정도만 절제하여 섭취합니다.
+1. Aceite de oliva, cereales, frutas, etc. (올리브 오일, 곡물, 과일, 채소, 콩류 중 3가지)
+2. Una o dos veces al mes. (한 달에 한두 번 정도만 절제하여 섭취합니다.)

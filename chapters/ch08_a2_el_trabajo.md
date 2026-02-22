@@ -29,7 +29,7 @@ A2 단계에서의 '일'은 단순한 직업 명칭을 넘어, 자신의 경력�
 
 성공적인 취업을 위한 채용 과정의 핵심 요소들입니다. 이미지 속의 면접 장면과 함께 어휘를 익혀보세요.
 
-![Entrevista de Trabajo](../images/ch08_a2_vocab_interview_v2_1.png)
+![Entrevista de Trabajo — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch08_a2_vocab_job_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -175,7 +175,7 @@ decir, hacer, poder, querer, saber, salir, tener, venir, poner, haber
 
 스페인의 채용 시장과 기업 문화의 특징을 알아봅시다.
 
-![Professional Success](../images/ch08_a2_culture_siesta_v2_1.png)
+![에어컨이 가동되는 스페인의 현대적인 여름 사무실 풍경](../images/ch08_a2_culture_labor_v10.png)
 
 En los últimos años, el mercado laboral español ha experimentado grandes cambios hacia la digitalización. Plataformas como LinkedIn son esenciales para encontrar empleo en las grandes ciudades. Sin embargo, el contacto personal (networking) sigue siendo muy influyente en España; a menudo, las recomendaciones personales abren puertas que los anuncios públicos no pueden.
 
@@ -239,9 +239,9 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 
 ### Questions
 
-1. 면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요? (What is the first thing to do to succeed?)
+1. ¿Qué es lo primero que hay que hacer para tener éxito en una entrevista? (면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요?)
    - ............................................................
-2. 대화 중 태도에 대해 어떤 조언을 하고 있나요? (What advice is given about attitude/behavior?)
+2. ¿Qué consejo se da sobre la actitud durante la conversación? (대화 중 태도에 대해 어떤 조언을 하고 있나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -301,13 +301,13 @@ Para tener éxito en una entrevista en España, la preparación es clave. Primer
 
 ### 6. Práctica - B. Fill in the blanks with the correct past tense
 
-1. 1. hice, 2. era, 3. Viví, 4. llegaba, 5. tuve
+1. hice, 2. era, 3. Viví, 4. llegaba, 5. tuve
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Aprendí a comunicarme en una multinacional., 2. Cada día asistía a una reunión matutina., 3. He solicitado el puesto porque busco nuevos retos. (또는 me presento...), 4. Sé hablar inglés y español., 5. Ayer firmé el contrato después de la entrevista.
+1. Aprendí a comunicarme en una multinacional., 2. Cada día asistía a una reunión matutina., 3. He solicitado el puesto porque busco nuevos retos. (또는 me presento...), 4. Sé hablar inglés y español., 5. Ayer firmé el contrato después de la entrevista.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 기업 조사 및 가치 이해 (Investigar la empresa y entender sus valores).
-2. 1. 긍정적인 태도와 자신감을 유지하고 시선을 맞추기 (Mantener actitud positiva, confianza y contacto visual).
+1. Investigar la empresa y entender sus valores. (기업 조사 및 가치 이해)
+2. Mantener actitud positiva, confianza y contacto visual. (긍정적인 태도와 자신감을 유지하고 시선을 맞추기)

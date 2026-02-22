@@ -23,7 +23,7 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 
 감각적인 예술의 세계로 초대합니다. 번호와 매칭되는 단어를 확인하며 분야별 핵심 어휘들을 익혀보세요.
 
-![Cine y Arte](../images/ch09_a2_vocab_cinema_music_v2_1.png)
+![Cine y Arte — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch09_a2_vocab_cinema_music_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -136,7 +136,7 @@ A2 단계에서는 단순한 취미를 넘어, 예술적 취향을 공유하고 
 
 현대 스페인의 예술적 성취와 매력을 알아봅시다.
 
-![Professional Art Scene](../images/ch09_a2_culture_cinema_v2_1.png)
+![세련된 현대식 스페인 영화관/극장 내부 풍경](../images/ch09_a2_culture_cinema_v10.png)
 
 España no solo vive de su glorioso pasado (Goya, Velázquez, Picasso), sino que también tiene una industria cultural muy potente hoy en día. El cine español es reconocido internacionalmente por su originalidad. Los **Premios Goya** son el evento más importante del año, comparables a los Oscar de Hollywood. Directores como **Pedro Almodóvar** y actores como **Penélope Cruz** o **Javier Bardem** son embajadores del arte español en el mundo.
 
@@ -202,7 +202,7 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 
 1. 'Noche en Blanco'의 장점 중 하나는 무엇인가요? (What is one advantage of this event?)
    - ............................................................
-2. 필자는 내년에 누구와 무엇을 할 계획인가요? (With whom and what does the actor plan to do next year?)
+1. ¿Con quién y qué planea hacer el autor el próximo año? (필자는 내년에 누구와 무엇을 할 계획인가요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -261,13 +261,13 @@ La "Noche en Blanco" es una iniciativa cultural que ocurre en muchas capitales e
 
 ### 6. Práctica - B. 미래 시제 연습
 
-1. 1. iremos, 2. hará, 3. leeré, 4. vendrán, 5. harás
+1. iremos, 2. hará, 3. leeré, 4. vendrán, 5. harás
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Si quieres, iré contigo., 2. Compraremos las entradas el fin de semana., 3. Mañana hará buen tiempo., 4. Si ella viene, estaré muy feliz., 5. Ellos mirarán los cuadros en el museo (또는 disfrutarán de...).
+1. Si quieres, iré contigo., 2. Compraremos las entradas el fin de semana., 3. Mañana hará buen tiempo., 4. Si ella viene, estaré muy feliz., 5. Ellos mirarán los cuadros en el museo (또는 disfrutarán de...).
 
 ### 7. Lectura - Preguntas
 
-1. 1. 무료 개방 (Entrada gratuita).
-2. 1. 친구들과 함께 밤새도록 걷기 (Caminar con amigos hasta el amanecer).
+1. Entrada gratuita. (무료 개방)
+2. Caminar con amigos hasta el amanecer. (친구들과 함께 밤새도록 걷기)

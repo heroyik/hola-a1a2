@@ -23,7 +23,7 @@
 
 활기찬 스페인 대학교의 강의실 풍경입니다. 번호와 매칭되는 단어를 확인하며 수업 시간에 필요한 어휘들을 익혀보세요.
 
-![La Escuela](../images/ch07_a1_vocab_school_v2_1.png)
+![La Escuela — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch07_a1_vocab_school_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -193,7 +193,7 @@
 
 스페인의 아이들은 어떤 환경에서 공부할까요?
 
-![Spanish School](../images/ch07_a1_culture_education_v2_1.png)
+![스페인 공립학교의 자유롭고 활기찬 쉬는 시간 풍경](../images/ch07_a1_culture_school_v10.png)
 
 En España, la educación es obligatoria y gratuita desde los 6 hasta los 16 años. El sistema se divide en **Educación Primaria** (6-12 años) y **Educación Secundaria** (ESO, 12-16 años). Los colegios públicos suelen ser lugares muy coloridos y alegres, con patios grandes para jugar al fútbol o al baloncesto durante el recreo.
 
@@ -247,9 +247,9 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 
 ### Questions
 
-1. 주인공의 가방 안에는 무엇이 있나요? (What is in the protagonist's backpack?)
+1. ¿Qué hay en la mochila del protagonista? (주인공의 가방 안에는 무엇이 있나요?)
    - ............................................................
-2. 수업이 끝난 후 학생들은 어디로 가나요? (Where do students go after class?)
+2. ¿Adónde van los estudiantes después de clase? (수업이 끝난 후 학생들은 어디로 가나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -305,21 +305,21 @@ Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pe
 
 ### 6. Práctica - A. Choose the correct verb ending
 
-1. 1. o, 2. imos, 3. es, 4. an, 5. ís
+1. o, 2. imos, 3. es, 4. an, 5. ís
 
 ### 6. Práctica - B. Saber vs Poder
 
-1. 1. sé, 2. puedes, 3. sabe, 4. podemos, 5. sabéis
+1. sé, 2. puedes, 3. sabe, 4. podemos, 5. sabéis
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Leo un libro de español todos los días.
-2. 1. Hablamos mucho con el profesor.
-3. 1. Hay un bolígrafo en la mochila.
-4. 1. ¿Dónde vives?
-5. 1. Ellos estudian en la biblioteca.
+1. Leo un libro de español todos los días.
+2. Hablamos mucho con el profesor.
+3. Hay un bolígrafo en la mochila.
+4. ¿Dónde vives?
+5. Ellos estudian en la biblioteca.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 공책 3권, 파란 볼펜, 노트북 컴퓨터 (Tres cuadernos, un bolígrafo azul y un ordenador portátil).
-2. 1. 카페테리아 (A la cafetería).
+1. Tres cuadernos, un bolígrafo azul y un ordenador portátil. (공책 3권, 파란 볼펜, 노트북 컴퓨터)
+2. A la cafetería. (카페테리아)

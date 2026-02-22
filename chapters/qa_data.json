@@ -1,0 +1,160 @@
+{
+  "ch01_a1_mi_cuerpo.md": {
+    "text": "Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el parque durante treinta minutos. A veces tengo dolor de espalda, pero hago ejercicio para sentirme mejor. Bebo mucha agua porque siempre tengo sed después de correr. Mi hermana Sofía tiene una dieta muy sana; ella come muchas frutas y verduras frescas cada día. Nosotros tenemos suerte de vivir cerca de un Centro de Salud donde nuestro médico de cabecera nos atiende con mucha amabilidad.",
+    "questions": [
+      "1. ¿Qué hace Carlos todos los días? (카를로스는 매일 무엇을 하나요?)",
+      "2. ¿Por qué Carlos bebe mucha agua? (카를로스는 왜 물을 많이 마시나요?)",
+      "3. ¿Cómo es la dieta de Sofía? (소피아의 식단은 어떤가요?)"
+    ]
+  },
+  "ch01_a2_mi_cuerpo.md": {
+    "text": "El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se levantó con mucha fiebre y dolor de garganta. Ella llamó al Centro de Salud para pedir una cita médica. El doctor la examinó y le dijo: \"Tienes una infección leve\". El doctor le dio una receta para un jarabe y unas pastillas. Elena fue a la farmacia de su barrio y compró los medicamentos. Ahora tiene que descansar en casa por tres días. **Questions:** 1. ¿Por qué Elena pidió una cita médica? (엘레나는 왜 병원 예약을 했나요?) - ............................................................ 2. ¿Qué compró Elena en la farmacia? (엘레나는 약국에서 무엇을 샀나요?) - ............................................................ 마드리드의 겨울은 매우 춥고 많은 사람이 독감에 걸립니다. 어제 엘레나는 높은 열과 목 통증을 느끼며 일어났습니다. 그녀는 보건소에 전화를 걸어 병원 예약을 했습니다. 의사는 그녀를 진찰하고 \"가벼운 감염이 있습니다\"라고 말했습니다. 의사는 그녀에게 시럽과 알약 처방전을 주었습니다. 엘레나는 동네 약국에 가서 약을 샀습니다. 이제 그녀는 집에서 3일 동안 쉬어야 합니다. ---",
+    "questions": []
+  },
+  "ch02_a1_como_soy.md": {
+    "text": "Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto y serio, pero muy inteligente. Mi madre es alegre y siempre está feliz. Mi hermano menor, Pablo, es un poco bajo y muy simpático. Yo soy una persona tranquila y hoy estoy muy contenta porque es mi cumpleaños. ¡Somos una familia muy unida!",
+    "questions": [
+      "1. ¿Cómo es el padre de Sofía? (소피아의 아버지는 어떤 분인가요? — 성격과 외모)",
+      "2. ¿Cómo es Pablo? (파블로는 어떤 사람인가요?)",
+      "3. ¿Por qué Sofía está contenta hoy? (소피아가 오늘 기분이 좋은 이유는 무엇인가요?)"
+    ]
+  },
+  "ch02_a2_como_soy.md": {
+    "text": "Ayer fue un día muy intenso para Manuel. Por la mañana, se sintió muy **orgulloso** porque terminó un proyecto importante en su trabajo. Pero al mediodía, se puso **preocupado** porque no encontraba las llaves de su coche. Después de buscarlas por una hora, estaba **agotado**. Al final, su novia las encontró y Manuel se sintió **tranquilo** otra vez. ¡Qué día tan loco!",
+    "questions": [
+      "1. ¿Por qué Manuel se sintió orgulloso por la mañana? (마누엘은 왜 아침에 자랑스러움을 느꼈나요?)",
+      "2. ¿Por qué se puso preocupado al mediodía? (점심 무렵에 왜 걱정하게 되었나요?)",
+      "3. ¿Quién encontró las llaves al final? (결국 누가 열쇠를 찾았나요?)"
+    ]
+  },
+  "ch03_a1_mi_identidad.md": {
+    "text": "Hola, soy Park Min-su. Soy coreano de Seúl, pero ahora vivo en Madrid para estudiar. Tengo veintidós años. En mi mochila siempre llevo mi pasaporte y mi carné de estudiante de la Universidad Complutense. Mi dirección en Madrid es la calle Mayor, número 10. Mi profesión es estudiante de arquitectura. ¡Me encanta mi nueva vida en España!",
+    "questions": [
+      "1. ¿Cuál es la nacionalidad y la edad de Min-su? (민수의 국적과 나이는?)",
+      "2. ¿Qué lleva siempre en su mochila? (가방 속에 무엇을 가지고 다니나요?)",
+      "3. ¿Cuál es su profesión y su dirección? (직업과 주소는?)"
+    ]
+  },
+  "ch03_a2_mi_identidad.md": {
+    "text": "Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, pero mis abuelos **eran** de Italia y España. Por eso, me siento orgulloso de mis **raíces mixtas**. Ahora vivo en Valencia y trabajo como arquitecto. Me he **integrado** perfectamente en la ciudad porque la gente es muy acogedora. Para mí, la **diversidad** es una riqueza y creo que el **respeto** es la base de todo.",
+    "questions": [
+      "1. ¿De dónde eran los abuelos de Ricardo? (리카르도의 조부모님은 어디 분이셨나요?)",
+      "2. ¿Cómo se siente Ricardo sobre sus raíces? (그는 자신의 뿌리에 대해 어떻게 느끼나요?)",
+      "3. ¿Por qué se ha integrado bien en Valencia? (왜 발렌시아에 잘 적응했나요?)"
+    ]
+  },
+  "ch04_a1_familia_amigos.md": {
+    "text": "Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi hermano menor, Pablo. Mi padre es ingeniero y su nombre es Manuel. Mi madre es profesora y su nombre es Carmen. También tenemos un perro que se llama 'Sol'. Los domingos, mis abuelos vienen a nuestra casa para la comida. Mi abuelo Pedro tiene setenta años y mi abuela Rosa tiene sesenta y ocho. ¡Amo a mi familia!",
+    "questions": [
+      "1. ¿Quién es Pablo? (파블로는 누구인가요?)",
+      "2. ¿Cuál es la profesión de Manuel? (마누엘의 직업은 무엇인가요?)"
+    ]
+  },
+  "ch04_a2_familia_amigos.md": {
+    "text": "En España decimos que \"los amigos son la familia que se elige\". Yo tengo un grupo de amigos desde la universidad, nos llamamos 'la pandilla'. Somos cinco personas de diferentes nacionalidades. Aunque todos tenemos trabajos estresantes, nos vemos todos los viernes para cenar. Nos ayudamos en los momentos difíciles y celebramos juntos los éxitos. Mi madre siempre dice: \"Hija, esos amigos tuyos son como tus hermanos\". Y tiene razón. En esta sociedad moderna, el apoyo de los amigos es vital, pero nunca olvido mis raíces y el amor de mis padres.",
+    "questions": [
+      "1. ¿Qué es 'la pandilla'? ('라 판디야'는 무엇인가요?)",
+      "2. ¿Qué dice la madre de la autora sobre sus amigos? (필자의 어머니는 친구들에 대해 뭐라고 하시나요?)"
+    ]
+  },
+  "ch05_a1_a_comer.md": {
+    "text": "Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madrid. Ellos no tienen mucha hambre, por eso prefieren comer tapas para compartir. Diego quiere patatas bravas y una tortilla de patatas. Su amiga Elena prefiere algo de pescado, así que pide calamares fritos. Para beber, todos quieren una caña de cerveza muy fría. El camarero es muy simpático y trae la comida rápido. \"Todo está riquísimo,\" dice Elena. Al final, Diego pide la cuenta y paga con tarjeta.",
+    "questions": [
+      "1. ¿Por qué eligieron tapas? (왜 타파스를 선택했나요?)",
+      "2. ¿Cómo pagó Diego? (디에고는 어떻게 계산했나요?)"
+    ]
+  },
+  "ch05_a2_a_comer.md": {
+    "text": "La dieta mediterránea es famosa en todo el mundo por ser muy saludable. No es solo un tipo de comida, sino un estilo de vida. Los ingredientes principales son el aceite de oliva, los cereales, las frutas, las verduras y las legumbres. También se come pescado y frutos secos. La carne roja se come con moderación, solo una o dos veces al mes. Lo más importante de esta dieta es que los productos son frescos y de temporada. Además, el ambiente relajado durante la comida ayuda a tener una buena digestión.",
+    "questions": [
+      "1. ¿Cuáles son tres ingredientes principales de la dieta mediterránea? (지중해 식단의 주요 식재료 3가지는?)",
+      "2. ¿Con qué frecuencia se come carne roja? (붉은 고기는 얼마나 자주 먹나요?)"
+    ]
+  },
+  "ch06_a1_mi_casa.md": {
+    "text": "Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidoso en el centro. Prefiero un chalet pequeño en el campo, cerca de la montaña. Mi casa ideal tiene dos dormitorios grandes y un salón con mucha luz. En el jardín hay muchos árboles y flores de colores. También quiero una cocina moderna porque me encanta cocinar para mis amigos. Detrás de la casa hay un pequeño río. Es un lugar muy tranquilo para leer y descansar.",
+    "questions": [
+      "1. ¿Por qué no quiere Laura vivir en la ciudad? (라우라는 왜 시내 아파트에 살고 싶어하지 않나요?)",
+      "2. ¿Qué hay cerca de su casa ideal? (꿈꾸는 집 근처에는 무엇이 있나요?)"
+    ]
+  },
+  "ch06_a2_mi_casa.md": {
+    "text": "Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chicos de Italia y una chica de Alemania. El piso está en un edificio antiguo, pero tiene **ascensor** y una **terraza** maravillosa con vistas a la ciudad. Mi habitación es pequeña, pero es una habitación **exterior** con mucha luz. En casa, tenemos un calendario de **tareas domésticas**: yo paso la **aspiradora** los sábados y mis compañeros **limpian la cocina**. Lo que más me gusta es la **sobremesa** en el salón después de cenar, **donde** hablamos de nuestras culturas y compartimos risas.",
+    "questions": [
+      "1. ¿Cuáles son dos ventajas del piso? (아파트의 장점 두 가지는?)",
+      "2. ¿Qué tarea doméstica hace el narrador? (글쓴이는 어떤 가사를 담당하나요?)"
+    ]
+  },
+  "ch07_a1_en_la_escuela.md": {
+    "text": "Hoy es mi primer día en la Universidad de Salamanca. Estoy un poco nervioso, pero muy contento. En mi mochila tengo tres cuadernos, un bolígrafo azul y mi ordenador portátil. Entro en el aula y veo a muchos estudiantes. El profesor se llama Javier y es muy simpático. En clase, escuchamos al profesor y escribimos notas. No entiendo todo, pero pregunto cuando tengo dudas. Después de la clase, vamos a la cafetería para comer algo y hablar con los nuevos amigos. ¡Va a ser un año fantástico! 1. 주인공의 가방 안에는 무엇이 있나요? (What is in the protagonist's backpack?) - ............................................................ 2. 수업이 끝난 후 학생들은 어디로 가나요? (Where do students go after class?) - ............................................................ 오늘은 살라망카 대학교에서의 저의 첫날입니다. 조금 긴장되지만 매우 기쁩니다. 제 배낭 속에는 공책 세 권, 파란색 볼펜 하나, 그리고 노트북 컴퓨터가 있습니다. 저는 강의실에 들어가서 많은 학생들을 봅니다. 교수님 이름은 하비에르이고 매우 친절하십니다. 수업 시간에 우리는 교수님의 말씀을 듣고 필기를 합니다. 모든 것을 이해하지는 못하지만, 궁금한 점이 있을 때 질문을 합니다. 수업이 끝난 후, 우리는 무언가를 먹고 새로운 친구들과 이야기하기 위해 카페테리아로 갑니다. 환상적인 한 해가 될 거예요! ---",
+    "questions": []
+  },
+  "ch07_a2_en_la_escuela.md": {
+    "text": "Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid con una beca Erasmus. Actualmente, **estoy estudiando** Ciencias Políticas en la Universidad Complutense. Para mí, la vida en España es **mejor que** en Italia porque la gente es **más abierta**. Ahora mismo, **estoy preparando** un trabajo sobre la política europea con amigos de Francia와 독일. La biblioteca de mi facultad es **más grande que** la 도서관 de 내 고향, 하지만 가끔은 아주 시끄러워요. Lo que **mejor** valoro de esta experiencia es que **estoy aprendiendo** mucho sobre el mundo y 내 스페인어 실력도 날마다 좋아지고 있어요. ¡Es una aventura increíble! 1. 마르코는 지금 무엇을 전공하고 있나요? (What is Marco studying?) - ............................................................ 2. 마르코가 생각하는 스페인 생활의 장점은 무엇인가요? (What is a merit of living in Spain according to Marco?) - ............................................................ 안녕하세요, 저는 마르코이고 이탈리아 학생입니다. 올해 저는 에라스무스 장학금을 받고 마드리드에서 살고 있습니다. 현재 저는 콤플루텐세 대학교에서 정치학을 **공부하고 있습니다**. 저에게 스페인에서의 삶은 사람들이 **더 개방적**이기 때문에 이탈리아보다 **더 좋습니다**. 지금 이 순간, 저는 프랑스와 독일 친구들과 함께 유럽 정치에 관한 보고서를 **준비하고 있습니다**. 우리 학부 도서관은 제 고향 도서관보다 **더 크지만**, 가끔은 아주 시끄럽습니다. 제가 이 경험에서 **가장 높게** 평가하는 것은 세상에 대해 많이 **배우고 있다는** 점과 제 스페인어 실력도 날마다 좋아지고 있다는 점입니다. 정말 놀라운 모험이에요! ---",
+    "questions": []
+  },
+  "ch08_a1_el_trabajo.md": {
+    "text": "¡Hola! Me llamo Carlos y soy de Sevilla. Trabajo como arquitecto en una oficina pequeña pero muy bonita. Mi trabajo es muy creativo y me gusta mucho. Empiezo a trabajar a las nueve de la mañana. A las dos, voy a un restaurante con mis compañeros para comer. Después, trabajamos hasta las seis de la tarde. No trabajo los sábados ni los domingos. En mi tiempo libre, me gusta pasear por la ciudad. Mi hermana es médica y trabaja en el hospital central. Ella trabaja muchas horas, pero está muy contenta. 1. Carlos의 직업은 무엇인가요? (What is Carlos's job?) - ............................................................ 2. Carlos의 누나(여동생)는 어디에서 일하나요? (Where does Carlos's sister work?) - ............................................................ 안녕하세요! 제 이름은 카를로스이고 세비야 출신입니다. 저는 작지만 매우 예쁜 사무실에서 건축가로 일합니다. 제 일은 매우 창의적이고 저는 제 일을 아주 좋아합니다. 저는 아침 9시에 일을 시작합니다. 2시에는 동료들과 함께 점심을 먹으러 식당에 갑니다. 그 후, 우리는 오후 6시까지 일합니다. 저는 토요일과 일요일에는 일하지 않습니다. 제 자유 시간에 저는 도시를 산책하는 것을 좋아합니다. 제 누나(여동생)는 의사이고 중앙 병원에서 일합니다. 그녀는 오랜 시간 일하지만 매우 기뻐합니다. ---",
+    "questions": []
+  },
+  "ch08_a2_el_trabajo.md": {
+    "text": "Para tener éxito en una entrevista en España, la preparación es clave. Primero, debes investigar la empresa y entender sus valores. Es importante vestir de forma adecuada según el puesto de trabajo. Durante la entrevista, sé puntual y mantén el contacto visual. Cuando hables de tu experiencia, sé específico: explica qué hiciste y qué resultados lograste. No olvides hacer preguntas al final, como \"¿Cuál es el siguiente paso en el proceso?\". Recuerda que la actitud positiva y la confianza son tan importantes como tu formación académica. ¡Mucha suerte! 1. 면접에서 성공하기 위해 가장 먼저 해야 할 일은 무엇인가요? (What is the first thing to do to succeed?) - ............................................................ 2. 대화 중 태도에 대해 어떤 조언을 하고 있나요? (What advice is given about attitude/behavior?) - ............................................................ 스페인에서 면접에 성공하기 위해서는 준비가 핵심입니다. 첫째, 기업을 조사하고 그들의 가치를 이해해야 합니다. 직책에 맞게 적절한 옷차림을 하는 것이 중요합니다. 면접 동안 시간을 엄수하고 시선을 맞추세요. 본인의 경력에 대해 말할 때 구체적으로 하세요. 무엇을 했고 어떤 결과를 얻었는지 설명하세요. 마지막에 \"채용 과정의 다음 단계는 무엇인가요?\"와 같은 질문을 하는 것을 잊지 마세요. 긍정적인 태도와 자신감은 여러분의 학력만큼이나 중요하다는 것을 기억하세요. 행운을 빕니다! ---",
+    "questions": []
+  },
+  "ch09_a1_ocio_y_arte.md": {
+    "text": "Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia. Voy a ir en tren el sábado por la mañana. Por la tarde, vamos a pasear por el centro de la ciudad. El domingo, vamos a ver las Fallas. ¡Son unas fiestas increíbles! Mi hermano no viene con nosotros porque tiene un examen de música el lunes. Él va a estudiar todo el fin de semana en casa. Después de la fiesta, voy a comprar un regalo para él. ¡Va a ser muy divertido! 1. 주인공은 토요일에 어떻게 발렌시아에 가나요? (How does the protagonist go to Valencia?) - ............................................................ 2. 남동생/형은 왜 같이 가지 않나요? (Why is the brother not coming?) - ............................................................ 이번 주말은 매우 특별합니다. 발렌시아에 계신 할머니를 방문할 예정이기 때문이죠. 토요일 아침에 기차를 타고 갈 것입니다. 오후에는 도시 중심가를 산책할 거예요. 일요일에는 '파야스' 축제를 볼 예정입니다. 정말 믿기지 않을 정도로 멋진 축제예요! 제 남동생(형)은 월요일에 음악 시험이 있어서 우리와 함께 오지 못합니다. 그는 주말 내내 집에서 공부할 거예요. 축제 후에 저는 그를 위한 선물을 살 것입니다. 정말 재미있을 거예요! ---",
+    "questions": []
+  },
+  "ch09_a2_ocio_y_arte.md": {
+    "text": "La \"Noche en Blanco\" es una iniciativa cultural que ocurre en muchas capitales europeas, y en Madrid es un evento espectacular. Durante una noche de otoño, los museos, bibliotecas y teatros abren sus puertas de forma gratuita. Los madrileños y turistas salen a la calle para disfrutar de conciertos al aire libre y exposiciones de arte moderno sobre las paredes de los edificios históricos. \"Si vives esta experiencia, nunca la olvidarás\", dicen los participantes. El próximo año, el ayuntamiento organizará más actividades para los jóvenes. Iré con mis amigos y, si tenemos energía, caminaremos por la castellana hasta el amanecer. 1. 'Noche en Blanco'의 장점 중 하나는 무엇인가요? (What is one advantage of this event?) - ............................................................ 2. 필자는 내년에 누구와 무엇을 할 계획인가요? (With whom and what does the actor plan to do next year?) - ............................................................ '백야 축제(Noche en Blanco)'는 많은 유럽 수도들에서 일어나는 문화적 이니셔티브이며, 마드리드에서는 장관을 이루는 행사입니다. 가을의 어느 하룻밤 동안, 박물관, 도서관, 극장들이 문을 무료로 개방합니다. 마드리드 시민들과 관광객들은 야외 콘서트를 즐기고 역사적인 건물 벽면에 투사되는 현대 미술 전시를 보기 위해 거리로 나옵니다. 참가자들은 \"만약 이 경험을 하신다면, 절대 잊지 못할 것입니다\"라고 말합니다. 내년에 시청은 젊은이들을 위한 더 많은 활동을 조직할 것입니다. 저는 친구들과 함께 갈 것이고, 에너지가 있다면 새벽까지 카스테야나 거리를 걸을 것입니다. ---",
+    "questions": []
+  },
+  "ch10_a1_de_compras.md": {
+    "text": "El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos los domingos por la mañana. Hoy voy al Rastro con mi amiga Elena. Hay mucha gente y muchas cosas bonitas. Elena busca una chaqueta de cuero (가죽 재킷) y yo busco unos zapatos cómodos. En una tienda pequeña, vemos una chaqueta perfecta. Elena pregunta: \"¿Cuánto cuesta esta chaqueta?\". El vendedor responde: \"Cuesta cuarenta euros\". Elena regatea un poco y finalmente paga treinta y cinco euros. ¡Es una ganga! Después de las compras, vamos a tomar unas tapas en la Plaza Mayor. 1. El Rastro는 언제 열리나요? (When does El Rastro take place?) - ............................................................ 2. Elena는 최종적으로 자켓을 얼마에 샀나요? (How much did Elena finally pay for the jacket?) - ............................................................ '엘 라스트로'는 마드리드에서 가장 유명한 노천 시장입니다. 매주 일요일 아침에 열리죠. 오늘 저는 제 친구 엘레나와 함께 '엘 라스트로'에 갑니다. 사람도 많고 예쁜 물건들도 많네요. 엘레나는 가죽 재킷을 찾고 있고, 저는 편한 신발을 찾고 있습니다. 작은 가게에서 우리는 완벽한 재킷을 발견합니다. 엘레나가 묻습니다. \"이 재킷 얼마예요?\" 판매자가 대답합니다. \"40유로입니다.\" 엘레나가 조금 흥정을 해서 결국 35유로를 냅니다. 정말 싸게 샀네요! 쇼핑 후에 우리는 마요르 광장에 가서 타파스를 먹으러 갑니다. ---",
+    "questions": []
+  },
+  "ch10_a2_de_compras.md": {
+    "text": "Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda online muy conocida. El diseño era espectacular y el precio era muy competitivo, incluso con los gastos de envío. Sin embargo, cuando llegó el pedido el viernes pasado, la talla era demasiado pequeña para mí. Inmediatamente, entré en la página web para solicitar un cambio. El proceso fue facilísimo. Al día siguiente, un mensajero vino a mi casa para recoger la chaqueta vieja y me entregó una nueva de la talla correcta. ¡El servicio fue excelente! Ahora, la chaqueta me queda perfectamente y el color es incluso más bonito que en las fotos. Recomiendo esta tienda a todos mis amigos. 1. 주인공이 주문한 자켓에 어떤 문제가 있었나요? (What was the problem with the jacket?) - ............................................................ 2. 반품/교환 프로세스가 어떠했나요? (How was the return/exchange process?) - ............................................................ 2주 전, 저는 유명한 온라인 상점에서 스웨이드 재킷을 하나 샀습니다. 디자인은 환상적이었고 가격은 배송비를 포함해도 매우 경쟁력이 있었죠. 하지만 지난주 금요일에 주문한 물건이 도착했을 때, 사이즈가 저에게 너무 작았습니다. 즉시 웹사이트에 들어가 교환을 요청했습니다. 과정은 정말 쉬웠어요. 다음 날, 택배 기사가 집으로 와서 기존 재킷을 수거하고 제가 원하는 사이즈의 새 재킷을 전달해주었습니다. 서비스가 정말 훌륭했습니다! 이제 재킷은 저에게 완벽하게 잘 맞고, 색상은 사진보다 훨씬 더 예쁩니다. 제 모든 친구들에게 이 상점을 추천합니다. ---",
+    "questions": []
+  },
+  "ch11_a1_medios_y_tecnologia.md": {
+    "text": "Todos los días me levanto a las siete de la mañana. Primero, enciendo la radio para escuchar las noticias mientras tomo mi café. La radio me gusta mucho porque es una compañía agradable. Después, en el metro, leo el periódico digital en mi móvil. Es muy cómodo y rápido. Mi padre prefiere el periódico de papel, él lo lee en el bar de la esquina todas las mañanas. A mediodía, mando un mensaje de WhatsApp a mis amigos para quedar. Por la noche, mi familia y yo vemos la película en la tele. Si es una película de acción, a mis hermanos les encanta y la ven con mucha atención. ¡Estamos siempre conectados! 1. 주인공은 아침에 왜 라디오를 듣나요? (Why does the protagonist listen to the radio in the morning?) - ............................................................ 2. 주인공의 아버지는 어디에서 신문을 읽나요? (Where does the father read the newspaper?) - ............................................................ 매일 저는 아침 7시에 일어납니다. 먼저, 커피를 마시는 동안 뉴스를 듣기 위해 라디오를 켭니다. 라디오가 즐거운 친구가 되어주기 때문에 아주 좋아합니다. 그 후, 지하철에서 제 휴대폰으로 디지털 신문을 읽습니다. 매우 편리하고 빠르죠. 제 아버지는 종이 신문을 선호하시는데, 매일 아침 길모퉁이 바(bar)에서 그것을 읽으십니다. 정오에는 친구들과 만나기 위해 왓츠앱 메시지를 보냅니다. 밤에는 가족과 제가 TV로 영화를 봅니다. 액션 영화라면 제 형제들이 정말 좋아해서 아주 집중해서 그것을 보죠. 우리는 항상 연결되어 있습니다! ---",
+    "questions": []
+  },
+  "ch11_a2_medios_y_tecnologia.md": {
+    "text": "Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la tecnología. Siempre uso el ordenador y la nube para guardar mis archivos. A menudo comparto mis diseños en Instagram para recibir comentarios de otros artistas. Mi red social favorita es Twitter (X) porque allí me informo de las noticias de tecnología. A veces, escucho un podcast sobre inteligencia artificial mientras trabajo. \"Si no te actualizas, te quedas atrás\", es mi lema. Sin embargo, intento desconectar los fines de semana. Nunca reviso el móvil después de las diez de la noche porque quiero descansar bien. La tecnología es una herramienta increíble, pero lo más importante es cómo la usamos para conectar con las personas. 1. Marta는 본인의 파일을 어디에 저장하나요? (Where does Marta save her files?) - ............................................................ 2. Marta의 좌우명(lema)은 무엇인가요? (What is Marta's motto?) - ............................................................ 제 이름은 마르타이고 그래픽 디자이너입니다. 제 업무는 기술과 매우 밀접하게 연결되어 있습니다. 저는 파일들을 저장하기 위해 항상 컴퓨터와 클라우드를 사용합니다. 종종 다른 아티스트들의 피드백을 받기 위해 제 디자인들을 인스타그램에 공유합니다. 제가 가장 좋아하는 소셜 미디어는 트위터(X)인데, 그곳에서 기술 뉴스 정보를 얻기 때문입니다. 가끔은 일을 하면서 인공지능에 관한 팟캐스트를 들어요. \"업데이트하지 않으면 뒤처진다\"는 것이 제 좌우명입니다. 하지만 주말에는 연결을 끊으려 노력합니다. 밤 10시 이후에는 잘 쉬고 싶어서 절대 휴대폰을 확인하지 않아요. 기술은 놀라운 도구이지만, 가장 중요한 것은 우리가 그것을 사람들과 연결하는 데 어떻게 사용하느냐 하는 것입니다. ---",
+    "questions": []
+  },
+  "ch12_a1_viajes_y_lugares.md": {
+    "text": "Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a tomar un avión de Seúl a Madrid. Después, voy a ir en el tren AVE a Sevilla. ¡Me han dicho que el tren es muy rápido! En Sevilla, voy a visitar la Catedral y voy a pasear por el barrio de Santa Cruz. El mapa de mi móvil es muy útil para no perderme. También quiero ir a Granada para ver la Alhambra. Voy a ir en autobús porque es más barato. Mi maleta no es muy grande, pero tengo muchas ganas de ir. ¡Va a ser un viaje fantástico! 1. 주인공은 마드리드에서 세비야까지 어떻게 가나요? (How does the protagonist go from Madrid to Seville?) - ............................................................ 2. 주인공은 왜 그라나다에 버스를 타고 가려고 하나요? (Why does the protagonist want to go to Granada by bus?) - ............................................................ 이번 여름에 저는 스페인 남부의 안달루시아로 여행을 갈 거예요. 먼저, 서울에서 마드리드로 가는 비행기를 탈 것입니다. 그 후, AVE 기차를 타고 세비야로 갈 거예요. 기차가 정말 빠르다고 들었거든요! 세비야에서는 대성당을 방문하고 산타 크루스 지구를 산책할 예정입니다. 휴대폰 지도가 길을 잃지 않는 데 매우 유용합니다. 또한 알함브라 궁전을 보기 위해 그라나다에도 가고 싶어요. 버스가 더 저렴하기 때문에 버스로 갈 것입니다. 제 가방은 아주 크지 않지만, 가고 싶은 마음은 굴뚝같습니다. 환상적인 여행이 될 거예요! ---",
+    "questions": []
+  },
+  "ch12_a2_viajes_y_lugares.md": {
+    "text": "¡Hola! Soy Diego. Este año he hecho algo increíble: he recorrido parte del Camino de Santiago. He empezado en León y he caminado durante diez días. ¡Ha sido duro pero maravilloso! He conocido a personas de Alemania, Brasil y Japón. Hemos hablado mucho en español y en inglés. Lo que más me ha gustado ha sido el paisaje verde de Galicia y la comida de los pueblos. Nunca he comido un pulpo (문어) tan rico. Ya he llegado a la Catedral de Santiago y me siento muy feliz. He tomado muchas fotos y voy a compartirlas en mis redes sociales. Todavía no he planeado mi próximo viaje, pero seguro que voy a volver a España pronto. 1. Diego는 며칠 동안 걸었나요? (How many days did Diego walk?) - ............................................................ 2. Diego가 가장 좋아했던 것은 무엇인가요? (What did Diego like most?) - ............................................................ 안녕하세요! 저는 디에고입니다. 올해 저는 대단한 일을 했어요. 산티아고 순례길의 일부를 완주했습니다. 레온에서 시작해서 10일 동안 걸었습니다. 힘들었지만 경이로웠어요! 독일, 브라질, 일본에서 온 사람들을 만났습니다. 우리는 스페인어와 영어로 이야기를 많이 나눴어요. 가장 좋았던 것은 갈리시아의 초록색 풍경과 마을의 음식이었습니다. 그렇게 맛있는 문어는 처음 먹어봤어요. 저는 이미 산티아고 대성당에 도착했고 정말 행복합니다. 사진을 많이 찍어서 제 소셜 미디어에 공유할 예정이에요. 아직 다음 여행 계획은 세우지 않았지만, 조만간 꼭 스페인에 다시 돌아올 거예요. ---",
+    "questions": []
+  },
+  "ch13_a1_rutina_y_salud.md": {
+    "text": "¡Hola! Soy Elena y vivo en Madrid. Mi rutina es muy española. Primero, me levanto a las ocho y me ducho rápidamente. No desayuno mucho, solo un café con leche. Después, voy a la universidad en metro. Tengo clases hasta las dos de la tarde. A esa hora, almuerzo con mis amigos en la cafetería. Estudiamos un poco por la tarde y luego voy al gimnasio. Vuelvo a casa a las ocho de la tarde. Ceno con mi familia a las diez de la noche. Por último, leo un libro y me acuesto a las doce. ¡Estoy cansada pero muy feliz! 1. Elena는 아침에 무엇을 먹나요? (What does Elena have for breakfast?) - ............................................................ 2. Elena는 몇 시에 저녁을 먹나요? (What time does Elena have dinner?) - ............................................................ 안녕하세요! 저는 엘레나이고 마드리드에 삽니다. 제 일과는 매우 스페인식이에요. 먼저, 8시에 일어나서 빨리 샤워를 합니다. 아침은 많이 먹지 않고, 카페라테 한 잔만 마셔요. 그 후, 지하철을 타고 대학교에 갑니다. 오후 2시까지 수업이 있어요. 그 시간에 친구들과 함께 카페테리아에서 점심을 먹습니다. 오후에는 공부를 좀 하고 체육관에 가요. 오후 8시에 집에 돌아옵니다. 밤 10시에 가족들과 저녁을 먹어요. 마지막으로 책을 읽고 자정에 잠자리에 듭니다. 피곤하지만 정말 행복해요! ---",
+    "questions": []
+  },
+  "ch13_a2_rutina_y_salud.md": {
+    "text": "Mucha gente me pregunta: \"¿Cómo puedo estar sano?\". Mi respuesta siempre es la misma: \"Escucha a tu cuerpo\". Yo, por ejemplo, siempre trato de dormir ocho horas para no estar cansado. Por la mañana, hago un poco de ejercicio. Pero lo más importante es la alimentación. Sigo la dieta mediterránea: uso mucho aceite de oliva y como pescado tres veces a la semana. Cuando me duele la garganta, bebo té con miel y limón. Si tengo fiebre, voy al médico enseguida. También es fundamental el bienestar mental: paso tiempo con mis amigos y trato de no estresarme con las tareas domésticas. ¡La salud empieza en la cocina y termina en el corazón! 1. 주인공은 왜 아침에 운동을 하나요? (Why does the protagonist exercise in the morning?) - ............................................................ 2. 주인공은 목이 아플 때 무엇을 마시나요? (What does the protagonist drink when their throat hurts?) - ............................................................ 많은 사람이 저에게 묻습니다. \"어떻게 하면 건강할 수 있나요?\". 제 대답은 항상 같습니다. \"몸의 소리에 귀 기울이세요.\" 저를 예로 들면, 피곤하지 않기 위해 항상 8시간을 자려고 노력합니다. 아침에는 약간의 운동을 하죠. 하지만 가장 중요한 것은 식습관입니다. 저는 지중해 식단을 따릅니다. 올리브 오일을 많이 사용하고 일주일에 세 번 생선을 먹습니다. 목이 아플 때는 꿀과 레몬을 넣은 차를 마셔요. 열이 나면 바로 병원에 갑니다. 정신적인 웰빙도 필수적입니다. 친구들과 시간을 보내고 집안일로 스트레스받지 않으려 노력합니다. 건강은 주방에서 시작해서 심장에서 완성됩니다! ---",
+    "questions": []
+  },
+  "ch14_a1_cultura_y_celebraciones.md": {
+    "text": "¡Hola! Soy Minjun y este abril estoy en Sevilla. ¡Es increíble! Todo el mundo lleva trajes típicos muy coloridos. Yo no tengo un traje, pero conozco a una chica sevillana, Carmen, y ella me ayuda mucho. Ella baila sevillanas muy bien. Hay mucha música en las \"casetas\" (tents) y la gente come pescaito frito. He aprendido a tocar un poco las castañuelas. El ambiente es muy alegre y hay muchos caballos. Cerca de mil personas están aquí hoy. Me encanta el arte y la tradición de esta ciudad. ¡Ahora conozco mucho mejor la cultura de España! 1. Minjun은 누구를 알고 있나요? (Who does Minjun know?) - ............................................................ 2. 오늘 그곳에는 약 몇 명이 있나요? (Approximately how many people are there today?) - ............................................................ 안녕하세요! 저는 민준이고 이번 4월에 세비야에 와 있습니다. 정말 대단해요! 모든 사람이 매우 다채로운 전통 의상을 입고 있어요. 저는 의상은 없지만, 세비야 여자애인 카르멘을 알고 있는데 그녀가 저를 많이 도와줘요. 그녀는 세비야나스 춤을 아주 잘 춰요. '카세타스'(텐트) 안에는 음악이 가득하고 사람들은 생선튀김을 먹습니다. 저는 캐스터네츠를 조금 치는 법을 배웠어요. 분위기는 매우 즐겁고 말들도 아주 많습니다. 오늘 여기에는 거의 천 명의 사람들이 있어요. 저는 이 도시의 예술과 전통을 사랑합니다. 이제 스페인의 문화를 훨씬 더 잘 알게 되었어요! ---",
+    "questions": []
+  },
+  "ch14_a2_cultura_y_celebraciones.md": {
+    "text": "Ayer fui a un espectáculo de flamenco en el barrio del Sacromonte. Fue una experiencia increíble. Antes, yo no conocía mucho este arte, pero ahora sé que es pura pasión. Los bailarines zapateaban con mucha fuerza y el sonido de la guitarra era muy emocionante. He hablado con el guitarrista y él me ha dicho: \"Para tocar el flamenco, hay que conocer el alma de España\". Yo sé que todavía tengo mucho que aprender, pero me gustaría conocer más sobre la literatura y la pintura española también. El patrimonio cultural de este país es infinito. ¡Mañana voy a visitar el museo para saber más sobre la history! 1. 주인공은 어제 어디에 갔나요? (Where did the protagonist go yesterday?) - ............................................................ 2. 기타리스트는 플라멩코를 연주하기 위해 무엇을 알아야 한다고 했나요? (What did the guitarist say one must know to play flamenco?) - ............................................................ 어제 저는 사크로몬테 지구에서 열린 플라멩코 공연에 갔습니다. 믿을 수 없는 경험이었어요. 전에는 이 예술을 잘 몰랐지만, 이제 이것이 순수한 열정이라는 것을 압니다. 무용수들은 매우 힘차게 발을 굴렀고 기타 소리는 정말 감동적이었어요. 기타리스트와 대화를 나눴는데 그는 이렇게 말했습니다. \"플라멩코를 연주하려면 스페인의 영혼을 알아야 합니다.\" 저는 아직 배울 게 많다는 걸 알지만, 스페인 문학과 회화에 대해서도 더 알고 싶어요. 이 나라의 문화유산은 무한합니다. 내일은 역사에 대해 더 알기 위해 박물관에 갈 거예요! ---",
+    "questions": []
+  },
+  "ch15_a1_mi_futuro_y_el_mundo.md": {
+    "text": "¡Hola a todos! Este ha sido un gran curso de español. El próximo año tengo muchos planes. Primero, voy a viajar a Madrid para practicar mi español con gente nativa. Después, voy a estudiar ingeniería ambiental porque quiero ayudar al medio ambiente. Mi sueño es trabajar en una empresa de energía solar. También voy a reciclar en casa todos los días. Sé que el mundo tiene problemas, pero tengo esperanza. Me gustaría conocer a muchas personas de diferentes países y compartir mis ideas. ¡El futuro va a ser brillante! ¿Y tú? ¿Qué vas a hacer para cambiar el mundo? 1. 주인공은 내년에 어디로 여행을 갈 예정인가요? (Where is the protagonist going to travel next year?) - ............................................................ 2. 주인공의 꿈은 무엇인가요? (What is the protagonist's dream?) - ............................................................ 모두들 안녕하세요! 정말 멋진 스페인어 과정이었습니다. 내년에는 많은 계획이 있어요. 우선, 현지인들과 스페인어를 연습하기 위해 마드리드로 여행을 갈 거예요. 그 후에는 환경을 돕고 싶어서 환경 공학을 공부할 예정입니다. 제 꿈은 태양광 에너지 회사에서 일하는 것이에요. 또한 매일 집에서 재활용을 할 거예요. 세상에 많은 문제가 있다는 걸 알지만, 저는 희망을 가지고 있습니다. 저는 다양한 나라의 사람들을 만나고 제 아이디어를 공유하고 싶어요. 미래는 밝을 것입니다! 여러분은요? 세상을 바꾸기 위해 무엇을 할 건가요? ---",
+    "questions": []
+  },
+  "ch15_a2_mi_futuro_y_el_mundo.md": {
+    "text": "Querido \"yo\" del futuro: Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy muy feliz. Sé que el español cambiará mi vida. En el futuro, ¿hablarás español perfectamente? Espero que sí. También espero que vivas en un mundo con más solidaridad y menos pobreza. Sé que lucharás por los derechos humanos y que ayudarás a proteger el medio ambiente. ¿Seguirás haciendo voluntariado? El camino no será fácil, pero estoy seguro de que serás una persona valiente. Recuerda: el desarrollo sostenible es la clave. ¡Nos vemos en el futuro! 1. 주인공은 미래의 자신이 어떤 세상에서 살기를 바라나요? (In what kind of world does the protagonist hope his future self lives?) - ............................................................ 2. 주인공은 미래의 자신이 무엇을 위해 싸울 것이라고 믿나요? (What does the protagonist believe his future self will fight for?) - ............................................................ 미래의 \"나\"에게: 2025년에서 너에게 편지를 써. 오늘 내 스페인어 A2 과정을 마쳤어. 정말 행복해. 스페인어가 내 삶을 바꿀 거라는 걸 알아. 미래에 너는 스페인어를 완벽하게 하고 있을까? 그러길 바라. 또한 네가 더 많은 연대가 있고 가난이 적은 세상에서 살기를 바라. 네가 인권을 위해 싸우고 환경을 보호하는 일을 도울 거라는 걸 알아. 계속 자원봉사를 하고 있을까? 길이 쉽지는 않겠지만, 네가 용기 있는 사람이 될 거라고 확신해. 기억해. 지속 가능한 발전이 핵심이야. 미래에서 만나자! ---",
+    "questions": []
+  }
+}

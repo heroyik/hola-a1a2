@@ -23,7 +23,7 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 
 우리의 삶을 바꾸고 있는 최신 기술과 디지털 환경입니다. 이미지 속의 스마트한 연구 공간과 함께 어휘를 익혀보세요.
 
-![Tecnología](../images/ch11_a2_vocab_it_v2_1.png)
+![Tecnología — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch11_a2_vocab_it_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -97,7 +97,7 @@ A2 단계에서는 기술을 단순히 사용하는 것을 넘어, 디지털 환
 
 스페인의 새로운 미디어 트렌드를 살펴봅시다.
 
-![Podcast Studio](../images/ch11_a2_culture_podcast_v2_1.png)
+![조명이 켜진 스페인의 현대적인 팟캐스트 스튜디오 풍경](../images/ch11_a2_culture_podcast_v10.png)
 
 España se ha convertido en uno de los mayores consumidores de **podcasts** en el mundo hispanohablante. Temas como la tecnología, la historia, el humor y el desarrollo personal son extremadamente populares. Plataformas como iVoox o Spotify permiten a los creadores españoles llegar a audiencias locales e internacionales.
 
@@ -227,9 +227,9 @@ Me llamo Marta y soy diseñadora gráfica. Mi trabajo está muy conectado con la
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Actualizo la app (또는 las apps) todos los días., 2. ¿Cambias tu contraseña a menudo?, 3. Él nunca usa las redes sociales., 4. Vamos a descargarlo (또는 Lo vamos a descargar) de internet., 5. Mi ordenador a veces no funciona.
+1. Actualizo la app (또는 las apps) todos los días., 2. ¿Cambias tu contraseña a menudo?, 3. Él nunca usa las redes sociales., 4. Vamos a descargarlo (또는 Lo vamos a descargar) de internet., 5. Mi ordenador a veces no funciona.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 클라우드 (En la nube).
-2. 1. 업데이트하지 않으면 뒤처진다 (Si no te actualizas, te quedas atrás).
+1. En la nube. (클라우드)
+2. Si no te actualizas, te quedas atrás. (업데이트하지 않으면 뒤처진다)

@@ -414,3 +414,9 @@ Hola, me llamo Carlos. Yo cuido mucho mi cuerpo. Todos los días camino por el p
 ### 6. Práctica - C. 번역 연습
 
 1. Tengo sueño., 12. Tenemos sed., 13. ¿Tienes (un) coche?, 14. No tienen hambre., 15. Lucía tiene 19 años.
+
+### 7. Lectura - Preguntas
+
+1. Carlos camina por el parque durante treinta minutos. (카를로스는 매일 공원에서 30분 동안 산책합니다.)
+2. Porque siempre tiene sed después de correr. (달리기 후에는 항상 목이 마르기 때문입니다.)
+3. Su dieta es muy sana; come muchas frutas y verduras frescas cada día. (그녀의 식단은 매우 건강합니다. 매일 신선한 과일과 채소를 많이 먹습니다.)

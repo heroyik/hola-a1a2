@@ -451,6 +451,6 @@ A2 수준에서 중요한 것은 '뉘앙스'의 차이를 아는 것입니다. �
 
 ### 7. Lectura - Preguntas
 
-1. Se sintió orgulloso porque terminó un proyecto importante.
-2. Se puso preocupado porque no encontraba las llaves de su coche.
-3. Su novia las encontró.
+1. Se sintió orgulloso porque terminó un proyecto importante. (그는 중요한 프로젝트를 끝내서 자랑스러움을 느꼈습니다.)
+2. Se puso preocupado porque no encontraba las llaves de su coche. (그는 자동차 열쇠를 찾지 못해서 걱정하게 되었습니다.)
+3. Su novia las encontró. (그의 여자친구가 열쇠를 찾았습니다.)

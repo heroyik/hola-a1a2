@@ -23,7 +23,7 @@ A1에서 학교의 기초적인 모습을 배웠다면, A2에서는 더 성숙�
 
 활기 넘치는 스페인 대학 캠퍼스의 광장입니다. 학업과 행정, 휴식 공간과 관련된 심화 어휘들을 확인해 보세요.
 
-![Vida Universitaria](../images/ch07_a2_vocab_university_v2_1.png)
+![Vida Universitaria — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch07_a2_vocab_class_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -176,7 +176,7 @@ A2 단계에서 반드시 마스터해야 하는 현재 시제 불규칙 동사�
 
 유럽 대학생들의 가장 큰 꿈, 에라스무스(Erasmus) 프로그램을 아시나요?
 
-![Erasmus Spirit](../images/ch07_a2_culture_erasmus_v2_1.png)
+![에라스무스 학생들의 대학 광장 일상 — 휴식과 대화의 풍경](../images/ch07_a2_culture_grading_v10.png)
 
 El programa **Erasmus** es una de las experiencias más importantes para los estudiantes universitarios en Europa. Permite a miles de jóvenes estudiar durante un semestre o un año completo en una universidad de otro país europeo. España es, desde hace años, el destino **más popular** para los estudiantes Erasmus de todo el continente.
 
@@ -230,9 +230,9 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 
 ### Questions
 
-1. 마르코는 지금 무엇을 전공하고 있나요? (What is Marco studying?)
+1. ¿Qué estudia Marco ahora? (마르코는 지금 무엇을 전공하고 있나요?)
    - ............................................................
-2. 마르코가 생각하는 스페인 생활의 장점은 무엇인가요? (What is a merit of living in Spain according to Marco?)
+2. ¿Cuál es una ventaja de vivir en España según Marco? (마르코가 생각하는 스페인 생활의 장점은 무엇인가요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -289,21 +289,21 @@ Hola, soy Marco y soy un estudiante italiano. Este año estoy viviendo en Madrid
 
 ### 6. Práctica - A. Form the gerund
 
-1. 1. leyendo, 2. trabajando, 3. durmiendo, 4. escribiendo, 5. pidiendo
+1. leyendo, 2. trabajando, 3. durmiendo, 4. escribiendo, 5. pidiendo
 
 ### 6. Práctica - B. Fill in the blanks with comparisons
 
-1. 1. más difícil que, 2. tan alto como, 3. mejor que, 4. menos importante que, 5. el mejor
+1. más difícil que, 2. tan alto como, 3. mejor que, 4. menos importante que, 5. el mejor
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Ahora estoy solicitando una beca.
-2. 1. La biblioteca es más tranquila que la cafetería.
-3. 1. ¿Qué estás leyendo ahora?
-4. 1. El español es tan divertido como el inglés.
-5. 1. La graduación es la ceremonia más importante de nuestra universidad.
+1. Ahora estoy solicitando una beca.
+2. La biblioteca es más tranquila que la cafetería.
+3. ¿Qué estás leyendo ahora?
+4. El español es tan divertido como el inglés.
+5. La graduación es la ceremonia más importante de nuestra universidad.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 정치학 (Ciencias Políticas).
-2. 1. 사람들이 더 개방적이라는 점 (La gente es más abierta).
+1. Ciencias Políticas. (정치학)
+2. La gente es más abierta. (사람들이 더 개방적이라는 점)

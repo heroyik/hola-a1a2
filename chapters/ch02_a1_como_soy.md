@@ -431,8 +431,14 @@ Hola, me llamo Sofía. En mi familia somos cuatro personas. Mi padre es muy alto
 
 ### 6. Práctica - B. Completa
 
-1. 1. soy, 7. es, 8. estamos, 9. estás, 10. está
+1. soy, 7. es, 8. estamos, 9. estás, 10. está
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Soy una persona inteligente., 12. ¿Estás triste hoy?, 13. Pedro es muy simpático., 14. (Nosotros) estamos cansados ahora., 15. Ella es muy guapa.
+1. Soy una persona inteligente., 12. ¿Estás triste hoy?, 13. Pedro es muy simpático., 14. (Nosotros) estamos cansados ahora., 15. Ella es muy guapa.
+
+### 7. Lectura - Preguntas
+
+1. Es muy alto y serio, pero muy inteligente. (키가 매우 크고 진지하시지만, 정말 똑똑하십니다.)
+2. Es un poco bajo y muy simpático. (키가 좀 작고 정말 성격이 좋습니다.)
+3. Hoy está muy contenta porque es su cumpleaños. (오늘은 그녀의 생일이기 때문에 매우 기뻐합니다.)

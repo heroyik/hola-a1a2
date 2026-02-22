@@ -323,21 +323,21 @@ En España decimos que "los amigos son la familia que se elige". Yo tengo un gru
 
 ### 6. Práctica - B. Fill in the blanks
 
-1. 1. mío
-2. 1. tuya
-3. 1. suyas
-4. 1. nuestro
-5. 1. suyo
+1. mío
+2. tuya
+3. suyas
+4. nuestro
+5. suyo
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Nos conocemos muy bien.
-2. 1. Diego y Elena se quieren.
-3. 1. ¿Os escribís a menudo?
-4. 1. Los buenos amigos deben ayudarse.
-5. 1. Se llaman todos los días.
+1. Nos conocemos muy bien.
+2. Diego y Elena se quieren.
+3. ¿Os escribís a menudo?
+4. Los buenos amigos deben ayudarse.
+5. Se llaman todos los días.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 대학 때부터 알고 지낸 친한 친구 무리(5명)를 의미합니다.
-2. 1. 마치 필자의 형제들 같다고 매우 긍정적으로 평가하십니다.
+1. Un grupo de amigos muy unidos desde la universidad. (대학 때부터 알고 지낸 친한 친구 무리를 의미합니다.)
+2. Dice que son como sus hermanos. (마치 필자의 형제들 같다고 하십니다.)

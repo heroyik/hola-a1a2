@@ -23,7 +23,7 @@
 
 스페인의 열정을 상징하는 전통적인 요소들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Festivales](../images/ch14_a1_vocab_festivals_v2_1.png)
+![Festivales — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch14_a1_vocab_festivals_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -131,7 +131,7 @@
 
 스페인을 대표하는 3대 축제는 무엇일까요?
 
-![Spanish Fiesta](../images/ch14_a1_culture_fiesta_v2_1.png)
+![스페인 전통 축제의 화려하고 열정적인 풍경](../images/ch14_a1_culture_fiesta_v10.png)
 
 España es famosa por sus festivales coloridos. En marzo, Valencia celebra **Las Fallas**, donde se queman grandes esculturas de cartón en medio de la calle. Es un espectáculo de luz y fuego. En abril, Sevilla se llena de alegría con la **Feria de Abril**, donde la gente viste trajes típicos, baila sevillanas y monta a caballo.
 
@@ -193,9 +193,9 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 
 ### Questions
 
-1. Minjun은 누구를 알고 있나요? (Who does Minjun know?)
+1. ¿A quién conoce Minjun? (민준은 누구를 알고 있나요?)
    - ............................................................
-2. 오늘 그곳에는 약 몇 명이 있나요? (Approximately how many people are there today?)
+2. ¿Aproximadamente cuántas personas hay allí hoy? (오늘 그곳에는 약 몇 명이 있나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -255,13 +255,13 @@ En julio, en Pamplona, ocurre el encierro de **San Fermín**, donde la gente cor
 
 ### 6. Práctica - B. Conocer 동사 변형 연습
 
-1. 1. conozco, 2. conoces, 3. conocemos, 4. conoce, 5. conocen
+1. conozco, 2. conoces, 3. conocemos, 4. conoce, 5. conocen
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Conozco muy bien Madrid., 2. ¿Conoces a Marc?, 3. Este vestido cuesta quinientos euros., 4. Nos gusta bailar en la fiesta., 5. Mi abuelo toca la guitarra.
+1. Conozco muy bien Madrid., 2. ¿Conoces a Marc?, 3. Este vestido cuesta quinientos euros., 4. Nos gusta bailar en la fiesta., 5. Mi abuelo toca la guitarra.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 세비야 여자애 카르멘 (자신에게 도움을 주는 친구).
-2. 1. 약 천 명 (Cerca de mil personas).
+1. A su amiga sevillana, Carmen. (자신에게 도움을 주는 세비야 친구 카르멘)
+2. Cerca de mil personas. (약 천 명)

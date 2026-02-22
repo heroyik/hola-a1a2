@@ -382,30 +382,30 @@ Me llamo Ricardo y mi historia es un poco complicada. Nací en Buenos Aires, per
 
 ### 6. Práctica - A. ¿Soy o Era?
 
-1. 1. soy
-2. 1. era, era
-3. 1. era
-4. 1. somos
-5. 1. eras
+1. soy
+2. era, era
+3. era
+4. somos
+5. eras
 
 ### 6. Práctica - B. Origen y Nacionalidad
 
-1. 1. andaluz / italiano / español
-2. 1. doble
-3. 1. colombiano / mexicano
-4. 1. orgulloso
-5. 1. diversidad
+1. andaluz / italiano / español
+2. doble
+3. colombiano / mexicano
+4. orgulloso
+5. diversidad
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Cuando era pequeño, era muy tímido.
-2. 1. Mis padres son de origen mexicano.
-3. 1. España es un país realmente multicultural.
-4. 1. Nos integramos bien con amigos de otras culturas en la escuela.
-5. 1. ¿Dónde están tus raíces familiares?
+1. Cuando era pequeño, era muy tímido.
+2. Mis padres son de origen mexicano.
+3. España es un país realmente multicultural.
+4. Nos integramos bien con amigos de otras culturas en la escuela.
+5. ¿Dónde están tus raíces familiares?
 
 ### 7. Lectura - Preguntas
 
-1. 1. Eran de Italia y España.
-2. 1. Se siente orgulloso de sus raíces mixtas.
-3. 1. Porque la gente es muy acogedora.
+1. Eran de Italia y España. (이탈리아와 스페인 분이셨습니다.)
+2. Se siente orgulloso de sus raíces mixtas. (그는 자신의 혼혈 뿌리에 대해 자랑스럽게 생각합니다.)
+3. Porque la gente es muy acogedora. (사람들이 매우 환영해 주기 때문입니다.)

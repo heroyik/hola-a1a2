@@ -23,7 +23,7 @@
 
 세련된 스페인 패션과 쇼핑 현장입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Shopping](../images/ch10_a1_vocab_shopping_v2_1.png)
+![Shopping — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch10_a1_vocab_shopping_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -127,7 +127,7 @@
 
 스페인의 활기찬 시장 문화를 경험해 보세요.
 
-![Spanish Market](../images/ch10_a1_culture_market_v2_1.png)
+![활기찬 스페인의 시장 풍경과 이웃들의 교류](../images/ch10_a1_culture_market_v10.png)
 
 Los mercados tradicionales en España son el corazón de la vida social. No son solo lugares para comprar comida fresca como jamón, aceitunas o queso; son puntos de encuentro para amigos. El **Mercado de San Miguel** en Madrid o **La Boquería** en Barcelona son famosos en todo el mundo por su arquitectura y su ambiente vibrante.
 
@@ -273,13 +273,13 @@ El Rastro es el mercado al aire libre más famoso de Madrid. Se celebra todos lo
 
 ### 6. Práctica - B. 지시사 연습
 
-1. 1. Esta, 2. Esos, 3. aquel, 4. Estas, 5. ese
+1. Esta, 2. Esos, 3. aquel, 4. Estas, 5. ese
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. ¿Quanto cuesta esta camiseta?, 2. Busco unos vaqueros (또는 unos pantalones vaqueros)., 3. ¿Puedo pagar con tarjeta?, 4. Aquel vestido azul es demasiado caro., 5. Hoy llevo una chaqueta (또는 Llevo puesta...).
+1. ¿Quanto cuesta esta camiseta?, 2. Busco unos vaqueros (또는 unos pantalones vaqueros)., 3. ¿Puedo pagar con tarjeta?, 4. Aquel vestido azul es demasiado caro., 5. Hoy llevo una chaqueta (또는 Llevo puesta...).
 
 ### 7. Lectura - Preguntas
 
-1. 1. 매주 일요일 아침 (Todos los domingos por la mañana).
-2. 1. 35유로 (Treinta y cinco euros).
+1. Todos los domingos por la mañana. (매주 일요일 아침)
+2. Treinta y cinco euros. (35유로)

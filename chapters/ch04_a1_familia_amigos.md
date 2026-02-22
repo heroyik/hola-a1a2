@@ -326,21 +326,21 @@ Hola, me llamo Sofía. Mi familia no es muy grande. Vivo con mis padres y mi her
 
 ### 6. Práctica - B. Fill in the blanks
 
-1. 1. Mi
-2. 1. Tu
-3. 1. Nuestro
-4. 1. Sus
-5. 1. Vuestra
+1. Mi
+2. Tu
+3. Nuestro
+4. Sus
+5. Vuestra
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Esta es mi abuela.
-2. 1. Aquella niña es mi prima.
-3. 1. ¿Dónde están tus padres?
-4. 1. Nuestro padre es médico.
-5. 1. Estos niños son mis hijos.
+1. Esta es mi abuela.
+2. Aquella niña es mi prima.
+3. ¿Dónde están tus padres?
+4. Nuestro padre es médico.
+5. Estos niños son mis hijos.
 
 ### 7. Lectura - Preguntas
 
-1. 1. Pablo es el hermano menor de Sofía.
-2. 1. Manuel es ingeniero.
+1. Pablo es el hermano menor de Sofía. (파블로는 소피아의 남동생입니다.)
+2. Manuel es ingeniero. (마누엘은 엔지니어입니다.)

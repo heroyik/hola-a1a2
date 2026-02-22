@@ -23,7 +23,7 @@ A1에서 집의 구조와 기초 가구를 배웠다면, A2에서는 현대 생�
 
 최신 시설을 갖춘 스마트 홈의 주방과 다용도실 풍경입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Electrodomésticos — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a2_vocab_appliances_v2_1.png)
+![Electrodomésticos — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a2_vocab_furniture_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -150,7 +150,7 @@ Existen portales inmobiliarios muy famosos, como *Idealista* o *Fotocasa*, donde
 
 매우 스페인적인 전통 중 하나는 '이웃 반상회(comunidad de vecinos)'인데, 같은 건물에 사는 모든 사람들이 모여 건물 관리에 대해 결정합니다.
 
-![스페인 대도시의 부동산 문화 — 피소 공유와 광고 탐색](../images/ch06_a2_culture_realestate_v2_1.png)
+![스페인 대도시의 부동산 문화 — 피소 공유와 광고 탐색](../images/ch06_a2_culture_renting_v10.png)
 
 ---
 
@@ -286,21 +286,21 @@ Cuando llegué a Barcelona para estudiar, decidí compartir un piso con dos chic
 
 ### 6. Práctica - B. Complete with 'donde'
 
-1. 1. donde duermo
-2. 1. donde venden
-3. 1. donde vamos
-4. 1. donde trabaja
-5. 1. donde viven
+1. donde duermo
+2. donde venden
+3. donde vamos
+4. donde trabaja
+5. donde viven
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Tengo que hacer la cama cada mañana.
-2. 1. Me toca (a mí), yo pongo el lavavajillas.
-3. 1. Esta es la oficina donde trabaja mi amigo.
-4. 1. ¿Están incluidos los gastos de agua en el alquiler?
-5. 1. Ayer pasé la aspiradora y planché la ropa todo el día.
+1. Tengo que hacer la cama cada mañana.
+2. Me toca (a mí), yo pongo el lavavajillas.
+3. Esta es la oficina donde trabaja mi amigo.
+4. ¿Están incluidos los gastos de agua en el alquiler?
+5. Ayer pasé la aspiradora y planché la ropa todo el día.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 엘리베이터(ascensor)가 있고 전망이 좋은 테라스(terraza)가 있습니다.
-2. 1. 토요일마다 청소기로 청소하는 것(pasar la aspiradora)을 담당합니다.
+1. Tiene ascensor y una terraza con buenas vistas. (엘리베이터가 있고 전망이 좋은 테라스가 있습니다.)
+2. Pasar la aspiradora los sábados. (토요일마다 청소기로 청소하는 것을 담당합니다.)

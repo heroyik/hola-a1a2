@@ -23,7 +23,7 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 
 건강한 삶을 유지하기 위한 활동과 관리입니다. 평화로운 웰빙의 이미지를 확인하며 어휘를 익혀보세요.
 
-![Salud](../images/ch13_a2_vocab_health_v2_1.png)
+![Salud — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch13_a2_vocab_health_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -106,7 +106,7 @@ A2 단계에서는 매일의 루틴을 넘어, 우리가 머무는 공간을 관
 
 스페인 사람들이 건강하게 오래 사는 비결은 무엇일까요?
 
-![Mediterranean Lifestyle](../images/ch13_a2_culture_lifestyle_v2_1.png)
+![지중해식 식사를 즐기며 사회적 관계를 나누는 스페인의 식탁 풍경](../images/ch13_a2_culture_lifestyle_v10.png)
 
 La **dieta mediterránea** es considerada una de las más saludables del mundo y es Patrimonio Cultural Inmaterial de la Humanidad. Se basa en el consumo de productos frescos y locales. El ingrediente estrella es el **aceite de oliva** (oro líquido), que se usa para cocinar y aliñar ensaladas.
 
@@ -170,9 +170,9 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 
 ### Questions
 
-1. 주인공은 왜 아침에 운동을 하나요? (Why does the protagonist exercise in the morning?)
+1. ¿Por qué hace ejercicio el protagonista por la mañana? (주인공은 왜 아침에 운동을 하나요?)
    - ............................................................
-2. 주인공은 목이 아플 때 무엇을 마시나요? (What does the protagonist drink when their throat hurts?)
+2. ¿Qué bebe el protagonista cuando le duele la garganta? (주인공은 목이 아플 때 무엇을 마시나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -232,13 +232,13 @@ Mucha gente me pregunta: "¿Cómo puedo estar sano?". Mi respuesta siempre es la
 
 ### 6. Práctica - B. Doler 동사 변형 연습
 
-1. 1. me duele, 2. te duelen, 3. le duele, 4. nos duelen, 5. les duele
+1. me duele, 2. te duelen, 3. le duele, 4. nos duelen, 5. les duele
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Debes (또는 Deberías) ir a la farmacia., 2. Es importante beber mucha agua., 3. Estoy resfriado/a y tengo fiebre., 4. Usted tiene que comer más verduras., 5. Me duele la cabeza desde ayer.
+1. Debes (또는 Deberías) ir a la farmacia., 2. Es importante beber mucha agua., 3. Estoy resfriado/a y tengo fiebre., 4. Usted tiene que comer más verduras., 5. Me duele la cabeza desde ayer.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 피곤하지 않기 위해 (Para no estar cansado).
-2. 1. 꿀과 레몬을 넣은 차 (Té con miel y limón).
+1. Para no estar cansado. (피곤하지 않기 위해)
+2. Té con miel y limón. (꿀과 레몬을 넣은 차)

@@ -23,7 +23,7 @@
 
 따스한 햇살이 비치는 테라스의 풍성한 식탁입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Comida y Bebida — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a1_vocab_food_v2_1.png)
+![Comida y Bebida — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch05_a1_vocab_food_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -212,7 +212,7 @@ A los españoles les gusta "tapear" o "picar". Van de bar en bar, toman una cañ
 
 스페인 사람들은 '타파스를 먹는 것(tapear)'을 좋아합니다. 그들은 바(bar)를 옮겨 다니며 '카냐(caña, 작은 맥주)'나 '차토(chato, 와인 한 잔)'를 마시고, 가는 곳마다 다른 타파스를 맛봅니다. 그라나다 같은 일부 도시에서는 음료를 시키면 타파스가 공짜입니다!
 
-![스페인 바에서 즐기는 타파스 문화와 카냐(생맥주)](../images/ch05_a1_culture_tapas_v2_1.png)
+![스페인 바에서 즐기는 타파스 문화와 카냐(생맥주)](../images/ch05_a1_culture_tapas_v10.png)
 
 ---
 
@@ -361,21 +361,21 @@ Hoy es viernes y Diego cena con sus amigos en un restaurante del centro de Madri
 
 ### 6. Práctica - B. Fill in the blanks
 
-1. 1. quiero
-2. 1. preferimos
-3. 1. quieres
-4. 1. prefieren
-5. 1. queréis
+1. quiero
+2. preferimos
+3. quieres
+4. prefieren
+5. queréis
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Para mí, una cerveza fría, por favor.
-2. 1. ¿Quieres carne o prefieres pescado?
-3. 1. La cuenta, por favor.
-4. 1. Preferimos el vino tinto al vino blanco.
-5. 1. ¿Puedo pagar con tarjeta?
+1. Para mí, una cerveza fría, por favor.
+2. ¿Quieres carne o prefieres pescado?
+3. La cuenta, por favor.
+4. Preferimos el vino tinto al vino blanco.
+5. ¿Puedo pagar con tarjeta?
 
 ### 7. Lectura - Preguntas
 
-1. 1. 그들은 배가 많이 고프지 않았기 때문입니다. (Porque no tienen mucha hambre.)
-2. 1. 카드로 결제했습니다. (Paga con tarjeta.)
+1. Porque no tienen mucha hambre. (그들은 배가 많이 고프지 않았기 때문입니다)
+2. Paga con tarjeta. (카드로 결제했습니다)

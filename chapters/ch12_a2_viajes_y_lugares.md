@@ -23,7 +23,7 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 
 여행을 더욱 풍요롭게 해주는 장소와 시설들입니다. 다양한 풍경이 어우러진 이미지를 보며 어휘를 익혀보세요.
 
-![Lugares](../images/ch12_a2_vocab_places_v2_1.png)
+![Lugares — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch12_a2_vocab_places_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -123,7 +123,7 @@ A2 단계에서의 여행은 단순히 이동하는 것을 넘어, 현지인과 
 
 스페인을 가장 깊게 만나는 방법, 순례길을 알아봅시다.
 
-![Camino de Santiago](../images/ch12_a2_culture_hiking_v2_1.png)
+![산티아고 순례길을 걷는 사람들과 갈리시아의 초록빛 풍경](../images/ch12_a2_culture_hiking_v10.png)
 
 El **Camino de Santiago** es una de las rutas de peregrinación más antiguas y famosas de Europa. Miles de personas de todo el mundo recorren a pie o en bicicleta cientos de kilómetros para llegar a la Catedral de Santiago de Compostela, donde se dice que está la tumba del apóstol Santiago.
 
@@ -268,13 +268,13 @@ No es solo un viaje religioso; para muchos es una experiencia de introspección,
 
 ### 6. Práctica - B. 완료 과거 변형 연습
 
-1. 1. he viajado, 2. has perdido, 3. hemos dormido, 4. ha hecho, 5. habéis ido
+1. he viajado, 2. has perdido, 3. hemos dormido, 4. ha hecho, 5. habéis ido
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Ya he hecho la reserva del hotel., 2. ¿Has visto la Catedral de Santiago alguna vez?, 3. Todavía no hemos ido a ese museo., 4. ¿Está incluido el desayuno?, 5. Lo que más me ha gustado es el paisaje de la playa.
+1. Ya he hecho la reserva del hotel., 2. ¿Has visto la Catedral de Santiago alguna vez?, 3. Todavía no hemos ido a ese museo., 4. ¿Está incluido el desayuno?, 5. Lo que más me ha gustado es el paisaje de la playa.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 10일 (Diez días).
-2. 1. 갈리시아의 초록색 풍경과 마을의 음식 (El paisaje verde de Galicia y la comida de los pueblos).
+1. Diez días. (10일)
+2. El paisaje verde de Galicia y la comida de los pueblos. (갈리시아의 초록색 풍경과 마을의 음식)

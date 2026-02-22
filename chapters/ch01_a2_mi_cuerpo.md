@@ -259,7 +259,7 @@ El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se 
 
 ### 6. Práctica - B. Choose the correct form
 
-1. 1. duele, 7. duelen, 8. duele, 9. duelen, 10. duele
+1. duele, 7. duelen, 8. duele, 9. duelen, 10. duele
 
 ### 6. Práctica - C. 번역 연습
 
@@ -269,5 +269,5 @@ El invierno en Madrid es muy frío y mucha gente tiene la gripe. Ayer, Elena se 
 
 ### 7. Lectura - Preguntas
 
-1. Elena pidió una cita médica porque tenía fiebre y dolor de garganta.
-2. Elena compró un jarabe y unas pastillas.
+1. Elena pidió una cita médica porque tenía fiebre y dolor de garganta. (엘레나는 열이 나고 목이 아파서 병원 예약을 했습니다.)
+2. Elena compró un jarabe y unas pastillas. (엘레나는 시럽과 알약을 샀습니다.)

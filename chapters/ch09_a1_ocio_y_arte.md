@@ -23,7 +23,7 @@
 
 다양한 방식으로 여가를 즐기는 청춘들의 모습입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Ocio](../images/ch09_a1_vocab_leisure_v2_1.png)
+![Ocio — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch09_a1_vocab_leisure_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -129,7 +129,7 @@
 
 스페인의 거리를 수놓는 축제와 예술의 열기를 느껴보세요.
 
-![Spanish Festival](../images/ch09_a1_culture_festivals_v2_1.png)
+![스페인 거리의 축제 분위기와 현대 미술 야외 전시](../images/ch09_a1_culture_festivals_v10.png)
 
 España es famosa en todo el mundo por sus festivales vibrantes. Uno de los más conocidos es la **Feria de Abril** en Sevilla, donde la gente baila flamenco y lleva trajes tradicionales muy coloridos. También están las **Fallas** de Valencia, con esculturas gigantes que se queman al final de la fiesta.
 
@@ -194,9 +194,9 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 
 ### Questions
 
-1. 주인공은 토요일에 어떻게 발렌시아에 가나요? (How does the protagonist go to Valencia?)
+1. ¿Cómo va a viajar el protagonista a Valencia el sábado? (주인공은 토요일에 어떻게 발렌시아에 가나요?)
    - ............................................................
-2. 남동생/형은 왜 같이 가지 않나요? (Why is the brother not coming?)
+2. ¿Por qué no va su hermano con él? (남동생/형은 왜 같이 가지 않나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -256,13 +256,13 @@ Este fin de semana es muy especial porque voy a visitar a mi abuela en Valencia.
 
 ### 6. Práctica - B. 동사 변형 연습
 
-1. 1. voy, 2. vienes, 3. vamos, 4. vienen, 5. va
+1. voy, 2. vienes, 3. vamos, 4. vienen, 5. va
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Voy a ver una película mañana., 2. Vamos a pasear por el parque., 3. ¿Qué vas a estudiar?, 4. Los amigos van a venir a mi casa., 5. Ella va a bailar.
+1. Voy a ver una película mañana., 2. Vamos a pasear por el parque., 3. ¿Qué vas a estudiar?, 4. Los amigos van a venir a mi casa., 5. Ella va a bailar.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 기차 (En tren).
-2. 1. 월요일에 음악 시험이 있어서 (Porque tiene un examen de música el lunes).
+1. En tren. (기차)
+2. Porque tiene un examen de música el lunes. (월요일에 음악 시험이 있어서)

@@ -23,7 +23,7 @@
 
 여행을 떠날 때 꼭 필요한 물건들과 교통수단입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Transporte](../images/ch12_a1_vocab_travel_v2_1.png)
+![Transporte — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch12_a1_vocab_travel_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -131,7 +131,7 @@
 
 스페인에서 이동하는 가장 스마트한 방법은 무엇일까요?
 
-![Spanish AVE Train](../images/ch12_a1_culture_transport_v2_1.png)
+![스페인 AVE 고속열차와 아토차 역의 현대적인 풍경](../images/ch12_a1_culture_transport_v10.png)
 
 El sistema de transporte en España es excelente. El **AVE** (Alta Velocidad Española) conecta las principales ciudades como Madrid, Sevilla, Valencia y Barcelona de forma rápida y cómoda. Las estaciones suelen ser edificios históricos o modernos muy bonitos, como la estación de **Atocha** en Madrid, que tiene un jardín tropical en su interior.
 
@@ -194,9 +194,9 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 
 ### Questions
 
-1. 주인공은 마드리드에서 세비야까지 어떻게 가나요? (How does the protagonist go from Madrid to Seville?)
+1. ¿Cómo viaja el protagonista de Madrid a Sevilla? (주인공은 마드리드에서 세비야까지 어떻게 가나요?)
    - ............................................................
-2. 주인공은 왜 그라나다에 버스를 타고 가려고 하나요? (Why does the protagonist want to go to Granada by bus?)
+2. ¿Por qué quiere ir el protagonista a Granada en autobús? (주인공은 왜 그라나다에 버스를 타고 가려고 하나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -257,13 +257,13 @@ Este verano voy a viajar a Andalucía, en el sur de España. Primero, voy a toma
 
 ### 6. Práctica - B. Ir 동사 변형 및 미래 표현 연습
 
-1. 1. voy, 2. vas, 3. va, 4. vamos, 5. van
+1. voy, 2. vas, 3. va, 4. vamos, 5. van
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. ¿Dónde está la estación de metro?, 2. Voy al aeropuerto., 3. ¿Qué vas a hacer mañana?, 4. Vamos a ir al museo., 5. Un billete de avión, por favor.
+1. ¿Dónde está la estación de metro?, 2. Voy al aeropuerto., 3. ¿Qué vas a hacer mañana?, 4. Vamos a ir al museo., 5. Un billete de avión, por favor.
 
 ### 7. Lectura - Preguntas
 
-1. 1. AVE 기차 (En el tren AVE).
-2. 1. 더 저렴하기 때문에 (Porque es más barato).
+1. En el tren AVE. (AVE 기차)
+2. Porque es más barato. (더 저렴하기 때문에)

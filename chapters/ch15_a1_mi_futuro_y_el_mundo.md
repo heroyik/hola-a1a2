@@ -23,7 +23,7 @@
 
 우리가 꿈꾸는 내일과 우리가 지켜야 할 지구입니다. 희망적인 미래의 이미지를 보며 어휘를 익혀보세요.
 
-![Futuro](../images/ch15_a1_vocab_technology_future_v2_1.png)
+![Futuro — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch15_a1_vocab_technology_future_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -144,7 +144,7 @@
 
 스페인은 환경을 지키기 위해 어떤 노력을 하고 있을까요?
 
-![Green Future](../images/ch15_a1_culture_future_v2_1.png)
+![스페인의 친환경적이고 지속 가능한 미래 도시의 풍경](../images/ch15_a1_culture_future_v10.png)
 
 España es pionera en el uso de **energías renovables**. Si viajas por el país, vas a ver muchos parques eólicos (풍력 발전소) y campos de energía solar. Los españoles valoran mucho su naturaleza diversa, desde las playas del Mediterráneo hasta los bosques del norte.
 
@@ -203,9 +203,9 @@ En las ciudades, el **reciclaje** es parte de la vida diaria: hay contenedores d
 
 ### Questions
 
-1. 주인공은 내년에 어디로 여행을 갈 예정인가요? (Where is the protagonist going to travel next year?)
+1. ¿A dónde va a viajar el protagonista el próximo año? (주인공은 내년에 어디로 여행을 갈 예정인가요?)
    - ............................................................
-2. 주인공의 꿈은 무엇인가요? (What is the protagonist's dream?)
+2. ¿Cuál es el sueño del protagonista? (주인공의 꿈은 무엇인가요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -260,17 +260,17 @@ En las ciudades, el **reciclaje** es parte de la vida diaria: hay contenedores d
 
 ### 6. Práctica - A. Choose the correct form of 'Ir a'
 
-1. 1. voy, 2. vamos, 3. vas, 4. van, 5. va
+1. voy, 2. vamos, 3. vas, 4. van, 5. va
 
 ### 6. Práctica - B. Arrange the words to make a sentence
 
-1. 1. Manuel va a viajar a España., 2. Nosotras vamos a limpiar la casa., 3. ¿Qué vas a hacer tú?, 4. Voy a usar la tecnología., 5. Ellos van a comer paella mañana.
+1. Manuel va a viajar a España., 2. Nosotras vamos a limpiar la casa., 3. ¿Qué vas a hacer tú?, 4. Voy a usar la tecnología., 5. Ellos van a comer paella mañana.
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Voy a leer un libro mañana., 2. Queremos cuidar la naturaleza., 3. Es muy importante cuidar el planeta., 4. ¿Qué vas a hacer el próximo año?, 5. Me gustaría tener amigos españoles.
+1. Voy a leer un libro mañana., 2. Queremos cuidar la naturaleza., 3. Es muy importante cuidar el planeta., 4. ¿Qué vas a hacer el próximo año?, 5. Me gustaría tener amigos españoles.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 마드리드 (Madrid).
-2. 1. 태양광 에너지 회사에서 일하는 것 (Trabajar en una empresa de energía solar).
+1. Madrid. (마드리드)
+2. Trabajar en una empresa de energía solar. (태양광 에너지 회사에서 일하는 것)

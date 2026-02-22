@@ -23,7 +23,7 @@
 
 우리의 아침부터 밤까지를 채우는 활동들입니다. 번호와 매칭되는 단어를 확인하며 필수 어휘들을 익혀보세요.
 
-![Rutina](../images/ch13_a1_vocab_routine_v2_1.png)
+![Rutina — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch13_a1_vocab_routine_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -130,7 +130,7 @@
 
 스페인의 하루는 어떻게 흘러갈까요?
 
-![Spanish Night Culture](../images/ch13_a1_culture_schedule_v2_1.png)
+![늦은 밤 스페인 시내의 활기찬 거리 풍경과 여유로운 사람들](../images/ch13_a1_culture_schedule_v10.png)
 
 El horario en España es único. La mayoría de los españoles empiezan el día entre las 7:30 y las 8:30. El **desayuno** es ligero, a menudo solo un café. A las 11:00 hay una pausa para el café y un pequeño bocadillo. La comida más importante es el **almuerzo** (a las 14:00), que es largo y social.
 
@@ -256,13 +256,13 @@ Después del almuerzo, algunos todavía mantienen la tradición de la **siesta**
 
 ### 6. Práctica - B. 재귀 동사 변형 연습
 
-1. 1. me levanto, 2. te duchas, 3. nos acostamos, 4. se lava, 5. se levantan
+1. me levanto, 2. te duchas, 3. nos acostamos, 4. se lava, 5. se levantan
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Me levanto a las siete de la mañana., 2. ¿A qué hora te duchas? (또는 ¿Cuándo te duchas?), 3. Cenamos en casa., 4. Mi amigo está siempre cansado., 5. Primero como, y después estudio.
+1. Me levanto a las siete de la mañana., 2. ¿A qué hora te duchas? (또는 ¿Cuándo te duchas?), 3. Cenamos en casa., 4. Mi amigo está siempre cansado., 5. Primero como, y después estudio.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 카페라테 한 잔 (Un café con leche).
-2. 1. 밤 10시 (A las diez de la noche).
+1. Un café con leche. (카페라테 한 잔)
+2. A las diez de la noche. (밤 10시)

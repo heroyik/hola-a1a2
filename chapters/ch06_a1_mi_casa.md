@@ -23,7 +23,7 @@
 
 꿈꾸던 예쁜 이층 집의 내부 구조입니다. 삽화의 번호(①~⑩)가 아래 어휘 표와 정확히 대응됩니다.
 
-![Mi Casa — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a1_vocab_house_v2_1.png)
+![Mi Casa — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch06_a1_vocab_house_v10.png)
 
 | 번호 | Spanish | English Bridge | Korean Tip |
 |:---:|:---|:---|:---|
@@ -200,7 +200,7 @@ Por otro lado, a las familias que prefieren la tranquilidad les gusta vivir en u
 
 반면, 평온함을 선호하는 가족들은 **샬레(chalet)**에 사는 것을 좋아합니다. 샬레는 대개 정원이나 수영장이 딸린 단독주택으로, 보통 도시 외곽에 위치합니다. 안달루시아와 같은 스페인 남부에서는 창문의 철제 창살과 꽃 화분으로 장식된 흰색 집들이 유명합니다.
 
-![스페인 주거 형태 — 도시의 피소와 교외의 샬레](../images/ch06_a1_culture_housing_v2_1.png)
+![스페인 주거 형태 — 도시의 피소와 교외의 샬레](../images/ch06_a1_culture_apartment_v10.png)
 
 ### Participio (과거분사) - Irregulares (Revisión)
 
@@ -357,21 +357,21 @@ Me llamo Laura y busco la casa de mis sueños. No quiero vivir en un piso ruidos
 
 ### 6. Práctica - B. Choose between 'Hay' or 'Está'
 
-1. 1. hay
-2. 1. está
-3. 1. están
-4. 1. hay
-5. 1. está
+1. hay
+2. está
+3. están
+4. hay
+5. está
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Hay un libro encima de la silla.
-2. 1. Mi casa es muy tranquila y limpia.
-3. 1. El baño está al lado de la cocina.
-4. 1. ¿Cuántas ventanas hay en el salón?
-5. 1. La televisión está delante del sofá.
+1. Hay un libro encima de la silla.
+2. Mi casa es muy tranquila y limpia.
+3. El baño está al lado de la cocina.
+4. ¿Cuántas ventanas hay en el salón?
+5. La televisión está delante del sofá.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 시끄러운 아파트가 싫기 때문입니다. (Porque no quiere vivir en un piso ruidoso.)
-2. 1. 산과 작은 강이 있습니다. (La montaña y un pequeño río.)
+1. Porque no quiere vivir en un piso ruidoso. (시끄러운 아파트가 싫기 때문입니다)
+2. La montaña y un pequeño río. (산과 작은 강이 있습니다)

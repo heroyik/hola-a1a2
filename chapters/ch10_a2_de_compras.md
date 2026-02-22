@@ -23,7 +23,7 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 
 여러분의 스타일을 더욱 화려하게 만들어줄 색상과 쇼핑 필수 요소들입니다. 이미지 속 부티크의 풍경과 함께 어휘를 익혀보세요.
 
-![Boutique y Colores](../images/ch10_a2_vocab_price_color_v2_1.png)
+![Boutique y Colores — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch10_a2_vocab_price_color_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -102,7 +102,7 @@ A2 단계에서의 쇼핑은 단순히 물건을 사는 행위를 넘어, 자신
 
 스페인의 현대적인 온라인 소비 문화를 알아봅시다.
 
-![Online Shopping](../images/ch10_a2_culture_online_v2_1.png)
+![스페인의 세련된 온라인 쇼핑과 빠른 배송 물류 환경](../images/ch10_a2_culture_online_v10.png)
 
 España se ha adaptado rápidamente a la era digital. Aunque ir de compras por los centros comerciales como **El Corte Inglés** sigue siendo una tradición familiar, el **comercio electrónico** o e-commerce ha crecido exponencialmente en los últimos años. Gigantes internacionales y plataformas locales son muy populares entre los jóvenes (la generación Z y los millennials).
 
@@ -166,9 +166,9 @@ Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda onli
 
 ### Questions
 
-1. 주인공이 주문한 자켓에 어떤 문제가 있었나요? (What was the problem with the jacket?)
+1. ¿Qué problema tenía la chaqueta que pidió el protagonista? (주인공이 주문한 자켓에 어떤 문제가 있었나요?)
    - ............................................................
-2. 반품/교환 프로세스가 어떠했나요? (How was the return/exchange process?)
+2. ¿Cómo fue el proceso de devolución o cambio? (반품/교환 프로세스가 어떠했나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -228,13 +228,13 @@ Hace dos semanas, compré una chaqueta de ante (스웨이드) en una tienda onli
 
 ### 6. Práctica - B. 형용사 변형 및 최상급
 
-1. 1. buenísimo, 2. más grande, 3. más interesante, 4. caros, 5. muy
+1. buenísimo, 2. más grande, 3. más interesante, 4. caros, 5. muy
 
 ### 6. Práctica - C. 번역 연습
 
-1. 1. Esta camisa es más bonita que esa., 2. ¿Cuál es el bolso (또는 el bolso de mano) más barato?, 3. Mi pedido todavía no ha llegado., 4. ¿Cuánto cuestan los gastos de envío?, 5. Quiero cambiar esto por otro color.
+1. Esta camisa es más bonita que esa., 2. ¿Cuál es el bolso (또는 el bolso de mano) más barato?, 3. Mi pedido todavía no ha llegado., 4. ¿Cuánto cuestan los gastos de envío?, 5. Quiero cambiar esto por otro color.
 
 ### 7. Lectura - Preguntas
 
-1. 1. 사이즈가 너무 작았음 (La talla era demasiado pequeña).
-2. 1. 매우 쉽고 효율적이었음 (Facilísimo y eficiente).
+1. La talla era demasiado pequeña. (사이즈가 너무 작았음)
+2. Facilísimo y eficiente. (매우 쉽고 효율적이었음)

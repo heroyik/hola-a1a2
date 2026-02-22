@@ -23,7 +23,7 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 우리가 함께 고민하고 해결해야 할 사회적 과제들입니다. 협력과 전진의 이미지를 보며 어휘를 익혀보세요.
 
-![Sociedad](../images/ch15_a2_vocab_society_v2_1.png)
+![Sociedad — 번호 ①~⑩ 라벨 매핑 (Modern Anime Style)](../images/ch15_a2_vocab_society_v10.png)
 
 <table style="width: 100%; border-collapse: collapse; border: 1px solid #ddd; text-align: center;">
   <thead style="background-color: #f2f2f2;">
@@ -212,7 +212,7 @@ A2 단계의 마지막인 이번 장에서는 단순히 개인적인 계획을 �
 
 스페인 청년들은 오늘날의 사회 문제에 어떻게 대응하고 있을까요?
 
-![Social Action](../images/ch15_a2_culture_engagement_v2_1.png)
+![스페인 청년들의 사회적 연대와 평화로운 봉사 활동 현장](../images/ch15_a2_culture_engagement_v10.png)
 
 España es un país con una fuerte cultura de **solidaridad**. Según las estadísticas, muchos jóvenes participan en programas de **voluntariado**, tanto en España como en el extranjero. Les interesan temas como la protección de los océanos, la integración de inmigrantes y la reducción de la desigualdad social.
 
@@ -277,9 +277,9 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 
 ### Questions
 
-1. 주인공은 미래의 자신이 어떤 세상에서 살기를 바라나요? (In what kind of world does the protagonist hope his future self lives?)
+1. ¿En qué tipo de mundo espera vivir el protagonista en el futuro? (주인공은 미래의 자신이 어떤 세상에서 살기를 바라나요?)
    - ............................................................
-2. 주인공은 미래의 자신이 무엇을 위해 싸울 것이라고 믿나요? (What does the protagonist believe his future self will fight for?)
+2. ¿Por qué cree el protagonista que luchará su yo del futuro? (주인공은 미래의 자신이 무엇을 위해 싸울 것이라고 믿나요?)
    - ............................................................
 
 **[한국어 번역]**
@@ -370,5 +370,5 @@ Te escribo desde el año 2025. Hoy he terminado mi curso de español A2. Estoy m
 
 ### 7. Lectura - Preguntas
 
-1. 더 많은 연대가 있고 가난이 적은 세상 (Un mundo con más solidaridad y menos pobreza).
-2. 인권과 환경 보호 (Los derechos humanos y la protección del medio ambiente).
+1. Un mundo con más solidaridad y menos pobreza. (더 많은 연대가 있고 가난이 적은 세상)
+2. Los derechos humanos y la protección del medio ambiente. (인권과 환경 보호)
