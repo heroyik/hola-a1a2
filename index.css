@@ -229,6 +229,16 @@ footer p {
     opacity: 1;
 }
 
+.brand-link {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition-smooth);
+}
+
+.brand-link:hover {
+    color: var(--spanish-red);
+}
+
 .footer-logo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
