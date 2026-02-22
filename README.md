@@ -1,4 +1,4 @@
-# Hola-AL 📖🇪🇸
+# HOLA ESPAÑOL A1/A2 📖🇪🇸
 
 > **Advanced English speakers를 위한 모듈형 A1/A2 스페인어 교재**
 
