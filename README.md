@@ -24,18 +24,26 @@
 - **Zero Defect Loop**: 11개 필수 섹션 준수, 전 인칭 동사 테이블, ABC 5문항 연습문제 등 엄격한 정규화 프로세스를 거칩니다.
 - **Modern Anime Style**: **Vertex AI Imagen 3**를 사용하여 실제 어휘와 100% 매핑되는 감각적인 일본 애니메이션 스타일 일러스트를 제공합니다.
 
-## 프로젝트 구조
+## 📂 프로젝트 구조
 
 ```text
 book/
 ├── chapters/          # 챕터별 Markdown 원고 (A1/A2)
+├── strategy/          # 핵심 제작 전략 (Writing Plan, Design Spec, AI Prompt 등)
 ├── scripts/           # 전용 도구 (PDF/HTML 생성, 이미지 처리 등)
 ├── output/            # 최종 생성된 PDF/HTML 결과물
 ├── images/            # 생성된 고해상도 AI 일러스트
-├── cer_toc.json       # Instituto Cervantes A1/A2 커리큘럼 데이터
-├── vol12toc.json      # 기존 교재 문법/어휘 매핑 데이터
 └── ...
 ```
+
+## 🧠 Strategic Core
+
+본 프로젝트의 모든 핵심 설계도와 제작 가이드는 [`strategy/`](strategy/) 폴더에 집약되어 있습니다. 단순한 교재 제작을 넘어, 인공지능을 활용한 고품질 콘텐츠 생성의 모든 노하우가 담겨 있습니다.
+
+- **Writing Plans (v1.0 ~ v2.1)**: 원고 집필의 정규화된 가이드라인과 변천사
+- **Design & Image Specs**: Modern Anime 스타일 구현을 위한 시각적 전략
+- **Nanobanana Strategy**: 이미지와 어휘의 1:1 매핑을 위한 AI 프롬프트 체계
+- **Requirement Specs**: 프로젝트의 구조적 완성도를 보장하는 기술 명세서
 
 ## 교재 특징
 
