@@ -129,14 +129,29 @@ h1, h2, h3 {
 }
 
 .card h2 {
-    color: var(--spanish-red);
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    border-bottom: 3px solid var(--spanish-gold);
-    display: inline-block;
-    padding-bottom: 10px;
-    margin-left: auto;
-    margin-right: auto;
+    display: none; /* Hide old text header */
+}
+
+.book-container {
+    perspective: 1000px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.book-cover {
+    width: 200px;
+    height: auto;
+    border-radius: 4px 12px 12px 4px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.2);
+    transition: var(--transition-smooth);
+    transform: rotateY(-15deg);
+    cursor: pointer;
+}
+
+.card:hover .book-cover {
+    transform: rotateY(0deg) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
 
 .card p {
