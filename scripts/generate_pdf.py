@@ -403,13 +403,21 @@ import argparse
 def main():
     parser = argparse.ArgumentParser(description="Hola-AL PDF Generator")
     parser.add_argument("input", help="Path to the input Markdown file")
-    parser.add_argument("output_pdf", help="Path to the output PDF file")
+    parser.add_argument("output_pdf", nargs='?', help="Path to the output PDF file (optional, defaults to output/ dir)", default=None)
     parser.add_argument("--output-html", help="Path to the output HTML file (optional)")
     parser.add_argument("--title", help="Header title for the PDF", default="Hola-AL")
     args = parser.parse_args()
 
     input_md = os.path.abspath(args.input)
-    output_pdf = os.path.abspath(args.output_pdf)
+    
+    if args.output_pdf:
+        output_pdf = os.path.abspath(args.output_pdf)
+    else:
+        # Auto-generate output path in the 'output' directory
+        basename = os.path.basename(input_md)
+        name_without_ext = os.path.splitext(basename)[0]
+        output_pdf = os.path.join(os.path.dirname(os.path.dirname(input_md)), "output", f"{name_without_ext}.pdf")
+
     output_html = os.path.abspath(args.output_html) if args.output_html else output_pdf.replace(".pdf", ".html")
 
     # Update CSS dynamically for the specific chapter title if needed
