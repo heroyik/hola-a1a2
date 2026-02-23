@@ -1,3 +1,0 @@
-[31;1moutput/verification_report.md:65 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| REQ-4.1.4 | ✅ | Image '../im..."][0m
-[31;1moutput/verification_report.md:122 error MD058/blanks-around-tables Tables should be surrounded by blank lines [Context: "| REQ-4.1.4 | ✅ | Image '../im..."][0m
-[31;1moutput/verification_report.md:1869 error MD012/no-multiple-blanks Multiple consecutive blank lines [Expected: 1; Actual: 2][0m
