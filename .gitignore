@@ -33,3 +33,17 @@ output/
 .vscode/
 .idea/
 *.swp
+
+# AI Agents & Helpers
+.gemini/
+_agent/
+_agents/
+.agents/
+.agent/
+
+# Logs and Verify outputs
+lint_output.txt
+linter_errors.txt
+markdownlint_output.txt
+verify_*.txt
+*.log
