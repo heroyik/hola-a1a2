@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>01_grammar_analysis_a2.md</title>
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Inter:wght@300;400;500;600&family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+:root {
+    --spanish-red: #A93226;
+    --spanish-red-light: #FDEDEC;
+    --spanish-ochre: #D4AC0D;
+    --spanish-ochre-light: #FEF9E7;
+    --spanish-olive: #1D8348;
+    --slate-grey: #2C3E50;
+    --bg-warm: #FCF9F2;
+    --bg-white: #FFFFFF;
+    --text-main: #34495E;
+    --text-light: #7F8C8D;
+    --border-color: #E5E7E9;
+    --shadow-soft: 0 4px 6px rgba(0,0,0,0.02);
+    --shadow-premium: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+body {
+    font-family: 'Inter', 'Noto Sans KR', sans-serif;
+    font-size: 10.5pt;
+    line-height: 1.8;
+    color: var(--text-main);
+    background-color: var(--bg-warm);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40pt auto;
+    padding: 50pt 70pt;
+    background-color: var(--bg-white);
+    border-radius: 15pt;
+    box-shadow: var(--shadow-premium);
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 34pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 20pt 0 15pt 0;
+    padding-bottom: 25pt;
+    border-bottom: 5pt solid var(--spanish-ochre);
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 19pt;
+    font-weight: 700;
+    color: var(--spanish-red);
+    margin: 40pt 0 15pt 0;
+    padding-bottom: 8pt;
+    border-bottom: 2px solid var(--border-color);
+}
+
+h2::before {
+    content: " ";
+    display: inline-block;
+    width: 12pt;
+    height: 12pt;
+    background-color: var(--spanish-ochre);
+    margin-right: 12pt;
+    border-radius: 2pt;
+}
+
+blockquote {
+    background: var(--bg-white);
+    border-left: 5pt solid var(--spanish-red);
+    padding: 15pt 20pt;
+    margin: 20pt 0;
+    border-radius: 10pt;
+    box-shadow: var(--shadow-soft);
+}
+
+.admonition-tip { background: #EBF5FB; border-left: 6pt solid #3498DB; padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-important { background: var(--spanish-ochre-light); border-left: 6pt solid var(--spanish-ochre); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+.admonition-warning { background: var(--spanish-red-light); border-left: 6pt solid var(--spanish-red); padding: 15pt 20pt; margin: 20pt 0; border-radius: 10pt; }
+
+table { width: 100%; border-collapse: separate; border-spacing: 0; margin: 20pt 0; border: 1px solid var(--border-color); border-radius: 10pt; overflow: hidden; background: white; box-shadow: var(--shadow-soft); }
+thead { background: linear-gradient(135deg, var(--spanish-red) 0%, #8E281F 100%); color: white; }
+th { padding: 12pt 15pt; text-align: left; font-family: 'Montserrat', sans-serif; font-size: 8.5pt; text-transform: uppercase; }
+td { padding: 10pt 15pt; border-bottom: 1px solid var(--border-color); }
+tr:nth-child(even) { background-color: var(--bg-warm); }
+tr:last-child td { border-bottom: none; }
+strong { font-weight: bold; color: var(--spanish-red); }
+</style>
+</head>
+<body>
+    <div class="container"><h1>스페인어 A2 시제 및 명령형 관련 핵심 문법 분석</h1>
+<p>각 챕터별로 다루고 있는 시제, 명령형 및 주요 문법/표현을 정리한 리스트입니다. 시제와 명령형과 관련된 핵심 문법은 🔴 아이콘과 함께 강조 표시했습니다.</p>
+<h2>📘 Nivel A2</h2>
+<h3>Chapter 1: Mi Cuerpo (A2)</h3>
+<ul>
+<li>🔹 A. 기본 구조</li>
+<li>🔹 B. 단수/복수 일치 (Conjugación)</li>
+<li>🔹 C. 주의사항</li>
+</ul>
+<h3>Chapter 2: Como Soy (A2)</h3>
+<ul>
+<li>🔹 1. 동사 결합에 따른 의미 변화 (Ser vs. Estar + Adjective)</li>
+<li>🔹 2. 재귀동사 (Verbos Reflexivos): 기분의 변화</li>
+<li>🔴 <strong>A. Verbos Regulares (규칙 동사) - 불완전 과거 (Imperfecto)</strong></li>
+<li>🔴 <strong>B. Verbos Irregulares (불규칙 동사)</strong></li>
+<li>🔴 <strong>2. 과거 분사 (Participio) - 현재 완료 등을 만들 때 쓰이는 불규칙 9선</strong></li>
+</ul>
+<h3>Chapter 3: Mi Identidad (A2)</h3>
+<ul>
+<li>🔹 1. Ser 동사와 출신(Origen)의 심화 표현</li>
+<li>🔴 <strong>2. 과거의 정체성 표현: Ser 동사 불완료 과거 (Imperfecto)</strong></li>
+<li>🔴 <strong>3. 현재 시제 (Presente) 필수 불규칙 동사</strong></li>
+<li>🔴 <strong>4. 과거 분사 (Participio) 필수 불규칙</strong></li>
+</ul>
+<h3>Chapter 4: Familia Amigos (A2)</h3>
+<ul>
+<li>🔹 A. 소유형용사 후치형 (Stressed Possessive Adjectives)</li>
+<li>🔹 B. 상호 재귀동사 (Reciprocal Reflexive Verbs)</li>
+</ul>
+<h3>Chapter 5: A Comer (A2)</h3>
+<ul>
+<li>🔹 A. Gustar형 동사 (Verbs like &quot;Gustar&quot;)</li>
+<li>🔹 B. 부정어의 사용 (La Negación)</li>
+</ul>
+<h3>Chapter 6: Mi Casa (A2)</h3>
+<ul>
+<li>🔹 A. 관계대명사 'Donde' (Where)</li>
+<li>🔹 B. 가사 관련 핵심 동사 구문</li>
+</ul>
+<h3>Chapter 7: En La Escuela (A2)</h3>
+<ul>
+<li>🔴 <strong>A. 현재진행형 (Presente Continuo: Estar + Gerundio)</strong></li>
+<li>🔹 💡 English Bridge: &quot;be + -ing&quot;</li>
+<li>🔹 💡 Korean Tip</li>
+<li>🔹 B. 비교급과 최상급 (Comparativos y Superlativos)</li>
+</ul>
+<h3>Chapter 8: El Trabajo (A2)</h3>
+<ul>
+<li>🔴 <strong>1. Verbos Regulares (규칙 동사)</strong></li>
+<li>🔴 <strong>2. Verbos Irregulares (불규칙 동사)</strong></li>
+<li>🔹 C. Verbos Regulares (Revisión)</li>
+<li>🔴 <strong>D. Participio (과거분사) - Irregulares</strong></li>
+<li>🔴 <strong>D. Futuro (미래) - 불규칙 동사 (경력 계획)</strong></li>
+<li>🔴 <strong>Mandatory Irregulars (Futuro)</strong></li>
+<li>🔴 <strong>C. 시제 활용 팁</strong></li>
+<li>🔹 Korean Tip</li>
+</ul>
+<h3>Chapter 9: Ocio Y Arte (A2)</h3>
+<ul>
+<li>🔴 <strong>A. 단순 미래 (Futuro Simple)</strong></li>
+<li>🔴 <strong>B. Si + 현재, 미래 (현실적 가정)</strong></li>
+</ul>
+<h3>Chapter 10: De Compras (A2)</h3>
+<ul>
+<li>🔹 A. 비교급 (Comparativos)</li>
+<li>🔹 B. 최상급 (Superlativos)</li>
+</ul>
+<h3>Chapter 11: Medios Y Tecnologia (A2)</h3>
+<ul>
+<li>🔹 A. 빈도 부사의 위치</li>
+<li>🔹 B. 목적대명사의 결합 (Review)</li>
+</ul>
+<h3>Chapter 12: Viajes Y Lugares (A2)</h3>
+<ul>
+<li>🔴 <strong>완료 과거 (Pretérito Perfecto)</strong></li>
+</ul>
+<h3>Chapter 13: Rutina Y Salud (A2)</h3>
+<ul>
+<li>🔹 Doler (아프다) - 역구조 동사</li>
+<li>🔹 Important</li>
+</ul>
+<h3>Chapter 14: Cultura Y Celebraciones (A2)</h3>
+<ul>
+<li>🔹 A. Saber (알다) - 1인칭 불규칙</li>
+<li>🔹 B. Saber vs Conocer 가이드</li>
+<li>🔹 C. Repaso: Verbos Irregulares (Mandatory)</li>
+</ul>
+<h3>Chapter 15: Mi Futuro Y El Mundo (A2)</h3>
+<ul>
+<li>🔴 <strong>Futuro Simple (단순 미래) - 규칙형</strong></li>
+<li>🔹 <strong>Important!</strong> 1인칭 복수(<code>-emos</code>)를 제외한 모든 어미에 강세(Acento)가 있다는 점을 꼭 기억하세요!</li>
+<li>🔴 <strong>C. El Imperativo (명령형)</strong></li>
+<li>🔴 <strong>C. Futuro Simple - Irregulares (불규칙형)</strong></li>
+<li>🔹 C. Verbos Regulares (Revisión)</li>
+<li>🔴 <strong>D. Pluscuamperfecto (과거완료)</strong></li>
+</ul>
+</div>
+</body>
+</html>
